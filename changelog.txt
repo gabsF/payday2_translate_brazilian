@@ -1,0 +1,5 @@
+Notas de Mudanças em 1.9.3
+* Traduzido Green Bridge (feito pelo $Lucas$...)
+* Traduzido The Bomb: Dockyard (feito pelo DarK)
+* Corrigido uma tradução de um objetivo em The Diamond
+* Traduzido mais partes do menu e do inventário

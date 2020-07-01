@@ -1,0 +1,216 @@
+{
+	"menu_id" : "bai_menu",
+	"title" : "bai_mod_title",
+    "description" : "bai_mod_desc",
+    "created_menu_callback" : "BAIMenuCreatedCallback",
+	"items" : [
+        {
+			"type": "multiple_choice",
+			"id": "bai_language_choice",
+			"title": "bai_language",
+			"description": "bai_language_desc",
+			"items": [
+				"bai_language_1",
+				"bai_language_2",
+				"bai_language_3",
+				"bai_language_4",
+                "bai_language_5",
+                "bai_language_6",
+                "bai_language_7",
+                "bai_language_8",
+                "bai_language_9",
+                "bai_language_10",
+                "bai_language_11",
+                "bai_language_12"
+			],
+			"callback" : "callback_bai_mod_language",
+			"value": "mod_language",
+			"default_value": 1
+		},
+		{
+			"type": "multiple_choice",
+			"id": "bai_compatibility_choice",
+			"title": "bai_compatibility",
+			"description": "bai_compatibility_desc",
+			"items": [
+				"bai_compatibility_1",
+				"bai_compatibility_2",
+				"bai_compatibility_3",
+				"bai_compatibility_4",
+                "bai_compatibility_5",
+                "bai_compatibility_6",
+                "bai_compatibility_7",
+                "bai_compatibility_8",
+                "bai_compatibility_9",
+                "bai_compatibility_10",
+                "bai_compatibility_11",
+                "bai_compatibility_12"
+			],
+			"callback" : "callback_bai_compatibility",
+			"value": "hud_compatibility",
+			"default_value": 1
+        },
+		{
+			"type" : "toggle",
+			"id" : "bai_show_wave_survived_choice",
+			"title" : "bai_show_wave_survived",
+            "description" : "bai_show_wave_survived_desc",
+			"callback" : "callback_bai_show_wave_survived",
+			"value" : "show_wave_survived",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "bai_completely_hide_hostage_panel_choice",
+			"title" : "bai_completely_hide_hostage_panel",
+			"description" : "bai_completely_hide_hostage_panel_desc",
+			"callback" : "callback_bai_completely_hide_hostage_panel",
+			"value" : "completely_hide_hostage_panel",
+			"default_value" : false
+		},
+		{
+			"type": "toggle",
+			"id": "bai_show_difficulty_name_instead_of_skulls_choice",
+			"title": "bai_show_difficulty_name_instead_of_skulls",
+            "description": "bai_show_difficulty_name_instead_of_skulls_desc",
+            "focus_changed_callback" : "fcc_bai_show_difficulty_name_instead_of_skulls",
+			"callback": "callback_bai_show_difficulty_name_instead_of_skulls",
+			"value": "show_difficulty_name_instead_of_skulls",
+			"default_value": false
+		},
+		{
+			"type": "toggle",
+			"id": "bai_show_assault_states_choice",
+			"title": "bai_show_assault_states",
+			"description": "bai_show_assault_states_desc",
+			"callback": ["callback_bai_show_assault_states", "callback_HideAssaultTextEnabled"],
+            "value": "show_assault_states",
+            "is_parent" : true,
+			"default_value": false
+        },
+        {
+			"type": "toggle",
+			"id": "bai_hide_assault_text_choice",
+			"title": "bai_hide_assault_text",
+			"description": "bai_hide_assault_text_desc",
+			"callback": "callback_bai_hide_assault_text",
+            "value": "hide_assault_text",
+			"default_value": false
+        },
+        {
+			"type": "toggle",
+			"id": "bai_show_advanced_assault_info_choice",
+			"title": "bai_show_advanced_assault_info",
+			"description": "bai_show_advanced_assault_info_desc",
+			"callback": ["callback_bai_show_advanced_assault_info", "callback_HideAssaultTextEnabled"],
+            "value": "show_advanced_assault_info",
+            "disabled_on_hud" : "mui",
+            "is_parent" : true,
+			"default_value": false
+		},
+        {
+            "type": "toggle",
+            "id": "bai_faction_assault_text_choice",
+            "title": "bai_faction_assault_text",
+            "description": "bai_faction_assault_text_desc",
+            "callback": "callback_bai_faction_assault_text",
+            "value": "faction_assault_text",
+            "default_value": false
+        },
+		{
+			"type" : "divider",
+			"size" : 32
+        },
+        {
+            "type" : "button",
+            "id" : "assault_box",
+            "title" : "bai_assault_box",
+            "description" : "bai_assault_box_desc",
+            "next_menu" : "bai_assault_box_menu"
+        },
+        {
+            "type" : "button",
+            "id" : "captain_box",
+            "title" : "bai_captain_box",
+            "description" : "bai_captain_box_desc",
+            "next_menu" : "bai_captain_box_menu"
+        },
+        {
+            "type" : "button",
+            "id" : "endless_box",
+            "title" : "bai_endless_box",
+            "description" : "bai_endless_box_desc",
+            "next_menu" : "bai_endless_box_menu"
+        },
+        {
+            "type" : "button",
+            "id" : "survived_box",
+            "title" : "bai_survived_box",
+            "description" : "bai_survived_box_desc",
+            "next_menu" : "bai_survived_box_menu"
+        },
+        {
+            "type" : "button",
+            "id" : "escape_box",
+            "title" : "bai_escape_box",
+            "description" : "bai_escape_box_desc",
+            "next_menu" : "bai_escape_box_menu"
+        },
+        {
+            "type" : "button",
+            "id" : "assault_states",
+            "title" : "bai_assault_states",
+            "description" : "bai_assault_states_desc",
+            "next_menu" : "bai_assault_states_menu",
+            "parent" : "bai_show_assault_states_choice"
+        },
+        {
+            "type" : "button",
+            "id" : "advanced_assault_info",
+            "title" : "bai_advanced_assault_info",
+            "description" : "bai_advanced_assault_info_desc",
+            "next_menu" : "bai_advanced_assault_info_menu",
+            "parent" : "bai_show_advanced_assault_info_choice",
+            "disabled_on_hud" : "mui"
+        },
+        {
+            "type" : "button",
+            "id" : "animations",
+            "title" : "bai_animations",
+            "description" : "bai_animations_desc",
+            "next_menu" : "bai_animations_menu"
+        },
+        {
+			"type" : "divider",
+			"size" : 32
+        },
+        {
+            "type" : "button",
+            "id" : "holoui",
+            "title" : "bai_compatibility_5",
+            "description" : "bai_holoui_desc",
+            "next_menu" : "bai_holoui_menu"
+        },
+        {
+            "type" : "button",
+            "id" : "pdth_hud_reborn",
+            "title" : "bai_compatibility_7",
+            "description" : "bai_pdth_hud_reborn_desc",
+            "next_menu" : "bai_pdth_hud_reborn_menu"
+        },
+        {
+            "type" : "button",
+            "id" : "restoration_mod",
+            "title" : "bai_compatibility_8",
+            "description" : "bai_restoration_mod_desc",
+            "next_menu" : "bai_restoration_mod_menu"
+        },
+        {
+            "type" : "button",
+            "id" : "halo_reach_hud",
+            "title" : "bai_compatibility_11",
+            "description" : "bai_halo_reach_hud_desc",
+            "next_menu" : "bai_halo_reach_hud_menu"
+        }
+	]
+}
