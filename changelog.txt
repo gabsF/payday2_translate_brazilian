@@ -1,3 +1,3 @@
 Notas de Mudanças em 2.0_BETA
 *	Mudado o método de atualizar a tradução de BeardLib para BLT com Github
-	Isso ainda tá em testes, isso pode mudar nas próximas atualizações, basicamente, esse método vai baixar automaticamente a atualização mais recente da tradução, como disse antes, isso ainda tá em testes
+	Isso ainda tá em testes, isso pode mudar nas próximas atualizações, basicamente, esse método vai baixar automaticamente a atualização mais recente da tradução, como disse antes, isso ainda tá em testes_-_
