@@ -1,2 +1,2 @@
-# payday2_translate_brazilian
-idk
+# Localization Brazilian Portuguese
+uhhhh, tradução, eu acho
