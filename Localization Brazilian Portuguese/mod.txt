@@ -1,0 +1,136 @@
+{
+	"name" : "PAYDAY 2 BRAZILIAN PORTUGUESE",
+	"description" : "Esse mod traduz várias coisas do PAYDAY 2.\n[ Clássicos ]\nGreen Bridge\nFirst World Bank\nPanic Room\nCounterfeit\nSlaughterhouse\nHeat Street\nUndercover\nNo Mercy\n\n[ The Butcher (A Açougueira) ]\\nThe Bomb: Dockyard\nScarface Mansion\n\n[ Bain ]\nOs Tutoriais\nCook Off\nBank Heist\nReservoir Dogs\n\n[ The Dentist (O Dentista) ]\nThe Diamond\nGolden Grin Casino\nHoxton Breakout\nHoxton Revenge\n\n[ Locke ]\nAlaskan Deal\nHell's Island\nHenry's Rock\nShacklethorne Auction\nThe White House\n\n[ Modos de Jogo ]\nCrime Spree\nHoldout\n\n[ Menus ]\nÁrvore de Infamy\nSkills\nPerk Decks\nMain Menu\nSafe House\n\nE provavelmente mais traduções vindo...\n ",
+	"author" : '\n[ Gerenciador das Traduções ]\nGabriel Fernando Machado Benicio, conhecido como "gabsF"\n\n[ Tradutores ]\nBruno\nneour\nRockZero\n$Lucas$\nlulajr\nDarK\n\n[ Agradecimentos Especiais ]\nCENSOR_1337\nKisuke\n ',
+	"image" : "icon.png",
+	"color" : "0 255 17",
+	"contact" : "https://steamcommunity.com/id/_gab_foxJaketto_/",
+	"version" : "2.0_BETA",
+	"blt_version" : 2,
+	"updates" : [
+		{
+			"identifier" : "payday2_translate_brazilian_gabrielfmb",
+			"host" : {
+				"meta" : "https://github.com/gabsF/payday2_translate_brazilian/releases/download/refs%2Fheads%2Fmaster/meta.json",
+			}
+		}
+	]
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "beardlibforcebrazilian.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/modifiers.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/crimespree.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/dentist/thediamond.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/dentist/goldengrincassino.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/butcher/littlefriend.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/butcher/thebomb_dockyard.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/bain/the_tutorials_heists.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/classics/greenbridge_classic.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/classics/heatstreet_classic.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/classics/slaughterhouse_classic.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/classics/counterfeit_classic.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/classics/panicroom_classic.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/classics/fwb_classic.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/bain/bankheist_allvar.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/classics/undercover_classic.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/perkdecks.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/dentist/hoxton123.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/bain/reservoirdogs.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/others.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/locke/acasabranca.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/skills.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/locke/hellisland.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/holdout.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/bain/pesadelonacozinha.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/locke/alaskandeal.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/locke/shacklethorne.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/classics/nomercy.lua"
+		},
+		{
+			"hook_id" : "lib/managers/localizationmanager",
+			"script_path" : "lua/locke/henrycock.lua"
+		}
+	]
+}
