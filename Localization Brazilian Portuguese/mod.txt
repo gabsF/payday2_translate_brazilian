@@ -5,13 +5,13 @@
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/_gab_foxJaketto_/",
-	"version" : "2.0",
+	"version" : "2.01",
 	"blt_version" : 2,
 	"updates" : [
 		{
 			"identifier" : "payday2_translate_brazilian_gabrielfmb",
 			"host" : {
-				"meta" : "https://github.com/gabsF/payday2_translate_brazilian/releases/download/refs%2Fheads%2Fmaster/meta.json",
+				"meta" : "https://github.com/gabsF/payday2_translate_brazilian/releases/download/pd2translationbrazilian/meta.json",
 			}
 		}
 	]

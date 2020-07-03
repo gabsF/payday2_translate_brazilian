@@ -50,7 +50,7 @@ Hooks:Add("LocalizationManagerPostInit", "plsbuffgrinder", function(loc)
 	menu_deck2_1 = "Força Bruta",
 	menu_deck2_1_desc = "Você ganha ##10%## mais de vida.",
 	menu_deck2_3 = "Chamativo",
-	menu_deck2_3_desc = "Você vai ser mais ##15%## o alvo perfeito para os poíciais quando você estiver perto do seus companheiros.\n\nVocê ganha ##10%## mais de vida.",
+	menu_deck2_3_desc = "Você é ##15%## mais chamativo para os poíciais quando você estiver perto do seus companheiros.\n\nVocê ganha ##10%## mais de vida.",
 	menu_deck2_5 = "Força Gigantesca",
 	menu_deck2_5_desc = "Você ganha um adicional de ##20%## mais de vida.",
 	menu_deck2_7 = "Paz não é o meu forte",
