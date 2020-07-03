@@ -15,7 +15,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
     - name: Archive Mod
       run: |
-         .\.github\7za.exe -tzip a ".\payday2_translate_brazilian_gabrielfmb.zip" ".\Localization Brazilian Portuguese"
+         .\.github\7za.exe -tzip a ".\payday2_traducao_pt-br.zip" ".\Localization Brazilian Portuguese"
       shell: powershell
     - name: Create New Release
       id: create_release
@@ -23,8 +23,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
+        tag_name: pd2translationbrazilian
+        release_name: Release pd2translationbrazilian
         draft: false
         prerelease: false
         body: |
@@ -36,8 +36,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-        asset_path: ./payday2_translate_brazilian_gabrielfmb.zip
-        asset_name: payday2_translate_brazilian_gabrielfmb.zip
+        asset_path: ./payday2_traducao_pt-br.zip
+        asset_name: payday2_traducao_pt-br.zip
         asset_content_type: application/zip
     - name: Hash mod and create mod meta file
       id: create_meta_file
