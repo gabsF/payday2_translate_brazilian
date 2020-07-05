@@ -1,3 +1,4 @@
-Notas de Mudanças em 2.01
-* Melhorado algumas descrições dos Perk Decks e das Skills
-- Removido as traduções dos nomes das Skills
+Notas de Mudanças em 2.02
++ Traduzido mais "pop-up"
++ Traduzido mais textos na tela de "Stats"
+* Consertado uns erros de traduções nos Perk Decks

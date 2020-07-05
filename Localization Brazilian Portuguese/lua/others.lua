@@ -435,7 +435,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_limit_normal = "Médio",
 	menu_limit_increased = "Aumentado",
 	menu_limit_high = "Alto",
-	menu_limit_very_high = "Muito Alta",
+	menu_limit_very_high = "Muito Alto",
 	menu_limit_ultra = "Ultra",
 	menu_limit_unlimited = "Ilimitado",
 	menu_corpse_limit_help = "Ajuste o máximo número de corpos que podem ser mostrados.\nAumentado o limite pode diminuir a performance.",
@@ -468,6 +468,11 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_max_streaming_chunk_help = "Máxima quantidade de dados por operação de leitura o jogo vai acessar sincronizamente do HDD.",
 	
 	-- HUD
+	hud_stats_no_tracked = "NENHUMA CONQUISTA SENDO VIGIADA",
+	hud_stats_tracked = "CONQUISTAS VIGIADAS",
+	hud_trophy_popup = "TROFÉU DESBLOQUEADO!",
+	hud_achievement_milestone_popup = "Meta de conquistas alcançada",
+	hud_stats_bags_secured_value = "VALOR DAS BOLSAS ASSEGURADAS",
 	hud_challenge_popup = "TAREFA SECUNDÁRIA CONCLUÍDA!",
 	hud_achieved_popup = "CONQUISTA ALCANÇADA!",
 	debug_chat_say = "Conversa:",

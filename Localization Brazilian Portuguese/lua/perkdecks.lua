@@ -9,7 +9,7 @@ Hooks:Add("LocalizationManagerPostInit", "plsbuffgrinder", function(loc)
 	menu_deckall_6_desc = "Desbloqueia um equipamento ##Armor Bag## para você usar. A ##Armor Bag## pode ser usada para mudar o seu colete durante o roubo.\n\nAumenta a sua munição de pegar no chão para ##135%## do ritmo normal.",
 	menu_deckall_8 = "Rápido e Furioso",
 	menu_deckall_8_desc = "Você faz ##5%## mais de dano. Isso não aplica para o dano das armas corpo-a-corpo, granadas, lança-granadas ou lança-foguetes.\n\nAumenta a velocidade de interação com a ##Doctor Bag## por ##20%##.",
-	menu_st_available_spec_points = "$points pontos de Perk disponíveis",
+	menu_st_available_spec_points = "$points pontos de Cartas disponíveis",
 	menu_st_active_spec = "Equipado: $specialization",
 	menu_st_activate_spec = "Equipar o Baralho",
 	
@@ -313,8 +313,8 @@ Hooks:Add("LocalizationManagerPostInit", "plsbuffgrinder", function(loc)
 	-- Hacker
 	--menu_st_spec_21 = "Hacker",
 	menu_st_spec_21_desc = "Usando o seu equipamento e a sua mente brilhante, você pode ferrar qualquer sistema de segurança com um simples de apertar um botão. Você nunca foi pego no flaga por uma câmera de segurança ou por um guarda, mas se as coisas irem por água a baixo, você pode facilmente fazer uma força bruta e passar pelo os guardas e dá um final não muito feliz para alguém que estiver ouvindo.",
-	menu_deck20_1 = "Bug de Código",
-	menu_deck20_1_desc = "Desbloqueia e equipa o ##Dispositivo ECM de Bolso##.\n\nMudando para outro Baralho vai fazer o Dispositivo ECM de Bolso bloqueado de novo. O Dispositivo ECM de Bolso substitui a sua granada, pode ser trocado caso queira. Enquanto estiver jogando, você pode apertar a tecla da granada e ativar o Dispositivo ECM de Bolso.\n\nAtivando o Dispositivo ECM de Bolso antes do alarme soar, vai ativar o efeito de bloqueamento, desativando todos eletrônicos e pagers por ##6## segundos.\n\nAtivando o Dispositivo ECM de Bolso depois do alarme ter soado vai ativar o efeito de feedback, tendo uma chance de atordoar os inimigos no mapa todo segundo por ##6## segundos.\n\nO Dispositivo ECM de Bolso tem ##2## usos com um tempo de ##100## segundos antes de poder usar de novo, mas cada inimigo que você matar vai reduzir o tempo por ##6## segundos.",
+	menu_deck21_1 = "Bug de Código",
+	menu_deck21_1_desc = "Desbloqueia e equipa o ##Dispositivo ECM de Bolso##.\n\nMudando para outro Baralho vai fazer o Dispositivo ECM de Bolso bloqueado de novo. O Dispositivo ECM de Bolso substitui a sua granada, pode ser trocado caso queira. Enquanto estiver jogando, você pode apertar a tecla da granada e ativar o Dispositivo ECM de Bolso.\n\nAtivando o Dispositivo ECM de Bolso antes do alarme soar, vai ativar o efeito de bloqueamento, desativando todos eletrônicos e pagers por ##6## segundos.\n\nAtivando o Dispositivo ECM de Bolso depois do alarme ter soado vai ativar o efeito de feedback, tendo uma chance de atordoar os inimigos no mapa todo segundo por ##6## segundos.\n\nO Dispositivo ECM de Bolso tem ##2## usos com um tempo de ##100## segundos antes de poder usar de novo, mas cada inimigo que você matar vai reduzir o tempo por ##6## segundos.",
 	menu_deck21_3 = "Operação de Segurança",
 	menu_deck21_3_desc = "Você ganha mais ##20%## de vida.",
 	menu_deck21_5 = "Distração de Bit",
