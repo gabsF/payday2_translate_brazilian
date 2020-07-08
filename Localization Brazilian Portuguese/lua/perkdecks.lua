@@ -145,7 +145,7 @@ Hooks:Add("LocalizationManagerPostInit", "plsbuffgrinder", function(loc)
 	-- Sociopath
 	--menu_st_spec_9 = "Sociopata",
 	menu_st_spec_9_desc = "O Sociopath é conhecido em ser um criminoso mais efetivo. Onde ele é mais efetivo, também é difícil de se lidar, que é por isso o por que grandes grupos evitam ele.\n\nAtrevido, desibinido e perigoso, o Sociopath consegue fazer os serviços mais perigosos. Mal consegue sentir culpa dos crimes que ele comete, ele é um inimigo perigoso.",
-	menu_deck9_1 = "No Talk",
+	menu_deck9_1 = "No Talk", -- name fix, "overdog" is not a hotline miami level name, dumb head.
 	menu_deck9_1_desc = "Quando você estiver cercado por três inimigos ou mais, você recebe uma redução de ##12%## de dano dos inimigos.\n\nO seu segundo e cada acerto consecutivo com a sua arma corpo-a-corpo dentro de ##1## segundo do último acerto vai dá ##10## vezes do seu dano normal.",
 	--menu_deck9_3 = "Tension",
 	menu_deck9_3_desc = "Matando um inimigo regenera ##30## de colete.\n\nIsso não pode ocorrer mais de uma vez durante ##1## segundo.\n\nVocê ganha mais ##10%## de colete.",
@@ -174,7 +174,7 @@ Hooks:Add("LocalizationManagerPostInit", "plsbuffgrinder", function(loc)
 	--menu_st_spec_11 = "Triturador",
 	menu_st_spec_11_desc = "Um tipíco Grinder é quem trabalha sozinho, consegue ter o controle de situações que não teria um final feliz e matar todo mundo quem estiver ao seu redor.\n\nO Grinder se preocupa em tá na frente e punindo os seus inimigos, conseguindo sobreviver devido ao fato que ele faz dano ao os inimigos, não importa o dano que ele consiga aguentar,",
 	menu_deck11_1 = "Histamina",
-	menu_deck11_1_desc = "Fazendo dano em um inimigo cura ##1## ponto de vida por ##0.3## segundos durante ##3## segundos.\n\nEsse efeito soma mas não pode ocorrer mais de uma vez durante ##1.5## segundos e só quando tá vestindo o ##Two-piece Suit## ou ##Lightweight Balistic Vest##.",
+	menu_deck11_1_desc = "Fazendo dano em um inimigo cura ##1## ponto de vida por ##0.3## segundos durante ##3## segundos.\n\nEsse efeito soma, mas não pode ocorrer mais de uma vez durante ##1.5## segundos e só funciona quando tá vestindo o ##Two-piece Suit## ou ##Lightweight Balistic Vest##.",
 	menu_deck11_3 = "Adrenalina",
 	menu_deck11_3_desc = "Fazendo dano em um inimigo agora cura ##2## pontos de vida por ##0.3## segundos durante ##3## segundos.\n\nVocê ganha ##20%## mais de vida.",
 	menu_deck11_5 = "Endorfina",
@@ -195,7 +195,7 @@ Hooks:Add("LocalizationManagerPostInit", "plsbuffgrinder", function(loc)
 	menu_deck12_5_desc = "Quanto mais baixo a sua vida, mais rápido o seu colete se recupera. Quando a sua vida estiver abaixo de ##25%##, você vai ganhar mais ##20%## de recuperação de colete.",
 	--menu_deck12_7 = "Ryu Irezumi",
 	menu_deck12_7_desc = "Quanto mais baixo a sua vida, mais rápido o seu colete se recupera. Quando a sua vida estiver abaixo de ##25%##, você vai ganhar mais de ##20%## de recuperação de colete.",
-	menu_deck12_9 = "Oni Irezumi",
+	--menu_deck12_9 = "Oni Irezumi",
 	menu_deck12_9_desc = "Todo efeito ##berserker## desse Baralho de Cartas vai entrar em efeito em ##50%##, invés de ##25%##.\n\nBônus de Completar o Baralho: A sua chance de ter um item de alta qualidade durante o Pagamento é aumentada por ##10%##.",
 	
 	-- Ex-President
@@ -300,21 +300,21 @@ Hooks:Add("LocalizationManagerPostInit", "plsbuffgrinder", function(loc)
 	--menu_st_spec_20 = "Tag Team",
 	menu_st_spec_20_desc = "Alguns dizem que algumas experiências são melhores compartilhados, até mesmo os casos com os cigarros de aerossol! Para aquele assaltante especial que é seu crush, isso é algo para ter um amor lindo enquanto você roube cofres de bancos e de fazer uns negócios.",
 	menu_deck20_1 = "Almas Gêmeas",
-	menu_deck20_1_desc = "Desbloqueia e equipa o ##Cigarro Eletrônico##.\n\nPara ativar o Cigarro Eletrônico, você precisa para alguém do seu grupo dentro de um raio de ##18## metros sem nada na frente e aperta o botão de granada para marcar ele.\n\nCada inimigo que você ou o que estiver marcado matar vai curar você ##15## de vida e o marcado vai ter cura de ##7.5## de vida.\n\nCada inimigo que você matar vai extender a duração do efeito por ##1.3## segundos e reduzir o tempo antes de poder usar por 2 segundos.\n\nO efeito vai durar por uma duração de ##2## segundos e tem um tempo antes de poder usar de ##12## segundos.",
+	menu_deck20_1_desc = "Desbloqueia e equipa o ##Cigarro Eletrônico##.\n\nPara ativar o Cigarro Eletrônico, você precisa para alguém do seu grupo dentro de um raio de ##18## metros sem nada na frente e aperta o botão de granada para marcar ele.\n\nCada inimigo que você ou o aliado que estiver marcado matar irá curar você ##15## de vida e o aliado marcado irá ter cura de ##7.5## de vida.\n\nCada inimigo que você matar vai extender a duração do efeito por ##1.3## segundos e reduzir o tempo antes de poder usar por 2 segundos.\n\nO efeito vai durar por uma duração de ##2## segundos e tem um tempo antes de poder usar de ##12## segundos.",
 	menu_deck20_3 = "Aroma",
 	menu_deck20_3_desc = "A sua vida máxima aumenta por ##20%##.",
 	menu_deck20_5 = "Sinergia",
-	menu_deck20_5_desc = "Cada inimigo que você e o marcado matar, você vai ter ##2## de absorção, o máximo é ##20##\n\nEsse efeito só vai durar até o tempo antes de poder usar acabar.",
+	menu_deck20_5_desc = "Cada inimigo que você e o seu aliado marcado matar, você vai ter ##2## de absorção, o máximo é ##20##\n\nEsse efeito só vai durar até o tempo antes de poder usar acabar.",
 	menu_deck20_7 = "Aspirar",
 	menu_deck20_7_desc = "A sua vida máxima aumenta por ##20%##.",
 	menu_deck20_9 = "Harmonia",
-	menu_deck20_9_desc = "Cada inimigo que o marcado matar agora vai reduzir o tempo antes de poder usar por ##2## segundos, enquanto vocês estiverem conectados.\n\nBônus de Completar o Baralho: A sua chance de ter um item de alta qualidade durante o Pagamento é aumentada por ##10%##.",
+	menu_deck20_9_desc = "Cada inimigo que o aliado marcado matar agora vai reduzir o tempo antes de poder usar por ##2## segundos, enquanto vocês estiverem conectados.\n\nBônus de Completar o Baralho: A sua chance de ter um item de alta qualidade durante o Pagamento é aumentada por ##10%##.",
 	
 	-- Hacker
 	--menu_st_spec_21 = "Hacker",
 	menu_st_spec_21_desc = "Usando o seu equipamento e a sua mente brilhante, você pode ferrar qualquer sistema de segurança com um simples de apertar um botão. Você nunca foi pego no flaga por uma câmera de segurança ou por um guarda, mas se as coisas irem por água a baixo, você pode facilmente fazer uma força bruta e passar pelo os guardas e dá um final não muito feliz para alguém que estiver ouvindo.",
 	menu_deck21_1 = "Bug de Código",
-	menu_deck21_1_desc = "Desbloqueia e equipa o ##Dispositivo ECM de Bolso##.\n\nMudando para outro Baralho vai fazer o Dispositivo ECM de Bolso bloqueado de novo. O Dispositivo ECM de Bolso substitui a sua granada, pode ser trocado caso queira. Enquanto estiver jogando, você pode apertar a tecla da granada e ativar o Dispositivo ECM de Bolso.\n\nAtivando o Dispositivo ECM de Bolso antes do alarme soar, vai ativar o efeito de bloqueamento, desativando todos eletrônicos e pagers por ##6## segundos.\n\nAtivando o Dispositivo ECM de Bolso depois do alarme ter soado vai ativar o efeito de feedback, tendo uma chance de atordoar os inimigos no mapa todo segundo por ##6## segundos.\n\nO Dispositivo ECM de Bolso tem ##2## usos com um tempo de ##100## segundos antes de poder usar de novo, mas cada inimigo que você matar vai reduzir o tempo por ##6## segundos.",
+	menu_deck21_1_desc = "Desbloqueia e equipa o ##Dispositivo ECM de Bolso##.\n\nMudando para outro Baralho vai fazer o Dispositivo ECM de Bolso bloqueado de novo. O Dispositivo ECM de Bolso substitui a sua granada, pode ser trocado caso queira. Enquanto estiver jogando, você pode apertar a tecla da granada e ativar o Dispositivo ECM de Bolso.\n\nAtivando o Dispositivo ECM de Bolso antes do alarme soar, vai ativar o efeito de bloqueamento, desativando todos eletrônicos e pagers por ##6## segundos.\n\nAtivando o Dispositivo ECM de Bolso depois do alarme ter soado vai ativar o efeito de feedback, tendo uma chance de atordoar os inimigos no mapa todo por ##6## segundos.\n\nO Dispositivo ECM de Bolso tem ##2## usos com um tempo de ##100## segundos antes de poder usar de novo, mas cada inimigo que você matar vai reduzir o tempo por ##6## segundos.",
 	menu_deck21_3 = "Operação de Segurança",
 	menu_deck21_3_desc = "Você ganha mais ##20%## de vida.",
 	menu_deck21_5 = "Distração de Bit",
@@ -322,6 +322,6 @@ Hooks:Add("LocalizationManagerPostInit", "plsbuffgrinder", function(loc)
 	--menu_deck21_7 = "Kluge",
 	menu_deck21_7_desc = "Matando pelo menos ##1## inimigo enquanto estiver com o efeito de feedback ou de bloqueamento, você vai ter ##20## de desvio por ##30## segundos.",
 	menu_deck21_9 = "Bot da Interwebs",
-	menu_deck21_9_desc = "Enquanto tiver o efeito do feedback e os membros do seu grupo matar os inimigos, vai regenerar ##10## de vida.\n\nBônus de Completar o Baralho: A sua chance de ter um item de alta qualidade durante o Pagamento é aumentada por ##10%##.",
+	menu_deck21_9_desc = "Enquanto tiver o efeito do feedback e os seus aliados matarem os inimigos, vai regenerar ##10## de vida.\n\nBônus de Completar o Baralho: A sua chance de ter um item de alta qualidade durante o Pagamento é aumentada por ##10%##.",
 	})
 end)

@@ -304,7 +304,7 @@ Hooks:Add("LocalizationManagerPostInit", "imprimirdinheiro", function(loc)
 	hud_heist_pal1 = "Fale com Mitchell. Vê se você pode entrar no porão sem nenhuma hesitação.",
 	hud_heist_pal1_hl = "Fale com o Dono",
 	hud_heist_pal2 = "Consiga acesso a operação criminal abaixo da piscina do Mitchell.",
-	hud_heist_pal2_hl = "Hackea as entradas de código",
+	hud_heist_pal2_hl = "Hackeia as entradas de código",
 	hud_heist_pal3 = "Entra em baixo da piscina e entra no porão com a impressora.",
 	hud_heist_pal3_hl = "Entra no porão",
 	hud_heist_pal4 = "Deixe que Bain conta como abrir o cofre.",

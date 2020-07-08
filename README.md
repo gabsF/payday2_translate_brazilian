@@ -9,26 +9,27 @@ Tradução do PAYDAY 2 que traduz várias coisas para o Português do Brasil, es
 ## Instalação
 1. Baixa e instale o [SuperBLT](https://superblt.znix.xyz/)
 2. Baixa a tradução [aqui](https://modworkshop.net/mod/24352)
-3. Extraia a pasta da tradução da pasta "mods" do seu BLT
+3. Extraia a pasta da tradução na sua pasta "mods" do seu BLT
 
 ## Contribuições
 Pode fazer Pull Requests na tradução, caso acha algum erro de português ou algo não cabe muito bem com o sentido do texto
 
 ## Créditos
 ```
---- Gerenciador das Traduções ---
+[ Gerenciador das Traduções ]
 Gabriel Fernando "gabsF"
 
---- Tradutores ---
-Bruno
+[ Tradutores ]
 $Lucas$
+Bruno
+Caçador de Otacus
 DarK
 gabsF
 lulajr
 neour
 RockZero
 
---- Agradecimentos Especiais ---
+[ Agradecimentos Especiais ]
 CENSOR_1337
 Kisuke
 ```

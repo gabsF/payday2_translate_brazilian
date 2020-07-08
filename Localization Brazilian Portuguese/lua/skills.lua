@@ -157,9 +157,9 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	-- Second Tree (Breacher)
 	--st_menu_technician_breaching = "Arrombador",
 	--menu_hardware_expert_beta = "Expert em Hardware",
-	menu_hardware_expert_beta_desc = "BÁSICO: ##$basic##\nVocê pode consertar as brocas e serras ##25%## mais rápido. Reduz o tempo de colocar as minas por ##20%##. Brocas e serras agora são silênciosas. Civis e guardas agora devem ver a sua broca ou serra para ficarem alertados. \n\nAVANÇADO: ##$pro##\nSua broca ou serra ganham uma chance de ##10%## para se consertarem depois de quebrarem. \n\nNota: esse efeito não se aplica ao ##OVE9000 Saw##.",
+	menu_hardware_expert_beta_desc = "BÁSICO: ##$basic##\nVocê pode consertar as brocas e serras ##25%## mais rápido. Reduz o tempo de colocar as ##Trip Mines## por ##20%##. Brocas e serras agora são silênciosas. Civis e guardas agora devem ver a sua broca ou serra para ficarem alertados. \n\nAVANÇADO: ##$pro##\nSua broca ou serra ganham uma chance de ##10%## para se consertarem depois de quebrarem. \n\nNota: esse efeito não se aplica ao ##OVE9000 Saw##.",
 	--menu_combat_engineering = "Campo Minado",
-	menu_combat_engineering_desc = "BÁSICO: ##$basic##\nO raio da explosão da sua mina é aumentada ##30%##. \n\nAVANÇADO: ##$pro##\nO dano da sua mina é aumentada por ##50%##", --https://i.imgur.com/8EI9oRa.png
+	menu_combat_engineering_desc = "BÁSICO: ##$basic##\nO raio da explosão da sua ##Trip Mines## é aumentada ##30%##. \n\nAVANÇADO: ##$pro##\nO dano da sua mina é aumentada por ##50%##", --https://i.imgur.com/8EI9oRa.png
 	--menu_drill_expert_beta = "Profissa em Broca",
 	menu_drill_expert_beta_desc = "BÁSICO: ##$basic##\nO timer da sua broca ou serra é diminuida por ##15%##. \n\nAVANÇADO: ##$pro##\nO timer da sua broca ou serra é diminuida ainda mais por ##15%##. \n\nNota: esse efetio não aplica ao ##OVE9000 Saw##.",
 	--menu_kick_starter_beta = "Ponta-pé",

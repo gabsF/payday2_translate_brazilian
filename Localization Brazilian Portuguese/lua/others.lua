@@ -293,6 +293,8 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	dialog_wait_title = "POR FAVOR, ESPERE",
 	dialog_creating_lobby_title = "Criando o Lobby",
 	dialog_err_failed_creating_lobby = "Fracassado em criar o Lobby",
+	dialog_accept_changes = "Você deseja manter essas configurações de vídeo? Elas vão ser revertidas em $TIME.",
+	dialog_accept_changes_title = "CONFIRMAR MUDANÇAS?",
 	
 	-- Tela de título
 	menu_visit_forum3 = "Pressione qualquer botão",
@@ -329,7 +331,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_cn_quickplay = "Jogo Rápido",
 	menu_cn_quickplay_desc = "Entra num lobby baseado nas suas preferências que pode ser mudadas nas opções",
 	menu_cash = "Dinheiro: $money",
-	-- Menu Principal -> Opções
+	-- Opções
 	menu_controls = "Controles",
 	menu_controls_help = "Mude as suas preferências de controles",
 	menu_video = "Vídeo",
@@ -466,6 +468,9 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_arm_animation_help = "Ativa as animações dos braços dos jogadores com VR, se possível.",
 	menu_max_streaming_chunk = "Streaming de Gráficos por KB",
 	menu_max_streaming_chunk_help = "Máxima quantidade de dados por operação de leitura o jogo vai acessar sincronizamente do HDD.",
+	-- Inferface do Usuário
+	menu_loading_hints = "Telas de Loading: Dicas",
+	menu_loading_hints_help = "Mostre dicas enquanto o jogo carrega",
 	
 	-- HUD
 	hud_stats_no_tracked = "NENHUMA CONQUISTA SENDO VIGIADA",
@@ -938,7 +943,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_time_week_ago = "$time semana atrás",
 	menu_time_weeks_ago = "$time semanas atrás",
 	menu_time_never = "Nunca",
-	menu_year_ago = "Mais de um ano atrás",
+	menu_time_year_over = "Mais de um ano atrás",
 	menu_broker_last_played = "Última vez jogado: $time",
 	menu_broker_days = "$days dias",
 	menu_broker_day = "$days dia",
@@ -1171,5 +1176,43 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	trophy_coke = "O Mundo é Seu",
 	trophy_coke_desc = "O mundo, chico e tudo isso.",
 	trophy_coke_objective = "Assegure 24 bolsas de pó em Scarface Mansion (Mansão Scarface)",
+	
+	-- Dicas de Telas de Loading
+	loading_trivia_title = "Curiosidades PAYDAY",
+	loading_trivia_35 = "Wolf gasta uma fortuna nas ferramentas de energia.",
+	loading_trivia_47 = "Clover gasta uma fortuna nos eletrônicos.",
+	loading_trivia_60 = "Capitão Winters não é um líder bonzinho.",
+	loading_trivia_65 = "Rust está marcado para morrer pela OVERKILL MC.",
+	loading_trivia_76 = "Dragan gasta uma fortuna em comidas saudáveis.",
+	loading_trivia_93 = "Bodhi odeia Tasers. Experimenta atirar em um com a Platypus enquanto joga com ele.",
+	loading_trivia_96 = "Eventos são roubos que acontecem em lugares especiais, que nem Dia das Bruxas. Espera por umas merdas bem doídas.",
+	loading_heister_title = "Dica do Assaltante",
+	loading_heister_1 = "Mantenha esses capacetes voando!",
+	loading_heister_2 = "Você pode usar os Arquivos do FBI do jogo para ler sobre os seus aliados.",
+	loading_heister_3 = "Se junta a comunidade do Payday na página da Loja do Steam para ter acesso a conteúdo único e grátis.",
+	loading_heister_4 = "Dois jogadores interagindo a mesma coisa (por exemplo, destrancar a porta) não irá acelerar o processo.",
+	loading_heister_5 = "Bain irá oferecer contratos pequenos que podem ser concluídos fazendo do jeito barulhento ou sigilo. Podem ser feitos com rapidez e também tem alguns que são bons para iniciantes.",
+	loading_heister_9 = "Se Bain gritar que alguém está em um pepino, alguém precisa de ajuda.",
+	loading_heister_15 = 'Você não pode atirar nos seus aliados com balas normais. A menos que você tenha a mutação "Friendly Fire" ligado.',
+	loading_heister_29 = 'Você pode ver quantos usos faltam na "Doctor Bag" olhando para as bolsas de sangue dentro dela.',
+	loading_heister_38 = "Os contratos do Hector é sobre causar violência. Se prepare para uma luta e leva uma arma boa.",
+	loading_heister_46 = "Conheça o seu inimigo. Tem três tipos de Bulldozers: Verde, Preto e Caveira-Dozers. Cada um tem uma arma diferente.",
+	loading_gameplay_title = "Dica de Jogabilidade",
+	loading_gameplay_1 = "Ouça ao Contratante, ele irá dizer o que fazer.",
+	loading_gameplay_3 = "Inimigos Especiais são introduzidos por cada dificuldade, do difícil e acima.",
+	loading_gameplay_11 = 'Um risco de detectação baixa pode ser usado em um tiroteiro na árvore de habilidades do "Ghost". Só porque eles não tão com colete, não quer dizer que não podem aguentar uma briga.',
+	loading_gameplay_27 = 'A sub-árvore "Breacher" foca em arrombar portas, cofres e bancos mais rápido. Também pode melhorar as "Trip Mines".',
+	loading_gameplay_30 = 'A sub-árvore "Shinobi" facilita o Sigilo, também vem alguns truques para usar quando o alarme soar.',
+	loading_gameplay_57 = "Você não pode trocar um refém durante uma operação policial, você precisa esperar até a operação acabar.",
+	loading_gameplay_58 = '"Doctor Bags" irá dá três vidas de volta, se você cair só uma vez, melhor usar uma "First Aid Kits".',
+	loading_gameplay_63 = "Cloakers não são afetados pelo Feedback do ECM.",
+	loading_gameplay_67 = "Rifles de Sniper podem penetrar paredes. Use isso ao seu favor.",
+	loading_gameplay_69 = "Ficando perto dos inimigos podem fazer eles dárem um ataque corpo-a-corpo bem forte.",
+	loading_gameplay_85 = "Usando um Feedback do ECM pode atordoar alguns policiais próximos por um tempo.",
+	loading_gameplay_95 = "Matando um guarda em uma sala de câmeras irá deixar você despreocupado com as câmeras de seguranças, mas guardas que vagam ainda podem te detectar.",
+	loading_gameplay_96 = "Quando o Capitão Winters estiver presente ele irá fazer todos os inimigos mais resistentes, mais tempo de presença, mais resistência é aplicado nos inimigos.",
+	loading_gameplay_100 = "O dano de toda flecha que atirar em um arco irá aumentar de acordo com a força que você colocar.",
+	loading_gameplay_110 = "O Feedback do ECM recarregar cada 4 minutos.",
+	loading_gameplay_120 = "Os ECM Jammers tempoariamente desativa as câmeras. Não fique com medo para usar para cegar o Operador das Câmeras quando você estiver em uma situação bem ruim.",
 		})
 end)

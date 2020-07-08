@@ -16,7 +16,7 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	menu_end_crime_spree = "Abandonar a Sequência",
 	
 	-- Caixas de Confirmações
-	menu_cs_reroll_title = "Rolar os assaltos",
+	menu_cs_reroll_title = "Sortear os assaltos",
 	menu_cs_reroll_text = "Tem certeza que deseja rerolar os assaltos atuais?\n\nIsso vai custar $cost Moeda(s) Continental(is).",
 	dialog_are_you_sure_you_want_to_leave_game_crime_spree = "Tem certeza que deseja sair da partida atual?\n\nIsso vai fazer que a sua Sequência fracasse e você deverá pagar para continuar ou pegar os seus prêmios do Lobby da Sequência Criminal.",
 	dialog_cs_claim_rewards = "Pegar os Prêmios",
@@ -43,7 +43,7 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	menu_cs_next_modifier_forced = "Próximo mod. forçado: +$next.",
 	menu_cs_next_modifier_loud = "Próximo mod. de Barulhento: +$next.",
 	menu_cs_next_modifier_stealth = "Próximo mod. de Sigilo: +$next.",
-	menu_cs_reroll = "Rolar",
+	menu_cs_reroll = "Sortear",
 	menu_cs_rewards = "Prêmios",
 	menu_cs_select_next_heist = "Selecione Próximo Assalto",
 	menu_cs_start = "Começar o Assalto",
@@ -58,7 +58,7 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	-- Gage Boost
 	menu_cs_ga_increased_body_bags_desc = "Jogadores vão receber e podem carregar mais $bags Bolsas de Cardavéres.",
 	menu_cs_ga_quick_pagers = "Tagalera",--Speed Talker
-	menu_cs_ga_passive_panic_desc = "Todos os jogadores vão ganhar uma chance de $panic% que causa pânico nos inimigos.",
+	menu_cs_ga_passive_panic_desc = "Todos os jogadores vão ganhar uma chance de $panic% de causar pânico nos inimigos.",
 	menu_cs_ga_increased_absorption = "Desviador de Dano",--Damage Dodger
 	menu_cs_ga_increased_throwables_desc = "Todos os jogadores recebem $throwables% extra de granadas. (Minímo: 1)",
 	menu_cs_ga_increased_throwables = "Mais para Jogar",--More to Throw
@@ -75,7 +75,7 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	menu_cs_ga_increased_health_desc = "Todos os jogadores receberão $health% de vida extra.",
 	menu_cs_ga_melee_invulnerability_desc = "Jogadores ganham imortalidade por $time segundos depois de matar um inimigo especial com um ataque corpo-a-corpo.",
 	menu_cs_ga_quick_reload_desc = "Todos os jogadores terão o tempo de recarga reduzido por $speed%.",
-	menu_cs_ga_life_steal = "Se Curador",--Self Healer
+	menu_cs_ga_life_steal = "Vampiro",--Self Healer
 	menu_cs_ga_increased_ammo = "Mais Munição",--Ammo Pilfer
 	menu_cs_ga_quick_pagers_desc = "Jogadores respondem os pagers $speed% mais rápido.",
 	menu_cs_ga_explosion_immunity_desc = "Jogadores não podem levar dano de explosão.",

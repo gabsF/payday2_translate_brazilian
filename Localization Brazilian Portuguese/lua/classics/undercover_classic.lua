@@ -270,7 +270,7 @@ Hooks:Add("LocalizationManagerPostInit", "homen", function(loc)
 	crn_man_01_01 = "Como uma luva.",
 	
 	-- Falas do Taxman e do Negociador
-	hnc_man_01_02 = "Senhor Sturr, eu presmo? Você tem o servidor?",
+	hnc_man_01_02 = "Senhor Sturr, eu presumo? Você tem o servidor?",
 	hnc_man_01_03 = "Você trouxe o servidor, Senhor Sturr?",
 	hnc_man_01_01 = "Você tem o servidor, Senhor Sturr?",
 	txm_man_01_03 = "Está perto, mas eu quero ver o dinheiro.",
@@ -278,7 +278,7 @@ Hooks:Add("LocalizationManagerPostInit", "homen", function(loc)
 	txm_man_01_02 = "Está logo perto. Quero ver o dinheiro.",
 	txm_man_02_02 = "Excelente. Eu vou pegar o servidor.",
 	txm_man_02_01 = "Ótimo. Eu vou pegar o servidor.",
-	txm_man_02_03 = "Bom. Eu vou pegar o servidor.",
+	txm_man_02_03 = "Legal. Eu vou pegar o servidor.",
 	
 	-- Objetivos
 	hud_heist_man1 = "Espero pelo o contribuinte aparecer com o servidor que estamos procurando. Assuste ele na limousine quando você ver, precisamos do servidor e do contribuinte. Alex vai levar a limousine junto com ele. Alías, fica de olho em algumas coisas que você pode usar para o seu favor.",
