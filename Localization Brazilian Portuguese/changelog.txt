@@ -1,11 +1,5 @@
-Notas de Mudanças em 2.03
-+ Traduzido Beneath The Mountain (feito pelo Caçador de Otacus)
-+ Traduzido mais uma caixa de confirmação
-+ Traduzido as dicas nas telas de Loading
-- Removido algumas tradução e colocado os nomes originais das "Trip Mines"
-* Corrigido algumas traduções nos Perk Decks
-* Corrigido algumas legendas do No Mercy
-* Corrigido uma tradução de um objetivo do Counterfeit
-* Corrigido uma tradução de uma legenda do Undercover
-* Corrigido algumas traduções do Crime Spree
-* Corrigido uma tradução do "Mais de um ano atrás" que não estava funcionando
+Notas de Mudanças em 2.04
++ Traduzido mais troféis do Escondeirijo
++ Traduzido mais Dicas de Loading
+* Corrigido um erro de tradução nos Perk Decks
+* Melhorado algumas traduções na Skills e nos Perk Decks

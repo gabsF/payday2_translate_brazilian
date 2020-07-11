@@ -58,9 +58,9 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	--menu_medic_2x_beta = "Médico de Guerra",
 	menu_medic_2x_beta_desc = "BÁSICO: ##$basic##\nPode ter duas ##Doctor Bags## invés de uma.  \n\nAVANÇADO: ##$pro##\nAs suas ##Doctor Bags## terão mais dois usos.",
 	--menu_tea_cookies_beta = "Preguiçoso",
-	menu_tea_cookies_beta_desc = "BÁSICO: ##$basic##\nAdiciona mais ##7 First Aid Kits## no seu inventário \n\nAVANÇADO: ##$pro##\nAdiciona mais ##3 First Aid Kits## no seu inventário. A sua ##First Aid Kit## colocada no chão irá automaticamante ajudar você, ou os seus companheiros, se você cair dentro de ##5## metros do seu ##First Aid Kit##. ISSO NÃO PODE OCORRER MAIS DE UMA VEZ DURANTE ##20## SEGUNDOS.",
+	menu_tea_cookies_beta_desc = "BÁSICO: ##$basic##\nAdiciona mais ##7 First Aid Kits## no seu inventário \n\nAVANÇADO: ##$pro##\nAdiciona mais ##3 First Aid Kits## no seu inventário. A sua ##First Aid Kit## colocada no chão irá automaticamante ajudar você, ou os seus aliados, se você cair dentro de ##5## metros do seu ##First Aid Kit##. ISSO NÃO PODE OCORRER MAIS DE UMA VEZ DURANTE ##20## SEGUNDOS.",
 	--menu_inspire_beta = "Ídolo",
-	menu_inspire_beta_desc = "BÁSICO: ##$basic##\nVocê vai reviver os seus companheiros de Equipe ##100%## mais rápido. Se gritar, que nem uma mãe brava com um chinelo, nos seus companheiros irá dá a eles um aumento de ##20%## para velocidade do movimento e de recarregar a arma por ##10## segundos. \n\nAVANÇADO: ##$pro##\nTem uma chance de ##100%## que você vai reviver os seus companheiros se gritar, de novo que nem uma mãe brava com um chinelo, em uma distância de ##9## metros. ISSO NÃO PODE OCORRER MAIS DE UMA VEZ DURANTE ##20## SEGUNDOS.",
+	menu_inspire_beta_desc = "BÁSICO: ##$basic##\nVocê vai reviver os seus aliados ##100%## mais rápido. Se gritar nos seus aliados irá dá a eles um aumento de ##20%## para velocidade do movimento e de recarregar a arma por ##10## segundos. \n\nAVANÇADO: ##$pro##\nTem uma chance de ##100%## que você vai reviver os seus aliados se gritar neles, em uma distância de ##9## metros. ISSO NÃO PODE OCORRER MAIS DE UMA VEZ DURANTE ##20## SEGUNDOS.",
 	
 	-- Second Tree (Controller)
 	--st_menu_mastermind_dominate = "Sedutor",
@@ -196,7 +196,7 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	--menu_ecm_booster_beta = "Boost de ECM",
 	menu_ecm_booster_beta_desc = "BÁSICO: ##$basic##\nA duração de desativar os alarmes e o ##feedback## do ##ECM## é aumentada por ##25%##. \n\nAVANÇADO: ##$pro##\nO seu ##ECM## pode ser usado para abrir certas portas.",
 	--menu_second_chances_beta = "Ágil",
-	menu_second_chances_beta_desc = "BÁSICO: ##$basic##\nTem a abilidade de desativar ##1## câmera de segurança de detectar você e os seus companheiros. O efeito dura até ##25## segundos. \n\nAVANÇADO: ##$pro##\nO tempo do seu seu ##Lockpicking## é ##100%## mais rápido.",
+	menu_second_chances_beta_desc = "BÁSICO: ##$basic##\nTem a abilidade de desativar ##1## câmera de segurança de detectar você e os seus aliados. O efeito dura até ##25## segundos. \n\nAVANÇADO: ##$pro##\nO tempo de você destrancar é ##100%## mais rápido.",
 	--menu_ecm_2x_beta = "Especialista em ECM",
 	menu_ecm_2x_beta_desc = "BÁSICO: ##$basic##\nAgora você pode colocar ##2 ECMs## invés de uma. \n\nAVANÇADO: ##$pro##\nA duração de desativar os alarmes é aumentada por ##25%## e a duração do ##feedback## dura ##25%## mais longo. chamadas de Pagers são bloqueados pelo ##ECM##.",
 	
@@ -218,7 +218,7 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	-- Third Tree (Silent Killer)
 	--st_menu_ghost_silencer = "Silêncioso",
 	--menu_scavenger_beta = "Segunda chance",
-	menu_scavenger_beta_desc = "BÁSICO: ##$basic##\nQuando o seu colete acaba, a velocidade do seu movimento aumenta por ##30%## por ##5## segundos. \n\nAVANÇADO: ##$pro##\nEsse efeito aplica ao seus companheiros.",
+	menu_scavenger_beta_desc = "BÁSICO: ##$basic##\nQuando o seu colete acaba, a velocidade do seu movimento aumenta por ##30%## por ##5## segundos. \n\nAVANÇADO: ##$pro##\nEsse efeito aplica ao seus aliados.",
 	--menu_optic_illusions = "Você não viu nada",
 	menu_optic_illusions_desc = "BÁSICO: ##$basic##\nTem uma chance de ##35%## de ser menos mirado pelo os inimigos. \n\nAVANÇADO: ##$pro##\nGanha ##1## de Discrição para cada arma com uma silenciadora equipada e reduz a penalidade de Discrição das armas por ##2##.",
 	--menu_silence_expert_beta = "O Profissional",

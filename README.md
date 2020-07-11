@@ -2,9 +2,10 @@
 Tradução do PAYDAY 2 que traduz várias coisas para o Português do Brasil, essa tradução não tem nenhuma afiliação com a OVERKILL.
 
 ## Prévias
-![Image](https://i.imgur.com/tLYim3D.jpg)
-![Image](https://i.imgur.com/KvEm5FH.jpg)
-![Image](https://i.imgur.com/g3IohXd.jpg)
+![Image](https://i.imgur.com/9ghp3Ha.png)
+![Image](https://i.imgur.com/YgcBmne.png)
+![Image](https://i.imgur.com/YgaFvji.png)
+![image](https://i.imgur.com/IOqE2Qs.png)
 
 ## Instalação
 1. Baixa e instale o [SuperBLT](https://superblt.znix.xyz/)
@@ -32,4 +33,7 @@ RockZero
 [ Agradecimentos Especiais ]
 CENSOR_1337
 Kisuke
+
+[ Template de Updates no Github Usado ]
+HugoZink ( https://github.com/HugoZink/PD2AutoUpdateExample )
 ```
