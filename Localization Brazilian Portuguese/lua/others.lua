@@ -1189,7 +1189,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	trophy_smwish_desc = "Uma estatúa para honrar o Assaltante Mestre.",
 	trophy_smwish_objective = 'Conclua todos os contratos na dificuldade "Sentença de Morte" com a mêcanica de "Única Queda" ativada.',
 	trophy_bex = "Fita do Vlad",
-	trophy_bex_desc = "Oh, cara. Vlad vai ficar bem puto se ele descobrir que você não queimou isso. Mas, o que tem de especial sobre essa mensagem? Não é segredo que ele sempre toca alguns ângulos...".
+	trophy_bex_desc = 'Oh, cara. Vlad vai ficar bem puto se ele descobrir que você não queimou isso. Mas, o que tem de especial sobre essa mensagem? Não é segredo que ele sempre toca alguns ângulos...',
 	trophy_bex_objective = "Procura um pouco mais no cofre do banco do San Martín.",
 	trophy_stealth = "Quem tá aí?",
 	trophy_stealth_desc = "Você conseguiu isso com as suas habilidades de sigilo e a sua presença de fantasma.",
