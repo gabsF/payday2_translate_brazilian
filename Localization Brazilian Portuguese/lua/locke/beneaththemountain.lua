@@ -9,7 +9,7 @@ Hooks:Add("LocalizationManagerPostInit", "jimmyneutronafricanoturururuutururuutu
 	-- "loc" = Locke | "pln" = Bain
 	-- Legendas
 	mer_jr1_intro_01_01 = "Intrusos! Fogo!",--Intruders! Fire!
-	loc_jr1_08_02 = "Agora conecte as cargas de explosivos. Uma para cada uma das quatro travas, Se voce quiser.",--Now wire up those breaching charges. One for each of the four locks, if you please.
+	loc_jr1_08_02 = "Agora conecte as cargas de explosivos. Uma para cada uma das quatro travas, Se você quiser.",--Now wire up those breaching charges. One for each of the four locks, if you please.
 	loc_jr1_45_02 = "Ainda bem que eu tenho um suprimento de C4 bem aqui.",--Thankfully, I have a supply of C4 right here.
 	loc_jr1_57_09 = "Vi aquela arma em uma vila lá em Uganda. Homem bom.",--Saw that one gun down a village in Uganda. Good man.
 	loc_jr1_57_13 = "Ha, ele sempre disse que queria morrer em um bordel. bem, ao menos ele se fudeu, certo?",--Ha, he always said he wanted to die in a brothel. Well, at least he got fucked, yeah?
@@ -21,24 +21,24 @@ Hooks:Add("LocalizationManagerPostInit", "jimmyneutronafricanoturururuutururuutu
 	loc_jr1_66_02 = "Apenas dois de vocês de cada vez na tirolesa, por favor. e é uma viagem de apenas ida. mas que viagem, né?",--Only two of you at a time up the zipline, please. And it's a one way trip. But what a trip, yeah?
 	loc_jr1_44_01 = "Seria melhor se esses radares fossem destruidos. Sim?",--It would be best if these radars were destroyed. Yes?
 	loc_jr1_20_03 = "Nós precisamos de aprovação da estação de segurança. Eu mesmo faria, mas infelizmente...",--We need approval from the security station. I would do it myself, but alas...
-	loc_jr1_47_03 = "Depois de voce!",--After you!
+	loc_jr1_47_03 = "Depois de você!",--After you!
 	loc_jr1_66_03 = "Apenas dois usando a tirolesa de cada vez, meus bons amigos. e quando você estiver la em cima, não tem volta. então vão.",--Only two riding the ziplines at a time, my good friends. And once you're up, that's it. So come on.
-	loc_jr1_22_01 = "Tenham certeza que todos voces estejam dentro, a porta de fora deve fechar para a porta de dentro abrir.",--Make sure all you fine people are inside, the outer door must close before the inner door can open.
+	loc_jr1_22_01 = "Tenham certeza que todos vocês estejam dentro, a porta de fora deve fechar para a porta de dentro abrir.",--Make sure all you fine people are inside, the outer door must close before the inner door can open.
 	loc_jr1_27_02 = "O controle será encontrado com vista para o complexo.",--The control will be found overlooking the complex.
 	loc_jr1_51_01 = "Eu tenho um ótimo lugar, apenas para as sacolas com espólios... bem aqui.",--I have a nice spot, just for those loot bags... right here.
 	loc_jr1_40_01 = "Ah! Cavalheiros! Saudações!",--Ah! Gentlemen! Greetings!
 	loc_jr1_23_02 = "Vai abrir em um segundo ou dois. e então...",--It will open in a second or two. And then... 
-	loc_jr1_14_02 = "Voce deixou os kerels foderem voce. foda eles de volta e conserte o detonador.",--You let the kerels fuck you. Fuck 'em back and fix the detonator.
-	loc_jr1_50_01 = "Okay, amigos, movam as sacolas para o helicóptero. não percam tempo agora!",--Okay, friends, let us now move the lootbags to the helicopter. Do not dawdle now!
+	loc_jr1_14_02 = "você deixou os kerels foderem você. foda eles de volta e conserte o detonador.",--You let the kerels fuck you. Fuck 'em back and fix the detonator.
+	loc_jr1_50_01 = "Ok, amigos, movam as sacolas para o helicóptero. não percam tempo agora!",--Okay, friends, let us now move the lootbags to the helicopter. Do not dawdle now!
 	loc_jr1_15_02 = "Ka-boom! essa foi no alvo, sim. Lute seu caminho até la dentro!",--Ka-boom! That was on the bullseye, yes. Fight your way in!
 	loc_jr1_58_02 = "Esses cobres não valem um iaque.",--These coppers ain't worth a yak's baff.
-	loc_jr1_53_01 = "Eu sei que é uma imposição, mas voce acha que pode conectar a mangueira de combustivel no helicóptero?",--I know it is an imposition, but do you think you could connect the fuel hose to the helicopter?
+	loc_jr1_53_01 = "Eu sei que é uma imposição, mas você acha que pode conectar a mangueira de combustivel no helicóptero?",--I know it is an imposition, but do you think you could connect the fuel hose to the helicopter?
 	loc_jr1_58_04 = "Faça-os ganhar o tomo deles hoje a noite, certo? com certeza.",--Make them earn their tom tonight, yeah? For sure.
 	loc_jr1_69_03 = "É uma pena ter que ver uma ótima técnologia como essa explodir assim. Mas foda-se!",--Shame to see nice tech blow up like that. But fuck it!
 	loc_jr1_57_12 = "Eu não gostava das maneiras daquele poephol",--I didn't like that poephol's manners.
 	loc_jr1_11_03 = "Por favor? conecte o detonador?",--Please? Attach the detonator?
 	loc_jr1_51_03 = "Apenas tragam essas sacolas para o helicóptero, queridos amigos.",--Just bring thoses bags to the chopper, dear friends.
-	loc_jr1_62_03 = "Eu preciso que voces distribuam a violência, certo? Meu uniforme deve me misturar entre eles. Ficar fora da luta.",--I need you guys to distribute the violence, yeah? My uniform should let me blend in with them, keep out of the fight.
+	loc_jr1_62_03 = "Eu preciso que vocês distribuam a violência, certo? Meu uniforme deve me misturar entre eles. Ficar fora da luta.",--I need you guys to distribute the violence, yeah? My uniform should let me blend in with them, keep out of the fight.
 	loc_jr1_16_01 = "Venham agora, todos para dentro! Depressa!",--Come now, everyone inside! Hurry!
 	loc_jr1_07_01 = "Lembrem-se, larguem as cargas perto da porta.",--Remember, drop the charges near the door.
 	loc_jr1_17_03 = "Essa porta tem um protocolo de segurança de dois estágios. O primeiro estágio é usar o cartão de acesso. então... quando você quiser.",--This door has a two-stage security protocol. First stage is using the keycard. So...if you please.
@@ -76,7 +76,7 @@ Hooks:Add("LocalizationManagerPostInit", "jimmyneutronafricanoturururuutururuutu
 	loc_jr1_30_03 = "Essa é uma boa quantidade de espólios, amigos. O suficiente para fazer isso ter valido a pena. Mas, se vocês quiserem foder a Murkywater mais um pouquinho... vocês podem pegar mais.",--That is a good amount of loot, friends. Enough to make this worthwhile. Still, if you feel like you still got a little lead in your pencil and wanted to fuck Murkywater a little longer... you can get more.
 	loc_jr1_37_03 = "Vocês veem os cabos? Sim, mandem as sacolas aqui pra cima.",--Do you see the shaft? Yes, just send the bags of loot up here.
 	loc_jr1_14_01 = "Esses poes foderam com o detonador. Consertem!",--Those poes fucked the detonator, mans. Fix it!
-	loc_jr1_66_01 = "Okay, vocês podem subir dois de cada vez. e não tem como descer de volta, amigos.",--Okay, you can only zipline up two at a time. And there's no going back down, friends. 
+	loc_jr1_66_01 = "Ok, vocês podem subir dois de cada vez. e não tem como descer de volta, amigos.",--Okay, you can only zipline up two at a time. And there's no going back down, friends. 
 	loc_jr1_09_01 = 'Eu falei em africano? Me desculpem! Eu quis dizer "por favor" "plantem" "as" "cargas" "nas fechaduras"... seus kaks.',--Did I speak in Afrikaans? My apologies! I meant to say "please" "plant" "the" "charges" "on the locks"... you kaks.
 	loc_jr1_60_01 = "Merda, esses comedores de bosta desativaram o destravamento. Ativem-no denovo!",--Shit, those fucking shit-eating kerels shut down the unlocking. Get it going again!
 	loc_jr1_01_03 = "Ah! Meus amigos! Bem-vindos ao Cume Negro. Ele é usado para, bem, por enquanto guardar uma quantia significável de espólios de grande valor. Vamos rouba-los!",--Ah! My friends! Welcome to Black Ridge. It's used for, well, for now is holding loot of a significent value. Let's steal it!
@@ -98,7 +98,7 @@ Hooks:Add("LocalizationManagerPostInit", "jimmyneutronafricanoturururuutururuutu
 	loc_jr1_38_02 = "Deixe-me ver, um, dois. Sim, todas aqui! Agora, por favor, usem os cabos para se juntarem à mim.",--Let me see, one, two. Yes, all here! Now, please use the cables to join me up here. 
 	loc_jr1_68_01 = "Kaboom! Bom trabalho, Continuem!",--Kaboom, good work! Keep it up!
 	loc_jr1_10_03 = "Bravo! Agora, Porque nós não colocamos um detonador lá também?.",--Bravo! Now, why don't we get a detonator on there too.
-	loc_jr1_62_01 = "Vocês dão os tiros, meus amigos, eu vou me misturar um pouco com meu uniforme Murky. Não misturem as coisas okay?",--You do the shooting, my friends, I'll just blend in a bit with my Murky Uniform. Don't get me mixed up, okay?
+	loc_jr1_62_01 = "Vocês dão os tiros, meus amigos, eu vou me misturar um pouco com meu uniforme Murky. Não misturem as coisas ok?",--You do the shooting, my friends, I'll just blend in a bit with my Murky Uniform. Don't get me mixed up, okay?
 	loc_jr1_59_02 = "E agora nós esperamos a trava de tempo acabar. Esse é um lugar seguro caso vocês não saibam.",--And now we wait for the vault timelock to run down. This is a secured site, you know.
 	loc_jr1_04_03 = "Tem um cartão de acesso, um cortador de arço e um pequeno numero de cargas explosivas, que vocês devem coletar. Entrar explodindo tudo é rude, mas ajudará a tirar a suspeita de mim.",--There is a keycard, an arc cutter and a small number of breaching charges, that you must collect. Blasting in is crude, but it will help deflect suspicion from me.
 	loc_jr1_62_02 = "Vocês fazem toda a matança, certo? Eu sou um soldado cibernético, não a porra de um comandante. Meu uniforme deve me manter fora de vista.",--You do all the killing, yeah? I'm cyberwarfare, not a fucking commando. My uniform should keep me out of the fray.
@@ -115,7 +115,7 @@ Hooks:Add("LocalizationManagerPostInit", "jimmyneutronafricanoturururuutururuutu
 	loc_jr1_07_02 = "Deixe-me checar minhas anotações. Sim, eu mencionei que as cargas devem ser deixadas perto da porta.",--Let me check my records. Yes, I mentioned that the charges must be dropped near the door.
 	loc_jr1_69_01 = "E mais um morde a poeira! Ótimo!",--And another one bites the dust! Nice!
 	loc_jr1_17_02 = "Agora, o cartão de acesso que eu deixei para vocês. Aquela porta grande tem dois estágios de segurança e uma trava de ar atrás. O primeiro estágio é usar o cartão, então...",--Now, the keycard I left for you. That large door has two security stages, and an airlock beyond. The first is using the keycard. So...
-	loc_jr1_61_03 = "Isso meus amigos! Okay, o cofre está se abrindo denovo. Ótimo!",--Fuck yes, my friends. Okay, the vault is opening again. Good!
+	loc_jr1_61_03 = "Isso meus amigos! Ok, o cofre está se abrindo denovo. Ótimo!",--Fuck yes, my friends. Okay, the vault is opening again. Good!
 	loc_jr1_68_02 = "Isso foi um estouro! Muito satisfatório!",--That was a bang! Most satisfying!
 	loc_jr1_42_02 = "Cavalheiros? Por favor?",--Gentlemen? Please?
 	loc_jr1_16_03 = "Entrem, Por favor, Juntem-se a festa de dentro!",--Come on, please, join the party inside!
@@ -139,7 +139,7 @@ Hooks:Add("LocalizationManagerPostInit", "jimmyneutronafricanoturururuutururuutu
 	loc_jr1_33_03 = "É uma obra-prima. Embora perdido por décadas. Eu penduraria no meu sanitário, Mas vale uma puta grana",--It's a masterpiece. Thought lost for decades. I'd hang it in my crapper, but it's worth a shitload of cash.
 	loc_jr1_45_03 = "Esse estoque de C4 deve lidar com os radares, certo?",--This cache of C4 should deal with the radars, yes?
 	loc_jr1_24_02 = "A porta está abrindo! Ótimo! Agora, Por gentileza, invada o complexo interior.",--The door is opening! Good! Now, if you would be so kind, please storm the inner complex.
-	loc_jr1_59_01 = "Okay, paciência agora, meus amigos. Cada cofre tem uma pequena trava de tempo. Vocês sabem, por segurança.",--Okay, patience now, my friends. Each vault has a short timelock. You know, for security.
+	loc_jr1_59_01 = "Ok, paciência agora, meus amigos. Cada cofre tem uma pequena trava de tempo. Vocês sabem, por segurança.",--Okay, patience now, my friends. Each vault has a short timelock. You know, for security.
 	loc_jr1_40_02 = "Meus amigos! Muito Prazer!",--My friends! My pleasure!
 	loc_jr1_18_03 = "Eu ainda preciso que um de vocês passe o cartão.",--I still require one of you poes to swipe the card.
 	loc_jr1_01_01 = "Meus novos amigos! Bem-vindos ao Cume Negro. É como um armazém para espólios - Um armazém fortificado, com espólios muito valiosos.",--My new friends! Welcome to Black Ridge. Like a storehouse for loot - an armored storehouse, with very valuable loot.
@@ -242,7 +242,7 @@ Hooks:Add("LocalizationManagerPostInit", "jimmyneutronafricanoturururuutururuutu
 	loc_jr1_64_03 = "Se eu conheço eles, e eu conheço, acredite nisso, eles vão ter Bulldozers logo à frente. Então se preparem pra esses merdas, certo?",--If I know them, and I know them, trust me on that, they'll have bulldozers up ahead. So get ready for those shits, yeah.
 	loc_jr1_36_01 = "Eu não vou dizer para vocês o que é isso, Porque vocês iriam cagar nas calças. Apenas não pressionem nenhum botão.",--I won't tell you what this is, 'cos you'll fucking shit your undies. Just don't press any buttons.
 	loc_jr1_46_01 = "Não se esqueçam. Eliminem os radares. Eu vou preparar o helicóptero.",--Do not forget. Take out those radars. I'll get the chopper ready.
-	loc_jr1_08_01 = "Okay, ótimo! Agora, por favor coloquem as cargas nas quatro travas que vocês veem ali.",--Okay, good! Now, please to place the charges onto the four locks you see there.
+	loc_jr1_08_01 = "Ok, ótimo! Agora, por favor coloquem as cargas nas quatro travas que vocês veem ali.",--Okay, good! Now, please to place the charges onto the four locks you see there.
 	loc_jr1_09_03 = "Por favor, lembrem-se da porra de seus trabalhos! As cargas devem estar conectadas nas quatro travas.",--Please remember your fucking jobs - the breaching charges need to be attached to all four locks.
 	loc_jr1_14_03 = "Ei, gente, Esses kerels estão fodendo o rabo de vocês. Fodam eles de volta, Mais forte. E consertem a porra do detonador!",--Hey man, the kerel poes are fucking you in the ass. Fuck 'em back, harder. And fix the fucking detonator!
 	loc_jr1_18_02 = "Tem como um de vocês, quando o tempo permitir, passar o cartão de acesso na trava?",--Can one of you please, when time permits, swipe the keycard in the lock?

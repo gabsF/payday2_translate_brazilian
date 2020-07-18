@@ -4,13 +4,31 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	savefile_saving = "Salvando...",
 	
 	-- Descrições Extras
-	bm_global_value_chico_unlock = "Compre o Scarface Character Pack para desbloqueiar",
+	bm_global_value_chico_unlock = "Compre o Scarface Character Pack para desbloquear",
 	menu_l_global_value_chico = "Esse é um item do Scarface Character Pack!",
 	menu_l_global_value_pd2_clan  = "Esse é um item da Comunidade!",
 	menu_l_global_value_bbq = "Esse é um item do BBQ Weapon Pack!",
 	menu_l_global_value_gage_pack = "Esse é um item do Gage Weapon Pack #01!",
+	menu_l_global_value_west = "Esse é um item do Western Weapon Pack!",
+	menu_l_global_value_turtles = "Esse é um item do Gage Ninja Pack!",
+	menu_l_global_value_steel = "Esse é um item do Gage Chivalry Pack!",
+	menu_l_global_value_pim = "Esse é um item do John Wick Weapon Pack!",
+	menu_l_global_value_born = "Esse é um item da DLC Biker Heist!",
 	
 	-- Tela de Inventário
+	menu_legend_back = " VOLTAR",
+	menu_legend_broker_favorite = " FAVORITAR",
+	menu_legend_crimenet_move = " MOVER",
+	menu_legend_crimenet_zoom = " ZOOM",
+	menu_legend_hide_all = " ESCONDER",
+	menu_legend_open_preplanning = " Pré-planejamento",
+	menu_legend_preview = " PRÉVIA",
+	menu_legend_preview_move = " MOVER",
+	menu_legend_scroll = " ROLAR",
+	menu_legend_select = " SELECIONAR",
+	menu_legend_show_all = " MOSTRAR TUDO",
+	menu_legend_switch = " ALTERNAR",
+	menu_legend_zoom_rotate = " ROTACIONAR / ZOOM",
 	menu_back = "VOLTAR [ESC]",
 	menu_button_hide = "Esconder",
 	menu_button_show = "Mostrar",
@@ -52,8 +70,50 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	bm_grenade_frag_desc = "A granada explosiva é um conceito que mudar um pouquinho do seu começo. É jogada e explode com tanta força que faz qualquer pessoa voar pelos áres. Barato e efetivo.",
 	bm_concussion = "Granada de Distração",
 	bm_concussion_desc = "Essa belezinha de atordoamento vai dá um tapa na cara de tudo mundo, dando você uns segundinhos de tempo para matar eles.",
+	bm_dynamite = "Dinamite",
+	bm_dynamite_desc = "Engenheiro suéco, Alfred Nobel, descobriu um dinamite e a sua utilidade de explodir pedras. Mas era um protestor bêbado, Velho Kenneth, que descobriu a utilidade de explodir pessoas.",
+	bm_wpn_prj_four = "Shuriken",
+	bm_wpn_prj_four_desc = "Como uma espada escondido nas mãos de que usa, um shuriken mortal e silenciosa. Primeira vez feito com unhas e agulhas, essa estrela tem um histórico grande de sangue e batalhas. Essas estrelhas afiadas vão dá um medo de quem estiver a sua frente, desde que você ache eles, nada pode te parar.\n\nAs Shurikens vão está molhados de veneno que vão fazer dano com passar do tempo e tem uma chance de atrapalhar os inimigos.",
+	bm_wpn_prj_jav = "Lança",
+	bm_wpn_prj_jav_desc = "Com a sua origem obscura original, a Lança é uma arma simples. Afinal, é um bastão com uma ponta afiada que você joga que acaba virando um estraga-prazeres pra alguém. Tirando a suas partes simples, isso ainda requer habilidade e força pra usar.",
+	bm_wpn_prj_target = "Faca Voadora",
+	bm_wpn_prj_target_desc = "Uma arma de emergência e uma tática para matar com precisão e silenciosa. A Faca Voadora têm tido uma presença na histórica nas artes marciais por muito tempo quanto as pessoas ficavam entediadas de jogar coisas em uma direção e queriam uma arma que servia pra isso.",
+	bm_wpn_prj_hur = "Machadinha",
+	bm_wpn_prj_hur_desc = 'Uma machadinha nunca está errado, desde que essa aqui é boa para jogar, isso ficou popular entre os motoqueiros. Pilotando uma moto, pode ser perigoso e você precisa de uma "proteção". Então, essa machadinha vendeu rápido que zerou o estoque, o motivo disso é que os motoqueiros acharam isso útil para batalhar nas ruas.',
+	bm_wpn_prj_ace = "Cartas do Truco",
+	bm_wpn_prj_ace_desc = 'Jogando cartas é geralmente associados com mágicos dividindo um melão no meio em um palco, mas adiciona peso e dá mais estilo e você vai ter um assassino silencioso. Coloca essas cartas nas suas manguas e você vai está pronto para qualquer coisa, não importa a situação.\n\nAs Cartas do Truco é uma "Granada" dado para a comunidade para celebrar dois anos de PAYDAY 2!', -- você chama isso de granada?
 	
 	-- Equipamentos
+	bm_menu_btn_equip_deployable = "Equipar o Equipamento",
+	bm_menu_btn_unequip_deployable = "Desequipar o Equipamento",
+	bm_equipment_ammo_bag = "Bolsa de Munição",
+	bm_equipment_ammo_bag_desc = "Para usar a bolsa de munição, você deve colocá-lo segurando o $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, não pode ser movido mais, mas pode ser usado por você e pelo seus aliados segurando o $BTN_INTERACT (ou  se estiver com controle) para ganhar mais munição. Isso pode recuperar a sua munição completamente de uma das suas armas 4 vezes. Quando a bolsa de munição estiver vazia, irá sumir. Você pode ver quanta de munição resta olhando na bolsa de munição.\n\nA bolsa de munição é portátil, originalmente para os soldados carregarem munição extra com eles no combate.",
+	bm_equipment_doctor_bag = "Bolsa Médica",
+	bm_equipment_doctor_bag_desc = "Para usar a bolsa médica, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, não pode ser movido mais, mas pode ser usado por você e pelo seus aliados segurando o $BTN_INTERACT (ou  se estiver com controle) para se curar. Usando a bolsa médica vai redefinir a quantidade de quedas que o jogador sofreu antes de ir para custódia. Pode ser usado duas vezes\n\nQuando uma bolsa médica é consumido, irá sumir. Você pode ver quantos usos restam olhando na Bolsa Médica.\n\nA Bolsa Médica é uma bolsa portátil, usado por um fisíco ou alguma outra profissão médica para um transporte de suplimentos medicinais.",
+	bm_equipment_armor_kit = "Kit de Colete",
+	bm_equipment_armor_kit_desc = "Para usar o Kit de Colete, segurando $BTN_USE_ITEM (ou  se estiver com controle) para colocar o colete equipado. Até lá, você estará vestindo o Terno.\n\nO kit de colete tem apenas um uso e quando é usado, irá sumir. O Kit de Colete é uma bolsa portátil usado para transportar colete da sua escolha, que pode ser usado durante um assalto.",
+	bm_equipment_bodybags_bag = "Bolsa de Cadáveres",
+	bm_equipment_bodybags_bag_desc = "Para usar a Maleta de Bolsa de Cadáveres, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, não pode ser movido mais, mas pode pode ser usado por você e pelo seus aliados segurando o $BTN_INTERACT (ou  se estiver com controle) para ter mais bolsas de cadáveres.\n\nA Maleta de Bolsa de Cadáveres tem usos limitados. Você pode ver quantos usos restam só olhando na maleta. A maleta de bolsa de cadáveres carrega mais bolsas, usado para transportar cadáveres durante o sigilo.",
+	bm_equipment_first_aid_kit = "Kit de Primeiros Socorros",
+	bm_equipment_first_aid_kit_desc = "O kit de primeiros socorros é uma coleção de suplimentos e equipamento para uso em dá o primeiro socorro.\n\nPara usar o kit de primeiros socorros, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, não pode ser movido mais, mas pode pode ser usado por você e pelo seus aliados segurando o $BTN_INTERACT (ou  se estiver com controle) para recuperar a vida.\n\nUm kit de primeiros socorros colocado pode ser usado uma vez e irá sumir quando usado.",
+	bm_equipment_ecm_jammer = "Bloqueador de CME",
+	bm_equipment_ecm_jammer_desc = "Para usar o Bloqueador de CME, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, não pode ser movido mais e estará ativo por 20 segundos.\n\nVocê pode alternar o Bloqueador de CME apertando $BTN_INTERACT (ou  se estiver com controle) nele. O Bloqueador de CME terá uma chance de atordoar os seus inimigos dentro de uma certa distância. Quando consumido, irá parar de funcionar.\n\nUma contramedida eletrônico (CME) é um dispositivo feito para enganar o radar, sonar e outros sistemas de detectação, facilitando o seu caminho para o seu objetivo.",
+	bm_equipment_sentry_gun = "Sentinela",
+	bm_equipment_sentry_gun_desc = "Para usar a Sentinela, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, irá usar até 30% da munição total das suas armas. Pode ser destruído por atirar nele, mas desde que não esteja completemante destruído, pegando ele irá consertá-lo e retornar a munição da Sentinela restante. Quando a sua munição acabar, irá parar de atirar mas pode ser recarregado por re-colocar ele depois de pegar.\n\nA Sentinela irá automaticamente mirar e atirar no alvos que são detectados pelo seus sensores. É comum usá-lo como distração, chamando a atenção de você e os seus aliados.",
+	bm_equipment_trip_mine = "Armadilha de Mina e Cargas Explosivas",
+	bm_equipment_trip_mine_desc = "Para usar a Armadilha de Mina, você presica colocá-lo usando $BTN_USE_ITEM. (ou  se estiver com controle.)\nO laser pode ser alternado entre modo explosivo e modo sensor por apertar $BTN_INTERACT (ou  se estiver com controle.).\n\nPara usar a Carga Explosiva, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, irá explodir em segundos. Armadilhas de Minas são armadilhas que irão machucar e matar inimigos que passam pelo seu laser. Cargas Explosivas são usados para arrombar cofres e portas. Ambos são uma boa adição para todas situações de combate.",
+	bm_equipment_sentry_gun_silent = "Sentinela Silenciada",
+	bm_equipment_sentry_gun_silent_desc = "Para usar a Sentinela Silenciada, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, irá usar até 30% da munição total das suas armas. Pode ser destruído por atirar nele, mas desde que não esteja completemante destruído, pegando ele irá consertá-lo e retornar a munição da Sentinela restante. Quando a sua munição acabar, irá parar de atirar mas pode ser recarregado por re-colocar ele depois de pegar.\n\nA Sentinela Silenciada é o ao contrário do normal, a Sentinela normal é mais usado para matar inimigos do que para uma distração.",
+	bm_menu_skill_locked_sentry_gun_silent = 'Requer a habilidade "Engineering"',
+	--------------------------------
+	debug_doctor_bag = "Bolsa Médica",
+	menu_equipment_bodybags_bag = "Bolsa de Cadáveres",
+	menu_equipment_emc_jammer = "Bloqueador de ECM",
+	menu_equipment_first_aid_kit = "Kit de Primeiros Socorros",
+	debug_sentry_gun = "Sentinela",
+	debug_trip_mine = "Armadilha de Mina",
+	debug_ammo_bag = "Bolsa de Munição",
+	menu_equipment_armor_kit = "Kit de Colete",
 	
 	-- Infamy
 	menu_infamy_rank = "Nível $rank de Infâmia",
@@ -63,16 +123,16 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_infamytree_help = "Se torne Infâmous e gaste os seus pontos de Infâmia para ter recompênsas.",
 	menu_infamy_name_xp = "Mais Experiência",
 	menu_infamy_desc_xp = "A experiência ganha é aumentada por ##10%##.",
-	menu_infamy_name_root = "Desbloqueando a Árvore da Infâmia",
+	menu_infamy_name_root = "Desbloqueiando a Árvore da Infâmia",
 	menu_infamy_desc_root = "Como um novato chegando ao elite criminal, primeira coisa dos negócios é você conseguir o equipamento e fãs sabendo do seu status.\n\nBÔNUS:\nA base de drop de infâmia é aumentada de ##0.3%## para ##0.6%##.\nA experiência ganha é aumentada por ##5%##.\n\nITENS:",
 	menu_infamy_name_ranger = "Assaltante de Sentinela",
 	menu_infamy_desc_ranger = "Intimidação e ao contrário de perfeito quanto tem um dia bem ruim.\n\nBÔNUS:\nA experiência ganha é aumentada por ##7.5%##.\n\nITENS:",
 	menu_infamy_name_punk = "O Ser",
 	menu_infamy_desc_punk = "Um morto-vivo que ainda funciona graças a tecnologia.\n\nBÔNUS:\n\nBÔNUS:\nA experiência ganha é aumentada por ##7.5%##.\n\nITENS:",
 	menu_infamy_name_daft = "Android",
-	menu_infamy_desc_daft = "Não é uma mascará muito sútil para um assaltante que curte o ritmo.\n\nBÔNUS:\nA experiência ganha é aumentada por ##7.5%##.\n\nITENS:",
+	menu_infamy_desc_daft = "Não é uma máscara muito sútil para um assaltante que curte o ritmo.\n\nBÔNUS:\nA experiência ganha é aumentada por ##7.5%##.\n\nITENS:",
 	menu_infamy_name_destroyer = "Demônio dos Inferno",
-	menu_infamy_desc_destroyer = "Uma mascará bem assustadora, melhor usado para quando for para guerra.\n\nBÔNUS:\nA experiência ganha é aumentada por ##7.5%##.\n\nITENS:",
+	menu_infamy_desc_destroyer = "Uma máscara bem assustadora, melhor usado para quando for para guerra.\n\nBÔNUS:\nA experiência ganha é aumentada por ##7.5%##.\n\nITENS:",
 	menu_infamy_name_pain = "Vingador",
 	menu_infamy_desc_pain = "Quando a intimidação é mais usada do que anônimo.\n\nBÔNUS:\nA experiência ganha é aumentada por ##7.5%##.\n\nITENS:",
 	--menu_infamy_name_hood = "",
@@ -90,11 +150,10 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_infamy_name_technician = "Set de Ingênio",
 	menu_infamy_desc_technician = "Frio, calculante e um mestre de sumiços forçados, morto ou vivo.\n\nBÔNUS:\nOs requesitos de pontos de habilidades de ##Technician## e ##Fugitive## são reduzidos por ##10%##.\nA experiência ganha é aumentada por ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
 	
-	-- Descrições das Mascarás
-	bm_msk_smo_01_desc = "Se você ver um assaltante vestindo essa mascará no meio da rua, saiba que ele não medo de nada, nove vidas é o caralho!",
+	-- Descrições das Máscaras
+	bm_msk_smo_01_desc = "Se você ver um assaltante vestindo essa máscara no meio da rua, saiba que ele não medo de nada, nove vidas é o caralho!",
 	
 	-- Discord RP
-	
 	-- discord_rp_single_end_details = "TranslationHere",--$heist; $day;
 	-- discord_rp_single_heist = "TranslationHere",--Crime.Net Offline
 	-- discord_rp_single_end = "TranslationHere",--Heist Summary
@@ -108,7 +167,6 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	-- discord_rp_day_string = "TranslationHere",--day $day;
 	-- discord_rp_lobby_details = "TranslationHere",--$heist; $day; [$difficulty;]
 	-- discord_rp_mp_end_details = "TranslationHere",--$heist; $day;
-	
 	discord_rp_day_string = "dia $day",
 	discord_rp_single_end = "Sumário do Assalto", -- esse é do singleplayer
 	discord_rp_safehouse = "No escondeirijo",
@@ -116,7 +174,6 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	discord_rp_lobby = "No Lobby",
 	discord_rp_mp_heist = "Jogando Online",
 	discord_rp_single_heist = "Jogando Offline",
-	
 	
 	-- Estátisticas das armas e do personagem
 	bm_menu_equipped = "Equipado",
@@ -143,31 +200,89 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	
 	-- "Carregando a bolsa"
 	hud_carrying = "Carregando:",
-	hud_carry_yayo = "Pó",
-	hud_carry_meth = "Metametanfetamína",
-	hud_carry_evidence_bag = "Evidência",
-	hud_carry_lance_bag = "Furadeira Térmica",
-	hud_carry_circuit = "Servidor",
-	hud_carry_equipment_bag = "Equipamento",
-	hud_carry_safe = "Cofre",
-	hud_carry_present = "Presente",
-	hud_carry_wine = "Vinho",
-	hud_carry_gold = "Ouro",
-	hud_carry_artifact = "Artefato",
-	hud_carry_pig = "Porco",
-	hud_carry_painting = "Pintura",
-	hud_carry_warhead = "Ogiva",
-	hud_carry_money = "Dinheiro",
-	hud_carry_bike_part = "Parte da moto",
-	hud_carry_diamonds = "Jóias",
-	hud_carry_turret = "Parte da sentinela",
-	hud_carry_person = "Pessoa",
-	hud_carry_goat = "Cabra",
-	hud_carry_ammo = "Cartuchos",
-	hud_carry_coke = "Cocaína",
-	hud_carry_prototype = "Protótipo",
-	hud_carry_helmet = "Capacete BCI",
-	hud_carry_diamonds_dah = "Diamantes",
+	hud_carry_cloaker_money = "Dinheiro do Cloaker",--Cloaker Money
+	hud_carry_battery = "Bateria",--Battery
+	hud_carry_equipment_bag = "Equipamento",--Equipment
+	hud_carry_old_wine = "Vinho Velho",--Old wine
+	hud_carry_shoes = "Saltos Altos",--High heels
+	hud_carry_person = "Cadáver",--Person
+	hud_carry_counterfeit_money = "Dinheiro Falso",--Counterfeit Money
+	hud_carry_watertank_empty_bag = "Tanque Vazio",--Empty tank
+	hud_carry_warhead = "Ogiva",--Warhead
+	hud_carry_masterpiece_painting = "Pintura",--Masterpiece
+	hud_carry_weapon_scar = "Rifle de Batalha",--Battle Rifle
+	hud_carry_engine_12 = "Motor 12",--Engine 12
+	hud_carry_robot_toy = "Boneco de Lata",--Tin Boy toy
+	hud_carry_engine_5 = "Motor 5",--Engine 5
+	hud_carry_samurai = "Armadura de Samurai",--Samurai armor
+	hud_carry_pig = "Porco",--Pig
+	hud_carry_expensive_wine = "Vinho Caro",--Expensive wine
+	hud_carry_circuit = "Servidor",--Server
+	hud_carry_safe = "Cofre",--Safe
+	hud_carry_engine_2 = "Motor 2",--Engine 2
+	hud_carry_parachute = "Para-quedas",--Parachute
+	hud_carry_prototype = "Protótipo",--Prototype
+	hud_carry_coke = "Cocaína",--Coke
+	hud_carry_engine_9 = "Motor 9",--Engine 9
+	hud_carry_cloaker_cocaine = "Cocaína do Cloaker",--Cloaker Cocaine
+	hud_carry_black_tablet = "Tablete Preto",--Black tablet
+	hud_carry_vr_headset = "Fone de VR",--Vr headset
+	hud_carry_meth = "Metanfetamína",--Meth
+	hud_carry_money = "Dinheiro",--Money
+	hud_carry_bike_part = "Parte da Moto",--Bike Part
+	hud_carry_coke_pure = "Puro Cocaína",--Pure Cocaine
+	hud_carry_hope_diamond = "O Diamante",--The Diamond
+	hud_carry_cro_loot = "Parte da Bomba",--Bomb Part
+	hud_carry_engine_11 = "Motor 11",--Engine 11
+	hud_carry_cage_bag = "Partes da Gaiola",--Cage Parts
+	hud_carry_diamonds = "Jóias",--Jewelry
+	hud_carry_engine_8 = "Motor 8",--Engine 8
+	hud_carry_engine_6 = "Motor 6",--Engine 6
+	hud_carry_rubies = "Rubis",--Rubies
+	hud_carry_sandwich = "Torrada do Almir",--Almir's Toast
+	hud_carry_gold = "Ouro",--Gold
+	hud_carry_weapons = "Rifles de Assalto",--Assault Rifles
+	hud_carry_artifact = "Artefato",--Artifact
+	hud_carry_goat = "Cabra",--Goat
+	hud_carry_giant_toothbrush = "Escova de Dente Gigante",--Giant toothbrush
+	["hud_carry_???"] = "Baú do Dentista",--The Dentist's loot
+	hud_carry_paper_roll = "Rolo de Papel",--Paper Roll
+	hud_carry_euphadrine_pills = "Comprimidos de Efedrina",--Ephedrine Pills
+	hud_carry_engine_1 = "Motor 1",--Engine 1
+	hud_carry_weapon_glock = "Pistolas",--Pistols
+	hud_carry_diamonds_dah = "Diamantes",--Diamonds
+	hud_carry_cloaker_gold = "Ouro do Cloaker",--Cloaker Gold
+	hud_carry_vehicle_falcogini = "Falcogini",--Falcogini
+	hud_carry_red_diamond = "Diamante Vermelho",--Red Diamond
+	hud_carry_special_person = "Cadáver",--Person
+	hud_carry_helmet = "Capacete BCI",--BCI Helmet
+	hud_carry_engine_3 = "Motor 3",--Engine 3
+	hud_carry_mayan_gold = "Ouro Maia",--Mayan gold
+	hud_carry_engine_10 = "Motor 10",--Engine 10
+	hud_carry_compl_ovk_safe = "Cofre",--Safe
+	hud_carry_breaching_charges = "Cargas Explosivas",--Breaching charges
+	hud_carry_grenades = "Granadas de Explosão",--Frag Grenades
+	hud_carry_present = "Presente",--Present
+	hud_carry_evidence_bag = "Evidência",--Evidence
+	hud_carry_ammo = "Cartuchos",--Shells
+	hud_carry_yayo = "Pó",--Yayo
+	hud_carry_diamond_necklace = "Colar de Diamante",--Diamond necklace
+	hud_carry_ladder_bag = "Escada",--Ladder
+	hud_carry_engine_4 = "Motor 4",--Engine 4
+	hud_carry_huge_bag = "A Besta",--The Beast
+	hud_carry_explosives_bag = "Explosivos",--Explosives
+	hud_carry_fireworks_bag = "Fogos de Artifício",--Fireworks
+	hud_carry_weapon = "Rifles de Assalto",--Assault Rifles
+	hud_carry_watertank_full_bag = "Tanque Cheio",--Full tank
+	hud_carry_winch_bag = "Parte do Gancho",--Winch part
+	hud_carry_lance_bag = "Furadeira Térmica",--Thermal drill
+	hud_carry_lost_artifact = "Artefato Perdido",--Lost artifact
+	hud_carry_painting = "Pintura",--Painting
+	hud_carry_box = "Baú",--Box
+	hud_carry_engine_7 = "Motor 7",--Engine 7
+	hud_carry_wine = "Vinho",--Wine
+	hud_carry_master_server = "Servidor Mestre",--Master server
+	hud_carry_turret = "Parte da Torreta",--Turret part
 	hud_instruct_throw_bag = "$BTN_USE_ITEM para jogar",
 	
 	-- Outros Interagindo
@@ -176,7 +291,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	hud_action_fixing_bfd_drill = "Consertando a FGpC", --Furadeira Grande pra Caralho
 	hud_action_starting_drill = "Iniciando a FGpC",
 	hud_action_stoping_drill = "Parando a FGpC",
-	hud_action_placing_ecm_jammer = "Colocando o ECM Jammer",
+	hud_action_placing_ecm_jammer = "Colocando o Bloqueador ECM",
 	hud_action_disabling_alarm_pager = "Respondendo o Pager",
 	hud_action_upgrading_lance = "Melhorando a furadeira térmica",
 	hud_action_placing_lance = "Preparando a furadeira térmica",
@@ -189,8 +304,8 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	hud_action_upgrading_drill = "Melhorando a Furadeira",
 	
 	-- Interações
-	hud_instruct_mask_on = "Segure $BTN_USE_ITEM para colocar a mascará",
-	["hud_take_???"] = "Segure $BTN_INTERACT para pegar o baú do dentista?", -- thanks to "test1"
+	hud_instruct_mask_on = "Segure $BTN_USE_ITEM para colocar a máscara",
+	["hud_take_???"] = "Segure $BTN_INTERACT para pegar o baú do dentista", -- thanks to "test1"
 	hud_stop_drill = "Segure $BTN_INTERACT para parar a FGpC",
 	hud_start_drill = "Segure $BTN_INTERACT para iniciar a FGpC",
 	hud_fix_bfd_drill = "Segure $BTN_INTERACT para consertar a FGpC",
@@ -206,11 +321,11 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	hud_int_big_computer_server = "Segure $BTN_INTERACT para acessar o computar remotamente",
 	hud_int_big_computer_unhackable = "Você só pode hackear um computador uma vez",
 	debug_interact_embassy_door = "Segure $BTN_INTERACT para abrir a porta",
-	hud_int_press_interaction_close = "Segure $BTN_INTERACT para fechar",
-	hud_int_press_interaction_open = "Segure $BTN_INTERACT para abrir",
+	hud_int_press_interaction_close = "Aperte $BTN_INTERACT para fechar",
+	hud_int_press_interaction_open = "Aperte $BTN_INTERACT para abrir",
 	debug_interact_c4_bag = "Segure $BTN_INTERACT para pegar os explosivos",
 	debug_interact_c4 = "Segure $BTN_INTERACT para colocar a C4",
-	hud_starting_heist = "Preparando a mascará",
+	hud_starting_heist = "Preparando a máscara",
 	debug_interact_equiptment_apartment_key = "Pegue as chaves do Chavez",
 	debug_interact_apartment_key = "Aperta $BTN_INTERACT para usar as chaves",
 	hud_int_take_chavez_keys = "Segure $BTN_INTERACT para as chaves do Chavez",
@@ -266,7 +381,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	hud_int_use_bridge = "Segure $BTN_INTERACT para fazer uma ponte no buraco",
 	hud_int_take_bridge = "Segure $BTN_INTERACT para pegar a folha de metal",
 	hud_int_hold_grab_the_bag = "Segure $BTN_INTERACT para pegar a bolsa",
-	hud_int_hold_take_meth = "Segure $BTN_INTERACT para pegar a metametanfetamína",
+	hud_int_hold_take_meth = "Segure $BTN_INTERACT para pegar a metanfetamína",
 	debug_interact_circuit_breaker = "Aperte $BTN_INTERACT para ligar a energia",
 	debug_interact_stash_planks = "Segure $BTN_INTERACT para barricar",
 	debug_interact_stash_planks_pickup = "Segure $BTN_INTERACT para pegar tábuas",
@@ -275,7 +390,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	dialog_cancel = "Cancelar",
 	dialog_yes = "Sim",
 	dialog_no = "Não",
-	dialog_ending_unlocked_title = "Vídeo desbloqueado",
+	dialog_ending_unlocked_title = "Vídeo desbloqueiado",
 	dialog_are_you_sure_you_want_to_quit = "Tem certeza que deseja sair?",
 	dialog_warning_title = "AVISO",
 	dialog_mp_kicked_out_title = "Expulso",
@@ -298,7 +413,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	
 	-- Tela de título
 	menu_visit_forum3 = "Pressione qualquer botão",
-	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox 360",
+	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
 	
 	-- Menu Principal
 	menu_visit_community = "Comunidade",
@@ -310,8 +425,8 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_crimenet_offline_help = "Entra na crime.net sozinho",
 	menu_player_inventory = "Inventário",
 	menu_player_inventory_help = "Veja o seu inventário",
-	menu_steam_inventory = "Inventário da Steam",
-	menu_steam_inventory_help = "Veja o seu Inventário da sua Steam",
+	menu_steam_inventory = "Inventário do Steam",
+	menu_steam_inventory_help = "Veja o seu Inventário do seu Steam",
 	menu_crew_management = "Equipe AI",
 	menu_crew_management_help = "Gerencia a sua equipe AI: Personagens e Armamento",
 	menu_become_infamous = "Se torne Infâmia",
@@ -372,6 +487,39 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_customize_controller_help = "Escolhe o seu layout de teclado e mouse",
 	menu_control_option_default = "Opções do controle padrão",
 	menu_control_option_default_help = "Reseta as opções do controle para o seu estado padrão",
+	-- "Configure os botões"
+	menu_controller_type = "Tipo de controle",
+	menu_controller_normal = "Em pé",
+	menu_controller_vehicle = "Em veículo",
+	menu_button_move_forward = "Andar para frente",
+	menu_button_move_back = "Andar para trás",
+	menu_button_move_left = "Andar para esquerda",
+	menu_button_move_right = "Andar para direita",
+	menu_button_fire_weapon = "Atirar",
+	menu_button_aim_down_sight = "Mirar",
+	menu_button_weapon_slot1 = "Primária",
+	menu_button_weapon_slot2 = "Secundária",
+	menu_button_switch_weapon = "Trocar de arma",
+	menu_button_reload = "Recarregar",
+	menu_button_weapon_gadget = "LIGAR/DESLIGAR GADGET",
+	menu_button_weapon_firemode = "Trocar o modo de tiro",
+	menu_button_throwable = "Usar a Granada",
+	menu_button_sprint = "Correr",
+	menu_button_jump = "Pular",
+	menu_button_crouch = "Agachar",
+	menu_button_melee = "Ataque corpo-a-corpo",
+	menu_button_shout = "Interagir/Gritar",
+	menu_button_shout_secondary = "Parar os Bots",
+	menu_button_deploy = "Colocar/Usar o equipamento",
+	menu_button_chat_messsage = "Abrir a conversa",
+	menu_button_push_to_talk = "Aperte para falar",
+	menu_button_cash_inspect = "Inspecionar Arma",
+	menu_button_deploy_bipod = "Usar o bipé",
+	menu_button_change_equipment = "Trocar Equipamento",
+	menu_button_toggle_hud = "Alternar a HUD",
+	menu_button_drop_in_accept = "Aceitar o Visitante",
+	menu_button_drop_in_return = "Retornar o Visitante",
+	menu_button_drop_in_kick = "Expulsar o Visitante",
 	-- Video
 	menu_resolution = "Resolução",
 	menu_resolution_help = "Ajuste o nível de detalhes da sua tela.",
@@ -470,12 +618,12 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_max_streaming_chunk_help = "Máxima quantidade de dados por operação de leitura o jogo vai acessar sincronizamente do HDD.",
 	-- Inferface do Usuário
 	menu_loading_hints = "Telas de Loading: Dicas",
-	menu_loading_hints_help = "Mostre dicas enquanto o jogo carrega",
+	menu_loading_hints_help = "Mostra dicas enquanto o jogo carrega",
 	
 	-- HUD
 	hud_stats_no_tracked = "NENHUMA CONQUISTA SENDO VIGIADA",
 	hud_stats_tracked = "CONQUISTAS VIGIADAS",
-	hud_trophy_popup = "TROFÉU DESBLOQUEADO!",
+	hud_trophy_popup = "TROFÉU DESBLOQUEIADO!",
 	hud_achievement_milestone_popup = "Meta de conquistas alcançada",
 	hud_stats_bags_secured_value = "VALOR DAS BOLSAS ASSEGURADAS",
 	hud_challenge_popup = "TAREFA SECUNDÁRIA CONCLUÍDA!",
@@ -486,7 +634,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_es_playing_track = "Tocando:",
 	hud_stats_bags_secured = "BOLSAS ASSEGURADAS",
 	hud_instant_cash = "Dinheiro instantâneo",
-	hud_casing_mode_ticker = "Você está em modo de revestimento, coloque a mascará para iniciar o golpe",
+	hud_casing_mode_ticker = "Você está em modo de revestimento, coloque a máscara para iniciar o golpe",
 	hud_assault_assault = "Operação Policial em Progresso",
 	hud_assault_point_no_return_in = "Ponto de sem retorno",
 	hud_assault_vip = "Derrote o capitão para terminar a operação",
@@ -555,7 +703,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_asset_lock_buy_bodybags_asset = 'Habilidade avançada "Bicho Parado" para desbloquear',
 	menu_asset_gage_assignment = "Pacotes do Gage Courier",
 	menu_loadout = "Equipamentos",
-	menu_team_loadout = "Equipamentos da Equipe",
+	menu_team_loadout = "Equip. da Equipe",
 	menu_jukebox = "Música",
 	menu_waiting_is_not_ready = "NÃO TÁ PRONTO",
 	menu_waiting_is_ready = "PRONTO",
@@ -576,6 +724,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_briefing = "Descrição da Crime.net:",
 	
 	-- Lobby
+	menu_preferred_character_lobby_error = "Não pode mudar enquanto estiver num lobby",
 	menu_crewpage = "Fase de Pré-planejamento",
 	menu_edit_game_settings = "Editar as Configurações do Lobby",
 	menu_players_list = "Lista de Jogadores",
@@ -586,14 +735,18 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_lobby_menu_state_blackmarket = "No Inventário",
 	menu_lobby_menu_state_custom_safehouse = "Mexendo no seu Escondeirijo",
 	menu_lobby_menu_state_options = "Nas Opções",
-	menu_lobby_menu_state_blackmarket_mask = "Customizando uma mascará",
-	menu_lobby_menu_state_skilltree = "Nas Skills",
+	menu_lobby_menu_state_blackmarket_mask = "Customizando uma máscara",
+	menu_lobby_menu_state_skilltree = "Nas Habilidades",
 	menu_lobby_menu_state_blackmarket_weapon = "Modificando uma arma",
 	menu_lobby_menu_state_payday = "Em Payday",
 	menu_lobby_menu_state_crimenet = "Na Crime.Net",
+	menu_start_the_game = "Começar o assalto",
 	--In Lobby -> Edit Game Settings
 	menu_permission = "Permissão",
-	menu_permission_help = "Determina quem pode entrar no seu Lobby. Público, qualquer um pode entrar. Amigos, só os seus amigos podem entrar. Apenas Convidados, só os que tem os convites, pode entrar.",
+	menu_permission_help = "Determina quem pode entrar no seu Lobby. Público, qualquer um pode entrar. Apenas Amigos, só os seus amigos podem entrar. Privado, só os que tem os convites, pode entrar.",
+	menu_private_game = "Privado",
+	menu_friends_only_game = "Apenas Amigos",
+	menu_public_game = "Público",
 	menu_reputation_permission = "Nível Permitido",
 	menu_reputation_permission_help = "Jogadores abaixo desse nível não podem entrar e você não pode colocar mais do que o seu nível.",
 	menu_toggle_drop_in = "Visitantes",
@@ -635,7 +788,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_es_skill_bonus = "Bônus da habilidade",
 	menu_mutators_reduction_exp = "Redução das Mutações",
 	menu_completed_objectives_of = "$COMPLETED de $TOTAL ($PERCENT%)",
-	menu_es_gage_assignment_reward = "Prêmio desbloqueado!",
+	menu_es_gage_assignment_reward = "Prêmio desbloqueiado!",
 	menu_es_calculating_experience = "Calculando experiência...",
 	menu_es_coins_progress = "Moedas continentais",
 	menu_es_next_level = "Próximo nível em:",
@@ -672,10 +825,10 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	victory_total_specials_kills = "TOTAL DE VÍTIMIAS ESPECIAIS:",
 	victory_total_head_shots = "TIROS NA CEBAÇA:",
 	victory_favourite_weapon = "ARMA PREFERIDA:",
-	victory_best_accuracy_name = "$PLAYER_NAME, com $SCORE% de precisão",
-	victory_best_killer_name = "$PLAYER_NAME, com $SCORE vítima(s)",
-	victory_best_special_name = "$PLAYER_NAME, com $SCORE vítima(s) especial(is)",
-	victory_most_downs_name = "$PLAYER_NAME, com $SCORE queda(s)",
+	--victory_best_accuracy_name = "$PLAYER_NAME ($SCORE%)",
+	--victory_best_killer_name = "$PLAYER_NAME ($SCORE)",
+	--victory_best_special_name = "$PLAYER_NAME ($SCORE)",
+	--victory_most_downs_name = "$PLAYER_NAME ($SCORE)",
 	debug_undecided = "Incapaz de escolher uma arma",
 	victory_civilians_killed_penalty = "CIVIS MORTOS:",
 	menu_es_stats_gage_assignment = "Pacotes do Gage",
@@ -868,7 +1021,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	
 	-- Crime.net
 	cn_menu_num_players_online = "Crime.net/usuários_online: $amount",
-	menu_ghost_bonus = 'Bônus de Sigilo do último contrato: EXP +$exp_bonus%',--Stealth bonus from last contract: XP +$exp_bonus;%
+	menu_ghost_bonus = 'Bônus de Sigilo do último contrato: EXP +$exp_bonus%',
 	menu_cn_casino = "Casino do Payday",
 	menu_cn_chill = "Escondeirijo",
 	menu_cn_chill_combat = "Invasão do Escondeirijo",
@@ -984,7 +1137,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	dialog_upgrade_safehouse = "Você quer mesmo melhorar o quarto de $character?\n\nirá custar $cost Moedas Continentais.",
 	dialog_previous_tier = "Anterior",
 	dialog_next_tier = "Próximo",
-	menu_cs_trophy_counter = "$completed de $total troféis concluídos",
+	menu_cs_trophy_counter = "$completed de $total troféus concluídos",
 	menu_cs_upgrade_cost = "Irá custar ##$cost## Moeda(s) Continental(is)",
 	menu_cs_rooms_help_hover = "Clique numa sala para atualizar",
 	menu_cs_enter_safehouse = "Entre no seu Escondeirijo",
@@ -1001,7 +1154,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_chill_combat_under_attack_desc = "O seu escondeirijo está sendo atacada pela polícia!\nAs atualizações estão bloqueadas até que a polícia seja expulsa!",
 	menu_cn_chill_combat_defend = "Defender o Escondeirijo",
 	menu_cn_chill_combat_ignore_defend = "Deixar que o grupo cuida disso",
-	menu_cs_trophies = "Troféis",
+	menu_cs_trophies = "Troféus",
 	menu_cs_upgrade_max = "Essa sala está no seu nível máximo e não pode ser atualizada mais do que isso.",
 	menu_cs_rooms_help_hover_no_upgrade = "Você não pode atualizar essa sala mais do que isso.",
 	menu_cs_basement = "Porão",
@@ -1015,7 +1168,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_unlock_progress = "Progresso:",
 	menu_es_coins_progress = "Moedas Continentais",
 	menu_cs_total_upgrades = "Atualizações compradas no total",
-	menu_cs_ground_floor_desc = "O térreo é onde que o principal fica. Bonnie tá de boa com o seu canto de apostas, próximo dela é o canto do Jiro. E o bar do Jimmy, é claro\n\nNa garagem, Houston e Rust trabalham no seus projetos. Sydney tem um estúdio de mascarás também.",
+	menu_cs_ground_floor_desc = "O térreo é onde que o principal fica. Bonnie tá de boa com o seu canto de apostas, próximo dela é o canto do Jiro. E o bar do Jimmy, é claro\n\nNa garagem, Houston e Rust trabalham no seus projetos. Sydney tem um estúdio de máscaras também.",
 	menu_cs_basement_desc = "O porão, tem o John Wick preparando o estande de tiro, junto com a oficina do Wolf. No outro lado, Sokol e Dragan tem os seus próprios academias e áreas de treinamentos. Bodhi tem uma oficina para suas pranchas também. E tem o canto do Jacket.\n\nO porão também é a entrada pro cofre, onde que a gangue tem todo seu dinheiro suado guardado.",
 	menu_cs_help_terry_2 = "Scarface está acostumado a viver em estilo, então ele está coletando peças de arte para decorar o seu quarto. Ele tem um terno bonito também.",
 	menu_cs_help_terry_3 = "Piano, checado. Tigre, checado. Bem-vindo ao quarto do Scarface. Consegue sentir o cheiro do dinheiro agora? Ou da cocaína?",
@@ -1056,17 +1209,17 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_cs_help_vault_1 = "O velho cofre era muito pequeno para caber a ganância da gangue.",
 	menu_cs_help_houston_3 = "A garagem perfeita com um carro perfeito dentro. E um erro de moral mas com mecânico eficiente.",
 	menu_cs_help_hoxton_3 = "Um escritório limpo e da hora, com tudo no seu lugar. Hoxton fez isso, você acreditaria nisso. Aldstone ensinou ele bem.",
-	menu_cs_help_sydney_3 = "Se um artista sentir que a sua área de trabalho não estiver completa, o trabalho nunca vai tá também. O estúdio de criação de mascará mais bonito em Washington bem aqui.",
+	menu_cs_help_sydney_3 = "Se um artista sentir que a sua área de trabalho não estiver completa, o trabalho nunca vai tá também. O estúdio de criação de máscara mais bonito em Washington bem aqui.",
 	menu_cs_help_hoxton_1 = "Hoxton tá tentando colocar as informações e os arquivos em ordem. Está uma bela bagunça, mas ele ainda tá de olho nos arquivos do FBI daqui.",
 	menu_cs_help_bonnie_1 = "Isso é onde Bonnie está planejando em preparar o seu cantinho de apostas. Não tem garantia que ela vai achar pessoas para apostar.",
 	menu_cs_help_bodhi_3 = "Aperfeiçoando a criação de pranchas têm trazido ao Bodhi o estado mental que ele precisa. Agora ele tá pronto para os desafios que estão no seu caminho.",
-	menu_cs_help_sydney_1 = "Sydney tem um estúdio de mascará preparado na garagem e preparado um computador para nevagar e achar diferentes designs para as armas da gangue.",
+	menu_cs_help_sydney_1 = "Sydney tem um estúdio de máscara preparado na garagem e preparado um computador para nevagar e achar diferentes designs para as armas da gangue.",
 	menu_cs_help_clover_3 = 'A casa agora é que nem uma fortaleza. Tem câmeras em todo canto, você nem pode ir pro banheiro sem a Clover "olhando" você.',--The house is now like a fortress. There are cameras everywhere - you can't even go to the bathroom without Clover registering it. [Nota do Gabs: uhhh...]
 	menu_cs_help_myh_1 = "Duke achou um lugar perfeito para ele na casa, aconchegante no segundo andar. É uma sala com uma vista. Além disso, privacidade!",
 	menu_cs_help_jimmy_3 = "O bar aumentou e Aldstone conseguiu achar um atendente melhor. Pelo visto, planejar com Jimmy é nada comparado à sua velha área de trabalho.",
 	menu_cs_help_dragon_3 = "Japão ainda vive no coração do Jiro e também no seu canto do Escondeirijo. Uns amigos leais ao Jiro nos velhos dias dele, sem dúvida e com respeito.",
 	menu_cs_help_dragan_3 = "Uma academia melhor, um saco de pancada para testar as armas corpo-a-corpo da gangue. Isso é tipo de coisa que Dragan gosta. Venha e aproveita.",
-	menu_cs_help_sydney_2 = "Com ferramentas e materiais melhores, Sydney tem uma área de trabalho bem legal e pode colocar as mascarás em destaque.",
+	menu_cs_help_sydney_2 = "Com ferramentas e materiais melhores, Sydney tem uma área de trabalho bem legal e pode colocar as máscaras em destaque.",
 	menu_cs_help_rust_3 = "Rust tem todas suas ferramentas e finalmente pode relaxar no seu canto em paz.",
 	menu_cs_help_jowi_2 = "Um novo estande de tiro, tá na hora de afiar as habilidades e preparar para próxima missão. Wick não vai agir por falta de treino.",
 	menu_cs_help_dallas_1 = "Canto do Dallas é onde ele planeja os novos assaltos e fica ligado no mundo do lado de fora. Aqui ele pode facilmente acessar os Tarefas Secundárias e a Crime.Net.",
@@ -1087,7 +1240,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_cs_help_sokol_3 = "Isso é um pequeno templo de róquei agora. Faz o Sokol se sentir em casa. Ninguém ainda quebrou o recorde dele, ainda.",
 	menu_cs_help_wolf_3 = "Isso tá ficando ridiculamente perigoso perto de uma perfeita sinergia de um engenheiro brilhante com uma área de trabalho excelente. Toma cuidado, mundo.",
 	
-	-- Troféis da Safe House
+	-- Troféus da Safe House
 	trophy_boxing_gloves = "Grande Papai",
 	trophy_boxing_gloves_desc = "Você não acreditaria, mas você pode matar um Dozer com essa coisa.",
 	trophy_boxing_gloves_objective = 'Nocauteie $max_progress Bulldozer usando as "OVERKILL Boxing Gloves".',
@@ -1110,9 +1263,9 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	trophy_smg_objective = "Mate 25 inimigos em 25 segundos só usando submetralhadoras.",
 	trophy_jfk = "Assassinato Fracassado",
 	trophy_jfk_desc = "Um rilfe de sniper. Algumas pessoas não pensam das muitas possibilidades disso.",
-	trophy_jfk_objective = 'Conclua o Disfarçado (Undercover) na dificuldade "Extremo" ou acima, como todo mundo usando só rifle de snipers, sem habilidades e vestindo o terno.',
+	trophy_jfk_objective = 'Conclua o Disfarçado (Undercover) na dificuldade "Extremo" ou acima, com todo mundo usando só rifle de snipers, sem habilidades e vestindo o terno.',
 	trophy_pacifier = "Primeiros Passos",
-	trophy_pacifier_desc = "Até mesmo um infâmous começou pequeno. Ou em outras palavras, eramos bem ruins no começo.",
+	trophy_pacifier_desc = "Até mesmo um infâmous começou pequeno. Ou em outras palavras, erámos bem ruins no começo.",
 	trophy_pacifier_objective = "Conclua todos os Tutoriais.",
 	trophy_goat = "Cabra",
 	trophy_goat_desc = "Aquele dia com as cabras... mas quem teve a ideia de trazer um pra cá? Nem é doméstico.",
@@ -1125,8 +1278,8 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	trophy_fish_trophy_desc = "Quieto como um Bagre, você roubou todo esse dinheiro do iate. Mas não foi fácil.",
 	trophy_fish_trophy_objective = "Conclua The Yacht Heist sem disparar o alarme com todo mundo com risco de detectação no máximo.",
 	trophy_jfr_1 = "Historiógrafo",
-	trophy_jrf_1_desc = "Uma das aquisições das quatro mascarás de Aldstone, ele se sente bem orgulhoso sobre isso, especialmente essa boina vermelha suja de sangue.",
-	trophy_jrf_1_completion_objective = "Desbloqueia todas as quatro mascarás dos personagens de RAID.",
+	trophy_jrf_1_desc = "Uma das aquisições das quatro máscaras de Aldstone, ele se sente bem orgulhoso sobre isso, especialmente essa boina vermelha suja de sangue.",
+	trophy_jrf_1_completion_objective = "Desbloqueia todas as quatro máscaras dos personagens de RAID.",
 	trophy_courtesy = "Cortesia",
 	trophy_courtesy_desc = "Um ármario de primeiros socorros. Porque a gente se importa com a profissão médica.",
 	trophy_courtesy_objective = 'Conclua o Beneath the Mountain na dificuldade "Caótico" ou acima, sem matar nenhum médico.',
@@ -1161,12 +1314,12 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	trophy_dance = "Ainda vivo",
 	trophy_dance_desc = 'Lêia e aprenda. Depois dança. Só não tropeça e não liga para as minas.',
 	trophy_dance_objective = 'Conclua "Nightclub" apenas usando minas para matar os inimigos.',
-	trophy_box_2 = "O Caixão do Elefante",
+	trophy_box_2 = "O Baú do Elefante",
 	trophy_box_2_desc = "Nos Portões da Memória do Silêncio você fica de frente. Um, dois três, um. Abre elas e vê a escuridão afogando o mundo, para o banho de todos, enquanto o novo guarda levanta. Zi dingir kia kanpa, zi dingir anna kanpa.",
 	trophy_box_2_completion_objective = 'Conclua "The Breakin´ Feds" na dificuldade "Normal" ou acima.',
 	trophy_eng_3 = "A Marinha",
-	trophy_end_3_desc = "Em honra daquele que sobreviveu o Terror Interdimensional!",
-	trophy_eng_3_completion_objective = 'Em "GO Bank" ou "Four Store" ache a pegue os quatro troféis escondidos da Marinha.',
+	trophy_eng_3_desc = "Em honra daquele que sobreviveu o Terror Interdimensional!",
+	trophy_eng_3_completion_objective = 'Em "GO Bank" ou "Four Store" ache a pegue o troféu escondido da Marinha cinco vezes.',
 	trophy_ring = "O Anel",
 	trophy_ring_desc = "Nove pelo homens mortais. E um décimo pelo assaltante puto que condena todos eles para morte.",
 	trophy_ring_objective = 'Em "Birth Of Sky", ache todos os 9 aneis.',
@@ -1176,6 +1329,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	trophy_coke = "O Mundo é Seu",
 	trophy_coke_desc = "O mundo, chico e tudo isso.",
 	trophy_coke_objective = "Assegure 24 bolsas de pó em Scarface Mansion (Mansão Scarface)",
+	trophy_coke_progress = "Pó assegurado",
 	trophy_train_bomb = "Tickets, por favor!",
 	trophy_train_bomb_desc = "Todo mundo gosta de trens. E você gosta de roubar os trens também. Você roubou um numa floresta uma vez, lembra?",
 	trophy_train_bomb_objective = 'Conclua a Bomba: Floresta (Bomb: Forest) na dificuldade "Desejo Suicída" ou acima. Para concluir esse desafio, você tem que jogar do ínicio até o final.',
@@ -1189,20 +1343,113 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	trophy_smwish_desc = "Uma estatúa para honrar o Assaltante Mestre.",
 	trophy_smwish_objective = 'Conclua todos os contratos na dificuldade "Sentença de Morte" com a mêcanica de "Única Queda" ativada.',
 	trophy_bex = "Fita do Vlad",
-	trophy_bex_desc = 'Oh, cara. Vlad vai ficar bem puto se ele descobrir que você não queimou isso. Mas, o que tem de especial sobre essa mensagem? Não é segredo que ele sempre toca alguns ângulos...',
+	trophy_bex_desc = 'Oh, cara. Vlad vai ficar bem puto se ele descobrir que você não queimou isso. Mas, o que tem de especial sobre essa fita? Não é segredo que ele sempre toca alguns ângulos...',
 	trophy_bex_objective = "Procura um pouco mais no cofre do banco do San Martín.",
 	trophy_stealth = "Quem tá aí?",
 	trophy_stealth_desc = "Você conseguiu isso com as suas habilidades de sigilo e a sua presença de fantasma.",
 	trophy_stealth_objective = 'Conclua 15 contratos em sigilo, no dificuldade "Extremo" ou acima.',
 	trophy_aru_2 = "Uma Guerra Boa Lutada",
 	trophy_aru_2_desc = "Olha só que pistola Parabellum bonito.",
-	trophy_aru_2_completion_objective = 'Conclui o Trabalho Secundário "Prepare for War".',
+	trophy_aru_2_completion_objective = 'Conclua a Tarefa Secundária "Prepare for War".',
 	trophy_bains_book = "Guia do Bain",
 	trophy_bains_book_desc = "Bain recebeu o Guia de Cagliostro como um pagamento de um contrato em um hospital em Nova Iorque, anos atrás.",
 	trophy_bains_book_completion_objective = "Conclua o Sem Misericórdia (No Mercy) na dificuldade Normal ou acima.",
-	trophy_tooth = "Mas é uma escova!",
+	trophy_tooth = "É uma bela escova!",
 	trophy_tooth_desc = "ISSO QUE CHAMO DE ESCOVA GIGANTE!",
-	trophy_tooth_objective = "Ache e assegure a escova de dentes na Sala de Pânico (Panic Room).",
+	trophy_tooth_objective = "Ache e assegure a Escova de Dente Gigante na Sala de Pânico (Panic Room).",
+	trophy_aru_1 = "Amigos do Peito",
+	trophy_aru_1_desc = 'O "Push Daggers", o seu par de amigos quando preciso',
+	trophy_aru_1_completion_objective = 'Conclua a Tarefa Secundária "Knife Legislation".',
+	trophy_aru_3 = "Tagalera",
+	trophy_aru_3_desc = "Uma boa velha submetralhadora MP40, habilidades restauradas.",
+	trophy_aru_3_completion_objective = 'Conclua a Tarefa Secundária "Rapid Retribution".',
+	trophy_aru_4 = "Parceiro do Herói",
+	trophy_aru_4_desc = "O Rifle Galant é um rifle de serviço de confiança das forças especiais dos Estados Unidos. A jóia de coroa em qualquer coleção de respeito.",
+	trophy_aru_4_completion_objective = 'Conclua a Tarefa Secundária "The Control`s Hundred Tab".', --coloquei o ` só pra evitar de dá merda no código
+	trophy_bank_heists = "A velha fé",
+	trophy_bank_heists_desc = "Vocês estiveram juntos por muito tempo. Acho que tá na hora de uma dessas relações de amor e ódio.",
+	trophy_bank_heists_objective = 'Conclua um Roubo ao Banco na dificuldade "Extremo" ou acima.',
+	trophy_black_plate = "Prato Preto",
+	trophy_black_plate_desc = "Algumas coisas é melhor esquecer, para que os segredos não consomem o mundo. Ofereça a sua carne, seu coração, para atrasar a escuridão. Fique de pé no abismo mais fundo e você irá dá as boas-vindas ao fim, para as fendas e buracos, a Terra é boa.",
+	trophy_black_plate_completion_objective = 'Conclua Leilão Shacklethorne (Shacklethorne Auction) na dificuldade Normal ou acima.',
+	trophy_bonfire = "O Botão de queimar o Dinheiro Secundário",
+	trophy_bonfire_desc = "Não aperta o botão!",
+	trophy_bonfire_objective = "Queima todo seu dinheiro secundário no Escondeirijo.",
+	trophy_box_1 = "Baú do Médico",
+	trophy_box_1_desc = "O Ouro é brilhoso suficiente para queimar, escuridão suficiente para cegar. Isso espera, Morto mas Sonhando de baixo da Terra, até o Alinhamento do Tempo. Três e Um, Quatro e Um. O Observador retorna.",
+	trophy_box_1_completion_objective = "Conclua Cassino Sorriso Dourado (Golden Grin Casino) e A Caverna de Henry (Henry's Rock) na dificuldade Normal ou acima.",
+	trophy_box_3 = "Baú do Escritor",
+	trophy_box_3_desc = "Por sua luz fugirias, mas não podes fugir e somos levados ao chão. Do coração do inferno você é esfaqueado. Por amor de ódio, a escuridão cospe em ti. Tu não encontrarás repito nesta Terra",
+	trophy_box_3_completion_objective = "Conclua A Caverna de Henry (Henry's Rock) na dificuldade Normal ou acima.",
+	trophy_brb_1 = "Medalhão de Perseids",
+	trophy_brb_1_desc = "Esse medalhão de bronze foi feito na década 19. Isso retrata um Fleur De Lis e o cristal Peridoto, com uma escrita em cuneiforma antiga na borda. Isso foi enterrado em uma caixa forrado em chumbo por mais de 100 anos.",
+	trophy_brb_1_completion_objective = 'Conclua "Brooklyn Bank" na dificuldade "Extremo" ou acima.',
+	trophy_dartboard = "Jogo de dardos",
+	trophy_dartboard_desc = "Usa isso para mostrar a sua inprecisão. Granadas não contam.",
+	trophy_dartboard_objective = "Dê 500 tiros na cabeça.",
+	trophy_dartboard_progress = "Tiros na cabeça",
+	trophy_defender = "Cai fora do meu gramado!",
+	trophy_defender_desc = "Você conseguiu lutar contra os policiais. Esse arame farpado vai fazer o serviço deles mais difícil na próxima vez.",
+	trophy_defender_objective = 'Defende o seu escondeirijo com sucesso contra uma invasão policial na dificuldade "Extremo" ou acima.',
+	trophy_diamonds = "Diamantes",
+	trophy_diamonds_desc = "Você tinha que destruir uns carros pra ter essa coisa bonita.",
+	trophy_diamonds_objective = 'Conclua o "Diamond Store" com todas as bolsas e destruindo a Sentinela da SWAT, na dificuldade "Extremo" ou acima.',
+	trophy_discoball = "Disco da Noite",
+	trophy_discoball_desc = "Uma disco bola de bom gosto do Clube de Bom Gosto",
+	trophy_discoball_objective = 'Conclua "Night Club" em sigilo na dificuldade "Desejo Suicída" ou acima.',
+	--trophy_dozer_helmet = "Dozer",
+	trophy_dozer_helmet_desc = "Isso é um capacete do Dozer legal. Mantenha eles voando.",
+	trophy_dozer_helmet_objective = "Mate 100 unidades especiais.",
+	trophy_dozer_helmet_progress = "Unidades Especiais Mortos",
+	trophy_eng_1 = "A Bala",
+	trophy_eng_1_desc = "Cada bala que a gente atira, devemos lembrar que tem só uma, verdadeira Bala.",
+	trophy_eng_1_completion_objective = 'Em Roubo ao Banco ou "Jewelry Store", ache e pega o troféu escondido da Bala cinco vezes.',
+	trophy_eng_progress = "Troféus achados",
+	trophy_eng_2 = "O Rôbo",
+	trophy_eng_2_desc = "Máquina, Homem-Máquina, Abridor-de-Lata, Número 4. Esse rôbo tem muitos nomes!",
+	trophy_eng_2_completion_objective = 'Em "Shadow Raid" ou Primeiro Banco Mundial (First World Bank), ache e pegue o troféu escondido do Rôbo cinco vezes.',
+	trophy_eng_4 = "O Cultista",
+	trophy_eng_4_desc = "O Cultista se declarou um heroí só pra perceber as suas ações que provavelmente fazeria ele o vilão da história.",
+	trophy_eng_4_completion_objective = 'Em "Diamond Store" ou o Dia 1 do Resgate de Hoxton (Hoxton Breakout), ache e pegue o troféu escondido do Cultista cinco vezes.',
+	trophy_escape_van = "Fugindo na Van",
+	trophy_escape_van_desc = "Isso é um modelo da sua van. Vai te levar pra qualquer lugar, ou melhor, te levar pra longe de qualquer lugar.",
+	trophy_escape_van_objective = "Foge com sucesso 10 vezes.",
+	trophy_escape_van_progress = "Fugas com Sucesso",
+	trophy_evolution = "Evolução",
+	trophy_evolution_desc = "Experimente. Mutação. Evolua.",
+	trophy_evolution_objective = "Conclua qualquer missão com uma mutação ativa.",
+	--trophy_falcogini = "Falcogini",
+	trophy_falcogini_desc = "Um model de escala de um Falcogini. Sim, você roubou um de verdade. Saiu com estilo.",
+	trophy_falcogini_objective = 'Conclua "Car Shop" em qualquer dificuldade.',
+	trophy_fbi = "Tive que fazer isso",
+	trophy_fbi_desc = "Você teve uma pequena lembrança enquanto estava invadindo os escritórios do FBI.",
+	trophy_fbi_objective = 'Conclua o dia 2 do "Firestarter" em sigilo.',
+	trophy_framing_frame = "O Elefante na Sala",
+	trophy_framing_frame_desc = "Dá pra sentir que a pintura está olhando pra você...",
+	trophy_framing_frame_objective = 'Conclua "Framing Frame" na dificuldade "Extremo" ou acima, sem soar o alarme durante o dia 3 do contrato.',
+	trophy_hockey_team = "A Primeira Linha",
+	trophy_hockey_team_desc = "Quem são esses caras?",
+	trophy_hockey_team_objective = 'No dia 3 do "Firestarter", ache o poster raro do equipe de róquei da OVERKILL.',
+	trophy_host = "Mãe das Mães",
+	trophy_host_desc = "Você é o Host perfeito.",
+	trophy_host_objective = "Conlua 10 roubos com sucesso enquanto joga como Host.",
+	trophy_host_progress = "Roubos Jogados",
+	trophy_medic = "Médico",
+	trophy_medic_desc = "Uma seringa dourada. Já que você mandou muitos médicos pro hospital para resolver os seus problemas para o bem.",
+	trophy_medic_objective = "Mate 100 Médicos.",
+	trophy_medic_progress = "Médicos Mortos",
+	trophy_meth_cookbook = "Metanfetamína",
+	trophy_meth_cookbook_desc = "Para idiotas e outros que querem entrar nos negócios de cozinhar metanfetamína.",
+	trophy_meth_cookbook_objective = 'Conclua Pesadelo na Cozinha (Cook Off) com 25 bolsas de metanfetamína na dificuldade "Extremo" ou acima.',
+	trophy_run_turtle = "Não Tão Rápido",
+	trophy_run_turtle_desc = "Você não precisa ser um corredor mais rápido para ganhar a corrida. Não se você estiver a disposto a atirar na perna do outro.",
+	trophy_run_turtle_objective = "Ache a tartaruga escondida na Rua Tensa (Heat Street).",
+	trophy_sandwich = "Nem tá fresco...",
+	trophy_sandwich_desc = "Alguém gostou tanto desse sanduíche que até colocou em um cofre pra proteger. Deve ser bom.",
+	trophy_sandwich_objective = "Em O Grande Banco (The Big Bank), ache o sanduíche na metade em um cofre.",
+	trophy_tiara = "Tão bonita",
+	trophy_tiara_desc = "É bem bonita. Quem vai colocá-la?",
+	trophy_tiara_objective = 'Conclua "Ukrainian Job" na dificuldade "Desejo Suicída" ou acima, com ninguém tendo Bloqueador de CME.',
 	
 	-- Dicas de Telas de Loading
 	loading_trivia_title = "Curiosidades PAYDAY",
@@ -1211,8 +1458,9 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	loading_trivia_60 = "Capitão Winters não é um líder bonzinho.",
 	loading_trivia_65 = "Rust está marcado para morrer pela OVERKILL MC.",
 	loading_trivia_76 = "Dragan gasta uma fortuna em comidas saudáveis.",
-	loading_trivia_93 = "Bodhi odeia Tasers. Experimenta atirar em um com a Platypus enquanto joga com ele.",
+	loading_trivia_93 = "Bodhi odeia Tasers. Experimenta atirar em um com a Platypus enquanto joga como ele.",
 	loading_trivia_96 = "Eventos são roubos que acontecem em lugares especiais, que nem Dia das Bruxas. Espera por umas merdas bem doídas.",
+	-------------------------------------------
 	loading_heister_title = "Dica do Assaltante",
 	loading_heister_1 = "Mantenha esses capacetes voando!",
 	loading_heister_2 = "Você pode usar os Arquivos do FBI do jogo para ler sobre os seus aliados.",
@@ -1226,28 +1474,124 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	loading_heister_10 = "Se você quer se exibir com a sua arma enquanto estiver em um roubo, você pode inspecionar por apertar o botão de 'INSPECIONAR ARMA'.",
 	loading_heister_11 = "Tem um gadget? Liga-o apertando o botão de 'LIGAR/DESLIGAR GADGET'.",
 	loading_heister_12 = "Se você quer um desafio ou só quer zoar, você pode ativar algumas Mutações.",
-	loading_heister_13 = "Não tente isso em vida real.",
+	loading_heister_13 = "Não tente isso na vida real.",
 	loading_heister_14 = "Se você estiver entrando em uma partida em Sigilo, pergunte se é seguro antes de apertar o 'Pronto'.",
 	loading_heister_15 = 'Você não pode atirar nos seus aliados com balas normais. A menos que você tenha a mutação "Friendly Fire" ligado.',
-	loading_heister_29 = 'Você pode ver quantos usos faltam na "Doctor Bag" olhando para as bolsas de sangue dentro dela.',
+	loading_heister_16 = 'Na Crime.net, você pode apostar o seu Dinheiro Secundário para um "Pagamento do Paraíso".',
+	loading_heister_17 = "Algumas conquistas desbloqueia armas, modificações ou máscaras.",
+	loading_heister_18 = 'Se você for novo no jogo, talvez queira tentar os "Tutorias", eles podem ser achados na Crime.net.',
+	loading_heister_19 = "As suas armas, habilidades, colete e Baralho de Cartas tem interações diferentes, lêia os seus efeitos quando tiver tempo.",
+	loading_heister_20 = "O jogo tem vários níveis de dificuldade. Ache um que é seu estilo.",
+	loading_heister_21 = "Mais pilha, mais recompênsas, mas tem risco. (Exceto ao Sequência Criminal.)",
+	loading_heister_22 = "Quer modificar o seu ferro? Faça Tarefa Diária que pode ser achada no Escondeirijo. (Ou compre-os usando Moedas Continentais.)",
+	loading_heister_23 = "Lembra de sempre checar os seus Baralhos de Cartas para gastar os Pontos de Cartas.",
+	loading_heister_24 = 'Um bom time vai sempre ter Bolsas de Munições e Bolsas Médicas em um assalto.',
+	loading_heister_25 = "Dê uma olhada nas estátisticas da arma. Um dano alto nem sempre é bom, dependendo do seu estilo de jogo.",
+	loading_heister_26 = "Baralhos de Cartas diferentes tem efeitos diferentes. Tente jogar com todos eles e veja qual é melhor pro seu estilo.",
+	loading_heister_27 = "Não espere que o roubo vai ser sempre o mesmo, vai ter cofres, preparos e itens de objetivos em locais aleatóriamente.",
+	loading_heister_28 = "Comunique-se com os seus aliados, trabalho em equipe é a chave para sobrevivência.",
+	loading_heister_29 = 'Você pode ver quantos usos faltam na Bolsa Médica olhando para as bolsas de sangue dentro dela.',
+	loading_heister_30 = '"Shields" podem bloquear balas, tentem trabalhar juntos para flanquear eles ou use balas pefurantes.',
+	loading_heister_31 = "Custos de Limpeza remove o seu dinheiro imediatamente, então, não adianta reiniciar a partida.",
+	loading_heister_32 = "Clicando com o botão direito do mouse enquanto estiver com zoom com um arco irá cancelar o seu tiro.",
+	loading_heister_33 = "Comunique-se com os seus aliados, trabalho em equipe é a chave para sobrevivência.", --um clone do "loading_heister_28" :awkward:
+	loading_heister_34 = "Você não precisa ter uma DLC para jogar uma missão especifíca. Você só não pode hostear, a menos que você tenha. (Não precisa de DLC quando estiver jogando Sequência Criminal ou A História.)",
+	loading_heister_35 = "Se a fuga estiver dispónivel, lembra de ir embora quando for a melhor hora. Todo esse dinheiro não irá valer a pena se você for pra custódia.",
+	loading_heister_36 = "Enquanto estiver na tela de Equipamento, dê uma olhada no Equipamento da Equipe para ver o que os seus aliados estão levando.",
+	loading_heister_37 = "Se você ver um símbolo de um pequeno fantasma próximo a uma missão na Crime.net, mostra que pode ser feito sem soar o alarme. Se estiver sem, só pode meter bala que nem doido.",
 	loading_heister_38 = "Os contratos do Hector é sobre causar violência. Se prepare para uma luta e leva uma arma boa.",
+	loading_heister_39 = "O Elefante irá te recompênsar por fazer o serviço sem soar o alarme, mas meter bala a doidaço é uma opção.",
+	loading_heister_40 = "Vlad irá oferecer serviços com uma mistura de sigilo e barulhento, esteja pronto pra qualquer coisa.",
+	loading_heister_41 = "Perfis permitem você salvar o seu equipamento, para depois mudar pro equipamento salvado para a situação enquanto estiver na tela de Equipamento.",
+	loading_heister_42 = "Algumas bolsas são mais pesadas que as outras. Tenha certeza que cada jogador está com colete mais leve esteja carregando a mais pesada e vice versa.",
+	loading_heister_43 = "Quando estiver em Sigilo, considere se é melhor você levar Bloqueador de ECM para melhorar a sua equipe.",
+	loading_heister_44 = "Força Máxima irá está vestindo com roupa marrom e com colete cinza. Maioria das armas não penetrem, então mira na cabeça ou flanqueia eles.",
+	loading_heister_45 = "Unidades da ZEAL são os mais durões que o DdVI, Departamento de Vigilância Interno, tem para oferecer e só aparecem na dificuldade Sentença de Morte.",
 	loading_heister_46 = "Conheça o seu inimigo. Tem três tipos de Bulldozers: Verde, Preto e Caveira-Dozers. Cada um tem uma arma diferente.",
+	loading_heister_47 = '"Shields" vão em grupos, fazendo você criar um plano para lidar com eles.',
+	loading_heister_48 = "Você pode selecionar até 4 personagens preferidos, em caso de um jogador está com um dos seus personagens.",
+	loading_heister_49 = "Combate é raramente uma razão, do que um método",
+	loading_heister_50 = "Pontos de Habilidades podem ser re-colocados sem custo. Experimenta e teste.",
+	loading_heister_51 = "É melhor ter mútiplas árvores de habilidades que são boas para coisas diferentes, do que ter uma habilidade que tenta fazer tudo.",
+	loading_heister_52 = "Enquanto estiver na Crime.net, mais caveiras tiver no Lobby ou no Assalto abaixo do nome, tem mais dificuldade.",
+	-------------------------------------------
 	loading_gameplay_title = "Dica de Jogabilidade",
 	loading_gameplay_1 = "Ouça ao Contratante, ele irá dizer o que fazer.",
+	loading_gameplay_2 = "Acabou a munição? Procura no chão, os policiais soltam munição que pode pegar.",
 	loading_gameplay_3 = "Inimigos Especiais são introduzidos por cada dificuldade, do difícil e acima.",
+	loading_gameplay_4 = "Os pacotes do Gage Mod Courier vai dá um bônus de experiência, não importa se tem a DLC ou não.",
+	loading_gameplay_5 = "Quanto mais alto a Ameaça da sua arma, mais provável dos inimigos tentarem desviar.",
+	loading_gameplay_6 = "Guarda suspeitam das câmeras quebradas. Civis não ligam muito pra isso.",
+	loading_gameplay_7 = "Só porque você tá sem máscara, não quer dizer que você tá invisível. Civis podem não notar que você tá carregando uma arma, mas guardas e câmeras podem notar isso.",
+	loading_gameplay_8 = "Você não pode guardar a sua arma e máscara assim que colocá-la. Não coloque ela até você estiver pronto.",
+	loading_gameplay_9 = "Pilha não é dividido entre os jogadores. Todo mundo ganha o valor inteiro.",
+	loading_gameplay_10 = "Você vai ter um bônus para cada aliado da equipe sobrevivente durante a tela do Sucesso.",
 	loading_gameplay_11 = 'Um risco de detectação baixa pode ser usado em um tiroteiro na árvore de habilidades do "Ghost". Só porque eles não tão com colete, não quer dizer que não podem aguentar uma briga.',
-	loading_gameplay_27 = 'A sub-árvore "Breacher" foca em arrombar portas, cofres e bancos mais rápido. Também pode melhorar as "Trip Mines".',
+	loading_gameplay_12 = "Conheça o seu inimigo. Cloakers tem um verde que dá pra notar, óculos de visão nortuna ligada e faz um barulho correndo em você. Você pode ouvir um som de estática quando ele chega na cena.",
+	loading_gameplay_13 = "Conheça o seu inimigo. O Médico veste roupas de vermelho claro e pode ser identificado facilmente no meio de uma multidão.",
+	loading_gameplay_14 = "Conheça o seu inimigo. Tem dois tipos de Shields diferentes, alguns são equipados com luzes e submetralhadoras, outros usam pistolas.",
+	loading_gameplay_15 = "Conheça o seu inimigo. As unidades ZEAL vestem camuflagem urbano, fazendo mais difícil em identificar quem tem mais colete.",
+	loading_gameplay_16 = "Conheça o seu inimigo. Tasers podem ser identificado pelo seu colete azul escuro e amarelo.",
+	loading_gameplay_17 = "Conheça o seu inimigo. Os Snipers entregam a sua pocisão pela suas miras de laser.",
+	loading_gameplay_18 = "Conheça o seu inimigo. A sentinela da SWAT pode ser identificado por está em uma van grande da SWAT.",
+	loading_gameplay_19 = "Cartas de Baralhos podem mudar o seu jeito de jogar. Escolha um que combina com o seu estilo de jogo.",
+	loading_gameplay_20 = 'A sub-árvore "Medic" é sobre manter você e os seus alidos em bem estado.',
+	loading_gameplay_21 = 'A sub-árvore "Controller" é focado em capturar e controlar reféns, incluindo as forças da lei.',
+	loading_gameplay_22 = 'A sub-árvore "Sharpshooter" foca em snipers e tiros de alta precisão.',
+	loading_gameplay_23 = 'A sub-árvore "Shotgunner" providência melhorias à espingardas.',
+	loading_gameplay_24 = 'A sub-árvore "Tank" faz você forte e mais resistente.',
+	loading_gameplay_25 = 'A sub-árvore "Ammo Specialist" é focado em munição. Também tem habilidades que melhoram a serra OVE9000.',
+	loading_gameplay_26 = 'A sub-árvore "Engineer" é focado em usar as sentinelas.',
+	loading_gameplay_27 = 'A sub-árvore "Breacher" foca em arrombar portas, cofres e bancos mais rápido. Também pode melhorar as Minas de Armadilhas.',
+	loading_gameplay_28 = 'A sub-árvore "Oppressor" foca em melhorar as armas automáticas, fazendo elas mais efetivas.',
+	loading_gameplay_29 = 'A sub-árvore "Artful Dodger" foca em velocidade e de desviar de balas, se você tiver uma Discrição boa.',
 	loading_gameplay_30 = 'A sub-árvore "Shinobi" facilita o Sigilo, também vem alguns truques para usar quando o alarme soar.',
+	loading_gameplay_31 = 'A sub-árvore "Gunlinger" foca em pistolas.',
+	loading_gameplay_32 = 'A sub-árvore "Revenant" é tudo sobre sobreviver de situações de grande perigo.',
+	loading_gameplay_33 = 'A habilidade "Feign Death" na sub-árvore "Revenant" que te dá uma chance de levantar sozino depois de cair.',
+	loading_gameplay_34 = 'A sub-árvore "Brawler" foca nas armas corpo-a-corpo. Seja com as suas mãos, facas ou qualquer outra arma corpo-a-corpo.',
+	loading_gameplay_35 = 'Não deixa as bolsas largadas, policiais podem roubar a sua pilha.',
+	loading_gameplay_36 = "Enquanto é preso pelo Taser, tenta matar o Taser para se libertar.",
+	loading_gameplay_37 = "É mais rápido trocar para sua arma secundária do que tentar recarregar a sua primária.",
+	loading_gameplay_38 = "Serras gastam a munição muito rápido. Leva bolsas de munições para aumentar o seu uso.",
+	loading_gameplay_39 = "Linhas vermelhas em um inimigo durante um assalto indica que ele é um especial de algum tipo.",
+	loading_gameplay_40 = "Se você estiver sozinho, sem outros jogadores ou bots, Cloakers não irão correr em você.",
+	loading_gameplay_41 = "Policiais são facilmente intimidados se eles estiverem sozinhos.",
+	loading_gameplay_42 = "Tiros na cabeça dá mais dano.",
+	loading_gameplay_43 = "Bulldozers tem uma proteção no seu rosto. Você precisa atirar nessa proteção para conseguir atirar na cabeça dele.",
+	loading_gameplay_44 = "Fazendo qualquer tipo de dano no inimigo vai te dá 100% de chance de dominação. Exceto os Especiais.", -- o texto original dessa dica é "Tasing an enemy makes them a lot easier to Dominate.", mas é bem inutil e acabei fazendo um melhor do que essa.
+	loading_gameplay_45 = "Tasers podem prender os seus aliados, mate o Taser para libertar eles.",
+	loading_gameplay_46 = "Snipers inimigos faz um dano bem grande que pode arrebentar o seu colete e levar uma parte da sua vida com só um tiro.",
+	loading_gameplay_47 = "Uma silenciadora ajuda muito enquanto tenta invadir algum lugar sem soar o alarme, o seu tiro não pode ser ouvido.",
+	loading_gameplay_48 = "Algumas armas tem modos de tiros diferentes, onde você pode alternar o modo de um tiro e o automático.",
+	loading_gameplay_49 = "Marcando os inimigos especiais facilita pro seus aliados identificarem eles.",
+	loading_gameplay_50 = "Tome cuidado ao seu redor, se você matar um civil, você irá pagar uma penalidade.",
+	loading_gameplay_51 = "Destruir uma câmera depois de ser detectado, não irá parar o alarme de ser soado.",
+	loading_gameplay_52 = "Guardas podem ir e investigar as câmeras quebradas, então, não atire nelas.",
+	loading_gameplay_53 = 'Você pode apertar o botão de "Interagir/Gritar" para forçar um guarda a se render e virar refém.',
+	loading_gameplay_54 = "A sua tela tá cinza? Você deveria usar uma Bolsa Médica.",
+	loading_gameplay_55 = "Uma Bolsa Médica irá recuperar as suas quedas e um Kit de Primeiro Socorro irá recuperar a sua vida.",
+	loading_gameplay_56 = "Se seus aliados forem para custódia, você precisa de um refém ou de um policial dominado para trocar ele.",
 	loading_gameplay_57 = "Você não pode trocar um refém durante uma operação policial, você precisa esperar até a operação acabar.",
-	loading_gameplay_58 = '"Doctor Bags" irá dá três vidas de volta, se você cair só uma vez, melhor usar uma "First Aid Kits".',
+	loading_gameplay_58 = 'Bolsas Médicas irá dá três vidas de volta, se você cair só uma vez, melhor usar um Kit de Primeiro Socorro.',
+	loading_gameplay_59 = "Cuidado com Cloakers, eles atacam quanto você menos espera. Fica atento pelo som dele.",
+	loading_gameplay_60 = "Jogue com os seus aliados e dê suporte para eles, se for por conta própria, vai ter menos chance de sobreviver.",
+	loading_gameplay_61 = 'Bulldozers não pode ser atordoado. (Exceto pelo "Counterstrike" e o feedback do ECM.)',
+	loading_gameplay_62 = "Se um Cloaker estiver correndo em você, atira na cabeça dele.",
 	loading_gameplay_63 = "Cloakers não são afetados pelo Feedback do ECM.",
+	loading_gameplay_64 = "Depois de atirar com qualquer tipo de arco, não esquece de pegar as flechas de volta.",
+	loading_gameplay_65 = "Algumas missões podem ser feitas sem soar o alarme.",
+	loading_gameplay_66 = "Tá achando difícil em achar munição solta? Você pode ativar as linhas para as munições, flechas e granadas nas configurações do jogo.",
 	loading_gameplay_67 = "Rifles de Sniper podem penetrar paredes. Use isso ao seu favor.",
+	loading_gameplay_68 = "Munição é mais importante do que você pensa. Reserva a munição para os inimigos especiais, que nem Médicos, Cloakers, Tasers e Bulldozers.",
 	loading_gameplay_69 = "Ficando perto dos inimigos podem fazer eles dárem um ataque corpo-a-corpo bem forte.",
+	loading_gameplay_70 = "Bulldozers pode vir chegando correndo em você quanto menos espera. Fica atento.",
+	loading_gameplay_71 = 'Um "Mastermind" habilidoso pode converter os policiais de refém.',
 	loading_gameplay_85 = "Usando um Feedback do ECM pode atordoar alguns policiais próximos por um tempo.",
 	loading_gameplay_95 = "Matando um guarda em uma sala de câmeras irá deixar você despreocupado com as câmeras de seguranças, mas guardas que vagam ainda podem te detectar.",
 	loading_gameplay_96 = "Quando o Capitão Winters estiver presente ele irá fazer todos os inimigos mais resistentes, mais tempo de presença, mais resistência é aplicado nos inimigos.",
 	loading_gameplay_100 = "O dano de toda flecha que atirar em um arco irá aumentar de acordo com a força que você colocar.",
 	loading_gameplay_110 = "O Feedback do ECM recarregar cada 4 minutos.",
-	loading_gameplay_120 = "Os ECM Jammers tempoariamente desativa as câmeras. Não fique com medo para usar para cegar o Operador das Câmeras quando você estiver em uma situação bem ruim.",
+	loading_gameplay_120 = "Os Bloqueadores de ECMs tempoariamente desativa as câmeras. Não fique com medo para usar para cegar o Operador das Câmeras quando você estiver em uma situação bem ruim.",
 		})
 end)

@@ -1,5 +1,20 @@
-Notas de Mudanças em 2.04
-+ Traduzido mais troféis do Escondeirijo
-+ Traduzido mais Dicas de Loading
-* Corrigido um erro de tradução nos Perk Decks
-* Melhorado algumas traduções na Skills e nos Perk Decks
+2.05
++ Traduzido Stealing Xmas (feito pelo RockZero)
++ Adicionado botões do controle do Xbox em certas descrições, por causa das limitações, não tem os botões do Playstation, até onde eu sei, mas recomendo que use um mod que muda os botões do Xbox pro Playstation
++ Traduzido os botões de configurar os controles
++ Traduzido mais nomes das bolsas
++ Traduzido mais as dicas do Loading
++ Traduzido todos os troféus
++ Traduzido mais "Granadas"
++ Traduzido mais avisos de DLC
++ Traduzido os equipamentos
+* Corrigido algumas traduções dos Boosts do Gage no Crime Spree
+* Mudado uma tradução no "In Briefing"
+* Corrigido uma tradução nas dicas
+* Corrigido uma tradução faltando nas Skills
+* Corrigido as traduções das "mascarás"
+* Corrigido duas traduções de erro nas interações
+* Corrigido algumas traduções do Beneath The Mountain
+* Corrigido o nome da "Meth"
+* Corrigido a tradução dos "troféis"
+* Corrigido algumas traduções de "debloqueado" e de "desbloqueiar"
