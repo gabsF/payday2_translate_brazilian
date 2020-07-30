@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "casinobeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeemgrande", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_kenaz_hl = "Cassino Sorriso Dourado (Golden Grin Casino)",--Golden Grin Casino
-	heist_kenaz_full = "Cassino Sorriso Dourado (Golden Grin Casino)",--Golden Grin Casino
+	--heist_kenaz_hl = "Cassino Sorriso Dourado (Golden Grin Casino)",--Golden Grin Casino
+	--heist_kenaz_full = "Cassino Sorriso Dourado (Golden Grin Casino)",--Golden Grin Casino
 	heist_kenaz_crimenet = "O Cassino Sorriso Dourado em Las Vegas possui um item que o Dentista quer. Pegue isso para ele.\n\n» Usem o pré-planejamento para escolher entre uma entrada barulhenta ou furtiva\n» Entrem no cassino\n» Sigam o plano\n» Achem um meio de entrar no cofre \n» Recuperem o saque misterioso para o Dentista",--The Golden Grin Casino in Las Vegas is holding an item of loot that The Dentist wants. Get it out for him.\n\n» Use Pre-Planning to choose a loud or stealthy entry\n» Enter the casino\n» Follow your plan\n» Find a way to get into the vault \n» Recover the mysterious loot for The Dentist
 	heist_kenaz_briefing = "Este é um trabalho grande. Irei falando a medida que avançamos, mas o resumo é esse: o Sorriso Dourado tem um cofre grande. Grande. Quero dizer Banco Benevolente grande. Se vocês vão entrar na furtiva, ou vão assalto total, vai ser extremamente díficil. O Dentista não irá falar o que levaremos de lá. Está sendo muito cauteloso sobre isso. Ele apenas disse que assim que terminarmos, nós terminamos. O contrato foi cumprido... o que quer que isso signifique.",--This is a big job. I'll talk you through it as we go, but the skinny is this: the Golden Grin has a big vault. Big. I mean Benevolent Bank big. Whether you sneak in, or go full assault, you're in for a tough time. The Dentist won't say what we're lifting out of there. Being very cagey about that. He just said that once we're done, we're done. The contract is fulfilled... whatever that means.
 	

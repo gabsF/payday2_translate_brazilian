@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "imprimirdinheiro", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_pal = "Falsificação (Counterfeit)",
-	heist_pal_hl = "Falsificação (Counterfeit)",
+	--heist_pal = "Falsificação (Counterfeit)",
+	--heist_pal_hl = "Falsificação (Counterfeit)",
 	heist_pal_briefing = "Bem-vindo ao estado da luz do dia! Onde as mulheres são troféis de ouro e os homens são os ladrões. Conheça senhor Mitchell: aparentemente, um treinador de golf em um clube de country com respeito. Mas na verdade é, um profissional que lava e imprime dinheiro, um criminoso gênial. Mitchell e o seu parceiro do crime, Wilson, conseguiram imprimir milhões enquanto estavam fora do radar. Até agora.",
 	heist_pal_crimenet = "Pessoal, façam as malas. Essa a gente vai pro sul de Mason-Dixie. Nós vamos atrás do Mitchell e Wilson, dois falsificadores de dinheiro em Pensacola. Cuidando de uma operação de baixo do seu porão. É uma operação discreta e o trabalho desse cara tá indo bem, tá fazendo um banco lá. Vamos pegar um pedaço! \n\n» Encontre o Mitchell\n» Invade o porão\n» Pegue o dinheiro falso e fuja",
 	

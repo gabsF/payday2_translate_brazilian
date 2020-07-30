@@ -1,8 +1,8 @@
 ﻿Hooks:Add("LocalizationManagerPostInit", "naoehsoqualquerdiamante", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_mus = "O Diamante (The Diamond)",
-	heist_mus_hl = "O Diamante (The Diamond)",
+	--heist_mus = "O Diamante (The Diamond)",
+	--heist_mus_hl = "O Diamante (The Diamond)",
 	heist_mus_crimenet = "Esse Diamante é histórico. E também é extremamente valioso. O Dentista é uma das poucas pessoas com contatos para roubá-lo. Vocês vão recuperá-lo para um cara anônimo que ele representa.\n\n» Entrem no museu McKendrick\n» Encontre aonde o Diamante está mantido\n» Roubem o Diamante\n» Roubem qualquer outro artefato que vocês encontrarem.",
 	heist_mus_briefing = "Esse é um dos grandes. Nós vamos atrás de um grande prêmio - O Diamante. Vocês vão invadir o museu McKendrick, pegar o Diamante, e cair fora.Parece simples. Bom, 'simples' nem sempre significa 'fácil', e essa não vai ser. Então aqui estão os objetivos 'simples'. Invadam o museu. Uma vez que estiverem dentro, chequem o que está entre vocês e o Diamante. Derrubem-o. Uma vez que conseguirem o Diamante, caiam fora.\n\nEssa é para o Dentista. Ele é o único com contatos para roubar o Diamante mais famoso do mundo. Estou com um sentimento que ele está só nos testando. Vendo se nós estamos afim de golpes como esse.",
 	

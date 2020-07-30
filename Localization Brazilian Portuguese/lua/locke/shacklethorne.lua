@@ -3,8 +3,8 @@ Hooks:Add("LocalizationManagerPostInit", "shacklethorneaptbr", function(loc)
 	-- Nome e descrição
 	heist_sah_crimenet = "O Elephant nos deu uma dica sobre uma antiga mansão no Salem, onde está sendo feito um leilão que tem um artefato que precisamos para o dispositivo na cozinha.\n\n» Passe pela segurança e entre na mansão\n» Ache o código e entre no cofre\n» Assegure o artefato e escape",
 	heist_sah_briefing = "Ok, então vamos ao Salem e roubamos o artefato da festa de riquinhos idiotas, bem antes do leilão começar, ok? Você irá entrar depois do anoitecer, e está nublado e chovendo, então talvez tente fazer tudo silenciosamente se você puder. É uma mansão antiga, mas os sistemas de segurança são bem sólidos, com bastante atualizações. Nessas circunstâncias, quanto menos atenção você chamar dos policiais, melhor. Mas se você tiver que meter o louco, então meta.",
-	heist_sah_hl = "Leilão Shacklethorne (Shacklethorne Auction)",
-	heist_sah = "Leilão Shacklethorne (Shacklethorne Auction)",
+	--heist_sah_hl = "Leilão Shacklethorne (Shacklethorne Auction)",
+	--heist_sah = "Leilão Shacklethorne (Shacklethorne Auction)",
 	
 	-- Legendas
 	 loc_sah_64_01 = "Para de bobagem, ok? Vá para o escritório!",

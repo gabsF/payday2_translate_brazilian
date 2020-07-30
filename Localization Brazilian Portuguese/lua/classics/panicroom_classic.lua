@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "chavesdooitoinfinito", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_flat = "Sala de Pânico (Panic Room)",
-	heist_flat_hl = "Sala de Pânico (Panic Room)",
+	--heist_flat = "Sala de Pânico (Panic Room)",
+	--heist_flat_hl = "Sala de Pânico (Panic Room)",
 	heist_flat_hl_briefing = "Lá fundo dos projetos tem uma sala blindado, o quartel-general de uma gangue com uma operação lucrativa de drogas. Nessa sala de pânico grudado no andar e dentro dessa sala de pânico tem uma fortuna de dinheiro.\n\nEntrar no prédio é fácil, mas abrir a sala de pânico vai dá uma dor de cabeça. Vai demorar dias para abrir. Então, se vocês não podem entrar, como vamos sair com o dinheiro? Ora, simples: roubar a sala inteira.",
 	heist_flat_crimenet = "As vezes você precisa levar ao extremo para ter um bom dinheiro e é exatamente isso que vamos fazer. Entrar no prédio, achar a sala de pânico e roubar a sala toda com um helicópetero.\n\n» Entra no prédio\n» Localize e desmonte a sala de pânico\n» Roube a sala e foge",
 	

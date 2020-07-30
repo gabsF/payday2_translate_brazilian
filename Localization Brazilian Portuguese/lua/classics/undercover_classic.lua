@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "homen", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_man_hl = "Disfarçado (Undercover)",
-	heist_man = "Disfarçado (Undercover)",
+	--heist_man_hl = "Disfarçado (Undercover)",
+	--heist_man = "Disfarçado (Undercover)",
 	heist_man_briefing = "O contribuinte achou que seria esperto fazer um acordo com uma grande empresa, mas a informação vazou, e agora grandes apostadores querem - querem tudo. Nós temos um prédio abandonado inteiro para nós, para ficar de olho no acordo. Temos tudo preparado. O Alex vai nos ajudar com o guincho. Assustem o contribuinte para dentro da limousine, balançem ele um pouco, e ele com certeza vai nos dar o servidor e as senhas. Quando estamos falando de 25 milhões de dólares, tudo vale.",
 	heist_man_crimenet = "O Contribuinte está carregando um servidor que tem mais fortuna do que o seu peso. Conecta comigo com o computador dentro do prédio e vou conseguir transferir os dados facilmente. Vamos mostrar para eles como é os negócios. \n\n» Pegue o servidor do contribuinte\n» Extraia as senhas\n» Hackeia e transfere os dados",
 	

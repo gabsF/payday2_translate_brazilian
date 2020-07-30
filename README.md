@@ -1,5 +1,5 @@
 # Tradução do PAYDAY 2
-Tradução do PAYDAY 2 que traduz várias coisas para o Português do Brasil, essa tradução não tem nenhuma afiliação com a OVERKILL.
+Tradução do PAYDAY 2 que traduz várias coisas para o Português do Brasil, essa tradução não tem nenhuma afiliação com a OVERKILL..
 
 ## Prévias
 ![Image](https://i.imgur.com/9ghp3Ha.png)
@@ -13,12 +13,12 @@ Tradução do PAYDAY 2 que traduz várias coisas para o Português do Brasil, es
 3. Extraia a pasta da tradução na sua pasta "mods" do seu BLT
 
 ## Contribuições
-Pode fazer Pull Requests na tradução, caso acha algum erro de português ou algo não cabe muito bem com o sentido do texto
+Pode fazer Pull Requests na tradução, caso acha algum erro de português ou algo que não cabe muito bem com o sentido do texto.
 
 ## Créditos
 ```
 [ Gerenciador das Traduções ]
-Gabriel Fernando "gabsF"
+gabsF
 
 [ Tradutores ]
 $Lucas$
@@ -26,13 +26,15 @@ Bruno
 Caçador de Otacus
 DarK
 gabsF
+HimuraBR
 lulajr
 neour
 RockZero
 
-[ Agradecimentos Especiais ]
-CENSOR_1337
+[ Créditos Adicionais ]
+Dr_Newbie
 Kisuke
+viixxivvimm
 
 [ Template de Updates no Github Usado ]
 HugoZink ( https://github.com/HugoZink/PD2AutoUpdateExample )

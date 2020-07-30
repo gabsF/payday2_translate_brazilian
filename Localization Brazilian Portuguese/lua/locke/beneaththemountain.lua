@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "jimmyneutronafricanoturururuutururuuturururuuu", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_pbr = "Abaixo da Montanha (Beneath the Mountain)",
-	heist_pbr_hl = "Abaixo da Montanha (Beneath the Mountain)",
+	--heist_pbr = "Abaixo da Montanha (Beneath the Mountain)",
+	--heist_pbr_hl = "Abaixo da Montanha (Beneath the Mountain)",
 	heist_pbr_briefing = "Locke quer que nós ataquemos uma instalação da Murkywater no deserto. O Cume Negro. Era uma antiga instalação das forças aéreas. A Murkywater comprou o lugar depois da guerra fria, o transformando em seu próprio Fort Knox, então você pode apostar que eles estão guardando grandes espólios lá. Não tenho certeza do que esperar, não tem muita coisa online então temos pouca informação. Mas uma coisa é certa - você não vai atravessar esse lugar no sigilo. Se prepare para fazer barulho.",--Locke has us hitting a Murky facility out in the desert. Black Ridge. Was an old air force place, back in the day. Murkywater bought it up after the Cold War, turned it into their own Fort Knox, so you can bet they're holding some serious loot here. Not sure what to expect. Not much online, so we got little in the way of intel. One thing is certain though - you're not going to sneak through this one. Dress for loud.
 	heist_pbr_crimenet = "O alvo é uma instalação da Murkywater no deserto. Considere o próprio Fort Knox deles. Force a sua entrada e traga qualquer espólio que eles estejam guardando.\n\n» Recupere os recursos deixados por Locke\n» Lute seu caminho até o complexo interior\n» Abra os cofres e pegue os espólios\n» Encontre-se com Locke\n» Destrua os radares e escape",--The target is a Murkywater facility in the desert. Consider it their Fort Knox. Force your way in, and bring out whatever loot they're holding.\n\n» Retrieve assets left by Locke\n» Fight your way to the inner complex\n» Open the vaults and retrieve the loot\n» Meet with Locke\n» Destroy the radars and escape
 	

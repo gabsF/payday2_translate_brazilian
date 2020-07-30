@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "ruadapressao", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_run = "Rua Tensa (Heat Street)",
-	heist_run_hl = "Rua Tensa (Heat Street)",
+	--heist_run = "Rua Tensa (Heat Street)",
+	--heist_run_hl = "Rua Tensa (Heat Street)",
 	heist_run_crimenet = "Como vocês sabem, inteligência e informação é a minha especialidade. E eu recentemente vi algumas informações importantes que podem preocupar vocês. Gangue Payday. Tem alguém que vai destruir vocês, possívelmente matar todos vocês. Essa manhã, eu interceptei uma mensagem indicando que tem um agente dessas pessoas que está encontrando uma pessoa em uma certa localização no centro. Eu não sei quem é, mas como você sabe, eu achei um informante de valor e quero ajudar vocês a captura esse agente para pegar as informações dele. Eu vou dá a localização e ficar de olho em você enquanto você faz a operação.\n\n» Ache e prende o agente\n» Cuidado com as surpresas",
 	heist_run_briefing = "Beleza, gente. Lembra com quem vocês tão lidando aqui. Locke é bem suspeito. Tem mais coisas do que ele tá contando para vocês.",
 	
@@ -119,6 +119,36 @@ Hooks:Add("LocalizationManagerPostInit", "ruadapressao", function(loc)
 	bru_run_03_01 = "Porra! Os policiais bloquearam tudo! Parece que alguém fofocou pra eles! Eu vou chegar até vocês um pouco mais longe!",
 	bru_run_04_02 = "Beleza, eu tô indo aí!",
 	bru_run_01_02 = "Tô quase chegando aí!",
+	plt_run_02_01 = "Tá bem complicado aqui. Vou ir pra parte mais seguro. Me seguem.",--It's very hairy here. I'll move to a safer spot, guys. Follow me.
+	plt_run_02_02 = "Tá bem foda. Vou ir pra parte mais seguro, me seguem.",--Too much flak. I'll move to a safer spot, follow me.
+	plt_run_05_02 = "Beleza, tá limpo. Tô indo.",--Ok, coast is clear. Coming in.
+	plt_run_09_01 = "Coloca ele no helicóptero. Não posso ficar aqui pra sempre.",--Get him into the chopper. I can't hang around here forever.
+	plt_run_09_02 = "Leva esse cara pro helicóptero. Vamos, vem!",--Get that guy into the chopper. Come on, go!
+	plt_run_02_03 = "Vou tentar outro lugar que tem menos policial. Me seguem.",--I'll try another spot where it's less hot. Follow me.
+	plt_run_08_02 = "Tô aqui, pessoal.",--I'm over here, guys.
+	plt_run_10_01 = "Qual é, entra no helicóptero, gente.",--Come on, get into the chopper guys.
+	plt_run_03_02 = "Beleza, todo mundo a bordo, vamos dá o fora daqui.",--Alright, get on board so we can get the hell out of here.
+	plt_run_04_02 = "Vocês precisam limpar a zona, pessoal! Ou não vou conseguir sair daqui.",--You need to clear the pickup zone guys! Or I won't be able to get you out.
+	plt_run_01_01 = "Beleza, pessoal... os prédios tá deixando meio difícil em chegar perto. Vocês precisam ir para uma posição mais alto, assim eu posso pegar vocês.",--Ok guys... the buildings here make it hard to get close. You need to move to a higher position so I can pick you up.
+	plt_run_01_02 = "Podem ir pra ponto mais alto? Não consigo chegar perto onde vocês estão.",--Can you move up to a higher point? It's hard to get in close where you are now.
+	plt_run_01_03 = "Eu preciso mover para o ponto mais alto para pegar vocês. Tá bem foda aí em baixo.",--I need to move to a higher point for pickup. Too narrow down there.
+	plt_run_03_01 = "Ok, tô aqui e pronto para dá o fora daqui.",--Ok, I'm here and ready to get the hell out.
+	plt_run_03_03 = "Beleza, tô aqui. Entra aqui, rápido, vamos dá o fora aqui.",--Alright I'm here. Get in quick so we can get out of here.
+	plt_run_04_01 = "Não consigo pegar vocês com esses policiais aqui. Vocês precisam limpar aí.",--I can't pick you up with all these cops around here. You need to clear the area.
+	plt_run_04_03 = "Limpa a zona dos policiais ou não vou conseguir pegar vocês.",--Clear the pickup zone from cops or I won't be able to pick you up.
+	plt_run_05_01 = "Ok, boa. Tô indo aí.",--Ok, great. I'm coming in.
+	plt_run_05_03 = "Limpo como céu. Tô indo.",--Clear skies. I'm coming in.
+	plt_run_06_01 = "Cacete, não vai funcionar. Vou ter que recuar um pouco.",--Damn, this ain't working. I'm gonna have to fall back a bit.
+	plt_run_06_02 = "É muito aqui. Vou ter que recuar.",--Too much heat around here. I'm gonna have to fall back.
+	plt_run_06_03 = "Vou ter que recuar. Tá muito tenso aqui.",--I'll have to fall back. Too much heat.
+	plt_run_07_01 = "Ok, tô indo para essa zona. É mais seguro.",--Ok, deploying to this zone instead. It's much safer.
+	plt_run_07_02 = "Vou ir pra cá, tá mais calmo.",--I'll deploy over here where it's less hairy.
+	plt_run_07_03 = "Isso pra cá. Esse lugar é mais calmo.",--Deploying over here. This spot is calmer.
+	plt_run_08_01 = "Ei, tô aqui.",--Hey, I'm down here.
+	plt_run_08_03 = "Vanham pra cá, pessoal.",--Get over here, guys.
+	plt_run_09_03 = "Rápido! Leva ele pro helicóptero, podemos dá o fora daqui!",--Hurry up! Get him into the chopper so we can get out of here!
+	plt_run_10_02 = "Qual é, vamos logo. Entra.",--Come on, let's get going. Get in.
+	plt_run_10_03 = "Ok, vamos. Todo mundo a bordo!",--Ok, let's go. Get in everyone!
 	
 	-- Objetivos
 	mission_str_catch = "Perseguem Matt Roscoe!",
@@ -126,7 +156,7 @@ Hooks:Add("LocalizationManagerPostInit", "ruadapressao", function(loc)
 	mission_str_clear = "Limpe a área de policias ou o Bile vai ter que procurar por outro lugar para pegar vocês.",
 	mission_str_clear_hl = "Limpe a área dos policiais",
 	mission_str_escort = "Achem um jeito de chegar até a ponte, Bile vai pegar vocês com o helicóptero. Tenha certeza de ter o Matt junto!",
-	mission_str_escort_hl = "Sobem a ponto com Matt",
+	mission_str_escort_hl = "Sobem a ponte com Matt",
 	mission_str_exit = "Levem o Matt para a escada do helicóptero e chame a sua equipe junto.",
 	mission_str_exit_hl = "Leve Matt e a equipe pro helicóptero",
 	mission_str_extract = "Use a gasolina para colocar fogo na van e forçar o Matt sair.",

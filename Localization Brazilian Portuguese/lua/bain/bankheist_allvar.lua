@@ -1,11 +1,11 @@
 Hooks:Add("LocalizationManagerPostInit", "brocatermicaminhacaras", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_branchbank = "Roubo ao Banco: Aleatório (Bank Heist: Random)",
-	heist_branchbank_gold = "Roubo ao Banco: Ouro (Bank Heist: Gold)",
-	heist_branchbank_cash = "Roubo ao Banco: Dinheiro (Bank Heist: Cash)",
-	heist_branchbank_deposit = "Roubo ao Banco: Depósito (Bank Heist: Deposit)",
-	heist_branchbank_hl = "Roubo ao Banco (Bank Heist)",
+	--heist_branchbank = "Roubo ao Banco: Aleatório (Bank Heist: Random)",
+	--heist_branchbank_gold = "Roubo ao Banco: Ouro (Bank Heist: Gold)",
+	--heist_branchbank_cash = "Roubo ao Banco: Dinheiro (Bank Heist: Cash)",
+	--heist_branchbank_deposit = "Roubo ao Banco: Depósito (Bank Heist: Deposit)",
+	heist_branchbank_hl = "Roubo ao Banco",
 	heist_branchbank_gold_crimenet = 'Bain quer que você faz um assalto clássico. O banco "Harvest & Trustee" está tentando aumentar a sua liquidez com um grande depósito de ouro.\n\n» Localize o Banco\n» Ache a Furadeira Térmica\n» Abre o cofre\n» Foge com o ouro',
 	heist_branchbank_crimenet = "Bain quer que você faz um assalto clássico.\n\n» Ache a Furadeira Térmica\n» Abre o cofre\n» Mantenha os civis quietos\n» Foge com o que tiver dentro do cofre",
 	heist_branchbank_cash_crimenet = "Bain quer que você faz um assalto clássico. Esse serviço é sobre o dinheiro que o banco acabou de receber.\n\n» Localize o Banco\n» Ache a Furadeira Térmica\n» Abre o Cofre\n» Mantenha os civis quietos\n» Foge com o dinheiro do cofre",

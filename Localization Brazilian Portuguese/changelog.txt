@@ -1,20 +1,24 @@
-2.05
-+ Traduzido Stealing Xmas (feito pelo RockZero)
-+ Adicionado botões do controle do Xbox em certas descrições, por causa das limitações, não tem os botões do Playstation, até onde eu sei, mas recomendo que use um mod que muda os botões do Xbox pro Playstation
-+ Traduzido os botões de configurar os controles
-+ Traduzido mais nomes das bolsas
-+ Traduzido mais as dicas do Loading
-+ Traduzido todos os troféus
-+ Traduzido mais "Granadas"
-+ Traduzido mais avisos de DLC
-+ Traduzido os equipamentos
-* Corrigido algumas traduções dos Boosts do Gage no Crime Spree
-* Mudado uma tradução no "In Briefing"
-* Corrigido uma tradução nas dicas
-* Corrigido uma tradução faltando nas Skills
-* Corrigido as traduções das "mascarás"
-* Corrigido duas traduções de erro nas interações
-* Corrigido algumas traduções do Beneath The Mountain
-* Corrigido o nome da "Meth"
-* Corrigido a tradução dos "troféis"
-* Corrigido algumas traduções de "debloqueado" e de "desbloqueiar"
+2.06
++ Traduzido GO Bank (feito pelo DarK)
++ Traduzido Ukrainian Job (feito pelo HimuraBR)
++ Traduzido os boosts da Equipe IA
++ Traduzido os objetivos do Tutorial do Loud (porque Gabs esqueceu de traduzir, whoops...)
++ Traduzido a tela de Loading (Usando o script do Dr_Newbie da tradução chinês)
++ Traduzido mais botões com suporte a controle
++ Traduzido mais textos das Skills
++ Agora o botão de alternar as recompênsas potenciais irá mudar se você estiver com controle
++ Traduzido mais textos das estátisticas do personagem e das armas corpo-a-corpo
++ Traduzido a aba Gage da Crime.Net
++ Traduzido todas as dicas
++ Traduzido as falas do Bile em Heat Street
+* Corrigido as traduções de "escondeirijo" no Hoxton Revenge/Hoxton
+* Corrigido as traduções das "mascarás" nos tutoriais
+* Corrigido vários erros nos menus (Obrigado, HimuraBR)
+* Corrigido uma tradução do "Tempo restante estimado" dos timers não está aparecendo (Usando o script do Dr_Newbie da tradução chinês)
+* Mudado algumas traduções do "Corretor de Contrato"
+* Corrigido alguns certos elementos da HUD não está traduzido corretamente
+* Corrigido um erro de tradução nas Skills (avisado via servidor do Discord)
+* Corrigido algumas consistências de traduções
+* Corrigido erros de traduções das "camêras"
+- Removido uma tradução duplicada no código que era desnecessário
+- Removido os nomes traduzidos das Heists e deixado só os originais (Pedido da Comunidade)

@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "trump_is_getting_robbed", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nome e Descrição
-	heist_vit = "A Casa Branca (The White House)",
-	heist_vit_hl = "A Casa Branca (The White House)",
+	--heist_vit = "A Casa Branca (The White House)",
+	--heist_vit_hl = "A Casa Branca (The White House)",
 	heist_vit_crimenet = "O Golpe Mais Belissísimo de Todos. O que vocês estavam treinando por muito tempo. A Casa Branca, porra! Lá dentro tem o que a gente precisa, uns documentos importantes do Presidente, os perdões, ainda legal e válido, mas sem nenhum nomes neles! Se conseguir pegar eles, vocês vão poder fugir daqui e se aposentar. Eu não tenho muito tempo restando. Esse maldito vírus tá consumindo o meu corpo cada vez mais. Mas caralho, vou viver pra ver isso.\n\n»Entra na Casa Branca \n»Entra no escritório oval\n»Ache os cartões de chave do presidente\n »Vai pro COEP e abre o cofre \n»Rouba os perdões do presidente e foge.",
 	heist_vit_briefing = "Aqui vamos nós, queridos amigos. Os perdões que a gente procura tão na Centro de Operações de Emergência do Presidente, ou COEP como eles chamam, que tá em baixo da Casa Branca. num consegui mais detalhes disso- parece que aumentaram a segurança de lá, então, a gente vai fazer isso discaradamente. Vou levar tu pelo um helicoptéro e vai tá vestido como um deles. Entra lá quieto, se conseguir e só age com barulho se for preciso. Essa é pelo Bain. E talvez pela gente, né?",
 	

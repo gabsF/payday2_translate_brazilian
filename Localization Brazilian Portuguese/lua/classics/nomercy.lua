@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "nmhportuguese", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Descrição da heist
-	heist_nmh = "Sem Misericórdia (No Mercy)",
-	heist_nmh_hl = "Sem Misericórdia (No Mercy)",
+	--heist_nmh = "Sem Misericórdia (No Mercy)",
+	--heist_nmh_hl = "Sem Misericórdia (No Mercy)",
 	heist_nmh_briefing = "Nosso cliente precisa de frascos de sangue de um paciente que está sendo mantido sobre isolamento no Mercy Hospital. Você precisa ir lá, tirar do ar a vigilância, dominar os civis e me dar acesso aos arquivos de pacientes para eu achar o cara. Com a baixa segurança deste local, isso deverá ser fácil, um trabalho limpo. Eu vou tirar vocês de lá pelo telhado quando vocês terminarem. Esse trabalho é um pouco complexo, mediado por um terceiro- que tem algumas intenções militares sombrias, mas vale o risco. O pagamento é algo que precisaremos no futuro, com um ótimo bônus de dinheiro.",
 	heist_nmh_crimenet = "Bain tem apenas mais alguns dias. Aqueles filhos da puta da Kataru acharam adequado matar ele com o vírus. O mesmo vírus que roubamos uns anos atrás no Mercy Hospital. Independentemente pra quem conseguimos isso, eles venderam para a Murkywater e agora isso está matando ele. Eu sabia desde o início que era um trabalho ruim. Bain também sabia, mas ele queria aquele manuscrito Cagliostro. Aquela porra de livro. Deve ter dito pra ele ir se foder, mas ele falou que nós realmente precisaríamos disso para algo, e para ser honesto, nunca estaríamos onde estamos sem ele. \n\n»Mantenha os civis sobre controle \n»Ache o paciente correto \n»Escape com dois frascos de sangue válidos.",
 	

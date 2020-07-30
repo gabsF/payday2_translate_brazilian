@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "porcodamaedovlad", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_dinner_hl = "O Açougue (Slaughterhouse)",
-	heist_dinner = "O Açougue (Slaughterhouse)",
+	--heist_dinner_hl = "O Açougue (Slaughterhouse)",
+	--heist_dinner = "O Açougue (Slaughterhouse)",
 	heist_dinner_briefing = "Murkywater esteve movendo algumas coisas pela DC com um comboio por mêses. Eu resistir em atrapalhar eles até que aparecesse algo de valor. E aqui está. Ouro puro. Consegui um desvio em Woodrow para enganar eles e ir onde a gente quer, depois a gente vai separar o caminhão-forte do comboio. Assim que estiver isolado, vão lá e roubem tudo. Vamos lá.",
 	heist_dinner_crimenet = "Nós estamos interceptando um comboio nas docas. A carga é ouro. O comboio é da Murkywater. Dúvidas?\n\n» Interceptem o comboio\n» Roube o ouro\n» Prepare uma armadilha\n» Leve o ouro\n» Foge",
 	

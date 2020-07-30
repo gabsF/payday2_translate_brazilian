@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "pontechuva", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_glace = "Ponte Verde (Green Bridge)",
-	heist_glace_hl = "Ponte Verde (Green Brigde)",
+	--heist_glace = "Ponte Verde (Green Bridge)",
+	--heist_glace_hl = "Ponte Verde (Green Brigde)",
 	heist_glace_briefing = "O plano é simples: disfarçado na escuridão, nós vamos interceptar o comboio quando eles atravessarem a Ponte Verde. Na verdade, nós vamos explodir a ponte! Isso deve parar o trânsito, não acha? Nós resgatamos o prisioneiro, colocamos ele em um balão e vai sumir no ar.",
 	heist_glace_crimenet = "Ok, tá na hora de tirar o Kazuo da prisão, assim vamos conseguir ter as informações sobre Kento. Eu aprontei... um pouco... para transferir ele em um comboio. Nós vamos interceptar o comboio e tirar ele dali. Isso não vai dá pra fazer sem chamar atenção, gente, vamos ter que fazer isso no extremo para parar esse comboio. E sim, Kazuo não sabe da gente, então vai ser uma surpresa muito boa!\n\n» Ache o comboio\n» Abre os caminhões e ache o prisioneiro\n» Protege o prisioneiro até a torre\n» Leve o prisioneiro pelo ar\n» Foge",
 	

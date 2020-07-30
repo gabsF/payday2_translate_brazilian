@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "12horasdesligado", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nome e Descrição
-	heist_rat = "Pesadelo na Cozinha (Cook Off)",
-	heist_rat_hl = "Pesadelo na Cozinha (Cook Off)",
+	--heist_rat = "Pesadelo na Cozinha (Cook Off)",
+	--heist_rat_hl = "Pesadelo na Cozinha (Cook Off)",
 	heist_rat_crimenet = "Nós cozinhamos em um laborátorio de metanfetamínas numa floresta. Não vai ter essas merdas do Hector. É só pelo dinheiro. \n\n» Localize o laboratório de metanfetamínas\n» Cozinhe metanfetamínas\n» Leve a pilha e foge.",
 	heist_rat_briefing = "Isso vai ser simples, mas não quer dizer que vai ser fácil. A gente vai voltar pra floresta. Você conhece o lugar. A gente tinha feito um trabalho pro Hector lá. Bom, eu dei uma olhada no lugar e ainda tá inteiro. Então, nós iremos lá pra cozinhar muita metanfetamínas que a gente pôder. Você pode ficar lá o quanto pode. Se ficar sem ingredientes, eu vou mandar mais. Vai ser dinheiro fácil.",
 	

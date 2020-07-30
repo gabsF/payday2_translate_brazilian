@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "boraoverdrill", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_red2 = "Primeiro Banco Mundial (First World Bank)",
-	heist_red2_hl = "Primeiro Banco Mundial (First World Bank)",
+	--heist_red2 = "Primeiro Banco Mundial (First World Bank)",
+	--heist_red2_hl = "Primeiro Banco Mundial (First World Bank)",
 	heist_red2_briefing = "O cofre está no fundo do banco. Chegar até lá vai ser difícil, mas temos ajuda. Uma agente está preparada e esperando por vocês. Ela vai nos ajudar assim que vocês entrarem.\n\nVocês podem fazer isso do jeito barulhento ou sem chamar atenção. A decisão é de vocês.",
 	heist_red2_crimenet = "A gente esteve de olho no Primeiro Banco Mundial por um tempo. Agora é a hora do golpe. Vão pra lá e roubem o seu dinheiro. \n\n» Localize o gerente\n» Ganhem acesso a sala do servidor\n» Vão para o cofre\n» Ensaquem todo dinheiro e fujam",
 	
