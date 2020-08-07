@@ -1,24 +1,20 @@
-2.06
-+ Traduzido GO Bank (feito pelo DarK)
-+ Traduzido Ukrainian Job (feito pelo HimuraBR)
-+ Traduzido os boosts da Equipe IA
-+ Traduzido os objetivos do Tutorial do Loud (porque Gabs esqueceu de traduzir, whoops...)
-+ Traduzido a tela de Loading (Usando o script do Dr_Newbie da tradução chinês)
-+ Traduzido mais botões com suporte a controle
-+ Traduzido mais textos das Skills
-+ Agora o botão de alternar as recompênsas potenciais irá mudar se você estiver com controle
-+ Traduzido mais textos das estátisticas do personagem e das armas corpo-a-corpo
-+ Traduzido a aba Gage da Crime.Net
-+ Traduzido todas as dicas
-+ Traduzido as falas do Bile em Heat Street
-* Corrigido as traduções de "escondeirijo" no Hoxton Revenge/Hoxton
-* Corrigido as traduções das "mascarás" nos tutoriais
-* Corrigido vários erros nos menus (Obrigado, HimuraBR)
-* Corrigido uma tradução do "Tempo restante estimado" dos timers não está aparecendo (Usando o script do Dr_Newbie da tradução chinês)
-* Mudado algumas traduções do "Corretor de Contrato"
-* Corrigido alguns certos elementos da HUD não está traduzido corretamente
-* Corrigido um erro de tradução nas Skills (avisado via servidor do Discord)
-* Corrigido algumas consistências de traduções
-* Corrigido erros de traduções das "camêras"
-- Removido uma tradução duplicada no código que era desnecessário
-- Removido os nomes traduzidos das Heists e deixado só os originais (Pedido da Comunidade)
+2.07
++ Traduzido Birth of Sky (feito pelo RockZero)
++ Traduzido algumas partes da "Blackmarket"
++ Traduzido as opções de Áudio
++ Traduzido mais nomes dos equipamentos dos objetivos
++ Traduzido mais falas de algumas heists
+	> Go Bank
+	> Scarface Mansion
+	> Alaskan Deal
+	> Hell's Island
+	> Panic Room
++ Traduzido mais interações
++ Traduzido as descrições das dificuldades na tela do Corretor de Contrato e agora mostra o quanto de EXP se multiplica
++ Adicionado alguns "Easter Eggs" em certas máscaras ;)
+* Melhorado algumas traduções dos objetivos de algumas Heists
+* Mudado a notificação de quando você fracassa em converter o refém
+* Mudado a tradução do "Pilha assegurado" para "Saque assegurado"
+* Corrigido uma tradução nas Skills
+* Corrigido algumas legendas em Beneath The Mountain
+- Removido várias traduções duplicadas que eram desnecessárias

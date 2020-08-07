@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "plsbuffgrinder", function(loc)
+Hooks:Add("LocalizationManagerPostInit", "caralhodecartas", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Generics
 	menu_deckall_2 = "Capacete Voando",

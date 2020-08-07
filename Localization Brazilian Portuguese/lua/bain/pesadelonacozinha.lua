@@ -130,7 +130,6 @@ Hooks:Add("LocalizationManagerPostInit", "12horasdesligado", function(loc)
 	pln_rt1b_01_01 = "Droga, parece que os policias tavam vigiando o lugar. Vamos logo!",
 	pln_rt1_06_any_01 = "Entra na casa.",
 	pln_rt1_06_any_02 = "Vamos, entra na casa.",
-	pln_rt1_12_any_11 = "Tá, mantenha essa fumaça no minímo... Continua.",
 	pln_rats_stage1_26_any_02 = "Mas que?! Pessoal, vocês tem que tomar cuidado com essa coisa, eu te avisei!",
 	pln_rats_stage1_14_any_01 = "Cuidado! Eles tem snipers chegando!",
 	pln_rats_stage1_29_any_01 = "Leve as bolsas pra van. Não deixe que os policias não peguem a metanfetamínas!",

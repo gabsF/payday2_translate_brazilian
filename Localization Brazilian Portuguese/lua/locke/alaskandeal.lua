@@ -14,6 +14,7 @@ Hooks:Add("LocalizationManagerPostInit", "trampoalaskano", function(loc)
 	cpt_wwh_01_01 = "Caralho, pensei que nunca ia sair dessa merda. Me tira daqui, fazendo favor?",
 	cpt_wwh_01_02 = "Que beleza, Butcher mandou ajuda. Me ajuda aqui.",
 	cpt_wwh_01_03 = "Finalmente, porra, Butcher mandou ajuda. Me tira daqui, agora!",
+	cpt_wwh_02_01 = "Vou voltar pro navio sozinho. Irei mandar instruções.",--I get back to ship alone. Will contact you with instructions.
 	cpt_wwh_02_02 = "Eu irei volta pro barco e te dizer o que deve fazer.",
 	cpt_wwh_02_03 = "Vou te dizer o que deve fazer, quando eu estiver no barco.",
 	cpt_wwh_03_01 = "Alô? Isso tá ligado? O navio precisa de diesel para poder ir até Águas Internacionais.", -- Tem certeza sobre isso, capitão?
@@ -53,6 +54,7 @@ Hooks:Add("LocalizationManagerPostInit", "trampoalaskano", function(loc)
 	cpt_wwh_14_02 = "A mangueira e as cordas ainda estão ligadas!",
 	cpt_wwh_14_03 = "Todas as cordas e a mangueira precisam ser tiradas.",
 	cpt_wwh_15_01 = "Subam a bordo, agora!",
+	cpt_wwh_15_02 = "Tá na hora de ir, camaradas! Todos a bordo!",--Is time to leave, comrades! All aboard!
 	cpt_wwh_15_03 = "Todo mundo, pro navio. Vamo' dá o fora daqui!",
 	cpt_wwh_16_01 = "Tira a ponte e proteja o navio!",
 	cpt_wwh_16_02 = "O navio tá sendo atacado. Tira logo essa ponte e proteja o navio.",
@@ -69,7 +71,7 @@ Hooks:Add("LocalizationManagerPostInit", "trampoalaskano", function(loc)
 	
 	-- Legendas (Locke)
 	loc_wwh_01_01 = "Desculpa, gente, eu gostaria de fazer isso de outro jeito, mas eles fizeram uma oferta que não podia dizer não.",
-	loc_wwh_01_02 = "Não consegui resistir, pessoal. São só negócios, 'cêis entende isso, né?",
+	loc_wwh_01_02 = "Não consegui resistir, pessoal. São só negócios, 'cêis entendem isso, né?",
 	loc_wwh_01_03 = "Vocês vão me odiar depois dessa, mas só quando vocês estiverem em um caixão. Nada pessoal.",
 	loc_wwh_02_01 = "Até nunca mais, meus amigos.",
 	loc_wwh_02_02 = "Tchau tchau, amigos, nós nunca iremos se encontra, eu acho.",
@@ -82,20 +84,27 @@ Hooks:Add("LocalizationManagerPostInit", "trampoalaskano", function(loc)
 	pln_wwh_02_01 = "É uma armadilha! O desgraçado traiu a gente. Swat tá vindo. 'Cê vai ter que achar o seu caminho.",
 	pln_wwh_02_02 = "Porra, foi uma armadilha. Tem policiais vindo, se prepara.",
 	pln_wwh_02_03 = "Temos problemas, gente. Locke traiu a gente. Vai ter que passar pelos os policiais, pra poder sair daí.",
+	pln_wwh_03_01 = "Esquece Locke por enquanto, vamos cuidar desse filho da puta depois.",--Forget Locke for now, we'll take care of that scumbag later.
 	pln_wwh_03_02 = "Locke conseguiu fugir, mas nós iremos ter a nossa vingança.",
 	pln_wwh_03_03 = "Locke fugiu, esse filha da puta, mas a gente vai pegar ele depois. Grave as minhas palavras.",
-	pln_wwh_04_01 = "O navio que está perto das docas é da Butcher. Parece que ela foi enganada também. Bora ajuda eles, talvez eles nós dá uma carona.",
-	pln_wwh_04_02 = "O navio é da Butcher! Locke traiu ela também. Ajudem eles e talvez eles vão dá uma carona para vocês.",
+	pln_wwh_04_01 = "O navio que está perto das docas é da Açougueira. Parece que ela foi enganada também. Bora ajuda eles, talvez eles nós dá uma carona.",
+	pln_wwh_04_02 = "O navio é da Açougueira! Locke traiu ela também. Ajudem eles e talvez eles vão dá uma carona para vocês.",
+	pln_wwh_04_03 = "Locke traiu a A Açougueira também. O navio que tá perto da doca é dela. Ajudem eles e talvez possamos ter uma carona de navio.",--Locke sold the Butcher out too. The ship by the dock is one of hers. Go help 'em out and maybe we can hitch a boat-ride.
+	pln_wwh_05_01 = "Vocês precisam ajudar todos os reféns.",--You need to free all the hostages. 
 	pln_wwh_05_02 = "Liberta todo marítimo vocês conseguirem.",
+	pln_wwh_05_03 = "Continuem libertando o pessoal da Açougueira.",--Keep freeing the Butcher's people.
 	pln_wwh_06_01 = "Ei, alguem precisa de ajuda. Anda logo!",
 	pln_wwh_06_02 = "Vai lá e ajuda eles.",
 	pln_wwh_06_03 = "Eles precisam de ajuda, vai pra lá assim que puder.",
 	pln_wwh_07_01 = "Tá, o bom que essa serra vai ser útil.",
 	pln_wwh_07_02 = "Beleza, vocês vão precisa dessa serra.",
+	pln_wwh_07_03 = "Uma serra? Boa, vai ser útil.",--A saw? Good, that's gonna come in handy.
+	pln_wwh_08_01 = "Vocês deveriam ajudar o capitão, pessoal. Peguem essa serra e coloquem na porta.",--You should help the Captain, gang. Take that saw and put it to use on the door.
 	pln_wwh_08_02 = "Usa a serra para abrir essa porta e ajuda o capitão ir pro navio!",
 	pln_wwh_08_03 = "Vocês precisam ajuda o capitão, abre a porta com a serra!",
 	pln_wwh_09_01 = "Essa serra não parece tá boa, fica de olho nela.",
 	pln_wwh_09_02 = "Não fica longe dessa serra, pode ser que quebra.",
+	pln_wwh_09_03 = "Fiquem de olho nessa serra até ficar pronta.",--Keep an eye on that saw until it's done.
 	pln_wwh_10_01 = "Porra, bota pra serra de novo.",
 	pln_wwh_10_02 = "A serra ficou travada.",
 	pln_wwh_10_03 = "Os policiais quebraram a serra. Conserta assim que puder!",

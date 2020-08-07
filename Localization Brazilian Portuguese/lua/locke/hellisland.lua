@@ -8,6 +8,14 @@ Hooks:Add("LocalizationManagerPostInit", "bainbreakout", function(loc)
 	heist_bph_briefing = "Ok, agora, nós não sabemos onde exatamente o Bain está na prisão ou a condição que ele está, e tem muitos Murkys por toda parte. Esse vai ter que ser barulhento e rápido, okay? Vocês estarão indo pelo o sistema de esgoto que deságua no oceano.",
 	
 	-- Introdução
+	rb5_bph_intro_01c = "Tomar no cu, Locke, sempre o estraga-prazeres.",--Fuckin' Locke, always gotta spoil the fun.
+	rb1_bph_intro_01f = "Se o Dentista estiver lá em cima, eu vou chutar os dentes dele.",--If the Dentist is up there, he's getting his teeth kicked in.
+	rb22_bph_intro_01e = "Você pensaria que alguém como o Dentista poderia comprar uma prisão bem forçado para torturar pessoas...",--You would have thought someone like the Dentist could afford a better kept prison to torture people in...
+	rb5_bph_intro_01g = "Beleza, putinhas. A gente tá fazendo isso por ele.",--Right, wankers. We do this one for the boss.
+	loc_bph_intro_01b = "Melhor vocês do que eu, tá?",--Better you guys than me, yeah?
+	rb1_bph_intro_01d = "Locke, você vai pagar porra das contas dos lanches desse mês.",--Locke, you're payin' the fuckin' laundry bill this month.
+	rb1_bph_intro_01h = "Entendi essa, Hox.",--Got that right Hox.
+	rb22_bph_intro_01a = "De quem foi a ideia de ir por aqui?",--Whose idea was it to go in from here?
 	rb1_bph_intro_03a = "Lembra disso, Hox?",
 	rb5_bph_intro_03b = "Já aconteceu faz um tempo, que merda.",
 	rb1_bph_intro_03c = "Quem matar o Kento, vai tá me devendo cerveja.",
@@ -23,16 +31,38 @@ Hooks:Add("LocalizationManagerPostInit", "bainbreakout", function(loc)
 	rb1_bph_intro_02f = "Hora de virar as mesas.",
 	rb22_bph_intro_02e = "Esgoto, porque tinha que ser esgoto.",
 	rb1_bph_intro_02d = "Conveniente pra caralho, esse escoderijo da Murkywater.",
-	rb22_bph_intro_02c = "Lugar comfortante, né?",
+	rb22_bph_intro_02c = "Lugar confortante, né?",
 	rb5_bph_intro_02b = "Eu espero que aquele merdinha do Kento aparece. Eu REALMENTE espero.",
 	rb22_bph_intro_02a = "Bain, velho amigo, aqui vamos nós! Oh, que bela frase.",
 	
 	-- Legendas
+	loc_bph_21_01 = "Usa a furadeira nessa porta.",--Drill through the door.
+	loc_bph_08_02 = "Talvez usa o termite que tá lá 'trás.",--Maybe try that thermite you found before.
+	loc_bph_25_01 = "Não se preocupa, amigos. Vou pegar o Bain. Só mantenha esses Murkys longe da gente, tá?",--No worries, friends. I'll get Bain. Just keep those Murkys away from us, yeah?
+	loc_bph_04_02 = "Isso seria útil pra algo mais a frente.",--Could be useful somewhere down the line.
+	loc_bph_28_02 = "Blerrie, os Kataru realmente ferrou ele.",--Blerrie, the Kataru have really messed him up. 
+	loc_bph_22_01 = "Pega essa chave, amigos.",--Grab the keychain friends.
+	loc_bph_27_01 = "Vocês precisam matar esses Murkys!",--You need to take care of those Murkys!
+	loc_bph_30_01 = "Vamos, não temos muito tempo, extendem a ponte.",--Come on, we don't have much time, extend the walkway.
+	loc_bph_30_02 = "Rápido... achem os controles da ponte.",--Hurry now... find those walkway controls.
+	loc_bph_28_03 = "Aguenta aí, Bain. Não vamos te perder agora.",--Hang in there, Bain old friend. Not going to lose you now.
+	loc_bph_28_01 = "Bain, seu idiota... não se atreve a morrer.",--Bain, you chop... don't you dare die...
+	loc_bph_04_03 = "Ah, legal desses keks deixarem isso pra vocês.",--Ah, nice of the keks to leave this lying around for you.
+	loc_bph_22_03 = "A chave! Pega logo!",--The keychain! Get it!
+	loc_bph_27_02 = "Mantenha esses Murkys longe da gente!",--Keep those Murkys away from us!
+	loc_bph_25_02 = "Vou carregar Bain até o helicóptero, se você pôder manter esses Murkys longe da gente!",--I'll carry Bain to the copper if you just keep those Murky chops off us!
+	loc_bph_30_03 = "Os controles da ponte... achem logo!",--The walkway controls... find them!
+	loc_bph_22_02 = "Rápido, peguem as chaves.",--Hurry, get the keychain.
+	loc_bph_04_01 = "Isso provavelmente vai ser útil pra depois.",--That will probably come in handy later.
+	loc_bph_25_03 = "Cuidem desses Murkys e vou levar Bain!",--Take care of those Murkys and I'll get Bain to safety!
+	loc_bph_27_03 = "Não posso atirar nesses Murkys e carregar Bain ao mesmo tempo. Vocês tem que matar eles.",--I can't shoot Murkys and carry Bain at the same time. You gotta take them out.
+	loc_bph_21_03 = "Andem logo, use a furadeira nessa porta.",--Hurry now, get a drill on that door.
+	loc_bph_28_04 = "Bain, você não vai morrer, tá? Você vai ter que explicar qual é desse negocio dos Kataru!",--Bain, you're not gonna dies, yeah? You gotta set us straight on this Kataru business!
 	loc_bph_end_win_01 = "Bom trabalho, gente. Bom trabalho! Nós conseguimos resgatar. Bain... está em casa. Mas os Murkys fizeram algo com ele. Eu to com os profissionais olhando nele agora e eles disseram que é algum tipo de vírus, talvez fabricado. Se ele morrer... oh, Locke aqui vai ficar bem puto e esses tal de Kataru irão morrer...",
 	loc_bph_end_fail_01 = "Pessoal, a gente fudeu tudo... Nada bom... Nada bom.",
 	loc_bph_03_01 = "Merda! Filhas da puta!",
 	loc_bph_11_01 = "Muito bem, ver se você consegue ver o Bain pelas as cameras de segurança.",
-	loc_bph_12a_02 = "Aí está! Nossa... ele não parece nada bem, liberte ele.",
+	loc_bph_12a_02 = "Ali! Nossa... ele não parece nada bem, liberte ele.",
 	loc_bph_12_03 = "Ache a cela do Bain pelas as cameras.",
 	loc_bph_12_01 = "Vamo, gente. Use as cameras.",
 	loc_bph_12_02 = "Você tem que usar as cameras para achar o Bain!",
@@ -123,20 +153,21 @@ Hooks:Add("LocalizationManagerPostInit", "bainbreakout", function(loc)
 	loc_bph_35_02 = "Vamos pro helicóptero pra gente dá o fora daqui.",
 	loc_bph_20_01 = "Bain está fazendo o trabalho curto dos Murkys. Pra passar por isso, vocês terão que colocar a furadeira na porta e pegar as chaves do Murky morto.",
 	loc_bph_23_02 = "Tá, o Bain está indo pro telhado. Continua seguindo ele.",
+	loc_bph_20_02 = "Parece que Bain ainda tem força, deu uma bela surra nesse Murky. Vocês vão precisar usar a furadeira nessa porta pra pegar as chaves.",--Look like Bain still has some strength, taking out that Murky. You'll need to drill through the door to get his keychain.
 	
 	--Objetivos
-	hud_heist_bph_1_hl = "Entra na prisão",	
-	hud_heist_bph_2_hl = "Sobreviva a emboscada",
-	hud_heist_bph_3_hl = "Procura pela pela a sala de controle",
-	hud_heist_bph_4_hl = "Entra na sala de controle",
+	hud_heist_bph_1_hl = "Entre na prisão",	
+	hud_heist_bph_2_hl = "Sobrevive a emboscada",
+	hud_heist_bph_3_hl = "Procure pela a sala de controle",
+	hud_heist_bph_4_hl = "Entre na sala de controle",
 	hud_heist_bph_5_hl = "Liberte Bain",
 	hud_heist_bph_13_hl = "Espere a cela do Bain abrir",
 	hud_heist_bph_7_hl = "Segue o Bain",
-	hud_heist_bph_8_hl = "Vai pro telhado",
-	hud_heist_bph_9_hl = "Proteja o Locke e Bain",
-	hud_heist_bph_10_hl = "Extenda a ponte",
+	hud_heist_bph_8_hl = "Vá pro telhado",
+	hud_heist_bph_9_hl = "Protege o Locke e Bain",
+	hud_heist_bph_10_hl = "Extende a ponte",
 	hud_heist_bph_11_hl = "Libere o caminho pro Locke",
-	hud_heist_bph_14_hl = "Hackeia a caixa de controle", 
-	hud_heist_bph_12_hl = "Vai pro helicóptero",
+	hud_heist_bph_14_hl = "Hackeie a caixa de controle", 
+	hud_heist_bph_12_hl = "Vá pro helicóptero",
 		})
 end)

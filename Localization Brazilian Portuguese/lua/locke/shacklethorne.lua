@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "shacklethorneaptbr", function(loc)
+Hooks:Add("LocalizationManagerPostInit", "manoquembotouessenomebizarro", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nome e descrição
 	heist_sah_crimenet = "O Elephant nos deu uma dica sobre uma antiga mansão no Salem, onde está sendo feito um leilão que tem um artefato que precisamos para o dispositivo na cozinha.\n\n» Passe pela segurança e entre na mansão\n» Ache o código e entre no cofre\n» Assegure o artefato e escape",
@@ -357,7 +357,7 @@ Hooks:Add("LocalizationManagerPostInit", "shacklethorneaptbr", function(loc)
 	hud_heist_sah_5_hl = "Pegue o cartão de acesso",
 	hud_heist_sah_2_hl = "Tenha acesso ao armazém",
 	hud_heist_sah_12_hl = "Colete a ferramenta",
-	hud_heist_sah_16 = "Roube mais coisas ou foge.",
+	hud_heist_sah_16 = "Roube mais algo de valor ou foge.",
 	hud_heist_sah_17_hl = "Vá para o cofre",
 	hud_heist_sah_1_hl = "Entre na casa de leilões",
 	hud_heist_sah_1 = "Tente entrar na casa de leilões sem disparar o alarme.",
@@ -386,7 +386,7 @@ Hooks:Add("LocalizationManagerPostInit", "shacklethorneaptbr", function(loc)
 	hud_heist_sah_6 = "Ligue a energia de volta para as pessoas não suspeitarem do que está acontecendo.",
 	hud_heist_sah_11_hl = "Espere pelo tempo de destravamento",
 	hud_heist_sah_15 = "Guarde o item.",
-	hud_heist_sah_16_hl = "Roube mais ou escape",
+	hud_heist_sah_16_hl = "Roube mais ou foge",
 	hud_heist_sah_18 = "Entre no cofre.",
 	hud_heist_sah_2 = "Invada os pontos de acesso para abrir as portas para o armazém.",
 	hud_heist_sah_3_hl = "Ponha o dispositivo no teclado numérico",

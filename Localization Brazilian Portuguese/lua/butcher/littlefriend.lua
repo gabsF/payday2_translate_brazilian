@@ -7,6 +7,39 @@ Hooks:Add("LocalizationManagerPostInit", "digaumolapromeuamiguinho", function(lo
 	heist_friend_hl_briefing = "Ernesto Sosa é o chefe local do Cartel Sosa em Miami, e A Açougueira quer ele morto. Vocês vão adorar isso: ele vive na antiga mansão de Tony Montana em Miami Beach. Isso mesmo - Scarface, o lendário traficante dos anos 80. Enfim, vocês tem que entrar na mansão, achar um caminho para dentro e depois matar Ernesto Sosa. Não vai ser fácil, o lugar é tipo uma fortaleza, mas vocês conseguem. Ah sim, quase me esqueci - deve ter muito dinheiro e outras coisas naquela casa. Roubem tudo, limpem o lugar, mas o mais importante - mate o Ernesto Sosa.",--Ernesto Sosa is the local boss in Miami for the Sosa Cartel, and The Butcher wants him dead. You're gonna love this: he lives in Tony Montana's old mansion in Miami Beach. Yeah that's right - Scarface, the legendary 80's drug lord. Anyway, you've got to hit the mansion, find a way in and then kill Ernesto Sosa. It won't be easy, the place is like a fortress. But you can do it. Oh yeah, I almost forgot - there should be a lot of money and other loot in that house. Steal it. Wipe them clean. But above all - kill Ernesto Sosa.
 	
 	-- Legendas
+	btc_fri_04_01 = "Então, Ernesto Sosa está se escondendo atrás dos guardas. Vocês conseguem passar por isso, tenho certeza.",--So Ernesto Sosa is hiding behind his guards. You can handle it, I'm sure.
+	btc_fri_07_02 = "Tem um sistema de tranca estranha no escritório do Ernesto Sosa, usando uma frase secreta. Mas o meu pessoal colocaram um gravador em um pacote de cocaína especial. Ache-o.",--There's an unusual lock system for Ernesto Sosa's office, using a spoken pass phrase. But my people have smuggled in a special cocaine package, with a hidden microphone recorder. Find it.
+	btc_fri_06_01 = "Bom trabalho em não chamar atenção. Continua assim.",--Good job on not raising the alarm. Keep it up.
+	btc_fri_12_01 = "Sr. Sosa nunca mais vai interromper as minhas operações de novo. Nem os seus amigos, eu acho.",--Mr. Sosa will not disrupt my operations again. Nor will his friends, I think.
+	btc_fri_06_02 = "Bom trabalho. Vocês são bem camuflados.",--Well done. You move silently.
+	btc_fri_07_03 = "O escritório tem um sistema de tranca especial. Usa uma frase secreta. Coloquei um pacote de cocaína especial escondido no trato. Tem um microfone escondido. Ache o pacote.",--The office has a special lock system. It uses a spoken pass phrase. But I had a special cocaine package smuggled in through a drugs deal. It has a hidden microphone recorder in it. Find this package.
+	btc_fri_10_02 = "Vocês enganaram ele. Excelente. Agora matem ele.",--You tricked him. Excellent. Now kill him.
+	btc_fri_09_02 = "Bain irá falar.",--Bain will make the call.
+	btc_fri_05_02 = "Isso vai servir de lição para todo mundo: Não fode A Açougueira. Muito obrigado, meus amigos.",--This will be a lesson to all: Don't fuck with The Butcher. Thank you for your help, my friends.
+	btc_fri_06_03 = "Vocês são bem habilidosos e silênciosos. Deveríamos fazer mais contratos.",--You are skilled and silent infiltrators. We should work together more often.
+	btc_fri_10_03 = "Ele acreditou. A hora chegou pro Sr. Sosa. Manda beijos pra ele por mim.",--He bought it. The time has come to kill Mr. Sosa. Give him my regards.
+	btc_fri_02_01 = "Parece que as pinturas não eram suficientes. Devemos deixar ele mais puto.",--Seems the paintings are not enough. We must hit him harder.
+	btc_fri_10_01 = "O idiota acreditou. Entra e mate ele.",--The bastard bought it. Get in there and kill him.
+	btc_fri_02_02 = "É claro que ele não liga para as pinturas. Vocês precisam achar mais algo.",--He obviously didn't care enough about those paintings. You need to find something else.
+	btc_fri_02_03 = "Então, destruindo a arte dele não machucou o seu ego suficiente. Bora tentar mais alguma coisa.",--So destroying his art collection didn't hurt enough. Let's try something else then.
+	btc_fri_09_01 = "Bain irá falar a frase secreta.",--Bain will make the call with the pass phrase.
+	btc_fri_01_01 = "Bain, não temos o dia todo aqui. Se a cobra se esconde an sua toca, devemos fazer ela tirar a sua cabeça pra fora. Talvez você deve tentar destruir alguma coisa preciosa.",--Bain, we don't have all day here. If the snake hides in its hole, we must goad it into sticking its head out. Maybe you should try to destroy some of his precious things.
+	btc_fri_03_02 = "Então, ele é doido por carros. Bom, logo vai ser doido por carros morto.",--So he's a car freak. Well... soon he will be a dead car freak.
+	btc_fri_09_03 = "Bain, pode falar?",--Bain - can you make the call?
+	btc_fri_07_01 = "Ernesto Sosa tem um sistema de tranca especial pro seu escritório, com uma frase secreta. Mas eu tenho um plano pra isso, o meu pessoal vendeu um pacote de cocaína especial pra ele, com um microfone escondido. Vê se consegue achar.",--Ernesto Sosa has a special lock system for his office, with a spoken pass phrase. But I have planned for it - I had my people sell some special cocaine to him, with a microphone recorder hidden in the package. See if you can find it.
+	btc_fri_08_01 = "Vocês precisam da frase secreta para chamar o Ernesto Sosa. A frase pode está aí.",--You need a pass phrase when you call Ernesto Sosa. The phrase should be on there.
+	btc_fri_11_01 = "Muito bem, matando sem chamar atenção. Isso acontece quando tentam me foder.",--Very good, a silent kill. This is what happens to those who cross me.
+	btc_fri_12_02 = "A mensagem foi entregue. Foi feito, eu agradeço vocês.",--The message has been delivered. The job is done, I thank you.
+	btc_fri_01_03 = "Se ele não botar a cabeça pra fora, vamos ter que atrair ele. Começa a destruir as coisas dele e vê se ele vai ficar bem puto pra sair e lutar.",--If he's not going to stick his head out, we'll have to draw him out. Start destroying his things and see if that makes him mad enough to come out and fight.
+	btc_fri_08_03 = "Você deve achar a frase secreta aí. Vocês vão precisar quando chamarem ele.",--You should find a pass phrase there. You'll need it when you call him.
+	btc_fri_03_03 = "O que é dos homens gostarem de carros? Deixa pra lá, vocês entraram. Matem ele.",--What is it with some men and cars? Nevermind, you are in now. Kill him.
+	btc_fri_05_01 = "Bom trabalho. Ernesto Sosa está morto. A minha mensagem foi entregue.",--Good job. Ernesto Sosa is dead. My point has been made.
+	btc_fri_05_03 = "A mensagem foi entregue. Ernesto Sosa está morto. O seu trabalho aqui foi feito.",--The message has been delivered. Ernesto Sosa is dead. Your work here is done.
+	btc_fri_04_02 = "Matem os guardas. Depois matem Ernesto Sosa.",--Kill the guards. Then you can kill Ernesto Sosa.
+	btc_fri_04_03 = "Se vocês matarem os guardas dele, vocês vão conseguir chegar até ele.",--If you kill his guards, you will get to him.
+	btc_fri_03_01 = "A chave pro coração dele estava nos carros. Agora, vai e mete uma bala na cabeça dele.",--The key to his heart was in the cars. Now go put a bullet through it.
+	btc_fri_08_02 = "A frase secreta é precisa quando você for chamar Ernesto Sosa. Deve está em algum lugar.",--The pass phrase is needed when you call Ernesto Sosa. It should be there.
+	btc_fri_01_02 = "Se ele for se esconder, vamos ter que atrair ele pra fora. Vocês poderiam destruir as suas coisas preciosas e vê se vai ferir o seu ego.",--If he's going to hide away, we'll have to draw him out. You could start destroying his treasured possessions and see if that does it.
 	pln_fri_30_03 = "Ok, hora da grana, pessoal. Vamos roubar o cofre de chão do Ernesto. Acoplem os guinchos no chão.",--Ok, time for the money, guys. We're gonna loot Ernesto's floor safe. Hook those winches up to the floor.
 	pln_fri_51_01 = "Muito bem, bonito e silencioso. Assegure tudo que conseguir, mas vamos precisar de pelo menos algumas bolsas pra valer a pena.",--Well done, nice and quiet. Secure everything if you can, but we need at least a few bags to make this worthwhile. 
 	pln_fri_24_01 = "É suficiente. Agora coloque a gasolina em cima e atire para acender!",--That's enough. Now put a gas can on it and shoot it to light it up!
@@ -197,7 +230,7 @@ Hooks:Add("LocalizationManagerPostInit", "digaumolapromeuamiguinho", function(lo
 	hud_heist_friend_stealth_03_hl = "Faça a ligação",--Make the call
 	hud_heist_friend_anger_3 = "Ache um pouco de termita e coloque na banheira para fazer um buraco. Com certeza vai deixar ele puto!",--Find some thermite and place it in the bathtub to create a hole. That should surely piss him off!
 	hud_heist_friend_loud_02_hl = "Hackeie o laptop",--Hack the laptop
-	hud_heist_friend_anger_2_hl = "Junte as quadros",--Gather the paintings
+	hud_heist_friend_anger_2_hl = "Junte as pinturas",--Gather the paintings
 	hud_heist_friend_loud_07_hl = "Abra o cofre de chão",--Open the floor safe
 	hud_heist_friend_loud_11 = "Vocês podem ir embora ou ficar para mais coisas, é com vocês.",--You can leave now or stay and get more loot, it is up to you.
 	hud_heist_friend_stealth_06 = "Deve ter um botão por perto para abrir o cofre. Vai estar escondido, então tente mover ou girar vasos ou outros objetos.",--There should be a button somewhere to open the hidden safe. It'll be hidden, so try moving or rotating vases or other obejcts.
@@ -231,7 +264,7 @@ Hooks:Add("LocalizationManagerPostInit", "digaumolapromeuamiguinho", function(lo
 	hud_heist_friend_loud_11_hl = "Assegure mais bolsas ou fuja",--Secure more loot or escape
 	hud_heist_friend_stealth_03 = "O gravador está conectado. Ligue pro Ernesto Sosa no seu escritório.",--The mic recorder is hooked up. Call Ernesto Sosa in his office.
 	hud_heist_friend_anger_0 = "Estamos trancados pra fora do escritório de Ernesto Sosa. Espere pelo plano de Bain",--We are locked out of Ernesto Sosa's room. Wait for Bain to come up with a plan
-	hud_heist_friend_anger_2b_hl = "Queime os quadros",--Burn the paintings
+	hud_heist_friend_anger_2b_hl = "Queime as pinturas",--Burn the paintings
 	hud_heist_friend_loud_01 = "O chefe da segurança tem o Pen Drivve preciso para hackiar o sistema. Ache-o, mate-o e pegue o Pen Drive.",--The head of security has a USB stick needed to hack the lock system. Find him, kill him and get the usb stick.
 	hud_heist_friend_loud_07 = "Os Sosas tem um cofre abaixo do piso do escritório. Vocês querem abrir esse cofre. Acoplem os guinchos, um em cada lado.",--The Sosas have a hidden safe under the floor of the office. You want to open that safe. Hook the winches up, one on each side.
 	hud_heist_friend_stealth_01 = "Temos uma escuta plantada na cocaína. Abram todas que acharem.",--We have a bug planted in the yayo. Rip open all you find.

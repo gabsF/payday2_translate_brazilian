@@ -26,8 +26,6 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	dialog_cs_cant_claim_rewards_text = "Você não tem prêmios para pegar.",--You have no rewards to claim.
 	
 	-- Em Lobby
-	menu_cs_ga_in_progress = "Assalto em Progresso",	
-	menu_cs_host_failed = "Esperando pelo Host",
 	menu_cs_not_in_progress = "NENHUMA SEQUÊNCIA EM PROGRESSO. Inicie a sua Sequência para ganhar prêmios e níveis.",
 	menu_cs_modifiers_has_failed = "Sequência Fracassada",
 	menu_cs_modifiers_has_failed_desc = "Você não irá ganhar níveis ou prêmios até você continuar.",
@@ -39,7 +37,6 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	menu_challenge_cash_drop = "Dinheiro",
 	menu_challenge_xp_drop = "Experiência",
 	menu_cs_host_failed = "Esperando pelo Host",
-	menu_cs_host_failed_text = "O Host fracassou a sua Sequência e deve escolher se vai continuar.",
 	menu_cs_next_modifier_forced = "Próximo mod. forçado: +$next.",
 	menu_cs_next_modifier_loud = "Próximo mod. de Barulhento: +$next.",
 	menu_cs_next_modifier_stealth = "Próximo mod. de Sigilo: +$next.",
@@ -94,7 +91,7 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	menu_cs_ga_increased_armor_desc = "Todos os jogadores vão receber 10% de colete extra.",
 	menu_cs_ga_increased_deployables_desc = "Todos os jogadores recebem 50% de equipamentos extra. (Mínimo: 1)",
 	--menu_cs_ga_increased_lives = "Só Mais Uma Queda",--One More Down
-	menu_cs_ga_quick_locks_desc = "Jogadores destranquem 25% mais rápido.",
+	menu_cs_ga_quick_locks_desc = "Jogadores destranquem as trancas 25% mais rápido.",
 	bm_cs_continental_coin_cost = "$cost Moeda(s) Continental(is)",
 	dialog_cs_ga_in_progress = "Jogo em progresso",--Heist In Progress
 	dialog_cs_ga_in_progress_text = "Não pode comprar os Gage Boosts depois do assalto ter iniciado.",

@@ -138,7 +138,6 @@ Hooks:Add("LocalizationManagerPostInit", "brocatermicaminhacaras", function(loc)
 	pln_branchbank_stage1_84_any_01 = "Certo, ótimo. Agora levem essa coisa para a porta da cofre.",
 	
 	-- Wick ficando puto
-	pln_misc_sj_dgh_03_02 = "Não! Que merda, pessoal... Wick queria cuidar deles. Ele queria mesmo colocar as mãos nesses desgraçados. Acho que ele vai ter que ficar feliz com a noticía deles mortos.",
 	pln_misc_sj_dgh_05_03 = "Não deixa eles irem embora! Tenha certeza que eles estão na van quando a gente ir embora.",
 	pln_misc_sj_dgh_02_01 = "Você matou um deles? Puts, eu não posso dizer que esse merdinha mereceu, mas o Wick queria ter o prazer.",
 	pln_misc_sj_dgh_03_02 = "Não! Porra, gente... Wick queria cuidar deles. Ele queria ter as mãos nesses desgraçados. Acho que ele vai ter que ficar contente com a noticía deles mortos.",

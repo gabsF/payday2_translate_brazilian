@@ -248,8 +248,8 @@ Hooks:Add("LocalizationManagerPostInit", "boraoverdrill", function(loc)
 	
 	-- Objetivos
 	hud_heist_red2_mission1 = "Entra lá dentro e não chame atenção para vocês!",
-	hud_heist_red2_mission1_hl = "Entra no banco",
-	hud_heist_red2_mission2 = "Ache o gerente do banco, procure por uma linha amarela assim que achar ele. Você precisa do cartão de acesso dele para acessar a sala do servidor.",
+	hud_heist_red2_mission1_hl = "Entre no banco",
+	hud_heist_red2_mission2 = "Ache o gerente do banco, procure por uma cotorno amarelo assim que achar ele. Você precisa do cartão de acesso dele para acessar a sala do servidor.",
 	hud_heist_red2_mission2_hl = "Ache o gerente do banco e o cartão de acesso dele",
 	hud_heist_red2_mission3 = "Procure pela sala do servidor e pegue os equipamentos. Está escondido dentro da impressora.",
 	hud_heist_red2_mission3_hl = "Pegue os equipamentos dentro da sala do servidor",

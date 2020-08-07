@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "nmhportuguese", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Descrição da heist
-	--heist_nmh = "Sem Misericórdia (No Mercy)",
-	--heist_nmh_hl = "Sem Misericórdia (No Mercy)",
+	--heist_nmh = "No Mercy",
+	heist_nmh_hl = "No Mercy (Memória)",
 	heist_nmh_briefing = "Nosso cliente precisa de frascos de sangue de um paciente que está sendo mantido sobre isolamento no Mercy Hospital. Você precisa ir lá, tirar do ar a vigilância, dominar os civis e me dar acesso aos arquivos de pacientes para eu achar o cara. Com a baixa segurança deste local, isso deverá ser fácil, um trabalho limpo. Eu vou tirar vocês de lá pelo telhado quando vocês terminarem. Esse trabalho é um pouco complexo, mediado por um terceiro- que tem algumas intenções militares sombrias, mas vale o risco. O pagamento é algo que precisaremos no futuro, com um ótimo bônus de dinheiro.",
 	heist_nmh_crimenet = "Bain tem apenas mais alguns dias. Aqueles filhos da puta da Kataru acharam adequado matar ele com o vírus. O mesmo vírus que roubamos uns anos atrás no Mercy Hospital. Independentemente pra quem conseguimos isso, eles venderam para a Murkywater e agora isso está matando ele. Eu sabia desde o início que era um trabalho ruim. Bain também sabia, mas ele queria aquele manuscrito Cagliostro. Aquela porra de livro. Deve ter dito pra ele ir se foder, mas ele falou que nós realmente precisaríamos disso para algo, e para ser honesto, nunca estaríamos onde estamos sem ele. \n\n»Mantenha os civis sobre controle \n»Ache o paciente correto \n»Escape com dois frascos de sangue válidos.",
 	
@@ -284,9 +284,9 @@ Hooks:Add("LocalizationManagerPostInit", "nmhportuguese", function(loc)
 	pln_nmh_99_01 = "Gente!... Gente! Vocês ainda estão ai?! Saiam... -dai!",
 	
 	-- Objetivos
-	hud_heist_nmh_5_hl = "Prepare as sentry guns falsas",
+	hud_heist_nmh_5_hl = "Prepare as sentinelas falsas",
 	hud_heist_nmh_14_hl = "Foge!",
-	hud_heist_nmh_13_hl = "Abra a escotilha",
+	hud_heist_nmh_13_hl = "Abre a escotilha",
 	hud_heist_nmh_10_hl = "Espere pelo elevador",
 	hud_heist_nmh_2_hl = "Use a serra para abrir as portas e entrar na UTI",
 	hud_heist_nmh_8_hl = "Ache a porta certa para abrir",
@@ -294,9 +294,9 @@ Hooks:Add("LocalizationManagerPostInit", "nmhportuguese", function(loc)
 	hud_heist_nmh_12_hl = "Use o elevador para chegar ao telhado",
 	hud_heist_nmh_1_hl = "Destrua as câmeras",
 	hud_heist_nmh_6_hl = "Se vista de médico",
-	hud_heist_nmh_11_hl = "Ponha dois frascos válidos dentro do cooler",
+	hud_heist_nmh_11_hl = "Coloque dois frascos válidos dentro do cooler",
 	hud_heist_nmh_3_hl = "Mantenha os reféns abaixados",
-	hud_heist_nmh_7_hl = "Ache onde o paciente contaminado esta",
-	hud_heist_nmh_9_hl = "Consiga frascos de sangue com o paciente",
+	hud_heist_nmh_7_hl = "Ache onde o paciente contaminado está",
+	hud_heist_nmh_9_hl = "Pegue frascos de sangue com o paciente",
 		})
 end)

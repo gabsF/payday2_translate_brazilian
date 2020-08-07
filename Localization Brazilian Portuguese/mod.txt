@@ -1,11 +1,11 @@
 {
 	"name" : "PAYDAY 2 BRAZILIAN PORTUGUESE",
-	"description" : "Esse mod traduz várias coisas do PAYDAY 2.\n\n[ Clássicos ]\nGreen Bridge\nFirst World Bank\nPanic Room\nCounterfeit\nSlaughterhouse\nHeat Street\nUndercover\nNo Mercy\n\n[ Vlad ]\nUkrainian Job\nStealing Xmas\n\n[ The Butcher (A Açougueira) ]\nThe Bomb: Dockyard\nScarface Mansion\n\n[ Bain ]\nGO Bank\nOs Tutoriais\nCook Off\nBank Heist\nReservoir Dogs\n\n[ The Dentist (O Dentista) ]\nThe Diamond\nGolden Grin Casino\nHoxton Breakout\nHoxton Revenge\n\n[ Locke ]\nAlaskan Deal\nBeneath The Moutain\nHell's Island\nHenry's Rock\nShacklethorne Auction\nThe White House\n\n[ Modos de Jogo ]\nCrime Spree\nHoldout\n\n[ Menus ]\nÁrvore de Infamy\nSkills\nPerk Decks\nMain Menu\nSafe House\n\nE provavelmente mais traduções vindo...\n ",
+	"description" : "Esse mod traduz várias coisas do PAYDAY 2.\n\n[ Clássicos ]\nGreen Bridge\nFirst World Bank\nPanic Room\nCounterfeit\nSlaughterhouse\nHeat Street\nUndercover\nNo Mercy\n\n[ Vlad ]\nUkrainian Job\nStealing Xmas\n\n[ The Butcher (A Açougueira) ]\nThe Bomb: Dockyard\nScarface Mansion\n\n[ Bain ]\nGO Bank\nOs Tutoriais\nCook Off\nBank Heist\nReservoir Dogs\n\n[ The Dentist (O Dentista) ]\nThe Diamond\nGolden Grin Casino\nHoxton Breakout\nHoxton Revenge\n\n[ Locke ]\nAlaskan Deal\nBeneath The Moutain\nBirth Of Sky\nHell's Island\nHenry's Rock\nShacklethorne Auction\nThe White House\n\n[ Modos de Jogo ]\nCrime Spree\nHoldout\n\n[ Menus ]\nÁrvore de Infamy\nSkills\nPerk Decks\nMain Menu\nSafe House\n\nE provavelmente mais traduções vindo...\n ",
 	"author" : "\n[ Gerenciador das Traduções ]\ngabsF\n\n[ Tradutores ]\n$Lucas$\nBruno\nCaçador de Otacus\nDarK\ngabsF\nHimuraBR\nlulajr\nneour\nRockZeron\n[ Créditos Adicionais ]\nDr_Newbie\nviixxivvimm\nKisuke\n ",
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/_gab_foxJaketto_/",
-	"version" : "2.06",
+	"version" : "2.07",
 	"blt_version" : 2,
 	"updates" : [
 		{
@@ -50,6 +50,7 @@
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/bain/pesadelonacozinha.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/locke/alaskandeal.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/locke/shacklethorne.lua" },
+		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/locke/birthofsky.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/classics/nomercy.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/locke/henrycock.lua" }
 	]

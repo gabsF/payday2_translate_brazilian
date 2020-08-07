@@ -4,7 +4,15 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	savefile_saving = "Salvando...",
 	
 	-- Descrições Extras
+	menu_default = "Padrão",
 	bm_global_value_chico_unlock = "Compre o Scarface Character Pack para desbloquear",
+	menu_l_global_value_trd = "Esse é um item do Tailor Pack 1!",
+	menu_l_global_value_shl = "Esse é um item do Resgate!",
+	menu_l_global_value_character_pack_clover = "Esse é um item da Clover Character Pack!",
+	menu_l_global_value_character_pack_sokol = "Esse é um item do Sokol Character Pack!",
+	menu_l_global_value_ecp = "Esse é um item do h3h3 Character Pack!",
+	menu_l_global_value_hlm2_deluxe = "Esse é um item do Hotline Miami 2: Wrong Number - Digital Special Edition!",
+	menu_l_global_value_opera = "Esse é um item do Sydney Character Pack!",
 	menu_l_global_value_chico = "Esse é um item do Scarface Character Pack!",
 	menu_l_global_value_pd2_clan  = "Esse é um item da Comunidade!",
 	menu_l_global_value_bbq = "Esse é um item do BBQ Weapon Pack!",
@@ -169,23 +177,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_infamy_name_technician = "Set de Ingênio",
 	menu_infamy_desc_technician = "Frio, calculante e um mestre de sumiços forçados, morto ou vivo.\n\nBÔNUS:\nOs requesitos de pontos de habilidades de ##Technician## e ##Fugitive## são reduzidos por ##10%##.\nA experiência ganha é aumentada por ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
 	
-	-- Descrições das Máscaras
-	bm_msk_smo_01_desc = "Se você ver um assaltante vestindo essa máscara no meio da rua, saiba que ele não medo de nada, nove vidas é o caralho!",
-	
 	-- Discord RP
-	-- discord_rp_single_end_details = "TranslationHere",--$heist; $day;
-	-- discord_rp_single_heist = "TranslationHere",--Crime.Net Offline
-	-- discord_rp_single_end = "TranslationHere",--Heist Summary
-	-- discord_rp_single_heist_details = "TranslationHere",--$heist; $day; [$difficulty;]
-	-- discord_rp_mp_heist = "TranslationHere",--Crime.Net Online
-	-- discord_rp_safehouse = "TranslationHere",--In the Safe House
-	-- discord_rp_safehouse_details = "TranslationHere",--$heist;
-	-- discord_rp_mp_end = "TranslationHere",--Heist Summary
-	-- discord_rp_lobby = "TranslationHere",--In Lobby
-	-- discord_rp_mp_heist_details = "TranslationHere",--$heist; $day; [$difficulty;]
-	-- discord_rp_day_string = "TranslationHere",--day $day;
-	-- discord_rp_lobby_details = "TranslationHere",--$heist; $day; [$difficulty;]
-	-- discord_rp_mp_end_details = "TranslationHere",--$heist; $day;
 	discord_rp_day_string = "dia $day",
 	discord_rp_single_end = "Sumário do Assalto", -- esse é do singleplayer
 	discord_rp_safehouse = "No Esconderijo",
@@ -307,8 +299,12 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	hud_carry_master_server = "Servidor Mestre",--Master server
 	hud_carry_turret = "Parte da Torreta",--Turret part
 	hud_instruct_throw_bag = "$BTN_USE_ITEM para jogar",
-	
+
 	-- Outros Interagindo
+	hud_action_methlab_drying_meth = "Adicionando metanfetamína líquido",--Adding liquid meth
+	hud_action_methlab_caustic_cooler = "Adicionando Soda Cáustica",--Adding caustic soda
+	hud_action_methlab_bubbling = "Adicionando Ácido Muriático",--Adding muriatic acid
+	hud_action_methlab_gas_to_salt = "Adicionando Cloreto de Hidrogênio",--Adding hydrogen chloride
 	hud_action_taking_gasoline = "Pegando a gasolina",--Taking gasoline
 	hud_action_opening_slash_closing_sec_box = "Abrindo/Fechando a caixa de segurança",
 	hud_action_open_slash_close = "Abrindo/Fechando",
@@ -328,6 +324,65 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	hud_action_upgrading_drill = "Melhorando a Furadeira",
 	
 	-- Interações
+	hud_action_try_keys_no_key = "Precisa da Chaves para destrancar",--Requires keychain to unlock
+	hud_int_equipment_huge_lance_jammed = "Segure $BTN_INTERACT para consertar A Besta",--Hold $BTN_INTERACT; to fix the Beast
+	hud_int_equipment_huge_lance = "Segure $BTN_INTERACT para usar A Besta",--Hold $BTN_INTERACT; to use the Beast
+	hud_int_equipment_normal_mode_trip_mine = "Aperte $BTN_INTERACT para alternar a Armadilha de Mina para Modo Explosivo",--Press $BTN_INTERACT; to Switch Trip Mine to Explosive Mode
+	hud_int_equipment_sensor_mode_trip_mine = "Aperte $BTN_INTERACT para alternar a Armadilha de Mina para Modo de Sensor",--Press $BTN_INTERACT; to Switch Trip Mine to Sensor Mode
+	hud_int_try_keys = "Segure $BTN_INTERACT para tentar uma chave",--Hold $BTN_INTERACT; to try a key
+	hud_int_press_knock_on_door = "Aperte $BTN_INTERACT para bater na porta",--Press $BTN_INTERACT; to knock on the door
+	hud_int_place_camera = "Aperte $BTN_INTERACT para colocar a câmera",--Press $BTN_INTERACT; to place the camera
+	hud_int_numpad_no_keycard = "Você precisa do cartão de acesso para desativar o alarme de vidro",--You need a keycard to disable the display case alarm
+	hud_int_ignite_flare = "Aperte $BTN_INTERACT para acender o sinalizador",--Press $BTN_INTERACT; to ignite flare
+	hud_int_hold_take_sandwich = "Segure $BTN_INTERACT para pegar a torrada do Almir",--Hold $BTN_INTERACT; to take Almir's toast
+	hud_int_hold_take_shoes = "Segure $BTN_INTERACT para pegar os saltos altos",--Hold $BTN_INTERACT; to take high heels
+	hud_int_hold_take_toy = "Segure $BTN_INTERACT para pegar o garoto de lata",--Hold $BTN_INTERACT; to take the Tin Boy toy
+	hud_int_hold_take_vr_headset = "Segure $BTN_INTERACT para pegar headset VR",--Hold $BTN_INTERACT; to take vr headset
+	hud_int_hold_take_medallion = "Segure $BTN_INTERACT para pegar o medalhão",--Hold $BTN_INTERACT; to take the medallion
+	hud_int_hold_take_compound_a = "Segure $BTN_INTERACT para pegar o químico a",--Hold $BTN_INTERACT; to take compound a
+	hud_int_hold_take_compound_b = "Segure $BTN_INTERACT para pegar o químico b",--Hold $BTN_INTERACT; to take compound b
+	hud_int_hold_take_compound_c = "Segure $BTN_INTERACT para pegar o químico c",--Hold $BTN_INTERACT; to take compound c
+	hud_int_hold_take_compound_d = "Segure $BTN_INTERACT para pegar o químico d",--Hold $BTN_INTERACT; to take compound d
+	hud_int_hold_stash_vial = "Segure $BTN_INTERACT para guardar o sangue",--Hold $BTN_INTERACT; to stash the vial
+	hud_int_hold_take_blood_sample = "Segure $BTN_INTERACT para pegar o exemplo de sangue",--Hold $BTN_INTERACT; to take the blood sample
+	hud_int_talk_jimmy = "Aperte $BTN_INTERACT para falar com Jimmy",--Press $BTN_INTERACT; to talk to Jimmy
+	hud_int_talk_dragon = "Aperte $BTN_INTERACT para falar com Jiro",--Press $BTN_INTERACT; to talk to Jiro
+	hud_int_talk_sydney = "Aperte $BTN_INTERACT para falar com Sydney",--Press $BTN_INTERACT; to talk to Sydney
+	hud_int_talk_ecp_female = "Aperte $BTN_INTERACT para falar com Hila",--Press $BTN_INTERACT; to talk to Hila
+	hud_int_talk_old_hoxton = "Aperte $BTN_INTERACT para falar com Hoxton",--Press $BTN_INTERACT; to talk to Hoxton
+	hud_int_talk_max = "Aperte $BTN_INTERACT para falar com Sangres",--Press $BTN_INTERACT; to talk to Sangres
+	hud_int_talk_wolf = "Aperte $BTN_INTERACT para falar com Wolf",--Press $BTN_INTERACT; to talk to Wolf
+	hud_int_talk_jowi = "Aperte $BTN_INTERACT para falar com John Wick",--Press $BTN_INTERACT; to talk to John Wick
+	hud_int_talk_jacket = "Aperte $BTN_INTERACT para falar com Jacket",--Press $BTN_INTERACT; to talk to Jacket
+	hud_int_talk_dallas = "Aperte $BTN_INTERACT para falar com Dallas",--Press $BTN_INTERACT; to talk to Dallas
+	hud_int_talk_wild = "Aperte $BTN_INTERACT para falar com Rust",--Press $BTN_INTERACT; to talk to Rust
+	hud_int_talk_dragan = "Aperte $BTN_INTERACT para falar com Dragan",--Press $BTN_INTERACT; to talk to Dragan
+	hud_int_talk_hoxton = "Aperte $BTN_INTERACT para falar com Houston",--Press $BTN_INTERACT; to talk to Houston
+	hud_int_talk_bodhi = "Aperte $BTN_INTERACT para falar com Bodhi",--Press $BTN_INTERACT; to talk to Bodhi
+	hud_int_talk_bonnie = "Aperte $BTN_INTERACT para falar com Bonnie",--Press $BTN_INTERACT; to talk to Bonnie
+	hud_int_talk_butler = "Aperte $BTN_INTERACT para falar com Butler",--Press $BTN_INTERACT; to talk to the Butler
+	hud_int_talk_chains = "Aperte $BTN_INTERACT para falar com Chains",--Press $BTN_INTERACT; to talk to Chains
+	hud_int_talk_clover = "Aperte $BTN_INTERACT para falar com Clover",--Press $BTN_INTERACT; to talk to Clover
+	hud_int_talk_ecp_male = "Aperte $BTN_INTERACT para falar com Ethan",--Press $BTN_INTERACT; to talk to Ethan
+	hud_int_talk_joy = "Aperte $BTN_INTERACT para falar com Joy",--Press $BTN_INTERACT; to talk to Joy
+	hud_int_talk_myh = "Aperte $BTN_INTERACT para falar com Duke",--Press $BTN_INTERACT; to talk to Duke
+	hud_int_talk_sokol = "Aperte $BTN_INTERACT para falar com Sokol",--Press $BTN_INTERACT; to talk to Sokol
+	hud_int_talk_terry = "Aperte $BTN_INTERACT para falar com Scarface",--Press $BTN_INTERACT; to talk to Scarface
+	hud_int_talk_vlad = "Aperte $BTN_INTERACT para falar com Vlad",--Press $BTN_INTERACT; to talk to Vlad
+	hud_int_press_clear = "Aperte $BTN_INTERACT para limpar o código",--Press $BTN_INTERACT; to clear the code
+	hud_int_press_enter = "Aperte $BTN_INTERACT para confirmar o código",--Press $BTN_INTERACT; to enter the code
+	hud_int_press_07 = "Aperte $BTN_INTERACT para digitar 7",--Press $BTN_INTERACT; to enter 7
+	hud_int_press_02 = "Aperte $BTN_INTERACT para digitar 2",--Press $BTN_INTERACT; to enter 2
+	hud_int_press_04 = "Aperte $BTN_INTERACT para digitar 4",--Press $BTN_INTERACT; to enter 4
+	hud_int_press_09 = "Aperte $BTN_INTERACT para digitar 9",--Press $BTN_INTERACT; to enter 9
+	hud_int_press_05 = "Aperte $BTN_INTERACT para digitar 5",--Press $BTN_INTERACT; to enter 5
+	hud_int_press_0 = "Aperte $BTN_INTERACT para digitar 0",--Press $BTN_INTERACT; to enter 0
+	hud_int_press_01 = "Aperte $BTN_INTERACT para digitar 1",--Press $BTN_INTERACT; to enter 1
+	hud_int_press_03 = "Aperte $BTN_INTERACT para digitar 3",--Press $BTN_INTERACT; to enter 3
+	hud_int_press_06 = "Aperte $BTN_INTERACT para digitar 6",--Press $BTN_INTERACT; to enter 6
+	hud_int_press_08 = "Aperte $BTN_INTERACT para digitar 8",--Press $BTN_INTERACT; to enter 8
+	hud_int_hold_cut_fence = "Segure $BTN_INTERACT para cortar a cerca",
+	hud_int_dispose_corpse = "Segure $BTN_INTERACT para colocar o cadáver na bolsa",
 	hud_int_hold_take_box = "Segure $BTN_INTERACT para pegar o baú",--Hold $BTN_INTERACT; to take the box
 	hud_int_hold_take_blow_torch = "Segure $BTN_INTERACT para pegar o maçarico",--Hold $BTN_INTERACT; to take the blow torch
 	hud_int_hold_take_blood_valid_sample = "Segure $BTN_INTERACT para pegar o exemplo de sangue válido",--Hold $BTN_INTERACT; to take the valid blood sample
@@ -397,7 +452,6 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	hud_int_equipment_drill = "Segure $BTN_INTERACT para usar a furadeira",
 	debug_interact_stash_server_cord = "Aperte $BTN_INTERACT para ligar o cabo",
 	hud_int_grab_server = "Segure $BTN_INTERACT para pegar o servidor",
-	hud_int_equipment_drill_jammed = " Segure $BTN_INTERACT para consertar a furadeira",
 	hud_int_equipment_keycard = "Aperte $BTN_INTERACT para usar o cartão de acesso",
 	debug_interact_hostage_stay = "Segure $BTN_INTERACT para parar o refém",
 	debug_interact_hostage_move = "Segure $BTN_INTERACT para mover o refém",
@@ -419,6 +473,9 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	debug_interact_circuit_breaker = "Aperte $BTN_INTERACT para ligar a energia",
 	debug_interact_stash_planks = "Segure $BTN_INTERACT para barricar",
 	debug_interact_stash_planks_pickup = "Segure $BTN_INTERACT para pegar tábuas",
+	hud_int_equipment_no_lance = "Você precisa da Furadeira Térmica",--You need the thermal drill
+	hud_int_equipment_no_mayan_gold = "Você precisa da Barra de Ouro Maia",--You need a mayan gold bar
+	hud_int_equipment_no_lance_part = "Você precisa de partes extras para consertar A Besta",--You need spare parts to fix the Beast
 	
 	-- Caixas de confirmações
 	dialog_cancel = "Cancelar",
@@ -651,6 +708,34 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_arm_animation_help = "Ativa as animações dos braços dos jogadores com VR, se possível.",
 	menu_max_streaming_chunk = "Streaming de Gráficos por KB",
 	menu_max_streaming_chunk_help = "Máxima quantidade de dados por operação de leitura o jogo vai acessar sincronizamente do HDD.",
+	-- Áudio
+	menu_jukebox_ghost_playlist = "Playlist personalizada do Stealth",
+	menu_jukebox_ghost_playlist_help = "Crie uma playlist personalizada com as suas músicas do Stealth favoritas.",
+	menu_jukebox_ghost_tracks = "Músicas do Stealth Personalizadas",
+	menu_jukebox_ghost_tracks_help = "Escolhe qual música deveria tocar em cada tela do Stealth.",--Choose what track should play in each stealth screen.
+	menu_jukebox_heist_playlist = "Playlist personalizada do Loud",
+	menu_jukebox_heist_playlist_help = "Crie uma playlist personalizada com as suas músicas do Loud favoritas.",--Create a custom playlist with your favorite tracks.
+	menu_jukebox_heist_tracks = "Músicas do Loud Personalizadas",
+	menu_jukebox_heist_tracks_help = "Escolhe qual música deveria tocar em cada assalto.",
+	menu_jukebox_menu_playlist = "Playlist personalizada do Menu",
+	menu_jukebox_menu_playlist_help = "Crie uma playlist personalizada com as suas músicas do Menu favoritas.",--Create a custom playlist with your favorite menu tracks.",
+	menu_jukebox_menu_tracks = "Músicas do Menu Personalizadas",
+	menu_jukebox_menu_tracks_help = "Escolhe qual música deveria tocar em cada tela do Menu.",--Choose what track should play in each menu screen.
+	menu_music_volume = "Volume da Música",
+	menu_music_volume_help = "Ajusta o Volume da Música.",
+	menu_mute_heist_vo = "Silênciar o Contratante",
+	menu_mute_heist_vo_help = "Silêncie as mensagens do rádio dos contratantes enquanto joga.",--Mute contractors radio messages when playing heists.
+	menu_push_to_talk_toggle = 'Use "Aperte para Falar"',
+	menu_push_to_talk_toggle_help = 'Alterne o "Aperte para Falar".',--TURN PUSH TO TALK ON OR OFF.",
+	menu_sfx_volume = "Volume dos Efeitos",
+	menu_sfx_volume_help = "Ajusta o Volume dos Efeitos.",
+	menu_sound_option_default = "Redifinir as opções do Áudio",
+	menu_sound_option_default_help = "Redefine as opções do Áudio ao seu estado padrão.",
+	menu_voice_volume = "Volume do Chat de Voz",
+	menu_voice_volume_help = "Ajusta o Volume do Chat de Voz.",
+	menu_voicechat_toggle = "Usar o Chat de Voz",
+	menu_voicechat_toggle_help = "Habilite o Chat de Voz.",
+
 	-- Inferface do Usuário
 	menu_loading_hints = "Telas de Loading: Dicas",
 	menu_loading_hints_help = "Mostra dicas enquanto o jogo carrega.",
@@ -691,6 +776,26 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	hud_equipment_take_bridge = "Folha de Metal",
 	hud_equipment_take_ticket = "Ticket",
 	hud_int_equipment_pickup_keycard = "Cartão de Acesso",
+	hud_int_equipment_mayan_gold_bar = "Barra de Ouro Maia",--mayan gold bar
+	hud_int_equipment_compound_a = "Químico a",--Compound a
+	hud_int_equipment_compound_b = "Químico b",
+	hud_int_equipment_compound_c = "Químico c",
+	hud_int_equipment_compound_d = "Químico d",
+	hud_int_equipment_medallion = "Medalhão",--Medallion
+	hud_int_equipment_liquid_nitrogen = "Nitrogênio Líquido",--Liquid nitrogen
+	hud_int_equipment_paper_roll = "Rolo de Papel",--Paper roll
+	hud_int_equipment_blow_torch = "Maçarico",--Blow Torch
+	hud_int_equipment_barcode_isles_beach = "Barra de Código: Foggy Bottom",--Barcode: Foggy Bottom
+	hud_int_equipment_barcode_downtown = "Barra de Código: Downtown Washington",--Barcode: Downtown Washington
+	hud_int_equipment_barcode_brickell = "Barra de Código: Georgetown",--Barcode: Georgetown
+	hud_int_equipment_barcode_opa_locka = "Barra de Código: Shaw",--Barcode: Shaw
+	hud_int_equipment_barcode_edgewater = "Barra de Código: West End",--Barcode: West End
+	hud_int_equipment_stapler = "Grampeador",--Stapler
+	hud_int_equipment_pickup_keychain = "Chaves",--Keychain
+	hud_int_equipment_c_keys = "Chaves do Carro",--Car Keys
+	hud_int_equipment_hand = "Mão",--Hand
+	hud_int_equipment_printer_ink = "Tinta da Impressora",--Printer ink
+	hud_int_equipment_plates = "Cópia Original",--Printing plates
 	mission_objective_activated = "OBJETIVO ATIVADO:",
 	mission_objective_updated = "OBJETIVO ATUALIZADO:",
 	hud_detected = "DETECTADO",
@@ -704,7 +809,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_hud_cheater = "TRAPACEIRO",
 	hud_civilians_killed = "Civis mortos: $AMOUNT",
 	hud_custody_in = "Custódia em",
-	hud_loot_secured_title = "Pilha assegurado",
+	hud_loot_secured_title = "Saque assegurado",
 	hud_stats_pagers_used = "PAGERS RESPONDIDOS",
 	hud_stats_enemies_converted = "INIMIGOS CONVERTIDOS",
 	
@@ -740,7 +845,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_asset_grenade_crate_desc = "Comprar uma ajuda para ter uma maleta de granadas",
 	menu_asset_bodybags_bag = "Bolsas de Cadáveres",
 	menu_asset_bodybags_bag_desc = "Comprar uma ajuda de bolsas de cadáveres",
-	menu_asset_lock_buy_bodybags_asset = 'Habilidade avançada "Bicho Parado" para desbloquear',
+	menu_asset_lock_buy_bodybags_asset = 'Habilidade avançada "Sixth Sense" para desbloqueiar',
 	menu_asset_gage_assignment = "Pacotes do Gage Courier",
 	menu_loadout = "Equipamentos",
 	menu_team_loadout = "Equip. da Equipe",
@@ -831,7 +936,6 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_completed_objectives_of = "$COMPLETED de $TOTAL ($PERCENT%)",
 	menu_es_gage_assignment_reward = "Prêmio desbloqueiado!",
 	menu_es_calculating_experience = "Calculando experiência...",
-	menu_es_coins_progress = "Moedas continentais",
 	menu_es_next_level = "Próximo nível em:",
 	menu_es_skill_points_gained = "Pontos de habilidades ganhos:",
 	menu_es_skill_points_info = "Visite [Habilidades e Baralhos de Cartas] para gastar os seus pontos!",
@@ -1039,7 +1143,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	hud_hint_cop_ecm_jammer = "Alarme disparado: Polícia foi afetado pelo Feedback do CME",
 	hud_hint_cop_gunfire = "Alarme disparado: Polícia detectou tiros",
 	hint_skill_messiah_get_up = 'Pressione "Pular" para levantar!',
-	hud_hint_convert_enemy_failed = "Os seus truques de conversão não funcionaram",
+	hud_hint_convert_enemy_failed = "O refém resistiu os seus truques de conversão.",
 	hint_full_keycard = "Você já tem um cartão de acesso.",
 	hud_gage_assignment_progress = "$peer_name pegou $assignment. Resta(am) $remaining pacote(s).",
 	hint_teammate_dead = "$TEAMMATE foi para custódia!",
@@ -1077,7 +1181,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	-- Crime.net -> Filtros
 	menu_gamemode = "Modo de jogo",
 	menu_gamemode_heist = "Roubos",
-	menu_gamemode_spree = "Sequências Criminais", 
+	menu_gamemode_spree = "Sequências Criminais",
 	menu_toggle_friends_only = "Apenas amigos",
 	menu_toggle_toggle_new_servers_only = "Apenas novos lobbies",
 	menu_toggle_server_state_lobby = 'Apenas "em lobby"',
@@ -1096,6 +1200,13 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_kicking_allowed_filter = "Filtro de expulsar",
 	menu_any = "Qualquer",
 	-- Crime.net -> Corretor de Trabalho
+	menu_risk_sm_wish = "Sentença de Morte. EXP multiplicado por 14.", -- é mais melhor ler desse jeito do que o jeito da OVERKILL
+	menu_risk_elite = "Desejo Suicída. EXP multiplicado por 13.",
+	menu_risk_easy_wish = "Caótico. EXP multiplicado por 11.5.",
+	menu_risk_special = "Extremo. EXP multiplicado por 10.",
+	menu_risk_fbi = "Muito Difícil. EXP multiplicado por 5.",
+	menu_risk_swat = "Difícil. EXP multiplicado por 2.",
+	menu_risk_pd = "Normal. Nenhum bônus.",
 	cn_menu_contract_jobpay_header = "Pagamento:",
 	menu_stat_job_completed = "Contratos concluídos: $stat.",
 	menu_new = "Novo!",
@@ -1103,7 +1214,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_potential_rewards_min = "$BTN_Y Potêncial mínima de prêmios:",
 	menu_reached_level_cap = "Nível máximo alcançado!",
 	menu_cn_game_settings = "Configurações do Jogo",
-	--menu_levelup = "$levels Upando de Level", -- odeio essa string
+	--menu_levelup = "$levels Upando de Level", -- odeio essa string, odeio mesmo, odeio tudo >:(
 	menu_cn_modifiers = "MODIFICADORES:",
 	menu_ghostable_job = 'Bônus potencial de Sigilo: +$bonus% de EXP.',
 	cn_menu_community = "Comunidade",
@@ -1487,7 +1598,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	trophy_tiara = "Tão bonita",
 	trophy_tiara_desc = "É bem bonita. Quem vai colocá-la?",
 	trophy_tiara_objective = 'Conclua Ukrainian Job na dificuldade "Desejo Suicída" ou acima, com ninguém tendo Bloqueador de CME.',
-	
+
 	-- Dicas de Telas de Loading
 	loading_trivia_title = "Curiosidades PAYDAY",
 	loading_trivia_1 = "Os negócios de armas da Açougueira é por quase todo planeta. Ela fica de olho em armas de um tipo e sabe como lucrar nisso.",
@@ -1663,7 +1774,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	loading_gameplay_16 = "Conheça o seu inimigo. Tasers podem ser identificado pelo seu colete azul escuro e amarelo.",
 	loading_gameplay_17 = "Conheça o seu inimigo. Os Snipers entregam a sua pocisão pela suas miras de laser.",
 	loading_gameplay_18 = "Conheça o seu inimigo. A sentinela da SWAT pode ser identificado por está em uma van grande da SWAT.",
-	loading_gameplay_19 = "Cartas de Baralhos podem mudar o seu jeito de jogar. Escolha um que combina com o seu estilo de jogo.",
+	loading_gameplay_19 = "Baralhos de Cartas podem mudar o seu jeito de jogar. Escolha um que combina com o seu estilo de jogo.",
 	loading_gameplay_20 = 'A sub-árvore "Medic" é sobre manter você e os seus alidos em bem estado.',
 	loading_gameplay_21 = 'A sub-árvore "Controller" é focado em capturar e controlar reféns, incluindo as forças da lei.',
 	loading_gameplay_22 = 'A sub-árvore "Sharpshooter" foca em snipers e tiros de alta precisão.',
@@ -1786,7 +1897,7 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	loading_gameplay_139 = "Espingardas pode matar vários policiais com um tiro só. Mira em uma multidão e mete bala.",
 	loading_gameplay_140 = "Os rifles de Sniper pode atirar através dos Shields e o colete deles ou até mesmo vários inimigos com um tiro.",
 	loading_gameplay_141 = "Inimigos vão ver você de longe se estiver de pé. Agache para sair da vista deles.",
-	
+
 	-- Gage
 	menu_gage_assignment_title = "Crime.net:Gage/DESIGNAÇÃO_COURIER/",
 	menu_gage_purple_snake = "Cobra Roxa",
@@ -1807,5 +1918,47 @@ Hooks:Add("LocalizationManagerPostInit", "outrosdigomenuseuacho", function(loc)
 	menu_gage_red_spider_rewards = "Prêmios da Aranha Vermelha",
 	menu_gage_yellow_bull_rewards = "Prêmios do Touro Amarelo",
 	menu_gage_green_mantis_rewards = "Prêmios do Louva-Deus Verde",
+
+	-- Descrições dos Personagens (Tela de Seleção de Personagems)
+	menu_preferred_character_title = "Escolhe os seus personagens preferidos",
+	bm_menu_btn_set_preferred_to_slot = "Colocar como preferido",
+	bm_menu_btn_clear_preferred = "Limpar os preferidos",
+	bm_menu_btn_swap_preferred_slots = "Trocar o preferido",
+	bm_menu_preferred = "Selecionado",
+	spanish_desc = "Nacionalidade: Americana\nIdade: 37\n\nComo um adolecente, Chains sempre arruma encrenca. Depois de anos de transferências de escolas e intituições juvenis, ele acabou indo pro excército. Ele se tornou um excelente soldado mas ele sempre odiou em receber ordens.\n\nChains saiu do excército e virou o soldado da fortuna, oferecendo as suas experiências do excército para o licitante mais destacado.",--Nationality: American\nAge: 37\n\nAs a teenager, Chains always got into trouble. After years of jumping between foster homes and juvenile institutions, he ended up in the military. There he became an excellent soldier but he always hated being told what to do.\n\nChains left the military and became a soldier of fortune, offering his military expertise to the highest bidder.
+	german_desc = "Nacionalidade: Suéco\nIdade: 34\n\nWolf tinha uma vida normal de cidadão. Durante a queda da economia mundial durante os anos 2000, a empresa do Wolf tempoariamente tinha só um cliente que esperou demais e queria sair. A sua empresa faliu.\n\nAgora ele tem uma carreira criminal com a mesma determinação que faz ele gerenciar a sua empresa.",--Nationality: Swedish\nAge: 34\n\nWolf was a law abiding citizen for most of his life. During the worldwide economic slump of the late 2000's, Wolf's company temporarily had only one client that got cold feet and wanted out. His company went bankrupt.\n\nHe now pursues a criminal career with the same determination that drove him when he used to run his company.
+	russian_desc = "Nacionalidade: Americana\nIdade: 44\n\nExperiência, destreza, metódico. Quando tinha 30 anos, ele tentou fazer as duas famílias de Chicago ficarem bravas entre si. Deu merda e vários chefes da máfia botaram recompênsas na cabeça do Dallas, mas de algum jeito, ele conseguiu ficar escondido e sobreviver. Depois da poeira abaixar, ele conseguiu subir a escada criminal.\n\nAgora ele é o rosto que todos temem.",--Nationality: American\nAge: 44\n\nExperienced, cunning, methodical. At the age of 30 he tried to play two of Chicago's mob families against each other. It went south and several mob bosses ordered Dallas' head on a plate, but somehow he managed to go underground and survive. After things calmed down he worked his way back up the criminal ladder.\n\nNow he's the face that everyone fears.
+	american_desc = "Nacionalidade: Americana\nIdade: 31\n\nHouston nunca conseguiu ter um emprego, até mesmo se a sua vida dependesse. O seu estilo de vida tem vários contras e invasões. As suas dívidas aumentam, enquanto ele anda fazendo uma coleção de inimigos durantes anos de trapaça. Ele precisava de muito dinheiro para manter os grandes peixes satisfeitos. Ele comenteu o seu primeiro grande crime quando tinha 24 anos e as apostas só aumentavam.",--Nationality: American\nAge: 31\n\nHouston could never hold a job even if his life would depend on it. His life style turned him to a life of cons and burglary. His debts grew, as did his collection of enemies from years of swindlery. He needed to gather larger and larger sums of money to keep the loan sharks at bay. He committed his first major felony at the age of 24 and the stakes have only increased since.
+	female_1_desc = 'Nacionalidade: Irlandesa\nIdade: 27\n\nClover cresceu em uma casa difícil em uma região da cidade difícil. Sua ancestral eram lutadora em cada geração e ela ferozmente tá dedicada em sua herança Irlandesa. Ela veste a flor de quatro trevos por sorte, também um jeito de dizer "Eu sou Irlandesa e tenho orgulho."',--Nationality: Irish\nAge: 27\n\nClover grew up in a rough house in a rough part of town. Her ancestors were fighters in every generation, and she is fiercely dedicated to her Irish heritage. She wears the clovers for luck, as well as a way to say "I'm Irish, and I'm proud".
+	joy_desc = "Nacionalidade: Japônes\nIdade: 22\n\nJoy anda sendo uma cyber-criminosa desde jovem. Ela é uma hacker habilidosa, intocável quando vem a tecnologia e computadores. Mas ela também é conhecida em meter bala, por mais que seja estranho pela sua idade.",--Nationality: Japanese$NL;Age: 22$NL;$NL;Joy's been a cyber criminal since her younger teens. She's a skilled hacker, invaluable when it comes to tech and computers. But she also knows how to handle a gun and she's as tough as they come in spite of her young age.
+	bonnie_desc = 'Nacionalidade: Escocês\nIdade: 43\n\nBonnie é da Glasgow. Isso deve ser suficiente para dá medo em um coração de um homem, mas Bonnie é do 1980 do Glasgow. Esses anos, a era "Thatcher" fez cidades já difíceis ainda mais difíceis e criou uma geração de determinação e escocês implacáveis. Bonnie é a ilustração desse pano.',--Nationality: Scottish$NL;Age: 43$NL;$NL;Bonnie is from Glasgow. That should be enough to strike fear into a man's heart, but Bonnie is also from 1980's Glasgow. These years, the Thatcher era, made already tough towns even harder, and bred a generation of determined, unforgiving Scots. Bonnie is cut from this cloth.
+	ecp_female_desc = "Nacionalidade: Israelense\nIdade: 29\n\nTem um rumor que diz que Hila teve um treinamento extremo no excército Israelense, ela nega isso, algo que puxou a atenção do Bain quando perguntou pra ela e o seu esposo Ethan para se juntar a Gangue. Eles se juntaram a Gangue oficialmente, para dá um impulso no relacionamento público na luz de certos desenvolvedores, além do FBI, mas a razão de verdade de estarem aqui... só Bain sabe.",--Nationality: Israeli$NL;Age: 29$NL;$NL;Rumor has it that Hila underwent extreme training in the Israeli military, and while she keeps denying it publicly, something definitely caught Bain's attention when he asked her and her spouse Ethan to join the gang. Officially, they were brought in to give the gang a much needed public PR boost in light of certain developments regarding the FBI, but as to the real reason... only Bain knows for sure.
+	max_desc = 'Nacionalidade: Mexicana\nIdade: 33\n\nSangres é um homem perigoso. Ele trabalha como um assassino para um cartel de drogas em Monterry, México por anos. Um dia, ele decidiu passar pela borda para os Estados Unidos, em procura de fazer uma grana. Gage introduziu ele para Gangue Payday. Ele é habilidoso quanto impiedoso e com os seus revólveres, ele pode resolver qualquer coisa. Aliás... porque não dá uma olhada no seu machete?',--Nationality: Mexican$NL;Age: 33$NL;$NL;Sangres is a dangerous man. He spent many years working as an enforcer and assassin for a drug cartel in Monterrey, Mexico. Then one day he decided to defect and crossed the border to the US, looking to make the big bucks. Gage introduced him to the Payday Gang. He's as skilled as he's ruthless and with those revolvers he can really light things up. And yeah... check out that razor-sharp machete.
+	bodhi_desc = "Nacionalidade: Desconhecida\nIdade: Desconhecida\n\nBodhi é conhecido como uma das lendas do mundo do crime, mas poucos conhecem o homem atrás da máscara. Como o fundador do grupo Ex-Presidentes, Bodhi renovou o sub-mundo criminal com as suas manobras extremas e assaltos audaciosos. As suas façanhas recentes em Mumbai e Áustria puxou a atenção do Bain, garantindo ele um convite para Gangue Payday.",--Nationality: Unknown$NL;Age: Unknown$NL;$NL;Bodhi is known as one of the greatest legends in the world of crime, but few know the man behind the mask. As the founding father of the Ex-Presidents gang, Bodhi's renowned in the criminal underworld for his extreme athleticism and daring heists. His recent feats of strength in Mumbai and Austria got Bain's attention, granting him an invitation to the Payday Gang. (gosto mais do antigo)
+	jowi_desc = "Nacionalidade: Americana\nIdade: 40s\n\nJohn Wick é um assassino calmo e quieto. Parece que ele tem um físico sem idade, provavelmente do seu passado como um boxer. John e Chains se conheceram no excército.\n\nDepois de sumir, John recentemente deu uma mãozinha pro Chains em uma situação apertada. Em retorno, John disse pro Chains que precisava de um grupo. Como Chains podia dizer não pra um velho amigo?",--Nationality: American$NL;Age: 40s$NL;$NL;John Wick is a quiet and calm former hitman. He has a seemingly ageless physique, probably from his background as a boxer. John and Chains know each other from before as they used to be in the military together.$NL;$NL;After having gone dark, John recently resurfaced and helped Chains out of a delicate situation. In return, John told Chains he was in need of a crew. How could Chains say no to an old friend?
+	chico_desc = "Nacionalidade: Cubano\nIdade: Desconhecida\n\nEles não fazem como Tony antigamente. Um tagalera que sabe o que quer e como ter. Ele é bem sério quando a merda bate no ventilador, nasceu pra ser um assaltante. Ele não recusa para qualquer um e ele aguenta qualquer merda que for preciso. Esse cara tem colhões.",--Nationality: Cuban$NL;Age: Unknown$NL;$NL;They don't make 'em like Tony anymore. A fast talker who knows what he wants and how to get it. He's the real deal when the shit hits the fan, a true-born heister. He doesn't back down for anyone and he dishes it out just as hard as he can take it. This guy's got balls.
+	dragon_desc = "Nacionalidade: Japônes\nIdade: 52\n\nQuando era jovem, Jiro foi sempre rejeitado, até ele achar a Yakuza. Até mesmo aqui, além da sua lealdade e habilidade, ele nunca foi aceitado completamente e foi traido de um jeito que nunca vai esquecer. Depois de um tempo na prisão, Jiro foi até Estados Unidos para achar o seu filho perdido há muito tempo, Kento.",--Nationality: Japanese$NL;Age: 52$NL;$NL;In his youth, Jiro was never accepted, until he found his way into the yakuza. Yet even here, despite his loyalty and ability, he was never fully embraced and was ultimately betrayed. Following a lengthy prison term, Jiro has come to America to find his long-lost son, Kento.
+	myh_desc = 'Nacionalidade: Norte Americano\nIdade: 50s\n\nEra conhecido pelo seu nome de August Lindenhurst, ele abandonou esse nome por um simples "Duke" quando entrou na Gangue Payday. Por alguns anos, Duke anda pesquisando desenhos e rumores do sub-mundo criminal. Ele tem uma necessidade disso, ou melhor dizendo obcecado, para fazer um assalto tão épico que irá colocar ele no livro de história juntos com os outros assaltos do passado e acha que a Gangue do Bain consegue essa proeza.',--Nationality: North American$NL;Age: 50s$NL;$NL;Once going by the alias August Lindenhurst, he abandoned that moniker for simply "Duke" when joining the Payday Gang. For the last several years, Duke has been researching patterns and rumors in the larger criminal underworld. He has an innate need, more like an obsession, to pull off one truly epic heist that will put him in the history books alongside famous robbers of the past and he thinks Bain's gang can help him accomplish that goal.
+	old_hoxton_desc = "Nacionalidade: Inglês\nIdade: 32\n\nHoxton conseguiu o seu apelido depois de ir pra prisão com a sua velha gangue no lado Lest do Londres. Depois de passar o tempo em HMYOI, ele fez trampos com vários sindicatos do crime quando tinha 20 anos, até ele se juntar a Gangue Payday. Depois de vários assaltos até 2011, Hoxton foi capturado pelo FBI e mandado para prisão.\n\nEm 2014, a Gangue Payday ajudou ele fugir. Desde que ele fugiu, ele achava que alguém traiu ele.",--Nationality: English$NL;Age: 32$NL;$NL;Hoxton got his name from being caught with his old gang in the East End of London. After doing time in HMYOI he worked with several crime syndicates in his 20s until he finally joined the Payday Gang. After a successful stint of major heists up until 2011, Hoxton was captured by the FBI and sent to prison.$NL;$NL;In 2014, the PAYDAY Gang helped him escape. Ever since he got out, he has been convinced someone set him up.
+	sokol_desc = "Nacionalidade: Russo\nIdade: 25\n\nAlém da sua idade jovem, Sokol tem tudo para se tornar um assaltante profissional. Um dom de atleta, Sokol também é muito inteligente e entende o seu cargo em uma equipe. Ele é um fisíco coragoso e usa isso contra seu inimigo, seja um jogador de róquei ou uma equipe da SWAT.",--Nationality: Russian$NL;Age: 25$NL;$NL;Though young, Sokol has everything to become a legendary heister. A gifted athlete, Sokol also possesses keen intelligence and understands his role in a team. He is fearless and physical, and uses this to get amongst the enemy, whether that be a team of hockey players or a team of SWAT.
+	wild_desc = 'Nacionalidade: Americano\nIdade: 61\n\nPara interromper as operações da OVERKILL MC, eu precisava de alguém lá dentro e o nome dele era Tom "Rust" Bishop. Com ajuda do Elefante, oferecemos ao Rust uma chance de fazer dinheiro de verdade e ele foi rápido em responder. Ele matou os seus irmãos da motoclube para testar a sua nova lealdade para mim e isso selou o trato. Com Rust no nosso lado, podemos prosseguir com o nosso plano.',--Nationality: American$NL;Age: 61$NL;$NL;To disrupt the Overkill MC operations, I needed a man on the inside, and that man was Tom "Rust" Bishop. With the help of the Elephant, we offered Rust a chance to make a real payday, and Rust was quick to oblige. He killed off his former motorcycle brothers to testament his new loyalty to me and that sealed the deal. With Rust on our side, we can now proceed to my next plan.
+	sydney_desc = "Nacionalidade: Australiana\nIdade: 24\n\nKelli 'Sydney' King fez uma entrada espetacular para nossas vidas quando ela interrompeu um assalto sendo feito pela Gangue Payday. Usando uma mistura de explosões e armas ela quase conseguiu escapar com uma bolsa de dinheiro. Fiquei impressionado pela sua coragem e doídeira, os outros também estavam, até eles não queriam admitir. Não tinha dúvidas quando eu perguntei se ela queria se juntar, com boas habilidades venham boas recompênsas.",
+	jacket_desc = 'Nacionalidade: Americana\nIdade: Desconhecida\n\nPelo visto, ele uma vez apagou a máfia russa inteira em Miami por conta própria. Seu passado no excército e as suas atitudes de violência extrema fez dele um assassino perfeito, ou "Mensageiro" como os outros chamam ele. Por algum motivo, ele é completamente mudo e prefere se comunicar pela as fitas, tocando partes de aprendizagem de línguas, entrevistas e narrações de documentários invés de falar.',
+	dragan_desc = "Nacionalidade: Croácio\nIdade: 45\n\nDragan pode ser um policial formado, mas ele é um policial formado em Croácia, então os seus metódos faz a MPDC parecerem um bando de bebês chorões. Ele foi levado para os Estados Unidos e aceitado pela Gangue Payday como um favor da Açougueira. Enquanto que tinha algumas dúvidas sobre a sua lealdade, as suas habilidades e o comprometimento são indiscutíveis.",
+	jimmy_desc = "Nacionalidade: Desconhecida\nIdade: Desconhecida\n\nEu tive as minhas dúvidas, vou admitir, mas Jimmy tem umas certas habilidades para ser um assaltante da Crime.Net. Ele não tem limites, nunca nega um contrato e sempre vive como se fosse o último. Ele é leal e provou ser excelente membro que nunca achei que iriamos precisar.",
+	ecp_male_desc = 'Nacionalidade: Americana\nIdeade: 32\n\nUm pouquinho de David para o Golias conhecido da internet, Ethan é a prova que cê olha pro Bain e pensa "O que se passa na cabeça dele?". Como um streamer das redes sociais, Ethan e a sua esposa Hila chamaram a atenção da ira legal de alguns indivíduos com o seu trabalho de documentário e foram forçados a gastarem uma fortuna para se defenderem, deixando eles em um prejuízo financeiro. As suas habilidades em relações públicas e o engajamento atraiu a atenção do Bain, que convênceu ele e a sua esposa a entrarem na Gangue Payday com promessas de restituição, fortuna e glória.',
+	
+	-- Blackmarket
+	bm_menu_buy_weapon_title = "Comprar $weapon_category",
+	bm_menu_chosen = "Selecionado",
+	bm_menu_stats_max_detection = "Risco de Detectação Máximo!",
+	bm_menu_stats_min_detection = "Risco de Detectação Mínimo!",
+	bm_msk_character_locked = "Máscara do Personagem",
+	bm_msk_character_locked_desc = "Equipando isso irá equipar a máscara do seu personagem preferido.",
+
+	-- Ovos de Páscoa ;)
+	bm_msk_card_joker_desc = 'Eu já te contei como eu consegui essa máscara? Foi desse jeito assim: foi em um tweet de um desenvolvedor, um dos moderadores viu o meu tweet de eu falando que traduzi o jogo, ele me deu essa máscara como uma recompênsa. Agora eu posso sair por aí e falar "Eu traduzi esse jogo e tudo que ganhei foi essa máscara foda pra caralho". Aliás, obrigado pela máscara, Tuffcooke! <3',
+	bm_msk_smo_01_desc = "Mano, imagina um gatinho com sangue na cara, aí ele te pede pra fazer carinho nele, cê ia ficar com medo.",
+	bm_msk_smo_02_desc = "Eu amo raposas, sério, eu AMO MESMO, quero ter uma de estimação! ÒwÓ",
 		})
 end)

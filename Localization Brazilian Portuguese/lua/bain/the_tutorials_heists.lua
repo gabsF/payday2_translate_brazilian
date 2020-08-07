@@ -117,7 +117,6 @@ Hooks:Add("LocalizationManagerPostInit", "noobao", function(loc)
 	pln_sh11_23_02 = "Boa. Isso deve servir.",
 	pln_sh11_26_01 = "Eu sei que tô meio enferrujado, mas não mata ele. Você não vai conseguir enganar o cara do controle de novo se tentar responder o pager.",
 	pln_sh11_26_02 = "Lembre-se, não mata esse cara. Se responder o cara do controle de novo, ele não cair por essa de novo.",
-	pln_sh12_01_01 = "Bora fazer isso quieto. O computador",
 	pln_sh12_01_02 = "Hora de me mostrar se você ainda manja dos sigilo. O resto de vocês esperam na van e fiquem prontos quando dá merda.",
 	pln_sh12_01_03 = "O banco de dados deve tá no segundo andar.",
 	pln_sh12_02_02 = "Não vamos entrar na entrada da frente. Tá vendo aquela cerca? Esse é o nosso jeito de entrar. Coloca a máscara e corta.",

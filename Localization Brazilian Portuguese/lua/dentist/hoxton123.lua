@@ -223,7 +223,6 @@ Hooks:Add("LocalizationManagerPostInit", "wegottagethoxtonback", function(loc)
 	pln_hb2_12_02 = "Protege o Hoxton. Se vocês tiverem cartões, vocês podem fechar as entradas.",
 	pln_hb2_12_03 = "Se vocês tiverem cartões, podem fechar as entradas. Isso pode segurar eles por um tempo pra não encher o saco do Hoxton.",
 	pln_hb2_19_03 = "Os federais vão fazer qualquer coisa pra parar vocês. Saíam daí, agora!",
-	dr1_hb2_02_03 = "As ruas tão cheias de políciais, mas consegui um carro da hora aqui, só descem aqui.",
 	dr1_hb2_02_02 = "O que vocês tão fazendo aí cima? Deixa pra lá. Menos eu sei. Só descem aqui.",
 	pln_hb2_15_02 = "Se vocês sentirem que tão na merda, talvez vale a pena gastar um cartão de acesso nessa enfermária.",
 	pln_hb2_15_01 = "Se não tiver mais Bolsas Médicas, vocês deveriam abrir essa enfermária.",
@@ -407,10 +406,9 @@ Hooks:Add("LocalizationManagerPostInit", "wegottagethoxtonback", function(loc)
 	pln_hb3_58_01 = "Pessoal, o contador do alarme tá apitando. Vocês PRECISAM fazer algo com isso!",
 	pln_hb3_58_03 = "Desativa o alarme! Tá contando e as coisas vão ficar feias quando alcançar o zero.",
 	pln_hb3_58_02 = "O alarme foi ativado e tá contando. Faz algo com isso antes de alcançar zero.",
-	pln_hb3_59_01 = "Eu acho que é evidências suficiente para acabar com a investigação deles, mas pode pegar mais se quiser.",
 	pln_hb3_59_02 = "Ok, deve ser evidências suficiente para proteger a gente, mas pode pegar mais!",
 	pln_hb3_59_03 = "A investigação deles contra a gente provavelmente não vai dá certo com as evidências que a gente roubou, mas pode pegar mais se quiser.",
-	
+
 	-- Objetivos (Dia 1)
 	hud_heist_hox1_1 = "Leve o Hoxton para a caminhonete blindada na rua.",
 	hud_heist_hox1_1_hl = "Protege o Hoxton até a caminhonete",
@@ -425,9 +423,9 @@ Hooks:Add("LocalizationManagerPostInit", "wegottagethoxtonback", function(loc)
 	hud_heist_hox1_6 = "As barras estão bloqueando a caminhonete. Abre as portas dentro da garagem para achar a sala de controle e abaixe as barras.",
 	hud_heist_hox1_6_hl = "Ache a sala de controle",
 	hud_heist_hox1_7 = "Defende o computador enquanto hackea o sistema de segurança da garagem.",
-	hud_heist_hox1_7_hl = "Hackea e defende o computador",
+	hud_heist_hox1_7_hl = "Hackeie e defende o computador",
 	hud_heist_hox1_8 = "Os políciais interromperam o hack. Reinicia o ele.",
-	hud_heist_hox1_8_hl = "Reinicia o hack",
+	hud_heist_hox1_8_hl = "Reinicie o hack",
 	hud_heist_hox1_9 = "Use o computador hackeado para abaixar as barras e permitir a caminhonete seguir o seu caminho.",
 	hud_heist_hox1_9_hl = "Abaixe as barras",
 	hud_heist_hox1_10 = "Fuga está disponível!",
@@ -448,7 +446,7 @@ Hooks:Add("LocalizationManagerPostInit", "wegottagethoxtonback", function(loc)
 	hud_heist_hox1_17_hl = "Remove a blindagem",
 	
 	-- Objetivos (Dia 2)
-	hud_heist_hox0 = "Continua o seu caminho dentro da QG da FBI",
+	hud_heist_hox0 = "Vá para dentro da QG da FBI",
 	hud_heist_hox0_hl = "Entra na QG do FBI",
 	hud_heist_hox1 = "Ache a sala de operações onde que os servidores principais de inteligência da FBI estão.",
 	hud_heist_hox1_hl = "Acesse a sala de operações",
@@ -466,7 +464,7 @@ Hooks:Add("LocalizationManagerPostInit", "wegottagethoxtonback", function(loc)
 	hud_heist_hox5_hl = "Acesse o escritório do diretor",
 	hud_heist_hox5b = "Hackea o computador do diretor para dá acesso dos arquivos protegidos que o Hoxton precisa.",
 	hud_heist_hox5b_2_hl = "Espere pelo os pedidos de segurança do Hoxton",
-	hud_heist_hox5b_hl = "Hackea o computador do diretor",
+	hud_heist_hox5b_hl = "Hackeie o computador do diretor",
 	hud_heist_hox5c = "Aprove os pedidos de segurança do Hoxton para ele acessar os arquivos que ele precisa.",
 	hud_heist_hox5c_hl = "Aprove os pedidos de segurança do Hoxton",
 	hud_heist_hox5d = "Retorne para sala de operações para proteger o Hoxton.",
@@ -492,14 +490,14 @@ Hooks:Add("LocalizationManagerPostInit", "wegottagethoxtonback", function(loc)
 	hud_heist_hox8c = "Leve qualquer evidência relacionado ao caso do Hoxton pro laboratório para análise.",
 	hud_heist_hox8c_hl = "Ache as evidências do Hoxton",
 	hud_heist_hox8d = "Retorne para sala de operações para proteger o Hoxton.",
-	hud_heist_hox8d_hl = "Retorne pro Hoxton",
+	hud_heist_hox8d_hl = "Retorne ao Hoxton",
 	hud_heist_hox9 = "Hoxton copiou todas as informações que ele achou para um servidor, que deve ser levado para o veículo de fuga.",
 	hud_heist_hox9_hl = "Leve o servidor para o veículo de fuga",
 	
 	-- Objetivos (revenge)
-	hud_heist_hox3_1_hl = "Vai pro outro lado da cerca",
+	hud_heist_hox3_1_hl = "Vá para outro lado da cerca",
 	hud_heist_hox3_1 = "Vai pro outro lado da cerca do esconderijo do FBI. Procura por um ponto fraco ou abre um dos portões.",
-	hud_heist_hox3_2_hl = "Entra na casa",
+	hud_heist_hox3_2_hl = "Entre na casa",
 	hud_heist_hox3_3_hl = "Ache a sala de pânico",
 	hud_heist_hox3_2 = "Entra no esconderijo do FBI. Cuidado com o alarme nas todas as portas e nas janelas. Assim que a porta abrir, você vai ter um tempo limitado para desativar o alarme.",
 	hud_heist_hox3_3 = "Ache a sala de pânico que está em algum lugar dentro do esconderijo do FBI. O traidor tá dentro.",

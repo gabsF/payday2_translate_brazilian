@@ -294,7 +294,7 @@ Hooks:Add("LocalizationManagerPostInit", "homen", function(loc)
 	hud_heist_man6 = "Precisamos tirar o contribuinte para a sala de transferência para começar. Use toda força necessária para fazer ele cooperar.",
 	hud_heist_man6_hl = "Leve o contribuinte para a sala de transferência",
 	hud_heist_man7 = "Pegue o servidor da limousine e vai para sala de transferência para conectar.",
-	hud_heist_man7_hl = "Pegue o servidor e conecta ele",
+	hud_heist_man7_hl = "Pegue o servidor e conecte ele",
 	hud_heist_man8 = "Consiga as senhas do administrador do contribuinte! Grite, ameaça e mete porrada, qualquer coisa vale, não temos tempo a perder!",
 	hud_heist_man8_hl = "Consiga as senhas",
 	hud_heist_man9 = "Usando a inteligência de Bain, conhecimento do contribuinte e o charme da equipe, consiga os bancos de dados da IRS para um grande corte de impostos.",
