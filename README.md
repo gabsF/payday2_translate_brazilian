@@ -17,19 +17,28 @@ Pode fazer Pull Requests na tradução, caso acha algum erro de português ou al
 
 ## Créditos
 ```
-[ Gerenciador das Traduções ]
-gabsF
-
-[ Tradutores ]
-$Lucas$
-Bruno
-Caçador de Otacus
-DarK
+[ Gerentes da Tradução ]
 gabsF
 HimuraBR
+
+[ Tradutores ]
+WalkingJohnn
+gabsF
+$Lucas$
+RockZero
+Lupuens
+Nobrod
+NoTh
+MrUmbrella
+Caçador de Otacus
+DarK
 lulajr
 neour
-RockZero
+Bruno
+
+[ Discord OFICIAL da Tradução ]
+Entrem no nosso Discord para ficar por dentro de mais detalhes sobre a Tradução, para reportar possíveis Bugs e Erros de Tradução e até mesmo para criar novas amizades para jogar algumas Heist's por ai.
+Link do Discord: https://discord.gg/nEjGhXD
 
 [ Créditos Adicionais ]
 Dr_Newbie
