@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "bancodocs", function(loc)
+Hooks:Add("LocalizationManagerPostInit", "bancodoooooooooooooocsgooooooooooooo", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
 	heist_roberts = "GO Bank",
