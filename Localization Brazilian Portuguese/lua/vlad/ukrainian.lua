@@ -3,8 +3,8 @@ Hooks:Add("LocalizationManagerPostInit", "encontreatiara", function(loc)
 	-- Nomes e Descrições
 	heist_ukrainian_job_hl = "Ukrainian Job",--Ukrainian Job
 	heist_ukrainian_job = "Ukrainian Job",--Ukrainian Job
-	heist_ukrainian_job_briefing = "Vlad realmente não gosta desse maluco russo. Uma dessas rixas antigas. Talvez o cara tenha transado com a irmã dele ou algo assim. De qualquer forma, vamos ajudá-lo a acertar as contas com o sujeito. Nós vamos ao encontro de uma Tiara que se encontra em uma Joalheria, pelo que eu entendi. Não esquente a cabeça ou sua fuga será bem mais difícil. Se preparem, vamos lá!",--Vlad really doesn't like this Dmitri guy. One of these old-country feuds. Maybe he shagged his sister or something. Anyway, let's help the man settle the score. We go for the tiara - back room from what I understand. Don't get the heat on you too early or your escape is going to be rough. Check your assets. Let's go.
-	heist_ukrainian_job_crimenet = "Ajudem o Vlad a destruir o casamento do rato que o mandou para a prisão.$NL;$NL;» Localize a Joalheria$NL;» Encontre e Roube a Tiara$NL;» Roube qualquer outro Objeto de valor que encontrar",--Help Vlad destroy the wedding of the rat who sent him to prison.$NL;$NL;» Locate the jewelry store$NL;» Find and steal the tiara$NL;» Steal any other valuables you find
+	heist_ukrainian_job_briefing = "Vlad realmente não gosta daquele tal Dmitri. Uma dessas rixas antigas. Talvez o cara tenha transado com a irmã dele ou algo assim. De qualquer forma, vamos ajudá-lo a acertar as contas com o sujeito. Nós vamos em busca de uma Tiara que se encontra em uma Joalheria, pelo que eu entendi. Não esquentem a cabeça ou a fuga de vocês será bem dificultada. Se preparem, vamos lá!",--Vlad really doesn't like this Dmitri guy. One of these old-country feuds. Maybe he shagged his sister or something. Anyway, let's help the man settle the score. We go for the tiara - back room from what I understand. Don't get the heat on you too early or your escape is going to be rough. Check your assets. Let's go.
+	heist_ukrainian_job_crimenet = "Ajudem o Vlad a destruir o casamento do filho da puta que o mandou para a prisão.$NL;$NL;» Localize a Joalheria$NL;» Encontre e Roube a Tiara$NL;» Roube qualquer outro Objeto de Valor que encontrar",--Help Vlad destroy the wedding of the rat who sent him to prison.$NL;$NL;» Locate the jewelry store$NL;» Find and steal the tiara$NL;» Steal any other valuables you find
 
 	-- Legendas
 	pln_knk_jwl_a_16_any_03 = "Rapazes, encontrem a Tiara.. e sejam rápidos.",--Guys find that tiara and find it quick.
@@ -187,7 +187,7 @@ Hooks:Add("LocalizationManagerPostInit", "encontreatiara", function(loc)
 	hud_v_ukrainian_job_mission2 = "Entre no veículo de fuga.",--Get to the escape vehicle
 	hud_v_ukrainian_job_mission3 = "A Van de Fuga está chegando, prepare-se!",--The escape van is coming soon, so get ready
 	hud_v_ukrainian_job_mission4 = "Roube a joia dentro da Joalheria.",--Steal the jewelry in the jewelry store
-	hud_v_ukrainian_job_mission4_hl = "Roube e Assegure a Joia",--Steal and secure the jewelry
+	hud_v_ukrainian_job_mission4_hl = "Roube e Assegure as Joias",--Steal and secure the jewelry
 	hud_v_ukrainian_job_mission_hl = "Obtenha a Tiara para o Vlad",--Obtain the tiara for Vlad
 		})
 end)

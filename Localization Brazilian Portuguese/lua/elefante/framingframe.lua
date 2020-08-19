@@ -64,7 +64,7 @@ Hooks:Add("LocalizationManagerPostInit", "elefantedoidao", function(loc)
 	pln_framing_stage1_11_any_02 = "Temos quatro pinturas agora e quatro é o que precisamos - mas se quiserem pegar mais, é com vocês.",--We have four now and four's what we need - now if you want to get more, your move.
 	pln_framing_stage1_12_any_02 = "Ai está, como uma roupa de gala. Ainda estou trabalhando nas pinturas.",--There we go, off like a prom dress, I'm still working on the paintings.
 	pln_framing_stage1_14_any_01 = "Beleza. Com esse cara fora de cena, adeus câmeras.",--Good, with that guy out of the picture, no more cameras.
-	pln_framing_stage1_14_any_02 = "Ótimo, o alarme da câmera tocou.",--Great, so much for the camera alarm.
+	pln_framing_stage1_14_any_02 = "Ótimo, nada de câmeras mais agora.",--Great, so much for the camera alarm.
 	pln_framing_stage1_15_any_02 = "Unidades da SWAT estão se movendo para dentro do local, se preparem.",--SWAT units are moving into the building, get ready!
 	pln_framing_stage1_16_any_02 = "A SWAT simplesmente explodiu a parede!",--SWATs just breached the wall! 
 	pln_framing_stage1_end_a_01 = "Bem vindo de volta, galera. Agora nós instalamos as câmeras nas pinturas, negociamos elas com os caras do senador e veremos quem são esses traficantes.",--Welcome back, crew.  Now we install the cameras in the pictures, trade them to the senator's guys and get a look on whoever this arms dealer is.

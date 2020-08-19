@@ -1,41 +1,35 @@
-3.00
-+ Traduzido algumas heists
++ Traduzido muito mais Heists
     > Bain
-        > Art Gallery
-        > Car Shop
-        > Diamond Jewelry
-        > Safe House Raid
-        > Shadow Raid
-        > Escapes
-
-    > The Butcher
-        > The Bomb: Forest
-    
-    > The Elephant
-        > Framing Frame
-    
-    > Eventos
-        > Cursed Kill Room
-        > Safe House Nightmare
-        > Lab Rats
-        > Prison Nightmare
-    
+    	> Todas as Transport + Train Heist
+    	> The Alesso Heist
+    > Clássicos
+    	> Diamond Heist
     > Hector
-        > Firestarter
-    
-    > Jimmy
-        > Boiling Point
-        > Murky Station
-
+    	> Rats
+    	> WatchDogs
+    > Continental
+    	> Brooklyn 10-10
+    	> The Yacht Heist
+    > The Elephant
+    	> Big Oil
+    	> Election Day
+    	> Biker Heist
+    > Locke
+    	> Brooklyn Bank
+    	> Breakin'Feds
+    > The Dentist
+    	> Big Bank
+    	> Hotline Miami
     > Vlad
-        > Aftershock
-        > Mallcrasher
-        > Meltdown
-        > Santa's Workshop
-+ Traudizdo o Quickplay
-+ Traduzido algumas partes que esqueci que tavam em inglês
-+ Traduzido os menus da Música na tela de "Loadout"
-+ Traduzido mais falas do Henry's Rock (feito por HimuraBR)
-* Retraduzido as Skills (feito por HimuraBR e $Lucas$)
-* Consertado os erros de acentuação da "policia"
-- Removido algumas traduções de certas palavras, já que a gente fala a palavra inglês mesmo ¯\_(ツ)_/¯ (exemplo: Dodge, Concealmente e etc.)
+    	> Aftershock
+    	> Nightclub
+    	> White Xmas
+    	> Goat Simulator
++ Traduzido a primeira Safe House, dedicada exclusivamente para os Iniciantes do PAYDAY 2
++ Traduzido muito mais HUDs e Elementos do Menu
++ Traduzido mais uma quantidade considerável de Assets
++ Traduzido o Menu "OFFSHORE PAYDAY"
++ Alterado o "CARREGANDO" do topo da tela para "ESPERE", para que não fique mais cortado
++ Alterado o termo "Preparos" para "Assets" de volta
++ Correções de Erros de Tradução na Framing Frame, Car Shop, Henry's Rock, Hoxton Breakout dentre outras Heists
++ Traduzido boa parte dos elementos de Interação no Mapa da Breakfast in Tijuana

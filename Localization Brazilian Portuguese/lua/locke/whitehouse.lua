@@ -22,7 +22,7 @@ Hooks:Add("LocalizationManagerPostInit", "acasadotrump", function(loc)
 	vit_intro_05_09 = "Aí, Duke, o que é essas paradas de arca dos observadores?",
 	vit_intro_02_03 = "De jeito nenhum a gente vai sair dessa, gente.",
 	vit_intro_04_01 = "Como vocês gostam de ficar até de noite no quarto do Lincoln?",
-	vit_intro_05_03 = "Tô meio preocupado sobre as informações nos Murkies, não é nada bom.",
+	vit_intro_05_03 = "Tô meio preocupado sobre as informações dos Murkies, não é nada bom.",
 	vit_intro_01_01 = "É isso, pessoal, é... aí Locke, não se esqueceu do ouro, né?",
 	vit_intro_01_06 = "Nós deveriamos ter pego as armas grandes, gente.",
 	loc_vit_intro_05 = "Tô meio preocupado sobre as informações dos Murkies.. não é nada bom.",

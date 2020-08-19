@@ -10,6 +10,7 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	cn_crime_spree_starting = "Nível do Começo:",
 	menu_cs_in_progress_desc_higher = "A sua Crime Spree é bem mais alta do que a do Host. Você não irá ganhar prêmios até que o nível do Host seja igual ou maior do que o seu.",
 	menu_cs_rewards_not_in_progress_desc = "Você não irá ganhar prêmios sem ter uma Crime Spree ativa.",
+	menu_cs_host_failed_text = "O Host fracassou a sua Crime Spree e deve escolher se vai continuar.",
 	
 	-- Pausa em Jogo
 	menu_end_crime_spree = "Abandonar a Crime Spree",
@@ -26,6 +27,7 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	
 	-- Em Lobby
 	menu_cs_ga_in_progress = "Assalto em Progresso",	
+	menu_cs_host_failed = "Esperando pelo Host",
 	menu_cs_not_in_progress = "NENHUMA CRIME SPREE EM PROGRESSO. Inicie a sua Crime Spree para ganhar prêmios e níveis.",
 	menu_cs_modifiers_has_failed = "Crime Spree Fracassada",
 	menu_cs_modifiers_has_failed_desc = "Você não irá ganhar níveis ou prêmios até você continuar.",
@@ -67,6 +69,7 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	menu_cs_ga_explosion_immunity = "Resistência de Explosão",--Blast Resistance
 	menu_cs_ga_increased_body_bags = "Bolsas Extras de Cadavéres",--Extra Body Bags
 	menu_cs_ga_quick_switch_desc = "Todos os jogadores terão o tempo de trocarem as armas reduzidas por $speed%.",
+	menu_cs_ga_in_progress = "Jogo em Progresso",--Heist In Progress
 	menu_cs_ga_quick_reload = "Recarga Rápida",--Rapid Reloader
 	menu_cs_ga_melee_invulnerability = "Alguma Imortalidade",--Some Invulnerability
 	menu_cs_ga_increased_health_desc = "Todos os jogadores receberão $health% de vida extra.",
@@ -115,6 +118,6 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	menu_cs_loot_drops_remaining = "Drop de Cartas restantes: $loot",
 	bm_menu_textures = "Desenhos",
 	bm_menu_mods = "Modificações",
-	bm_menu_materials = "Materiais",
+	bm_menu_materials = "Material",
 	})
 end)

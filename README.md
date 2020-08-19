@@ -1,11 +1,12 @@
 # Tradução do PAYDAY 2
-Tradução do PAYDAY 2 que traduz várias coisas para o Português do Brasil, essa tradução não tem nenhuma afiliação com a OVERKILL..
+Tradução do PAYDAY 2 que traduz várias coisas para o Português do Brasil, essa tradução não tem nenhuma afiliação com a OVERKILL...
 
 ## Prévias
-![Image](https://i.imgur.com/9ghp3Ha.png)
-![Image](https://i.imgur.com/YgcBmne.png)
-![Image](https://i.imgur.com/YgaFvji.png)
-![image](https://i.imgur.com/IOqE2Qs.png)
+![Image](https://i.imgur.com/vzococS.png)
+![Image](https://i.imgur.com/Q5CNM50.png)
+![Image](https://i.imgur.com/JT6Wsb7.png)
+![image](https://i.imgur.com/I2xOHt6.png)
+![image](https://i.imgur.com/gQXahnW.png)
 
 ## Instalação
 1. Baixa e instale o [SuperBLT](https://superblt.znix.xyz/)
@@ -35,6 +36,9 @@ DarK
 lulajr
 neour
 Bruno
+Matheussimoe
+Eleanor
+Sky3Killer
 
 [ Discord OFICIAL da Tradução ]
 Entrem no nosso Discord para ficar por dentro de mais detalhes sobre a Tradução, para reportar possíveis Bugs e Erros de Tradução e até mesmo para criar novas amizades para jogar algumas Heist's por ai.

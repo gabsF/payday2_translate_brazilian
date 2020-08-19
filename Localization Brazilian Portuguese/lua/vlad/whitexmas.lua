@@ -1,0 +1,119 @@
+Hooks:Add("LocalizationManagerPostInit", "pilotobebado", function(loc)
+	LocalizationManager:add_localized_strings({
+	-- Nomes e Descrições
+	heist_pines = "White Xmas",--White Xmas
+	heist_pines_hl = "White Xmas",--White Xmas
+	heist_pines_crimenet = "O Vlad deseja que vocês resgatem o piloto bêbado e recuperem o seu produto.$NL;$NL;» Encontre o Piloto$NL;» Mantenha o Piloto a salvo e o coloque no Helicóptero de Resgate$NL;» Recupere o máximo de Cocaína possível",--Vlad wants you to rescue his drunken pilot and recover his product.$NL;$NL;» Locate the pilot$NL;» Keep him safe and get him to the rescue helicopter$NL;» Recover as much cocaine as possible
+	heist_pines_briefing = "Nós precisamos de vocês lá rápido, mas isso será realmente complicado, então vocês vão ter de entrar como paraquedistas. Encontrem o Piloto - Ele provavelmente estará próximo do local da queda - Então nós vamos enviar um helicóptero para a extração. Fiquem com ele até que ele fuja de forma segura. E o Vlad também está dizendo que o avião estava cheio de carga. Procurem na Floresta e peguem o máximo que conseguirem. Sempre podemos usar um pouco de dinheiro extra no Natal.",--We need you there fast, but it's really out in the sticks, so you're going in like the paras. Find the pilot - he's probably near the wreck - and then we'll send in a chopper to extract him. Stay with him til he's safely out. Also, Vlad says that plane was loaded with product. Search the forest and get as much out as you can. Can always use a little extra cash at Christmas.
+
+	-- Legendas (Bain)
+	pln_cp1_intro_01 = "Oh merda!",--Oh shit!
+	pln_cp1_17_03 = "O Helicóptero está indo para a Antena. Aguardem!",--The chopper is headed for the antenna. Stand by!
+	pln_cp1_06_03 = "O Helicóptero vai voltar por vocês, então, enquanto estão esperando, por que não procuram pelos pacotes do Vlad? Pode ser uma boa levar um pequeno bônus.",--Chopper will come back for you, so while we're waiting, why not get looking for Vlad's packages. Could be a nice little bonus.
+	pln_cp1_03_01 = "Oh cara, ele está realmente bêbado! Vai ser complicado escoltar esse cara.",--Oh man, he's really drunk! Gonna be tricky to escort that guy.
+	pln_cp1_10_01 = "Eu acabei de ouvir um presente caindo de uma árvore? Parece que tem mais deles presos por ali. Encontrem e abram. ",--Did I just hear a present falling from a tree? Seems to be more of them stuck in there. Find 'em, crack 'em open.
+	pln_cp1_14_03 = "O Helicóptero está indo para o Depósito de Madeira, gangue.",--The helicopter is in bound for the lumber yard, gang.
+	pln_cp1_18_03 = "Ok, ele deve estar fora de perigo. Coloquem o sinalizador na mesa fora do pátio. Ative-o para sinalizar a evacuação.",--OK, he should be out of harm's way. Place a flare on the table outside the yard. Set it off to signal the evac.
+	pln_cp1_16_03 = "Nosso trem estará sob o pátio de trens logo. Preparem-se!",--Our chopper will be over the train yard in a moment. Get ready!
+	pln_cp1_10_03 = "Aquilo era um presente cheio de pó caíndo de uma árvore? O Natal realmente é uma época de milagres.",--Was that a coke-filled present falling from a tree? Christmas really is the time of miracles.
+	pln_cp1_16_02 = "Nosso helicóptero estará no pátio de trens a qualquer segundo.",--Our helicopter will be at the train yard any second. 
+	pln_cp1_01_03 = "Sem pernas quebradas? Bom. Entrem na Floresta e encontrem aquele avião. Aposto que o piloto estará por perto. Levem ele para algum lugar seguro e nós vamos resgatá-lo por vias aéreas. Mexam-se!",--No broken legs? Good. Head into the forest and find that plane. My guess is the pilot will be nearby. Get him someplace safe and we'll evac him by air. Move out!
+	pln_cp1_03_03 = "O sangue dele deve ser 80% álcool. Fiquem com ele, ajudem ele.",--His blood must be 80% proof. Stay with him, help him.
+	pln_cp1_01_01 = "Todos desceram bem? Ótimo. Encontrem o local do impacto e vejam se o piloto ainda está vivo. Se ele estiver, vocês precisam levá-lo para um lugar seguro. Vou arranjar um helicóptero para buscá-lo o mais rápido possível. Um avião não cai sem chamar atenção, então vocês podem esperar por companhia. Trabalhem rápido.",--All safely down? Great. Locate the crash site, and see if the pilot's still alive. If he is, you need to get him to a safe place. I'll get a chopper out to pick him up ASAP. A plane doesn't crash out here without causing attention, so you can expect company. Work fast.
+	pln_cp1_20_03 = "Sinalizador está aceso. Ok, ele viu. O helicóptero está na velocidáde máxima.",--Flare is lit. Alright, he sees it. Chopper is in-bound.
+	pln_cp1_09_02 = "O Helicóptero está pronto para partir. Se vocês quiserem fugir agora é melhor mexerem essas bundas, ou podem ficar e procurar por mais cocaína.",--Chopper's almost ready to pull out. If you want to cash out now, better haul ass, or stay and track down more coke.
+	pln_cp1_09_01 = "O Helicóptero irá sair logo. Apressem-se se quiserem entrar nele, porém ele volta logo.",--Chopper's got to leave soon. Hustle if you want to be on it, but it'll be back soon!
+	pln_cp1_07_03 = "O Helicóptero está aqui. Arrumem as bolsas. Vocês podem sair agora ou podem ficar e procurar por mais cocaína. A decisão é de vocês.",--Chopper is here. Stow any bags. You can ride out now, or you can stay and find more coke. Your decision.
+	pln_cp1_08_02 = "Ok, o helicóptero está saindo. Espero que vocês tenham conseguido algum loot, ele voltará logo. Tentem encontrar mais do pó do Vlad.",--OK, chopper's pulling out. Hope you stowed some loot. It'll be back though. Try and find more of Vlad's coke.
+	pln_cp1_14_01 = "O Helicóptero está indo para o Depósito de Madeira - estejam prontos!",--The chopper's coming to the lumber yard - be ready!
+	pln_cp1_12_02 = "O piloto caiu. Não deixem ele desmaiar. Coloquem ele pra se mexer!",--Pilot's gone down. Don't let him pass out. Get him moving!
+	pln_cp1_15_02 = "O Helicóptero está em velocidade máxima em direção ao local da queda. Esperem, gangue!",--Chopper's is in-bound for the crash site. Stand by, gang!
+	pln_cp1_19_02 = "Lembrem-se de acender um sinalizador para chamar a evacuação.",--Remember to strike a flare to summon the evac.
+	pln_cp1_07_01 = "Ok, o helicóptero chegou. Guardem qualquer loot que encontraram. Vocês podem desistir sempre que quiserem, mas eu tenho certeza que deve ter mais loot espalhado por aí. A decisão é de vocês. ",--OK, chopper's here. Secure any loot you found. You can bail when you feel like it, but I'm sure there's always more loot out there. Your call.
+	pln_cp1_18_01 = "Ótimo, o piloto está seguro! Coloquem o sinalizador na mesa fora do pátio. Acendam-no para chamar o helicóptero.",--Great, the pilot's safe! Place a flare on the table outside the yard. Ignite it to signal the helicopter.
+	pln_cp1_02_03 = "Lá está o piloto. Cristo, esse maldito velho mal consegue se levantar, muito menos pilotar um avião. Escoltem-no até um lugar seguro. Eu vou mandar o helicóptero.",--There's the pilot. Christ, that old soak can barely stand, let alone fly a plane. Escort him somewhere safe. I'll get the chopper on the way.
+	pln_cp1_08_03 = "E lá se vai o helicóptero, mas não se preocupem - ele vai voltar. Enquanto isso, vejam se conseguem encontrar mais alguns desses presentes.",--There goes the chopper, but don't worry - it'll be back. In the meantime, let's see if you can track down some more of those presents.
+	pln_cp1_05_01 = "Certo, o helicóptero chegou. Levem o piloto pra ele!",--Alright, chopper's here. Bring the pilot to it!
+	pln_cp1_19_03 = "Galera, acendam outro sinalizador para trazer o helicóptero de volta.",--Light another flare to bring the chopper back, gang.
+	pln_cp1_07_02 = "Lá está o helicóptero de vocês. Coloquem as bolsas nele e então vocês poderão fugir ou ficar e encontrar mais loot. Vocês decidem.",--There's your chopper. Get the bags in it. Then you can bug out, or stay and find more loot. It's up to you.
+	pln_cp1_05_03 = "O Helicóptero está no local. Levem-no pra lá. Apenas rezem para que ele não alcance os controles.",--Chopper's on the scene. Get him there. Just pray he doesn't reach for the controls.
+	pln_cp1_13_03 = "O velho bêbado caiu de novo. Coloquem ele de pé.",--The old drunk is on the ground again. Get him to his feet.
+	pln_cp1_10_02 = "Galera, parece que um presente caiu de uma árvore. Deve ser mais do pó do Vlad. Encontrem-no!",--Sounds like a present fell outta the tree, gang. Might be more of Vlad's coke. Find it.
+	pln_cp1_14_02 = "O Helicóptero chegou no Depósito de Madeira - vão pra lá!",--Chopper's headed for the lumber yard - be there!
+	pln_cp1_04_02 = "Sem tempo de fazer um café pra esse maldito velho irritado. Mantenham ele a salvo. Estou enviando o resgate agora.",--No time to brew coffee for that pissed old fart. Keep him safe. I'm sending an extraction now.
+	pln_cp1_17_01 = "O Helicóptero está indo para a Antena!",--The chopper is coming at the antenna!
+	pln_cp1_16_01 = "Nosso passarinho estará perto do pátio de trens a qualquer momento. Estejam prontos!",--Our bird will be near the train yard any moment. Be ready!
+	pln_cp1_18_02 = "Certo, ele deve estar a salvo agora. Coloquem o sinalizador na mesa do lado de fora do pátio. Acendam ele para trazer o helicóptero.",--Alright, he should be safe now. Place a flare on the table outside the yard. Set it off to bring in the chopper.
+	pln_cp1_09_03 = "O Helicóptero vai ter que sair um pouquinho. Se vocês estão prontos para sair agora, entrem nele.",--Helicopter will have to bug out for a little while. If you're ready to go now, be on it. 
+	pln_cp1_11_01 = "Outro pacote caiu no chão, seus palhaços. Tentem encontrá-lo.",--Another package hit the ground, clowns. Try and find it.
+	pln_cp1_20_01 = "Certo, o helicóptero está a caminho. Ele chegará em um minuto.",--Alright, the chopper's on the way. He'll be there in a minute.
+	pln_cp1_04_03 = "Bom, estou enviando o helicóptero pra pegar o piloto. Mantenham-no a salvo. Ele está tão bêbado que eu duvido que ele sinta as balas.",--Good. I'm sending a chopper to collect him. Keep him safe. He's so wasted I doubt he'd feel the bullets.
+	pln_cp1_04_01 = "Ótimo! Agora ele está a salvo, Estou enviando um helicóptero para pegá-lo. Fiquem com ele.",--Great! Now that he's safe, I'm sending a helicopter to pick him up. Stay with him.
+	pln_cp1_19_01 = "Vocês precisam acender o sinalizador para chamar o helicóptero de novo.",--You need to ignite a flare to signal the helicopter again.
+	pln_cp1_01_02 = "Todo mundo está bem? Então mexam-se! Vocês tem que encontrar o local da queda e aquele piloto - a menos que ele tenha enrolado o pescoço em uma árvore. Providenciaremos uma fuga assim que vocês levarem ele pra um lugar seguro.",--Everyone OK? Then move out! You gotta find the crash site and that drunken pilot - unless he's wrapped his neck around a tree. We'll sort out an evac once you get him someplace safe.
+	pln_cp1_06_02 = "O Helicóptero irá voltar pra pegar o resto de vocês. Aproveitem o tempo - Procurem ao redor pela carga. O Vlad disse que está escondido em pacotes.",--Chopper will be back for the rest of you. Use the time well - look around for the product. Vlad said it's stashed in packages.
+	pln_cp1_12_01 = "O piloto caiu. Porra, ele está dormindo? Vocês precisam acordar esse cara!",--The pilot just fell down. Damn, is he sleeping? You need to wake him up!
+	pln_cp1_15_03 = "O Helicóptero estará sobre o avião destruído a qualquer segundo.",--Chopper will be over the wrecked plane any second.
+	pln_cp1_02_01 = "Lá está ele! Acordem ele e o levem para um local seguro. Tem um Depósito de Madeira por perto.",--There he is! Wake him up and take him to a safe place. There's a lumber yard nearby. 
+	pln_cp1_02_02 = "Lá está o nosso cara. Ele está com uma cara de merda! Tirem ele daí. Tem um Depósito de Madeira próximo da posição de vocês.",--There's our guy. He's shit faced! Get him away from there. There's a deserted lumber yard near your position.
+	pln_cp1_03_02 = "Jesus, ele está perdido. Fiquem com ele. Ele não está em condições de se defender.",--Jesus, he's wasted. Stay with him. He's in no shape to defend himself.
+	pln_cp1_05_02 = "Ok, esse é o helicóptero que vocês estão ouvindo. Tirem o nosso cara daí.",--OK, that's the chopper you can hear. Get our guy out there.
+	pln_cp1_06_01 = "Bom trabalho! O helicóptero vai deixar ele aqui e vai voltar pra pegar o resto de vocês. Enquanto vocês esperam, procurem pela Floresta por mais alguns outros pacotes.",--Good work! Chopper's gonna drop him off then come back for the rest of you. While you're waiting, look around the forest for any more packages.
+	pln_cp1_08_01 = "O helicóptero saiu, mas fiquem tranquilos - ele vai voltar. Procurem por mais loot na Floresta. E fiquem seguros.",--Chopper's headed out, but stay cool - it'll be back. Look for more loot in the forest. And stay safe.
+	pln_cp1_11_02 = "A noite não está tão silenciosa. Eu acho que ouvi outro presente cair no chão. Encontrem ele!",--The night's not so silent. Think I heard another present hit the ground. Find it!
+	pln_cp1_11_03 = "Meus ouvidos estão me enganando ou esse foi o doce som de outro dos presente do Vlad caindo no chão? Procurem por ele!",--Do my ears deceive me, or was that the sweet sound of another of Vlad's presents hitting the floor? Look for it!
+	pln_cp1_12_03 = "O piloto caiu! Coloquem ele de pé.",--Pilot is down! Get him back on his feet.
+	pln_cp1_13_01 = "Oh cara, o piloto caiu no chão de novo. Acordem esse velho bêbado!",--Oh man, the pilot just went down again. Wake that old wino up!
+	pln_cp1_13_02 = "Pelo amor de Deus, o piloto caiu de novo. Acordem esse cara!",--For crying out loud, the pilot has hit the deck again. Wake him up!
+	pln_cp1_15_01 = "O Helicóptero chegou no local da queda. Fiquem prontos!",--Chopper's headed for the crash site. Get ready!
+	pln_cp1_17_02 = "O Helicóptero estará na Antena. Esperem!",--Chopper will be at the antenna. Wait for it!
+	pln_cp1_20_02 = "O piloto do helicóptero viu o sinalizador. Ele está a caminho. Um minuto.",--Chopper sees the flare. He's on his way. One minute.
+	
+	-- Legendas (Vlad)
+	vld_cp1_cnc_02 = "Um dos meus pilotos caiu na Floresta. Encontrem ele e o tragam de volta.",--A pilot of mine has gone down in the woods. Find him, get him back here.
+	vld_cp1_cbf_01 = "O cuzão do meu cunhado, aquele saco de pele de inútil bateu o avião dele. Ele bateu em alguma coisa e... Não queremos que a polícia pegue ele. Normalmente eu não daria a mínima pra esse cuzão bêbado. Normalmente eu deixaria ele apodrecer lá, mas, vocês sabem... família né. Encontrem aquele velho bêbado e o tirem de lá. Eu também vou pagar um bom bônus de Natal para cada um dos pacotes dele.",--My asshole brother-in-law, that useless sack of ball-skin, has crashed his plane. He hit something and ... We can't let the cops pick him up. Normally I wouldn't give two shakes of my pisser for that drunken asshole. I'd let him rot there, but, you know... Family. Track that old soak down and get him out. I'll pay a nice Christmas bonus for any of his packages too.
+	vld_cp1_02_01 = "Pare de fingir, seu bebezão. Eu vou enfiar essa garrafa no seu cu e prender ela na sua próstata.",--Stop acting, you big baby. I'll jam that bottle up your ass and pin it to your fucking prostate.
+	vld_cp1_05_03 = "Eu acho que acabei de ouvir outro pacote. Ele é meu! Procurem por ele!",--I think I just heard another package. It's mine! Look for it!
+	vld_cp1_end_03 = "Isso foi um bom trabalho. E bem.. Sasha! Tirem essas chaves dele! Sim, bom trabalho. Vocês merecem esse bônus.",--That was good work. And good... Sasha! Take those keys off him! Yes, good work. You deserve the bonus.
+	vld_cp1_end_02 = "Ele está de volta e já está esvaziando meu armário de bebidas. Korva. De qualquer maneira, vocês fizeram bem. Vocês conquistaram isso.",--He's back and already cleaning out my drinks cabinet. Korva. Anyway, you boys did good. You earned this.
+	vld_cp1_06_02 = "Ele passa mais tempo na sujeira do que a mãe dele. Aquela puta de um centavo!",--He spends more time in the dirt than his momma. That nickel whore!
+	vld_cp1_06_03 = "Vocês conseguem acreditar que esse trágico saco de lixo foi um herói? De pé!",--Can you believe this tragic sack of crap was a hero? On your feet!
+	vld_cp1_05_05 = "Presentes de Natal continuam caindo do céu! Peguem o máximo que conseguirem!",--Christmas presents are still falling out of the sky! Pick up as many as you can!
+	vld_cp1_cnc_03 = "Meu cunhado bateu o avião na Floresta. Tragam ele de volta.",--My brother-in-law crashed his plane in the woods. Get him back here.
+	vld_cp1_03_02 = "Ele está vindo até mim. Bom trabalho. Vocês sabem, enquanto vocês estiverem aí, talvez vocês consigam encontrar alguns dos meus pacotes...",--He's on his way to me. Good work. You know, since you're there, if you could maybe find a few of my packages...
+	vld_cp1_05_07 = "Esses bem embalados pacotes de cocaína ainda estão caíndo! Tragam quantos conseguirem!",--Those nicely wrapped packages of coke are still coming down! Bring as many as you can!
+	vld_cp1_01_01 = "Lá está ele! Sacudam esse saco de bosta até ele acordar. Vamos, porra! Por que o meu avião está em chamas?",--There he is! Shake that useless sack of shit awake. Davay, blyad! Why is my plane on fire? 
+	vld_cp1_01_02 = "É isso... Aargh, ele é tão inútil quanto tetas em um bule de chá. Levanta. Levanta, filho da puta! De pé!",--There's that... Aargh, he's as much use as tits on teapot. Get up. Get up, suka blyad! On your feet!
+	vld_cp1_01_03 = "Olhem pra esse bêbado fudido. Com essa cara de quem quer cagar. Vadia inútil..!",--Look at that drunken fuck. Face you want to shit on. Useless blyad..!
+	vld_cp1_02_02 = "Acorde, seu velho. Fudido desgraçado. Eu já vi pilotos na corrida de Donetsk quatro vezes mais bêbados!",--Wake up, old man. Fucking disgrace. I saw pilots do the Donetsk Run with four times as much booze!
+	vld_cp1_02_03 = "Cuzão! Isso não é neve caindo. Isso é a porra do meu produto. A porra do meu produto! Obrigado a você!",--Asshole! That's not snow falling. That's my fucking product. My fucking product! Thanks to you!
+	vld_cp1_03_01 = "Ahhh! Esse velho cuzão já está voltando. Bom trabalho. Se vocês conseguirem encontrar alguns dos meus pacotes... O Vlad vai ficar muito agradecido.",--Ahhh! That old asshole is on his way back. Good work. If you can find some of my packages... Vlad would be very grateful.
+	vld_cp1_03_03 = "Ele está a salvo. Bem, por hora. Hey, enquanto estiverem por aí, se vocês puderem coletar alguns desses presentes... Eu vou pagar bem.",--He's safe. Well, for now. Hey, since you're there, if you could perhaps collect a few of those presents... I'd pay well.
+	vld_cp1_04_01 = "Eu pago uma grana preta pra cada um dos meus pacotes de cocaína que vocês jogarem no helicóptero. Grana preta!",--I pay top dollar for any of my coke you can get in the helicopter. Top dollar!
+	vld_cp1_04_02 = "Vocês podem colocar o pó dentro do helicóptero, Eu vou deixar vocês ricos! Se não, vocês vão me deixar triste. Um Vlad triste... É bem ruim.",--You get coke into the helicopter, I make you rich. You don't, you make me sad. A sad Vlad... Is bad.
+	vld_cp1_04_03 = "Qualquer cocaína que vocês encontrarem, apenas joguem elas dentro do helicóptero. Vou pagar muita grana por cada uma.",--Any coke you guys find, just toss it in the helicopter. I pay big bucks.
+	vld_cp1_05_01 = "Ah! Esse barulho! Outro pacote caiu, eu acho, não é?",--Ah! That noise! Another package fell, I think, yes?
+	vld_cp1_05_02 = "Outro dos meus pacotes! Procurem ele.",--Another of my packages! Find it. 
+	vld_cp1_05_04 = "Pacotes ainda estão caindo das árvores. Vão! Vão e encontrem eles!",--Packages are still falling from the trees. Go! Go find them!
+	vld_cp1_05_06 = "Esses bem embalados pacotes de cocaína ainda estão caindo! Tragam quantos conseguirem!",--Those nicely wrapped packages of coke are still coming down! Bring as many as you can!
+	vld_cp1_06_01 = "Oh, isso é vergonhoso. Talvez vocês poderiam... Nah, minha esposa nunca me perdoaria.",--Oh, this is embarrassing. Maybe you could... Nah, wife would never forgive me.
+	vld_cp1_cnc_01 = "O irmão da minha esposa, esse cuzão filho da puta, bateu o avião dele na Floresta ao lado da cidade. Eu preciso dele e da carga dele de volta.",--My wife's brother, that asshole son-of-a-bitch, crashed his plane in the woods just outside the city. I need him and his cargo back here. 
+	vld_cp1_end_01 = "Eu não vou mentir. Parte de mim espera que esse idiota esteja morto. Mas isso seria demais para um milagre de Natal, eh? Vocês fizeram bem. Tomem um dinheiro",--I won't lie. Part of me was hoping that mudak was dead. But that would be too much of a Christmas miracle, eh? You did good. Have some cash.
+	
+	-- Objetivos
+	hud_heist_san1_6 = "O Depósito de Madeira é um local seguro para você esperar.",--The lumber yard is a safe place where you can wait.
+	hud_heist_san1_3 = "Fuja com o helicóptero ou espere e procure por mais loot.",--Escape with the helicopter or stay and look for more loot.
+	hud_heist_san1_1_hl = "Procure na Floresta por qualquer Loot",--Search the forest for any loot
+	hud_heist_san1_4 = "Espere o helicóptero chegar enquanto procura por loot na Floresta.",--Wait for the helicopter to arrive while looking for loot in the forest.
+	hud_heist_san1_5 = "O helicóptero chegou! Escolte o piloto até ele.",--The helicopter has arrived! Escort the pilot to it.
+	hud_heist_san1_7 = "Use o sinalizador para chamar o helicóptero.",--Use a flare to signal the helicopter to come.
+	hud_heist_san1_2 = "Encontre o local da queda e veja se alguma evidência pode ser removida.",--Locate the crash site and see if any evidence can be removed.
+	hud_heist_san1_7_hl = "Chame o Helicóptero com o Sinalizador",--Signal the helicopter with a flare
+	hud_heist_san1_4_hl = "Espere o Helicóptero e Encontre Loot",--Wait for the helicopter and find loot
+	hud_heist_san1_2_hl = "Encontre o Local da Queda",--Locate the crash site
+	hud_heist_san1_1 = "Procure os pacotes na Floresta e qualquer outro loot e espere pelo helicóptero para buscá-lo.",--Search the packages in the forest for any loot and wait for the helicopter to pick it up.
+	hud_heist_san1_3_hl = "Fuja ou Encontre mais Loot",--Escape or find more loot
+	hud_heist_san1_6_hl = "Escolte o Piloto até o Depósito de Madeira",--Escort the pilot to the lumber yard
+	hud_heist_san1_5_hl = "Escolte o Piloto até o Helicóptero",--Escort the pilot to the helicopter	
+		})
+end)

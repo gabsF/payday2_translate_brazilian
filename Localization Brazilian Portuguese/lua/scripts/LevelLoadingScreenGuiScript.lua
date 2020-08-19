@@ -2,6 +2,6 @@ LevelLoadingScreenGuiScript.old__init = LevelLoadingScreenGuiScript.old__init or
 
 function LevelLoadingScreenGuiScript:init(scene_gui, res, progress, base_layer)
 	self:old__init(scene_gui, res, progress, base_layer)	
-	local title_text = "CARREGANDO"--managers.localization:text("debug_loading_level"))
+	local title_text = "ESPERE"--managers.localization:text("debug_loading_level"))
 	self._level_title_text:set_text(title_text)
 end

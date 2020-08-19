@@ -77,13 +77,13 @@ Hooks:Add("LocalizationManagerPostInit", "heistsdovladsaoesquisitas", function(l
 	hud_v_mallcrasher_mission3_hl = "Voltem para a Van",--Get back to the van
 	hud_v_mallcrasher_mission2 = "Mova-se em volta do shopping e destrua $50.000 em valor de coisas.",--Move around in the mall and destroy $50.000 worth of stuff
 	hud_v_mallcrasher_mission1 = "Ache um jeito de entrar no Shopping Shield.",--Find a way into the Shield mall
-	hud_v_mallcrasher_mission6 = "A van foi destruída, espere o helicóptero chegar",--The van got trashed, so wait for the helicopter to arrive
+	hud_v_mallcrasher_mission6 = "A van foi destruída, espere o helicóptero chegar.",--The van got trashed, so wait for the helicopter to arrive
 	hud_v_mallcrasher_mission6_hl = "Espere pelo Helicóptero",--Wait for the helicopter
 	hud_v_mallcrasher_mission4_hl = "Espere a Van voltar",--Wait for the van to return
 	hud_v_mallcrasher_mission5_hl = "Entre na Van",--Get to the van
 	hud_v_mallcrasher_mission1_hl = "Entre no Shopping",--Enter the mall
 	hud_v_mallcrasher_mission7_hl = "Fuga está Disponível",--Escape is available
-	hud_v_mallcrasher_mission2_hl = "Destua $50.000 em Valor de Coisas",--Destroy $50.000 worth of stuff
+	hud_v_mallcrasher_mission2_hl = "Destrua $50.000 em Valor de Bens",--Destroy $50.000 worth of stuff
 	hud_v_mallcrasher_mission3 = "Volte para a van que você veio.",--Get back to the van you came with
 	hud_v_mallcrasher_mission4 = "A van irá circular o quarteirão, e voltará para o estacionamento, então esteja pronto.",--The van will circle the block, and come back into parking lot, so be ready
 	hud_v_mallcrasher_mission5 = "Desça na garagem e fuja.",--Get down in the garage and escape

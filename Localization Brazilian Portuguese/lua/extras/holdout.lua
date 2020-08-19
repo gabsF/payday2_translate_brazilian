@@ -89,13 +89,13 @@ Hooks:Add("LocalizationManagerPostInit", "staydownmodafoca", function(loc)
 	loc_skm_28_02 = "Bom, muito bem. Nós conseguimos fazer eles nos darem até o último centavo. Hoje à noite, o velho Locke vai comprar as cervejas, ok?",
 	loc_skm_28_03 = "A situação ficou meio cabeluda, mas vocês conseguiram. Eu não sei se pode pegar mais do que isso, mas bom trabalho!",
 	-- Tab
-	hud_skirmish_ransom = "Preço do resgate:",
+	hud_skirmish_ransom = "Preço do Resgate:",
 	hud_weekly_holdout = "Resgate Semanal",
 	-- Objetivos
-	hud_skm_1_hl = "Proteja o refém",
+	hud_skm_1_hl = "Proteja o Refém",
 	hud_skm_2_hl = "Trocar ou Aguentar mais tempo?",
 	hud_skm_2 = "Troque o refém pelo pagamento atual ou aguente por mais tempo!",
-	hud_skm_1 = "Mantenha os políciais longe do refém!",
+	hud_skm_1 = "Mantenha os policiais longe do refém!",
 	-- HUD
 	hud_assault_waves = "ONDAS $current/$max",
 	-- Interações
