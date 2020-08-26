@@ -121,7 +121,7 @@ Hooks:Add("LocalizationManagerPostInit", "missoesinfernais", function(loc)
 	pln_tr1b_02_03 = "Ótimo! É isso que viemos pegar. Quando o motorista descarregar, ele vai voltar para a coleta da munição.",--Great! That's what we came for. Once the driver drops 'em off, he'll return for the ammo.
 	pln_tr1b_03_03 = "As balas estão escondidas agora. Bom trabalho, vou mandar a fuga de vocês até aí.",--The shells are tucked away. Nice work, I'm sending your getaway.
 	pln_tr1b_cnc_01_01 = "O governo nos deve dinheiro do almoço. Parece que vamos pegar a Turret e algumas bolsas de munição deles como compensação.",--The government owes us lunch money. Looks like we'll be taking their Turret and a few bags of ammo as compensation.
-	pln_tr1b_04_01 = "Coloquem auquele HD no cofre do trem, eu devo poder hackear e abrir.",--Plug that hard-drive into one of the train vault security systems, I should be able to hack it open.
+	pln_tr1b_04_01 = "Coloquem aquele HD no cofre do trem, eu devo poder hackear e abrir.",--Plug that hard-drive into one of the train vault security systems, I should be able to hack it open.
 	pln_tr1b_01_01 = "Não há necessidade de andar na ponta dos pés. Estou mandando a furadeira.",--No need for tip-toeing now. I'm sending the drill.
 	pln_tr1b_02_02 = "Essa é a Turret recuperada. O motorista vai voltar pela munição.",--That's the Turret recovered. The driver will be back for the ammo.
 	pln_tr1b_03_01 = "Parece que pegamos tudo, gangue, a fuga de vocês está a caminho.",--Looks like we got everything, gang, Your pick-up is on its way.
@@ -241,7 +241,7 @@ Hooks:Add("LocalizationManagerPostInit", "missoesinfernais", function(loc)
 	hud_arm_forest7_hl = "Assegure Vinte Bolsas de Munição da Turret",--Secure twenty Turret ammo bags
 	hud_arm_forest7 = "Vamos precisar de um pouco de munição para acompanhar a Turret. Vinte bolsas devem servir. Mesmo local de asseguramento.",--We're going to need some ammo to go with the Turret. Twenty bags should do it. Same drop off point.
 	hud_arm_mission5_hl = "Fuga Disponível",--Escape is available
-	hud_arm_forest2_hl = "Carregue as Partes do Protótipo da Turret para o Veículo",--Carry the prototype Turret parts to the drop off
+	hud_arm_forest2_hl = "Carregue as Partes da Turret para o Veículo",--Carry the prototype Turret parts to the drop off
 	hud_arm_forest4_hl = "Assegure Quatro Bolsas de Munição da Turret",--Secure four Turret ammo bags
 	hud_arm_mission3_hl = "Roube o Dinheiro",--Steal the cash
 	hud_arm_forest3 = "Vá até o veículo de fuga.",--Get to the escape vehicle

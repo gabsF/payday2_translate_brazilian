@@ -5,7 +5,7 @@ Hooks:Add("LocalizationManagerPostInit", "focadonosiniciantes", function(loc)
 	short_basics_cash = "Dinheiro",
 	short_basics_experience = "Experiência",
 	short_basics_loot = "Drop de Cartas",
-	short_basics_desc = "Bem-vindo a Crime.Net! Antes de você ir fazer alguns grandes assaltos, aprenda os básico aqui!",
+	short_basics_desc = "Bem-vindo a Crime.Net! Antes de você ir fazer alguns grandes assaltos, aprenda o básico aqui!",
 	short_basics_header = "Crime.net: Contratos disponíveis",
 	menu_contact_info_short = "Crime.net/Os_Tutoriais",
 	

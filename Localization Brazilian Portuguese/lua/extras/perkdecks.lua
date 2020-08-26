@@ -12,6 +12,16 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	menu_st_available_spec_points = "$points Pontos de Cartas disponíveis",
 	menu_st_active_spec = "Equipado: $specialization",
 	menu_st_activate_spec = "Equipar o Perk Deck",
+	menu_st_max_perk_deck = "Maximizar Perk Deck",--Maximize perk deck
+	menu_st_spec_xp_progress = "Progresso",--Progress
+	menu_sort_progress = "Progresso",--Progress
+	menu_st_progress = "Progresso: $progress",--Progress
+	st_menu_max_perk_dialog_text = "Maximizar o Perk Deck: $perk_deck_name\nIrá custar $point_cost Pontos de Cartas para deixar $perk_tier de $max_tier cartas desbloqueadas.\nAtualmente possui $current_tier de $max_tier desbloqueadas.",
+	dialog_xp_to_specialization = "Conversão de XP para o Perk",--XP to Perk Conversion
+	menu_st_spec_xp_conversion = "Taxa de Conversão: $rate",--Conversion Rate: $rate;
+	menu_st_spec_xp_gained = "XP ganho desde a última conversão:",--XP gained since last conversion:
+	menu_st_spec_xp_perk_gained = "Pontos de Cartas convertidos ganho:",--Converted perk points gained:
+	menu_st_spec_xp_perk_total = "Total de Pontos de Cartas disponíveis:",--Total available perk points:
 	
 	-- "Granadas" dos Perk Decks
 	bm_ability_chico_injector = "Injetor",

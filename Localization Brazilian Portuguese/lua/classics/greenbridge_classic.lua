@@ -140,7 +140,7 @@ Hooks:Add("LocalizationManagerPostInit", "ponteverde", function(loc)
 	mission_glace_1_hl = "Localize o Comboio da Prisão",
 	mission_glace_1 = "Siga a ponte e localize o comboio da prisão.",
 	mission_glace_2 = "Localize o Prisioneiro! Ele está dentro em um dos caminhões. Use as serras para abrir os caminhões.",
-	mission_glace_2_hl = "Encontrem o Prisioneiro",
+	mission_glace_2_hl = "Encontre o Prisioneiro",
 	mission_glace_3 = "Proteja o Prisioneiro até o topo da torre à direita. Quando estiver no topo, coloque ele na cadeira e faça ele sumir pelo ar.",
 	mission_glace_3_hl = "Proteja o Prisioneiro até a Construção",
 	mission_glace_4 = "Proteja a torre, espere pelo avião e tenha certeza de que o piloto irá pegar o balão!",

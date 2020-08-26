@@ -98,7 +98,7 @@ Hooks:Add("LocalizationManagerPostInit", "aversaoflorestaehapior", function(loc)
 	pln_cr2_11_01 = "Ai! Esses terminais provavelmente têm a frequência da Moretta. Vamos precisar em breve.",--Hey! These terminals likely have the comm frequency for the Moretta. We're gonna need it before long.
 	pln_cr2_90_03 = "Abram caminho até a van, gente.",--Fight your way back to the van, clowns.
 	pln_cr2_54_01 = "Pessoal, vão ate o computador. Enviem as coordenadas para o navio.",--Gang, get to the computer. Get those coordinates to the ship.
-	pln_cr2_61_02 = "O que será que tem nessa caixa. Pode ser a bomba da Açougueira. Dê uma olhada.",--Wonder what's in the case. Could be The Butcher's explosives. Have a look.
+	pln_cr2_61_02 = "O que será que tem nessa caixa. Pode ser a bomba da Butcher. Dê uma olhada.",--Wonder what's in the case. Could be The Butcher's explosives. Have a look.
 	pln_cr2_66_01 = "Eles não têm ideia de que vocês estão aí. Agora procurem os cartões.",--They have no clue you are there. Now keep looking for those keycard.
 	pln_cr2_77_01 = "Peguem aquela C4, pessoal.",--Grab that C4, guys.
 	pln_cr2_25_02 = "Foi o primeiro.",--That's the first.
@@ -228,7 +228,7 @@ Hooks:Add("LocalizationManagerPostInit", "aversaoflorestaehapior", function(loc)
 	pln_cr2_89_01 = "Comecem a arrombar esses contêineres!",--Get drilling those containers!
 	pln_cr2_22_01 = "Ele tá vindo com o C4. Esperem um pouco aí, pessoal.",--He's en route now with C4. Just hang in there, gang.
 	pln_cr2_110_01 = "É o vestiário dos trabalhadores. Procurem por um cartão de acesso aí.",--This is the workers' locker room. Check for a keycard here.
-	pln_cr2_58_03 = "A bomba da Açougueira está em um desses contêineres.",--The Butcher's explosives are in one of these containers.
+	pln_cr2_58_03 = "A bomba da Butcher está em um desses contêineres.",--The Butcher's explosives are in one of these containers.
 	pln_cr2_12_06 = "Aposto minha grana que os edifícios vão ter os cartões. Procurem eles.",--My money would be on the buildings having the keycards. Search 'em.
 	pln_cr2_64_03 = "Tem um barco pronto pra vocês. Vão lá.",--There's a boat ready for you. Head there.        
 	pln_cr2_04_01 = "Agora usem o outro cartão de acesso na outra sala de controle. Vamos abrir o portão e deixar a Moretta sair.",--Now use the other keycard in the other control room. Let's open the gate and get the Moretta out!
@@ -334,7 +334,7 @@ Hooks:Add("LocalizationManagerPostInit", "aversaoflorestaehapior", function(loc)
 	pln_cr2_51_02 = "Boa! A doca tá abrindo. Próximo passo: fazer a Moretta andar até o ancoradouro. Preciso conversar com ela diretamente. Achem a frequência de rádio - bem provável que esteja em um computador nos escritórios. Encontre-as.",--Nice! Dock is opening. Next step: get the Moretta moving to her berth. I need to talk to her directly. Find me the comm frequency - most likely on a computer in the offices there. Find it.
 	pln_cr2_52_01 = "É isso ai. Portão da doca abereto. Agora vamos mover esse navio. Temos a frequência de rádio. Achem um rádio e me coloquem pra falar.",--That's it. Dock gate's opened. Now let's get the ship moving. We have the comm frequency. Just find the radio and patch me in.
 	pln_cr2_52_02 = "Acabou a parte do portão. Agora só precisamos mover o navio. A frequência que acharam antes vai servir. Encontrem um rádio e me deixem falar com a Moretta.",--That's it for the gate. Now we just got to get the ship moving. That frequency you found earlier will do it. Find a radio and let me talk to the Moretta
-	pln_cr2_57_02 = "Eu não quero deixar uma pessoa que a chamam de Açougueira esperando. Embarquem no navio!",--I don't want to keep someone who calls herself the Butcher waiting. Get onto the ship!
+	pln_cr2_57_02 = "Eu não quero deixar uma pessoa que a chamam de Butcher esperando. Embarquem no navio!",--I don't want to keep someone who calls herself the Butcher waiting. Get onto the ship!
 	pln_cr2_57_03 = "A Moretta tá ancorada e pronta pra vocês, palhaços.",--Moretta is berthed and ready for you, clowns.
 	pln_cr2_58_02 = "Vamos, olhem esses contêineres.",--Come on, check those containers.
 	pln_cr2_60_01 = "Nada aqui. Continuem olhando!",--Nothing in here. Keep looking!

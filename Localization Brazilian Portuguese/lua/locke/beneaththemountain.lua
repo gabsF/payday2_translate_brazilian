@@ -299,7 +299,7 @@ Hooks:Add("LocalizationManagerPostInit", "lockeehumfilhodaputa", function(loc)
 	hud_heist_jerry01_05restart = "Re-acione o detonador desativado.",--Re-arm the disabled detonator.
 	hud_heist_jerry01_03_hl = "Plante as Cargas Explosivas",--Plant the breaching charges
 	hud_heist_jerry01_vault_loop_001 = "Use o painel de controle para selecionar um cofre para abrir.",--Use the control panel to select a vault to unlock first.
-	hud_heist_jerry01_05restart_hl = "Re-acione o Detonador",--Re-arm the detonator
+	hud_heist_jerry01_05restart_hl = "Rearme o Detonador",--Re-arm the detonator
 	hud_heist_jerry01_00 = "Locke deixou equipamento vital em três caixas. As caixas estão marcadas em vermelho.",--Locke has supplied vital equipment in three crates. The crates are marked with a strobe light.
 	hud_heist_jerry01_15 = "Prenda a bolsa de loots na tirolesa do elevador. o Locke vai manter elas seguras.",--Attach a bag of loot to the zipline in the elevator shaft. Locke will keep it safe.
 	hud_heist_jerry01_19 = "Guarde os loots no helicóptero.",--Secure the vault loot in the helicopter.

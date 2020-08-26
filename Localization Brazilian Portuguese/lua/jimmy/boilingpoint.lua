@@ -243,7 +243,7 @@ Hooks:Add("LocalizationManagerPostInit", "bombadeemp", function(loc)
 	hud_heist_mad_11_hl = "Assegure o Servidor",--Secure the server
 	hud_heist_mad_07_hl = "Proteja o Scanner",--Protect the scanner
 	hud_heist_mad_12_hl = "Fuja!",--Escape
-	hud_heist_mad_01_hl = "Ache e Desabilite o Sistema Anti-Aéreo",--Find and disable the anti-air system
+	hud_heist_mad_01_hl = "Encontre e Desabilite o Sistema Anti-Aéreo",--Find and disable the anti-air system
 	hud_heist_mad_04 = "A EMP abriu a entrada para os laboratórios, entre lá!",--The EMP has opened the way down to the labs, get down there!
 	hud_heist_mad_13 = "Encontre de onde o gás está sendo liberado e pare-o.",--Find wherever the gas is being dispenesed from and stop it
 	hud_heist_mad_03 = "Ative e proteja a EMP, vai levar um tempo para carregar.",--Activate and protect the emp, it will take some time to charge

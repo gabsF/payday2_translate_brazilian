@@ -12,8 +12,8 @@ Hooks:Add("LocalizationManagerPostInit", "lockeseriaumtraidorounao", function(lo
 	
 	-- Legendas (Capitão)
 	cpt_wwh_01_01 = "Caralho, pensei que eu nunca ia sair daqui. Poderiam me desamarrar, por favor?",
-	cpt_wwh_01_02 = "Que beleza, a Açougueira mandou ajuda. Me desamarrem agora, por favor.",
-	cpt_wwh_01_03 = "Finalmente, porra. Açougueira mandou ajuda. Me desamarrem, por favor!",
+	cpt_wwh_01_02 = "Que beleza, a Butcher mandou ajuda. Me desamarrem agora, por favor.",
+	cpt_wwh_01_03 = "Finalmente, porra. a Butcher mandou ajuda. Me desamarrem, por favor!",
 	cpt_wwh_02_01 = "Vou voltar pro navio sozinho. Irei mandar algumas instruções.",
 	cpt_wwh_02_02 = "Eu irei voltar pro barco e dizer a vocês o que devem fazer.",
 	cpt_wwh_02_03 = "Vou falar pra vocês o que devem fazer, quando eu estiver no barco.",
@@ -87,12 +87,12 @@ Hooks:Add("LocalizationManagerPostInit", "lockeseriaumtraidorounao", function(lo
 	pln_wwh_03_01 = "Esqueçam o Locke por enquanto, vamos cuidar desse filho da puta depois.",--Forget Locke for now, we'll take care of that scumbag later.
 	pln_wwh_03_02 = "Locke conseguiu fugir, mas nós iremos ter a nossa vingança ainda.",
 	pln_wwh_03_03 = "Locke fugiu, esse filha da puta! Mas nós vamos pegá-lo depois. Gravem as minhas palavras.",
-	pln_wwh_04_01 = "O navio que está perto das docas é da Açougueira. Parece que ela foi enganada também. Vamos ajudar eles, talvez eles nos dão uma carona.",
-	pln_wwh_04_02 = "O navio é da Açougueira! Locke traiu ela também. Ajudem eles e talvez eles vão dar uma carona para vocês.",
-	pln_wwh_04_03 = "Locke traiu a Açougueira também. O navio que está perto da doca é dela. Ajudem eles e talvez possamos ter uma carona de navio.",--Locke sold the Butcher out too. The ship by the dock is one of hers. Go help 'em out and maybe we can hitch a boat-ride.
+	pln_wwh_04_01 = "O navio que está perto das docas é da Butcher. Parece que ela foi enganada também. Vamos ajudar eles, talvez eles nos dão uma carona.",
+	pln_wwh_04_02 = "O navio é da Butcher! Locke traiu ela também. Ajudem eles e talvez eles vão dar uma carona para vocês.",
+	pln_wwh_04_03 = "Locke traiu a Butcher também. O navio que está perto da doca é dela. Ajudem eles e talvez possamos ter uma carona de navio.",--Locke sold the Butcher out too. The ship by the dock is one of hers. Go help 'em out and maybe we can hitch a boat-ride.
 	pln_wwh_05_01 = "Vocês precisam libertar todos os reféns.",--You need to free all the hostages. 
 	pln_wwh_05_02 = "Libertem todos os marinheiros que vocês conseguirem.",
-	pln_wwh_05_03 = "Continuem libertando o pessoal da Açougueira.",--Keep freeing the Butcher's people.
+	pln_wwh_05_03 = "Continuem libertando o pessoal da Butcher.",--Keep freeing the Butcher's people.
 	pln_wwh_06_01 = "Ei, alguém está precisando de ajuda. Vão lá!",
 	pln_wwh_06_02 = "Vão lá e ajudem eles.",
 	pln_wwh_06_03 = "Eles precisam de ajuda, vão até lá assim que puderem.",
@@ -140,7 +140,7 @@ Hooks:Add("LocalizationManagerPostInit", "lockeseriaumtraidorounao", function(lo
 	hud_heist_wwh_04 = "O Capitão está preso atrás de uma porta trancada da garagem. Serre ela e liberte-o.",--The captain is being held behind a locked garage door. Saw it open and free him.
 	hud_heist_wwh_04b = "O Capitão irá lhe dar algumas instruções para sairmos com o navio. Aguarde por ele.",--The captain will give you further instructions once he reaches the ship. Wait for him
 	hud_heist_wwh_07 = "Hora de ir embora com o navio.",--Time to leave with the boat.
-	hud_heist_wwh_02 = "Locke parece ter vendido a Açougueira da mesma forma. Liberte seus homens para que possamos dar um passeio de navio.",--Locke seemed to have sold out the butcher as well. Free her men so we can get a ride with that ship.
+	hud_heist_wwh_02 = "Locke parece ter vendido a Butcher da mesma forma. Liberte seus homens para que possamos dar um passeio de navio.",--Locke seemed to have sold out the butcher as well. Free her men so we can get a ride with that ship.
 	hud_heist_wwh_03 = "Precisamos dessa serra para libertar o capitão do navio. Pegue-a.",--We need that saw to free the captain of the ship. Grab it
 	hud_heist_wwh_05c = "Remova as cordas que prendem o navio no lugar e também a mangueira.",--Remove the moorings holding the boat in place and detach the hose from the boat.
 		})

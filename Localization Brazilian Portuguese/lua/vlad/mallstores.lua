@@ -74,9 +74,9 @@ Hooks:Add("LocalizationManagerPostInit", "heistsdovladsaoesquisitas", function(l
 	pln_fourstores_stage1_end_b_04 = "Vamos ao Vlad para o dinheiro. Belo trabalho passando sua gangue pela aquela bagunça.",--Let's go to Vlad for the money. Good job getting your gang through that little mash up. 
 	
 	-- Objetivos (Mallcrasher)
-	hud_v_mallcrasher_mission3_hl = "Voltem para a Van",--Get back to the van
+	hud_v_mallcrasher_mission3_hl = "Volte para a Van",--Get back to the van
 	hud_v_mallcrasher_mission2 = "Mova-se em volta do shopping e destrua $50.000 em valor de coisas.",--Move around in the mall and destroy $50.000 worth of stuff
-	hud_v_mallcrasher_mission1 = "Ache um jeito de entrar no Shopping Shield.",--Find a way into the Shield mall
+	hud_v_mallcrasher_mission1 = "Encontre um jeito de entrar no Shopping Shield.",--Find a way into the Shield mall
 	hud_v_mallcrasher_mission6 = "A van foi destruída, espere o helicóptero chegar.",--The van got trashed, so wait for the helicopter to arrive
 	hud_v_mallcrasher_mission6_hl = "Espere pelo Helicóptero",--Wait for the helicopter
 	hud_v_mallcrasher_mission4_hl = "Espere a Van voltar",--Wait for the van to return
@@ -92,7 +92,7 @@ Hooks:Add("LocalizationManagerPostInit", "heistsdovladsaoesquisitas", function(l
 	-- Objetivos (Four Stores)
 	hud_v_four_stores_mission3_hl = "Espere pela Van",--Wait for the van
 	hud_v_four_stores_mission2 = "Roube $15.000 em valor de coisas.",--Steal $15.000 worth of valuables
-	hud_v_four_stores_mission1 = "Procurem nas lojas por objetos de valor.",--Scout the stores for valuables
+	hud_v_four_stores_mission1 = "Procure nas lojas por objetos de valor.",--Scout the stores for valuables
 	hud_v_four_stores_mission1_hl = "Observe as Lojas",--Scout the stores
 	hud_v_four_stores_mission2_hl = "Roube o valor de $15.000",--Steal $15.000
 	hud_v_four_stores_mission3 = "A carona está a caminho, fiquem firmes.",--The ride is on its way, keep tight

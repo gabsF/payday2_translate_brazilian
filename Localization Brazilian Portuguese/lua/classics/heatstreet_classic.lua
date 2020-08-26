@@ -158,7 +158,7 @@ Hooks:Add("LocalizationManagerPostInit", "calornasruas", function(loc)
 	mission_str_escort = "Encontrem um jeito de chegar até o viaduto, o Bile vai pegar vocês com o helicóptero. Tenha certeza de ter o Matt junto!",
 	mission_str_escort_hl = "Subam no Viaduto com o Matt",
 	mission_str_exit = "Levem o Matt para a escada do helicóptero e chame a sua equipe junto.",
-	mission_str_exit_hl = "Leve o Matt e a equipe pro Helicóptero",
+	mission_str_exit_hl = "Leve o Matt e a Equipe para o Helicóptero",
 	mission_str_extract = "Use a gasolina para colocar fogo na van e forçar o Matt a sair.",
 	mission_str_extract_hl = "Coloque Fogo na Van",
 	mission_str_fail = "Vá para o novo ponto de encontro. Não esquece do Matt!",

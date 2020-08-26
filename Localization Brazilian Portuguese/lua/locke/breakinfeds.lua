@@ -373,7 +373,7 @@ Hooks:Add("LocalizationManagerPostInit", "garretehdoidao", function(loc)
 	hud_heist_tag14_hl = "Pegue o Elevador",--Take the elevator
 	hud_heist_tag13 = "Pegue a caixa do Elefante e saia daí!",--Grab the Elephant Box and get out of there!
 	hud_heist_tag07 = "Entre no Escritório do Garrett desativando o painel de segurança em sua porta!",--Enter Garrett's office by disabling the security panel by his door!
-	hud_heist_tag04_hl = "Encontre o Escritório de Garrett",--Find Garrett's office
+	hud_heist_tag04_hl = "Encontre o Escritório do Garrett",--Find Garrett's office
 	hud_heist_tag02 = "Encontre um quadro branco nessa parte do prédio. Ela contém informações cruciais.",--Look for a whiteboard in this part of the office. It contains important information.
 	hud_heist_tag02_hl = "Encontre o Quadro Branco",--Find the whiteboard
 	hud_heist_tag05 = "Siga as instruções de Locke para distrair Garrett para fora do Escritório dele.",--Follow Locke's instructions to lure Garrett out of his office.

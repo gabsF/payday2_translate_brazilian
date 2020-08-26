@@ -160,7 +160,7 @@ Hooks:Add("LocalizationManagerPostInit", "bainbreakout", function(loc)
 	hud_heist_bph_2_hl = "Sobreviva a Emboscada",
 	hud_heist_bph_3_hl = "Localize o Bain no Bloco de Celas A",
 	hud_heist_bph_4_hl = "Entre na Sala de Controle",
-	hud_heist_bph_5_hl = "Localizem o Bain usando as Câmeras",
+	hud_heist_bph_5_hl = "Localize o Bain usando as Câmeras",
 	hud_heist_bph_13_hl = "Espere a Cela do Bain abrir",
 	hud_heist_bph_7_hl = "Siga o Bain pela Cantina",
 	hud_heist_bph_8_hl = "Encontre-se com o Bain no Telhado",

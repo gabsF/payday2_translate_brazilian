@@ -144,7 +144,6 @@ Hooks:Add("LocalizationManagerPostInit", "murky", function(loc)
 	hud_heist_dark_03_hl = "Localize as partes da EMP",--Locate the EMP parts 
 	hud_heist_dark_07_hl = "Fuga Disponível",--Escape Available
 	hud_heist_dark_06 = "Assegure as partes da EMP na área de fuga.",--Secure the EMP parts at the escape area.
-	hud_heist_dark_08 = "--blank.",--blank.
 	hud_heist_dark_05_hl = "Ensaqueie as partes da EMP",--Bag the EMP parts
 	hud_heist_dark_06_hl = "Assegure as partes da EMP",--Secure the EMP parts
 	hud_heist_dark_02 = "Hackeie um painel de segurança do lado dos trens para abrir as portas principais.",--Hack into a security panel on the side of the trains to open the main doors.
@@ -154,6 +153,5 @@ Hooks:Add("LocalizationManagerPostInit", "murky", function(loc)
 	hud_heist_dark_01 = "Invada o pátio de trens e localize os trens da Murkywater dentro dele.",--Breach the trainyard and locate the Murkywater Trains inside.
 	hud_heist_dark_04 = "Você vai precisar de mais equipamento para passar pela última porta do trem.",--You will need new equipment in order to breach the final train door.
 	hud_heist_dark_03 = "Localize todas as partes diferentes da bomba de EMP.",--Locate all of the different parts of the EMP bomb.
-	hud_heist_dark_08_hl = "--blank",--blank
 		})
 end)
