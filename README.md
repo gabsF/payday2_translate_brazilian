@@ -45,6 +45,7 @@ Entrem no nosso Discord para ficar por dentro de mais detalhes sobre a Traduçã
 Link do Discord: https://discord.gg/nEjGhXD
 
 [ Créditos Adicionais ]
+Savvy
 Dr_Newbie
 Kisuke
 viixxivvimm

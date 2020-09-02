@@ -24,6 +24,7 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	dialog_cs_crash_fail = "Crime Spree Fracassada",--Crime Spree Failed
 	dialog_cs_crash_fail_text = "A sua Crime Spree fracassou devido a um encerramento inesperado do jogo.\nVocê pode pagar uma taxa de Moedas Continentais para continuar.",--Your Crime Spree has failed due to an unexpected closure of the game.$NL;You can still pay the Continental Coin cost to continue.
 	dialog_cs_cant_claim_rewards_text = "Você não tem prêmios para resgatar.",--You have no rewards to claim.
+	menu_cs_continue_without_starting = "Continuar sem iniciar a Crime Spree",--Continue Without Starting a Crime Spree
 	
 	-- Em Lobby
 	menu_cs_ga_in_progress = "Assalto em Progresso",	
@@ -52,6 +53,8 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	menu_cs_modifiers_loud = "Modificador de Loud",
 	menu_cs_modifiers_stealth = "Modificador de Stealth",
 	menu_cs_continue = "Continuar a Crime Spree",
+	menu_cs_modifiers_forced_single = "Um modificador foi adicionado na Crime Spree",--A modifier has been added to the crime spree
+	menu_cs_modifiers_forced_multiple = "$count modificadores foram adicionados na Crime Spree",--$count; modifiers have been added to the crime spree
 	
 	-- Gage Boost (pls ovk, dont buff/nerf these gage boost)
 	menu_cs_ga_increased_body_bags_desc = "Jogadores vão receber e podem carregar mais 2 Bolsas de Corpos.",

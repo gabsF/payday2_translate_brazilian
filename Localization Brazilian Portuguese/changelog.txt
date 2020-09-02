@@ -1,12 +1,6 @@
-+ Alterada a descrição da habilidade HIGH VALUE TARGET (Basic: Valor novo é de 15%, e não 25%)
-+ Corrigido uma HUD de Objetivo em que o texto aparecia cortado na Train Heist
-+ Modificada a tradução da contratante "A Açougueira" para "the Butcher" de volta na tela de Compra de Contratos (Atendendo a pedidos da comunidade)
-+ Mais Mensagens do Menu do jogo traduzidas, incluindo uma mensagem de boas-vindas do Bain para os iniciantes do jogo
-+ Traduzido opções que restavam na tela de Filtros da Crime.NET
-+ Atualizada a Tradução da Rats/Cook Off, adicionando mais falas que antes estavam em inglês ainda
-+ Diversos textos do Inventário de Armas & Máscaras foram traduzidos
-+ Traduzido o Novo Menu de Customização de Máscaras que chegou recentemente ao jogo
-+ Traduzido o Menu "Info. dos Contatos"
-+ Novos Assets traduzidos
-+ Novas Correções em textos de algumas Heists
-+ Traduzida algumas Descrições de Máscaras contendo também alguns Easter Eggs nas Descrições de algumas delas (chegará mais em futuros updates)
++ Traduzido os Status do jogo na Steam (Agradecimentos ao Savvy, criador do mod que nos permite fazer isso)
++ Alterado o termo "Habilidades" para "Skills" de volta (Pedido da Comunidade)
++ Traduzido as Descrições das Armaduras, Roupas e Luvas
++ Traduzido ainda mais opções de Menu's
++ Corrigido diversos erros encontrados nos Menu's
++ Mais Descrições de Máscaras foram traduzidas, incluindo mais Easter Eggs.

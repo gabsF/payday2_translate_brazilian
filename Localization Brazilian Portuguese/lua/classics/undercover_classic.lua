@@ -298,7 +298,7 @@ Hooks:Add("LocalizationManagerPostInit", "milharesdedolaresvindovoando", functio
 	hud_heist_man8 = "Consiga as senhas do administrador do contribuinte! Grite, ameaça e bata nele. Qualquer método é válido, nós não temos tempo a perder!",
 	hud_heist_man8_hl = "Pegue as Senhas",
 	hud_heist_man9 = "Usando a inteligência de Bain, conhecimento do contribuinte e o charme da equipe, consiga os bancos de dados da IRS para um grande corte de impostos.",
-	hud_heist_man9_hl = "Espero pelo Hack do IRS",
+	hud_heist_man9_hl = "Espere pelo Hack do IRS",
 	hud_heist_man10 = "Tenha certeza que o computador está processando. Caso os policiais cortem a energia, liguem ela de novo rapidamente.",
 	hud_heist_man10_hl = "Mantenha o Computador Processando",
 	hud_heist_man11 = "Fuja daí. Um helicóptero virá buscar vocês no prédio vizinho.",

@@ -98,7 +98,7 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	
 	-- Hitman
 	--menu_st_spec_5 = "Hitman",
-	menu_st_spec_5_desc = "O Hitman é um assassino de aluguel do sub-mundo dos crimes que prefere o combate de perto e com alcance.\n\nOs sindicatos criminais vão contratar um Assassino de Aluguel como se fosse a última coisa para forçar as autoridades criminais a entregar retribuições ou acabar com os concorrentes.",
+	menu_st_spec_5_desc = "O Hitman é um assassino de aluguel do sub-mundo do crime que prefere o combate de perto e com alcance.\n\nOs sindicatos criminais vão contratar um Assassino de Aluguel como se fosse a última coisa para forçar as autoridades criminais a entregar retribuições ou acabar com os concorrentes.",
 	menu_deck5_1 = "Recuperação Básica",
 	menu_deck5_1_desc = "A sua armadura se recupera ##5%## mais rápido.",
 	menu_deck5_3 = "Habilidoso",
@@ -168,7 +168,7 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	
 	-- Gambler
 	--menu_st_spec_10 = "Gambler",
-	menu_st_spec_10_desc = "Entrar no fogo da batalha é preciso habilidades, firmeza e mais do que um pouco de sorte. Algumas pessoas somente tem.\n\nA Sorte é uma qualidade ilusória. Os antigos gregos acreditavam que eram uma criação dos Deuses e não é. Pode ser algo que existe, mas é algo que você pode merecer. Isso precisa de preparação e boa consciência para ter um destaque e maximizar as chances do seu retorno. É contar as cartas, ao invés de uma benção da Fortuna.\n\nO Perk Deck do Gambler é um Deck de suporte. Qualquer um pode ajudar o time a vencer, mas o Gambler pode ajudar o time a vencer muito mais do que isso.",
+	menu_st_spec_10_desc = "Entrar no fogo da batalha é preciso muita habilidade, firmeza e mais do que um pouco de sorte. Algumas pessoas somente tem.\n\nA Sorte é uma qualidade ilusória. Os antigos gregos acreditavam que eram uma criação dos Deuses e não é. Pode ser algo que existe, mas é algo que você pode merecer. Isso precisa de preparação e boa consciência para ter um destaque e maximizar as chances do seu retorno. É contar as cartas, ao invés de uma benção da Fortuna.\n\nO Perk Deck do Gambler é um Deck de suporte. Qualquer um pode ajudar o time a vencer, mas o Gambler pode ajudar o time a vencer muito mais do que isso.",
 	menu_deck10_1 = "Suprimentos Médicos",
 	menu_deck10_1_desc = 'As munições que você pegar no chão também vai dar suprimentos de médico e cura a você de ##16## até ##24## de vida.\n\nIsso não poderá ocorrer mais de uma vez durante ##3## segundos.\n\nSe a vida do "Gambler" for abaixo do outro jogador, o efeito de cura do "Gambler" é aumentado em ##20%##. Isso pode ser multiplicado em até três vezes.',
 	menu_deck10_3 = "Munição Pra Todo Mundo",
@@ -240,7 +240,7 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	--menu_st_spec_15 = "Anarchist",
 	menu_st_spec_15_desc = "O Anarchist se recusa em saber dessas leis meia-tigelas estabelecidas pela autoridade tradicional. Reis, rainhas e os presidentes nem seguram a mente do Anarchist. Ser livre e fazer as suas próprias regras é a sua especialidade. Essa rejeição para se acostumar pelas verdades estabelecidas deixam o Anarchist enfurecido e acaba o levando para lugares longes onde ninguém conseguirá ir. Trabalhando com táticas improváveis para se desviar de falhas e alcançar objetivos impossíveis.",
 	menu_deck15_1 = "Ataque de Murro",
-	menu_deck15_1_desc = 'Ao invés de recuperar a armadura inteira fora do combate, o "Anarchist" vai continuar a recuperar a sua armadura enquanto estiver em combate. Quanto mais pesado a armadura é, vai recuperar mais armadura, porém vai demorar mais.\n\nQuando a sua armadura estiver vazia, você estará imune a qualquer dano por ##2## segundos. Isso não poderá ocorrer mais de uma vez por ##15## segundos.\n\nNota: As habilidades e os perks que aumentam a velocidade de recuperação de armadura não funcionam com esse Perk Deck.',
+	menu_deck15_1_desc = 'Ao invés de recuperar a armadura inteira fora do combate, o "Anarchist" vai continuar a recuperar a sua armadura enquanto estiver em combate. Quanto mais pesado a armadura é, vai recuperar mais armadura, porém vai demorar mais.\n\nQuando a sua armadura estiver vazia, você estará imune a qualquer dano por ##2## segundos. Isso não poderá ocorrer mais de uma vez por ##15## segundos.\n\nNota: As skills e os perks que aumentam a velocidade de recuperação de armadura não funcionam com esse Perk Deck.',
 	menu_deck15_3 = "Direto pro Abismo",
 	menu_deck15_3_desc = "##50%## da sua vida é convertida em ##100%## de armadura.",
 	menu_deck15_5 = "Morte ou Glória",

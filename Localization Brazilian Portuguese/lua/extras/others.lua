@@ -9,6 +9,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	-- Descrições Extras
 	bm_global_value_solus_clan_unlock = "Entre no grupo do The Solus Project Official na Steam para desbloquear!",
 	bm_menu_skill_locked_usp = "Entre no grupo oficial do PAYDAY 2 na Steam para desbloquear!",--Join the PAYDAY 2 Official Community Group on Steam to unlock!
+	bm_global_value_raidww2_clan_unlock = "Entre no grupo oficial do RAID: World War II na Steam para desbloquear!",--Join the RAID: World War II Steam Community to unlock
 	bm_global_value_hlm2_unlock = "Tenha o Hotline Miami 2 na Steam para desbloquear",--Own the Hotline Miami 2 Game on Steam to unlock
 	bm_global_value_hlm2_deluxe_unlock = "Tenha o Hotline Miami 2: Wrong Number - Digital Special Edition na Steam para desbloquear",--Own the Hotline Miami 2: Wrong Number - Digital Special Edition on Steam to unlock
 	bm_global_value_chico_unlock = "Compre o Scarface Character Pack para desbloquear",
@@ -359,6 +360,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	bm_menu_armor_skins = "Skin da Armadura",
 	bm_menu_btn_customize_armor = "Customizar Armadura",
 	bm_menu_empty_weapon_slot = "Slot de Arma Vazio",
+	bm_menu_btn_buy_weapon_slot = "Desbloquear Slot de Arma",--Unlock weapon slot
+	bm_menu_btn_buy_mask_slot = "Desbloquear Slot de Máscara",--Unlock mask Slot
 	bm_menu_btn_buy_new_weapon = "Comprar Nova Arma",
 	bm_menu_empty_weapon_slot_buy_info = "Aumente o seu nível de reputação para desbloquear novas armas.",
 	bm_menu_btn_mod = "Modificar Arma",
@@ -393,7 +396,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_mouse_switch = "para alternar",
 	menu_player_column_one_title = "Personagem",
 	menu_player_column_two_title = "Armas",
-	menu_player_column_three_title = "Habilidades",
+	menu_player_column_three_title = "Skills",
 	
 	-- Boosts do BOT
 	bm_menu_btn_select = "Selecionar",
@@ -417,9 +420,9 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_data_crew_not_allowed = "Não é permitido para IA!",
 	menu_data_crew_equipped_by = "Atualmente equipado pelo IA número $equipped_by",
 	dialog_crew_loadout_help_title = "Informações dos Aliados IA (Bots)",
-	dialog_crew_loadout_help_text = "Os seus aliados da Equipe IA são BOTS que vão preencher os espaços vazios de jogadores do seu Lobby assim que você iniciar o seu jogo. Ao especificar seus Loadouts na Equipe IA, você poderá escolher armas, habilidades e boosts que eles vão ter. Os Novos Jogadores que se conectarem ao seu jogo irão substituir os seus aliados da Equipe IA em uma ordem crescente, começando pelo Loadout de número 3.$NL;$NL;Os Personagens serão atribuídos aos seus aliados da Equipe IA de acordo com a prioridade de personagem selecionada, se estiverem disponíveis.",
+	dialog_crew_loadout_help_text = "Os seus aliados da Equipe IA são BOTS que vão preencher os espaços vazios de jogadores do seu Lobby assim que você iniciar o seu jogo. Ao especificar seus Loadouts na Equipe IA, você poderá escolher armas, skills e boosts que eles vão ter. Os Novos Jogadores que se conectarem ao seu jogo irão substituir os seus aliados da Equipe IA em uma ordem crescente, começando pelo Loadout de número 3.$NL;$NL;Os Personagens serão atribuídos aos seus aliados da Equipe IA de acordo com a prioridade de personagem selecionada, se estiverem disponíveis.",
 	menu_crew_character_order = "PRIORIDADE DE PERSONAGEM IA",
-	bm_menu_ability = "Habilidade",
+	bm_menu_ability = "Skill",
 	bm_menu_skill = "Boost",
 	
 	-- Arremessáveis (Granadas e etc..)
@@ -469,7 +472,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	bm_equipment_trip_mine_desc = "Para usar as Trip Mines, você precisa colocá-lo usando $BTN_USE_ITEM. (ou  se estiver com controle.)\nO laser pode ser alterado entre Modo Explosivo e Modo Sensor pressionando o botão $BTN_INTERACT (ou  se estiver com controle.).\n\nPara usar a Carga Explosiva, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, irá explodir em segundos. Trip Mines são armadilhas que irão machucar e matar inimigos que passam pelo seu laser. Cargas Explosivas são usados para arrombar cofres e portas. Ambos são uma boa adição para todas as situações de combate.",
 	bm_equipment_sentry_gun_silent = "Sentinela Silenciada",
 	bm_equipment_sentry_gun_silent_desc = "Para usar a Sentinela Silenciada, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, irá usar até 30% da munição total das suas armas. Pode ser destruído por atirar nele, mas desde que não esteja completemante destruído, pegando ele irá consertá-lo e retornar a munição da Sentinela restante. Quando a sua munição acabar, irá parar de atirar mas pode ser recarregado por re-colocar ele depois de pegar.\n\nA Sentinela Silenciada é o contrário da normal, a Sentinela normal é mais usado para matar inimigos do que para uma distração.",
-	bm_menu_skill_locked_sentry_gun_silent = 'Requer a habilidade "Engineering"',
+	bm_menu_skill_locked_sentry_gun_silent = 'Requer a Skill "Engineering"',
 	--------------------------------
 	debug_doctor_bag = "Bolsa Médica",
 	menu_equipment_bodybags_bag = "Bolsa de Corpos",
@@ -498,8 +501,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_infamytree_help = "Se torne Infamous e gaste os seus pontos de Infamy para adquirir recompensas.",
 	dialog_become_infamous = "AVISO!",
 	menu_dialog_become_infamous_no_cash = "Você precisa de $cash de sua Conta Offshore para se tornar um Infamous.",
-	dialog_infamous_info_desc = "Você não tem o que é necessário ainda. Para se tornar Infamous, você vai precisar chegar ao nível de reputação $level e pagar uma taxa de $cash de sua Conta Offshore junto de seus pontos de habilidade e também do seu dinheiro livre para gastar.",
-	menu_dialog_become_infamous = "Tornar-se Infamy irá custar $200,000,000 que serão deduzidos de sua conta Offshore. Se você prosseguir, seu level de reputação irá ser resetado para o level 0. Todas as suas habilidades e pontos de habilidades não gastos vão ser removidos, e todo o seu dinheiro livre será queimado. O Dinheiro de sua conta Offshore, no entanto, irá continuar.$NL;$NL;Você começará sem habilidades e seu dinheiro livre será resetado. Isso não é reversível, então você NÃO PODERÁ recuperar o que você sacrificou.$NL;$NL;Você irá manter todas as suas armas, modificações, máscaras, modelos e materiais. Você irá ganhar um level de Infamy e um ponto de Infamy para gastar em sua árvore de Infamy.",
+	dialog_infamous_info_desc = "Você não tem o que é necessário ainda. Para se tornar Infamous, você vai precisar chegar ao nível de reputação $level e pagar uma taxa de $cash de sua Conta Offshore junto de seus pontos de skill e também do seu dinheiro livre para gastar.",
+	menu_dialog_become_infamous = "Tornar-se Infamy irá custar $200,000,000 que serão deduzidos de sua conta Offshore. Se você prosseguir, seu level de reputação irá ser resetado para o level 0. Todas as suas skills e pontos de skills não gastos serão removidos, e todo o seu dinheiro livre será queimado. O Dinheiro de sua conta Offshore, no entanto, irá continuar.$NL;$NL;Você começará sem skills e seu dinheiro livre será resetado. Isso não é reversível, então você NÃO PODERÁ recuperar o que você sacrificou.$NL;$NL;Você irá manter todas as suas armas, modificações, máscaras, modelos e materiais. Você irá ganhar um level de Infamy e um ponto de Infamy para gastar em sua árvore de Infamy.",
 	dialog_can_become_infamous_desc = "Você já está apto para ir para o próximo nível de Infamy. Para se tornar infamous, pressione '$become_infamous_menu_item' no menu principal.",
 	dialog_unlock_infamyitem = "Você está prestes a desbloquear o item $item.\n\nIsso irá custar $points de $remaining_points ponto(s).",
 	menu_infamy_rank_increased = "Parabéns! Você atingiu o nível de Infamous $infamy_rank!",
@@ -525,13 +528,13 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_infamy_name_lurker = "Quietinho",
 	menu_infamy_desc_lurker = "Algo que você não vai gostar de achar em um beco escuro.\n\nBÔNUS:\nA Experiência ganha é aumentada em ##7.5%##.\n\nITENS:",
 	menu_infamy_name_mastermind = "Set do Corrompido",
-	menu_infamy_desc_mastermind = "Conhecido em causar caos de moral e fazer o xerife de bobo.\n\nBÔNUS:\nOs requisitos de pontos de habilidades de ##Mastermind## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
+	menu_infamy_desc_mastermind = "Conhecido em causar caos de moral e fazer o xerife de bobo.\n\nBÔNUS:\nOs requisitos de pontos de skills de ##Mastermind## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
 	menu_infamy_name_ghost = "Set do Assassino",
-	menu_infamy_desc_ghost = "O assassino moderno que carrega as sentenças das nossas mortes, pelo preço certo.\n\nBÔNUS:\nOs requisitos de pontos de habilidades de ##Ghost## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
+	menu_infamy_desc_ghost = "O assassino moderno que carrega as sentenças das nossas mortes, pelo preço certo.\n\nBÔNUS:\nOs requisitos de pontos de skills de ##Ghost## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
 	menu_infamy_name_enforcer = "Set de Açougueiro",
-	menu_infamy_desc_enforcer = "Usado em crimes que precisa do ##Enforcer## para fazer o trabalho sujo.\n\nBÔNUS:\nOs requisitos de pontos de habilidades de ##Enforcer## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
+	menu_infamy_desc_enforcer = "Usado em crimes que precisa do ##Enforcer## para fazer o trabalho sujo.\n\nBÔNUS:\nOs requisitos de pontos de skills de ##Enforcer## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
 	menu_infamy_name_technician = "Set de Ingênio",
-	menu_infamy_desc_technician = "Frio, calculista e um mestre de sumiços forçados. Morto ou Vivo.\n\nBÔNUS:\nOs requisitos de pontos de habilidades de ##Technician## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
+	menu_infamy_desc_technician = "Frio, calculista e um mestre de sumiços forçados. Morto ou Vivo.\n\nBÔNUS:\nOs requisitos de pontos de skills de ##Technician## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
 	
 	-- Discord RP
 	-- discord_rp_single_end_details = "TranslationHere",--$heist; $day;
@@ -1070,6 +1073,14 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_action_taking_faberge_egg = "Pegando o Ovo Fabergé",--Taking Fabergé egg
 	hud_action_taking_treasure = "Pegando o Tesouro Romanov",--Taking the Romanov treasure
 	hud_action_turn_off_sprinklers = "Desligando os Sprinklers",--Turn off sprinklers
+	hud_hacking_ship_control = "Hackeando o Terminal de Controle do Navio",--Hacking ship control terminal
+	hud_action_mex_pickup_murky_uniforms = "Pegando os Uniformes",--Picking up uniforms
+	hud_action_removing_tarp = "Removendo a Lona",--Removing tarp
+	hud_action_taking_loaded_card = "Codificando a Tag",--Coding tag
+	hud_action_using_evidance_tag = "Usando a RFID Tag",--Using RFID tag
+	hud_action_take_fingerprint = "Obtendo as Impressões Digitais",--Lifting Fingerprints
+	hud_action_disabling_alarm = "Desativando o Alarme",--Disabling the alarm
+	hud_action_destroying_evidence = "Destruindo a Evidência",--Destroying evidence
 	
 	-- Interações
 	debug_interact_sentry_gun_reload = "Segure $BTN_INTERACT para recarregar a Sentinela$NL;( Munição Restante: $AMMO )",--Hold $BTN_INTERACT; to reload Sentry Gun$NL;( Ammo Remaining: $AMMO; )
@@ -1605,6 +1616,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_hold_pex_burn = "Pressione $BTN_INTERACT para queimar a evidência",
 	hud_int_hold_turn_off_sprinklers = "Segure $BTN_INTERACT para desligar os sprinklers",
 	hud_hold_hook_car = "Segure $BTN_INTERACT para prender o cabo no carro",
+	hud_int_old_wine = "Segure $BTN_INTERACT para pegar o Vinho Velho",
 	hud_int_copy_data_usb = "Pressione $BTN_INTERACT para começar a copiar a lista de hóspedes",--Press $BTN_INTERACT; start copying the guest list
 	hud_int_send_blueprints = "Pressione $BTN_INTERACT para enviar ao Bain os documentos escaneados",--Press $BTN_INTERACT; to fax scanned documents to Bain
 	hud_int_hold_scan_blueprints = "Segure $BTN_INTERACT para escanear os projetos",--Hold $BTN_INTERACT; to scan the blueprints
@@ -1738,6 +1750,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	debug_interact_key_PS3 = "Pressione $BTN_INTERACT para usar o Cartão de Acesso",--Press $BTN_INTERACT; to use the Keycard
 	debug_interact_thermite_PS3 = "Segure $BTN_INTERACT para colocar a Thermite",--Hold $BTN_INTERACT; to place the Thermite
 	press_insert_keycard = "Pressione $BTN_INTERACT para inserir o Cartão de Acesso",--Press $BTN_INTERACT; to insert keycard
+	hud_hack_ship_control = "Segure $BTN_INTERACT para hackear o terminal de controle do navio",--Hold $BTN_INTERACT; to hack the ship control terminal
 	
 	-- Caixas de confirmações + Notificações do SISTEMA
 	dialog_cancel = "Cancelar",
@@ -1751,7 +1764,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	dialog_are_you_sure_you_want_to_leave_game = "Tem certeza que deseja sair no meio da partida?",
 	dialog_the_host_has_left_the_game = "O Host saiu do jogo.",
 	dialog_sure_to_kick_ban_body = "Você tem certeza que deseja expulsar $USER e adicioná-lo em sua Lista de Ban?",
-	dialog_default_user_interface_options_message = "Você tem certeza que deseja resetar todas as opções de Interface ao seu estado padrão?",
+	dialog_default_user_interface_options_message = "Você tem certeza que deseja resetar todas as opções de Interface para o seu estado padrão?",
 	dialog_kick_banned = "Você foi banido pelo Host e expulso do jogo.",
 	dialog_error_title = "Erro",--Error
 	dialog_authentication_fail = "Steam não conseguiu autenticar o seu Steam ID.",--Steam could not authenticate your Steam ID.
@@ -1760,6 +1773,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	dialog_vr_dlc_installed = "SteamVR foi detecada pelo seu sistema.$NL;PAYDAY 2: VR DLC foi ativada agora.$NL;Você vai ter a opção de iniciar o jogo no modo VR.",
 	dialog_vr_dlc_uninstalled_title = "SteamVR não detectada",
 	dialog_vr_dlc_installed_title = "SteamVR detectada",
+	dialog_err_room_is_full = "Esse lobby já está cheio, por favor tente outro.",
 	dialog_err_failed_joining_lobby = "Fracassou em se conectar ao jogo.",
 	dialog_sure_to_ban_body = "Você tem certeza que deseja banir $USER?",
 	dialog_sure_to_unban_body = "Você tem certeza que deseja desbanir $USER?",
@@ -1776,6 +1790,12 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	dialog_accept = "Aceitar",
 	dialog_accept_changes = "Você deseja manter essas configurações de vídeo? Elas vão ser revertidas em $TIME.",
 	dialog_accept_changes_title = "CONFIRMAR MUDANÇAS?",
+	dialog_default_options_title = "Resetar Opções",
+	dialog_default_options_message = "Você deseja redefinir todas as opções para o seu estado padrão?",
+	dialog_are_you_sure_you_want_to_clear_progress = "Você tem certeza de que deseja resetar o seu progresso? Isso irá resetar o seu dinheiro, nível de reputação e o seu inventário.",
+	dialog_default_network_options_message = "Você deseja redefinir todas as opções de rede para o seu estado padrão?",
+	dialog_use_default_keys_message = "Você deseja redefinir todas as teclas para o seu estado padrão?",
+	dialog_mp_kick_player_message = "O Jogador $PLAYER será expulso do jogo. Você deseja continuar?",
 	dialog_casino_pay_title = "Você tem certeza?",
 	dialog_premium_buy_title = "Você tem certeza?",
 	dialog_sure_to_ban_title = "Você tem certeza?",
@@ -1788,13 +1808,14 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	dialog_bm_crafted_sell_title = "Você tem certeza?",
 	dialog_bm_mask_assemble_title = "Você tem certeza?",
 	dialog_skills_place_title = "Você tem certeza?",
+	dialog_preplanning_rebuy_assets = "Você deseja recomprar todos os assets disponíveis por $price + $favor favores?",
 	
 	-- Tela de Título
 	menu_visit_forum3 = "Pressione qualquer botão",
 	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
 	
 	-- Menu Principal
-	menu_spendable_skill_points = "Pontos de Habilidades restantes: $points",
+	menu_spendable_skill_points = "Pontos de Skills restantes: $points",
 	menu_visit_community = "Comunidade",
 	menu_visit_community_help = "Entre na comunidade Steam",
 	hud_offshore_account = "Conta Offshore",
@@ -1891,15 +1912,15 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_reset_account = "Resetar o Progresso da Conta",
 	menu_reset_account_help = "Essa opção irá resetar o seu dinheiro, reputação e upgrades.",
 	menu_mods_help = "Cheque o Status de todos os Mods instalados no seu jogo.",
-	menu_advanced_options_help = "Mude as suas opções avançadas",
-	menu_option_default = "Opções no Padrão",
+	menu_advanced_options_help = "Mude as suas opções avançadas.",
+	menu_option_default = "Opções Padrão",
 	menu_option_default_help = "Reinicia todas as opções ao seu estado padrão.",
 	menu_credits = "Créditos",
 	menu_credits_help = "Veja os nomes das pessoas que fizeram esse jogo.",
 	-- Controles
 	menu_controller_hint_help = "Mostrar o Layout do Controle durante o carregamento",
 	menu_controller_hint = "Tela de Carregamento: Controle",
-	menu_controller_refund = "$BTN_Y Reembolsar Ponto de Habilidade",--$BTN_Y; Refund Skillpoint
+	menu_controller_refund = "$BTN_Y Reembolsar Ponto de Skill",--$BTN_Y; Refund Skillpoint
 	menu_camera_sensitivity_horizontal = "Sensibilidade Horizontal",
 	menu_camera_sensitivity_horizontal_help = "Altere a sensibilidade horizontal.",
 	menu_camera_sensitivity_vertical = "Sensibilidade Vertical",
@@ -1909,7 +1930,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_camera_zoom_sensitivity_vertical = "Sensibilidade Vertical com Mira",
 	menu_camera_zoom_sensitivity_vertical_help = "Altere a sensibilidade vertical enquanto mira com a arma.",
 	menu_toggle_camera_sensitivity_separate = "Separar Sensibilidades",
-	menu_toggle_camera_sensitivity_separate_help = "Separe as sensibilidades do vertical e a do horizontal.",
+	menu_toggle_camera_sensitivity_separate_help = "Separe as sensibilidades do vertical e do horizontal.",
 	menu_toggle_fov_based_zoom = "Campo de Visão relativo a sensibilidade",
 	menu_toggle_fov_based_zoom_help = "Reduz a sua sensibilidade relativa ao zoom da mira da arma.",
 	menu_invert_camera_vertically = "Inverter verticalmente",
@@ -1922,12 +1943,12 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_hold_to_duck_help = "Segure o botão para agachar ou só apertar",
 	menu_customize_controller = "Remapear Teclas",
 	menu_customize_controller_help = "Escolha o seu layout de Teclado e Mouse.",
-	menu_control_option_default = "Opções do Controle Padrão",
+	menu_control_option_default = "Opções de Controle Padrão",
 	menu_control_option_default_help = "Reseta as opções do controle para o seu estado padrão.",
 	-- "Configure os botões"
 	menu_controller_type = "Tipo de Controle",
 	menu_controller_normal = "Em Pé",
-	menu_controller_vehicle = "Em Veículo",
+	menu_controller_vehicle = "No Veículo",
 	menu_button_move_forward = "Andar para frente",
 	menu_button_move_back = "Andar para trás",
 	menu_button_move_left = "Andar para esquerda",
@@ -1946,6 +1967,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_button_crouch = "Agachar",
 	menu_button_melee = "Ataque Corpo-a-Corpo",
 	menu_button_shout = "Interagir/Gritar",
+	menu_button_chat_message = "Mensagem na Conversa",
 	menu_button_shout_secondary = "Parar os Bots",
 	menu_button_deploy = "Colocar/Usar o equipamento",
 	menu_button_chat_messsage = "Abrir a Conversa",
@@ -1957,11 +1979,12 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_button_drop_in_accept = "Aceitar o Visitante",
 	menu_button_drop_in_return = "Retornar o Visitante",
 	menu_button_drop_in_kick = "Expulsar o Visitante",
+	menu_set_default_controller = "Usar Padrões",
 	-- Video
 	menu_resolution = "Resolução",
 	menu_resolution_help = "Ajuste o nível de detalhes da sua tela.",
 	menu_video_adapter = "Monitor",
-	menu_video_adapter_help = "Escolha qual monitor para usar em Tela Cheia.\nPrecisa reiniciar o jogo para aplicar.",
+	menu_video_adapter_help = "Escolha qual monitor para usar em Tela Cheia.\nÉ necessário reiniciar o jogo para aplicar.",
 	menu_fullscreen = "Tela Cheia",
 	menu_fullscreen_help = "Alterne a Tela Cheia. Tela Cheia otimiza a performance. Em janela permite trocar de janela mais rápido.",
 	menu_brightness = "Brilho",
@@ -2044,8 +2067,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_color_colorful = "Vintage do Hispter",
 	menu_color_madplanet = "Planeta Estranho",
 	menu_lightfx = "Luz de Efeito da Alienware",
-	menu_light_help = "Alterne a Luz de Efeito da Alienware, tenha certeza que tem os drivers do centro de comando da alienware atualizados.",
-	menu_fov_adjustment = "Ajustamento do Campo de Visão",
+	menu_lightfx_help = "Alterne a Luz de Efeito da Alienware, tenha certeza de que tem os drivers do centro de comando da Alienware atualizados.",
+	menu_fov_adjustment = "Ajuste do Campo de Visão",
 	menu_fov_adjustment_help = "Ajusta a largura do campo de visão do jogador.",
 	menu_headbob = "Usar efeito de câmera de aceleração",
 	menu_headbob_help = "Alterne o efeito da câmera. Cabeça balançando faz a sua visão balançar enquanto tá andando ou correndo.",
@@ -2148,9 +2171,15 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_assets = "Assets",
 	menu_asset_buy_all = "Comprar todos os assets",
 	menu_asset_buy_all_button = "Comprar todos os assets",
+	menu_item_preplanning_rebuy = "Recomprar Assets",
+	menu_item_preplanning_rebuy_desc = "Recomprar todos os assets de pré-planejamento que foram adquiridos na partida anterior",
 	menu_asset_buy_all_req_skill = "##Requer Sixth Sense Avançado##",
 	menu_asset_buy_all_fail = "Nenhum asset disponível.",
 	menu_preplanning_heist_started = "Heist já iniciada.\nNenhuma alteração poderá ser feita no Pré-Planejamento!",
+	bm_menu_btn_equip_primary_deployable = "Equipar Primário",--Equip Primary
+	bm_menu_btn_equip_secondary_deployable = "Equipar Secundário",--Equip Secondary
+	bm_menu_btn_sentry_ap_rounds = "Definir Modo de Disparo AP",
+	bm_menu_btn_sentry_default_rounds = "Definir Modo de Disparo Padrão",
 	heist_hox_2_asset_hooverbuilding = "O Destino",
 	heist_hox_3_alarm = "Caixa de Alarme do FBI do Esconderijo",
 	heist_hox_1_asset_armoredcar = "Caminhonete Blindada",
@@ -2878,9 +2907,9 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_asset_grenade_crate_desc = "Comprar uma ajuda da Bolsa de Granadas",
 	menu_asset_bodybags_bag = "Bolsa de Corpos",
 	menu_asset_bodybags_bag_desc = "Comprar uma ajuda de Bolsa de Corpos",
-	menu_asset_lock_additional_assets = "Requer Habilidade Avançada 'Sixth Sense' para desbloquear",--Requires the Sixth Sense Aced skill to unlock
-	menu_asset_lock_buy_spotter_asset = "Requer Habilidade Avançada 'Sixth Sense' para desbloquear",
-	menu_asset_lock_buy_bodybags_asset = "Requer Habilidade Avançada 'Sixth Sense' para desbloquear",
+	menu_asset_lock_additional_assets = "Requer Skill Avançada 'Sixth Sense' para desbloquear",--Requires the Sixth Sense Aced skill to unlock
+	menu_asset_lock_buy_spotter_asset = "Requer Skill Avançada 'Sixth Sense' para desbloquear",
+	menu_asset_lock_buy_bodybags_asset = "Requer Skill Avançada 'Sixth Sense' para desbloquear",
 	menu_asset_welcome_to_the_jungle_fusion = "Pesquisa de Fusão a Frio",--Cold Fusion Research
 	menu_asset_welcome_to_the_jungle_plane_keys = "Chaves do Avião",--Airplane Keys
 	menu_asset_jungle_2_gas = "Combustível Extra para Helicóptero",--Extra Helicopter Fuel
@@ -3030,6 +3059,11 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_restart_game_help = "Reinicia a Heist",
 	menu_players_list_mods = "Mods Instalados",--Mods Installed
 	menu_mute_players = "SILENCIAR JOGADOR",--MUTE PLAYER
+	menu_kick_player = "EXPULSAR JOGADOR",--KICK PLAYER
+	menu_players_list_ban = "BANIR JOGADOR",--Ban Player
+	menu_players_list_mute = "SILENCIAR",--Mute
+	menu_kick_player_help = "Expulsar o jogador da partida atual. O jogador será proibido de entrar novamente na sessão.",--Kick a player from current game. The player will be banned from joining this session.
+	dialog_mp_kick_player_title = "Expulsar Jogador",--Kick player
 	menu_resume_game = "RESUMIR A PARTIDA",
 	menu_abort_mission = "Terminar Contrato",
 	dialog_abort_mission_text = "Tem certeza que gostaria de terminar o contrato atual?$NL;$NL;Você e sua gangue irão retornar para a fase de pré-planejamento onde um novo contrato poderá ser selecionado.",--Are you sure you would like to terminate the current contract?$NL;$NL;You and your crew will be returned to the planning phase where a new contract can be selected.
@@ -3050,7 +3084,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_lobby_menu_state_custom_safehouse = "Modificando a Safe House",
 	menu_lobby_menu_state_options = "Nas Opções",
 	menu_lobby_menu_state_blackmarket_mask = "Customizando uma Máscara",
-	menu_lobby_menu_state_skilltree = "Nas Habilidades",
+	menu_lobby_menu_state_skilltree = "Nas Skills",
 	menu_lobby_menu_state_blackmarket_weapon = "Modificando uma Arma",
 	menu_lobby_menu_state_payday = "Em PAYDAY",
 	menu_lobby_menu_state_crimenet = "Na Crime.Net",
@@ -3095,7 +3129,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_cash_crew = "Bônus de Grupo Vivo",--Crew alive bonus
 	menu_es_package_unlocked_singular = "Novo item desbloqueado!",--New item unlocked!
 	menu_es_package_unlocked_plural = "Novos itens desbloqueados!",--New items unlocked!
-	menu_es_rep_upgrade = "$point pontos de habilidades adquiridos!",--$point; more skill points!
+	menu_es_rep_upgrade = "$point pontos de skills adquiridos!",--$point; more skill points!
 	menu_es_package_melee_weapon = "$melee_weapon está disponível agora em seu inventário!",--$melee_weapon; is now available in your inventory!
 	menu_es_package_projectile = "$projectile está disponível agora em seu inventário!",--$projectile; is now available in your inventory!
 	menu_es_package_armor = "$armor está disponível agora em seu inventário!",--$armor; is now available in your inventory!
@@ -3112,15 +3146,15 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_es_infamy_bonus = "Bônus de Infamy",
 	menu_es_mission_xp_bonus = "Experiência do Contrato:",
 	menu_es_risk_bonus = "Bônus do Risco",
-	menu_es_skill_bonus = "Bônus da Habilidade",
+	menu_es_skill_bonus = "Bônus da Skill",
 	menu_mutators_reduction_exp = "Redução das Mutações",
 	menu_completed_objectives_of = "$COMPLETED de $TOTAL ($PERCENT%)",
 	menu_es_gage_assignment_reward = "Prêmio Desbloqueado!",
 	menu_es_calculating_experience = "Calculando Experiência...",
 	menu_es_coins_progress = "Moedas Continentais",
 	menu_es_next_level = "Próximo Nível em:",
-	menu_es_skill_points_gained = "Pontos de Habilidades ganhos:",
-	menu_es_skill_points_info = "Visite [Habilidades e Perk Decks] para gastar os seus pontos!",
+	menu_es_skill_points_gained = "Pontos de Skills ganhos:",
+	menu_es_skill_points_info = "Visite [Skills e Perk Decks] para gastar os seus pontos!",
 	menu_stageendscreen_speed_up = "Segure $BTN_SPEED para acelerar",
 	menu_victory_goto_payday = "$CONTINUE Finalizar o trabalho",
 	menu_victory_retry_stage = "$CONTINUE Tentar Novamente",
@@ -3513,6 +3547,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hint_shoot_wires = "Atire nos fios para fazer a limousine cair",--Shoot the wires to make the limo drop
 	hint_no_glass_cutter = "Você não está carregando o Cortador de Vidro.",--You're not carrying the glass cutter.
 	hint_been_electrocuted = "Você está sendo eletrocutado!",--You are being electrocuted!
+	hud_equipment_need_boards = "Você precisa de Tábuas",--You need boards
+	hud_interact_take_fingerprint = "Você precisa de uma Fita",
 	
 	-- Crime.net
 	cn_menu_num_players_online = "Crime.net/usuários_online: $amount",
@@ -3565,6 +3601,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	dialog_reset_filters = "Resetar Filtros",--Reset Filters
 	menu_apply_settings = "Aplicar essas Configurações",--Apply these settings
 	menu_kick_disabled = "Kick Desativado",--Kick Disabled
+	menu_filter_search_results = "Resultados da Pesquisa",--Search Results
 	
 	-- Crime.net -> Compra de Contrato
 	cn_menu_contract_jobpay_header = "Pagamento:",
@@ -3590,6 +3627,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_cn_modifiers = "MODIFICADORES:",
 	menu_ghostable_job = 'Bônus potencial de Stealth: +$bonus% de XP.',
 	menu_kicking_allowed_option = "Sistema de Kick do Jogo",--In-game kicking
+	menu_toggle_modded_players = "Permitir Jogadores com Mods",--Allow modded players
 	cn_menu_community = "Comunidade",
 	menu_cn_premium_buy_fee = "Uma parte de sua conta offshore será reduzida assim que você comprar esse contrato.\n\nCusto da Conta Offshore: $contract_fee",
 	menu_cn_premium_buy_fee_short = "Custo da conta offshore: $contract_fee",
@@ -3790,7 +3828,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	trophy_planmaker_objective = 'Em Shadow Raid, roube toda a armadura do samurai antes de pegar ou assegurar qualquer outro loot, jogando na dificuldade "OVERKILL" ou acima.',
 	trophy_piggy_bank = "Sem Noção",
 	trophy_piggy_bank_desc = "Um belo de um porco gordo cheio de dinheiro do benevolent.",
-	trophy_piggy_bank_objective = 'Complete o Big Bank na dificuldade "OVERKILL" ou acima, sem ninguém usando nenhuma habilidades.',
+	trophy_piggy_bank_objective = 'Complete o Big Bank na dificuldade "OVERKILL" ou acima, sem ninguém usando nenhuma skill.',
 	trophy_computer = "Computador",
 	trophy_computer_desc = "Esse computador é bem velho e bem lento. Mas que bosta!",
 	trophy_computer_objective = 'Conclua o primeiro dia do "Election Day" depois do alarme disparar e completando o download das informações inteiras.',
@@ -3799,7 +3837,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	trophy_smg_objective = "Mate 25 inimigos em 25 segundos somente usando as Submetralhadoras.",
 	trophy_jfk = "Assassinato Fracassado",
 	trophy_jfk_desc = "Um Rifle de Sniper. Algumas pessoas não pensam das muitas possibilidades disso..",
-	trophy_jfk_objective = 'Conclua a Undercover na dificuldade "OVERKILL" ou acima, com todo mundo usando apenas Rifle de Sniper, sem habilidades e vestindo o terno.',
+	trophy_jfk_objective = 'Conclua a Undercover na dificuldade "OVERKILL" ou acima, com todo mundo usando apenas Rifle de Sniper, sem skills e vestindo o terno.',
 	trophy_pacifier = "Primeiros Passos",
 	trophy_pacifier_desc = "Até mesmo um infâme começou pequeno. Ou em outras palavras, éramos bem ruins no começo.",
 	trophy_pacifier_objective = "Conclua todos os Tutoriais.",
@@ -3820,7 +3858,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	trophy_courtesy_desc = "Um ármario de primeiros socorros. Porque a gente se importa com a profissão médica.",
 	trophy_courtesy_objective = 'Conclua o Beneath the Mountain na dificuldade "Mayhem" ou acima, sem matar nenhum médico.',
 	trophy_carshop_stealth = "Eu consigo",
-	trophy_carshop_stealth_desc = "Isso é um poder discreto do Bloqueador de ECM caseiro. Não que você precise, como aquela vez em Car Shop.",
+	trophy_carshop_stealth_desc = "Isso é um poder discreto do Bloqueador de ECM caseiro. Não que você precise, como aquela vez na Car Shop.",
 	trophy_carshop_stealth_objective = "Conclua o Car Shop com o risco de detectação em 70 ou acima e sem usar o Bloqueador de ECM.",
 	--trophy_hobo_killer = "Jason",
 	trophy_hobo_knife_desc = "Sim, você pegou isso. Mas você precisa disso mesmo?",
@@ -3832,7 +3870,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	trophy_flawless_desc = 'Uma pintura para celebrar a amizade. Amigos não dão tiros em amigos nas costas.',
 	trophy_flawless_objective = 'Conclua qualquer assalto com a mutação de Fogo Amigo (Friendly Fire), sem machucar os outros jogadores e na dificuldade "Death Wish" ou acima. Esse troféu precisa de quatros jogadores no assalto para ser feito.',
 	trophy_flamingo = "Odiador de Flamingos",
-	trophy_flamingo_desc = "Você odeia eles! mete tiro em tudo!",
+	trophy_flamingo_desc = "Você odeia eles! Mete bala em tudo!",
 	trophy_flamingo_objective = "Atire em $max_progress flamingos em Scarface Mansion.",
 	trophy_flamingo_progress = "Flamingos mortos",
 	--trophy_washington = "RobbedACop",
@@ -3840,7 +3878,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	trophy_washington_objective = "Mate $max_progress inimigos",
 	trophy_friendly_car = "Pedaço de Metal",
 	trophy_friendly_car_desc = "Ernesto Sosa não gostou que você destruiu o lindo carro dele. Ou quando você matou ele.",
-	trophy_friendly_car_objective = 'Conclua Scarface Mansion na dificuldade "Mayhem" ou acima com o alarme disparado, com quatro jogadores usando o Perk Deck "Maniac" e sem habilidades. Para concluir esse desafio, você deve jogar do ínicio ao fim.',
+	trophy_friendly_car_objective = 'Conclua Scarface Mansion na dificuldade "Mayhem" ou acima com o alarme disparado, com quatro jogadores usando o Perk Deck "Maniac" e sem skills. Para concluir esse desafio, você deve jogar do ínicio ao fim.',
 	trophy_watchout = "Tiro de Sniper",
 	trophy_watchout_desc = "Você fez isso. Você fez isso muitas e muitas vezes..",
 	trophy_watchout_objective = 'Conclua o Watchdogs apenas usando os rifles de sniper, com uma precisão de 100% ou mais.',
@@ -3854,13 +3892,13 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	trophy_box_2_desc = "Nos Portões da Memória do Silêncio você fica de frente. Um, dois, três, três, um. Abre elas e veja a escuridão afogando o mundo, para o banho de todos, enquanto o novo guarda levanta. Zi dingir kia kanpa, zi dingir anna kanpa.",
 	trophy_box_2_completion_objective = 'Conclua "The Breakin´ Feds" na dificuldade "Normal" ou acima.',
 	trophy_eng_3 = "A Marinha",
-	trophy_eng_3_desc = "Em honra daquele que sobreviveu o Terror Interdimensional!",
-	trophy_eng_3_completion_objective = 'Em "GO Bank" ou "Four Store" encontre e pegue o troféu escondido da Marinha cinco vezes.',
+	trophy_eng_3_desc = "Em honra daquele que sobreviveu ao Terror Interdimensional!",
+	trophy_eng_3_completion_objective = 'Em "GO Bank" ou "Four Stores" encontre e pegue o troféu escondido da Marinha.',
 	trophy_ring = "O Anel",
-	trophy_ring_desc = "Nove pelos homens mortais. E um décimo pelo assaltante puto que condena todos eles para morte.",
+	trophy_ring_desc = "Nove para homens mortais. E um décimo para o heister louco que condena todos eles para morte.",
 	trophy_ring_objective = 'Em "Birth Of Sky", encontre todos os 9 anéis.',
 	trophy_transports = "O Assaltante",
-	trophy_transports_desc = "Caminhões-fortes. É uma brincadeira de criança pra você.",
+	trophy_transports_desc = "Caminhões-fortes. Eles são como brinquedos para você.",
 	trophy_transports_objective = 'Conclua todos os "Armored Transport" na dificuldade "OVERKILL" ou acima.',
 	trophy_coke = "O Mundo é Seu",
 	trophy_coke_desc = "O mundo, chico e tudo isso.",
@@ -4108,7 +4146,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_heister_16 = 'Na Crime.net, você pode apostar o seu Dinheiro Offshore para um "Pagamento do Paraíso".',
 	loading_heister_17 = "Algumas conquistas desbloqueia armas, modificações ou máscaras.",
 	loading_heister_18 = 'Se você for novo no jogo, talvez queira tentar os "Tutoriais". Eles podem ser achados na Crime.net.',
-	loading_heister_19 = "As suas armas, habilidades, armadura e Perk Decks tem interações diferentes. Leia os seus efeitos quando tiver tempo.",
+	loading_heister_19 = "As suas armas, skills, armadura e Perk Decks tem interações diferentes. Leia os seus efeitos quando tiver tempo.",
 	loading_heister_20 = "O jogo tem vários níveis de dificuldade. Ache um que é seu estilo!",
 	loading_heister_21 = "Mais Loot, mais recompensas! Porém tem risco. (Exceto na Crime Spree)",
 	loading_heister_22 = "Quer modificar algo novo? Faça o Desafio Diário que pode ser encontrado na Safe House. (Ou compre-os usando Moedas Continentais.)",
@@ -4139,8 +4177,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_heister_47 = '"Shields" vão em grupos, forçando a você criar um plano para lidar com eles.',
 	loading_heister_48 = "Você pode selecionar até 4 personagens preferidos, em caso de um jogador estar com um dos seus personagens.",
 	loading_heister_49 = "Combate é raramente uma razão, do que um método",
-	loading_heister_50 = "Pontos de Habilidades podem ser re-colocados sem custo. Experimente e teste.",
-	loading_heister_51 = "É melhor ter mútiplas árvores de habilidades que são boas para coisas diferentes, do que ter uma habilidade que tenta fazer tudo.",
+	loading_heister_50 = "Pontos de Skills podem ser recolocados sem custo. Experimente e teste.",
+	loading_heister_51 = "É melhor ter mútiplas árvores de skills que são boas para coisas diferentes, do que ter só uma skill que tenta fazer tudo.",
 	loading_heister_52 = "Enquanto estiver na Crime.net, mais caveiras no Lobby ou no Assalto abaixo do nome significa uma maior dificuldade.",
 	-------------------------------------------
 	loading_gameplay_title = "Dicas de Jogabilidade",
@@ -4154,7 +4192,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_gameplay_8 = "Você não pode guardar a sua arma e máscara assim que colocá-la. Não coloque ela até você estiver pronto.",
 	loading_gameplay_9 = "O Loot não é dividido entre os jogadores. Todo mundo ganha o valor inteiro!",
 	loading_gameplay_10 = "Você vai ter um bônus para cada aliado da equipe sobrevivente durante a tela de Sucesso da Missão.",
-	loading_gameplay_11 = 'Um Risco de detectação baixa pode ser usado em um tiroteiro na árvore de habilidades do "Ghost". Só porque eles não estão com uma armadura, não quer dizer que não podem aguentar uma briga.',
+	loading_gameplay_11 = 'Um Risco de detectação baixa pode ser usado em um tiroteio na árvore de skills do "Ghost". Só porque eles não estão com uma armadura, não quer dizer que não podem aguentar uma briga.',
 	loading_gameplay_12 = "Conheça o seu inimigo: Cloakers tem um verde que dá pra notar, óculos de visão noturna ligada e faz um barulho correndo até você. Você pode ouvir um som de estática quando ele está próximo.",
 	loading_gameplay_13 = "Conheça o seu inimigo: O Médico veste roupas de vermelho claro e pode ser identificado facilmente no meio de uma multidão.",
 	loading_gameplay_14 = "Conheça o seu inimigo: Tem dois tipos de Shields diferentes, alguns são equipados com luzes e submetralhadoras, outros usam pistolas.",
@@ -4168,7 +4206,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_gameplay_22 = 'A sub-árvore "Sharpshooter" foca em snipers e tiros de alta precisão.',
 	loading_gameplay_23 = 'A sub-árvore "Shotgunner" providência melhorias à espingardas.',
 	loading_gameplay_24 = 'A sub-árvore "Tank" faz você forte e mais resistente.',
-	loading_gameplay_25 = 'A sub-árvore "Ammo Specialist" é focado em munição. Também tem habilidades que melhoram a serra OVE9000.',
+	loading_gameplay_25 = 'A sub-árvore "Ammo Specialist" é focado em munição. Também tem skills que melhoram a serra OVE9000.',
 	loading_gameplay_26 = 'A sub-árvore "Engineer" é focado em usar as sentinelas.',
 	loading_gameplay_27 = 'A sub-árvore "Breacher" foca em arrombar portas, cofres e bancos mais rápido. Também pode melhorar as Trip Mines.',
 	loading_gameplay_28 = 'A sub-árvore "Oppressor" foca em melhorar as armas automáticas, deixando-as mais efetivas.',
@@ -4176,7 +4214,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_gameplay_30 = 'A sub-árvore "Shinobi" facilita o Stealth, também vem alguns truques para usar quando o alarme tocar.',
 	loading_gameplay_31 = 'A sub-árvore "Gunslinger" foca em pistolas.',
 	loading_gameplay_32 = 'A sub-árvore "Revenant" é tudo sobre sobreviver em situações de grande perigo.',
-	loading_gameplay_33 = 'A habilidade "Feign Death" na sub-árvore "Revenant" lhe dá uma chance de se levantar sozinho depois de cair.',
+	loading_gameplay_33 = 'A skill "Feign Death" na sub-árvore "Revenant" lhe dá uma chance de se levantar sozinho depois de cair.',
 	loading_gameplay_34 = 'A sub-árvore "Brawler" foca nas armas corpo-a-corpo. Seja com as suas mãos, facas ou qualquer outra arma corpo-a-corpo.',
 	loading_gameplay_35 = 'Não deixe as bolsas largadas, os policiais podem roubar o seu loot.',
 	loading_gameplay_36 = "Enquanto é preso pelo Taser, tente matar o Taser para se libertar.",
@@ -4314,7 +4352,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_challenge_objective_title = "Objetivo:",
 	menu_sm_objectives_or = "OU",
 	menu_sm_crime_spree = "Alcance o nível 20 na Crimespree",--Reach Crimespree level 20
-	menu_sm_inv_skillpoints = "Gaste 5 pontos de habilidades",--Spend 5 skill points
+	menu_sm_inv_skillpoints = "Gaste 5 pontos de skills",--Spend 5 skill points
 	menu_sm_claim_rewards_goto_next = "RESGATAR RECOMPENSAS E INICIAR O PRÓXIMO CAPÍTULO",--CLAIM REWARDS AND START NEXT ASSIGNMENT
 	menu_sm_default_reward = "3 Moedas Continentais",--3 continental coins
 	menu_sm_claim_goto_next = "PRÓXIMO CAPÍTULO",--NEXT ASSIGNMENT
@@ -4437,6 +4475,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
     heist_contact_vlad_description = "Um Ucraniano que era um executor na Rússia, Vlad tem feito suas próprias extorsões e crimes por DC direto de sua padaria local por anos.",--A Ukrainian who used to be a feared enforcer in the Russian motherland, Vlad's been running his own extortion and crime racket in DC out of his local bakery for years.
 	german_desc_codex = "Wolf pode estar saltitando de felicidade um segundo e brabo pra caralho no outro. Depois de perder a cabeça, ele reinventou sua personalidade e agora é uma mistura de personagens de filmes de ação com suas próprias ideias de como um criminoso deve ser.",--Wolf can be happy-go-lucky one second and mad as hell the next. After his mental breakdown he reinvented his personality and it's now a mash-up of action movie characters and his own ideas of what criminals should be like.
 	american_desc_codex = "Houston nunca conseguiu se sustentar em um emprego mesmo se sua vida dependesse disso. Seu estilo de vida levou ele a vida de contras e roubo. Ele cometeu seu primeiro crime aos 24 anos de idade, e desde então só vem aumentado.",--Houston could never hold a job even if his life would depend on it. His life style turned him to a life of cons and burglary. He committed his first major felony at the age of 24 and the stakes have only increased since.
+	old_hoxton_desc_codex = "Hoxton é um dos membros originais da Gangue PAYDAY. Após um grande período de roubos bem sucedidos até 2012, Hoxton foi capturado pelo FBI e enviado para a prisão. Em 2014, a Gangue PAYDAY o ajudou a fugir. Desde que conseguiu fugir, ele está convencido de que alguém armou para ele.",
 	houston_desc_codex = "O irmão mais novo de Dallas pode ter ficado com a máscara de Hoxton, mas ele não vai ficar com o nome. O Consenso dentro da Gangue PAYDAY é que de agora em diante, o novo Hoxton vai se chamar Houston. É um preço bem barato para manter a calma do Hoxton e - além de tudo - perdoar a Gangue PAYDAY por deixar ele na cadeia.",--Dallas younger brother might be able to keep the Hoxton mask, but he's not keeping the name. The consensus among the Payday gang was that from now on, New Hoxton will go by the nicknamed Houston. It's a relatively cheap price to pay to calm Hoxton down and - if anything - partially forgive the PAYDAY Gang for leaving him in jail.
 	jowi_desc_codex = "John era um assassino temido por alguns dos maiores sindicatos do crime. Depois de ter ficado na escuridão por um tempo, John apareceu e ajudou o Chains a sair de uma situação delicada. Em retorno, John falou a Chains que ele precisava de um grupo. Como o Chains poderia dizer não? Ele convidou o John para a Gangue PAYDAY para ajudar seu velho amigo.",--John was a feared Hitman known among some of the largest crime syndicates. After having gone dark for a long time, John recently resurfaced and helped Chains out of a delicate situation. In return, John told Chains he was in need of a crew. How could Chains say no? He invited him into the Payday Gang in order to help his old friend. 
 	russian_desc_codex = "Dallas tem experiência, astuto e medótico. Ele não tem problemas trabalhando como parte de um time, mas ele não é do tipo social. Ele vai fazer sua parte do plano perfeitamente e espera que todos façam o mesmo.",--Dallas is experienced, cunning and methodical. He has no problem working as a part of a team but he isn't the social kind. He will carry out his part in a plan perfectly and expects everyone else to do the same. 
