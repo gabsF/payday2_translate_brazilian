@@ -120,5 +120,6 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	bm_menu_mods = "Modificações",
 	bm_menu_materials = "Material",
 	bm_menu_weapon_skins = "Skin de Arma",
+	menu_challenge_cosmetic_drop = "Itens Cosméticos",--Cosmetic Items
 	})
 end)

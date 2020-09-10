@@ -102,7 +102,7 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	-- First Tree (Shotgunner)
 	--st_menu_enforce_shotgun = "Shotgunner",
 	--menu_underdog_beta = "Underdog",
-	menu_underdog_beta_desc = "BÁSICO: ##$basic##\nQuando tiver três ou mais inimigos em um raio de ##18## metros mirando em você, você receberá ##15%## de dano bônus que irá durar ##7## segundos. \n\nAVANÇADO: ##$pro##\nQuando tiver três ou mais inimigos em um raio de ##18## metros mirando em você, você receberá ##15%## de resistência a dano que irá durar ##7## segundos. \n\nNota: Isso não se aplica a dano da arma corpo-a-corpo, granadas, lança-granadas ou RPGs.",
+	menu_underdog_beta_desc = "BÁSICO: ##$basic##\nQuando tiver três ou mais inimigos em um raio de ##18## metros mirando em você, você receberá ##15%## de dano bônus que irá durar ##7## segundos. \n\nAVANÇADO: ##$pro##\nQuando tiver três ou mais inimigos em um raio de ##18## metros mirando em você, você receberá ##10%## de resistência a dano que irá durar ##7## segundos. \n\nNota: Isso não se aplica a dano da arma corpo-a-corpo, granadas, lança-granadas ou RPGs.",
 	--menu_shotgun_cqb_beta = "Shotgun CQB",
 	menu_shotgun_cqb_beta_desc = "BÁSICO: ##$basic##\nVocê irá recarregar a sua Shotgun ##15%## mais rápido. \n\nAVANÇADO: ##$pro##\nVocê irá recarregar a sua Shotgun ##25%## mais rápido. Você também irá conseguir mirar com a Shotgun ##125%## mais rápido.",
 	--menu_shotgun_impact_beta = "Shotgun Impact",

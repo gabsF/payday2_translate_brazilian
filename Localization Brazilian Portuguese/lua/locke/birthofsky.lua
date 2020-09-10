@@ -184,8 +184,8 @@ Hooks:Add("LocalizationManagerPostInit", "parachutes", function(loc)
 	hud_heist_jerry_plane_01_hl = "Apareça no Porão de Carga",--Emerge into the cargo hold
 	hud_heist_jerry_plane_03_hl = "Alcance os Controles de Carga",--Reach the cargo controls
 	hud_heist_jerry_plane_02 = "Tudo e todos irão sair pelo porão de carga. Abra as portas!",--Everything and everyone will be leaving through the cargo hold. Open the doors!
-	hud_heist_jerry_plane_06_hl = "Pulem fora do Avião de Paraquedas",--Parachute out of the plane
-	hud_heist_jerry_plane_04_hl = "Descartem as Pallets",--Jettison the money pallets
+	hud_heist_jerry_plane_06_hl = "Pule fora do Avião com o Paraquedas",--Parachute out of the plane
+	hud_heist_jerry_plane_04_hl = "Descarte as Pallets",--Jettison the money pallets
 	hud_heist_jerry_plane_05_hl = "Pegue o Paraquedas",--Get the parachutes
 	hud_heist_jerry02_airdrop_gather_hl = "Junte o Dinheiro Espalhado",--Gather the scattered money
 	hud_heist_jerry02_airdrop_reignite = "Os policiais apagaram o sinalizador. Acenda ele novamente.",--The cops have extinguished the flare. Get it lit again.
@@ -204,7 +204,7 @@ Hooks:Add("LocalizationManagerPostInit", "parachutes", function(loc)
 	hud_heist_jerry02_01 = "Localize o pallet de dinheiro que caiu em algum lugar da cidade. Procure nos telhados e interiores.",--Locate the money pallet that has landed somewhere in the town. Check the roofs and interiors.
 	hud_heist_jerry02_airdrop_reignite_hl = "Acenda novamente o Sinalizador",--Reignite the flare
 	hud_heist_jerry02_05 = "Coloque toda a equipe no bote de borracha!",--Get all of the crew into the rubber boat!
-	hud_heist_jerry02_airdrop_wait_hl = "Aguardem a Retirada",--Wait for the pickup
+	hud_heist_jerry02_airdrop_wait_hl = "Aguarde a Retirada",--Wait for the pickup
 	hud_heist_jerry02_02 = "Localize o pallet de dinheiro que caiu em algum lugar na cidade. Verifique os telhados e interiores.",--Locate the money pallet that has landed somewhere in the town. Check the roofs and interiors.
 	hud_heist_jerry02_04 = "Ache uma das entradas dos esgotos na cidade. Desça, e lute até a saída.",--Find one of the sewer entrances in the town. Climb down, and fight to the exit.
 	hud_heist_jerry02_01_hl = "Encontre o Primeiro Pallet de Dinheiro",--Find the first money pallet
