@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "olanoobdopayday", function(loc)
+Hooks:Add("LocalizationManagerPostInit", "olainiciantedopayday", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
 	heist_safehouse_hl = "The Safe House",--The safe house

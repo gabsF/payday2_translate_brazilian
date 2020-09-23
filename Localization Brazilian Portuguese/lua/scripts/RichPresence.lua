@@ -132,7 +132,7 @@ if RequiredScript == "lib/managers/platformmanager" then
 
 			-- Game modes
 			["#Mode_crime_spree"] =			"[CS] {#Level_%game:heist%} (Lvl. %game:difficulty%)",
-			["#Mode_skirmish"] =			"[HO] {#Level_%game:heist%} (Onda %game:difficulty%)",
+			["#Mode_skirmish"] =			"[HO] {#Level_%game:heist%} (Wave %game:difficulty%)",
 			["#Mode_heist"] =				"{#Job_%game:heist%} ({#Difficulty_%game:difficulty%})",
 			["#Mode_heist_chain"] =			"{#Job_%game:heist%}, Dia %game:heist_day% ({#Difficulty_%game:difficulty%})",
 
@@ -146,7 +146,7 @@ if RequiredScript == "lib/managers/platformmanager" then
 			["#Difficulty_overkill_290"] =	"DEATH WISH",
 			["#Difficulty_sm_wish"] =		"DEATH SENTENCE",
 
-			["#Job_short"] = 				"Os Tutoriais",					-- Tutorials
+			["#Job_short"] = 				"The Basics",					-- Tutorials
 			["#Job_short1"] = 				"Pen Drive - Stealth",
 			["#Level_short1_stage1"] = 		"Stealth - Flash Drive",
 			["#Level_short1_stage2"] = 		"Stealth  - Erasing History",

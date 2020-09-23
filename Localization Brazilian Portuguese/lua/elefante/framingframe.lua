@@ -285,7 +285,7 @@ Hooks:Add("LocalizationManagerPostInit", "elefantedoidao", function(loc)
 	hud_e_framing_frame_stage3_mission4 = "Entre no escritório do democrata e acesse seu computador fixo.",--Get into the democrat's office and access his stationary computer
 	hud_e_framing_frame_stage3_mission8_hl = "Pegue o Ouro",--Get the gold
 	hud_e_framing_frame_stage3_mission3_hl = "Coloque tudo na Cobertura",--Set-up everything at the roof
-	hud_e_framing_frame_stage3_mission9_hl = "Escape",--Escape
+	hud_e_framing_frame_stage3_mission9_hl = "Fuja",--Escape
 	hud_e_framing_frame_stage3_mission7_hl = "Abra a porta do Cofre",--Open the vault door
 	hud_e_framing_frame_stage3_mission14 = "Use o teclado para reativar o computador e continuar o hackeamento.",--Use the keyboard to reactivate the computer and continue the hacking
 	hud_e_framing_frame_stage3_mission10_hl = "Localize a Sala do Servidor",--Locate the server room

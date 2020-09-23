@@ -47,7 +47,7 @@ Hooks:Add("LocalizationManagerPostInit", "chavesdooito", function(loc)
 	pln_flt_44_03 = "Nós já podemos decolar!",--We have a lift-off!
 	pln_flt_27_03 = "Nós precisamos de mais um pouco de C4 no quarto andar, gangue.",--We still need more C4 on the fourth floor, gang.
 	pln_flt_26_02 = "Ok, vão buscar o C4 e plantem logo acima da Sala do Pânico.",--Ok, go pick up the C4 and then plant it right above the panic room.
-	pln_flt_07_03 = "É a hora. Coloque a Máscara e vamos começar.",--It's time. Put on the masks and let's do this.
+	pln_flt_07_03 = "É a hora. Coloquem a Máscara e vamos começar.",--It's time. Put on the masks and let's do this.
 	pln_flt_03_06 = "Apressem-se e vão pra dentro.",--Hurry up and go inside.
 	pln_flt_06_01 = "Fique de olhos abertos. Algo está acontecendo.",--Keep your eyes peeled. Something's up.
 	pln_flt_37_02 = "Afastem-se do raio da explosão, gangue.",--Stand clear from the blast radius, gang.

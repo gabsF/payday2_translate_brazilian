@@ -55,6 +55,8 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	menu_cs_continue = "Continuar a Crime Spree",
 	menu_cs_modifiers_forced_single = "Um modificador foi adicionado na Crime Spree",--A modifier has been added to the crime spree
 	menu_cs_modifiers_forced_multiple = "$count modificadores foram adicionados na Crime Spree",--$count; modifiers have been added to the crime spree
+	menu_cs_not_in_progress_join_lobby = "Nenhuma Crime Spree em Progresso",--No Crime Spree In Progress
+	menu_cs_modifiers_not_in_progress_desc = "Comece a sua própria Crime Spree para ganhar ranks e recompensas.",--Start your own Crime Spree to gain ranks and rewards.
 	
 	-- Gage Boost (pls ovk, dont buff/nerf these gage boost)
 	menu_cs_ga_increased_body_bags_desc = "Jogadores vão receber e podem carregar mais 2 Bolsas de Corpos.",

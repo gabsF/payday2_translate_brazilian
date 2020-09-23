@@ -162,6 +162,7 @@ Hooks:Add("LocalizationManagerPostInit", "bancodesanmartinmexico", function(loc)
 	loc_bex_71_05 = "Sem tempo para uma pausa para tortilla, yeah?",--No time for a tortilla break, yeah?
 	loc_bex_71_06 = "O que há de errado com vocês seus idiotas? Beberam muito na noite passada? Mexam-se!",--What's wrong with you chops? Too much to drink last night? Get moving!
 	loc_bex_72_01 = "Ach, esse cofre não vai abrir fácil!",--Ach, that vault is not going to open easily!
+	loc_bex_72_02 = "Vlad, seu merda! Você disse que o cofre seria fácil!",--Vlad, you chop! You said the vault was going to be easy!
 	loc_bex_72_03 = "Oh céus... isso não vai ser como quebrar um ovo, yeah?",--Oh, dear... that's not going to be like cracking an egg, yeah?
 	loc_bex_73_02 = "Vocês causaram muito tumulto, o cofre está completamente bloqueado.",--You made too much of a ruckus, the vault is completely locked down.
 	loc_bex_73_03 = "Eles tem o cofre protegido até o último parafuso.",--They've got the vault secured to the last bolt.

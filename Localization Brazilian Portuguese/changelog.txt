@@ -1,8 +1,3 @@
-+ Traduzido a San Martín Bank
-+ Traduzido o Menu "Side Jobs"
-+ Traduzido mais alguns elementos do Menu e Inventário
-+ Corrigido um erro de Tradução na skill UNDERDOG ACED (Valor correto é 10%, e não 15% que estava)
-+ Traduzido diversos textos e Conquistas na tela de "Conquistas"
-+ Corrigido mais linhas de texto mal traduzidas
-+ Traduzido o Menu de Edição de Skins e Descrições de Skins das Armaduras
-+ Traduzidas Novas Descrições de Máscaras + Easter Eggs
++ Traduzida a Border Crossing + Border Crystals
++ Mais Conquistas foram Traduzidas no menu de CONQUISTAS
++ Correções de Erros de Tradução

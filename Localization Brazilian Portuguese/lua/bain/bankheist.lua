@@ -136,6 +136,7 @@ Hooks:Add("LocalizationManagerPostInit", "assaltoclassico", function(loc)
 	pln_branchbank_stage1_42_any_01 = "Pilhas de dinheiro! Gente, Botem tudo na bolsa!",
 	pln_branchbank_stage1_43_any_01 = "Parece que tiramos a sorte grande! Peguem tudo!",
 	pln_branchbank_stage1_84_any_01 = "Certo, ótimo. Agora levem essa coisa para a porta da cofre.",
+	pln_branchbank_depositbox_stage1_brief_01 = "Agora estaremos entrando no cofre do banco. Esse trabalho se faz nas caixas de depósitos. Você precisará entrar lá e perfurar o cofre. Cuide do banco primeiro, pois eles estão protegidos com as câmeras de segurança e guardas patrulhando.",
 	
 	-- Wick ficando puto
 	pln_misc_sj_dgh_03_02 = "Não! Que merda, pessoal... Wick queria cuidar deles. Ele queria mesmo colocar as mãos nesses desgraçados. Acho que ele vai ter que ficar feliz com a noticía deles mortos.",

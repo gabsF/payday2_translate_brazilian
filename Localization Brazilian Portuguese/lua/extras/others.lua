@@ -1809,7 +1809,9 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	dialog_bm_crafted_sell_title = "Você tem certeza?",
 	dialog_bm_mask_assemble_title = "Você tem certeza?",
 	dialog_skills_place_title = "Você tem certeza?",
+	dialog_bm_mask_custom_final_title = "Você tem certeza?",
 	dialog_preplanning_rebuy_assets = "Você deseja recomprar todos os assets disponíveis por $price + $favor favores?",
+	dialog_remove_dead_peer = "Não foi possível estabelecer a conexão com um ou mais jogadores.",
 	
 	-- Tela de Título
 	menu_visit_forum3 = "Pressione qualquer botão",
@@ -2527,6 +2529,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_pp_asset_kenaz_drill_better_plasma_cutter = "Melhorar Cortador de Plasma",--Better Plasma Cutter
 	menu_pp_asset_kenaz_drill_better_plasma_cutter_desc = "Um sistema de alta frequência torna a BFD mais confiável e com menos chance de superaquecer, caso os tanques estejam vazios.",--A high-frequency system makes BFD more reliable and has less chance to overheat if the watertanks are empty.
 	menu_pp_cat_BFD_attachments = "Anexar na BFD",--BFD Attachment
+	menu_pp_cat_BFD_attachments_desc = "Anexe novos elementos na furadeira.",--Attach new elements on the drill.
 	menu_pp_asset_kenaz_drill_water_level_indicator = "Indicador de Nível da Água",--Water Level Indicator
 	menu_pp_asset_kenaz_drill_water_level_indicator_desc = "Indica quanto de água resta nos tanques.",--Indicates how much water is in the tanks.
 	menu_pp_asset_kenaz_drill_toolbox = "Caixa de Ferramentas",--Toolbox
@@ -3050,6 +3053,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_ghostable_stage_required = "Stealth é um requisito.",
 	menu_risk = "Risco:",
 	menu_day_short = "Dia $day",
+	menu_pp_err_type_disabled = "Desabilitado por outro item colocado.",--This is disabled by another placed item.
 	
 	-- Pausa do jogo
 	menu_ingame_menu = "MENU EM-JOGO",
@@ -4130,10 +4134,10 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_trivia_98 = "Os Clássicos. Esses contratos eram as grandes conquistas que a gangue fez no passado.. Digamos que podemos ver se eles ainda têm o que é preciso..?",
 	loading_trivia_99 = "Locke é um ex-mercenário ganancioso da Murkywater. Ele tem contratos que envolve o seu velho emprego.",
 	-------------------------------------------
-	loading_heister_title = "Dicas do Assaltante",
+	loading_heister_title = "Dicas de Assaltante",
 	loading_heister_1 = "Mantenha esses capacetes voando!",
 	loading_heister_2 = "Você pode usar os Arquivos do FBI do jogo para ler sobre os seus aliados.",
-	loading_heister_3 = "Junte-se a comunidade do Payday na página da Loja do Jogo na Steam para ter acesso a conteúdo único e gratuito.",
+	loading_heister_3 = "Junte-se a comunidade do PAYDAY na página da Loja do Jogo na Steam para ter acesso a conteúdo único e gratuito.",
 	loading_heister_4 = "Dois jogadores interagindo a mesma coisa (por exemplo, destrancar a porta) não irá acelerar o processo.",
 	loading_heister_5 = "Bain irá oferecer contratos pequenos que podem ser concluídos fazendo do jeito barulhento (Loud) ou furtivo (Stealth). Podem ser feitos com rapidez e também tem alguns que são bons para iniciantes.",
 	loading_heister_6 = "Quer diversão dupla? Use os Akimbos para ter duas pistolas e submetralhadoras.",
@@ -4153,7 +4157,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_heister_20 = "O jogo tem vários níveis de dificuldade. Ache um que é seu estilo!",
 	loading_heister_21 = "Mais Loot, mais recompensas! Porém tem risco. (Exceto na Crime Spree)",
 	loading_heister_22 = "Quer modificar algo novo? Faça o Desafio Diário que pode ser encontrado na Safe House. (Ou compre-os usando Moedas Continentais.)",
-	loading_heister_23 = "Lembra de sempre checar os seus Perk Decks para gastar os Pontos de Cartas.",
+	loading_heister_23 = "Lembre-se de sempre checar os seus Perk Decks para gastar os Pontos de Cartas.",
 	loading_heister_24 = 'Um bom time vai sempre ter Bolsas de Munições e Bolsas Médicas em um assalto.',
 	loading_heister_25 = "Dê uma olhada nas estatísticas da arma. Um dano alto nem sempre é o mais importante, dependendo do seu estilo de jogo.",
 	loading_heister_26 = "Perk Decks diferentes possui efeitos diferentes. Tente jogar com todos eles e veja qual é melhor pro seu estilo de jogo.",
@@ -4174,14 +4178,14 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_heister_41 = "Perfis permitem a você salvar o seu equipamento, para depois mudar pro equipamento salvo desejado para cada situação enquanto estiver na tela de Equipamento.",
 	loading_heister_42 = "Algumas bolsas são mais pesadas do que as outras. Tenha certeza que o jogador que está com colete mais leve esteja carregando a mais pesada e vice versa.",
 	loading_heister_43 = "Quando estiver em Stealth, considere se é melhor você levar o Bloqueador de ECM para melhorar a sua equipe.",
-	loading_heister_44 = "Força Máxima irá estar vestindo uma roupa marrom e com um colete cinza. Maioria das armas não penetram, então mire na cabeça ou flanqueia eles.",
+	loading_heister_44 = "Força Máxima irá estar vestindo uma roupa marrom e com um colete cinza. Maioria das armas não penetram, então mire na cabeça ou flanqueie eles.",
 	loading_heister_45 = "Unidades da ZEAL são os mais durões que o DdVI, Departamento de Vigilância Interno, tem para oferecer e só aparecem na dificuldade Death Sentence.",
 	loading_heister_46 = "Conheça o seu inimigo. Tem três tipos de Bulldozers: Verde, Preto e Caveira-Dozers. Cada um tem uma arma diferente!",
 	loading_heister_47 = '"Shields" vão em grupos, forçando a você criar um plano para lidar com eles.',
 	loading_heister_48 = "Você pode selecionar até 4 personagens preferidos, em caso de um jogador estar com um dos seus personagens.",
-	loading_heister_49 = "Combate é raramente uma razão, do que um método",
+	loading_heister_49 = "O Combate raramente é um motivo, mas sim o método.",
 	loading_heister_50 = "Pontos de Skills podem ser recolocados sem custo. Experimente e teste.",
-	loading_heister_51 = "É melhor ter mútiplas árvores de skills que são boas para coisas diferentes, do que ter só uma skill que tenta fazer tudo.",
+	loading_heister_51 = "É melhor ter múltiplas árvores de skills que são boas para coisas diferentes, do que ter só uma skill que tenta fazer tudo.",
 	loading_heister_52 = "Enquanto estiver na Crime.net, mais caveiras no Lobby ou no Assalto abaixo do nome significa uma maior dificuldade.",
 	-------------------------------------------
 	loading_gameplay_title = "Dicas de Jogabilidade",
