@@ -37,7 +37,7 @@ lulajr
 neour
 Bruno
 Matheussimoe
-Eleanor
+Gavel
 Sky3Killer
 
 [ Discord OFICIAL da Tradução ]

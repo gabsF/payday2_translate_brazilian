@@ -230,8 +230,6 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_dlc_buy_character_pack_sokol = "Compre o Sokol Character Pack DLC hoje!",
 	menu_dlc_buy_peta = "Compre o Goat Simulator Heist DLC hoje!",
 	menu_dlc_buy_ecp = "Compre o H3H3 Character Pack hoje!",
-	menu_dlc_buy_friend_help = "Visite a Steam agora para comprar the Scarface Heist Pack!",
-	menu_content_tango_desc = "Visite a Steam agora para comprar the Gage Spec Ops Pack!",
 	menu_dlc_buy_pim_help = "Visite a Steam agora para comprar the John Wick Weapon Pack!",
 	menu_dlc_buy_chico_help = "Visite a Steam agora para comprar the Scarface Character Pack!",
 	menu_dlc_buy_tango_help = "Visite a Steam agora para comprar the Gage Spec Ops Pack!",
@@ -1752,6 +1750,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	debug_interact_thermite_PS3 = "Segure $BTN_INTERACT para colocar a Thermite",--Hold $BTN_INTERACT; to place the Thermite
 	press_insert_keycard = "Pressione $BTN_INTERACT para inserir o Cartão de Acesso",--Press $BTN_INTERACT; to insert keycard
 	hud_hack_ship_control = "Segure $BTN_INTERACT para hackear o terminal de controle do navio",--Hold $BTN_INTERACT; to hack the ship control terminal
+	hud_int_armory_hack = "Segure $BTN_INTERACT para colocar o dispositivo de hackeamento",--
 	
 	-- Caixas de confirmações + Notificações do SISTEMA
 	dialog_cancel = "Cancelar",
@@ -1812,6 +1811,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	dialog_bm_mask_custom_final_title = "Você tem certeza?",
 	dialog_preplanning_rebuy_assets = "Você deseja recomprar todos os assets disponíveis por $price + $favor favores?",
 	dialog_remove_dead_peer = "Não foi possível estabelecer a conexão com um ou mais jogadores.",
+	dialog_game_started = "Não é possível se juntar a esse jogo atualmente",--The game is currently not joinable
 	
 	-- Tela de Título
 	menu_visit_forum3 = "Pressione qualquer botão",
@@ -2664,7 +2664,6 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_pp_window002 = "Clarabóia do Escritório 2",--Office skylight 2
 	menu_pp_window003 = "Clarabóia do Escritório 3",--Office skylight 3
 	menu_pp_window001 = "Clarabóia do Escritório 1",--Office skylight 1
-	menu_pp_unlocked_door001 = "Baía de Carregamento",--Loading bay
 	menu_pp_extra_drill_parts001 = "Baía de Carregamento",--Loading bay
 	menu_pp_highlight_keybox = "Localização Desconhecida",--Location unknown
 	menu_pp_asset_unlocked_door = "Porta Destrancada",--Unlocked Door
@@ -3556,6 +3555,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hint_been_electrocuted = "Você está sendo eletrocutado!",--You are being electrocuted!
 	hud_equipment_need_boards = "Você precisa de Tábuas",--You need boards
 	hud_interact_take_fingerprint = "Você precisa de uma Fita",
+	hud_equipment_pex_need_keys = "Você precisa das Chaves do Carro",
 	
 	-- Crime.net
 	cn_menu_num_players_online = "Crime.net/usuários_online: $amount",
@@ -3724,7 +3724,6 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_cs_rooms_help_hover = "Clique numa sala para atualizar",
 	menu_cs_enter_safehouse = "Entre na sua Safe House",
 	menu_cs_map = "Mapa",
-	menu_cs_daily_available = "$character tem um desafio para você. Faz uma visita pra ele(a) para aceitar o seu desafio.",
 	menu_cs_coins = "Moedas Continentais",
 	menu_trophy_not_displayed = "Escondido",
 	menu_trophy_hide_all = "Esconder tudo",
@@ -3739,7 +3738,6 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_cs_trophies = "Troféus",
 	menu_cs_upgrade_max = "Essa sala está no seu nível máximo e não pode ser atualizada mais do que isso.",
 	menu_cs_rooms_help_hover_no_upgrade = "Você não pode atualizar essa sala mais do que isso.",
-	menu_cs_basement = "Porão",
 	menu_cs_change_floor = "Mude de andar",
 	menu_cs_ground_floor = "Térreo",
 	menu_cs_top_floor = "Topo",
@@ -4226,12 +4224,12 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_gameplay_35 = 'Não deixe as bolsas largadas, os policiais podem roubar o seu loot.',
 	loading_gameplay_36 = "Enquanto é preso pelo Taser, tente matar o Taser para se libertar.",
 	loading_gameplay_37 = "É mais rápido trocar para sua arma secundária do que tentar recarregar a sua primária.",
-	loading_gameplay_38 = "Serras gastam a munição muito rápido. Leve bolsas de munições para aumentar o seu uso.",
+	loading_gameplay_38 = "Serras gastam a munição muito rápido. Leve Bolsas de munições para aumentar o seu uso.",
 	loading_gameplay_39 = "Linhas vermelhas em um inimigo durante um assalto indica que ele é um especial de algum tipo.",
-	loading_gameplay_40 = "Se você estiver sozinho, sem outros jogadores ou bots, Cloakers não irão correr em você.",
+	loading_gameplay_40 = "Se você estiver sozinho, sem outros jogadores ou bots, Cloakers não irão correr até você.",
 	loading_gameplay_41 = "Policiais são facilmente intimidados se eles estiverem sozinhos.",
 	loading_gameplay_42 = "Tiros na cabeça causa muito mais dano.",
-	loading_gameplay_43 = "Bulldozers tem uma proteção no seu rosto. Você precisa atirar nessa proteção para conseguir atirar na cabeça dele.",
+	loading_gameplay_43 = "Bulldozers possuem uma proteção em seu rosto. Você precisará atirar nessa proteção para conseguir atirar na cabeça dele.",
 	loading_gameplay_44 = "Fazendo qualquer tipo de dano no inimigo vai te dar 100% de chance de dominação. Exceto os Especiais.", -- o texto original dessa dica é "Tasing an enemy makes them a lot easier to Dominate.", mas é bem inutil e acabei fazendo um melhor do que essa.
 	loading_gameplay_45 = "Tasers podem prender os seus aliados, mate o Taser para libertar eles!",
 	loading_gameplay_46 = "Snipers inimigos causa um dano bem grande que pode arrebentar a sua armadura e levar uma parte da sua vida com um só tiro.",
@@ -4239,7 +4237,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_gameplay_48 = "Algumas armas tem modos de tiros diferentes, onde você pode alternar o modo de um tiro e o automático.",
 	loading_gameplay_49 = "Marcando os inimigos especiais facilita pro seus aliados identificarem eles.",
 	loading_gameplay_50 = "Tome cuidado ao seu redor, se você matar um civil, você irá pagar uma penalidade.",
-	loading_gameplay_51 = "Destruir uma câmera depois de ser detectado não irá parar o disparo do alarme.",
+	loading_gameplay_51 = "Destruir uma câmera depois de ser detectado não irá parar o som do alarme.",
 	loading_gameplay_52 = "Guardas podem investigar as câmeras quebradas. Portanto, não atire nelas.",
 	loading_gameplay_53 = 'Você pode apertar o botão de "Interagir/Gritar" para forçar um guarda a se render e virar um refém.',
 	loading_gameplay_54 = "A sua tela está cinza? Você deveria usar uma Bolsa Médica.",
@@ -4276,7 +4274,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_gameplay_85 = "Usando um Feedback do ECM você poderá atordoar alguns policiais próximos por um tempo.",
 	loading_gameplay_86 = "Vá para a cobertura, os inimigos podem te matar se você estiver ao ar livre.",
 	loading_gameplay_87 = "Quase todo roubo em Stealth tem um Operador de Câmeras. Matar ele faz com que as câmeras não sejam mais um problema.",
-	loading_gameplay_88 = "Toma cuidado onde você coloca as suas bolsas, se um guarda ou um civil ver, eles irão disparar o alarme.",
+	loading_gameplay_88 = "Tome cuidado onde você coloca as suas bolsas, se um guarda ou um civil ver, eles irão disparar o alarme.",
 	loading_gameplay_89 = "Bloqueadores de ECM vão bloquear os pagers dos guardas, celulares dos civis e câmeras, assim ninguém irá alertar os policiais sobre a sua presença enquanto o Bloqueador estiver ativo.",
 	loading_gameplay_90 = "Alguns guardas tem um caminho de patrulha durante o Stealth. Use isso para sua vantagem.",
 	loading_gameplay_91 = "Não deixe corpos por aí, use uma Bolsa de Corpos para mover eles onde não podem ser vistos por ninguém.",
@@ -4290,7 +4288,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_gameplay_99 = 'A munição de Espingarda "AP Round" vai perfurar os escudos dos "Shields" e o colete dos policiais.',
 	loading_gameplay_100 = "O dano de toda flecha que atirar em um arco irá aumentar de acordo com a força em que você colocar.",
 	loading_gameplay_101 = '"Flashbangs" podem ser destruídas depois de ser jogado, simplesmente atire nele ou com um ataque de arma de corpo-a-corpo.',
-	loading_gameplay_102 = "Pode atirar nas maçanetas das portas para abrir elas mais rápido. (Com exceção da porta de metal da GenSec.)",
+	loading_gameplay_102 = "Atire nas maçanetas das portas para abrir elas mais rápido. (Com exceção da porta de metal da GenSec.)",
 	loading_gameplay_103 = "No Modo de Investigação, você ainda poderá ser detectado, especialmente se você trombar com os guardas. Mas de longe, vão te detectar porém a chance é menor.",
 	loading_gameplay_104 = "Civis não vão notar as câmeras quebradas ou bolsas de loot. Porém, podem notar as bolsas de corpos.",
 	loading_gameplay_105 = "Bolsas de Corpos podem ser jogadas no fundo do mar ou nos depósitos de lixos para esconder eles.",
@@ -4507,7 +4505,6 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	-- Side Jobs (Desafios Secundários)
     menu_side_jobs_title = "Desafios Secundários",
     menu_cs_div_safehouse_daily = "Desafio Diário da Safe House",
-    menu_challenge_objective_title = "Objetivo:",
     menu_challenge_safehouse_daily_reward = "Moedas Continentais para comprar melhorias da Safe House e modificações de armas.",
     menu_challenge_div_cat_daily = "Desafio Diário",
     menu_challenge_daily_reward = "Dinheiro e uma Modificação de arma de sua escolha.",

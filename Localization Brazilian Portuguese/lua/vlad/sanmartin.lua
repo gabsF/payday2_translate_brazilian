@@ -103,6 +103,7 @@ Hooks:Add("LocalizationManagerPostInit", "bancodesanmartinmexico", function(loc)
 	loc_bex_41_03 = "Beleza, agora fiquem quietos e coletem todo o loot 'precioso' do Vlad.",--Right, now stay quiet and collect all of Vlad's "precious" loot.
 	loc_bex_42_01 = "Certo, Vlad parece feliz. Vocês podem sair quando quiserem, amigos.",--OK, Vlad seems happy. You can leave at your discretion, friends.
 	loc_bex_42_02 = "Beleza, seus idiotas, isso é o bastante para o Vlad. Saiam daí quando se sentirem prontos.",--Alright you chops, that's enough for Vlad. Get out of there when you feel ready.
+	loc_bex_42_03 = "Quando estiverem prontos, vão em frente e saiam.",--When you feel ready, go ahead and make your way out.
 	loc_bex_43_01 = "Certo, então é assim que querem fazer? Vamos ao Plano B!",--Ok, so that's how you want to do it? Let's go to plan B!
 	loc_bex_43_02 = "Não precisamos mais ficar quietos agora. Vão rápido e forte.",--No need to keep quiet now. Go fast and hard.
 	loc_bex_43_03 = "Beleza, vamos fazer a outra coisa então. Toquem alto, amigos.",--Alright, let's do the other thing then. Play it loud, friends.

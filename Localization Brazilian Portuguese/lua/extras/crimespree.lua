@@ -11,13 +11,17 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	menu_cs_in_progress_desc_higher = "A sua Crime Spree é bem mais alta do que a do Host. Você não irá ganhar prêmios até que o nível do Host seja igual ou maior do que o seu.",
 	menu_cs_rewards_not_in_progress_desc = "Você não irá ganhar prêmios sem ter uma Crime Spree ativa.",
 	menu_cs_host_failed_text = "O Host fracassou a sua Crime Spree e deve escolher se vai continuar.",
+	menu_toggle_player_huds = "Ocultar a HUD do Jogador",--Hidden player HUD
+	menu_toggle_player_huds_help = "Habilita ou desabilita a HUD.",--Turns the HUD on or off.
+	menu_clear_crime_spree_record = "Apagar Progresso da Crime Spree",--Clear Crime Spree Progress
+	menu_clear_crime_spree_record_help = "Isso irá apagar o seu level máximo de Crime Spree.",--This will clear your maximum Crime Spree level
 	
 	-- Pausa em Jogo
 	menu_end_crime_spree = "Abandonar a Crime Spree",
 	
 	-- Caixas de Confirmações
 	menu_cs_reroll_title = "Sortear os Assaltos",
-	menu_cs_reroll_text = "Tem certeza que deseja sortear novamente os assaltos atuais?\n\nIsso vai custar $cost Moeda(s) Continental(is).",
+	menu_cs_reroll_text = "Tem certeza de que deseja sortear novamente os assaltos atuais?\n\nIsso vai custar $cost Moeda(s) Continental(is).",
 	dialog_are_you_sure_you_want_to_leave_game_crime_spree = "Tem certeza de que deseja sair da partida atual?\n\nIsso vai fazer com que a sua Crime Spree fracasse e você deverá pagar para continuar ou pegar os seus prêmios no Lobby da Crime Spree.",
 	dialog_cs_claim_rewards = "Resgatar os Prêmios",
 	dialog_cs_claim_rewards_text = "Tem certeza de que deseja resgatar os Prêmios da sua Crime Spree?\n\nIsso vai desfazer o seu Lobby da sua Crime Spree e você vai ter que fazer um novo Lobby para ganhar prêmios de novo.",
@@ -25,6 +29,11 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	dialog_cs_crash_fail_text = "A sua Crime Spree fracassou devido a um encerramento inesperado do jogo.\nVocê pode pagar uma taxa de Moedas Continentais para continuar.",--Your Crime Spree has failed due to an unexpected closure of the game.$NL;You can still pay the Continental Coin cost to continue.
 	dialog_cs_cant_claim_rewards_text = "Você não tem prêmios para resgatar.",--You have no rewards to claim.
 	menu_cs_continue_without_starting = "Continuar sem iniciar a Crime Spree",--Continue Without Starting a Crime Spree
+	dialog_are_you_sure_you_want_stop_cs = "Tem certeza de que deseja parar a sua Crime Spree?$NL;$NL;Isso irá encerrar a sua atual Crime Spree, e nenhuma recompensa será dada a você.",--Are you sure you want to stop your Crime Spree?$NL;$NL;This will end your current Crime Spree, and no rewards will be given to you.
+	dialog_are_you_sure_you_want_stop_cs_refund = "Tem certeza de que deseja parar a sua Crime Spree?$NL;$NL;Isso irá encerrar a sua Crime Spree atual, e nenhuma recompensa será dada a você. Seu investimento inicial de $coins Moedas Continentais serão devolvidas a você.",--Are you sure you want to stop your Crime Spree?$NL;$NL;This will end your current spree, and no rewards will be given to you. Your initial investment of $coins; Continental Coins will be returned to you.
+	dialog_continue_cs_title = "Continuar Crime Spree",
+	dialog_continue_cs_text = "Você quer continuar a sua Crime Spree?\nIsso permitirá que você continue sua Crime Spree de $level para ganhar novos Ranks de Crime Spree e acumular recompensas maiores.\n\nIsso irá lhe custar $cost Moedas Continentais.",
+
 	
 	-- Em Lobby
 	menu_cs_ga_in_progress = "Assalto em Progresso",	

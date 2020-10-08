@@ -326,7 +326,7 @@ Hooks:Add("LocalizationManagerPostInit", "crossinggggggborderrr", function(loc)
 	
 	-- Objetivos
 	hud_heist_mex1 = "Encontre o túnel subterrâneo para o México em algum lugar na parte de fora.",--Find an underground tunnel leading to Mexico somewhere outside.
-	hud_heist_mex1_hl = "Localize o túnel",--Locate the tunnel
+	hud_heist_mex1_hl = "Localize o Túnel",--Locate the tunnel
 	hud_heist_mex10 = "Encontre um tanque de combústivel de avião e uma bomba. Conecte ambos ao avião.",--Find a tank of airplane fuel and a pump. Connect them both to the plane.
 	hud_heist_mex10_hl = "Conecte a Mangueira de Combustível no Avião",--Connect the fuel hose to the plane
 	hud_heist_mex11 = "Fuja roubando o avião.",--Escape by stealing the plane.

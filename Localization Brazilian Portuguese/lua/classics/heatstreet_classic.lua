@@ -156,7 +156,7 @@ Hooks:Add("LocalizationManagerPostInit", "calornasruas", function(loc)
 	mission_str_clear = "Limpe a área de policiais ou o Bile vai ter que buscar por um outro lugar para pegar vocês.",
 	mission_str_clear_hl = "Limpe a Área de Policiais",
 	mission_str_escort = "Encontrem um jeito de chegar até o viaduto, o Bile vai pegar vocês com o helicóptero. Tenha certeza de ter o Matt junto!",
-	mission_str_escort_hl = "Subam no Viaduto com o Matt",
+	mission_str_escort_hl = "Suba no Viaduto com o Matt",
 	mission_str_exit = "Levem o Matt para a escada do helicóptero e chame a sua equipe junto.",
 	mission_str_exit_hl = "Leve o Matt e a Equipe para o Helicóptero",
 	mission_str_extract = "Use a gasolina para colocar fogo na van e forçar o Matt a sair.",

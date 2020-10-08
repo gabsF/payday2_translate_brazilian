@@ -1,11 +1,11 @@
 {
 	"name" : "PAYDAY 2 BRAZILIAN PORTUGUESE",
 	"description" : "Tradução do PAYDAY 2 para o Português-BR. A Tradução segue em desenvolvimento constante, sendo posteriormente atualizada sempre que for possível!\n\n[ Característica da Tradução ]\n* Manutenção de certos termos em Inglês (como por exemplo o nome das Heists, das Skills, das Dificuldades, dos termos Loud e Stealth, do termo Dodge e do termo Concealment, além de outros.) \n",
-	"author" : "[ Gerentes do Projeto ]\n-HimuraBR-\ngabsF\n\n[ Tradutores ]\nWalkingJohnn\n$Lucas$\nRockZero\nLupuens\nNobrod\nNoTh\nSky3Killer\nMrUmbrella\nMatheussimoe\nCaçador de Otacus\nDarK\nEleanor\nlulajr\nneour\nBruno\n\n[ Discord OFICIAL da Tradução ]\nEntrem no nosso Discord para ficar por dentro de mais detalhes sobre a Tradução, para reportar possíveis Bugs e Erros de Tradução e até mesmo para criar novas amizades para jogar algumas Heist's por ai.\nLink do Discord: https://discord.gg/nEjGhXD \n\n[ Créditos Adicionais ]\nSavvy\nDr_Newbie\nviixxivvimm\nKisuke\n ",
+	"author" : "[ Gerentes do Projeto ]\n-HimuraBR-\ngabsF\n\n[ Tradutores ]\nWalkingJohnn\n$Lucas$\nRockZero\nLupuens\nNobrod\nNoTh\nSky3Killer\nMrUmbrella\nMatheussimoe\nCaçador de Otacus\nDarK\nGavel\nlulajr\nneour\nBruno\n\n[ Discord OFICIAL da Tradução ]\nEntrem no nosso Discord para ficar por dentro de mais detalhes sobre a Tradução, para reportar possíveis Bugs e Erros de Tradução e até mesmo para criar novas amizades para jogar algumas Heist's por ai.\nLink do Discord: https://discord.gg/nEjGhXD \n\n[ Créditos Adicionais ]\nSavvy\nDr_Newbie\nviixxivvimm\nKisuke\n ",
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/_gab_foxJaketto_/",
-	"version" : "5.00",
+	"version" : "5.01",
 	"blt_version" : 2,
 	"updates" : [
 		{ 
@@ -91,5 +91,6 @@
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/locke/shacklethorne.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/locke/border.lua" }
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/locke/henry.lua" }
+		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/locke/tijuana.lua" }
 	]
 }

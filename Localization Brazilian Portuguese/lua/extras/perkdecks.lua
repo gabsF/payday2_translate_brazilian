@@ -102,13 +102,13 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	menu_deck5_1 = "Recuperação Básica",
 	menu_deck5_1_desc = "A sua armadura se recupera ##5%## mais rápido.",
 	menu_deck5_3 = "Habilidoso",
-	menu_deck5_3_desc = "As armas de duas mãos tem ##-16## de penalidade de Estabilidade.\n\nA sua armadura se recupera por mais ##10%## mais rápido.\n\nA capacidade de munição das suas armas de duas mãos é aumentada em ##50%##.",
+	menu_deck5_3_desc = "As armas de duas mãos tem ##-16## de penalidade de Estabilidade.\n\nA sua armadura se recupera ##10%## mais rápido.\n\nA capacidade de munição das suas armas de duas mãos é aumentada em ##50%##.",
 	menu_deck5_5 = "Recuperação Avançada",
-	menu_deck5_5_desc = "A sua armadura se recupera por mais ##10%## mais rápido.",
+	menu_deck5_5_desc = "A sua armadura se recupera ##10%## mais rápido.",
 	menu_deck5_7 = "Recuperação Expert",
-	menu_deck5_7_desc = "A sua armadura se recupera por mais ##10%## mais rápido.",
+	menu_deck5_7_desc = "A sua armadura se recupera ##10%## mais rápido.",
 	menu_deck5_9 = "Dente e Garra",
-	menu_deck5_9_desc = "A sua armadura se recupera por mais ##10%## mais rápido.\n\nA sua armadura se após ##1.5## segundo depois de ter acabado, não importa a situação.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+	menu_deck5_9_desc = "A sua armadura se recupera ##10%## mais rápido.\n\nA sua armadura irá se recuperar após ##1.5## segundo depois de ter acabado, não importa a situação.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 	
 	-- Crook
 	--menu_st_spec_6 = "Crook",

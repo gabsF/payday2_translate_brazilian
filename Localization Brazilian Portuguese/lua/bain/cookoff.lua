@@ -91,7 +91,7 @@ Hooks:Add("LocalizationManagerPostInit", "cozinhandoinfinitamente", function(loc
 	pln_rt1_j_15 = "...essas descrições da internet são bem estranhas.",
 	pln_rt1_b1_03 = "Ácido. Ácido Muriático.",
 	pln_rt1_a_10 = "Uh, eu espero estar certo nisso...",
-	pln_rt1_04_any_02 = "Precisamos de Químicos pra cozinhar. Ácido Muriático, Soda Cáustica e Cloreto de Hidrogênio. Fácil!",
+	pln_rt1_04_any_02 = "Precisamos de alguns Ingredientes pra cozinhar. Ácido Muriático, Soda Cáustica e Cloreto de Hidrogênio. Fácil!",
 	pln_rt1b_01_02 = "Ah, merda. A polícia já está a caminho. Acho que deviam estar vigiando o lugar.",
 	pln_rt1b_05_03 = "Ótimo! Vamos cozinhar mais drogas! Só não coloque fogo no laboratório.",
 	pln_rt1b_04_01 = "Chegou! Pegue a bolsa e coloque no laboratório.",

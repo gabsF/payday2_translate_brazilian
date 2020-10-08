@@ -184,7 +184,7 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_menu_chosen = "Marcado",--Selected
 	bm_menu_preview_mods = "Visualizar os Mods",--Preview Mods
 	bm_menu_mod_preview = "Visualizar Mod",--Mod Preview
-	dialog_blackmarket_buy_item = "Você realmente deseja comprar $item?$NL;$NL;Isso irá custar para você $money.$NL;$NL;$num_in_inventory",--Do you really want to buy $item;?$NL;$NL;It will cost you $money;.$NL;$NL;$num_in_inventory;
+	dialog_blackmarket_buy_item = "Você realmente deseja comprar $item?$NL;$NL;Isso irá custar para você $money.$NL;$num_in_inventory",--Do you really want to buy $item;?$NL;$NL;It will cost you $money;.$NL;$NL;$num_in_inventory;
 	bm_menu_cannot_buy_weapon_slot = "Fundos Insuficientes",--Insufficient funds
 	bm_menu_locked_weapon_slot_desc = "Esse slot de arma precisará ser desbloqueado antes que você possa colocar qualquer arma aqui!",--This weapon slot needs to be unlocked before you can place any weapons here!
 	bm_menu_customizable_weapon_color = "Cor Customizada",
@@ -415,6 +415,7 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_msk_mega_sydney_desc = "A Mega Sydney Mask é uma versão evoluída da máscara original. Simboliza a transcendência e a catarse.$NL;$NL;Obrigado pelo seu apoio!$NL;$NL;OVERKILL saúda você!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nCriminoso da mais alta patente.\nMembro da Professional Heisters Community Squad [PHC$]\n\n- =M$= P3R31R4",--=M$= P3R31R4
 	bm_msk_max_begins_desc = "Essa é a versão limpa da icônica máscara do Sangres, antes de ser pintada.$NL;$NL;Nunca gostou de como a original ficou? Esta é sua chance de mudar isso.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nMANOS ARRIBA, CARAJO!\n\n- SagaT1",--SagaT1
 	bm_msk_eng_03_desc = 'Sempre sendo referido como "Número 2", o Cultista irá desafiar qualquer um que se meter em seu caminho. Armado com uma Dart Gun, este desafiante não deve ser fácil!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDeixa que eu faço o puzzle da Overdrill...\n\n- Kind',--Kind
+	bm_msk_balaclava_desc = "As armas podem mudar, as ideologias podem mudar e os acentos podem mudar, mas a balaclava tem sido um esteio para criminosos armados e terroristas por décadas. Cobrindo tudo, exceto seus olhos duros de sílex e sua boca cruel e retorcida, também mantém você aquecido quando está frio.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nOutro dia eu tava no autocarro e meu celular começou a vir vídeos no telemovel de uns caras chupando uns as pikas dos outros na casa de banho.\n\n- Muttley, o Angolano",--Muttley
 
 	-- ACHIEVEMENTS (CONQUISTAS REQUISITOS)
 	menu_total_achievements = "Total de Conquistas",
