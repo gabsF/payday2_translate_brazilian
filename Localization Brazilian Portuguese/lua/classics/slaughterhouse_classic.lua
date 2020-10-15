@@ -4,7 +4,7 @@ Hooks:Add("LocalizationManagerPostInit", "porcofudido", function(loc)
 	heist_dinner_hl = "Slaughterhouse",
 	heist_dinner = "Slaughterhouse",
 	heist_dinner_briefing = "A Murkywater esteve movendo algumas coisas pela DC com um comboio por meses. Eu resisti em atrapalhar eles até que aparecesse algo de grande valor. E aqui está. Ouro puro! Consegui um desvio em Woodrow para enganar eles e ir onde a gente quer, depois a gente vai separar o caminhão-forte do comboio. Assim que estiver isolado, vão até lá e roubem tudo. Vamos lá.",
-	heist_dinner_crimenet = "Nós estamos interceptando um comboio nas docas. A carga deles é Ouro. O comboio é da Murkywater. Dúvidas?\n\n» Interceptem o Comboio\n» Roube o Ouro\n» Prepare uma Armadilha\n» Leve o Ouro\n» Fuja",
+	heist_dinner_crimenet = "Nós estamos interceptando um comboio nas docas. A carga deles é Ouro. O comboio é da Murkywater. Dúvidas?\n\n» Intercepte o Comboio\n» Roube o Ouro\n» Prepare uma Armadilha\n» Leve o Ouro\n» Fuja",
 	
 	-- Legendas
 	pln_dn1_intro_01_01 = "...e também na rua 45 em direção ao Sul, houve um acidente grave que congestionou toda a estrada. Está parecendo uma zona de guerra essa manhã, então é melhor você pegar uma estrada mais tranquila.",-- ...and also on the 45 going south, there's been a major accident that's clogging the entire freeway.  It's like a war zone out there this morning so you better take a scenic route.
@@ -132,7 +132,7 @@ Hooks:Add("LocalizationManagerPostInit", "porcofudido", function(loc)
 	vld_dn1_01_03 = "É o Vlad. Que merda vocês estão fazendo nesse Açougue? Deixa, eu não me importo. O que de fato me importa é um pouco especial que tá aí - marcado com um X. É realmente importante que os federais não tenham acesso a ele. Tirem isso daí, e eu vou amar vocês.",--This is Vlad. What are you fuckers doing in that slaughterhouse? Nevermind, I don't care. What I do care about is a special pig there - marked with an X. It's really important that the Fed's don't sniff around it. Get it out of there, and I will love you
 	
 	-- Objetivos
-	hud_heist_dinner_attack_convoy = "Ataque e roube o comboio!",
+	hud_heist_dinner_attack_convoy = "Ataque e Roube o comboio!",
 	hud_heist_dinner_attack_convoy_hl = "Acerte o Comboio",
 	hud_heist_dinner_blow = "Plante a C4 nas portas da van e exploda elas.",
 	hud_heist_dinner_blow_hl = "Exploda as Portas da Van",

@@ -1,3 +1,4 @@
-+ Traduzido a Breakfast in Tijuana
-+ Corrigido uma Descrição do Perk Deck Hitman
-+ Novas Correções de Erros de Tradução
++ Layout de Botões do Controle foram traduzidos
++ Traduzido mais algumas falas na Border Crossing
++ Mais algumas Conquistas foram traduzidas
++ Correções de Tradução

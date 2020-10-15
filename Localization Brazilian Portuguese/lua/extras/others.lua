@@ -582,6 +582,23 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	bm_menu_stats_skill = "Habil.",
 	bm_menu_stats_total = "Total",
 	
+	-- Joystick Botões
+	menu_button_brake = "Freio/Ré",--Brake/Reverse
+	menu_button_steering = "Direção",--Steering
+	menu_button_vehicle_rear_camera = "Olhar para trás",--Look behind
+	menu_button_vehicle_change_camera = "Alterar Modo de Câmera",--Change camera mode
+	menu_button_stats_screen = "Tela da Missão",--Mission Screen
+	menu_ingame_menu = "Menu do Jogo",--IN-GAME MENU
+	menu_button_accelerate = "Acelerar",--Accelerate
+	menu_button_vehicle_exit = "Sair do Veículo",--Exit vehicle
+	menu_button_vehicle_shooting_stance = "Posição de Tiro no Passageiro",--Passenger shooting pose
+	menu_button_handbrake = "Freio de Mão",--Handbrake
+	menu_button_look = "Olhar",--Look
+	menu_button_move = "Mover",--Move
+	menu_button_weapon_gadget_bipod = 'Gadget "Pressionar" ou Colocar/Retirar Bipé "Segurar"',--Gadget "Tap" or Bipod "Hold" on/off
+	menu_button_shout_and_stop = 'Gritar/Interagir "Pressionar" ou Parar IA "Segurar"',--Shout/Interact "Tap" or Stop AI "Hold"
+	menu_button_throw_grenade = "Arremessar Granada",--Throw grenade
+	
 	-- "Carregando a Bolsa"
 	hud_carrying = "Carregando:",
 	hud_carry_cloaker_money = "Dinheiro do Cloaker",--Cloaker Money
@@ -3055,7 +3072,6 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_pp_err_type_disabled = "Desabilitado por outro item colocado.",--This is disabled by another placed item.
 	
 	-- Pausa do jogo
-	menu_ingame_menu = "MENU EM-JOGO",
 	menu_restart_game = "REINICIAR A PARTIDA",
 	dialog_mp_restart_level_host_message = "Você tem certeza que deseja reiniciar?",
 	dialog_dlc_require_restart_desc = "Você precisa reiniciar o PAYDAY 2 para acessar os seus novos itens.",
@@ -3149,6 +3165,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_es_in_custody_reduction = "Em Custódia",
 	menu_es_infamy_bonus = "Bônus de Infamy",
 	menu_es_mission_xp_bonus = "Experiência do Contrato:",
+	menu_number_range = "$min até $max",
 	menu_es_risk_bonus = "Bônus do Risco",
 	menu_es_skill_bonus = "Bônus da Skill",
 	menu_mutators_reduction_exp = "Redução das Mutações",
@@ -3322,6 +3339,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_chat_peer_kicked = "$name foi expulso do jogo.",
 	menu_waiting_peer_info = "Um jogador está esperando para entrar no jogo.\nEle vai spawnar na sua localização assim que você aceitar o pedido.",
 	menu_waiting_peer_left = "$name saiu do jogo.",
+	dialog_request_timed_out_title = "Tempo Esgotado",
+	dialog_request_timed_out_message = "O pedido para se conectar ao jogo expirou.",
 	
 	-- Notificações na Tela
 	hud_hint_gunfire = "Alarme disparado: Câmera detectou um tiro",
@@ -4209,7 +4228,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_gameplay_20 = 'A sub-árvore "Medic" é sobre manter você e os seus alidos em um bom estado.',
 	loading_gameplay_21 = 'A sub-árvore "Controller" é focado em capturar e controlar reféns, incluindo as forças da lei.',
 	loading_gameplay_22 = 'A sub-árvore "Sharpshooter" foca em snipers e tiros de alta precisão.',
-	loading_gameplay_23 = 'A sub-árvore "Shotgunner" providência melhorias à espingardas.',
+	loading_gameplay_23 = 'A sub-árvore "Shotgunner" providencia melhorias para as Shotguns.',
 	loading_gameplay_24 = 'A sub-árvore "Tank" faz você forte e mais resistente.',
 	loading_gameplay_25 = 'A sub-árvore "Ammo Specialist" é focado em munição. Também tem skills que melhoram a serra OVE9000.',
 	loading_gameplay_26 = 'A sub-árvore "Engineer" é focado em usar as sentinelas.',

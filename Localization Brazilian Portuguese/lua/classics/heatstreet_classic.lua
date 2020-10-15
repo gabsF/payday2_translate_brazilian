@@ -37,7 +37,7 @@ Hooks:Add("LocalizationManagerPostInit", "calornasruas", function(loc)
 	pln_run_01_02 = "Vão atrás dele!",
 	pln_run_21_01 = "Anda logo!",
 	pln_run_04_03 = "Eles mataram o piloto! Vocês vão ter que andar a pé!",
-	pln_run_12_01 = "Eita, isso que é dinheiro!",
+	pln_run_12_01 = "Eita, isso que é uma batida!",
 	pln_run_08_04 = "Se concentrem! Vão atrás dele!",
 	pln_run_02_01 = "Ele tá fugindo!",
 	pln_run_25_02 = "Limpem a zona do helicóptero!",

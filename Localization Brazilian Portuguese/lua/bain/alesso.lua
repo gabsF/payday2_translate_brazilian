@@ -208,7 +208,7 @@ Hooks:Add("LocalizationManagerPostInit", "alessoehfoda", function(loc)
 	pyr_al1_17_07 = "Uhhh, só...é, algo fudeu. Consertem, pessoal.",--Ummm, just...yeah, something fucked up. Fix it, you guys.
 	pyr_al1_10_02 = "Façam certo. Puxem!",--Get it right. Push it!
 	pyr_al1_12_01 = "Como vocês conseguem fuder tudo pressionando um botão?!",--How can you fuck up pressin' a goddamn button?!
-	pyr_al1_09_02 = "Tudo certo, dropem!",--All right, drop it!
+	pyr_al1_09_02 = "Tudo certo, apertem!",--All right, drop it!
 	pyr_al1_10_06 = "Chance de redenção. Vão!",--Chance for redemption. Do it!
 	pyr_al1_07_01 = "Cara, isso foi lindo. Muito lindo. Como minha antiga mamãezinha. (sniff)",--Man, that was beautiful. Just beautiful. Like my dear old momma. (sniffs)
 	pyr_al1_18_08 = "Merda quente, tem um fogo ali. Vocês da cabine! Lidem com isso!",--Hot shit, there's a fire up there. You in the booth! Deal with it!
@@ -254,9 +254,9 @@ Hooks:Add("LocalizationManagerPostInit", "alessoehfoda", function(loc)
 	pyr_al1_10_03 = "Foco agora. Apertem!",--Focus this time. Press it!
 	pyr_al1_10_04 = "Olho na bola. Disparem!",--Eye on the ball. Fire it!
 	pyr_al1_10_05 = "Tirem as mãos da piroca, mãos no botão. Agora!",--Hands off dicks, hands on button. Now!
-	pyr_al1_10_07 = "Sem fuder tudo dessa vez. Dropem!",--No fucking it this time. Drop it!
-	pyr_al1_10_08 = "Não fodem com tudo de novo. Vão!",--Don't screw the pooch again. Go!
-	pyr_al1_11_01 = "Você fudeu, filho.",--You fucked it, son.
+	pyr_al1_10_07 = "Sem fuder tudo dessa vez. Apertem!",--No fucking it this time. Drop it!
+	pyr_al1_10_08 = "Não fodem com tudo de novo. Vai!",--Don't screw the pooch again. Go!
+	pyr_al1_11_01 = "Vocês fuderam tudo, filhos.",--You fucked it, son.
 	pyr_al1_11_03 = "Vocês fuderam essa merda muito bem, seus cuzões.",--You screwed that pooch good, asshole.
 	pyr_al1_12_02 = "Vocês estão fazendo um desastre! Alinhem suas merdas, Filhas da puta!",--You're makin' a disaster here! Straighten your shit, motherfuckers!
 	pyr_al1_12_05 = "Cara, vocês são um acidente de trem. Que bagunça do caralho.",--Man, you guys are a train wreck. What a fuckin' mess.
