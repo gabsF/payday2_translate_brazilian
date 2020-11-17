@@ -1,4 +1,6 @@
-+ Traduzido o Story Line
-+ Corrigido Erros de tradução no Basic das Skills THIRD LAW e ECO SENTRY
-+ Novas Correções de Tradução
-+ Mais algumas Conquistas foram traduzidas
++ Traduzido novo Menu de Infamy
++ Traduzido Novos Trajes e Luvas vindos com a última DLC e também as de recompensa de Infamy
++ Traduzido novas funcionalidades vindas com o Update 200 (como os Sons de Entrada)
++ Traduzidos Itens + Assets da nova Heist Buluc's Mansion
++ Diversos Textos que ainda estavam em Inglês foram traduzidos dentro dos Menu's
++ Mais Conquistas foram traduzidas

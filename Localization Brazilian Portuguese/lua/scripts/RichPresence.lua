@@ -131,8 +131,8 @@ if RequiredScript == "lib/managers/platformmanager" then
 			["#State_payday"] =				"PAYDAY: {#Mode_%game:mode%}",
 
 			-- Game modes
-			["#Mode_crime_spree"] =			"[CS] {#Level_%game:heist%} (Lvl. %game:difficulty%)",
-			["#Mode_skirmish"] =			"[HO] {#Level_%game:heist%} (Wave %game:difficulty%)",
+			["#Mode_crime_spree"] =			"[CS] {#Level_%game:heist%} (Nível %game:difficulty%)",
+			["#Mode_skirmish"] =			"[HO] {#Level_%game:heist%} (Onda %game:difficulty%)",
 			["#Mode_heist"] =				"{#Job_%game:heist%} ({#Difficulty_%game:difficulty%})",
 			["#Mode_heist_chain"] =			"{#Job_%game:heist%}, Dia %game:heist_day% ({#Difficulty_%game:difficulty%})",
 
@@ -324,6 +324,7 @@ if RequiredScript == "lib/managers/platformmanager" then
 			["#Level_mex"] = 				"Border Crossing",
 			["#Job_bex"] = 					"San Martín Bank",
 			["#Job_pex"] = 					"Breakfast in Tijuana",
+			["#Job_fex"] = 					"Buluc's Mansion",
 		}
 
 		local data = {

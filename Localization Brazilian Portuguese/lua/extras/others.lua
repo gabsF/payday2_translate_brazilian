@@ -30,6 +30,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_l_global_value_chico = "Esse é um item do Scarface Character Pack!",
 	menu_l_global_value_friend = "Esse é um item do Scarface Heist Pack!",
 	menu_l_global_value_infamous = "Esse é um item de Infamous",
+	menu_l_global_value_inf = "Esse é um item de Infamous",
 	menu_l_infamous = "Esse é um item de Infamous!",
 	menu_infamy_lock_info = "Esse é um item de Recompensa pela Infamy!",
 	menu_l_global_value_pbm = "Esse é um item Locke & Load!",
@@ -105,10 +106,16 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_l_global_value_mwm = "Esse é um item do Cartel Optics Mod Pack!",
 	menu_l_global_value_trd = "Esse é um item do Tailor Pack 1!",
 	menu_l_global_value_mbs = "Esse é um item do Tailor Pack 2!",
+	menu_l_global_value_pgo = "Esse é um item do Tailor Pack 3!",
 	menu_l_global_value_wcs = "Esse é um item do Weapon Color Pack 1!",
 	menu_l_global_value_wcc = "Esse é um item do Weapon Color Pack 2!",
+	menu_l_global_value_ocp = "Esse é um item do Weapon Color Pack 3!",
 	menu_l_global_value_shl = "Esse é um item do Holdout!",
 	menu_l_global_value_anv = "Esse é um item do Anniversary 2020!",
+	menu_l_global_value_afp = "Esse é um item do Federales Weapon Pack!",
+	menu_l_global_value_atw = "Esse é um item do Fugitive Weapon Pack!",
+	menu_l_global_value_mxw = "Esse é um item do Gunslinger Weapon Pack!",
+	menu_l_global_value_svc = "Esse é um item do Cofre Social Raro!",
 	bm_global_value_complete_overkill_pack_unlock = "Compre o Completely OVERKILL Pack DLC para desbloquear!",
 	bm_global_value_pdcon_2015_unlock = "Requer o PAYDAY 2: PAYDAYCON 2015 Secret Mask para desbloquear!",
 	bm_global_value_humble_pack2_unlock = "Requer o PAYDAY 2: Humble Mask Pack 2 para desbloquear!",
@@ -396,6 +403,12 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_player_column_one_title = "Personagem",
 	menu_player_column_two_title = "Armas",
 	menu_player_column_three_title = "Skills",
+	menu_join_stinger_title = "$button Selecionar Som de Entrada",
+	menu_join_stinger_choice = "Som de Entrada",
+	menu_join_stinger_choice_help = "Som de Entrada é um som que toca para seus companheiros de equipe quando você se junta a um jogo.",
+	menu_join_stinger_rewards_left = "Mais poderão ser encontrados nas recompensas de infamy",
+	menu_st_suspended_points_skill_switch = "Suspenso: Requer $Points Pontos de Skill",
+	menu_st_unsuspend_skill_switch = "Não Suspenso",
 	
 	-- Boosts do BOT
 	bm_menu_btn_select = "Selecionar",
@@ -493,6 +506,20 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	
 	-- Infamy
 	menu_infamy_rank = "Nível $rank de Infamy",
+	menu_infamy_help = "Seja Infamous e aumente o seu nível de Infamy. Recompensas especiais estão disponíveis para níveis de Infamy 1 ao 100.",
+	menu_infamy_banner_unlock = "Desbloqueado no Infamy $rank.",
+	menu_infamy_go_infamous_error_crime_spree = "Você não pode se tornar infamous quando tem uma Crime Spree ativa",
+	menu_infamy_go_infamous_error_level = "Você precisa ser nível 100 para tornar-se infamous.",
+	menu_infamy_button_go_infamous = "[Tornar-se Infamous]",
+	menu_infamy_infamy_panel_infamy_level = "Infamy atual: $infamy",
+	menu_infamy_infamy_panel_reputation_level = "Reputação atual: $reputation",
+	menu_infamy_coming_soon_title = "CHEGANDO EM BREVE!",
+	menu_infamy_coming_soon_desc = "As recompensas para nível de infamy 66 até 100 serão lançadas em um futuro update. Você ainda poderá ganhar níveis e as recompensas serão resgatadas uma vez que sejam adicionadas ao jogo.",
+	menu_infamy_coming_soon = "Mais recompensas chegarão em breve",
+	menu_infamy_join_stinger_desc = "Um som de entrada infamy poderá ser selecionado para tocar ao se juntar a um jogo. Apenas os criminosos mais experientes poderão realizar uma entrada tão épica.",
+	menu_infamy_weapon_color_desc = "Uma cor de arma infamy para colocar em suas armas. Apenas os criminosos mais experientes poderão usar um hardware tão espetácular.",
+	menu_infamy_suits_desc = "Um traje especial de infamy que possa ser usado em seu personagem. Apenas os criminosos mais experientes poderão usar um conjunto tão glorioso.",
+	menu_infamy_gloves_desc = "Uma luva especial de infamy que possa ser usada em seu personagem. Apenas os criminosos mais experientes poderão usar luvas tão incríveis.",
 	st_menu_infamy_available_points = "Tem $points ponto(s) de Infamy disponível(eis).",
 	menu_infamy_total_xp = "Bônus de XP com Infamy: $xpboost%",
 	menu_infamytree = "Árvore de Infamy",
@@ -509,7 +536,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_infamy_name_xp = "Mais Experiência",
 	menu_infamy_desc_xp = "A Experiência ganha é aumentada em ##10%##.",
 	menu_infamy_name_root = "Desbloqueando a Árvore de Infamy",
-	menu_infamy_desc_root = "Como um novato chegando à elite criminal, a primeira coisa dos negócios é você conseguir o equipamento e fãs sabendo do seu status.\n\nBÔNUS:\nA base de drop de infamy é aumentada de ##0.3%## para ##0.6%##.\nA Experiência ganha é aumentada em ##5%##.\n\nITENS:",
+	menu_infamy_desc_root_new = "Como um novato chegando à elite criminal, a primeira coisa dos negócios é você conseguir o equipamento e fãs sabendo do seu status.\n\nBÔNUS:\nOs Requerimentos de Pontos de Skill para cada fileira (Mastermind, Enforcer, Technician, Ghost e Fugitive) serão reduzidos em ##10%##.\nSua taxa de drop para itens Infamy aumentam de ##0.3%## para ##0.6%##.\nA Experiência ganha é aumentada em ##5%##.\n\nITENS:",
 	menu_infamy_name_ranger = "Assaltante de Sentinela",
 	menu_infamy_desc_ranger = "Intimidador e perfeito quando se tem um cabelo ruim.\n\nBÔNUS:\nA Experiência ganha é aumentada em ##7.5%##.\n\nITENS:",
 	menu_infamy_name_punk = "O Ser",
@@ -527,13 +554,16 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_infamy_name_lurker = "Quietinho",
 	menu_infamy_desc_lurker = "Algo que você não vai gostar de achar em um beco escuro.\n\nBÔNUS:\nA Experiência ganha é aumentada em ##7.5%##.\n\nITENS:",
 	menu_infamy_name_mastermind = "Set do Corrompido",
-	menu_infamy_desc_mastermind = "Conhecido em causar caos de moral e fazer o xerife de bobo.\n\nBÔNUS:\nOs requisitos de pontos de skills de ##Mastermind## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
+	menu_infamy_desc_mastermind_new = "Conhecido em causar caos de moral e fazer o xerife de bobo.\n\nBÔNUS:\nA Experiência ganha é aumentada em ##5%##.\n\nITENS:",
 	menu_infamy_name_ghost = "Set do Assassino",
-	menu_infamy_desc_ghost = "O assassino moderno que carrega as sentenças das nossas mortes, pelo preço certo.\n\nBÔNUS:\nOs requisitos de pontos de skills de ##Ghost## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
+	menu_infamy_desc_ghost_new = "O assassino moderno que carrega as sentenças das nossas mortes, pelo preço certo.\n\nBÔNUS:\nA Experiência ganha é aumentada em ##5%##.\n\nITENS:",
 	menu_infamy_name_enforcer = "Set de Açougueiro",
-	menu_infamy_desc_enforcer = "Usado em crimes que precisa do ##Enforcer## para fazer o trabalho sujo.\n\nBÔNUS:\nOs requisitos de pontos de skills de ##Enforcer## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
+	menu_infamy_desc_enforcer_new = "Usado em crimes que precisa do ##Enforcer## para fazer o trabalho sujo.\n\nBÔNUS:\nA Experiência ganha é aumentada em ##5%##.\n\nITENS:",
 	menu_infamy_name_technician = "Set de Ingênio",
-	menu_infamy_desc_technician = "Frio, calculista e um mestre de sumiços forçados. Morto ou Vivo.\n\nBÔNUS:\nOs requisitos de pontos de skills de ##Technician## e ##Fugitive## são reduzidos em ##10%##.\nA Experiência ganha é aumentada em ##5%##.\n\nNota: Essas reduções não somam.\n\nITENS:",
+	menu_infamy_desc_technician_new = "Frio, calculista e um mestre de sumiços forçados. Morto ou Vivo.\n\nBÔNUS:\nA Experiência ganha é aumentada em ##5%##.\n\nITENS:",
+	menu_infamy_box_title = "RECOMPENSA DE INFAMY",
+	menu_infamy_box_description = "Alcance esse nível de Infamy para desbloquear algo especial!",
+	menu_dialog_become_infamous_3_above_5 = "Se você prosseguir, o seu nível de reputação será resetado para o nível 0. O seu primeiro skill set será resetado, e todos os outros skill sets serão suspensos até que você tenha pontos suficientes para usá-los novamente ou até que você decida redefini-los. Todos os profiles serão atribuidos para usar skill sets resetadas. Se você tiver uma arma equipada com bloqueio de nível 1 ou superior, ela será substituída por uma arma sem bloqueio de nível. Se essa arma não estiver disponível, você receberá uma AMCAR e/ou uma Chimano 88. Seus profiles irão manter máscaras, trajes e perk decks atribuidos anteriormente.\n\nIsso será irreversível, e você NÃO PODERÁ recuperar o que sacrificou.\n\nVocê poderá manter todas as suas armas, mods, máscaras, desenhos e materiais. O dinheiro de sua Conta Offshore permanecerá. Você ganhará um nível de Infamy, se estiver em um nível de infamy 100 ou abaixo, você também irá receber uma recompensa de Infamy.",
 	
 	-- Discord RP
 	-- discord_rp_single_end_details = "TranslationHere",--$heist; $day;
@@ -751,6 +781,11 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_int_equipment_chimichanga = "Chimichanga",--Chimichanga
 	hud_equipment_loaded_card = "Cartão RFID",
 	hud_equipment_loaded_card_lvl_2 = "Cartão RFID",
+	hud_equipment_fertilizer = "Fertilizante",
+	hud_equipment_globe = "Globo",
+	hud_equipment_scythe = "Foice",
+	hud_equipment_alarm_clock = "Despertador",
+	hud_equipment_wire = "Fios",
 	
 	-- Outros Interagindo
 	hud_opening_cas_briefcase = "Abrindo a Maleta",--Opening the briefcase
@@ -1097,6 +1132,13 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_action_take_fingerprint = "Obtendo as Impressões Digitais",--Lifting Fingerprints
 	hud_action_disabling_alarm = "Desativando o Alarme",--Disabling the alarm
 	hud_action_destroying_evidence = "Destruindo a Evidência",--Destroying evidence
+	hud_action_take_churros = "Pegando os Churros",
+	hud_action_take_fertilizer = "Pegando o Fertilizante",
+	hud_action_take_fex_harddrive = "Pegando a Lista de Contatos",
+	hud_action_prop_wall_lamp = "Inspecionando a Lâmpada",
+	hud_action_inspect_bookshelf = "Inspecionando a Estante",
+	hud_action_searching_for_clue = "Procurando por Pista",
+	hud_action_placing_gas_can = "Colocando o Galão de Gasolina",
 	
 	-- Interações
 	debug_interact_sentry_gun_reload = "Segure $BTN_INTERACT para recarregar a Sentinela$NL;( Munição Restante: $AMMO )",--Hold $BTN_INTERACT; to reload Sentry Gun$NL;( Ammo Remaining: $AMMO; )
@@ -1768,6 +1810,47 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	press_insert_keycard = "Pressione $BTN_INTERACT para inserir o Cartão de Acesso",--Press $BTN_INTERACT; to insert keycard
 	hud_hack_ship_control = "Segure $BTN_INTERACT para hackear o terminal de controle do navio",--Hold $BTN_INTERACT; to hack the ship control terminal
 	hud_int_armory_hack = "Segure $BTN_INTERACT para colocar o dispositivo de hackeamento",--
+	hud_hold_scan_hand = "Segure $BTN_INTERACT para escanear a mão",--Hold $BTN_INTERACT; to scan hand
+	hud_int_take_fex_harddrive = "Segure $BTN_INTERACT para pegar a lista de contatos",
+	hud_int_hold_take_churros = "Segure $BTN_INTERACT para pegar os Churros",
+	hud_int_hold_take_fertilizer = "Segure $BTN_INTERACT para pegar o fertilizante",
+	hud_int_hold_to_place_fertilizer = "Segure $BTN_INTERACT para colocar o fertilizante",
+	hud_int_hold_take_scythe = "Segure $BTN_INTERACT para pegar a foice",
+	hud_int_hold_to_place_scythe = "Segure $BTN_INTERACT para colocar a foice",
+	hud_int_hold_take_wire = "Segure $BTN_INTERACT para pegar os fios",
+	hud_int_hold_to_place_wire = "Segure $BTN_INTERACT para colocar os fios",
+	hud_int_hold_take_globe = "Segure $BTN_INTERACT para pegar o globo",
+	hud_int_hold_to_place_globe = "Segure $BTN_INTERACT para colocar o globo",
+	hud_hold_prop_wall_lamp = "Segure $BTN_INTERACT para inspecionar a lâmpada",
+	hud_hold_search_for_clue = "Segure $BTN_INTERACT para procurar por uma pista",
+	hud_hold_inspect_bookshelf = "Segure $BTN_INTERACT para inspecionar a estante",
+	hud_hold_interact_view_mask_list = "Segure $BTN_INTERACT para exibir a lista de compra de máscara",
+	hud_int_hold_take_alarm_clock = "Segure $BTN_INTERACT para pegar o Despertador",
+	hud_int_hold_to_place_alarm_clock = "Segure $BTN_INTERACT para colocar o Despertador",
+	hud_press_snake_button = "Pressione $BTN_INTERACT para empurrar o símbolo da Cobra",
+	hud_press_millipede_button = "Pressione $BTN_INTERACT para empurrar o símbolo da Centopéia",
+	hud_press_boar_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Javali",
+	hud_press_dog_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Cachorro",
+	hud_press_monkey_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Macaco",
+	hud_press_crocodile_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Crocodilo",
+	hud_press_butterfly_button = "Pressione $BTN_INTERACT para empurrar o símbolo da Borboleta",
+	hud_press_crab_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Caranguejo",
+	hud_press_owl_button = "Pressione $BTN_INTERACT para empurrar o símbolo da Coruja",
+	hud_press_bunny_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Coelho",
+	hud_press_spider_button = "Pressione $BTN_INTERACT para empurrar o símbolo da Aranha",
+	hud_press_lizard_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Lagarto",
+	hud_press_snail_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Caracol",
+	hud_press_frog_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Sapo",
+	hud_press_fish_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Peixe",
+	hud_press_bat_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Morcego",
+	hud_press_turtle_button = "Pressione $BTN_INTERACT para empurrar o símbolo da Tartaruga",
+	hud_press_ant_button = "Pressione $BTN_INTERACT para empurrar o símbolo da Formiga",
+	hud_press_jaguar_button = "Pressione $BTN_INTERACT para empurrar o símbolo da Onça",
+	hud_press_squirrel_button = "Pressione $BTN_INTERACT para empurrar o símbolo do Esquilo",
+	hud_hold_center_button = "Segure $BTN_INTERACT para empurrar o símbolo do Centro",
+	hud_int_hold_take_diesel = "Segure $BTN_INTERACT para pegar o Diesel",
+	hud_int_hold_to_place_diesel = "Segure $BTN_INTERACT para colocar o Diesel",
+	hud_hold_assemble_bomb = "Segure $BTN_INTERACT para montar os explosivos",
 	
 	-- Caixas de confirmações + Notificações do SISTEMA
 	dialog_cancel = "Cancelar",
@@ -1836,6 +1919,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	dialog_ask_load_progress_backup_wrong_version = "Versão inválida do Perfil de Progresso. Carregar do Backup? Escolher NÃO irá excluir o seu progresso.",--Progress profile wrong version. Load from Backup? Chosing NO will delete your progress.
 	dialog_ask_load_progress_backup_corrupt = "Perfil de Progresso corrompido. Carregar do Backup? Escolher NÃO irá excluir o seu progresso.",--Progress profile corrupt. Load from Backup? Chosing NO will delete your progress.
 	dialog_fail_load_progress_corrupt = "Progresso corrompido. Os Dados serão excluidos agora.",--Progress corrupt. Data will now be deleted.
+	dialog_unsuspend_title = "Skill Set Não Suspenso",
+	dialog_unsuspend = "Esse Set de Skills está suspenso. Você poderá resetar todos os pontos de skill para fazê-lo ficar disponível para uso novamente. Você gostaria de resetar $Name?",
 	
 	-- Tela de Título
 	menu_visit_forum3 = "Pressione qualquer botão",
@@ -2123,6 +2208,10 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_color_blind_hit_direction_help = "Deixe ligado ou desligado os efeitos de Indicadores de Dano para Daltônicos.",
 	menu_user_interface_option_default = "Opções de Interface do Usuário Padrão",
 	menu_user_interface_option_default_help = "Reseta as opções de Interface do Usuário para o seu estado padrão.",
+	menu_toggle_infamy_roman_rank = "Números Romanos no Nível Infamy",
+	menu_toggle_infamy_roman_rank_help = "Use números romanos para mostrar o seu nível Infamy próximo ao seu nível de Jogador.",
+	menu_toggle_infamy_roman_card = "Números Romanos na Carta Infamy",
+	menu_toggle_infamy_roman_card_help = "Use números romanos para mostrar o seu nível Infamy na Carta de Infamy.",
 	
 	-- HUD
 	menu_achievements_tracking_notify = "MONITORANDO",
@@ -3058,6 +3147,35 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_pp_asset_pex_open_window = "Janela Aberta",
 	menu_pp_asset_pex_open_window_desc = "Um zelador foi subornado para deixar uma janela aberta.",
 	menu_pp_pex_window = "Janela do Estacionamento",
+	menu_pp_asset_fex_loud_escape_with_car = "Fuga pelo Carro (Loud)",
+	menu_pp_asset_fex_loud_escape_with_car_desc = "Fuja da Mansão do Buluc através de um Carro.",
+	menu_pp_asset_fex_loud_escape_with_heli = "Fuga pelo Helicóptero (Loud)",
+	menu_pp_asset_fex_loud_escape_with_heli_desc = "Fuja da Mansão do Buluc com a ajuda do Bile através de um Helicóptero.",
+	menu_pp_cat_entry_plan_generic = "Plano de Entrada",
+	menu_pp_cat_entry_plan_generic_desc = "Escolha o seu plano de entrada.",
+	menu_pp_asset_fex_stealth_entry_with_thermite = "Entrada por Thermite (Stealth)",
+	menu_pp_asset_fex_stealth_entry_with_thermite_desc = "Infiltre-se na Mansão do Buluc derretendo o portão da frente com uma Thermite.",
+	menu_pp_asset_fex_stealth_entry_with_boat = "Entrada pelo Barco (Stealth)",
+	menu_pp_asset_fex_stealth_entry_with_boat_desc = "Infiltre-se na Mansão do Buluc com a ajuda de um Barco.",
+	menu_pp_fex_camera_access_001 = "Entrada da Frente",
+	menu_pp_fex_camera_access_002 = "Adega",
+	menu_pp_fex_deaddrop001 = "Fonte",
+	menu_pp_fex_deaddrop002 = "Pátio",
+	menu_pp_fex_deaddrop003 = "Garagem",
+	menu_pp_fex_deaddrop004 = "Garagem",
+	menu_pp_fex_deaddrop005 = "Pátio",
+	menu_pp_fex_deaddrop006 = "Banheiro",
+	menu_pp_fex_deaddrop007 = "Banheiro",
+	menu_pp_fex_deaddrop009 = "Cantina",
+	menu_pp_fex_deaddrop012 = "Corredor",
+	menu_pp_fex_spotter_001 = "Pátio",
+	menu_pp_fex_spotter_002 = "Garagem",
+	menu_pp_fex_spotter_003 = "Cantina",
+	menu_pp_fex_stealth_semi_open_garage_door_001 = "Garagem",
+	menu_pp_fex_bpr_loc_a = "Térreo",
+	menu_pp_fex_bpr_loc_b = "Andar Superior",
+	menu_pp_asset_fex_stealth_semi_open_garage_door = "Porta Semi-Aberta da Garagem (Stealth)",
+	menu_pp_asset_fex_stealth_semi_open_garage_door_desc = "Um amigo facilitará sua entrada na Mansão.",
 	menu_asset_gage_assignment = "Pacotes do Gage Courier",
 	menu_loadout = "Equipamentos",
 	menu_team_loadout = "Equip. da Equipe",
@@ -3585,6 +3703,12 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_interact_take_fingerprint = "Você precisa de uma Fita",
 	hud_equipment_pex_need_keys = "Você precisa das Chaves do Carro",
 	hud_equipment_liquid_nitrogen = "Você precisa de Nitrogênio Líquido",--You need liquid nitrogen
+	hud_equipment_need_barcode = "Você precisa de um Código de Barra",--You need a barcode
+	hud_int_hint_alarm_clock = "Necessário Despertador",
+	hud_int_hint_diesel = "Necessário Diesel",
+	hud_int_hint_fertilizer = "Necessário Fertilizante",
+	hud_int_hint_scythe = "Necessário Foice",
+	hud_int_hint_wire = "Necessário Fios",
 	
 	-- Crime.net
 	cn_menu_num_players_online = "Crime.net/usuários_online: $amount",

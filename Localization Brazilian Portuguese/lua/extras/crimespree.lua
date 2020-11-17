@@ -15,6 +15,7 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	menu_toggle_player_huds_help = "Habilita ou desabilita a HUD.",--Turns the HUD on or off.
 	menu_clear_crime_spree_record = "Apagar Progresso da Crime Spree",--Clear Crime Spree Progress
 	menu_clear_crime_spree_record_help = "Isso irá apagar o seu level máximo de Crime Spree.",--This will clear your maximum Crime Spree level
+	menu_cs_not_in_progress_join_lobby_desc = "Você deverá iniciar uma Crime Spree se quiser ganhar recompensas ao completar missões.",--You must start a Crime Spree if you wish to gain any rewards from completing missions.
 	
 	-- Pausa em Jogo
 	menu_end_crime_spree = "Abandonar a Crime Spree",
