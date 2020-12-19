@@ -5,7 +5,7 @@
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/_gab_foxJaketto_/",
-	"version" : "5.04",
+	"version" : "6.00",
 	"blt_version" : 2,
 	"updates" : [
 		{ 
@@ -19,6 +19,7 @@
 		{ "hook_id" : "lib/utils/lightloadingscreenguiscript", "script_path" : "lua/scripts/lightloadingscreenguiscript.lua" },
 		{ "hook_id" : "lib/managers/platformmanager", "script_path" : "lua/scripts/RichPresence.lua" },
 		{ "hook_id" : "lib/managers/skirmishmanager", "script_path" : "lua/scripts/RichPresence.lua" },
+		{ "hook_id" : "lib/managers/menumanager", "script_path" : "lua/scripts/menumanager.lua" }
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/scripts/beardlibforcebrazilian.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/events/halloween.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/extras/modifiers.lua" },
@@ -59,6 +60,7 @@
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/vlad/aftershock.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/vlad/goat.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/vlad/sanmartin.lua" },
+		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/vlad/buluc.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/classics/greenbridge_classic.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/classics/heatstreet_classic.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/classics/diamond_classic.lua" },

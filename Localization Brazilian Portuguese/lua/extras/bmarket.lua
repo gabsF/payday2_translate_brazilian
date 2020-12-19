@@ -154,6 +154,8 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_suit_var_t800_toughboy_desc = "Essa combinação de preto e branco é provavelmente mais adequada para os criminosos que não gostam de se sujar.",--This black and white combo is probably best suited for those heisters who don't like rolling around in the muck.
 	bm_suit_var_t800_red_desc = "Mostre seu infamy em uma roupa de couro vermelho justa.",--Show your infamy in a bold statement of red leather.
 	bm_suit_var_t800_cowboy_desc = "A cavalo ela veio, a assaltante que estava de olho no bar local depois de dias difíceis roubando.",--On horseback she came, the heister who had her eye on the local saloon after a hard days robbing.
+	bm_suit_badsanta_desc = 'Vamos encará-lo, galera. Se o Papai Noel descer pela nossa chaminé vestindo essa coisa, ele não vai trazer nada de bom pra vocês. E é provável que ele se sirva de mais do que leite e biscoitos. Mas ei, como o Bain costumava dizer: "Essa temporada é para marcar!"',
+	bm_suit_candycane_desc = 'Os duendes do Papai Noel entraram em greve! Nenhum brinquedo está sendo feito no Polo Norte este ano! Espalhe a alegria e ajude o Papai Noel vestindo sua roupa enquanto recebe "doações" de todos os bancos, joalherias e cofres de todo o país, para que nenhum ladrãozinho leve carvão em sua meia!',
 	
 	-- LUVAS
 	bm_gloves_default_desc = "Use as Luvas padrão dos Heisters",--Use the heisters default gloves
@@ -207,6 +209,8 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	dialog_blackmarket_mod_add = "Você está prestes a adicionar a modificação $mod em sua arma.",--You are about to add modification $mod; to your weapon.
 	dialog_blackmarket_mod_replace = "Isso substituirá a sua modificação atual $mod.",--This will replace your current modification $mod;.
 	dialog_weapon_cosmetics_remove = "Você está prestes a remover a skin de arma $cosmetic de sua arma.",--You are about to remove weapon skin $cosmetic; from your weapon.
+	dialog_blackmarket_slot_item_sell = "Se você vender isto, você receberá de volta $money.",--If you sell this, you will be paid $money;.
+	dialog_blackmarket_slot_mask_remove_suffix = "Customizações serão vendidas por $money.",--Customizations will be sold for $money;.
 	dialog_bm_purchase_mod_cant_afford = "Você não possui Moedas Continentais para comprar $name.$NL;$NL;Você precisa de $money Moedas Continentais.",--You do not have enough Continental Coins to purchase $name;.$NL;$NL;You need $money; Continental Coins.
 	dialog_blackmarket_mod_cost = "Isso irá custar para você $money.",--This will cost you $money;.
 	dialog_blackmarket_num_in_inventory = "Você já possui $amount $item.",--You own $amount; $item; already.
@@ -219,7 +223,7 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_menu_chosen = "Marcado",--Selected
 	bm_menu_preview_mods = "Visualizar os Mods",--Preview Mods
 	bm_menu_mod_preview = "Visualizar Mod",--Mod Preview
-	dialog_blackmarket_buy_item = "Você realmente deseja comprar $item?$NL;$NL;Isso irá custar para você $money.$NL;$num_in_inventory",--Do you really want to buy $item;?$NL;$NL;It will cost you $money;.$NL;$NL;$num_in_inventory;
+	dialog_blackmarket_buy_item = "Você realmente deseja comprar $item?$NL;$NL;Isso irá custar para você $money.",--Do you really want to buy $item;?$NL;$NL;It will cost you $money;.$NL;$NL;$num_in_inventory;
 	bm_menu_cannot_buy_weapon_slot = "Fundos Insuficientes",--Insufficient funds
 	bm_menu_locked_weapon_slot_desc = "Esse slot de arma precisará ser desbloqueado antes que você possa colocar qualquer arma aqui!",--This weapon slot needs to be unlocked before you can place any weapons here!
 	bm_menu_customizable_weapon_color = "Cor Customizada",
@@ -297,11 +301,15 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_wp_upg_fl_x400v_desc = "Ligue ou desligue pressionando o botão $BTN_GADGET.",--Turn it on/off by pressing $BTN_GADGET;.
 	bm_wpn_fps_upg_o_45steel_desc = "Ligue ou desligue pressionando o botão $BTN_GADGET.",
 	bm_wpn_fps_upg_o_sig_desc = "Ligue ou desligue pressionando o botão $BTN_GADGET.",
+	bm_wp_mosin_ns_bayonet_desc = "Aumenta o dano de arma Corpo-a-Corpo e o Impacto enquanto usa a coronha da arma.",
 	bm_menu_btn_switch_reticle = "Trocar Retículo",--Switch reticle
 	bm_menu_btn_customize_gadget = "Customizar Gadget",--Customize Gadget
 	bm_menu_laser_hue = "Laser Matiz",--Laser Hue
 	bm_menu_laser_sat = "Laser Saturação",--Laser Saturation
 	bm_menu_laser_val = "Laser Valor",--Laser Value
+	bm_menu_flashlight_hue = "Lanterna Matiz",--Flashlight Hue
+	bm_menu_flashlight_sat = "Lanterna Saturação",--Flashlight Saturation
+	bm_menu_flashlight_val = "Lanterna Valor",--Flashlight Value
 	menu_reticle_type = "Tipo",
 	menu_reticle_1_s = "Ponto 1",
 	menu_reticle_1_m = "Ponto 2",
@@ -410,6 +418,7 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_menu_btn_choose_color_a = "Escolher Cor Primária",
 	bm_menu_btn_choose_color_b = "Escolher Cor Secundária",
 	bm_menu_buy_mask_title = "Loja de Máscaras",
+	bm_menu_btn_stop_move = "Cancelar",
 	
 	-- DESCRIÇÃO DAS MÁSCARAS + EASTER EGGs (Descrições de Máscaras + Homenagens a jogadores participantes desse projeto e de outras lendas)
 	bm_msk_dnm_desc = "Uma coisa estranha, um crânio humano. É simples e bonito. Os Humanos muitas vezes podem reconhecer um crânio humano, mesmo que seja apenas parcialmente mostrado. O cérebro humano inclusive tem uma área especial para ele.$NL;$NL;Você terminou todas as Heists na dificuldade Normal? O que é você, algum tipo de gangster? Talvez esta máscara seja realmente adequada para você.",--Normal Mask
@@ -443,7 +452,7 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_donald_desc = "Político, Comandante-chefe, pai. Ele terá a ambição de servir a essa grande nação por 8 anos. Um homem que fala bastante, sem dúvida.$NL;$NL;O 45° é um dos presidentes mais controversos da história. Entre os criminosos, no entanto, ele continua extremamente popular.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nVão trabalhar pra pagar o meu salário, cambada de vagabundo!\n\n- Bruno, Primeiro MINISTRO",--BrunoMinistro
 	bm_msk_skm_02_desc = "Com cera, sem cera. Gire para o conteúdo do seu coração enquanto desaparece na noite nebulosa com sua generosidade e risada.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nO bigode mais bem cuidado da mulher mais barbada do Payday!\n\n- YungHusky",--YungHusky
 	bm_msk_joy_desc = 'Traga de volta o estilo Discoteca e confunda os seus inimigos quando eles olharem diretamente para o seu rosto fabulosamente chamativo.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n"Se eu tiver que escolher entre um mal e outro, prefiro nem escolher."\n\n- WalkingJohnn',--WalkingJohnn
-	bm_msk_anonymous_desc = 'Vista a máscara, torne-se anônimo e faça o que quiser.$NL;$NL;Faça isso por vontade própria, faça isso por que foi mandado ou faça isso pelo lulz.$NL;$NL;Faça todas as coisas que a sociedade não permite. É como roubar um banco.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nJoy é uma ótima hacker, porém nunca comentou com ninguém sobre um contato que ela tinha no Brasil. Essa máscara foi usada por um antigo contato de Joy que a ajudou em sua trajetória. Nunca foi dito o seu verdadeiro nome, mas diz a lenda que ele atua hoje em uma plataforma de streaming e que também junto com o "Pepino" fazem grandes assaltos diariamente\n\n- twitch.tv/christyansouza',--ChristyanSouza
+	bm_msk_anonymous_desc = 'Vista a máscara, torne-se anônimo e faça o que quiser.$NL;$NL;Faça isso por vontade própria, faça isso por que foi mandado ou faça isso pelo lulz.$NL;$NL;Faça todas as coisas que a sociedade não permite. É como roubar um banco.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nJoy é uma ótima hacker, porém nunca comentou com ninguém sobre um contato que ela tinha no Brasil. Essa máscara foi usada por um antigo contato de Joy que a ajudou em sua trajetória. Nunca foi dito o seu verdadeiro nome, mas diz a lenda que ele atua hoje em uma plataforma de streaming e que também junto com o "Pepino" fazem grandes assaltos diariamente.\n\n- twitch.tv/christyansouza',--ChristyanSouza
 	bm_msk_war_desc = "O Segundo cavaleiro do apocalipse é a guerra e o espírito violento da humanidade. War acredita que os humanos são naturalmente perversos e que não precisam de um motivo real para lutar ou matar. Ele montou em um cavalo vermelho de fogo, sugerindo que o sangue fluiria aonde quer que fosse.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nQuando o cara é macho ele joga de Joy, usa Peter pintado de rosa e segue o twitch.tv/napajumento\n\n- Napajumento",--Napajumento
 	bm_msk_eng_02_desc = "O Robô era um membro honrado do exército Killbot. Quando comandado por seu mestre, EMP-R0R, para matar o líder da resistência humana, ele quebrou o protocolo, não conseguindo eliminar a humanidade.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nConsidere um investimento. Eu irei criar uma nova forma de entretenimento! Pense, a magia, o drama, a verdadeira paixão e devoção daqueles que participam. Quero ver a escória da sociedade livre e ativa apenas para ver o CAOS E A DESORDEM EM ESCALA DESUMANA COM A CIDADE CHEIA DE CHAMAS E COBERTA PELOS CORPOS DAQUELES QUE TENTARAM DEFENDÊ-LA! E não esquecer de pegar uma grana extra, sempre bom.\n\n- EmiQuatru [o.O]",--emiQuatro
 	bm_msk_bodhi_begins_desc = 'Essa é a versão limpa da icônica máscara do Bodhi, antes de ser pintada.$NL;$NL;Nunca gostou de como a original ficou? Esta é sua chance de mudar isso.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n"Em vez de Aventura, encontramos o medo. E na guerra, o único ponto em comum é a morte."\n\n- SNOWOVSKI',--snow
@@ -452,6 +461,10 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_msk_eng_03_desc = 'Sempre sendo referido como "Número 2", o Cultista irá desafiar qualquer um que se meter em seu caminho. Armado com uma Dart Gun, este desafiante não deve ser fácil!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDeixa que eu faço o puzzle da Overdrill...\n\n- Kind',--Kind
 	bm_msk_balaclava_desc = "As armas podem mudar, as ideologias podem mudar e os acentos podem mudar, mas a balaclava tem sido um esteio para criminosos armados e terroristas por décadas. Cobrindo tudo, exceto seus olhos duros de sílex e sua boca cruel e retorcida, também mantém você aquecido quando está frio.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nOutro dia eu tava no autocarro e meu celular começou a vir vídeos no telemovel de uns caras chupando uns as pikas dos outros na casa de banho.\n\n- Muttley, o Angolano",--Muttley
 	bm_msk_smo_05_desc = "Ao usar essa máscara, você pode sempre fingir que as granadas que você está jogando nos policiais são barris. Eles não vão gostar, mas talvez isso quebre a monotonia de explodir coisas!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nPoucos sabem sua origem, mas uns dizem que o MAMACO Chief surgiu igual a MMT... da completa e absoluta falta do que fazer!\n\n- OnyxHunter25",--Onyx
+	bm_msk_vlad_armor_desc = "Hey! Palhaços da Payday! Vlad aqui com um pouco da terra-mãe. Eu usei essa merda pesada durante todos os meus dias em Donetsk. Não é bonito como suas máscaras delicadas americanas, mas me manteve seguro!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nSe tu usar a Vlad Armor com uniforme da murkywater vc vai fazer um combinação irada! Você vai se sentir um soldado russo fudendo com os americanos.\n\n- IAN",--IAN
+	bm_msk_clown_56_desc = "Essa máscara possui uma aparência horrível, uma estrutura facial ossuda e pele desidratada.$NL;$NL;É o tipo de máscara que cria pesadelos.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nParece assustador, mas lembre-se que você não ta se vendo no espelho!!\n\n- weberth22",--weberth22
+	bm_msk_jfr_03_desc = "Kurgan não usa uma máscara de gás para o proteger dos ares da guerra. Ele o usa para manter as chamas da fúria dentro. Traído pelo seu próprio lado, Kurgan mal sobreviveu a uma emboscada de incendiários blindados. Dentro da máscara, há apenas o cheiro de sua própria carne imolada, um lembrete para sempre o lembrar de não confiar em ninguém.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nUtilizada por uma pessoa que só gosta de jogar de Anarchist, e que é extremamente ruim de Dodge. Como alguém pode ser ruim de Dodge? PQP!\n\n- LastTrollEver - twitch.tv/blackstyphon",--LastTrollEver - twitch.tv/blackstyphon
+	bm_msk_cloth_commander_desc = "Commander Crime é um personagem fictício americano, um supervilão e o líder supremo da rede criminosa C.R.I.M.E. que aparece nos quadrinhos da OVERKILL Comics.$NL;$NL;O Personagem foi criado pelo agora renomado escritor-editor-artista e jogador profissional de Badminton Max Elmberg Sjöholm.$NL;$NL;Commander Crime fez sua primeira aparição em The Amazing Career Criminals. A Gangue PAYDAY recebeu da C.R.I.M.E. uma oferta que eles não poderiam recusar!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nO usuário dessa máscara odeia os pagers! Com essa máscara de fantasma, não preciso mais responder pagers pois ninguém vai me ver.\n\n- renanol",--renanol
 
 	-- ACHIEVEMENTS (CONQUISTAS REQUISITOS)
 	menu_total_achievements = "Total de Conquistas",

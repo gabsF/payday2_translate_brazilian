@@ -398,7 +398,7 @@ Hooks:Add("LocalizationManagerPostInit", "linhaquentemiami", function(loc)
 	com_hm2_01_01 = "Perto, mas ainda não está quente, cuzões!",
 	com_hm2_07_03 = "Certo, vocês me encontraram. Ótimo trabalho, amigos. Agora, que tal me perderem de novo?",
 	com_hm2_04_03 = "Esquerda? Direita? Para onde ir? Eu não sei! Hahahaha!",
-	com_hm2_08_08 = "E aí cuzões. Eu estou apreciando um vinho aqui! O que vocês acham?",
+	com_hm2_08_08 = "E aí cuzões. Eu estou apreciando um bom Martini aqui! O que vocês acham?",
 	com_hm2_08_05 = "Haha, o Comissário enganou vocês de novo, otários.",
 	com_hm2_05_03 = "Vocês parecem aqueles ratos em labirintos. Mas sem queijo para vocês no fim dele. Só vocês se fudendo aí.",
 	com_hm2_04_07 = "Aqui estou eu, otários! Ali! Agora, ali! Ha, peguei vocês!",
@@ -465,5 +465,7 @@ Hooks:Add("LocalizationManagerPostInit", "linhaquentemiami", function(loc)
 	hud_heist_mia_mission3_hl = "Encontre um pouco de Gasolina",
 	hud_heist_mia_mission4 = "Pegue as cargas de C4 no veículo e plante-as nas bombas de gasolina.",
 	hud_heist_mia_mission5_hl = "Procure pelo Porão",
+	hud_heist_mia_mission23_hl = "Assegure Loot Extra e Fuja!",
+	hud_heist_mia_mission23 = "Use o helicóptero para garantir loot extra e fuja do prédio.",
 		})
 end)

@@ -276,7 +276,7 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	menu_deck17_7 = "Bolas versus Balas",
 	menu_deck17_7_desc = "Você ganha mais ##20%## de vida.\n\nA quantidade de vida recebida durante o efeito do Injetor é aumentada em ##25%## enquanto a vida estiver abaixo de ##50%##.",
 	menu_deck17_9 = "Direto pro Topo",
-	menu_deck17_9_desc = "Você ganha mais ##40%## de vida.\n\nPara cada ##5## pontos de vida que for recuperado durante o efeito do injetor enquanto estiver com a vida cheia, o tempo de recarga do injetor é reduzido em ##1## segundo.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+	menu_deck17_9_desc = "Você ganha mais ##40%## de vida.\n\nPara cada ##50## pontos de vida que for recuperado durante o efeito do injetor enquanto estiver com a vida cheia, o tempo de recarga do injetor é reduzido em ##1## segundo.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 	
 	-- Sicario
 	--menu_st_spec_18 = "Sicario",

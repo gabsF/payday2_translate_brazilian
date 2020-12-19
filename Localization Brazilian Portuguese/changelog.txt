@@ -1,6 +1,7 @@
-+ Traduzido novo Menu de Infamy
-+ Traduzido Novos Trajes e Luvas vindos com a última DLC e também as de recompensa de Infamy
-+ Traduzido novas funcionalidades vindas com o Update 200 (como os Sons de Entrada)
-+ Traduzidos Itens + Assets da nova Heist Buluc's Mansion
-+ Diversos Textos que ainda estavam em Inglês foram traduzidos dentro dos Menu's
-+ Mais Conquistas foram traduzidas
++ Buluc's Mansion agora está traduzida
++ Traduzido algumas linhas de texto do Holdout
++ Traduzido uma HUD de Objetivo que faltou na Hotline Miami
++ Novas Linhas de Texto traduzidas na Border Crossing, San Martín e Breakfast in Tijuana
++ Novos Outfits e outros conteúdos vindos no último Update de Natal 2020 foram traduzidos
++ Diversos Erros reportados no nosso Discord foram corrigidos
+

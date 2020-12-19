@@ -304,7 +304,7 @@ Hooks:Add("LocalizationManagerPostInit", "alessoehfoda", function(loc)
 	hud_heist_arena_mission7 = "Ouçam as direções dadas pelo gerente do palco. Apertem os botões quando ele falar!",--Listen to the directions given by the stage manager. Press the buttons when he says and put on a good show!
 	--hud_heist_arena_mission3 = "Não em uso",--Not in use
 	hud_heist_arena_mission5 = "Coloque a C4 nos locais marcados na garagem subterânea.",--Place the C4 on the marked locations in the underground garage.
-	hud_heist_arena_secroom_mission2_hl = "Derrubem a Segurança",--Override the security
+	hud_heist_arena_secroom_mission2_hl = "Derrube a Segurança",--Override the security
 	hud_heist_arena_mission2 = "Procure pela arena por Armários marcados. Vocês vão encontrar a C4 amontoada dentro deles.",--Search the arena for the marked supply closets. You will find the C4 stashed inside them.
 	hud_heist_arena_secroom_mission2 = "O alarme ativou o sistema de segurança dos Armários. Hackeie o computador da segurança para derrubar as travas.",--The alarm has triggered the security system of the supply closets. Hack the security computer to disable these locks.
 	hud_heist_arena_mission8_hl = "Abra os Cofres",--Cut open the vaults

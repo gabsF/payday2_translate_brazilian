@@ -99,11 +99,13 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_l_global_value_sha = "Esse é um item do Shadow Warrior 2!",
 	menu_l_global_value_speedrunners = "Esse é um item do SpeedRunners!",
 	menu_l_global_value_xmas = "Esse é um item da Xmas!",
-	menu_l_global_value_xmn = "Esse é um item do Christmas 2019 Update!",
+	menu_l_global_value_xmn = "Esse é um item do Update de Natal 2019!",
+	menu_l_global_value_xm20 = "Esse é um item do Update de Natal 2020!",
 	menu_l_global_value_xmas_soundtrack = "Esse é um item da Xmas Soundtrack!",
 	menu_l_global_value_joy = "Esse é um item da Joy Character Pack!",
 	menu_l_global_value_bex = "Esse é um item da San Martín Bank Heist!",
 	menu_l_global_value_mwm = "Esse é um item do Cartel Optics Mod Pack!",
+	menu_l_global_value_mex = "Esse é um item da Border Crossing Heist!",
 	menu_l_global_value_trd = "Esse é um item do Tailor Pack 1!",
 	menu_l_global_value_mbs = "Esse é um item do Tailor Pack 2!",
 	menu_l_global_value_pgo = "Esse é um item do Tailor Pack 3!",
@@ -116,6 +118,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_l_global_value_atw = "Esse é um item do Fugitive Weapon Pack!",
 	menu_l_global_value_mxw = "Esse é um item do Gunslinger Weapon Pack!",
 	menu_l_global_value_svc = "Esse é um item do Cofre Social Raro!",
+	menu_l_global_value_fex = "Esse é um item da Buluc's Mansion!",
+	menu_l_global_value_wcc_s02 = "Esse é um item Leaf Color!",
 	bm_global_value_complete_overkill_pack_unlock = "Compre o Completely OVERKILL Pack DLC para desbloquear!",
 	bm_global_value_pdcon_2015_unlock = "Requer o PAYDAY 2: PAYDAYCON 2015 Secret Mask para desbloquear!",
 	bm_global_value_humble_pack2_unlock = "Requer o PAYDAY 2: Humble Mask Pack 2 para desbloquear!",
@@ -168,6 +172,9 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	bm_global_value_kenaz_unlock = "Compre o Golden Grin Casino DLC para desbloquear!",
 	bm_global_value_ant_unlock = "Compre o Antisphere na Steam para desbloquear!",
 	bm_global_value_dbd_deluxe_unlock = "Compre o Dead by Daylight Edição Deluxe para desbloquear!",
+	bm_global_value_wcs_unlock = "Compre o Weapon Color Pack #1 DLC para desbloquear!",
+	bm_global_value_wcc_unlock = "Compre o Weapon Color Pack #2 DLC para desbloquear!",
+	bm_global_value_jigg_unlock = "Compre o Humble Mask Pack 5 para desbloquear!",
 	bm_wp_fal_fg_wood_achievment = "Complete a Conquista 12 ANGRY MINUTES para desbloquear",
 	bm_wp_fal_fg_04_achievment = "Complete a Conquista SWEET SIXTEEN para desbloquear",
 	bm_wp_ameno_3_achievment = "Complete a Conquista $1.8M SPEEDRUN para desbloquear",
@@ -332,7 +339,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_legend_crimenet_zoom = " ZOOM",
 	menu_legend_hide_all = " ESCONDER",
 	menu_legend_open_preplanning = " Pré-Planejamento",
-	menu_legend_preview = " PRÉVIA",
+	menu_legend_preview = "$BTN_Y PRÉVIA",
 	menu_legend_preview_move = " MOVER",
 	menu_legend_scroll = " ROLAR",
 	menu_legend_select = " SELECIONAR",
@@ -518,7 +525,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_infamy_coming_soon = "Mais recompensas chegarão em breve",
 	menu_infamy_join_stinger_desc = "Um som de entrada infamy poderá ser selecionado para tocar ao se juntar a um jogo. Apenas os criminosos mais experientes poderão realizar uma entrada tão épica.",
 	menu_infamy_weapon_color_desc = "Uma cor de arma infamy para colocar em suas armas. Apenas os criminosos mais experientes poderão usar um hardware tão espetácular.",
-	menu_infamy_suits_desc = "Um traje especial de infamy que possa ser usado em seu personagem. Apenas os criminosos mais experientes poderão usar um conjunto tão glorioso.",
+	menu_infamy_suits_desc = "Um traje especial de infamy que pode ser usado em seu personagem. Apenas os criminosos mais experientes poderão usar um conjunto tão glorioso.",
 	menu_infamy_gloves_desc = "Uma luva especial de infamy que possa ser usada em seu personagem. Apenas os criminosos mais experientes poderão usar luvas tão incríveis.",
 	st_menu_infamy_available_points = "Tem $points ponto(s) de Infamy disponível(eis).",
 	menu_infamy_total_xp = "Bônus de XP com Infamy: $xpboost%",
@@ -721,7 +728,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_int_equipment_compound_c = "Composto C",--Compound c
 	hud_int_equipment_compound_d = "Composto D",--Compound d
 	hud_equipment_usb_key = "Pen Drive",--USB stick
-	hud_carry_master_server = "Servidor Mestre",--Master server
+	hud_carry_master_server = "Servidor Principal",--Master server
 	hud_carry_turret = "Parte da Turret",--Turret part
 	hud_equipment_thermite_paste = "Pasta Thermite",--Thermite paste
 	debug_equipment_crowbar = "PÉ DE CABRA",--CROWBAR
@@ -785,7 +792,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_equipment_globe = "Globo",
 	hud_equipment_scythe = "Foice",
 	hud_equipment_alarm_clock = "Despertador",
-	hud_equipment_wire = "Fios",
+	hud_equipment_wire = "Cabos",
 	
 	-- Outros Interagindo
 	hud_opening_cas_briefcase = "Abrindo a Maleta",--Opening the briefcase
@@ -1139,6 +1146,23 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_action_inspect_bookshelf = "Inspecionando a Estante",
 	hud_action_searching_for_clue = "Procurando por Pista",
 	hud_action_placing_gas_can = "Colocando o Galão de Gasolina",
+	hud_unlocking_car = "Destravando o Carro",
+	hud_uncuffed_in = "Soltando-se",
+	hud_int_activating_flare = "Ativando Sinal",
+	hud_action_take_wire = "Pegando Cabos",
+	hud_action_take_alarm_clock = "Pegando Despertador",
+	hud_action_take_diesel = "Pegando Diesel",
+	hud_action_place_diesel = "Colocando Diesel",
+	hud_action_place_alarm_clock = "Colocando Despertador",
+	hud_action_place_wire = "Colocando Cabos",
+	hud_action_place_scythe = "Colocando Foice",
+	hud_action_take_scythe = "Pegando Foice",
+	hud_action_place_fertilizer = "Colocando Fertilizante",
+	hud_action_take_record_tape = "Pegando Fita",
+	hud_action_take_tape = "Pegando Fita",
+	hud_action_center_button = "Empurrando o Símbolo do Centro",
+	hud_action_assembling_bomb = "Montando Explosivos",
+	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
 	debug_interact_sentry_gun_reload = "Segure $BTN_INTERACT para recarregar a Sentinela$NL;( Munição Restante: $AMMO )",--Hold $BTN_INTERACT; to reload Sentry Gun$NL;( Ammo Remaining: $AMMO; )
@@ -1811,14 +1835,16 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_hack_ship_control = "Segure $BTN_INTERACT para hackear o terminal de controle do navio",--Hold $BTN_INTERACT; to hack the ship control terminal
 	hud_int_armory_hack = "Segure $BTN_INTERACT para colocar o dispositivo de hackeamento",--
 	hud_hold_scan_hand = "Segure $BTN_INTERACT para escanear a mão",--Hold $BTN_INTERACT; to scan hand
+	hud_connect_which_hook_brb = "Segure $BTN_INTERACT para conectar o guincho ao cofre",--Hold $BTN_INTERACT; to connect the winch to the vault
+	hud_int_escape_taser = "Pressione $BTN_INTERACT para se libertar do taser",
 	hud_int_take_fex_harddrive = "Segure $BTN_INTERACT para pegar a lista de contatos",
 	hud_int_hold_take_churros = "Segure $BTN_INTERACT para pegar os Churros",
 	hud_int_hold_take_fertilizer = "Segure $BTN_INTERACT para pegar o fertilizante",
 	hud_int_hold_to_place_fertilizer = "Segure $BTN_INTERACT para colocar o fertilizante",
 	hud_int_hold_take_scythe = "Segure $BTN_INTERACT para pegar a foice",
 	hud_int_hold_to_place_scythe = "Segure $BTN_INTERACT para colocar a foice",
-	hud_int_hold_take_wire = "Segure $BTN_INTERACT para pegar os fios",
-	hud_int_hold_to_place_wire = "Segure $BTN_INTERACT para colocar os fios",
+	hud_int_hold_take_wire = "Segure $BTN_INTERACT para pegar os cabos",
+	hud_int_hold_to_place_wire = "Segure $BTN_INTERACT para colocar os cabos",
 	hud_int_hold_take_globe = "Segure $BTN_INTERACT para pegar o globo",
 	hud_int_hold_to_place_globe = "Segure $BTN_INTERACT para colocar o globo",
 	hud_hold_prop_wall_lamp = "Segure $BTN_INTERACT para inspecionar a lâmpada",
@@ -1851,6 +1877,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_int_hold_take_diesel = "Segure $BTN_INTERACT para pegar o Diesel",
 	hud_int_hold_to_place_diesel = "Segure $BTN_INTERACT para colocar o Diesel",
 	hud_hold_assemble_bomb = "Segure $BTN_INTERACT para montar os explosivos",
+	hud_int_hold_xm20_mask = "Segure $BTN_INTERACT para pegar a máscara",
+	hud_hold_place_gas_can = "Segure $BTN_INTERACT para colocar o galão de gasolina",
 	
 	-- Caixas de confirmações + Notificações do SISTEMA
 	dialog_cancel = "Cancelar",
@@ -1921,6 +1949,13 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	dialog_fail_load_progress_corrupt = "Progresso corrompido. Os Dados serão excluidos agora.",--Progress corrupt. Data will now be deleted.
 	dialog_unsuspend_title = "Skill Set Não Suspenso",
 	dialog_unsuspend = "Esse Set de Skills está suspenso. Você poderá resetar todos os pontos de skill para fazê-lo ficar disponível para uso novamente. Você gostaria de resetar $Name?",
+	dialog_err_not_signed_in = "VOCÊ PRECISA ESTAR ONLINE PARA FAZER USO DOS MODOS DE REDE.",--YOU MUST BE ONLINE TO MAKE USE OF NETWORK MODES.
+	hud_waiting_accept = "ACEITAR$MY_BTN",--ACCEPT$MY_BTN;
+	hud_waiting_host_accept_text = "o host aceitar o seu pedido",--the host accepts your request
+	hud_waiting_host_accept_title = "Você estará no modo espectador até",--You will be in spectate mode until
+	hud_waiting_kick = "EXPULSAR$MY_BTN",--KICK$MY_BTN;
+	hud_waiting_no_binding_text = "JOGADOR AGUARDANDO PARA SE JUNTAR",--PLAYER WAITING TO JOIN
+	hud_waiting_return = "RETORNAR$MY_BTN",--RETURN$MY_BTN;
 	
 	-- Tela de Título
 	menu_visit_forum3 = "Pressione qualquer botão",
@@ -3174,6 +3209,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_pp_fex_stealth_semi_open_garage_door_001 = "Garagem",
 	menu_pp_fex_bpr_loc_a = "Térreo",
 	menu_pp_fex_bpr_loc_b = "Andar Superior",
+	menu_asset_location = "Localização da Posse",--Asset Location
 	menu_pp_asset_fex_stealth_semi_open_garage_door = "Porta Semi-Aberta da Garagem (Stealth)",
 	menu_pp_asset_fex_stealth_semi_open_garage_door_desc = "Um amigo facilitará sua entrada na Mansão.",
 	menu_asset_gage_assignment = "Pacotes do Gage Courier",
@@ -3236,6 +3272,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_lobby_menu_state_crimenet = "Na Crime.Net",
 	menu_start_the_game = "Iniciar o Assalto",
 	dialog_connection_to_host_lost = "A Conexão com o Host foi perdida",--Connection to the host has been lost
+	dialog_safehouse_text = "Você não visitou a Safe House ainda. Você gostaria de ir lá agora?",--You haven't visited the safe house yet. Would you like to go there now?
 	
 	--In Lobby -> Edit Game Settings
 	menu_permission = "Permissão",
@@ -3555,7 +3592,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hint_teammate_helpedup = "$HELPER ajudou $TEAMMATE!",
 	hint_teammate_rescued = "$HELPER desprendeu $TEAMMATE!",
 	hint_teammate_arrested = "$TEAMMATE foi algemado$LOCATION!",--$TEAMMATE; was cuffed$LOCATION;!
-	hint_been_tasered = "Um Taser está te predendo!",
+	hint_been_tasered = "Um Taser está te prendendo!",
 	hud_hint_blame_police_alerted = "A Polícia foi alertada.",
 	hud_hint_blame_missing = "Alguém viu atividade suspeita e ligou para polícia.",
 	hint_cant_stand_up = "Você não pode levantar aqui.",
@@ -3708,7 +3745,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_int_hint_diesel = "Necessário Diesel",
 	hud_int_hint_fertilizer = "Necessário Fertilizante",
 	hud_int_hint_scythe = "Necessário Foice",
-	hud_int_hint_wire = "Necessário Fios",
+	hud_int_hint_wire = "Necessário Cabos",
+	hud_take_stapler = "Grampeador?",
 	
 	-- Crime.net
 	cn_menu_num_players_online = "Crime.net/usuários_online: $amount",
@@ -3728,6 +3766,13 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_cn_contact_info = "Info. dos Contatos",
 	menu_mutators = "Mutações",
 	menu_cn_skirmish = "Holdout",
+	menu_cn_kick_disabled = "Kick Desativado",
+	menu_kick_vote = "Kick por Voto",
+	menu_cn_legend_join = "Contratos Públicos",
+	menu_cn_legend_friends = "Contratos de Amigos",
+	menu_cn_holiday_bonus = "$event_iconBônus do Evento de Férias em Heists selecionadas: XP +$bonus%.$NL;Veja as Heists na guia Tática no Compra de Contrato.",
+	holiday_warning_text = "$event_iconEvento de Férias Bônus: XP +$bonus%",--$event_icon;Holiday event bonus: XP +$bonus;%
+	menu_cn_legend_holiday = "Evento de Férias",
 	
 	-- Crime.net -> Filtros
 	menu_lobby_filters = "Filtros em Servidores Públicos",--Public server filters 
@@ -3779,6 +3824,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_heat_warm_short = "XP +$job_heat;",--EXP +$job_heat;%
 	menu_cn_contract_title = "Contrato: $job",--Contract: $job;
 	menu_new = "Novo!",
+	menu_potential_rewards = "Potenciais Recompensas",
 	menu_potential_rewards_max = "[M] Potencial Máxima de prêmios:",
 	menu_potential_rewards_min = "[M] Potencial Mínima de prêmios:",
 	menu_reached_level_cap = "Nível máximo alcançado!",
@@ -3832,6 +3878,9 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_filter_heist_short = "1 Dia ",
 	menu_filter_heist_medium = "2 Dias ",
 	menu_filter_heist_long = "3 Dias ",
+	menu_lobby_server_title = "SERVIDOR:",--SERVER:
+	menu_players_online = "JOGADORES: $COUNT",--PLAYERS: $COUNT;
+	menu_filter_tactic_holiday = "Evento de Férias $event_icon",
 	
 	-- Crime.net -> Nomes dos Contratantes
 	heist_contact_the_dentist = "O Dentista",
@@ -4185,8 +4234,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	
 	-- Dicas de Telas de Loading
 	loading_trivia_title = "Curiosidades PAYDAY",
-	loading_trivia_1 = "Os negócios de armas da Butcher existem em quase todo o planeta. Ela fica de olho em armas de um tipo e sabe como lucrar nisso.",
-	loading_trivia_2 = "Jimmy é um cara bem doido. Doido mesmo! Ele oferece os contratos contra Akan e o seu excército russo de mercenários", -- O AKAN É UMA PUTINHA
+	loading_trivia_1 = "Os negócios de armas da Butcher existem em quase todo o planeta. Ela está sempre de olho em uma nova oportunidade e sabe como lucrar nisso.",
+	loading_trivia_2 = "Jimmy é um cara bem doido. Doido mesmo! Ele oferece os contratos contra Akan e o seu exército russo de mercenários", -- O AKAN É UMA PUTINHA
 	loading_trivia_3 = "Jimmy nunca dirige a van.",
 	loading_trivia_4 = "Jimmy uma vez desafiou a Bonnie para ver quem bebia mais, mas tiveram que interromper depois de ter quase acabado em violência.",
 	loading_trivia_5 = "Jimmy gasta uma grande fortuna em cocaína.",
@@ -4197,7 +4246,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_trivia_10 = "Jacket gosta da sua coleção de armas brancas.",
 	loading_trivia_11 = "Scarface gosta do seu quarto da Safe House, mas continua com seu sonho de ter uma mansão.",
 	loading_trivia_12 = "Scarface não gosta de baratas.",
-	loading_trivia_13 = "Scarface tem orgulho des suas origens de Cuba, mesmo não gostando da ilha.",
+	loading_trivia_13 = "Scarface tem orgulho de suas origens de Cuba, mesmo não gostando da ilha.",
 	loading_trivia_14 = "Scarface gasta uma fortuna em imóveis e decorações.",
 	loading_trivia_15 = "Hoxton cresceu em Sheffield.",
 	loading_trivia_16 = "Hoxton gasta uma fortuna em cerveja.",
@@ -4228,7 +4277,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_trivia_41 = "Bodhi não está aqui só pelo dinheiro.",
 	loading_trivia_42 = "Bodhi gosta de fazer manobras bem perigosas, tipo Paraquedismo extremo.",
 	loading_trivia_43 = "Chains gasta uma fortuna em armas.",
-	loading_trivia_44 = "Chains era do excército, mas não foi muito bem. Como um assaltante de bancos, ele é melhor.",
+	loading_trivia_44 = "Chains era do exército, mas não se saiu muito bem. Como um assaltante de bancos, ele é melhor.",
 	loading_trivia_45 = "Chains age e fala como se fosse um impenetrável para balas. Talvez ele seja mesmo..",
 	loading_trivia_46 = "Chains às vezes está em apuros.",
 	loading_trivia_47 = "Clover gasta uma fortuna em Eletrônicos.",
@@ -4240,12 +4289,12 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_trivia_53 = "Houston acha o Hoxton um completo idiota.",
 	loading_trivia_54 = "Houston fica de olho na van de fuga, tendo certeza que está em boa forma.",
 	loading_trivia_55 = "Bonnie gasta uma fortuna em uísque.",
-	loading_trivia_56 = "Bonnie era uma assassina de Lua-de-Mel, casando e depois matando o seu marido para ter dinheiro.",
+	loading_trivia_56 = "Bonnie era uma assassina de Lua-de-Mel, casando e depois matando o seu marido para ter o dinheiro.",
 	loading_trivia_57 = "Bonnie não é tão boa com computadores.",
 	loading_trivia_58 = "Bonnie provavelmente é viciada em apostas. Mas não é seguro contar isso pra ela.",
 	loading_trivia_59 = "Capitão Winters gasta uma fortuna em equipamento de proteção.",
 	loading_trivia_60 = "O Capitão Winters não é um líder bonzinho.",
-	loading_trivia_61 = "Capitão Winters tem uma raiva pessoal com a Gangue PAYDAY.",
+	loading_trivia_61 = "Capitão Winters possui uma raiva pessoal com a Gangue PAYDAY.",
 	loading_trivia_62 = "Capitão Winters era da Polícia Militar antes de entrar na GenSec.",
 	loading_trivia_63 = "Rust gasta uma fortuna na sua moto.",
 	loading_trivia_64 = "Rust traiu o seu amigo mais próximo para entrar na Gangue PAYDAY.",
@@ -4258,7 +4307,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_trivia_71 = "Jiro gasta uma fortuna na manuntenção de sua espada.",
 	loading_trivia_72 = "O corpo do Jiro é cheio de tatuagens tradicionais da Yakuza.",
 	loading_trivia_73 = "Jiro tem um inglês decente depois de passar uns anos nos Estados Unidos.",
-	loading_trivia_74 = "A relação do Jiro com a comida americana é mais pra tolerância do que apreciar.",
+	loading_trivia_74 = "A relação de Jiro com a comida americana é mais pra tolerância do que para apreciar.",
 	loading_trivia_75 = "Dragan passa o seu tempo se exercitando para manter o seu físico em forma.",
 	loading_trivia_76 = "Dragan gasta uma fortuna em comidas saudáveis.",
 	loading_trivia_77 = "Dragan era um policial na Croácia.",

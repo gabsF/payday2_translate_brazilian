@@ -34,6 +34,8 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	dialog_are_you_sure_you_want_stop_cs_refund = "Tem certeza de que deseja parar a sua Crime Spree?$NL;$NL;Isso irá encerrar a sua Crime Spree atual, e nenhuma recompensa será dada a você. Seu investimento inicial de $coins Moedas Continentais serão devolvidas a você.",--Are you sure you want to stop your Crime Spree?$NL;$NL;This will end your current spree, and no rewards will be given to you. Your initial investment of $coins; Continental Coins will be returned to you.
 	dialog_continue_cs_title = "Continuar Crime Spree",
 	dialog_continue_cs_text = "Você quer continuar a sua Crime Spree?\nIsso permitirá que você continue sua Crime Spree de $level para ganhar novos Ranks de Crime Spree e acumular recompensas maiores.\n\nIsso irá lhe custar $cost Moedas Continentais.",
+	dialog_cant_continue_cs_title = "Isso não poderá continuar",--This can not Continue
+	dialog_cant_continue_cs_text = "Você não poderá continuar a sua Crime Spree porque não possui Moedas Continentais suficientes. Para continuar do nível $level;$BTN_SPREE_TICKET você precisa de $cost Moedas Continentais.",--You can not continue your Crime Spree as you do not have enough Continental Coins. In order to continue from $level;$BTN_SPREE_TICKET; you need $cost; Continental Coins.
 
 	
 	-- Em Lobby
@@ -132,6 +134,7 @@ Hooks:Add("LocalizationManagerPostInit", "sequenciaderoubos", function(loc)
 	bm_menu_mods = "Modificações",
 	bm_menu_materials = "Material",
 	bm_menu_weapon_skins = "Skin de Arma",
+	bm_menu_cash = "Dinheiro Extra",--Cash bonus
 	menu_challenge_cosmetic_drop = "Itens Cosméticos",--Cosmetic Items
 	})
 end)

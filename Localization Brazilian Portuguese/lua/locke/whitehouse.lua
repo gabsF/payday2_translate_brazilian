@@ -106,6 +106,7 @@ Hooks:Add("LocalizationManagerPostInit", "acasadotrump", function(loc)
 	loc_vit_10_02 = "Ok, esse deve ser o que vocês estão procurando.",
 	loc_vit_10_03 = "Certo, esse parece o que vocês precisam.",
 	loc_vit_11_01 = "Tomem cuidado, não sejam vistos.",
+	loc_vit_11a_02 = "Tenho certeza de que tem algumas caixas de fiação para o portão aí próximo.",
 	loc_vit_11_02 = "Tomem cuidado em não soar o alarme.",
 	loc_vit_11_03 = "Vejam se não fazem barulho, caso contrário serão vistos facilmente.",
 	loc_vit_12_01 = "Já terminaram de abrir essa porta?",
