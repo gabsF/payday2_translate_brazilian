@@ -4,7 +4,7 @@ Hooks:Add("LocalizationManagerPostInit", "hoxtonboladaço", function(loc)
 		heist_hox_3 = "Hoxton Revenge",
 		heist_hox_3_crimenet = "Os Federais moveram o traidor para um Esconderijo. Eles fizeram um bom trabalho em esconder ele, mas não a localização. Idiotas! Então vamos pra lá, entrar e matar ele.\n\n» Observe o Esconderijo e dê um jeito de entrar\n» Lide com qualquer Segurança\n» Localize o Traidor \n» Elimine o Traidor\n» Leve qualquer Evidência",
 		heist_hox_3_hl = "The Revenge",
-		heist_hox_3_briefing = "Beleza, nós vamos finalmente ir atrás do traidor. O desgraçado que ferrou o Hoxton quer ferra a gente. Hora de silenciar ele! Nós sabemos que ele está em um esconderijo do FBI fora da cidade. Esses Esconderijos são construídos da mesma forma. Casas grandes, andares, segurança 24 horas e o mais importante é uma Sala do Pânico dentro! Tá vendo para onde os impostos vão? O plano é simples! Entrem lá, achem o informante e matem ele. Eu acho que vai ter evidências contra a gente também, então melhor limpar o lugar também.",
+		heist_hox_3_briefing = "Beleza, nós vamos finalmente ir atrás do traidor. O desgraçado que ferrou o Hoxton quer ferrar com a gente. Hora de silenciar ele! Nós sabemos que ele está em um esconderijo do FBI fora da cidade. Esses Esconderijos são construídos da mesma forma. Casas grandes, andares, segurança 24 horas e o mais importante é uma Sala do Pânico dentro! Tá vendo para onde os impostos vão? O plano é simples! Entrem lá, achem o informante e matem ele. Eu acho que vai ter evidências contra a gente também, então melhor limpar o lugar também.",
 		
 		-- Nomes e Descrições (Hoxton Breakout)
 		heist_hox = "Hoxton Breakout",
@@ -107,6 +107,7 @@ Hooks:Add("LocalizationManagerPostInit", "hoxtonboladaço", function(loc)
 		dr1_hb1_01_01 = "Ta, ta! Tô indo!",
 		
 		-- Legendas (breakout part 2)
+		dr1_hb2_03_01 = "Vocês curtiram essas rodas? Entrem!",
 		dr1_hb2_03_02 = "Entrem aí. Nós vamos sair daqui nisso!",
 		dr1_hb2_02_01 = "Vocês acabaram aí? Venham aqui. Consegui um carro novo!",
 		pln_hb2_19_01 = "Pessoal, eles estão usando tudo o que podem contra vocês. Melhor darem o fora daí, andem logo!",
@@ -153,6 +154,7 @@ Hooks:Add("LocalizationManagerPostInit", "hoxtonboladaço", function(loc)
 		rb5_hb2_04_02 = "Tô dentro. Mantenham esses filhas das putas longe de mim enquanto eu vejo aqui.",
 		rb5_hb2_03_02 = "É isso. Tá, eu preciso ir pra esses servidores. Limpem a sala!",
 		rb5_hb2_02_03 = "A Sala de Operações é o nosso primeiro passo. Lá podemos achar o que precisamos.",
+		dr1_hb2_01_01 = "A caminhonete foi pra casa do caralho. Vou encontrar outra carona.",
 		dr1_hb2_01_03 = "A caminhonete está fudida. Eu vou pegar outro carro.",
 		pln_hb2_01_02 = "Beleza. Agora levem as senhas pro Hoxton.",
 		rb5_hb2_05_02 = "Mas que merda. O servidor está criptografado até o talo. As senhas devem tá no Escritório de segurança. Vão pra lá e peguem as senhas.",

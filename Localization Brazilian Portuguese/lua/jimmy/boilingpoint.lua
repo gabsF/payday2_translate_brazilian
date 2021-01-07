@@ -64,7 +64,7 @@ Hooks:Add("LocalizationManagerPostInit", "bombadeemp", function(loc)
 	pln_mad_47_01 = "Vocês conseguiram? A maleta? Ótimo! Agora deem o fora daí.",--You got it? The briefcase? Good! Now let's get out of there.
 	pln_mad_06_03 = "O hackeamento foi interrompido. Reinicie-o!",--The hacking has been stopped. Get it up and running again!
 	pln_mad_45_03 = "Excelente, o servidor está assegurado. Agora, vamos dar o fora daqui.",--Excellent, the server is secured. Now, let's get out of here.
-	pln_mad_36_01 = "Okay, scanneamento em andamento. Agora tenha certeza de que ninguém interrompa o processo.",--Okay, scanning is under way. Now make sure it gets to finish without getting interrupted.
+	pln_mad_36_01 = "Okay, scanneamento em andamento. Agora tenham certeza de que ninguém interrompa o processo.",--Okay, scanning is under way. Now make sure it gets to finish without getting interrupted.
 	pln_mad_23_01 = "Cara, parece que a EMP desligou a fábrica inteira... Usem suas lanternas e achem o dispositivo de raio-X.",--Man, the EMP took out the whole factory it seems... Use your flashlights and find the X-ray device.
 	pln_mad_03_02 = "Aquela rede de computadores deve ter um laptop sobrando. Vejam se vocês conseguem encontrar um.",--That computer station should have a laptop laying around. See if you can find one.
 	pln_mad_20_03 = "A EMP está recarregando de novo.",--The EMP is charging again.
@@ -145,7 +145,7 @@ Hooks:Add("LocalizationManagerPostInit", "bombadeemp", function(loc)
 	pln_mad_15_01 = "É isso aí! Isso foi insano, galera! Agora entrem.",--Hell yeah! That was crazy, gang! Now get in there.
 	pln_mad_15_02 = "É assim que se faz! Bom trabalho, pessoal. Entrem na madeireira agora.",--That's how we do it! Good job, guys. Get inside the mill now.
 	pln_mad_17_02 = "Protejam a EMP! Os mercenários vão fazer de tudo para interromper vocês!",--Protect the EMP! The mercenaries will do anything to stop you!
-	pln_mad_17_03 = "Galera, vocês precisam protejer a EMP equanto ela carrega! Preparem-se para a batalha!",--Gang, you need to protect the EMP while it charges! Prepare to fight!
+	pln_mad_17_03 = "Galera, vocês precisam proteger a EMP equanto ela carrega! Preparem-se para a batalha!",--Gang, you need to protect the EMP while it charges! Prepare to fight!
 	pln_mad_18_01 = "Droga, eles interromperam o carregamento!",--Damn it, they stopped the charge!
 	pln_mad_19_01 = "Os mercenários interromperam o carregamento da EMP! Toda vez que isso acontece, ela descarrega um pouco!",--The mercenaries interrupted the EMP charge! Every time that happens, the EMP is slowly discharged!
 	pln_mad_20_02 = "Ótimo, a EKP está recarregando.",--Good, the EMP is charging again.
@@ -173,11 +173,11 @@ Hooks:Add("LocalizationManagerPostInit", "bombadeemp", function(loc)
 	pln_mad_33_03 = "Certo. Agora achem as cobaias, e leve-as ao scanner. São homens carecas.",--Alright. Now find the test-subjects, and get them to the scanner. You are looking for some bald guys.
 	pln_mad_34_03 = "Levem esse corpo para o scanner.",--Get that body over to the scanner.
 	pln_mad_35_02 = "O corpo está em posição para começar o scanneamento, galera.",--Body is in place so start scanning, gang.
-	pln_mad_37_03 = "Galera, os bastardos interromperam o scanneamento! Religue-o!",--Guys, the bastards stopped the scan! Get it working again!
+	pln_mad_37_03 = "Galera, esses idiotas interromperam o scanneamento! Religue-o!",--Guys, the bastards stopped the scan! Get it working again!
 	pln_mad_38_01 = "Ótimo, o processo de scanneamento está funcionando novamente.",--Great, the scanning is up and running again.
 	pln_mad_38_03 = "O scanneamento voltou à ativa. Mantenha assim.",--The scan is back in progress. Now keep it that way.
 	pln_mad_39_02 = "Bom trabalho, o scanneamento foi completo.",--Great job, gang. The scan is complete.
-	pln_mad_39_03 = "O scanneamento foi completo. Bom trabalho, galera.",--The scan has been completed.Well done, gang.
+	pln_mad_39_03 = "O scanneamento está completo. Bom trabalho, galera.",--The scan has been completed.Well done, gang.
 	pln_mad_40_01 = "Eles desligaram a energia!",--They pulled the power!
 	pln_mad_40_02 = "Argh, eles desligaram a energia do scanner!",--Argh, they pulled the power for the scanner!
 	pln_mad_41_01 = "Ótimo! A energia voltou. Liguem o scanner de novo.",--Great! Power is back. Get the scanner working again.

@@ -83,6 +83,7 @@ Hooks:Add("LocalizationManagerPostInit", "mansaodobulucquemorreprotubarao2020", 
     loc_fex_18_01 = "Ficamos sabendo que tem algo importante sobre um santuário. Deem uma olhada.",--We were told there was something important about a shrine. Have a look.
     loc_fex_18_02 = "Foi mencionado um santuário de suma importância.",--There was mention of a shrine being of importance.
     loc_fex_18_03 = "Deem uma olhada de perto naquele santuário.",--Have a closer look at that shrine.
+	loc_fex_19a_01 = "Eu acho que ele irá se preocupar com o corpo em pouco tempo, yeah?",--I reckon he's going to worry about his body too in little while, yeah?
     loc_fex_20_01 = "Claramente tem algo faltando. Vocês provavelmente precisam encontrá-los para abrir a porta. Deem uma olhada em volta.",--There are clearly things missing. You probably need to find them to open the door. Have a look around.
     loc_fex_20_02 = "Claramente, esse cara é um fanático. Ele até fez do lugar de oração dele um labirinto. Encontrem as peças faltando para o santuário.",--Clearly, this guy is fanatical. He even made his place of prayer into a puzzle. Find the missing pieces to that shrine. 
     loc_fex_20_03 = "Isso aí foi tampado. A porta talvez não abra enquanto faltar peças do santuário. Procurem em volta e vejam se vocês conseguem achá-las.",--That thing has been tampered with. The door might not open while the shrine is missing pieces. Look around and see if you can find them.
@@ -229,6 +230,7 @@ Hooks:Add("LocalizationManagerPostInit", "mansaodobulucquemorreprotubarao2020", 
 	loc_fex_58d_01 = "Não é uma boa ficar por aí. Vão em frente!",--No good staying around there. Get going!
 	loc_fex_58d_02 = "Vai ficar muito ruim se vocês ficarem por aqui por muito tempo. Mexam-se!",--It's going to get real heavy if you stay around too long. Get moving!
 	loc_fex_58d_03 = "Vamos meus amigos, saiam!",--Come on friends, make your way out!
+	loc_fex_58e_01 = "Caralho! Eu não estava esperando por isso. Vocês vão ter que tirar aquela turret antes de sair.",--Blerrie! I wasn't expecting this. You'll have to take out that turret before you can leave.
 	loc_fex_58e_02 = "Ah, mas que porra do caralho! Vocês precisam tirar essa Turret do caminho para fugirmos sem nenhum problema.",--Ach, bunch of kakspul! You gotta take out that turret for a clean getaway.
 	loc_fex_58e_03 = "Aquela Turret é um grande problema. Vocês terão que encontrar uma forma de tirá-la de lá.",--That turret is major trouble. You'll have to find a way to take it out.
 	loc_fex_58f_01 = "Aqui vai uma ideia. O Buluc possui uma Garagem lotada de carros. Talvez vocês possam usar um deles para tirar a Turret do caminho.",--Here's an idea. Buluc has a garage full of cars. Maybe you can use one to take out the turret.
@@ -407,6 +409,7 @@ Hooks:Add("LocalizationManagerPostInit", "mansaodobulucquemorreprotubarao2020", 
 	vld_fex_19a_02 = "Toda vez que tentamos fazer negócios, o Buluc falou algo sobre um culto Maia maluco que participa e que sacrificou sua alma. A única religião do Vlad é bebidas, mulheres e beber uma boa vodka!",--Every time we tried to do business, Buluc talked about this crazy Mayan cult he belongs to and sacrificing his soul. Vlad's only religions are money, women and drinking Sputniks!
 	vld_fex_26a_03 = "Ok, agora atirem nele! Atirem nesse miserável de merda!",--Ok, now shoot him! Shoot the piece of shit!
 	vld_fex_26b_01 = "Oh, isso vai ser muito bom. Hey pessoal, diga adeus ao Buluc por mim, sim?",--Oh, this is going to be good. Hey guys, tell Buluc goodbye for me, yes?
+	vld_fex_26b_03 = "Ei, Locky... isso vai ser bem divertido. Você quer pipoca? Vou pegar um pouco de pipoca e Sputniks.",--Hey, Locky... this is going to be fun. You want popcorn? I'll get the popcorn and Sputniks.
 	vld_fex_26b_05 = "Ninguém fode com a família do Vlad exceto o Vlad. Eles vão ver, depois dessa noite!",--No one fucks with Vlad's family except Vlad. They will know, after tonight!
 	vld_fex_26e_01 = "Isso é tudo o que eu precisava!",--That's just what I needed!
 	vld_fex_26e_02 = "Adeus, seu filho da puta!",--So long you fucker!
@@ -420,6 +423,7 @@ Hooks:Add("LocalizationManagerPostInit", "mansaodobulucquemorreprotubarao2020", 
 	vld_fex_54b_01 = "Ah, usa isso na perna do Buluc! Corta ela fora.",--Oh, use that thing on Buluc's leg! Cut it right off.
 	vld_fex_57_01 = "Faz o desgraçado cair no oceano!",--Make the piece of shit fall in the ocean!
 	vld_fex_57_03 = "Atirem nele! Atirem no joelho dele! Não não não, no estômago! Faça-o sofrer muito.",--Shoot him! Shoot him in the knee! Nononono, in the stomach! Then make him go over.
+	vld_fex_57_04 = "Usem suas armas! Joguem ele no oceano para que se afogue!",--Use your guns! Put him in the ocean to drown!
 	vld_fex_57_05 = "Esse suspense está matando o Vlad! Faça logo, faça!",--This suspense is killing Vlad! Do it, do it!
 	vld_fex_57a_02 = "Agora esse merdinha vai ter o que ele merece!",--Now this piece of shit gets what Vlad wants him to have!
 	vld_fex_57b_02 = "Toma essa, seu arrombado!",--Take that, you fucker!

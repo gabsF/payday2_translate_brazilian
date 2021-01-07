@@ -1,7 +1,5 @@
-+ Buluc's Mansion agora está traduzida
-+ Traduzido algumas linhas de texto do Holdout
-+ Traduzido uma HUD de Objetivo que faltou na Hotline Miami
-+ Novas Linhas de Texto traduzidas na Border Crossing, San Martín e Breakfast in Tijuana
-+ Novos Outfits e outros conteúdos vindos no último Update de Natal 2020 foram traduzidos
-+ Diversos Erros reportados no nosso Discord foram corrigidos
-
+--- 6.01 ---
++ Correções de Erros de Tradução
++ Mais algumas HUDs traduzidas
++ Traduzido uma HUD de Objetivo que ficou faltando na Reservoir Dogs
++ Mais algumas Conquistas traduzidas

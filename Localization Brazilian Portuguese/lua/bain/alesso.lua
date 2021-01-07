@@ -34,7 +34,7 @@ Hooks:Add("LocalizationManagerPostInit", "alessoehfoda", function(loc)
 	pln_al1_12_02 = "Os rádios da policia estão ligando. Parece que eles possuem gente na área.",--Cops' switchboard lit up. Guess they had their people in the area.
 	pln_al1_36_03 = "Ali está a barriga do Cofre do Investimento. Façam esses cortadores funcionar.",--There's the soft underbelly of the Investment vault. Get the cutter to work.
 	pln_al1_21_06 = "Apenas o melhor para nosso garoto, Alesso.",--Only the best for our boy, Alesso. 
-	pln_al1_03_03 = "Tudo certo, esse é o último do C4. Desçam, na garagem. Nosso homem infiltrado marcou o lugar que vocês vão precisar explodir.",--All right, that's the last of the C4. Get down to the garage. Our Inside Man has marked the spot you need to blow.
+	pln_al1_03_03 = "Tudo certo, esse é o último C4. Desçam até a garagem. Nosso homem infiltrado marcou o lugar que vocês vão precisar explodir.",--All right, that's the last of the C4. Get down to the garage. Our Inside Man has marked the spot you need to blow.
 	pln_al1_19_03 = "Ótimo trabalho, gangue! Encontraram outro Armário.",--Great work, gang! Found another closet.
 	pln_al1_55_02 = "Vocês conseguiram, vocês pegaram muito dinheiro e conseguiram muita atenção. E a GenSec merece sofrer publicamente.",--You did it, you got a ton of money and got a lot of attention. And GenSec deserve to suffer publicly.
 	pln_al1_21_01 = "A GenSec jogou muito dinheiro nesse lugar. Deem uma olhada.",--GenSec pumped a lot of money into this place. Look at it.

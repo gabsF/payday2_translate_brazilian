@@ -120,6 +120,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_l_global_value_svc = "Esse é um item do Cofre Social Raro!",
 	menu_l_global_value_fex = "Esse é um item da Buluc's Mansion!",
 	menu_l_global_value_wcc_s02 = "Esse é um item Leaf Color!",
+	menu_l_global_value_ztm = "ESTE É UM RARO ITEM DE BRINQUEDO ZAG!",
 	bm_global_value_complete_overkill_pack_unlock = "Compre o Completely OVERKILL Pack DLC para desbloquear!",
 	bm_global_value_pdcon_2015_unlock = "Requer o PAYDAY 2: PAYDAYCON 2015 Secret Mask para desbloquear!",
 	bm_global_value_humble_pack2_unlock = "Requer o PAYDAY 2: Humble Mask Pack 2 para desbloquear!",
@@ -474,13 +475,13 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	bm_menu_btn_equip_deployable = "Equipar o Equipamento",
 	bm_menu_btn_unequip_deployable = "Desequipar o Equipamento",
 	bm_equipment_ammo_bag = "Bolsa de Munição",
-	bm_equipment_ammo_bag_desc = "Para usar a Bolsa de Munição, você deve colocá-lo segurando o $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado não pode ser movido mais, mas pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT (ou  se estiver com controle) para ganhar mais munição. Isso pode recuperar a sua munição completamente de uma das suas armas 4 vezes. Quando a Bolsa de Munição estiver vazia, irá sumir. Você pode ver quanto de munição resta olhando na Bolsa de Munição.\n\nA Bolsa de Munição é portátil, originalmente para os soldados carregarem munição extra com eles no combate.",
+	bm_equipment_ammo_bag_desc = "Para usar a Bolsa de Munição, você deve colocá-la segurando o $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado não pode ser movido mais, mas pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT (ou  se estiver com controle) para ganhar mais munição. Isso pode recuperar a sua munição completamente de uma das suas armas 4 vezes. Quando a Bolsa de Munição estiver vazia, irá sumir. Você pode ver quanto de munição resta olhando na Bolsa de Munição.\n\nA Bolsa de Munição é portátil, originalmente para os soldados carregarem munição extra com eles no combate.",
 	bm_equipment_doctor_bag = "Bolsa Médica",
-	bm_equipment_doctor_bag_desc = "Para usar a Bolsa Médica, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, não pode ser movido mais, mas pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT (ou  se estiver com controle) para se curar. Usando a Bolsa Médica vai redefinir a quantidade de quedas que o jogador sofreu antes de ir para custódia. Pode ser usado duas vezes\n\nQuando uma Bolsa Médica é consumida ela irá sumir. Você pode ver quantos usos restam olhando na Bolsa Médica.\n\nA Bolsa Médica é portátil, usado por um fisíco ou alguma outra profissão médica para um transporte de suprimentos medicinais.",
+	bm_equipment_doctor_bag_desc = "Para usar a Bolsa Médica, você precisa colocá-la segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, não pode ser movido mais, mas pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT (ou  se estiver com controle) para se curar. Usando a Bolsa Médica vai redefinir a quantidade de quedas que o jogador sofreu antes de ir para custódia. Pode ser usado duas vezes\n\nQuando uma Bolsa Médica é consumida ela irá sumir. Você pode ver quantos usos restam olhando na Bolsa Médica.\n\nA Bolsa Médica é portátil, usado por um fisíco ou alguma outra profissão médica para um transporte de suprimentos medicinais.",
 	bm_equipment_armor_kit = "Kit de Armadura",
 	bm_equipment_armor_kit_desc = "Para usar o Kit de Armadura, segure $BTN_USE_ITEM (ou  se estiver com controle) para colocar a armadura equipada. Até lá, você estará vestindo o Terno.\n\nO Kit de Armadura tem apenas um uso e quando for usado irá sumir. O Kit de Armadura é uma bolsa portátil usado para transportar armadura da sua escolha, que pode ser usado durante um assalto.",
 	bm_equipment_bodybags_bag = "Bolsa de Corpos",
-	bm_equipment_bodybags_bag_desc = "Para usar a Bolsa de Corpos, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, não pode ser movido mais, mas pode pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT (ou  se estiver com controle) para ter mais bolsas de corpos.\n\nA Bolsa de Corpos tem usos limitados. Você pode ver quantos usos restam só olhando na bolsa. A Bolsa de Corpos carrega mais bolsas, usado para transportar cadáveres durante o stealth.",
+	bm_equipment_bodybags_bag_desc = "Para usar a Bolsa de Corpos, você precisa colocá-la segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, não pode ser movido mais, mas pode pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT (ou  se estiver com controle) para ter mais bolsas de corpos.\n\nA Bolsa de Corpos possui usos limitados. Você pode ver quantos usos restam só olhando na bolsa. A Bolsa de Corpos carrega mais bolsas, usado para transportar cadáveres durante o stealth.",
 	bm_equipment_first_aid_kit = "Kit de Primeiros Socorros",
 	bm_equipment_first_aid_kit_desc = "O Kit de Primeiros Socorros é uma coleção de suprimentos e equipamento para uso em dar o primeiro socorro.\n\nPara usar o Kit de Primeiros Socorros, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, não pode ser movido mais, mas pode pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT (ou  se estiver com controle) para recuperar a vida.\n\nUm Kit de Primeiros Socorros colocado pode ser usado uma vez e irá sumir quando for usado.",
 	bm_equipment_ecm_jammer = "Bloqueador de ECM",
@@ -488,7 +489,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	bm_equipment_sentry_gun = "Sentinela",
 	bm_equipment_sentry_gun_desc = "Para usar a Sentinela, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, irá usar até 30% da munição total das suas armas. Pode ser destruído por inimigos ao atirar nele, mas desde que não esteja completemante destruído, pegando ele irá consertá-lo e retornar a munição da Sentinela restante. Quando a sua munição acabar, irá parar de atirar mas pode ser recarregado por re-colocar ele depois de pegar.\n\nA Sentinela irá automaticamente mirar e atirar no alvos que são detectados pelo seus sensores. É comum usá-lo como distração, chamando a atenção de você e os seus aliados.",
 	bm_equipment_trip_mine = "Trip Mines e Cargas Explosivas",
-	bm_equipment_trip_mine_desc = "Para usar as Trip Mines, você precisa colocá-lo usando $BTN_USE_ITEM. (ou  se estiver com controle.)\nO laser pode ser alterado entre Modo Explosivo e Modo Sensor pressionando o botão $BTN_INTERACT (ou  se estiver com controle.).\n\nPara usar a Carga Explosiva, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, irá explodir em segundos. Trip Mines são armadilhas que irão machucar e matar inimigos que passam pelo seu laser. Cargas Explosivas são usados para arrombar cofres e portas. Ambos são uma boa adição para todas as situações de combate.",
+	bm_equipment_trip_mine_desc = "Para usar as Trip Mines, você precisa colocá-la usando $BTN_USE_ITEM. (ou  se estiver com controle.)\nO laser pode ser alterado entre Modo Explosivo e Modo Sensor pressionando o botão $BTN_INTERACT (ou  se estiver com controle.).\n\nPara usar a Carga Explosiva, você precisa colocá-la segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, irá explodir em segundos. Trip Mines são armadilhas que irão machucar e matar inimigos que passam pelo seu laser. Cargas Explosivas são usadas para arrombar cofres e portas. Ambos são uma boa adição para todas as situações de combate.",
 	bm_equipment_sentry_gun_silent = "Sentinela Silenciada",
 	bm_equipment_sentry_gun_silent_desc = "Para usar a Sentinela Silenciada, você precisa colocá-lo segurando $BTN_USE_ITEM (ou  se estiver com controle). Assim que for colocado, irá usar até 30% da munição total das suas armas. Pode ser destruído por atirar nele, mas desde que não esteja completemante destruído, pegando ele irá consertá-lo e retornar a munição da Sentinela restante. Quando a sua munição acabar, irá parar de atirar mas pode ser recarregado por re-colocar ele depois de pegar.\n\nA Sentinela Silenciada é o contrário da normal, a Sentinela normal é mais usado para matar inimigos do que para uma distração.",
 	bm_menu_skill_locked_sentry_gun_silent = 'Requer a Skill "Engineering"',
@@ -1326,7 +1327,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_int_press_knock_on_door = "Pressione $BTN_INTERACT para bater na porta",--Press $BTN_INTERACT; to knock on the door
 	hud_int_search_files = "Segure $BTN_INTERACT para procurar nos arquivos",
 	hud_int_use_files = "Segure $BTN_INTERACT para passar as pastas por de baixo da porta",
-	hud_deploy_valid_help = "Mira em uma superfície válida",
+	hud_deploy_valid_help = "Mire em uma superfície válida",
 	hud_int_hold_gather_evidence = "Segure $BTN_INTERACT para pegar a evidência",
 	hud_int_hold_check_evidence = "Segure $BTN_INTERACT para checar a evidência",
 	hud_int_equipment_no_keycard = "Você precisa de um Cartão de Acesso",
@@ -1879,6 +1880,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_hold_assemble_bomb = "Segure $BTN_INTERACT para montar os explosivos",
 	hud_int_hold_xm20_mask = "Segure $BTN_INTERACT para pegar a máscara",
 	hud_hold_place_gas_can = "Segure $BTN_INTERACT para colocar o galão de gasolina",
+	hud_hold_restart_timer = "Segure $BTN_INTERACT para reiniciar o cronômetro",
 	
 	-- Caixas de confirmações + Notificações do SISTEMA
 	dialog_cancel = "Cancelar",
@@ -1956,6 +1958,10 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_waiting_kick = "EXPULSAR$MY_BTN",--KICK$MY_BTN;
 	hud_waiting_no_binding_text = "JOGADOR AGUARDANDO PARA SE JUNTAR",--PLAYER WAITING TO JOIN
 	hud_waiting_return = "RETORNAR$MY_BTN",--RETURN$MY_BTN;
+	menu_friends_banned = "BANIDO",--BANNED
+	dialog_mp_banned_title = "BANIDO",--BANNED
+	dialog_mp_banned_body = "Você foi banido pelo host.",--You have been banned by the host.
+	dialog_key_binding_collision = 'Tecla "$KEY" já está mapeada para "$MAPPED", por favor remape-o primeiro.',--Key "$KEY;" is already mapped to "$MAPPED;", please remap it first.
 	
 	-- Tela de Título
 	menu_visit_forum3 = "Pressione qualquer botão",
@@ -2118,7 +2124,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_button_shout_secondary = "Parar os Bots",
 	menu_button_deploy = "Colocar/Usar o equipamento",
 	menu_button_chat_messsage = "Abrir a Conversa",
-	menu_button_push_to_talk = "Apertar para Falar",
+	menu_button_push_to_talk = "Pressionar para Falar",
 	menu_button_cash_inspect = "Inspecionar Arma",
 	menu_button_deploy_bipod = "Usar o Bipé",
 	menu_button_change_equipment = "Trocar Equipamento",
@@ -2303,6 +2309,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_hud_cheater = "CHEATER",
 	hud_civilians_killed = "Civis mortos: $AMOUNT",
 	hud_custody_in = "Custódia em",
+	hud_respawning_in = "Liberado em",
+	hud_ai_traded_in = "Trocado pelo IA em",
 	hud_loot_secured_title = "Loot assegurado",
 	hud_stats_pagers_used = "PAGERS RESPONDIDOS",
 	hud_stats_enemies_converted = "INIMIGOS CONVERTIDOS",
@@ -3065,6 +3073,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_asset_welcome_to_the_jungle_plane_keys = "Chaves do Avião",--Airplane Keys
 	menu_asset_jungle_2_gas = "Combustível Extra para Helicóptero",--Extra Helicopter Fuel
 	menu_asset_jungle_2_ammo = "Alex fornecerá uma Bolsa de Munição",--Alex Ammo Drop
+	menu_asset_welcome_to_the_jungle_guards = "Guardas",--Guard Intel
 	menu_asset_potential_location = "Possíveis Localizações",--Potential Locations
 	menu_asset_colored_tags = "Etiquetas Coloridas",--Colored Tags
 	menu_asset_arm_location = "Localização",--Location
@@ -3392,6 +3401,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_victory_goto_next_stage = "$CONTINUE Próximo dia",
 	failed_disconnected_continue_PS3 = "$BTN_A Continuar para o Menu",--$BTN_A; Continue to menu
 	failed_disconnected_continue = "$CONTINUE Continuar para o Menu",--$CONTINUE; Continue to menu
+	bm_global_value_gage_pack_jobs_unlock = "Requer o Gage Mod Courier DLC para progredir!",--Requires the Gage Mod Courier DLC to progress!
 	
 	-- Safes
 	bm_menu_inventory_tradable_all = "Todos",
@@ -3741,12 +3751,14 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_equipment_pex_need_keys = "Você precisa das Chaves do Carro",
 	hud_equipment_liquid_nitrogen = "Você precisa de Nitrogênio Líquido",--You need liquid nitrogen
 	hud_equipment_need_barcode = "Você precisa de um Código de Barra",--You need a barcode
+	hud_equipment_need_fire_extinguisher = "Você precisa de um Extintor de Incêndio",--You need a fire extinguisher
 	hud_int_hint_alarm_clock = "Necessário Despertador",
 	hud_int_hint_diesel = "Necessário Diesel",
 	hud_int_hint_fertilizer = "Necessário Fertilizante",
 	hud_int_hint_scythe = "Necessário Foice",
 	hud_int_hint_wire = "Necessário Cabos",
 	hud_take_stapler = "Grampeador?",
+	hud_int_hint_gas_can = "Necessário Gasolina",
 	
 	-- Crime.net
 	cn_menu_num_players_online = "Crime.net/usuários_online: $amount",
@@ -4277,12 +4289,12 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_trivia_41 = "Bodhi não está aqui só pelo dinheiro.",
 	loading_trivia_42 = "Bodhi gosta de fazer manobras bem perigosas, tipo Paraquedismo extremo.",
 	loading_trivia_43 = "Chains gasta uma fortuna em armas.",
-	loading_trivia_44 = "Chains era do exército, mas não se saiu muito bem. Como um assaltante de bancos, ele é melhor.",
-	loading_trivia_45 = "Chains age e fala como se fosse um impenetrável para balas. Talvez ele seja mesmo..",
+	loading_trivia_44 = "Chains era do exército, mas não se saiu muito bem. Como um assaltante de bancos, ele é bem melhor.",
+	loading_trivia_45 = "Chains age e fala como se fosse imune a balas. Talvez ele seja mesmo..",
 	loading_trivia_46 = "Chains às vezes está em apuros.",
 	loading_trivia_47 = "Clover gasta uma fortuna em Eletrônicos.",
 	loading_trivia_48 = "Clover tinha uma relação complicada com Hoxton, bem antes da Gangue PAYDAY. Atualmente eles estão de boa um com outro.",
-	loading_trivia_49 = "A refência do nome da Clover é dela ser muito sortuda. E ela é.",
+	loading_trivia_49 = "A referência do nome da Clover é dela ser muito sortuda. E ela é, de fato.",
 	loading_trivia_50 = "Clover é uma grande fã de The Walking Dead.",
 	loading_trivia_51 = "Houston gasta uma fortuna em carros.",
 	loading_trivia_52 = "Houston tem muitos problemas, e os policiais não são um.",
@@ -4291,7 +4303,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_trivia_55 = "Bonnie gasta uma fortuna em uísque.",
 	loading_trivia_56 = "Bonnie era uma assassina de Lua-de-Mel, casando e depois matando o seu marido para ter o dinheiro.",
 	loading_trivia_57 = "Bonnie não é tão boa com computadores.",
-	loading_trivia_58 = "Bonnie provavelmente é viciada em apostas. Mas não é seguro contar isso pra ela.",
+	loading_trivia_58 = "Bonnie provavelmente é viciada em apostas. Mas não é seguro contar isso para ela.",
 	loading_trivia_59 = "Capitão Winters gasta uma fortuna em equipamento de proteção.",
 	loading_trivia_60 = "O Capitão Winters não é um líder bonzinho.",
 	loading_trivia_61 = "Capitão Winters possui uma raiva pessoal com a Gangue PAYDAY.",
@@ -4299,15 +4311,15 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_trivia_63 = "Rust gasta uma fortuna na sua moto.",
 	loading_trivia_64 = "Rust traiu o seu amigo mais próximo para entrar na Gangue PAYDAY.",
 	loading_trivia_65 = "Rust está marcado para morrer pela OVERKILL MC.",
-	loading_trivia_66 = "Rust mataria qualquer um que tocasse na sua moto.",
+	loading_trivia_66 = "Rust mataria qualquer um que tocasse em sua moto.",
 	loading_trivia_67 = "Sokol gasta uma fortuna em seu equipamento de hóquei.",
 	loading_trivia_68 = "Sokol assiste a liga de hóquei toda semana.",
 	loading_trivia_69 = "Sokol ainda tem um físico de um atleta profissional.",
 	loading_trivia_70 = "Sokol gosta do fato de ainda ter fãs na Rússia de quando era um jogador de hóquei.",
-	loading_trivia_71 = "Jiro gasta uma fortuna na manuntenção de sua espada.",
+	loading_trivia_71 = "Jiro gasta uma fortuna na manutenção de sua espada.",
 	loading_trivia_72 = "O corpo do Jiro é cheio de tatuagens tradicionais da Yakuza.",
-	loading_trivia_73 = "Jiro tem um inglês decente depois de passar uns anos nos Estados Unidos.",
-	loading_trivia_74 = "A relação de Jiro com a comida americana é mais pra tolerância do que para apreciar.",
+	loading_trivia_73 = "Jiro adquiriu um nível de inglês decente depois de passar alguns anos nos Estados Unidos.",
+	loading_trivia_74 = "A relação de Jiro com a comida americana é mais para tolerância do que para apreciar.",
 	loading_trivia_75 = "Dragan passa o seu tempo se exercitando para manter o seu físico em forma.",
 	loading_trivia_76 = "Dragan gasta uma fortuna em comidas saudáveis.",
 	loading_trivia_77 = "Dragan era um policial na Croácia.",
@@ -4553,6 +4565,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_gage_red_spider_reward = "Prêmios da Red Spider",
 	menu_gage_yellow_bull_reward = "Prêmios do Yellow Bull",
 	menu_gage_green_mantis_reward = "Prêmios do Green Mantis",
+	menu_feature_crimenet_thanks_gagemod_title = "VOCÊ TEM UMA NOVA MENSAGEM",
+	menu_feature_crimenet_thanks_gagemod_desc = "De: Gage [gage@///REDIGIDA///]\nPara: $player\nData: 2014-04-10 17:02 (GMT+1)\nAssunto: Jogada Inteligente\n\n Hey $player, eu só queria te agradecer por ter comprado o Gage Mod Courier DLC.\n\n Para ler mais sobre o trabalho do Mod Courier e verificar o seu progresso, simplesmente selecione o ícone do Gage na Crime.net (É um G enorme, não tem como errar).\n\n- Gage",--$NL;$NL;- Gage$NL;
 	
 	-- A História
 	menu_story_missions = "A História de PAYDAY",

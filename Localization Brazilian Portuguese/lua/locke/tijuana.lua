@@ -440,6 +440,7 @@ Hooks:Add("LocalizationManagerPostInit", "hajrudinmalucaodoidao", function(loc)
 	alm_pex_31_01 = "É essa! Vamos lá!",--This is the one! Let's go!
 	alm_pex_31_02 = "Muito bom! Vamos lá!",--Awesome! Let's go!
 	alm_pex_32_01 = "Aqui vamos nós. Adios amigos, policiais fudidos!",--There we go. Adios amigos, fucking cops!
+	alm_pex_32_02 = "Vamos dar o fora daqui!",--Let's get the fuck out of here!
 	alm_pex_32_03 = "Estou feliz de poder sair desse lugar!",--I'll be glad to see the back of this place!
 	alm_pex_33_01 = "Merda! Eles bloquearam as saídas! Nós não podemos sair!",--Shit! They blocked the exits! We can't get out!
 	alm_pex_34_01 = "Hahaa, a cavalaria chegou!",--Hahaa, cavalry's here!
@@ -480,7 +481,7 @@ Hooks:Add("LocalizationManagerPostInit", "hajrudinmalucaodoidao", function(loc)
 	hud_heist_pex_mission36_hl = "Reinicie o Dispositivo de Hack",--Restart the Hacking Device
 	hud_heist_pex_mission4_hl = "Codifique a Etiqueta RFID",--Code the RFID tag
 	hud_heist_pex_mission5_hl = "Encontre a Sala de Evidências",--Find the Evidence Room
-	hud_heist_pex_mission6_hl = "Encontra a Evidência",--Find the evidence
+	hud_heist_pex_mission6_hl = "Encontre a Evidência",--Find the evidence
 	hud_heist_pex_mission7_hl = "Destrua a Evidência",--Destroy the Evidence
 	hud_heist_pex_mission8_hl = "Encontre as Celas",--Find the cells
 	hud_heist_pex_mission9_hl = "Encontre a Sala de Armamentos",--Find the Armory

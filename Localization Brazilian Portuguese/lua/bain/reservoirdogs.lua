@@ -385,5 +385,7 @@ Hooks:Add("LocalizationManagerPostInit", "caoisgud", function(loc)
 		hud_heist_rvd2_12 = "Deposite as bolsas de diamante no porta-malas do carro do Senhor Blonde.",--Haul and deposit bags of diamonds in the trunk of Mr. Blonde's car.
 		hud_heist_rvd2_13_hl = "Fuja!",
 		hud_heist_rvd2_13 = "Fuja pelas ruas.",--Escape through the streets.
+		hud_heist_rvd2_14_hl = "Assegure mais Loot ou Fuja",--Secure more or escape
+		hud_heist_rvd2_14 = "Continue saqueando o cofre se você quiser, ou fuja.",--Keep looting the vault if you want, or make your escape.
 		})
 end)

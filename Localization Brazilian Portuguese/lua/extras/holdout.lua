@@ -95,7 +95,7 @@ Hooks:Add("LocalizationManagerPostInit", "staydownmodafoca", function(loc)
 	loc_skm_26_03 = "Ok, está bom. Nós conseguimos um pagamento bom dessa vez, mas nós podiamos provavelmente aguentar por mais tempo.",
 	loc_skm_28_01 = "Bom trabalho, amigos! Um trabalho bem feito. A gente esvaziou a conta bancária do Prefeito!",
 	loc_skm_28_02 = "Bom, muito bem. Nós conseguimos fazer eles nos darem até o último centavo. Hoje à noite, o Velho Locke vai comprar as cervejas, yeah?",
-	loc_skm_28_03 = "A situação ficou meio cabeluda, mas vocês conseguiram. Eu não sei se podem pegar mais do que isso, mas bom trabalho!",
+	loc_skm_28_03 = "A situação ficou meio tensa, mas vocês conseguiram. Eu não sei se podem pegar mais do que isso, mas bom trabalho!",
 	-- Tab
 	hud_skirmish_ransom = "Preço do Resgate:",
 	hud_weekly_holdout = "Resgate Semanal",
@@ -114,10 +114,11 @@ Hooks:Add("LocalizationManagerPostInit", "staydownmodafoca", function(loc)
 	-- Final
 	menu_skirmish_fail_end_screen = "Você falhou na ##onda $wave##",
 	menu_skirmish_success_end_screen = "Você aceitou o resgate na ##onda $wave##",
-	menu_skirmish_success_all_end = "Você conseguiu segurar por resgate máximo!",
-	menu_skirmish_weekly_reward_end_screen = "Pegue os seus prêmios especias no menu Resgate da Semana!",
+	menu_skirmish_success_all_end = "Você conseguiu segurar até o resgate máximo!",
+	menu_skirmish_weekly_reward_end_screen = "Pegue os seus prêmios especiais no menu Resgate da Semana!",
 	victory_stage_cash_summary_name_skirmish = "Você aceitou o resgate de $skirmish_cash, depois da onda $wave",
 	menu_skirmish_success_all_end_screen = "Você conseguiu o valor de Resgate Máximo!",
+	menu_es_skirmish_cash = "Pagamento pelo Resgate",
 	-- Novas Adições da OVERKILL para o Holdout Mode
 	menu_skirmish_pick_heist = "Escolha uma missão de Holdout para jogar",
 	menu_skirmish = "Holdout",

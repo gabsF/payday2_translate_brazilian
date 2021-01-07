@@ -284,7 +284,7 @@ Hooks:Add("LocalizationManagerPostInit", "milharesdedolaresvindovoando", functio
 	hud_heist_man1 = "Espere pelo o contribuinte aparecer com o servidor que estamos procurando. Assuste ele na limousine quando você o ver - Nós precisamos do servidor e do contribuinte. Alex vai levar a limousine junto com ele. Além disso, fique de olho nas oportunidades que lhe favoreça.",
 	hud_heist_man1_hl = "Preparações",
 	hud_heist_man2 = "Espere até o servidor ser mostrado antes de assustar ele! Esse servidor é o único jeito de realizar essa transação!",
-	hud_heist_man2_hl = "Acordo está fracassando",
+	hud_heist_man2_hl = "Acordo está Fracassando",
 	hud_heist_man3 = "Verifique a limousine e veja se consegue tirar o contribuinte de lá.",
 	hud_heist_man3_hl = "Verifique a Limousine",
 	hud_heist_man4 = "Atire nos fios que estão segurando a limousine!",
@@ -306,7 +306,7 @@ Hooks:Add("LocalizationManagerPostInit", "milharesdedolaresvindovoando", functio
 	hud_heist_man12 = "Bain está pronto para transferir o dinheiro. Faça o último passo e complete a transferência!",
 	hud_heist_man12_hl = "Conclua o Hack",
 	hud_heist_man13 = "Dê um Golpe nele e Amarre-o na Cadeira",
-	hud_heist_man13_hl = "Prenda o contribuinte na cadeira.",
+	hud_heist_man13_hl = "Prenda o Contribuinte na Cadeira",
 	hud_heist_man14 = "Alex vai usar o guindaste para levar a limousine da rua até o telhado do prédio.",
 	hud_heist_man14_hl = "Espere pelo Guindaste",
 		})

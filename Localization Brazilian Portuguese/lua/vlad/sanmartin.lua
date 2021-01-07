@@ -74,9 +74,6 @@ Hooks:Add("LocalizationManagerPostInit", "bancodesanmartinmexico", function(loc)
 	loc_bex_20_01 = "O cofre, amigos. Usem a digital.",--The safe, friends. Use the print.
 	loc_bex_20_02 = "Usem a digital para abrir o cofre.",--Use the print to open the safe.
 	loc_bex_20_03 = "Ainda precisamos abrir aquele cofre. Usem a digital.",--Still need to get that safe open. Use the print.
-	loc_bex_21_01 = "Merda! Isso... funcionou? Ha! Certo, agora usem isso para passar pelos portões.",--Blerrie! It... worked? Ha! Ok, now use it to get past the gates.
-	loc_bex_21_02 = "Ha, funcionou! Pelo menos uma vez a TV foi boa para algo, yeah? Agora, usem isso para passar pela segurança.",--Ha, it worked! For once, TV is good for something, yeah? Now, use it to get past security. 
-	loc_bex_21_03 = "Certo, agora usem essa coisa para passar pelo portão de segurança.",--Ok, now use that thing to get past the security gate.
 	loc_bex_21_01 = "Puta que pariu! Isso... funcionou? Ha! Ok, agora usem isso para passar pelos portões.",--Blerrie! It... worked? Ha! Ok, now use it to get past the gates.
     loc_bex_21_02 = "Ha, funcionou! Pelo menos uma vez a TV foi boa para algo, yeah? Agora, usem isso para passar pela segurança.",--Ha, it worked! For once, TV is good for something, yeah? Now, use it to get past security. 
     loc_bex_21_03 = "Certo, agora usem essa coisa para passar pelo portão de segurança.",--Ok, now use that thing to get past the security gate.
