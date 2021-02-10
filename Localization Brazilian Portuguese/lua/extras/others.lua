@@ -3384,7 +3384,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	victory_hit_accuracy = "PRECISÃO:",
 	victory_total_kills = "TOTAL DE VÍTIMAS:",
 	victory_total_specials_kills = "TOTAL DE VÍTIMAS ESPECIAIS:",
-	victory_total_head_shots = "TIROS NA CEBAÇA:",
+	victory_total_head_shots = "TIROS NA CABEÇA:",
 	victory_favourite_weapon = "ARMA PREFERIDA:",
 	--victory_best_accuracy_name = "$PLAYER_NAME ($SCORE%)",
 	--victory_best_killer_name = "$PLAYER_NAME ($SCORE)",
