@@ -1,5 +1,3 @@
---- 6.01 ---
-+ Correções de Erros de Tradução
-+ Mais algumas HUDs traduzidas
-+ Traduzido uma HUD de Objetivo que ficou faltando na Reservoir Dogs
-+ Mais algumas Conquistas traduzidas
+--- 6.02 ---
++ Adicionado uma checagem pro HopLib usar a localização do Português
++ Corrigido a falta de acento em certas partes

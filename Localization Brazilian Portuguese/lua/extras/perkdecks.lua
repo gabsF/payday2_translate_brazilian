@@ -85,7 +85,7 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	-- Rogue
 	--menu_st_spec_4 = "Rogue",
 	menu_st_spec_4_desc = "O Rogue é um criminoso sigiloso, capaz de realizar truques e de possuir uma força mortal. Versátil e enganador, o Rogue é contratado para fazer qualquer coisa, desde saquear coisas pequenas para assaltos e roubos sigilosos.\n\nO rastro de um Rogue é a sua versatilidade, o que lhe falta em força ele compensa em habilidade.",
-	menu_deck4_1 = "Sutil",
+	menu_deck4_1 = "Sútil",
 	menu_deck4_1_desc = "A sua chance de Dodge é aumentada em ##15%##.",
 	menu_deck4_3 = "Ilusório",
 	menu_deck4_3_desc = "Você terá ##15%## menos de probabilidade de ser mirado enquanto estiver perto dos seus aliados.",
@@ -285,7 +285,7 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	menu_deck18_1_desc = "Desbloqueia e equipa a granada ##Bomba de Fumaça##.\n\nQuando lançado, a Bomba de Fumaça cria uma fumaça que dura ##10## segundos. Quando estiver dentro dessa fumaça, você e qualquer um do seu grupo automaticamente desvia de ##50%## de todas as balas.\n\nDepois da fumaça sumir, a Bomba de Fumaça terá um tempo de ##60## segundos antes de poder ser usada novamente, porém matar um inimigo irá reduzir esse tempo em ##1## segundo.",
 	menu_deck18_3 = "Convulsão",
 	menu_deck18_3_desc = "Toda vez quando o jogador levar um tiro, ganha ##20%## de chance de Dodge. Esse efeito só vai ser anulado quando o jogador desviar de uma bala e isso não pode ocorrer mais de uma vez a cada ##4## segundos.",
-	menu_deck18_5 = "Sutil",
+	menu_deck18_5 = "Sútil",
 	menu_deck18_5_desc = "A sua chance de Dodge é aumentada em ##15%##.",
 	menu_deck18_7 = "Colete Ágil",
 	menu_deck18_7_desc = "Desviar das balas vai regenerar a sua armadura.",

@@ -20,7 +20,6 @@
 		{ "hook_id" : "lib/managers/platformmanager", "script_path" : "lua/scripts/RichPresence.lua" },
 		{ "hook_id" : "lib/managers/skirmishmanager", "script_path" : "lua/scripts/RichPresence.lua" },
 		{ "hook_id" : "lib/managers/menumanager", "script_path" : "lua/scripts/menumanager.lua" }
-		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/scripts/beardlibforcebrazilian.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/events/halloween.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/extras/modifiers.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/extras/bmarket.lua" },
