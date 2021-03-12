@@ -1,3 +1,5 @@
 --- 6.02 ---
 + Adicionado uma checagem pro HopLib usar a localização do Português
 + Corrigido a falta de acento em certas partes
+
+(Só falta ter ferrado o bagulho de updates)
