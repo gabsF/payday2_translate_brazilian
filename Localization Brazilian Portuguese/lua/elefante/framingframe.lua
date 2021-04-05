@@ -259,7 +259,7 @@ Hooks:Add("LocalizationManagerPostInit", "elefantedoidao", function(loc)
 	hud_e_framing_frame_stage2_mission3_hl = "Entre no Vagão de Trem",--Get into the train cart
 	hud_e_framing_frame_stage2_mission5_hl = "Emboscada!",--Ambushed
 	hud_e_framing_frame_stage2_mission1 = "Atenda o telefone e faça a negociação.",--Answer the phone to make the trade
-	hud_e_framing_frame_stage2_mission6_hl = "Fuga está Diponível",--Escape is available
+	hud_e_framing_frame_stage2_mission6_hl = "Fuga está Disponível",--Escape is available
 	hud_e_framing_frame_stage2_mission3 = "Para continuar a negociação, certifique-se que todos estão dentro do vagão de trem.",--To continue the trade, make sure everyone is in the train cart
 	hud_e_framing_frame_stage2_mission4 = "Joguem as bolsas para executar a troca.",--Throw the bags to do the trade
 	hud_e_framing_frame_stage2_mission4_hl = "Faça a Troca",--Do the trade

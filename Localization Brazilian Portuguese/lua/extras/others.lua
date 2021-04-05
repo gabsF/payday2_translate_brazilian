@@ -626,7 +626,6 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_button_vehicle_rear_camera = "Olhar para trás",--Look behind
 	menu_button_vehicle_change_camera = "Alterar Modo de Câmera",--Change camera mode
 	menu_button_stats_screen = "Tela da Missão",--Mission Screen
-	menu_ingame_menu = "Menu do Jogo",--IN-GAME MENU
 	menu_button_accelerate = "Acelerar",--Accelerate
 	menu_button_vehicle_exit = "Sair do Veículo",--Exit vehicle
 	menu_button_vehicle_shooting_stance = "Posição de Tiro no Passageiro",--Passenger shooting pose
@@ -639,6 +638,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	
 	-- "Carregando a Bolsa"
 	hud_carrying = "Carregando:",
+	hud_carry_dragon_statue = "Estátua de Dragão",--Dragon Statue
+	hud_carry_tea_set = "Jogo de Chá",--Tea Set
 	hud_carry_cloaker_money = "Dinheiro do Cloaker",--Cloaker Money
 	hud_carry_battery = "Bateria",--Battery
 	hud_carry_equipment_bag = "Equipamento",--Equipment
@@ -794,6 +795,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_equipment_scythe = "Foice",
 	hud_equipment_alarm_clock = "Despertador",
 	hud_equipment_wire = "Cabos",
+	hud_action_pickup_keychain_forklift = "Chaves da Empilhadeira",--Forklift keys
 	
 	-- Outros Interagindo
 	hud_opening_cas_briefcase = "Abrindo a Maleta",--Opening the briefcase
@@ -1166,6 +1168,13 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	hud_int_hold_breach_shutter = "Segure $BTN_INTERACT para forçar a porta de garagem",--Hold  to force open shutter
+	hud_int_hold_flip_light = "Pressione $BTN_INTERACT para ligar as luzes",--Hold  to turn on the lights
+	hud_int_take_tea_set = "Segure $BTN_INTERACT para pegar o jogo de chá",--Hold  to take tea set
+	hud_equipment_need_forklift_keys = "Você precisa das chaves pra destrancar a empilhadeira",--You need the keys to unlock the forklift
+	hud_int_pickup_keychain_forklift = "Segure $BTN_INTERACT para pegar as chaves da empilhadeira",--Hold  to take the forklift keys
+	hud_int_hold_unlock_forklift = "Segure $BTN_INTERACT pra destrancar a empilhadeira",--Hold  to unlock the forklift
+	hud_int_hold_take_dragon_statue = "Segure $BTN_INTERACT para pegar a estátua do dragão",--Hold  to take the dragon statue
 	debug_interact_sentry_gun_reload = "Segure $BTN_INTERACT para recarregar a Sentinela$NL;( Munição Restante: $AMMO )",--Hold $BTN_INTERACT; to reload Sentry Gun$NL;( Ammo Remaining: $AMMO; )
 	debug_interact_saw_jammed_PS3 = "Segure $BTN_INTERACT para reiniciar a serra",
 	debug_interact_saw_jammed = "Segure $BTN_INTERACT para reiniciar a serra",
@@ -1952,12 +1961,9 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	dialog_unsuspend_title = "Skill Set Não Suspenso",
 	dialog_unsuspend = "Esse Set de Skills está suspenso. Você poderá resetar todos os pontos de skill para fazê-lo ficar disponível para uso novamente. Você gostaria de resetar $Name?",
 	dialog_err_not_signed_in = "VOCÊ PRECISA ESTAR ONLINE PARA FAZER USO DOS MODOS DE REDE.",--YOU MUST BE ONLINE TO MAKE USE OF NETWORK MODES.
-	hud_waiting_accept = "ACEITAR$MY_BTN",--ACCEPT$MY_BTN;
 	hud_waiting_host_accept_text = "o host aceitar o seu pedido",--the host accepts your request
 	hud_waiting_host_accept_title = "Você estará no modo espectador até",--You will be in spectate mode until
-	hud_waiting_kick = "EXPULSAR$MY_BTN",--KICK$MY_BTN;
 	hud_waiting_no_binding_text = "JOGADOR AGUARDANDO PARA SE JUNTAR",--PLAYER WAITING TO JOIN
-	hud_waiting_return = "RETORNAR$MY_BTN",--RETURN$MY_BTN;
 	menu_friends_banned = "BANIDO",--BANNED
 	dialog_mp_banned_title = "BANIDO",--BANNED
 	dialog_mp_banned_body = "Você foi banido pelo host.",--You have been banned by the host.
@@ -2056,6 +2062,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_user_interface = "Interface do Usuário",
 	menu_advanced_options = "Avançado",
 	-- Menu Avançado
+	menu_toggle_telemetry_help = "Habilita ou Desabilita a Telemetria, para mais informações, vá para https://www.starbreeze.com/payday2/privacy-policy.pdf",--Turns the telemetry on or off, for more information goto https://www.starbreeze.com/payday2/privacy-policy.pdf
+	menu_toggle_telemetry = "Telemetria",--Telemetry
 	menu_toggle_workshop = "Habilitar Workshop",
 	menu_toggle_workshop_help = "Habilita ou Desabilita o Workshop.",
 	menu_ban_list = "Lista de Ban",
@@ -2413,6 +2421,18 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_cam_access_camera_crojob2_dock_3B = "Carregando Doca 3B",--Loading Dock 3B
 	hud_cam_access_camera_crojob2_ship_control_room_right = "Sala de Controle do Navio - Direita",--Ship Control Room - Right
 	menu_preplanning_enter = "Clique para Entrar",--Enter Preplanning
+	menu_pp_chas_tram_001 = "Rua",--Street
+	menu_pp_chas_ilija_the_sniper_001 = "Rua",--Street
+	menu_pp_chas_garbage_truck_001 = "Beco",--Back Alley
+	menu_pp_chas_open_windows_warehouse_001 = "Depósito",--Warehouse
+	menu_pp_asset_chas_garbage_truck = "Caminhão de Lixo",--Garbage truck
+	menu_pp_asset_chas_garbage_truck_desc = "Um caminhão de lixo estará esperando por você para assegurar o loot. (Vê se não faz barulho, beleza?)",--A garbage truck will be waiting for you to toss the loot bags into. (Just don't make too much noise.)
+	menu_pp_asset_chas_open_window = "Janela do Depósito Aberto",--Open warehouse window
+	menu_pp_asset_chas_open_window_desc = "Um associado deixou a janela aberta no depósito.",--An associate left open a window in the warehouse.
+	menu_pp_chas_tram = "Entrega Especial da Furadeira",--Thermal drill special delivery
+	menu_pp_chas_tram_desc = "Um amigo vai estar enviando a furadeira térmica, de um jeito bem doido.",--A friend is sending in the thermal drill in a special fashion.
+	menu_pp_chas_bpr_loc_a = "Primeiro Andar",--Ground floor
+	menu_pp_chas_bpr_loc_b = "Porão",--Basement
 	menu_pp_cat_escape_plan = "Plano de Fuga",--Escape Plan
 	menu_pp_cat_escape_plan_desc = "Diferentes formas de fugir do local.$NL;$NL;O Plano de Fuga precisa da maioria de votos. Em caso de empate, o voto do Host será decisivo.",--Alternative ways of getting out.$NL;$NL;Escape plans need a majority vote. In a deadlock, the host has casting vote.
 	menu_pp_crojob2_escape_van = "Fuga pela Van",--Van Escape
@@ -3472,14 +3492,14 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_loading_progress = "Carregando $prog%",
 	
 	-- Difficulty Names
-	menu_difficulty_normal = "Normal",
-	menu_difficulty_hard = "Hard",
-	menu_difficulty_very_hard = "Very Hard",
-	menu_difficulty_overkill = "OVERKILL",
-	menu_difficulty_easy_wish = "Mayhem",
-	menu_difficulty_apocalypse = "Death Wish",
-	menu_difficulty_sm_wish = "Death Sentence",
-	menu_one_down = "One Down",
+	--menu_difficulty_normal = "Normal",
+	--menu_difficulty_hard = "Hard",
+	--menu_difficulty_very_hard = "Very Hard",
+	--menu_difficulty_overkill = "OVERKILL",
+	--menu_difficulty_easy_wish = "Mayhem",
+	--menu_difficulty_apocalypse = "Death Wish",
+	--menu_difficulty_sm_wish = "Death Sentence",
+	--menu_one_down = "One Down",
 	
 	-- Avisos do Chat
 	menu_chat_preplanning_reserved = "$name colocou $type.",
@@ -3895,12 +3915,12 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_filter_tactic_holiday = "Evento de Férias $event_icon",
 	
 	-- Crime.net -> Nomes dos Contratantes
-	heist_contact_the_dentist = "O Dentista",
+	--heist_contact_the_dentist = "the Dentist",
 	heist_contact_classic = "Clássicos",
-	heist_contact_continental = "O Continental",
+	--heist_contact_continental = "O Continental",
 	heist_contact_events = "Eventos",
-	heist_contact_the_butcher = "the Butcher",
-	heist_contact_the_elephant = "O Elefante",
+	--heist_contact_the_butcher = "the Butcher",
+	--heist_contact_the_elephant = "the Elephant",
 
 	-- Safe House
 	menu_cs_title_jacket = "Canto do Jacket",

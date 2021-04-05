@@ -1,5 +1,7 @@
---- 6.02 ---
-+ Adicionado uma checagem pro HopLib usar a localização do Português
-+ Corrigido a falta de acento em certas partes
-
-(Só falta ter ferrado o bagulho de updates)
+--- 7.00 ---
++ Traduzido Dragon Heist
++ Traduzido algumas partes do menu
++ Traduzido o objetivo que estava faltando de Reservoir Dogs, dia 2
+* Corrigido o objetivo de Framing Frame, dia 2
+* Corrigido o nome do No Mercy
+- Removido as traduções dos nomes dos contratantes
