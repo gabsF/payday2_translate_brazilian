@@ -146,24 +146,24 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	menu_deck8_3 = "Combate de Perto Básico",
 	menu_deck8_3_desc = "Quando você estiver em uma distância média de um inimigo, você recebe ##8%## de redução de dano dos seus inimigos.",
 	menu_deck8_5 = "Combate de Perto Avançado",
-	menu_deck8_5_desc = "Quando você estiver em uma distância média de um inimigo, você recebe ##8%## de redução de dano dos seus inimigos.",
+	menu_deck8_5_desc = "Quando você estiver em uma distância média de um inimigo, você recebe mais ##8%## de redução de dano dos seus inimigos. \n\nMais ##6## segundos de duração do efeito de ##Pressionado##.",--An additional 6 seconds are added to OVERDOG's duration of the extra damage on melee strike, for a total of 7 seconds before expiring.",
 	menu_deck8_7 = "Combate de Perto Expert",
-	menu_deck8_7_desc = "Quando você estiver em uma distância média de um inimigo, você recebe ##8%## de redução de dano dos seus inimigos.",
+	menu_deck8_7_desc = "Quando você estiver em uma distância média de um inimigo, você recebe mais ##8%## de redução de dano dos seus inimigos.",
 	menu_deck8_9 = "Sugando Sangue",
 	menu_deck8_9_desc = "Batendo em um inimigo com a sua arma de corpo-a-corpo irá regenerar ##20%## da sua vida. Isso não pode ocorrer mais de uma vez durante ##10## segundos.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 	
 	-- Sociopath
 	--menu_st_spec_9 = "Sociopath",
 	menu_st_spec_9_desc = "O Sociopath é conhecido por ser um criminoso mais efetivo. Onde ele é mais efetivo, também é difícil de se lidar, tornando assim o motivo no qual grandes grupos evitam ele.\n\nAtrevido, desinibido e perigoso, o Sociopath consegue fazer os serviços mais perigosos. Mal consegue sentir culpa dos crimes em que ele comete.. Ele é um inimigo bem perigoso.",
-	menu_deck9_1 = "No Talk", -- name fix, "overdog" is not a hotline miami level name, dumb head.
+	menu_deck9_1 = "No Talk", -- Referências aos nomes de fases do Hotline Miami
 	menu_deck9_1_desc = "Quando você estiver cercado por três inimigos ou mais, você recebe uma redução de ##12%## de dano dos inimigos.\n\nPor segundo e a cada acerto consecutivo com a sua arma de corpo-a-corpo dentro de ##1## segundo do último acerto vai dar ##10## vezes do seu dano normal.",
-	menu_deck9_3 = "Tensão",
+	menu_deck9_3 = "Tension",
 	menu_deck9_3_desc = "Matando um inimigo irá regenerar ##30## de armadura.\n\nIsso não pode ocorrer mais de uma vez durante ##1## segundo.\n\nVocê ganha mais ##10%## de armadura.",
-	menu_deck9_5 = "Acerto Limpo",
+	menu_deck9_5 = "Clean Hit",
 	menu_deck9_5_desc = "Matando um inimigo com a sua arma de corpo-a-corpo irá regenerar ##10%## da sua vida.\n\nIsso não pode ocorrer mais de uma vez durante ##1## segundo.\n\nQuando você estiver em uma distância média de um inimigo, você recebe ##8%## a menos de dano.",
 	menu_deck9_7 = "Overdose",
 	menu_deck9_7_desc = "Matando um inimigo em uma distância média irá recuperar ##30## de armadura.\n\nIsso não pode ocorrer mais de uma vez durante ##1## segundo.\n\nVocê ganha mais ##10%## de armadura.",
-	menu_deck9_9 = "Confronto",
+	menu_deck9_9 = "Showdown",
 	menu_deck9_9_desc = "Matando um inimigo em uma distância média tem uma chance de ##75%## de fazer os inimigos pertos terem pânico.\n\nO pânico vai fazer os seus inimigos terem curtos períodos de medo.\n\nIsso não poderá ocorrer mais de uma vez durante ##1## segundo.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 	
 	-- Gambler
@@ -216,7 +216,7 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	menu_deck13_3 = "Força Emergente",
 	menu_deck13_3_desc = "Aumenta a quantidade de vida guardada que você mata por ##4##.\n\nVocê ganha mais ##10%## de vida.",
 	menu_deck13_5 = "Vida Fria",
-	menu_deck13_5_desc = "Aumenta a vida máxima que pode ser guardada em ##50%##.\n\nVocê ganha mais ##10%## de vida.\n\nA sua chance de Dodge é aumentada em ##10%##.",
+	menu_deck13_5_desc = "Aumenta a vida máxima que pode ser guardada em ##50%##.\n\nVocê ganha mais ##10%## de vida.\n\nA sua chance de Dodge é aumentada em ##15%##.",
 	menu_deck13_7 = "Despertando a Terra",
 	menu_deck13_7_desc = "Aumenta a quantidade de vida guardada que você mata por ##4##.\n\nVocê ganha mais ##20%## de vida.",
 	menu_deck13_9 = "A Linha Perfeita",
@@ -248,7 +248,7 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	menu_deck15_7 = "Crescendo Demais",
 	menu_deck15_7_desc = "##50%## da sua vida é convertida em ##120%## de armadura.",
 	menu_deck15_9 = "Luxúria à Vida",
-	menu_deck15_9_desc = "Causando dano irá te dar ##10## de armadura, isso não poderá ocorrer mais de uma vez por ##1.5## segundos.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+	menu_deck15_9_desc = "Causando dano irá te dar ##30## de armadura, isso não poderá ocorrer mais de uma vez por ##1.5## segundos.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 	
 	-- Biker
 	--menu_st_spec_16 = "Biker",
@@ -267,9 +267,9 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	-- Kingpin
 	--menu_st_spec_17 = "Kingpin",
 	menu_st_spec_17_desc = "O Kingpin é o patrão! um autocrata em que quem estiver ao lado dele deverá obedecer a ele. Mas você tem que ter o dinheiro primeiro. Assim que estiver com o Dinheiro, você terá o poder. Lembre-se disso: a única coisa nesse mundo que dá as ordens... é as bolas.",
-	menu_deck17_1 = "Um Cara Mal Passando",
-	menu_deck17_1_desc = "Desbloqueia e equipa o ##Injetor do Kingpin##. Mudando para outro Perk Deck vai deixar o Injetor bloqueado novamente. O Injetor substitui a sua Granada, é equipado no lugar da Granada e pode ser trocada se quiser.\n\nQuando estiver jogando, você pode usar o botão de jogar a granada para ativar o injetor. Ativando o injetor, ele irá te curar ##75%## de todo o dano que você levar por ##6## segundos.\n\nVocê ainda vai levar dano durante o efeito. O Injetor só pode ser usado a cada ##30## segundos.",
-	menu_deck17_3 = "Durão",
+	menu_deck17_1 = "Abram o Caminho para o Cara Mal",
+	menu_deck17_1_desc = "Desbloqueia e equipa o ##Injetor do Kingpin##. Mudando para outro Perk Deck vai deixar o Injetor bloqueado novamente. O Injetor substitui a sua Granada, é equipado no lugar da Granada e pode ser trocada se quiser.\n\nQuando estiver jogando, você pode usar o botão de jogar a granada para ativar o injetor. Ativando o injetor, ele irá te curar ##75%## de todo o dano que você levar por ##6## segundos.\n\nVocê ainda vai levar dano durante o efeito. O Injetor só pode ser usado a cada ##30## segundos. \n\nA cada inimigo que matar irá reduzir o cooldown do injetor por ##1## segundo.",
+	menu_deck17_3 = "Querem Brincar de Porrada?",
 	menu_deck17_3_desc = "Você ganha mais ##10%## de vida.",
 	menu_deck17_5 = "Inimigo Público Número 1",
 	menu_deck17_5_desc = "Você ganha mais ##10%## de vida.\n\nInimigos próximos vão ver você como um alvo perfeito, quando possível, enquanto o efeito do injetor estiver ativo.",
@@ -324,14 +324,14 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	--menu_st_spec_21 = "Hacker",
 	menu_st_spec_21_desc = "Usando o seu equipamento e a sua mente brilhante, você pode fuder qualquer sistema de segurança com um simples apertar de um botão. Você nunca foi pego no flagra por uma câmera de segurança ou por um guarda, mas se as coisas irem por água a baixo, você poderá facilmente fazer uma força bruta, passar pelos guardas e dar um final não muito feliz para alguém que estiver te ouvindo.",
 	menu_deck21_1 = "Bug de Código",
-	menu_deck21_1_desc = "Desbloqueia e equipa o ##Dispositivo ECM de Bolso##.\n\nMudando para outro Perk Deck vai fazer com que o Dispositivo ECM de Bolso seja novamente bloqueado. O Dispositivo ECM de Bolso substitui a sua granada, e pode ser trocado caso queira. Enquanto estiver jogando, você poderá apertar a tecla da granada e ativar o Dispositivo ECM de Bolso.\n\nAtivando o Dispositivo ECM de Bolso antes do alarme soar, vai ativar o efeito de bloqueamento, desativando todos eletrônicos e pagers por ##6## segundos.\n\nAtivando o Dispositivo ECM de Bolso depois do alarme ter soado vai ativar o efeito de Feedback, tendo uma chance de atordoar os inimigos no mapa todo por ##6## segundos.\n\nO Dispositivo ECM de Bolso tem ##2## usos com um tempo de ##100## segundos antes de poder usar novamente, mas cada inimigo que você matar vai reduzir o tempo em ##6## segundos.",
+	menu_deck21_1_desc = "Desbloqueia e equipa o ##Dispositivo ECM de Bolso##.\n\nMudando para outro Perk Deck vai fazer com que o Dispositivo ECM de Bolso seja novamente bloqueado. O Dispositivo ECM de Bolso substitui a sua granada, e pode ser trocado caso queira. Enquanto estiver jogando, você poderá apertar a tecla da granada e ativar o Dispositivo ECM de Bolso.\n\nAtivando o Dispositivo ECM de Bolso antes do alarme soar, vai ativar o efeito de bloqueamento, desativando todos eletrônicos e pagers por ##6## segundos.\n\nAtivando o Dispositivo ECM de Bolso depois do alarme ter soado vai ativar o efeito de Feedback, tendo uma chance de atordoar os inimigos no mapa todo por ##6## segundos.\n\nO Dispositivo ECM de Bolso tem ##2## usos com um tempo de ##100## segundos antes de poder usar novamente, mas cada inimigo que você matar vai reduzir o tempo em ##6## segundos. \n\nNota: Os cooldowns dos ##2## usos são separados, o segundo não vai recarregar até que o primeiro termine.",
 	menu_deck21_3 = "Operação de Segurança",
 	menu_deck21_3_desc = "Você ganha mais ##20%## de vida.",
 	menu_deck21_5 = "Distração de Bit",
-	menu_deck21_5_desc = "Matando um inimigo enquanto estiver com o efeito do Feedback, vai regenerar ##20## de vida.",
+	menu_deck21_5_desc = "Matando um inimigo enquanto estiver com o efeito do Feedback, vai regenerar ##20## de vida. \n\nVocê vai ter ##15%## de Dodge.",
 	--menu_deck21_7 = "Kluge",
 	menu_deck21_7_desc = "Matando pelo menos ##1## inimigo enquanto estiver com o efeito do Feedback ou de Bloqueamento, você vai receber ##20## de Dodge por ##30## segundos.",
 	menu_deck21_9 = "Bot da INTERWEB",
-	menu_deck21_9_desc = "Enquanto tiver o efeito do Feedback e os seus aliados matarem os inimigos, você vai regenerar ##10## de vida.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+	menu_deck21_9_desc = "Enquanto tiver o efeito do Feedback e os seus aliados matarem os inimigos, você vai regenerar ##10## de vida.\nTem mais ##15%## de Dodge.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 	})
 end)

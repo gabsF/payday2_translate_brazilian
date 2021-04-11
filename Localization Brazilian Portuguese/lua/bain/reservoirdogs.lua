@@ -388,6 +388,6 @@ Hooks:Add("LocalizationManagerPostInit", "caoisgud", function(loc)
 		hud_heist_rvd2_14_hl = "Assegure mais Loot ou Fuja",--Secure more or escape
 		hud_heist_rvd2_14 = "Continue saqueando o cofre se você quiser, ou fuja.",--Keep looting the vault if you want, or make your escape.
 		hud_heist_rvd2_15_hl = "Desative a eletricidade do cofre",--Disable the vault doors electricity",
-		hud_heist_rvd2_15 = "Ache a caixa de energia e corta os fios do cofre, para desativar a armadilha eletrificada.",--Find the electric box and cut the mains leading to the vault, to disable the electrified booby-trap.",
+		hud_heist_rvd2_15 = "Ache a caixa de energia e corte os fios para desativar a armadilha eletrificada.",--Find the electric box and cut the mains leading to the vault, to disable the electrified booby-trap.",
 		})
 end)

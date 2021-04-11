@@ -257,6 +257,16 @@ Hooks:Add("LocalizationManagerPostInit", "SAYHELLOTOMYLITTLEFRIEND", function(lo
 	pt1_fri_06_02 = "Voltando para mais um. Bora jogar esse na casa, beleza?",--Coming back for another one. Let's drop this one on the house, ok?
 	pt1_fri_06_03 = "Ok, voltando para o próximo. Poderíamos jogar esse dentro da casa.",--Ok, I'm coming back again for the next one. We could just drop it right on the house.
 	pt1_fri_07_03 = "Ok pessoal, coloquem o próximo.",--Ok guys, attach the next one.
+	bos_fri_07_01 = "Sim?",--Yes?
+	bos_fri_07_02 = "O que foi?",--What is it?
+	bos_fri_07_03 = "O qeu você quer?",--What do you want?
+	bos_fri_08_01 = "Tá, vou abrir.",--Ok, I'll open up.
+	bos_fri_08_02 = "Ok, pode entrar.",--Ok, come in.
+	bos_fri_08_03 = "Beleza, só um segundo.",--Alright, just a second.
+	bos_fri_09_01 = "Mas o que..?",--What the..?
+	bos_fri_09_02 = "Ei! Quem..?",--Hey! Who the..?
+	bos_fri_09_03 = "Mas que merda?",--What the fuck?
+	bos_fri_09_04 = "Ah, porra!",--Oh fuck!
 	
 	-- Objetivos
 	hud_heist_friend_stealth_04_hl = "Entre no Escritório",--Enter the office

@@ -612,13 +612,14 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	bm_menu_dodge = "Dodge",
 	bm_menu_health = "Vida",
 	bm_menu_armor = "Armadura",
-	bm_menu_concealment = "Concealment",
+	--bm_menu_concealment = "Concealment",
 	bm_menu_movement = "Velocidade",
 	bm_menu_stamina = "Vigor",
 	bm_menu_stats_base = "Base",
 	bm_menu_stats_detection = "Risco de Detecção",
 	bm_menu_stats_skill = "Habil.",
 	bm_menu_stats_total = "Total",
+	bm_menu_optimal_range = "Alcance Dano",--Optimal Range
 	
 	-- Joystick Botões
 	menu_button_brake = "Freio/Ré",--Brake/Reverse

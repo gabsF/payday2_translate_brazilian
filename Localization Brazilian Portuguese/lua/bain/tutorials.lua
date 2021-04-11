@@ -118,6 +118,11 @@ Hooks:Add("LocalizationManagerPostInit", "focadonosiniciantes", function(loc)
 	pln_sh11_23_02 = "Boa. Isso deve servir.",
 	pln_sh11_26_01 = "Eu sei que tô meio enferrujado, mas não mata ele. Você não vai conseguir enganar o cara do controle de novo se tentar responder o pager.",
 	pln_sh11_26_02 = "Lembre-se, não mata esse cara. Se responder o cara do controle de novo, ele não cair por essa de novo.",
+	pln_sh11_24_01 = "Calma agora. Outro guarda está patrulhando a área. Ele provavelmente tá procurando pelo seus companheiros. Não podemos matar esse cara. Repito: não mata esse cara.",--Careful now. Another guard is patrolling the area. He's most likely looking for his partners. We can't afford to kill this guy. I repeat: do not kill him.
+	pln_sh11_24_02 = "Vai com calma agora. Outro guarda está patrulhando a área, provavelmente procurando pelo seus companheiros, me ouviu? NÂO mata esse cara.",--Be real careful now. Another guard is patrolling the area, probably looking for his partners. Do not kill this guy, you hear me? Do NOT kill him.
+	pln_sh11_24_03 = "Tá, toma cuidado. Tem outro guarda patrulhando na área. Aposto que ele está procurando pelo seus companheiros. Sejá lá o que for acontecer, não mata esse cara. Me ouviu? Não mata ele ou a gente se ferrou.",--All right, time to be careful. There's another guard patrolling the area. I'm betting he's looking for his missing buddies. Whatever happens, do not kill this man. You understand? Don't kill him or we're screwed.
+	pln_sh11_05_01 = "Tá, boa. Bota o corpo em uma bolsa e esconde-o antes que alguém veja.",--Okay, good. Now, bag that body and get it out of sight before someone comes looking.
+
 
 	pln_sh12_01_02 = "Hora de me mostrar se você ainda manja do Stealth. O resto de vocês esperem na van e fiquem prontos quando dá merda.",
 	pln_sh12_01_03 = "O banco de dados deve tá no segundo andar.",

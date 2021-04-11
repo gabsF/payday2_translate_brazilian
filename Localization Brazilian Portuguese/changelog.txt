@@ -1,7 +1,6 @@
---- 7.00 ---
-+ Traduzido Dragon Heist
-+ Traduzido algumas partes do menu
-+ Traduzido o objetivo que estava faltando de Reservoir Dogs, dia 2
-* Corrigido o objetivo de Framing Frame, dia 2
-* Corrigido o nome do No Mercy
-- Removido as traduções dos nomes dos contratantes
+--- 7.01 ---
++ Traduzido mais legendas em Scarface Mansion
++ Adicionado e traduzido os efeitos de alguns Perk Decks que o jogo não lista
++ Traduzido a nova estátistica das armas
+* Traduzido algumas falas em Tutorial do Stealth
+* Corrigido o objetivo em Reservoir Dogs, dia 2
