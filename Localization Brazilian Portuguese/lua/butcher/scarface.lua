@@ -259,7 +259,7 @@ Hooks:Add("LocalizationManagerPostInit", "SAYHELLOTOMYLITTLEFRIEND", function(lo
 	pt1_fri_07_03 = "Ok pessoal, coloquem o próximo.",--Ok guys, attach the next one.
 	bos_fri_07_01 = "Sim?",--Yes?
 	bos_fri_07_02 = "O que foi?",--What is it?
-	bos_fri_07_03 = "O qeu você quer?",--What do you want?
+	bos_fri_07_03 = "O que você quer?",--What do you want?
 	bos_fri_08_01 = "Tá, vou abrir.",--Ok, I'll open up.
 	bos_fri_08_02 = "Ok, pode entrar.",--Ok, come in.
 	bos_fri_08_03 = "Beleza, só um segundo.",--Alright, just a second.
