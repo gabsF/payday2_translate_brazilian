@@ -1,6 +1,2 @@
---- 7.01 ---
-+ Traduzido mais legendas em Scarface Mansion
-+ Adicionado e traduzido os efeitos de alguns Perk Decks que o jogo não lista
-+ Traduzido a nova estátistica das armas
-* Traduzido algumas falas em Tutorial do Stealth
-* Corrigido o objetivo em Reservoir Dogs, dia 2
+--- 7.02 ---
+* Correções de tradução que foram reportados via Discord

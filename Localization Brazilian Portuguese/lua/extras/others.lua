@@ -516,7 +516,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_infamy_rank = "Nível $rank de Infamy",
 	menu_infamy_help = "Seja Infamous e aumente o seu nível de Infamy. Recompensas especiais estão disponíveis para níveis de Infamy 1 ao 100.",
 	menu_infamy_banner_unlock = "Desbloqueado no Infamy $rank.",
-	menu_infamy_go_infamous_error_crime_spree = "Você não pode se tornar infamous quando tem uma Crime Spree ativa",
+	menu_infamy_go_infamous_error_crime_spree = "Você não pode se tornar infamous quando tem uma Crime Spree ativa.",
+	menu_infamy_go_infamous_error_money = "Você precisa pagar 200,000,000 da sua conta offshore para tornar-se infamous.",--You need to pay 200,000,000 from your offshore account to go infamous.
 	menu_infamy_go_infamous_error_level = "Você precisa ser nível 100 para tornar-se infamous.",
 	menu_infamy_button_go_infamous = "[Tornar-se Infamous]",
 	menu_infamy_infamy_panel_infamy_level = "Infamy atual: $infamy",
@@ -591,7 +592,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	discord_rp_single_end = "Sumário do Assalto", -- Singleplayer
 	discord_rp_safehouse = "Na Safe House",
 	discord_rp_mp_end = "Sumário do Assalto", -- Multiplayer
-	discord_rp_lobby = "No Lobby",
+	discord_rp_lobby = "Em um Lobby",
 	discord_rp_mp_heist = "Jogando Online",
 	discord_rp_single_heist = "Jogando Offline",
 	
@@ -2337,7 +2338,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_description_bain = "Plano do Bain",
 	menu_preplanning = "Pré-planejamento",
 	menu_assets = "Assets",
-	menu_asset_buy_all = "Comprar todos os assets",
+	menu_asset_buy_all = "Comprar todos os assets",--me mama, dark
+	menu_asset_buy_all_desc = "Tem certeza que deseja comprar todos os assets disponíveis por $price?",--Do you want to buy all available assets for $price;?
 	menu_asset_buy_all_button = "Comprar todos os assets",
 	menu_item_preplanning_rebuy = "Recomprar Assets",
 	menu_item_preplanning_rebuy_desc = "Recomprar todos os assets de pré-planejamento que foram adquiridos na partida anterior",
@@ -3936,7 +3938,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_cs_title_clover = "Centro de Vigilância da Clover",
 	menu_cs_title_joy = "Van da Joy",
 	menu_cs_title_aldestone_room = "Quarto do Aldstone",
-	menu_cs_title_max = "Caverna do Sangre",
+	menu_cs_title_max = "Caverna do Sangres",
 	menu_cs_title_myh = "Galeria do Duke",
 	menu_cs_title_hoxton = "Arquivos do Hoxton",
 	menu_cs_title_common_room = "Salas Comuns",
@@ -4368,7 +4370,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	loading_trivia_99 = "Locke é um ex-mercenário ganancioso da Murkywater. Ele tem contratos que envolve o seu velho emprego.",
 	-------------------------------------------
 	loading_heister_title = "Dicas de Assaltante",
-	loading_heister_1 = "Mantenha esses capacetes voando!",
+	loading_heister_1 = "Estou de olho em você ;)",
 	loading_heister_2 = "Você pode usar os Arquivos do FBI do jogo para ler sobre os seus aliados.",
 	loading_heister_3 = "Junte-se a comunidade do PAYDAY na página da Loja do Jogo na Steam para ter acesso a conteúdo único e gratuito.",
 	loading_heister_4 = "Dois jogadores interagindo a mesma coisa (por exemplo, destrancar a porta) não irá acelerar o processo.",
