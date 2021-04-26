@@ -1,2 +1,3 @@
---- 7.02 ---
+--- 7.03 ---
 * Correções de tradução que foram reportados via Discord
+* Simplificado certas descrições das skills

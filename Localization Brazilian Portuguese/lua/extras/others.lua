@@ -1894,6 +1894,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_hold_restart_timer = "Segure $BTN_INTERACT para reiniciar o cronômetro",
 	
 	-- Caixas de confirmações + Notificações do SISTEMA
+	dialog_default_video_options_message = "Tem certeza que deseja restaurar as opções de vídeo ao seu estado padrão?",--Do you wish to reset all video options to their default state?
 	dialog_cancel = "Cancelar",
 	dialog_yes = "Sim",
 	dialog_no = "Não",
@@ -2287,7 +2288,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_casing_mode_ticker = "Você está em modo de investigação. Coloque a máscara para iniciar o assalto",
 	hud_casing_mode_ticker_clean = "Você está em modo de civil. Encontre o seu equipamento.",
 	hud_assault_assault = "Operação Policial em Progresso",
-	hud_assault_point_no_return_in = "Ponto de Não Retorno",
+	hud_assault_point_no_return_in = "Tempo Restante:",
 	hud_assault_vip = "Derrote o Capitão para terminar a Operação",
 	message_obtained_equipment = "PEGOU O EQUIPAMENTO DA MISSÃO: ",
 	present_obtained_mission_equipment_title = "EQUIPAMENTO DA MISSÃO OBTIDO: ",
