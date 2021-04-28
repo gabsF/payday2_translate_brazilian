@@ -13,7 +13,10 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	bm_global_value_raidww2_clan_unlock = "Entre no grupo oficial do RAID: World War II na Steam para desbloquear!",--Join the RAID: World War II Steam Community to unlock
 	bm_global_value_hlm2_unlock = "Tenha o Hotline Miami 2 na Steam para desbloquear",--Own the Hotline Miami 2 Game on Steam to unlock
 	bm_global_value_hlm2_deluxe_unlock = "Tenha o Hotline Miami 2: Wrong Number - Digital Special Edition na Steam para desbloquear",--Own the Hotline Miami 2: Wrong Number - Digital Special Edition on Steam to unlock
+	bm_global_value_mbs_unlock = "Compre o Tailor Pack 2 para desbloquear.",--Buy the Tailor Pack 2 DLC to unlock.
+	bm_global_value_tstp_unlock = "Compre o Dragon Pack para desbloquear.",--Buy the Dragon Pack DLC to unlock
 	bm_global_value_chico_unlock = "Compre o Scarface Character Pack para desbloquear",
+	menu_l_global_value_tstp = "Esse é um item do Dragon Pack!",--This is a Dragon Pack item!
 	menu_l_global_value_dbd_clan = "Esse é um item do Dead by Daylight Community!",
 	menu_l_global_value_dbd_deluxe = "Esse é um item do Dead by Daylight Deluxe!",
 	menu_l_global_value_hlm2 = "Esse é um item do Hotline Miami 2!",
@@ -32,6 +35,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_l_global_value_infamous = "Esse é um item de Infamous",
 	menu_l_global_value_inf = "Esse é um item de Infamous",
 	menu_l_infamous = "Esse é um item de Infamous!",
+	menu_l_global_value_in32 = "Esse é um item de Infamous!",
+	menu_l_global_value_in31 = "Esse é um item de Infamous!",
 	menu_infamy_lock_info = "Esse é um item de Recompensa pela Infamy!",
 	menu_l_global_value_pbm = "Esse é um item Locke & Load!",
 	menu_l_global_value_bobblehead = "Esse é um item de Merchandise!",
@@ -573,6 +578,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_infamy_box_title = "RECOMPENSA DE INFAMY",
 	menu_infamy_box_description = "Alcance esse nível de Infamy para desbloquear algo especial!",
 	menu_dialog_become_infamous_3_above_5 = "Se você prosseguir, o seu nível de reputação será resetado para o nível 0. O seu primeiro skill set será resetado, e todos os outros skill sets serão suspensos até que você tenha pontos suficientes para usá-los novamente ou até que você decida redefini-los. Todos os profiles serão atribuidos para usar skill sets resetadas. Se você tiver uma arma equipada com bloqueio de nível 1 ou superior, ela será substituída por uma arma sem bloqueio de nível. Se essa arma não estiver disponível, você receberá uma AMCAR e/ou uma Chimano 88. Seus profiles irão manter máscaras, trajes e perk decks atribuidos anteriormente.\n\nIsso será irreversível, e você NÃO PODERÁ recuperar o que sacrificou.\n\nVocê poderá manter todas as suas armas, mods, máscaras, desenhos e materiais. O dinheiro de sua Conta Offshore permanecerá. Você ganhará um nível de Infamy, se estiver em um nível de infamy 100 ou abaixo, você também irá receber uma recompensa de Infamy.",
+	menu_infamy_color_stinger_name = "Cor de Arma e Som de Entrada",--Weapon Color and a Join Stinger
+	menu_infamy_color_stinger_desc = "Cor de Arma: $weapon_color\nSom de Entrada: $join_stinger",--Weapon Color: $weapon_color;\nJoin Stinger: $join_stinger;
 	
 	-- Discord RP
 	-- discord_rp_single_end_details = "TranslationHere",--$heist; $day;

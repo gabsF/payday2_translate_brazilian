@@ -1,3 +1,5 @@
---- 7.03 ---
-* Correções de tradução que foram reportados via Discord
-* Simplificado certas descrições das skills
+--- 8.00 ---
++ Traduzido as descrições dos novos itens do Infamy 3.2
++ Traduzido os itens do Infamy 3.1
++ Traduzido os itens do Dragon Pack
++ Traduzido certas partes que estavam faltando
