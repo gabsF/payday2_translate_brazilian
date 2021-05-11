@@ -198,7 +198,7 @@ Hooks:Add("LocalizationManagerPostInit", "hoxtonboladaço", function(loc)
 		rb5_hb2_21_03 = "Que porra é essa. Esse arquivo é grande. Eles sabem tudo sobre mim e tem referências sobre vocês também! Sem nomes, talvez o informante tá oferecendo por um melhor preço, que merda.",
 		rb5_hb2_22_01 = "Tá quase pronto. Tem muita informação pra eu olhar lá na Safe House, mas vamos achar esse informante de merda e matar esse filho da puta antes que ele acabe fudendo vocês.",
 		rb5_hb2_22_02 = "Beleza, tô guardando as coisas aqui, quase pronto. Tem muita informação pra gente descobrir. Mas vamos achar esse cuzão e matar ele antes que ele abra o bico.",
-		rb5_hb2_22_03 = "Não posso fazer muita coisa aqui, eu olhei quase em tudo. Nós vamos descobrir isso juntos lá na Sala Segura. Quando a gente descobrir esse traidor, esse babaca vai morrer.",
+		rb5_hb2_22_03 = "Não posso fazer muita coisa aqui, eu olhei quase em tudo. Nós vamos descobrir isso juntos lá no Esconderijo Quando a gente descobrir esse traidor, esse babaca vai morrer.",
 		pln_hb2_01_01 = "Agora levem as senhas de encriptação pro Hoxton, pra ele continuar com o próximo servidor.",
 		pln_hb2_01_03 = "Beleza. Agora levem as senhas pro Hox. Descriptografar os servidores vai ajudar a descobrir o traidor.",
 		pln_hb2_02_01 = "As testemunhas estão em algum lugar nas Pastas. Procurem nos registros e vê se vocês não conseguem encontrar elas.",

@@ -1,0 +1,17 @@
+<mod name="Tradução PT-BR" global_key="BrazilianLocGlobal" core_class="BrazilianLocCore.lua">
+    <ScriptMods>
+       <mod file="BrazilianLocScriptData.xml" type="custom_xml" target_file="gamedata/menus/start_menu" target_type="menu">
+            <options merge_mode="script_merge"/>
+       </mod>
+    </ScriptMods>
+</mod>
+
+<!--
+Things you can edit here:
+name
+global_key | make sure it doesn't share the same name with global in your core file (_G.)
+core_class
+file
+
+Leave the rest as they are
+-->

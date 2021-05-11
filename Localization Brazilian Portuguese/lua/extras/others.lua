@@ -2322,7 +2322,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_spectator_being_traded_hesitant_bain = "Bain está negociando!",
 	menu_spectator_being_traded_hesitant = "Bain está negociando!",
 	menu_spectator_being_traded_hesitant_locke = "Locke está negociando!",
-	hud_trade_delay = "Atraso para Troca: $TIME",
+	hud_trade_delay = "Atraso da Troca: $TIME",
 	hud_objective_reminder = "Lembrete do Objetivo:",
 	menu_hud_cheater = "CHEATER",
 	hud_civilians_killed = "Civis mortos: $AMOUNT",
@@ -2974,7 +2974,6 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_asset_welcome_to_the_jungle_blueprints = "Projetos",--Blueprints
 	menu_asset_branchbank_blueprint = "Projetos",--Blueprints
 	menu_pp_tooltip_costs = "$NL;Custa $money + $budget favores.",--$NL;Costs $money; + $budget; favors.
-	menu_st_req_free_cost_skill_switch = "Livre de Custo",--free of charge
 	menu_pp_branchbank_lance = "Furadeira Térmica",
 	menu_pp_branchbank_lance_desc = "Abra a porta do cofre com essa Furadeira Térmica bem resistente.",--Crack the vault door with this heavy duty thermal drill
 	menu_pp_cat_surveillance = "Vigilância",--Surveillance
@@ -4140,7 +4139,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	trophy_dance_objective = 'Conclua "Nightclub" apenas usando tripmines para matar os inimigos.',
 	trophy_box_2 = "O Baú do Elefante",
 	trophy_box_2_desc = "Nos Portões da Memória do Silêncio você fica de frente. Um, dois, três, três, um. Abre elas e veja a escuridão afogando o mundo, para o banho de todos, enquanto o novo guarda levanta. Zi dingir kia kanpa, zi dingir anna kanpa.",
-	trophy_box_2_completion_objective = 'Conclua "The Breakin´ Feds" na dificuldade "Normal" ou superior.',
+	trophy_box_2_completion_objective = "Conclua Breakin' Feds na dificuldade Normal ou superior.",
 	trophy_eng_3 = "A Marinha",
 	trophy_eng_3_desc = "Em honra daquele que sobreviveu ao Terror Interdimensional!",
 	trophy_eng_3_completion_objective = 'Em "GO Bank" ou "Four Stores" encontre e pegue o troféu escondido da Marinha.',

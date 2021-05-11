@@ -1,0 +1,57 @@
+<table>
+    <menu search="menu;id='start_menu'">
+        <node search="node;name='main'">
+            <item index="after:item;name='options'" next_node="BrazilianLoc_name" trial_buy="true" help_id="BrazilianLoc_help" name="BrazilianLoc_name" text_id="BrazilianLoc_name"/>
+        </node>
+        <node credits_file="BrazilianLoc" gui_class="MenuNodeCreditsGui" name="BrazilianLoc_name" menu_components="" topic_id="BrazilianLoc_name">
+			<item back="true" previous_node="true" text_id="BrazilianLoc_button"/>
+		</node>
+    </menu>
+</table>
+
+<!--
+Item explainations:
+search		    | location of your credits, edit only if you know what you're doing
+index           | positioning of your credits, edit only if you know what you're doing
+next_node       | name of your node/button, only used to register it in the menu - string from core
+trial_buy       | determine whether your button should be glowing yellow like DLC adds 
+help_id	        | text that will appear in the right upper corner upon moving your cursor on the button - string from core 
+name 		    | name of your node/button - string from core
+text_id		    | not sure how to explain this one, just put the name of your button here as well
+credits_file    | name of the file that holds credits (no extension)
+menu_components | determine what will be visible during the animation, im pretty sure you want to leave this empty
+gui_class       | do not touch, or else you will break it
+topic_id        | not sure how to explain this one, just put the name of your button here as well
+back            | the way 'back' button is shown, true=normal, big one at the bottom, false=looks like a casual menu node
+previous_node   | if set to false then 'back' button won't do anything upon being clicked
+text_id         | name of your button - string from core
+
+I recommend only editing the most straight forward ones
+-->
+
+<!-- 
+useless/redundant?:
+use_info_rect="number"
+stencil_image="number"
+stencil_align="number"
+align_line="number"
+<legend name="menu_legend_back"/>
+<default_item name="back"/>
+visible_callback="is_pc_controller"
+name (right after back="true")
+-->
+
+<!--
+Some additional explainations:
+https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuHelperPlus
+-->
+
+<!--
+Source code from PAYDAY 2's scriptdata
+start_menu.menu (xml/custom_xml):
+	<node align_line="0.5" credits_file="credits" gui_class="MenuNodeCreditsGui" menu_components="" name="credits" stencil_align="right" stencil_image="bg_stats" topic_id="menu_credits" use_info_rect="false">
+		<legend name="menu_legend_back"/>
+		<default_item name="back"/>
+		<item back="true" name="back" previous_node="true" text_id="menu_back" visible_callback="is_pc_controller"/>
+	</node>
+-->

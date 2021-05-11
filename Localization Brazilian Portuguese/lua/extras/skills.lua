@@ -31,7 +31,10 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	menu_st_skill_switch_title = "Trocar de Skills e Perk Decks",
 	menu_mouse_refund = "Tirar Ponto",
 	menu_mouse_invest = "Adicionar Ponto",
-	dialog_unlock_skill_switch = "Tem certeza que deseja comprar um novo set de skill salva? \n\nIsso vai lhe custar $30,000,000 da sua conta offshore",
+	dialog_unlock_skill_switch = "Você está a prestes a desbloquear o novo set de skill salva.\n\n$cost_text",
+	dialog_unlock_skill_switch_free = "Esse é grátis.",--This one is free of charge.
+	menu_st_req_free_cost_skill_switch = "Grátis",--free of charge
+	dialog_unlock_skill_switch_offshore = "Esse irá te custar $offshore do seu dinheiro Offshore",--It will cost you $offshore; offshore cash.
 	nx64_reset_skills_msg = "Você está prestes a redefinir uma ou todas as suas árvores de skills.$NL;$NL;Selecionar a opção de RESETAR ÁRVORE irá remover os pontos de skill da árvore selecionada e irá retorná-los para você.$NL;$NL;Selecionar a opção de RESETAR TUDO irá remover todos os pontos de skill de todas as árvores e irá retorná-los para você.",
 	dialog_respec_skilltree = "Você está prestes a resetar todos os pontos dessa árvore de skills.\n\nConcluir essa ação fará você resetar os seus pontos de skill dessa árvore em $tree.",
 	dialog_respec_skilltree_all = "Você está prestes a resetar todas as árvores de skills.\n\nConcluir essa ação fará você resetar todos os seus pontos de skill de todas as árvores.",

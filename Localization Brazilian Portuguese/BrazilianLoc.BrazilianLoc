@@ -1,0 +1,33 @@
+<table>
+	<command cmd="speed" offset="-1000" param="50"/>
+	<text text="Gerenciadores da Tradução" type="title"/>
+	<text text="gabsF" type="name"/>
+	<text text="-HimuraBR-" type="name"/>
+	<br/>
+	<text text="Tradutores" type="title"/>
+	<text text="$Lucas$" type="name"/>
+	<text text="Bruno" type="name"/>
+	<text text="Caçador de Otacus" type="name"/>
+	<text text="DarK" type="name"/>
+	<text text="Gavel" type="name"/>
+	<text text="gabsF" type="name"/>
+	<text text="lulajr" type="name"/>
+	<text text="Lupuens" type="name"/>
+	<text text="Matheussimoe" type="name"/>
+	<text text="MrUmbrella" type="name"/>
+	<text text="NoTh" type="name"/>
+	<text text="Nobrod" type="name"/>
+	<text text="neour" type="name"/>
+	<text text="RockZero" type="name"/>
+	<text text="Sky3Killer" type="name"/>
+	<text text="WalkingJohnn" type="name"/>
+	<br/>
+	<text text="Créditos Adicionais" type="title"/>
+	<text text="'Savvy' pelo código separado do Rich Presence do Steam" type="name"/>
+	<text text="'Dr_Newbie' pelo script de traduzir certas partes que normalmente não é possível" type="name"/>
+	<text text="'Kisuke' pelo script de exportação de strings" type="name"/>
+	<text text="'CENSOR_1337' pela lista de textos do jogo" type="name"/>
+	<text text="'Krimzin' pela ajuda de achar textos das Heists recentes" type="name"/>
+	<text text="'Pineapple Fox' pelo código da tela de créditos" type="name"/>
+	<command cmd="stop" offset="1000"/>
+</table>
