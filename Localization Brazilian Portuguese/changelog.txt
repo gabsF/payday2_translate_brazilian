@@ -1,3 +1,4 @@
---- 8.01 ---
-+ Adicionado um menu customizado mostrando os créditos da tradução
-* Corrigido alguns erros de tradução
+--- 8.02 ---
++ Traduzido mais legendas de Buluc's Mansion
+* Corrigido algumas legendas em Birth of Sky
+* Renomeado "Tocando" para "Música" no menu TAB durante um golpe (Kappa)

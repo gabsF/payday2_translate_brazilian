@@ -2286,7 +2286,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	debug_chat_say = "Conversa:",
 	hud_civilian_killed_message = "Removendo $AMOUNT para custos de limpeza",
 	hud_civilian_killed_title = "Civil morto!",
-	menu_es_playing_track = "Tocando:",
+	menu_es_playing_track = "Música:", -- vou copiar a overkillkk
 	hud_stats_bags_secured = "BOLSAS ASSEGURADAS",
 	hud_instant_cash = "Dinheiro instantâneo",
 	hud_body_bags = "Bolsas de Corpos",--Body bags
