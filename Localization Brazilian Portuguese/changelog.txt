@@ -1,4 +1,6 @@
---- 8.02 ---
-+ Traduzido mais legendas de Buluc's Mansion
-* Corrigido algumas legendas em Birth of Sky
-* Renomeado "Tocando" para "Música" no menu TAB durante um golpe (Kappa)
+--- 8.03 ---
++ Traduzido a nova categoria de modificações das armas
++ Traduzido a descrição do novo traje do Saint's Row 3
++ Traduzido a descrição da nova granada, X1-ZAper
+* Corrigido um nome dos troféus
+* Corrigido algumas legendas de algumas heists

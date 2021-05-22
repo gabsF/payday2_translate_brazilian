@@ -296,7 +296,7 @@ Hooks:Add("LocalizationManagerPostInit", "garretehdoidao", function(loc)
 	loc_tag_61_02 = "Vamos amigos, coloquem comida na porta do Garrett.",--C'mon friends, put some food by Garrett's door.
 	loc_tag_24_03 = "Vamos amigos. Não demorem tanto. Desativem as caixas.",--C'mon, friends. Don't take too long. Disable those boxes.
 	loc_tag_49_03 = "Deve ter um disjuntor bem próximo daí.",--There should be a circuit box nearby.
-	loc_tag_75_02 = "Por quê ainda estão aí?",--Why are you still there?
+	loc_tag_75_02 = "Por que ainda estão aí?",--Why are you still there?
 	loc_tag_37_03 = "Procurem pistas na investigação do Garrett, yeah?",--Look for clues in Garrett's investigation, yeah?
 	loc_tag_88_03 = "O código começa com sete, de acordo com a minha fonte.",--The code begins with a seven, according to my source.
 	loc_tag_08_04 = "Vamos gente, vocês não tem a noite inteira. Encontrem o laptop.",--C'mon guys, you haven't got all night. Find that laptop.

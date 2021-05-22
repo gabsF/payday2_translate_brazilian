@@ -184,6 +184,8 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_suit_var_general_white_desc = "Esse vem com uma taxa alta para limpar e secar.",--This one comes with a pretty high dry cleaning bill.
 	bm_suit_var_general_red_desc = "Combina com o chão do campo de batalha, depois de ter acabado.",--Matching the ground of your battlefield, after you've left it.
 	bm_suit_var_general_blue_desc = "Preparado por uma batalha ou uma parada. Espada vendido separadamente.",--Ready for a battle or a parade. Rapier sold separately.
+	--bm_suit_boss = "Saints & Sinners",--
+	bm_suit_boss_desc = "Se parar pra pensar, a Gangue Payday têm um caminho fácil. Eles lutam contra a polícia, os federais e todo mundo que estiver no seu caminho para conseguirem quando o assunto é fazer golpes. Claro, eles encontram certas dificuldades, mas é nada pareceido com as desaventuras da gangue Saint's Row. Sério, aliens, conspirações, portais ao inferno? Como vocês conseguem lidarem com isso? Então, como um sinal de respeito, de uma gangue para outra, você pode vestir esse traje e espalhar a vibe boa no submundo do crime.",--If you think about it, the Payday Gang has it kind of easy. They just have to fight the cops, the feds, and all the sheeple standing in their way to heisting greatness and loot. Sure, they encounter the occasional oddity, but nothing along the lines of what the Saint's Row crew does. Seriously- aliens, conspiracies, portals to hell? How do you get anything done with all that to deal with? So, as a sign of respect, from one famous crew to another, you can don these threads and spread good vibes throughout the criminal underworld.
 	
 	-- LUVAS
 	bm_gloves_default_desc = "Use as Luvas padrão dos Heisters",--Use the heisters default gloves
@@ -273,6 +275,7 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_menu_stock = "Coronha",--Stock
 	bm_menu_upper_reciever = "Receptor Superior",--Upper Receiver
 	bm_menu_lower_reciever = "Receptor Inferior",--Lower Receiver
+	bm_menu_underbarrel_ammo = "Munição da Lança Granada",--Underbarrel
 	menu_assault_rifle = "Rifle de Assalto",--Assault Rifle
 	menu_akimbo_pistol = "Akimbo Pistola",--Akimbo Pistol
 	menu_pistol = "Pistola",--Pistol

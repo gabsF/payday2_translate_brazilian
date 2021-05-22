@@ -126,6 +126,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_l_global_value_fex = "Esse é um item da Buluc's Mansion!",
 	menu_l_global_value_wcc_s02 = "Esse é um item Leaf Color!",
 	menu_l_global_value_ztm = "ESTE É UM RARO ITEM DE BRINQUEDO ZAG!",
+	menu_l_global_value_srtr = "Esse é um item do Saints Row: The Third Remastered!",
 	bm_global_value_complete_overkill_pack_unlock = "Compre o Completely OVERKILL Pack DLC para desbloquear!",
 	bm_global_value_pdcon_2015_unlock = "Requer o PAYDAY 2: PAYDAYCON 2015 Secret Mask para desbloquear!",
 	bm_global_value_humble_pack2_unlock = "Requer o PAYDAY 2: Humble Mask Pack 2 para desbloquear!",
@@ -475,6 +476,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	bm_wpn_prj_hur_desc = 'Uma machadinha nunca é demais! Desde que essa aqui seja realmente boa para jogar, isso acabou por ficar popular entre os motoqueiros. Pilotando uma moto, pode ser perigoso e você precisará de uma "proteção". A Machadinha vendeu tão rápido que zerou o estoque. O motivo disso é que os motoqueiros acharam isso útil para batalhar nas ruas.',
 	bm_wpn_prj_ace = "Ás de Espadas",
 	bm_wpn_prj_ace_desc = 'Jogar cartas é geralmente associados com mágicos dividindo um melão no meio em um palco, mas adicionando peso e mais estilo, você vai ter um assassino silencioso. Coloque essas cartas nas suas mangas e você vai estar pronto para qualquer coisa, não importa a situação.\n\nAs Cartas são uma espécie de "Granada" dado para a comunidade para celebrar dois anos de PAYDAY 2!', -- você chama isso de granada?
+	--bm_grenade_electric = "X1-ZAper",
+	bm_grenade_electric_desc = "Shrapnel tem tudo de bom, mas algumas coisas precisam ser queimadas, e essa coisinha é uma besta em fazer dano com alta potência de eletricidade.",--Shrapnel is all well and good, but some things need to be fried, and this little beauty is a rather practical beast for dishing out some damage with high voltage.
 	
 	-- Equipamentos
 	bm_menu_btn_equip_deployable = "Equipar o Equipamento",
@@ -4137,7 +4140,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	trophy_dance = "Ainda vivo",
 	trophy_dance_desc = 'Leia e aprenda! Depois dance! Só não tropeçe e não ligue para as trip mines.',
 	trophy_dance_objective = 'Conclua "Nightclub" apenas usando tripmines para matar os inimigos.',
-	trophy_box_2 = "O Baú do Elefante",
+	trophy_box_2 = "Baú do Elefante",
 	trophy_box_2_desc = "Nos Portões da Memória do Silêncio você fica de frente. Um, dois, três, três, um. Abre elas e veja a escuridão afogando o mundo, para o banho de todos, enquanto o novo guarda levanta. Zi dingir kia kanpa, zi dingir anna kanpa.",
 	trophy_box_2_completion_objective = "Conclua Breakin' Feds na dificuldade Normal ou superior.",
 	trophy_eng_3 = "A Marinha",

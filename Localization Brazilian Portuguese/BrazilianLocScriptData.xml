@@ -1,7 +1,7 @@
 <table>
     <menu search="menu;id='start_menu'">
         <node search="node;name='main'">
-            <item index="after:item;name='options'" next_node="BrazilianLoc_name" trial_buy="true" help_id="BrazilianLoc_help" name="BrazilianLoc_name" text_id="BrazilianLoc_name"/>
+            <item index="after:item;name='options'" next_node="BrazilianLoc_name" trial_buy="false" help_id="BrazilianLoc_help" name="BrazilianLoc_name" text_id="BrazilianLoc_name"/>
         </node>
         <node credits_file="BrazilianLoc" gui_class="MenuNodeCreditsGui" name="BrazilianLoc_name" menu_components="" topic_id="BrazilianLoc_name">
 			<item back="true" previous_node="true" text_id="BrazilianLoc_button"/>
