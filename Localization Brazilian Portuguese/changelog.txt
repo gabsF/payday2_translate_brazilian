@@ -1,6 +1,2 @@
---- 8.03 ---
-+ Traduzido a nova categoria de modificações das armas
-+ Traduzido a descrição do novo traje do Saint's Row 3
-+ Traduzido a descrição da nova granada, X1-ZAper
-* Corrigido um nome dos troféus
-* Corrigido algumas legendas de algumas heists
+--- 8.04 ---
+* Simplificado algumas descrições das Skills e dos Perk Decks

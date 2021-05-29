@@ -278,39 +278,58 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	--st_menu_technician_auto = "Oppressor",
 	--menu_steady_grip_beta = "Steady Grip",
 	menu_steady_grip_beta_desc = "BÁSICO: ##$basic##\nGanha ##8## de Precisão para todas as armas. \n\nAVANÇADO: ##$pro##\nGanha ##16## de Estabilidade para todas as armas.",
+	-- TIER 1
+
+	-- TIER 2
 	--menu_heavy_impact_beta = "Heavy Impact",
 	menu_heavy_impact_beta_desc = "BÁSICO: ##$basic##\nOs seus tiros possuem uma chance de ##5%## de atordoar todos os inimigos, exceto os ##Bulldozers## e o ##Captain Winters##. \n\nAVANÇADO: ##$pro##\nA Chance aumenta até ##20%##.",
 	--menu_fire_control_beta = "Fire Control",
 	menu_fire_control_beta_desc = "BÁSICO: ##$basic##\nGanha ##12## de Precisão quando atira sem mirar. \n\nAVANÇADO: ##$pro##\nA sua penalidade de Precisão, enquanto se move, é diminuida em ##20%##",
+	-- TIER 2
+
+	-- TIER 3
 	--menu_fast_fire_beta = "Surefire",
 	menu_fast_fire_beta_desc = 'BÁSICO: ##$basic##\nSuas Submetralhadoras, Rifles de Assalto e Armas Pesadas ganham ##15## balas nos seus carregadores. Isso não afeta a skill avançada do "Lock n Load". \n\nAVANÇADO: ##$pro##\nAs suas Armas à distância podem causar perfuração no colete de alguns inimigos. \n\nNota: Isso não aplica nas armas que você arremessa.',
 	--menu_shock_and_awe_beta = "Lock n' Load",
 	menu_shock_and_awe_beta_desc = "BÁSICO: ##$basic##\nVocê poderá agora correr e atirar ao mesmo tempo com as suas armas. \n\nAVANÇADO: ##$pro##\nMatando ##2## inimigos com Submetralhadoras, Rifles de Assalto, Armas Pesadas ou Armas Especiais, com o modo automático, vai aumentar a velocidade de recarregar a arma em até ##100%##. Esse bônus é reduzido em ##1%## para cada bala dentro do carregador, acima de ##20##, o mínimo é ##40%## de velocidade de recarregar a arma.",
+	-- TIER 3
+
+	-- TIER 4
 	--menu_body_expertise_beta = "Body Expertise",
 	menu_body_expertise_beta_desc = "BÁSICO: ##$basic##\nOs ##30%## de dano bônus aplicados quando se acerta um policial na cabeça, agora é aplicado acertando um policial em qualquer parte do corpo. Este efeito só se aplica para SMG, Rifles de Assalto, LMG e Special. \n\nAVANÇADO: ##$pro##\nOs ##90%## de dano bônus aplicados quando se acerta um policial na cabeça, agora é aplicado acertando um policial em qualquer parte do corpo. Este efeito só se aplica para SMG, Rifles de Assalto, LMG e Special.",
+	-- TIER 4
 	
 	-- Ghost
 	-- First Tree (Shinobi)
 	--st_menu_ghost_stealth = "Shinobi",
 	--menu_jail_workout_beta = "Chameleon",
-	menu_jail_workout_beta_desc = "BÁSICO: ##$basic##\nAumenta em ##25%## o tempo para os guardas começarem a te detectar enquanto estiver no Modo de Investigação. \n\nAVANÇADO: ##$pro##\nVocê pode pegar itens enquanto estiver no Modo de Investigação. Também ganha um bônus de ##30%## para todo item de valor que você pegar.",
+	menu_jail_workout_beta_desc = "BÁSICO: ##$basic##\nAumenta em ##25%## o tempo para que os guardas começam a te detectar enquanto estiver no Modo de Investigação. \n\nAVANÇADO: ##$pro##\nVocê pode pegar itens enquanto estiver no Modo de Investigação. Também ganha um bônus de ##30%## para todo item de valor que você pegar.",
+	-- TIER 1
+
+	-- TIER 2
 	--menu_cleaner_beta = "Cleaner",
 	menu_cleaner_beta_desc = "BÁSICO: ##$basic##\nVocê ganha mais uma ##Bolsa de Corpos##. Também aumenta o seu espaço de ##Bolsas de Corpos## para ##3##. \n\nAVANÇADO: ##$pro##\nGanha a skill de ter ##2 Maletas de Bolsas de Corpos##.",
 	--menu_chameleon_beta = "Sixth Sense",
-	menu_chameleon_beta_desc = "BÁSICO: ##$basic##\nGanha a skill de automaticamante marcar os guardas e civis dentro de ##10## metros de você depois de ficar parado por ##3.5## segundos. Só funciona no Stealth. \n\nAVANÇADO: ##$pro##\nGanha acesso a todos os recursos dos contatos. Os custos ao matar um civil diminui em ##75%##.",
+	menu_chameleon_beta_desc = "BÁSICO: ##$basic##\nVocê consegue marcar automaticamente inimigos dentro do raio de ##10## metros depois de ficar parado por ##3.5## segundos enquanto estiver em ##Stealth##.  \n\nAVANÇADO: ##$pro##\nGanha acesso a todos os Assets, também ganha acesso de todos os favores do Pré-Planejamento. Os custos ao matar um civil diminui em ##75%##.",
+	-- TIER 2
+
+	-- TIER 3
 	--menu_ecm_booster_beta = "ECM Overdrive",
 	menu_ecm_booster_beta_desc = "BÁSICO: ##$basic##\nA duração dos efeitos do ##Bloqueador de ECM## e do ##Feedback## é aumentado em ##25%##. \n\nAVANÇADO: ##$pro##\nO seu ##Bloqueador de ECM## pode ser usado para abrir certas portas eletrônicas.",
 	--menu_second_chances_beta = "Nimble",
-	menu_second_chances_beta_desc = "BÁSICO: ##$basic##\nGanha a skill de desativar ##1## Câmera de segurança de detectar você e os seus aliados. O efeito dura ##25## segundos. \n\nAVANÇADO: ##$pro##\nO tempo para se destrancar fechaduras/travas é ##100%## mais rápido. Você também ganha a skill de destrancar cofres.",
+	menu_second_chances_beta_desc = "BÁSICO: ##$basic##\nVocê pode desabilitar ##1## câmera de segurança de detectar você e os seus aliados.\nEfeito dura por ##25## segundos.\nPode desabilitar quantas vezes quiser, mas só pode ter ##1## câmera desabilitada.  \n\nAVANÇADO: ##$pro##\nVocê destranca fechaduras ##100%## mais rápido. Você também pode destrancar cofres.",
+	-- TIER 3
+
+	-- TIER 4
 	--menu_ecm_2x_beta = "ECM Specialiist",
 	menu_ecm_2x_beta_desc = "BÁSICO: ##$basic##\nAgora você pode colocar ##2 Bloqueadores de ECM## ao invés de um. \n\nAVANÇADO: ##$pro##\nA duração dos efeitos do ##Bloqueador de ECM## e do ##Feedback## é aumentado em mais ##25%##. As chamadas de Pagers são bloqueadas pelo ##Bloqueador de ECM##.",
 	
 	-- Second Tree (Artful Dodger)
 	--st_menu_ghost_concealed = "Artful Dodger",
 	--menu_sprinter_beta = "Duck and Cover",
-	menu_sprinter_beta_desc = "BÁSICO: ##$basic##\nVocê ganha ##25%## a mais de velocidade. Seu vigor começa a se regenerar ##25%## antes e mais rápido. \n\nAVANÇADO: ##$pro##\nVocê ganha uma chance de ##10%## de Dodge enquanto corre. Você tem uma chance de ##15%## enquanto está na zip-line.",
+	menu_sprinter_beta_desc = "BÁSICO: ##$basic##\nVocê ganha mais ##25%## de velocidade. Seu vigor começa a se regenerar ##25%## antes e mais rápido. \n\nAVANÇADO: ##$pro##\nVocê ganha uma chance de ##10%## de Dodge enquanto corre. Você tem uma chance de ##15%## enquanto está na zip-line.",
 	--menu_awareness_beta = "Parkour",
-	menu_awareness_beta_desc = "BÁSICO: ##$basic##\nVocê ganha ##10%## a mais de velocidade. Você sobe as escadas ##20%## mais rápido. \n\nAVANÇADO: ##$pro##\nGanha a skill de correr para qualquer direção. \n\nVocê poderá correr e recarregar ao mesmo tempo.",
+	menu_awareness_beta_desc = "BÁSICO: ##$basic##\nVocê ganha mais ##10%## de velocidade. Você sobe as escadas ##20%## mais rápido. \n\nAVANÇADO: ##$pro##\nVocê pode correr para qualquer direção. \n\nVocê poderá correr e recarregar ao mesmo tempo.",
 	--menu_thick_skin_beta = "Inner Pockets",
 	menu_thick_skin_beta_desc = "BÁSICO: ##$basic##\nGanha ##2## de Concealment para todas as armas de corpo-a-corpo. \n\nAVANÇADO: ##$pro##\nGanha ##4## de Concealment para todos os Ballistic Vest. Terno não conta.",
 	--menu_insulation_beta = "Shockproof",

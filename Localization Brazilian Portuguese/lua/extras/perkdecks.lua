@@ -282,13 +282,13 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	--menu_st_spec_18 = "Sicario",
 	menu_st_spec_18_desc = 'O "Sicario" é o que todo cartel de drogas deve ter. Alguém que toma conta de qualquer tipo de problema do jeito mais letal possível. O "Sicario" nunca dá um passo atrás pra uma luta, eles fazem sempre um bom trabalho, sem hesitação ou medo.',
 	menu_deck18_1 = "Fumaça",
-	menu_deck18_1_desc = "Desbloqueia e equipa a granada ##Bomba de Fumaça##.\n\nQuando lançado, a Bomba de Fumaça cria uma fumaça que dura ##10## segundos. Quando estiver dentro dessa fumaça, você e qualquer um do seu grupo automaticamente desvia de ##50%## de todas as balas.\n\nDepois da fumaça sumir, a Bomba de Fumaça terá um tempo de ##60## segundos antes de poder ser usada novamente, porém matar um inimigo irá reduzir esse tempo em ##1## segundo.",
+	menu_deck18_1_desc = "Desbloqueia e equipa a granada ##Bomba de Fumaça##.\n\nQuando lançado, a Bomba de Fumaça cria uma fumaça que dura ##10## segundos. Quando estiver dentro dessa fumaça, você e qualquer um do seu grupo automaticamente ganha ##50%## de Dodge.\n\nDepois da fumaça sumir, a Bomba de Fumaça terá um tempo de ##60## segundos antes de poder ser usada novamente, porém matar um inimigo irá reduzir esse tempo em ##1## segundo.",
 	menu_deck18_3 = "Convulsão",
 	menu_deck18_3_desc = "Toda vez quando o jogador levar um tiro, ganha ##20%## de chance de Dodge. Esse efeito só vai ser anulado quando o jogador desviar de uma bala e isso não pode ocorrer mais de uma vez a cada ##4## segundos.",
 	menu_deck18_5 = "Sútil",
 	menu_deck18_5_desc = "A sua chance de Dodge é aumentada em ##15%##.",
 	menu_deck18_7 = "Colete Ágil",
-	menu_deck18_7_desc = "Desviar das balas vai regenerar a sua armadura.",
+	menu_deck18_7_desc = "Quando o seu Dodge entra em efeito, a sua armadura se recupera.",
 	menu_deck18_9 = "Escondido nas Sombras",
 	menu_deck18_9_desc = "Todos os efeitos do Perk Deck são aumentados para ##100%## enquanto você estiver na sua fumaça. Enquanto o pessoal do grupo estiver na sua fumaça, eles ganham ##10%## de chance de Dodge.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 	
@@ -298,7 +298,7 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	menu_deck19_1 = "Virtude",
 	menu_deck19_1_desc = "Desbloqueia e equipa a ##Bebida do Stoic##.\n\nO dano levado é agora reduzido em ##75%##. O resto do dano será aplicado diretamente.\n\nOs ##75%## do dano reduzido será aplicado com o passar do tempo (##12## segundos).\n\nVocê poderá usar a tecla da granada para ativar a Bebida do Stoic e imediatamente negar qualquer dano pendente. A bebida tem um tempo de ##10## segundos antes de poder ser usada novamente, mas pode ser reduzida em ##1## segundo para cada inimigo morto por você.",
 	menu_deck19_3 = "Imóvel",
-	menu_deck19_3_desc = "Toda a sua armadura é convertida e aplicada na sua vida total.",
+	menu_deck19_3_desc = "Toda a sua armadura é convertida e aplicada na sua vida total.\n\nNota: todas as Skills que regenerem a sua armadura não funcionaram.",
 	menu_deck19_5 = "Calma",
 	menu_deck19_5_desc = "Depois de ##4## segundos sem levar dano, qualquer dano de tempo em que você estiver pendente será negado.",
 	menu_deck19_7 = "Impertubável",
@@ -308,7 +308,7 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	
 	-- Tag Team
 	--menu_st_spec_20 = "Tag Team",
-	menu_st_spec_20_desc = "Alguns dizem que algumas experiências são melhores quando são compartilhados, até mesmo os casos com os cigarros de aerossol! Para aquele assaltante especial que é o seu crush, isso é algo para ter um lindo amor enquanto você rouba cofres de bancos e faça alguns negócios.",
+	menu_st_spec_20_desc = "Alguns dizem que algumas experiências são melhores quando são compartilhados, até mesmo os casos com os cigarros de aerossol! Para aquele assaltante especial que é o seu crush, isso é algo para ter um lindo amor enquanto você rouba cofres de bancos e faça alguns 'negócios'.",
 	menu_deck20_1 = "Almas Gêmeas",
 	menu_deck20_1_desc = "Desbloqueia e equipa o ##Cigarro Eletrônico##.\n\nPara ativar o Cigarro Eletrônico, você precisa olhar para alguém do seu grupo dentro de um raio de ##18## metros sem nada na frente e apertar o botão da granada para marcar ele.\n\nCada inimigo que você ou o aliado que estiver marcado matar irá curar ##15## da sua vida e o aliado marcado irá ter cura de ##7.5## de vida.\n\nCada inimigo que você matar vai extender a duração do efeito por ##1.3## segundos e reduzir o tempo antes de poder usar em 2 segundos.\n\nO efeito vai ter uma duração de cerca de ##2## segundos e tem um tempo antes de poder usar de ##12## segundos.",
 	menu_deck20_3 = "Aroma",
@@ -318,7 +318,7 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	menu_deck20_7 = "Aspirar",
 	menu_deck20_7_desc = "A sua vida máxima é aumentada em ##20%##.",
 	menu_deck20_9 = "Harmonia",
-	menu_deck20_9_desc = "Cada inimigo que o aliado marcado matar agora vai reduzir o tempo antes de poder usar em ##2## segundos, enquanto vocês estiverem conectados.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+	menu_deck20_9_desc = "Quando o seu aliado marcado mata um inimigo irá reduzir a recarga do seu Cigarro por ##2## segundos, até o efeito acabar.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 	
 	-- Hacker
 	--menu_st_spec_21 = "Hacker",
@@ -330,8 +330,8 @@ Hooks:Add("LocalizationManagerPostInit", "stoicekingpinsaoop", function(loc)
 	menu_deck21_5 = "Distração de Bit",
 	menu_deck21_5_desc = "Matando um inimigo enquanto estiver com o efeito do Feedback, vai regenerar ##20## de vida. \n\nVocê vai ter ##15%## de Dodge.",
 	--menu_deck21_7 = "Kluge",
-	menu_deck21_7_desc = "Matando pelo menos ##1## inimigo enquanto estiver com o efeito do Feedback ou de Bloqueamento, você vai receber ##20## de Dodge por ##30## segundos.",
+	menu_deck21_7_desc = "Matando pelo menos ##1## inimigo enquanto estiver no efeito do Feedback ou de Jammer, você vai receber ##20## de Dodge por ##30## segundos.",
 	menu_deck21_9 = "Bot da INTERWEB",
-	menu_deck21_9_desc = "Enquanto tiver o efeito do Feedback e os seus aliados matarem os inimigos, você vai regenerar ##10## de vida.\nTem mais ##15%## de Dodge.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+	menu_deck21_9_desc = "Enquanto estiver no efeito do Feedback, os seus aliados vão regenerar ##10## de vida.\n\nVocê ganha mais ##15%## de Dodge.\n\nBônus por Completar o Perk Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 	})
 end)
