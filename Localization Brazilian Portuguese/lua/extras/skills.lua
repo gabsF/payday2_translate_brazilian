@@ -388,17 +388,17 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	-- Third Tree (Brawler)
 	--st_menu_fugitive_berserker = "Brawler",
 	--menu_martial_arts_beta = "Martial Arts",
-	menu_martial_arts_beta_desc = "BÁSICO: ##$basic##\nVocê leva ##50%## menos dano das armas corpo-a-corpo dos inimigos por conta do seu treinamento. \n\nAVANÇADO: ##$pro##\nTerá uma chance de ##50%## de atordoar um inimigo com um golpe de alguma arma de corpo-a-corpo.",
+	menu_martial_arts_beta_desc = "BÁSICO: ##$basic##\nVocê leva ##50%## menos dano das armas corpo-a-corpo dos inimigos. Por causa de treinos. \n\nAVANÇADO: ##$pro##\nTerá uma chance de ##50%## de atordoar um inimigo com um golpe de alguma arma de corpo-a-corpo.",
 	--menu_bloodthirst = "Bloodthirst",
-	menu_bloodthirst_desc = "BÁSICO: ##$basic##\nTodo inimigo que você matar com uma arma, que não seja de corpo-a-corpo, o seu dano da arma corpo-a-corpo irá aumentar em ##100%##, chegando no máximo a ##1600%##. Esse efeito só reseta quando você mata alguém com uma arma de corpo-a-corpo. \n\nAVANÇADO: ##$pro##\nAssim que você mata alguém com a sua arma de corpo-a-corpo, a sua velocidade de recarregar a arma aumenta em ##50%## por ##10## segundos.",
+	menu_bloodthirst_desc = "BÁSICO: ##$basic##\nTodo inimigo que você matar com uma arma, que não seja de corpo-a-corpo, o seu dano da arma corpo-a-corpo irá aumentar em ##100%##, chegando no máximo a ##1600%##. Esse efeito só é redefinido quando você mata alguém com uma arma de corpo-a-corpo. \n\nAVANÇADO: ##$pro##\nAssim que você matar alguém com a sua arma de corpo-a-corpo, a sua velocidade de recarregar a arma aumenta em ##50%## por ##10## segundos.",
 	--menu_steroids_beta = "Pumping Iron",
 	menu_steroids_beta_desc = "BÁSICO: ##$basic##\nOs seus ataques de armas de corpo-a-corpo vão causar ##100%## a mais de dano contra inimigos que não são especiais. \n\nAVANÇADO: ##$pro##\nOs seus ataques de armas de corpo-a-corpo vão causar ##100%## a mais de dano contra inimigos especiais.",
 	--menu_wolverine_beta = "Berserker",
-	menu_wolverine_beta_desc = "BÁSICO: ##$basic##\nQuanto menor estiver sua vida, mais dano você irá causar, funcionando somente com armas de corpo-a-corpo e serra. Quando sua vida estiver abaixo de ##50%##, o máximo de dano que você poderá causar será ##250%##. \n\nAVANÇADO: ##$pro##\nO efeito irá se aplicar em todas as armas. \n\nNota: Isso não se aplica a granadas, lança-granadas ou RPGs. \n\nO efeito do ##Berserker## negativa os efeitos de regeneração de terceiros.",
+	menu_wolverine_beta_desc = "BÁSICO: ##$basic##\nQuando estiver perto de morrer, mais dano você irá causar. Quando a sua vida estiver abaixo de ##50%##, você irá causar ##250%## mais de dano, só funciona em armas corpo-a-corpo e a ##OVE9000 Saw##. \n\nAVANÇADO: ##$pro##\nQuando estiver perto de morrer, mais dano você irá causar. Quando a sua vida estiver abaixo de ##50%##, você irá causar ##100%## mais de dano, funcionando em armas de fogo também.\n\nNota: Não aplica em granadas, lança-granadas e lança-foguetes.\n\nQuando o ##Berserker## entrar em efeito, todas as curas irão ser negadas.",
 	--menu_drop_soap_beta = "CounterStrike",
 	menu_drop_soap_beta_desc = "BÁSICO: ##$basic##\nQuando segurar a arma de corpo-a-corpo, você vai contra-atacar o inimigo que vai tentar te bater com algum ataque corpo-a-corpo. O atordoamento não vai dar dano. \n\nAVANÇADO: ##$pro##\nGanha a skill de contra-atacar o chute do ##Cloaker##.",
 	--menu_frenzy = "Frenzy",
-	menu_frenzy_desc = "BÁSICO: ##$basic##\nVocê só vai ter ##30%## da sua vida e não poderá se curar mais do que isso, porém você irá levar ##10%## menos dano e a cura recebida é diminuida em ##75%##. \n\nAVANÇADO: ##$pro##\nO dano que você recebe é diminuido em ##25%## e não há redução na cura.",
+	menu_frenzy_desc = "BÁSICO: ##$basic##\nVocê só irá ter ##30%## da sua vida e não poderá se curar mais do que isso, porém você irá levar ##10%## menos de dano e a cura recebida é reduzido em ##75%##. \n\nAVANÇADO: ##$pro##\nO dano que você recebe é diminuido por ##25%## (e a cura recebida é reduzido por ##0%##).",
 	-- Pelo AMOR DE DEUS OVERKILL! Não MUDE os Valores das Skills.. OBRIGADO!
 		})
 end)

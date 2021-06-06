@@ -453,6 +453,7 @@ Hooks:Add("LocalizationManagerPostInit", "hajrudinmalucaodoidao", function(loc)
 	hud_heist_pex_mission1_hl = "Dê um jeito de Entrar",--Find a way inside
 	hud_heist_pex_mission10_hl = "Codifique a Etiqueta RFID com acesso para a Sala de Armamentos",--Code RFID tag with armory access
 	hud_heist_pex_mission11_hl = "Entre na Sala de Armamentos",--Get inside the Armory
+	hud_heist_pex_mission27_hl = "Entre na Sala de Armamentos",--Get inside the Armory
 	hud_heist_pex_mission12_hl = "Pegue o Quebrador de Portas",--Steal door breaker
 	hud_heist_pex_mission13_hl = "Coloque o Quebrador de Portas",--Deploy door breaker
 	hud_heist_pex_mission14_hl = "Encontre o Prisioneiro",--Find the prisoner
