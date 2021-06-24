@@ -399,6 +399,7 @@ Hooks:Add("LocalizationManagerPostInit", "crossinggggggborderrr", function(loc)
 	loc_mex_cook_17_04 = "Mais corrupção pros babacas!",--More corruption for the dwankies!
 	loc_mex_cook_17_05 = "E mais uma...",--And another...
 	loc_mex_cook_18_01 = "Deve ter mais ingredientes em algum lugar.",--There should be some more ingredients locked up somewhere.
+	loc_mex_cook_18_02 = "Checa por todo canto, deve ter muito ingrediente por aí.",--Check every cranny, there is supposed to be a lot of ingredients there.",
 	loc_mex_cook_18_03 = "Olhem mais por aí, não percam nenhum ingrediente.",--Have a proper look around, don't miss out on any ingredients.
 	loc_mex_cook_19_01 = "Ok, vamos ver...",--OK, let's have a look...
 	loc_mex_cook_22_01 = "Vamos ver no que dá!",--Now let's see what happens!

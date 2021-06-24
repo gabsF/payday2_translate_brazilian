@@ -326,6 +326,7 @@ if RequiredScript == "lib/managers/platformmanager" then
 			["#Job_pex"] = 					"Breakfast in Tijuana",
 			["#Job_fex"] = 					"Buluc's Mansion",
 			["#Job_chas"] = 				"Dragon Heist",
+			["#Job_sand"] = 				"The Ukrainian Prisoner",
 		}
 
 		local data = {

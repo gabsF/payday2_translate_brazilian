@@ -4602,7 +4602,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_feature_crimenet_thanks_gagemod_desc = "De: Gage [gage@///REDIGIDA///]\nPara: $player\nData: 2014-04-10 17:02 (GMT+1)\nAssunto: Jogada Inteligente\n\n Hey $player, eu só queria te agradecer por ter comprado o Gage Mod Courier DLC.\n\n Para ler mais sobre o trabalho do Mod Courier e verificar o seu progresso, simplesmente selecione o ícone do Gage na Crime.net (É um G enorme, não tem como errar).\n\n- Gage",--$NL;$NL;- Gage$NL;
 	
 	-- A História
-	menu_story_missions = "A História de PAYDAY",
+	menu_story_missions_help = "Veja o seu progresso do Modo Carreira",--View your progress through the story line
+	menu_story_missions = "Modo Carreira",
 	menu_challenge_objective_title = "Objetivo:",
 	menu_sm_objectives_or = "OU",
 	menu_sm_crime_spree = "Alcance o nível 20 na Crimespree",--Reach Crimespree level 20
