@@ -5,7 +5,7 @@
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/_gab_foxJaketto_/",
-	"version" : "8.06 - (24.06.2021)",
+	"version" : "9.00 - (01.07.2021)",
 	"blt_version" : 2,
 	"updates" : [
 		{ 
@@ -20,6 +20,7 @@
 		{ "hook_id" : "lib/managers/platformmanager", "script_path" : "lua/scripts/RichPresence.lua" },
 		{ "hook_id" : "lib/managers/skirmishmanager", "script_path" : "lua/scripts/RichPresence.lua" },
 		{ "hook_id" : "lib/managers/menumanager", "script_path" : "lua/scripts/menumanager.lua" }
+		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/jiu_feng/sand.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/jiu_feng/dragonheist.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/events/halloween.lua" },
 		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/extras/modifiers.lua" },

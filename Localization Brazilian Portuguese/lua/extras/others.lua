@@ -1180,6 +1180,16 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	hud_int_hold_turn_off_power = "Pressione $BTN_INTERACT para desligar a energia",--Press  to turn off the power
+	hud_int_use_scanner = "Segure $BTN_INTERACT para usar o scanner",--Press  to use scanner
+	hud_int_slide_ramp = "Segure $BTN_INTERACT para mover a rampa",--Hold  to move the ramp
+	hud_int_raise_ramp = "Segure $BTN_INTERACT para levantar a rampa",--Hold  to raise the ramp
+	hud_int_move_truck = "Segure $BTN_INTERACT para mover o caminhão",--Hold  to move the truck
+	hud_int_open_slide_gate = "Segure $BTN_INTERACT para abrir o portão",--Hold  to slide open the gate
+	hud_int_use_paddles = "Segure $BTN_INTERACT para usar o desfibrilador de pás",--Hold  to use the paddles
+	hud_int_take_paddles = "Segure $BTN_INTERACT para pegar o desfibrilador de pás",--Hold  to take the paddles
+	hud_int_start_defibrillator = "Segure $BTN_INTERACT para usar o desfibrilador",--Hold  to start the defibrillator
+	hud_int_open_handcuffs = "Segure $BTN_INTERACT para remover as algemas",--Hold  to remove the handcuffs
 	hud_int_hold_breach_shutter = "Segure $BTN_INTERACT para forçar a porta de garagem",--Hold  to force open shutter
 	hud_int_hold_flip_light = "Pressione $BTN_INTERACT para ligar as luzes",--Hold  to turn on the lights
 	hud_int_take_tea_set = "Segure $BTN_INTERACT para pegar o jogo de chá",--Hold  to take tea set
