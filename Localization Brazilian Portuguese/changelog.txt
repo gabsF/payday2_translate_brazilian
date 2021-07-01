@@ -1,6 +1,2 @@
---- 8.06 ---
-+ Traduzido o novo menu do jogo (exceto que vou manter o "Crime.Net" e "Crime.Net Offline")
-* Corrigido um erro de tradução em uma descrição de um traje
-* Traduzido uma legenda faltando em Crystal Meth
-
-Nota: a tradução do The Ukrainian Prisoner vai demorar pra sair do que o esperado.
+--- 9.00 ---
++ Traduzido The Ukrainian Prisoner
