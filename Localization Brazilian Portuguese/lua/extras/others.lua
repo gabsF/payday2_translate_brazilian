@@ -7,6 +7,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	bm_global_value_sdtp_unlock = "Compre a DLC Guardians Tailor Pack para desbloquear.",--Buy the Guardians Tailor Pack DLC to unlock.
 	bm_global_value_solus_clan_unlock = "Entre no grupo do The Solus Project Official na Steam para desbloquear!",
 	bm_global_value_dbd_clan_unlock = "Entre no grupo do Dead by Daylight Official na Steam para desbloquear!",--Join the Dead by Daylight Official Community Group on Steam to unlock!
 	bm_menu_skill_locked_usp = "Entre no grupo oficial do PAYDAY 2 na Steam para desbloquear!",--Join the PAYDAY 2 Official Community Group on Steam to unlock!
@@ -16,6 +17,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	bm_global_value_mbs_unlock = "Compre o Tailor Pack 2 para desbloquear.",--Buy the Tailor Pack 2 DLC to unlock.
 	bm_global_value_tstp_unlock = "Compre o Dragon Pack para desbloquear.",--Buy the Dragon Pack DLC to unlock
 	bm_global_value_chico_unlock = "Compre o Scarface Character Pack para desbloquear",
+	menu_l_global_value_sdtp = "Esse é um item do Guardians Tailor Pack!",--This is a Guardians Tailor Pack Item!
 	menu_l_global_value_tstp = "Esse é um item do Dragon Pack!",--This is a Dragon Pack item!
 	menu_l_global_value_dbd_clan = "Esse é um item do Dead by Daylight Community!",
 	menu_l_global_value_dbd_deluxe = "Esse é um item do Dead by Daylight Deluxe!",
@@ -340,6 +342,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	dialog_new_safehouse_new_player = "Hoxton finalmente queimou a antiga safe house até o chão, chamou o seu mordomo britânico e o fez arrumar e preparar uma nova Safe House para toda a gangue. Você gostaria de ir para lá agora?",
 	
 	-- Tela de Inventário
+	bm_menu_buy_dlc = "Visitar a Página da DLC",--Visit DLC Store
 	menu_legend_back = " VOLTAR",
 	menu_legend_broker_favorite = " FAVORITAR",
 	menu_legend_crimenet_move = " MOVER",
@@ -3306,6 +3309,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_briefing = "Descrição da Crime.net:",
 	
 	-- Lobby
+	menu_lby_job_crimenet = "Mudar a Heist",--Change Heist
+	menu_lby_crimenet = "Selecionar Heist",--Select Heist
 	menu_preferred_character_lobby_error = "Não pode mudar enquanto estiver em um lobby",
 	menu_crewpage = "Fase de Pré-planejamento",
 	menu_edit_game_settings = "Editar as Configurações do Lobby",
