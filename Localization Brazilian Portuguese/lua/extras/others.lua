@@ -17,6 +17,10 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	bm_global_value_mbs_unlock = "Compre o Tailor Pack 2 para desbloquear.",--Buy the Tailor Pack 2 DLC to unlock.
 	bm_global_value_tstp_unlock = "Compre o Dragon Pack para desbloquear.",--Buy the Dragon Pack DLC to unlock
 	bm_global_value_chico_unlock = "Compre o Scarface Character Pack para desbloquear",
+	menu_l_global_value_sawp = "Esse é um item do Jiu Feng Smuggler Pack 2!",--This is a Jiu Feng Smuggler Pack 2 Item!
+	menu_l_global_value_faco = "Esse é um item do Jiu Feng Smuggler Pack!",--This is a Jiu Feng Smuggler Pack item!
+	menu_l_global_value_wcc_s01 = "Esse é um item de Cor do Cryptographer!",--This is a Cryptographer's Color Item!
+	menu_l_global_value_tam = "Esse é um item de Milestone de Conquista!",--This is an Achievement Milestone Item
 	menu_l_global_value_sdtp = "Esse é um item do Guardians Tailor Pack!",--This is a Guardians Tailor Pack Item!
 	menu_l_global_value_tstp = "Esse é um item do Dragon Pack!",--This is a Dragon Pack item!
 	menu_l_global_value_dbd_clan = "Esse é um item do Dead by Daylight Community!",
@@ -608,6 +612,13 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	discord_rp_lobby = "Em um Lobby",
 	discord_rp_mp_heist = "Jogando Online",
 	discord_rp_single_heist = "Jogando Offline",
+
+	-- Steam RP
+	--steam_rp_current_difficulty = "[$difficulty]",--$difficulty;
+	--steam_rp_in_lobby_heist = "Em Lobby - $heist",--In Lobby for $heist;
+	--steam_rp_current_players = "$current/$max Jogadores",--$current;/$max; Players
+	--steam_rp_in_lobby = "Em Lobby",--In Lobby
+	--steam_rp_current_heist_one_day = "Atualmente Jogando em $heist",--Currently heisting on $heist;
 	
 	-- Estátisticas das Armas e do Personagem
 	bm_menu_equipped = "Equipado",
@@ -811,6 +822,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_equipment_alarm_clock = "Despertador",
 	hud_equipment_wire = "Cabos",
 	hud_action_pickup_keychain_forklift = "Chaves da Empilhadeira",--Forklift keys
+	hud_equipment_defibrillator_paddles = "Pás de Desfibrilador",--Defibrillator paddles
 	
 	-- Outros Interagindo
 	hud_opening_cas_briefcase = "Abrindo a Maleta",--Opening the briefcase
@@ -1183,6 +1195,13 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	hud_int_place_gas_canister = "Segure $BTN_INTERACT para colocar o gás",--Hold  to place the gas canister
+	hud_int_take_gas_canister = "Segure $BTN_INTERACT para pegar o gás",--Hold  to take the gas canister
+	hud_int_play_tort_tape = "Pressione $BTN_INTERACT para tocar a fita",--Press  to play tape
+	hud_int_place_paddles = "Segure $BTN_INTERACT para colocar as pás",--Hold  to place the paddles
+	hud_int_move_cargo = "Pressione $BTN_INTERACT para mover a carga",--Hold  to move the cargo
+	hud_int_open_warehouse_door = "Segure $BTN_INTERACT para abrir a porta do depósito",--Hold  to open the warehouse door
+	hint_no_defibrillator_paddles = "Precisa das Pás de Desfibrilador",--Need the defibrillator paddles
 	hud_int_hold_turn_off_power = "Pressione $BTN_INTERACT para desligar a energia",--Press  to turn off the power
 	hud_int_use_scanner = "Segure $BTN_INTERACT para usar o scanner",--Press  to use scanner
 	hud_int_slide_ramp = "Segure $BTN_INTERACT para mover a rampa",--Hold  to move the ramp
@@ -1190,7 +1209,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_int_move_truck = "Segure $BTN_INTERACT para mover o caminhão",--Hold  to move the truck
 	hud_int_open_slide_gate = "Segure $BTN_INTERACT para abrir o portão",--Hold  to slide open the gate
 	hud_int_use_paddles = "Segure $BTN_INTERACT para usar o desfibrilador de pás",--Hold  to use the paddles
-	hud_int_take_paddles = "Segure $BTN_INTERACT para pegar o desfibrilador de pás",--Hold  to take the paddles
+	hud_int_take_paddles = "Pressione $BTN_INTERACT para pegar o desfibrilador de pás",--Hold  to take the paddles
 	hud_int_start_defibrillator = "Segure $BTN_INTERACT para usar o desfibrilador",--Hold  to start the defibrillator
 	hud_int_open_handcuffs = "Segure $BTN_INTERACT para remover as algemas",--Hold  to remove the handcuffs
 	hud_int_hold_breach_shutter = "Segure $BTN_INTERACT para forçar a porta de garagem",--Hold  to force open shutter
@@ -1243,7 +1262,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_int_equipment_lance = "Segure $BTN_INTERACT para preparar a Furadeira térmica",
 	hud_int_hold_pickup_lance = "Segure $BTN_INTERACT para pegar a Furadeira térmica",
 	hud_int_big_computer_hackable = "Segure $BTN_INTERACT para Hackear o Computador",
-	hud_int_big_computer_server = "Segure $BTN_INTERACT para acessar o Computar remotamente",
+	hud_int_big_computer_server = "Segure $BTN_INTERACT para acessar o Computador remotamente",
 	hud_int_big_computer_unhackable = "Você só pode Hackear um Computador por vez",
 	hud_instruct_throw_bag = "$BTN_USE_ITEM para Arremessar",
 	hud_int_hold_take_wrench = "Segure $BTN_INTERACT para pegar a Chave Inglesa",
@@ -1557,7 +1576,6 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_int_shaped_sharge = "Segure $BTN_INTERACT para colocar a carga explosiva",--Hold $BTN_INTERACT; to place shaped charge
 	hud_int_use_chute = "Pressione $BTN_INTERACT para usar o Paraquedas",--Press $BTN_INTERACT; to Use Chute
 	hud_int_use_phone_signal_bus = "Pressione $BTN_INTERACT para usar o telefone e dar sinal para o ônibus",--Press $BTN_INTERACT; to use the phone and signal the bus
-	hud_int_use_scanner = "Pressione $BTN_INTERACT para usar o Scanner",--Press $BTN_INTERACT; to use scanner
 	hud_int_use_zipline = "Pressione $BTN_INTERACT para usar a tirolesa",--Press $BTN_INTERACT; to use the zipline
 	hud_int_vehicle_close_trunk = "Segure $BTN_INTERACT para fechar o porta-malas",--Hold $BTN_INTERACT; to close the trunk
 	hud_int_vehicle_drive = "Segure $BTN_INTERACT para dirigir o veículo",--Hold $BTN_INTERACT; to drive the vehicle
@@ -1689,7 +1707,6 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_int_hold_relay_locke = "Segure $BTN_INTERACT para retransmitir ao locke",
 	hud_int_take_fingerprint = "Segure $BTN_INTERACT para pegar a impressão digital",
 	hud_int_hold_cut_wire_grey = "Segure $BTN_INTERACT para cortar o fio",
-	hud_int_hold_turn_off_power = "Pressione $BTN_INTERACT para desligar a energia",
 	hud_int_hold_take_treasure = "Segure $BTN_INTERACT para pegar o tesouro romanov",
 	hud_int_hold_take_faberge_egg = "Segure $BTN_INTERACT para pegar o ovo fabergé",
 	hud_int_take_record_tape = "Segure $BTN_INTERACT para pegar a fita cassete",
@@ -2004,9 +2021,9 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_visit_community = "Comunidade",
 	menu_visit_community_help = "Entre na comunidade Steam",
 	hud_offshore_account = "Conta Offshore",
-	menu_crimenet = "Crime.net",
+	menu_crimenet = "Crime.Net",
 	menu_crimenet_help = "Entre na Crime.net e jogue online com outros jogadores",
-	menu_crimenet_offline = "Crime.net Offline",
+	menu_crimenet_offline = "Crime.Net Offline",
 	menu_crimenet_offline_help = "Entre na Crime.net de forma Offline",
 	menu_player_inventory = "Inventário",
 	menu_player_inventory_help = "Veja o seu inventário",
@@ -2035,6 +2052,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	-- Opções
 	menu_controls = "Controles",
 	menu_controls_help = "Mude as suas preferências de controles",
+	dialog_key_binding_forbidden = 'A telca "$KEY" está reservado pelo jogo, por favor tente outra tecla.',--Key "$KEY;" is reserved by the game, please try something else.
 	menu_video = "Vídeo",
 	menu_video_help = "Mude as suas preferências de vídeo",
 	menu_sound = "Áudio",
@@ -2289,6 +2307,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_toggle_infamy_roman_card_help = "Use números romanos para mostrar o seu nível Infamy na Carta de Infamy.",
 	
 	-- HUD
+	hud_access_camera_feed_lost = "Transmissão perdida",--Feed lost
+	hud_assault_point_no_vlad_in = "Vlad vai morrer em",--Vlad will die in
 	menu_achievements_tracking_notify = "MONITORANDO",
 	hud_stats_no_tracked = "NENHUMA CONQUISTA SENDO MONITORADA",
 	menu_tracked_achievements = "Conquistas Monitoradas",
@@ -3520,9 +3540,9 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_loading_progress = "Carregando $prog%",
 	
 	-- Difficulty Names
-	--menu_difficulty_normal = "Normal",
-	--menu_difficulty_hard = "Hard",
-	--menu_difficulty_very_hard = "Very Hard",
+	menu_difficulty_normal = "Normal",
+	menu_difficulty_hard = "Difícil",
+	menu_difficulty_very_hard = "Muito Difícil",
 	--menu_difficulty_overkill = "OVERKILL",
 	--menu_difficulty_easy_wish = "Mayhem",
 	--menu_difficulty_apocalypse = "Death Wish",

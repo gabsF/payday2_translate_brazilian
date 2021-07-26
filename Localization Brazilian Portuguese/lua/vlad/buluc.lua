@@ -1,6 +1,6 @@
 Hooks:Add("LocalizationManagerPostInit", "mansaodobulucquemorreprotubarao2020", function(loc)
 	LocalizationManager:add_localized_strings({
-	-- Nomes e Descrições
+	-- Nomes e Descriçõess
 	heist_fex = "Buluc's Mansion",--Buluc's Mansion
 	heist_fex_hl = "Buluc's Mansion",--Buluc's Mansion
 	heist_fex_crimenet = "Ei pessoal, o Vlad precisa da ajuda de vocês de novo. Minha esposa está puta porque aquele merda do Buluc, chefe dos Coyopas, colocou meu cunhado na prisão. Preciso que vocês mandem uma mensagem para o submundo do crime dizendo que ninguém mexe com o Vlad e sai ileso. Então eu quero que vocês matem o Buluc, fazendo-o sofrer muito. Façam com que seja bem sangrento. Deixem-me feliz e eu estarei devendo um favorzão pra vocês, yeah?\n\n» Infiltre-se na Mansão\n» Invada o Escritório do Buluc\n» Mate o Buluc\n» Fuja!",--Hey guys, Vlad needs your help again. My wife is pissed because that fucker Buluc, head of the Coyopa cartel, put my brother-in-law in prison. I need you to send a message to the underworld that no one bullshits Vlad and gets away with it. So, I want you to kill Buluc. Make him suffer, make it bloody. Make me real happy and I will owe you a favor, yes?\n\n» Infiltrate the Mansion\n» Break into Buluc's Office\n» Assassinate Buluc\n» Escape
@@ -646,6 +646,5 @@ Hooks:Add("LocalizationManagerPostInit", "mansaodobulucquemorreprotubarao2020", 
 	hud_heist_fex50 = "Os policiais interromperam a serra. Conserte-a para poder entrar.",--The cops have interrupted the saw. Restart it in order to get inside.
 	hud_heist_fex51_hl = "Conserte a Furadeira",--Restart The Drill
 	hud_heist_fex51 = "Os policiais interromperam a furadeira. Conserte-a para entrar no cofre.",--The cops have interrupted the drill. Restart it to get inside the safe.
-
 		})
 end)

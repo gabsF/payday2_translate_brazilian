@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "hospitaldoleft4dead", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Descrição da heist
-	heist_nmh = "No Mercy",
-	heist_nmh_hl = "No Mercy (Flashback)",
+	--heist_nmh = "No Mercy",
+	--heist_nmh_hl = "No Mercy (Flashback)",
 	heist_nmh_briefing = "Nosso cliente precisa de frascos de sangue de um paciente que está sendo mantido sob isolamento no Mercy Hospital. Vocês precisam ir lá, desativar a vigilância, dominar todos os civis e me dar acesso aos arquivos dos pacientes para eu achar o cara. Com a baixa segurança do local, isso deverá ser bem fácil. Um trabalho limpo. Eu vou tirar vocês de lá pelo telhado assim que vocês terminarem tudo. Esse trabalho é um pouco complexo, e está sendo mediado por um terceiro que possui algumas intenções militares sombrias, mas vale o risco. O pagamento é algo que precisaremos no futuro, com um ótimo bônus de dinheiro.",
 	heist_nmh_crimenet = "Bain tem apenas mais alguns dias. Aqueles filhos da puta da Kataru acharam adequado matar ele com o vírus. O mesmo vírus que roubamos a uns anos atrás no Mercy Hospital. Independentemente pra quem conseguimos isso, eles venderam para a Murkywater e agora isso está matando ele. Eu sabia desde o início que era um trabalho ruim. Bain também sabia, mas ele queria aquele manuscrito Cagliostro. Aquela porra de livro. Deve ter dito pra ele ir se fuder, mas ele falou que nós realmente precisaríamos disso para algo, e para ser honesto, nunca estaríamos onde estamos sem ele. \n\n» Mantenha os Civis sob controle \n» Encontre o Paciente Certo \n» Fuja com dois Frascos de Sangue Válidos",
 	

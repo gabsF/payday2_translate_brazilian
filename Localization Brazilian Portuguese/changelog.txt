@@ -1,2 +1,7 @@
---- 9.01 ---
-+ Traduzido algumas coisas novas do menu
+--- 9.02 ---
+* Alguns nomes de dificuldade foram traduzidos, exceto "OVERKILL", "Death Wish", "Mayhem" e "Death Sentence".
+* Tradução do Rich Presence do Steam foi removida para evitar conflitos com outros mods que modificavam a Rich Presence do Steam.
+* Luvas das novas DLCs foram traduzidas.
+* Descrições de algumas conquistas foram traduzidas.
+* Legendas do Four Stores e do Ukrainian Prisoner que estavam faltando foram traduzidas.
+* Algumas interações foram corrigidas e traduzidas.
