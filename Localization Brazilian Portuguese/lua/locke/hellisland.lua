@@ -30,17 +30,17 @@ Hooks:Add("LocalizationManagerPostInit", "bainbreakout", function(loc)
 	rb5_bph_intro_04a = "Ah, caralho, o cheiro desse lugar...",
 	rb1_bph_intro_02f = "Hora de virar as mesas.",
 	rb22_bph_intro_02e = "Esgoto, porque tinha que ser esgoto.",
-	rb1_bph_intro_02d = "Conveniente pra caralho, esse escoderijo da Murkywater.",
+	rb1_bph_intro_02d = "Conveniente pra caralho, esse esconderijo da Murkywater.",
 	rb22_bph_intro_02c = "Lugar confortante, né?",
 	rb5_bph_intro_02b = "Eu espero que aquele merdinha do Kento apareça. Eu REALMENTE espero.",
 	rb22_bph_intro_02a = "Bain, velho amigo, aqui vamos nós! Oh, que bela frase.",
 	
 	-- Legendas
 	loc_bph_21_01 = "Usem a furadeira nessa porta.",--Drill through the door.
-	loc_bph_08_02 = "Talvez tentem usar a thermite que vocês acharam antes.",--Maybe try that thermite you found before.
+	loc_bph_08_02 = "Talvez tentem usar a térmite que vocês acharam antes.",--Maybe try that thermite you found before.
 	loc_bph_25_01 = "Não se preocupem, amigos. Vou pegar o Bain. Só mantenham esses Murkies longe da gente, yeah?",--No worries, friends. I'll get Bain. Just keep those Murkys away from us, yeah?
 	loc_bph_04_02 = "Isso poderá ser útil pra algo mais pra frente.",--Could be useful somewhere down the line.
-	loc_bph_28_02 = "Caralho, os Kataru realmente fuderam com ele.",--Blerrie, the Kataru have really messed him up. 
+	loc_bph_28_02 = "Caralho, os Kataru realmente foderam com ele.",--Blerrie, the Kataru have really messed him up. 
 	loc_bph_22_01 = "Peguem essa chave, amigos.",--Grab the keychain friends.
 	loc_bph_27_01 = "Vocês precisam matar esses Murkies!",--You need to take care of those Murkys!
 	loc_bph_30_01 = "Vamos, não temos muito tempo, estendam a ponte.",--Come on, we don't have much time, extend the walkway.

@@ -15,8 +15,8 @@ Hooks:Add("LocalizationManagerPostInit", "encontreatiara", function(loc)
 	pln_knk_jwl_a_13_any_03 = "A Esposa do Vlad ficará emocionada! Agora tirem essa merda de lá.",--Vlad's wife will be thrilled - now get that thing outta there.
 	pln_knk_jwl_a_12_any_02 = "Eles trancaram a porta. Usem a cabeça!",--They locked the door. Use your head.
 	pln_knk_jwl_a_14_any_01 = "Vamos lá, cara!.",--Keep it moving in there.
-	pln_knk_jwl_a_11_any_03 = "a Tiara está naquele prédio. Eu tenho certeza disso!",--Tiara is in that building, I'm sure.
-	pln_knk_jwl_a_06_any_02 = "Vocêm têm apenas 10 segundos para chegar até a Van. Então vá até lá agora!",--There's ten seconds to get to the van so get to the van now.
+	pln_knk_jwl_a_11_any_03 = "A Tiara está naquele prédio. Eu tenho certeza disso!",--Tiara is in that building, I'm sure.
+	pln_knk_jwl_a_06_any_02 = "Vocês têm apenas 10 segundos para chegar até a Van. Então vá até lá agora!",--There's ten seconds to get to the van so get to the van now.
 	pln_knk_jwl_a_06_any_01 = "Vocês têm 10 segundos para entrar nessa Van.",--You have ten seconds to get to the van.
 	pln_knk_jwl_a_13_any_02 = "Aqui vamos nós! Deixem essa coisa na Van!",--There we go. Get that thing to the van!
 	pln_knk_jwl_a_16_any_02 = "Rapazes, nós estamos procurando pela Tiara. Pode ser que esteja dentro de um Cofre.",--Guys we're looking for a tiara, might be in a safe, gotta be inside though.

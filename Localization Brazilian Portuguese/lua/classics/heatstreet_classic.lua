@@ -52,7 +52,7 @@ Hooks:Add("LocalizationManagerPostInit", "calornasruas", function(loc)
 	pln_run_14_03 = "Achem alguma gasolina e coloquem fogo nessa van.",
 	pln_run_08_02 = "Beleza, gente, se concentrem. Atrás dele.",
 	pln_run_19_02 = "Achem mais gasolina e coloquem fogo. Continuem queimando! Fritem ele todo!",
-	pln_run_07_02 = "Esse cénario é muito familiar.",
+	pln_run_07_02 = "Esse cenário é muito familiar.",
 	pln_run_12_02 = "Ele bateu de jeito!",
 	pln_run_06_03 = "Vai! Vai! Vocês tem que se encontrar com o piloto!",
 	pln_run_20_02 = "Vão pra cima do viaduto, pro Bile conseguir pegar vocês.",

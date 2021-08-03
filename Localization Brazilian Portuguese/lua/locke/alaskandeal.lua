@@ -79,8 +79,8 @@ Hooks:Add("LocalizationManagerPostInit", "lockeseriaumtraidorounao", function(lo
 	
 	-- Legendas (Bain)
 	pln_wwh_01_01 = "Ei, que merda é essa? Locke, que porra é essa?!",
-	pln_wwh_01_02 = "Locke, que porra é essa? É melhor você não tentar fuder com o meu pessoal.",
-	pln_wwh_01_03 = "Que merda é essa?! Locke, é melhor você não tentar fuder com a minha gangue. Nós tínhamos um trato!",
+	pln_wwh_01_02 = "Locke, que porra é essa? É melhor você não tentar foder com o meu pessoal.",
+	pln_wwh_01_03 = "Que merda é essa?! Locke, é melhor você não tentar foder com a minha gangue. Nós tínhamos um trato!",
 	pln_wwh_02_01 = "É uma armadilha! O desgraçado traiu a gente. A SWAT está vindo. Vocês vão ter que lutar até encontrarem um caminho.",
 	pln_wwh_02_02 = "Porra, foi uma armadilha. Tem policiais vindo, preparem-se.",
 	pln_wwh_02_03 = "Temos problemas, gangue. O Locke traiu a gente. Vocês vão ter que passar pelos policiais para poderem sair daí.",

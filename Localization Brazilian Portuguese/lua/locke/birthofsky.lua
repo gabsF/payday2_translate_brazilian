@@ -6,7 +6,7 @@ Hooks:Add("LocalizationManagerPostInit", "parachutes", function(loc)
 	
 	-- Legendas
 	pln_jr2_01_02 = "Vamos lá, gangue. Saiam desse esconderijo!",--Come on, gang. Out of that hidey-hole!
-	loc_jr2_41_01 = "Escutem aqui seus bucetas. Vocês só irão chegar no telhado usando a escada do depósito, e vocês só irão entrar lá com o cartão de acesso. Procurem por ele!",--Listen you fucking poes. You're only getting on the roof from the store room ladder, and you're only getting in that with the keycard. Look for it!
+	loc_jr2_41_01 = "Escutem aqui seus zé bucetas. Vocês só irão chegar no telhado usando a escada do depósito, e vocês só irão entrar lá com o cartão de acesso. Procurem por ele!",--Listen you fucking poes. You're only getting on the roof from the store room ladder, and you're only getting in that with the keycard. Look for it!
 	loc_jr2_39_03 = "Uma das cargas está no telhado da lanchonete. O que esses fritadores de hambúrguer fariam com tanto dinheiro, yeah? ",--One of the pallets is on the roof of the diner. What would those burger-flippers do to have that kind of cash, eh? 
 	loc_jr2_18_02 = "Vocês poderiam achar esses malditos pacotes? A análise da trajetória indica... que eles devem estar perto, porra!",--Find those fucking bundles, will you? Analysis of trajectory indicates...they must be fucking close!
 	loc_jr2_40_01 = "Tem uma escada de serviço que leva ao telhado. Apesar de que vocês irão precisar de um cartão de acesso para isso. Deve ter um por aí em algum lugar.",--There's a service ladder leading to the roof. You'll need a keycard to access it though. Got to be one here somewhere.

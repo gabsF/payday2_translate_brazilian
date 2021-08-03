@@ -1,21 +1,21 @@
 Hooks:Add("LocalizationManagerPostInit", "heitsmucholokas", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_hvh = "Cursed Kill Room",--Cursed Kill Room
-	heist_hvh_hl = "Cursed Kill Room",--Cursed Kill Room
-	heist_haunted = "Safe house Nightmare",--Safe house Nightmare
-	heist_haunted_hl = "Safe house Nightmare",--Safe house Nightmare
-	heist_nail = "Lab Rats",--Lab Rats
-	heist_nail_hl = "Lab Rats",--Lab Rats
-	heist_help = "Prison Nightmare",--Prison Nightmare
-	heist_help_hl = "Prison Nightmare",--Prison Nightmare
+	--heist_hvh = "Cursed Kill Room",--Cursed Kill Room
+	--heist_hvh_hl = "Cursed Kill Room",--Cursed Kill Room
+	--heist_haunted = "Safe house Nightmare",--Safe house Nightmare
+	--heist_haunted_hl = "Safe house Nightmare",--Safe house Nightmare
+	--heist_nail = "Lab Rats",--Lab Rats
+	--heist_nail_hl = "Lab Rats",--Lab Rats
+	--heist_help = "Prison Nightmare",--Prison Nightmare
+	--heist_help_hl = "Prison Nightmare",--Prison Nightmare
 	heist_haunted_crimenet = "Acorde...",--Wake up...
 	heist_haunted_briefing = "Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;Todo o trabalho e nada de diversão fazem do Wolf um garoto chato. Todo o trabalho e nada de diversão fazem do Wolf um garoto chato.$NL;",
 	heist_help_crimenet = "À medida que o sono vem chegando, nós acabamos por aparecer nessa terra estranha que está além do mundo real. E quem sabe o que mais estará esperando por nós lá...",--As sleep takes us, we drift into that strange land beyond the waking world. And who knows what might be waiting for us there...
 	heist_help_hl_briefing = "Bem-vindo ao meu mundo, para minha prisão! Eu vou fazer você se sentir em casa. Mas você não vai gostar nada da comida - ou de qualquer outra coisa!",--Welcome to my world, to my prison! I'll make you feel right at home. But you won't like the food - or anything else!
 	heist_nail_crimenet = "Doces ou Travessuras,$NL;cheire os meus pés.$NL;Me dê algo para colocar na rua.$NL;Se você não puder,$NL;Eu não ligo.$NL;Só não cozinhe de cueca.",
 	heist_nail_briefing = "Nós estamos trabalhando no Laboratório, até tarde hoje,$NL;deixando os olhos abertos para uma visão estranha.$NL;Cozinhando em cima da mesa,$NL;borbulhando e fervendo.$NL;E mantendo os policiais,$NL;encrencados e cansados.",
-	heist_hvh_crimenet = "Tick tock pequenos ladrões, tick tock ...",--Tick tock little heisters, tick tock ...
+	heist_hvh_crimenet = "Tick tock, pequenos ladrões, tick tock...",--Tick tock little heisters, tick tock ...
 	heist_hvh_briefing = "MATAR, MATAR, MATAR, COFRE, MATAR, MATAR, MATAR$NL;MATAR, MATAR, MATAR, COFRE, MATAR, MATAR, MATAR$NL;MATAR, MATAR, MATAR, COFRE, MATAR, MATAR, MATAR$NL;MATAR, MATAR, MATAR, COFRE, MATAR, MATAR, MATAR$NL;MÁÁÁÁÁÁSCARAS!!!!!!$NL;MATAR, MATAR, MATAR, COFRE, MATAR, MATAR, MATAR$NL;MATAR, MATAR, MATAR, COFRE, MATAR, MATAR, MATAR$NL;MATAR, MATAR, MATAR, COFRE, MATAR, MATAR, MATAR$NL;MATAR, MATAR, MATAR, COFRE, MATAR, MATAR, MATAR$NL;MATAR, MATAR, MATAR, COFRE, MATAR, MATAR, MATAR$NL;MATAR, MATAR, MATAR, COFRE, MATAR, MATAR, MATAR",
 
 	-- Legendas (Lab Rats)

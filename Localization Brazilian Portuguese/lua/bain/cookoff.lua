@@ -3,7 +3,7 @@ Hooks:Add("LocalizationManagerPostInit", "cozinhandoinfinitamente", function(loc
 	-- Nome e Descrição
 	heist_rat = "Cook Off",
 	heist_rat_hl = "Cook Off",
-	heist_rat_crimenet = "Nós cozinhamos em um laborátorio de metanfetamina numa floresta. Não vai ter essas merdas do Hector! É só pelo dinheiro. \n\n» Localize o Laboratório de Metanfetaminas\n» Cozinhe Metanfetaminas\n» Leve as Bolsas e fuja",
+	heist_rat_crimenet = "Nós cozinhamos em um laboratório de metanfetamina numa floresta. Não vai ter essas merdas do Hector! É só pelo dinheiro. \n\n» Localize o Laboratório de Metanfetaminas\n» Cozinhe Metanfetaminas\n» Leve as Bolsas e fuja",
 	heist_rat_briefing = "Isso vai ser simples, mas não quer dizer que vai ser fácil. A gente vai voltar pra floresta. Você conhece o lugar. A gente tinha feito um trabalho pro Hector lá. Bom, eu dei uma olhada no lugar e ainda está inteiro. Então, nós iremos lá pra cozinhar o máximo de metanfetaminas que a gente puder. Você pode ficar lá o quanto quiser. Se ficar sem ingredientes, eu vou mandar mais. Vai ser dinheiro fácil!",
 	
 	-- Introduções
@@ -14,7 +14,7 @@ Hooks:Add("LocalizationManagerPostInit", "cozinhandoinfinitamente", function(loc
 	-- Legendas
 	pln_rt1_12_any_01 = "Beleza, OK! A Reação parece boa, continuem assim.",
 	pln_rt1_12_any_02 = "Beleza, parece estável. Por enquanto.. Coloquem mais ingredientes...",
-	pln_rt1_12_any_03 = "Shush! Esse som... parece.. nah, parece OK.",
+	pln_rt1_12_any_03 = "Shiu! Esse som... parece.. nah, parece OK.",
 	pln_rt1_12_any_04 = "OK, OK, beleza.",
 	pln_rt1_12_any_05 = "OK, é esse o site. O que você adicionou? Beleza! OK, OK.",
 	pln_rt1_12_any_06 = "Hmm.. bom, bom.",
@@ -28,7 +28,7 @@ Hooks:Add("LocalizationManagerPostInit", "cozinhandoinfinitamente", function(loc
 	pln_rt1_g_06 = "Foi mal. é Ácido Muriático.",
 	pln_rt1_g_04 = "Precisamos de Ácido Muriático!",
 	pln_rt1_g_01 = "Deve ser Ácido Muriático!",
-	pln_rt1_g_08 = "Por metódo de eliminação, isso deve ser Ácido Muriático.",
+	pln_rt1_g_08 = "Por método de eliminação, isso deve ser Ácido Muriático.",
 	pln_rats_stage1_11_any_01 = "SWAT vindo pela Serraria! Não deixe que eles cheguem perto!",
 	pln_rats_stage1_11_any_02 = "Estão vindo! Pela Serraria! Se protejam!",
 	pln_rats_stage1_11_any_03 = "Eles estão vindo da Serraria! Cuidado!",
@@ -115,7 +115,7 @@ Hooks:Add("LocalizationManagerPostInit", "cozinhandoinfinitamente", function(loc
 	pln_rt1_i_07 = "Eu errei. Deveria ser Cloreto de Hidrogênio.",
 	pln_rt1_f_09 = "Pera aí! Vocês não colocaram ainda, certo?",
 	pln_rt1_e_07 = "Vão em frente.",
-	pln_rt1_i_08 = "Por metódo de eliminação, isso deve ser Cloreto de Hidrogênio.",
+	pln_rt1_i_08 = "Por método de eliminação, isso deve ser Cloreto de Hidrogênio.",
 	pln_rt1_h_08 = "Por método de eliminação, isso deve ser Soda Cáustica.",
 	pln_rt1_f_07 = "Me desculpem, esse não era o certo.",
 	pln_rt1_j_14 = "...o que de pior pode acontecer, né?",

@@ -124,7 +124,7 @@ Hooks:Add("LocalizationManagerPostInit", "focadonosiniciantes", function(loc)
 	pln_sh11_05_01 = "Tá, boa. Bota o corpo em uma bolsa e esconde-o antes que alguém veja.",--Okay, good. Now, bag that body and get it out of sight before someone comes looking.
 
 
-	pln_sh12_01_02 = "Hora de me mostrar se você ainda manja do Stealth. O resto de vocês esperem na van e fiquem prontos quando dá merda.",
+	pln_sh12_01_02 = "Hora de me mostrar se você ainda manja de ficar em silêncio. O resto de vocês esperem na van e fiquem prontos quando dá merda.",
 	pln_sh12_01_03 = "O banco de dados deve tá no segundo andar.",
 	pln_sh12_02_02 = "Não vamos entrar pela entrada da frente. Tá vendo aquela cerca? Esse é o nosso jeito de entrar. Coloca a máscara e corta.",
 	pln_sh12_02_03 = "A entrada principal iria ser suicídio. Bora entrar pelo lado. Coloca a máscara e corte essa cerca.",
@@ -184,7 +184,7 @@ Hooks:Add("LocalizationManagerPostInit", "focadonosiniciantes", function(loc)
 	pln_sh22_12_02 = "Não atira no polícial! É três contra um. Intimida ele para não dar trabalho pra gente.",
 	pln_sh22_13_02 = "Vai pro telhado agora e espera pelo helicóptero!",
 	pln_sh22_15_02 = "Sniper! Cuidado!",
-	pln_sh22_18_03 = "Você me impressinou, Dallas. Dois anos não fez você esquecer de nada. Agora cai fora daí!",
+	pln_sh22_18_03 = "Você me impressionou, Dallas. Dois anos não fez você esquecer de nada. Agora cai fora daí!",
 	pln_sh21_12_02 = "Você conseguiu! Agora joga a cocaína aí atrás e vamo dar o fora.",
 	pln_sh21_11_03 = "Belo trabalho, Dallas! Ok, leva a cocaína e volta pra van.",
 	pln_sh21_09_01 = "Puta que... Eles tem um Sniper no prédio no lado da rua! Abaixa a cabeça e mata ele!",
@@ -228,7 +228,7 @@ Hooks:Add("LocalizationManagerPostInit", "focadonosiniciantes", function(loc)
 	pln_sh22_04_01 = "Não esqueça de colocar a cocaína na van, ou isso foi pra nada!",
 	pln_sh22_05_03 = "Vai para loja e faz um refém, assim podemos fazer uma troca pelo nosso companheiro.",
 	pln_sh22_06_03 = "Ok, beleza. Agora, leva o refém pros fundos.",
-	pln_sh22_07_03 = "Eu vou negociar com os policiais, para gente trocar pelo nosso compenheiro. Aguenta aí.",
+	pln_sh22_07_03 = "Eu vou negociar com os policiais, para gente trocar pelo nosso companheiro. Aguenta aí.",
 	pln_sh22_08_01 = "Ok, tá pronto. Solta o refém para trocar pelo nosso companheiro.",
 	pln_sh22_08_03 = "O trato deu certo. Você pode fazer a troca.",
 	pln_sh22_10_03 = "Ok, você deve se preparar para o que vier. Pega a cocaína.",

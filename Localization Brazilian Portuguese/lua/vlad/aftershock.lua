@@ -8,7 +8,7 @@ Hooks:Add("LocalizationManagerPostInit", "terremotosnaosaolegais", function(loc)
 	
 	-- Legendas (Bain)
 	pln_as1_11_01 = "Beleza. Os cofres estão dentro. Vamos dar o fora daqui. Garantem que o caminhão está aí!",--All right. Safes are in. We're getting out through the yard. Make sure the truck is there!
-	pln_as1_20_03 = "Grupo, eu estou achando que essa Área de Construção é a melhor aposta de cairem o fora. Eles tem um caminhão. Vou estar enviando alguns C4 para explodir a parede.",--Crew, I'm guessing that that construction yard across the way is your best bet for getting out. They have a truck. Sending you some C4 to bring the wall down now.
+	pln_as1_20_03 = "Grupo, eu estou achando que essa Área de Construção é a melhor aposta de caírem o fora. Eles tem um caminhão. Vou estar enviando alguns C4 para explodir a parede.",--Crew, I'm guessing that that construction yard across the way is your best bet for getting out. They have a truck. Sending you some C4 to bring the wall down now.
 	pln_as1_04_01 = "Vamos lá, encontrem o segundo caminhão.",--Come on, find that second truck.
 	pln_as1_04_03 = "Cadê o segundo caminhão? Tem que estar por aqui em algum lugar.",--Where's that second truck? Gotta be around here somewhere.
 	pln_as1_18_03 = "Os cofres são muitos pesados e esses caminhões estão quebrados. Vamos precisar de outro transporte. Vou achar algo, só um segundo.",--The safes are way too heavy to carry, and those trucks are screwed. Gonna need another transport. I'll find something - hang tight.

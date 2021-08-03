@@ -212,7 +212,7 @@ Hooks:Add("LocalizationManagerPostInit", "milharesdedolaresvindovoando", functio
 	pln_man_58_02 = "Cuidado com a cabeça!",
 	pln_man_59_02 = "O que vocês estão fazendo? Sejam gentis!",
 	pln_man_60_03 = "Não me digam que vocês o mataram...",
-	pln_man_61_01 = "Não o matem agora. Se não fudeu tudo!",
+	pln_man_61_01 = "Não o matem agora. Se não fodeu tudo!",
 	pln_man_61_02 = "Tenho certeza de que ele vai obedecer depois disso, certo? Fiquem prontos para agir.",
 	pln_man_61_03 = "Nós estamos atrás do servidor e das senhas dele. Certifiquem-se de serem gentis com ele. Nós não podemos perdê-lo!",
 	pln_man_62_01 = "Têm milhões de arquivos aqui e eles estão todos criptografados. Façam ele falar de novo!",

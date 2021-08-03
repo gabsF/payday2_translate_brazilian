@@ -12,7 +12,7 @@ Hooks:Add("LocalizationManagerPostInit", "chavesdooito", function(loc)
 	pln_flt_intro_03 = "Tô ansioso pra isso, gente. Chavez não tem a menor ideia sobre o que lhe espera.",
 	
 	-- Legendas
-	plt_flt_01_03 = "Beleza, eu tô perto agora, mas tem snipers em todo canto. Vou precisar que vocês cuidem deles antes de soltar o C4.",
+	plt_flt_01_03 = "Beleza, eu tô perto agora, mas tem Snipers em todo canto. Vou precisar que vocês cuidem deles antes de soltar o C4.",
 	plt_flt_02_01 = "Ei! Cadê a ajuda que preciso? Eu tô encurralado aqui!",
 	plt_flt_02_03 = "Ei! Eu tô sendo pipocado aqui! Desde que esses Snipers continuem vivos, eu não posso chegar perto e fazer a entrega!",
 	plt_flt_05_02 = "Oh, puts, eu errei... Gente, o C4 caiu na varanda. Eu sinto muito.",
@@ -29,7 +29,7 @@ Hooks:Add("LocalizationManagerPostInit", "chavesdooito", function(loc)
 	plt_flt_01_02 = "Tô chegando, gente. Mas os policiais trouxeram muitos Snipers nos telhados próximos do prédio. Vou precisar que vocês cuidem deles antes de eu fazer a entrega.",
 	plt_flt_05_01 = "Varanda! A C4 caiu na varanda. Eu errei o telhado. Sinto muito por isso.",
 	plt_flt_06_02 = "Yihaa! A C4 caiu no telhado como planejado.",
-	plt_flt_06_01 = "Cavelheiros, a C4 está no telhado.",
+	plt_flt_06_01 = "Cavalheiros, a C4 está no telhado.",
 	plt_flt_06_03 = "Tudo certo! A C4 caiu no telhado.",
 	plt_flt_01_01 = "Ok, estou na área, mas os policiais trouxeram muitos Snipers nos telhados próximos do prédio. Vocês precisam se livrar deles antes que eu possa soltar a C4.",
 	plt_flt_07_01 = "Ok, estou de volta, mas não posso fazer nada com tantos policiais por aí. Vocês precisam limpar o telhado.",

@@ -29,7 +29,7 @@ Hooks:Add("LocalizationManagerPostInit", "peguemaarmaduradosamurai", function(lo
 	pln_ko1_20_02 = "É um bom começo.",
 	pln_ko1_23_03 = "Essas são as quatro peças da armadura do Shogun. Mas que excelente noite de trabalho!",
 	pln_ko1_13_03 = "O cofre precisa de dois cartões, inseridos quase que simultâneamente. Vocês podem apostar que há algo particularmente interessante lá.",
-	pln_ko1_end_02_02 = "É uma pena que vocês não conseguiram se manter em Stealth. Não é um bom dia para conquistas.",
+	pln_ko1_end_02_02 = "É uma pena que vocês não conseguiram se manter em silêncio. Não é um bom dia para conquistas.",
 	pln_ko1_22_01 = "Essa é a armadura de Oda Nobunaga. Peguem as partes. Isso é bem genuíno...",
 	pln_ko1_19_02 = "Você foi visto! Conserte isso.",
 	pln_ko1_18_01 = "Pessoal ... que barulho é esse?",
@@ -89,7 +89,7 @@ Hooks:Add("LocalizationManagerPostInit", "peguemaarmaduradosamurai", function(lo
 	pln_ko1_25_03 = "O cara do Gage está em um estacionamento próximo. Jogue o loot por cima do muro pra ele.",
 	pln_ko1_26_01 = "Sejam rápidos. Os guardas vão perceber a porta aberta.",
 	pln_ko1_26_03 = "Apressem-se! Eles vão notar esse cofre aberto!",
-	pln_ko1_end_01_02 = "Isso sim foi um verdadeiro trabalho Stealth, pessoal. Ótimo trabalho.",
+	pln_ko1_end_01_02 = "Isso sim foi um verdadeiro trabalho silencioso, pessoal. Ótimo trabalho.",
 	pln_ko1_end_01_03 = "Um ninja com meias, andando na ponta dos pés em um tapete grosso, faz mais barulho do que vocês. Excepcional!",
 	
 	-- Objetivos

@@ -15,8 +15,8 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	menu_st_points_unspent_skill_switch = "$points Pontos restantes",
 	menu_st_points_all_spent_skill_switch = "Nenhum ponto sobrando",
 	menu_st_switch_skillset = "[S] (ou ) para trocar as Skills",
-	skill_tree_reset_all_skills_button = "[R] (ou ) para Resetar tudo",
-	skill_tree_reset_skills_button = "[F] (ou ) para Resetar Árvore de Skills",
+	skill_tree_reset_all_skills_button = "[R] (ou ) para Redefinir tudo",
+	skill_tree_reset_skills_button = "[F] (ou ) para Redefinir Árvore de Skills",
 	menu_controller_invest = " Adicionar Ponto",
     menu_controller_refund = " Tirar Ponto",
 	menu_skillpoints = "Pontos restantes",
@@ -35,9 +35,9 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	dialog_unlock_skill_switch_free = "Esse é grátis.",--This one is free of charge.
 	menu_st_req_free_cost_skill_switch = "Grátis",--free of charge
 	dialog_unlock_skill_switch_offshore = "Esse irá te custar $offshore do seu dinheiro Offshore",--It will cost you $offshore; offshore cash.
-	nx64_reset_skills_msg = "Você está prestes a redefinir uma ou todas as suas árvores de skills.$NL;$NL;Selecionar a opção de RESETAR ÁRVORE irá remover os pontos de skill da árvore selecionada e irá retorná-los para você.$NL;$NL;Selecionar a opção de RESETAR TUDO irá remover todos os pontos de skill de todas as árvores e irá retorná-los para você.",
-	dialog_respec_skilltree = "Você está prestes a resetar todos os pontos dessa árvore de skills.\n\nConcluir essa ação fará você resetar os seus pontos de skill dessa árvore em $tree.",
-	dialog_respec_skilltree_all = "Você está prestes a resetar todas as árvores de skills.\n\nConcluir essa ação fará você resetar todos os seus pontos de skill de todas as árvores.",
+	nx64_reset_skills_msg = "Você está prestes a redefinir uma ou todas as suas árvores de skills.$NL;$NL;Selecionar a opção de REDEFINIR ÁRVORE irá remover os pontos de skill da árvore selecionada e irá retorná-los para você.$NL;$NL;Selecionar a opção de REDEFINIR TUDO irá remover todos os pontos de skill de todas as árvores e irá retorná-los para você.",
+	dialog_respec_skilltree = "Você está prestes a redefinir todos os pontos dessa árvore de skills.\n\nConcluir essa ação fará você redefinir os seus pontos de skill dessa árvore em $tree.",
+	dialog_respec_skilltree_all = "Você está prestes a redefinir todas as árvores de skills.\n\nConcluir essa ação fará você redefinir todos os seus pontos de skill de todas as árvores.",
 	dialog_unlock_skill_switch_title = "Tem certeza?",
 	menu_st_skill_switch_1 = "Skill Salva #1",
 	menu_st_skill_switch_2 = "Skill Salva #2",
@@ -75,7 +75,7 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	--menu_medic_2x_beta = "Combat Doctor",
 	menu_medic_2x_beta_desc = "BÁSICO: ##$basic##\nPermite carregar duas ##Bolsas Médicas## ao invés de uma.  \n\nAVANÇADO: ##$pro##\nAs suas ##Bolsas Médicas## terão mais dois usos adicionais.",
 	--menu_tea_cookies_beta = "Uppers",
-	menu_tea_cookies_beta_desc = "BÁSICO: ##$basic##\nAdiciona mais ##7 Kits de Primeiros Socorros## no seu inventário \n\nAVANÇADO: ##$pro##\nAdiciona mais ##3 Kits de Primeiros Socorros## no seu inventário. Os seus ##Kits de Primeiros Socorros## colocados no chão irão automaticamante ajudar você, ou aos seus aliados, se cair dentro de ##5## metros do seu ##Kit de Primeiros Socorros##. \n\nISSO NÃO PODERÁ OCORRER MAIS DE UMA VEZ DURANTE ##20## SEGUNDOS.",
+	menu_tea_cookies_beta_desc = "BÁSICO: ##$basic##\nAdiciona mais ##7 Kits de Primeiros Socorros## no seu inventário \n\nAVANÇADO: ##$pro##\nAdiciona mais ##3 Kits de Primeiros Socorros## no seu inventário. Os seus ##Kits de Primeiros Socorros## colocados no chão irão automaticamente ajudar você, ou aos seus aliados, se cair dentro de ##5## metros do seu ##Kit de Primeiros Socorros##. \n\nISSO NÃO PODERÁ OCORRER MAIS DE UMA VEZ DURANTE ##20## SEGUNDOS.",
 	-- TIER 3
 
 	-- TIER 4
@@ -95,7 +95,7 @@ Hooks:Add("LocalizationManagerPostInit", "qualbuildeuusoprodsod", function(loc)
 	--menu_cable_guy_beta = "Confident",
 	menu_cable_guy_beta_desc = "BÁSICO: ##$basic##\nO alcance e o medo da sua intimidação é aumentado em ##50%## \n\nAVANÇADO: ##$pro##\nAgora você poderá ter ##2## políciais convertidos. \nNota: é preciso ter o Básico do ##Joker##",
 	--menu_joker_beta = "Joker",
-	menu_joker_beta_desc = "BÁSICO: ##$basic##\nVocê pode converter um policial para lutar ao seu lado (Não os Especiais). \nNão pode ser feito durante o Stealth e o policial deve estar rendido para poder ser convertido. \n\nVocê só pode ter um policial convertido. \n\nAVANÇADO: ##$pro##\nO seu convertido causará ##35%## de dano a mais. O tempo para converter o policial é diminuido em ##65%##.",
+	menu_joker_beta_desc = "BÁSICO: ##$basic##\nVocê pode converter um policial para lutar ao seu lado (Não os Especiais). \nNão pode ser feito durante o Stealth e o policial deve estar rendido para poder ser convertido. \n\nVocê só pode ter um policial convertido. \n\nAVANÇADO: ##$pro##\nO seu convertido causará ##35%## de dano a mais. O tempo para converter o policial é diminuído em ##65%##.",
 	-- TIER 2
 
 	-- TIER 3
