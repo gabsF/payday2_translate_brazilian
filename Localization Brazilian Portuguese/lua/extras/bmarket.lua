@@ -195,6 +195,9 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_suit_var_highinttech_orange_desc = "Uma variação vermelho desse traje tático.",--A Vermilion variant of this tactical suit.
 	bm_suit_var_highinttech_green_desc = "Uma variação branca desse traje tático.",--A white variant of this tactical suit.
 	bm_suit_var_highinttech_blue_desc = "Uma variação azulado desse traje tático.",--An azure variant of this tactical suit.
+	bm_suit_baron_desc = "Quantos assaltantes podem dizer que tiveram oito anos de trabalho? É, não é um número grande. Mas você ainda tá aqui, né? Ainda rouba o dinheiro dos cofres como se não tivesse amanhã. Então, celebra a ocasião com estilo e ação!",--How many heisters can say that they've had eight successful years on the job? Yeah, it's not a big number. But you're still around, right? Still cracking safes and hauling loot like the best of 'em. So celebrate the occasion with style and flash!",
+	bm_suit_var_baron_blue_desc = "Para o assaltante que prefere celebrar a meia noite.",--For the heister who prefers to celebrate at midnight.",
+	bm_suit_var_baron_default_desc = "Para o assaltante que prefere celebrar ao amanhecer.",--For the heister who prefers to celebrate when a red sun rises.",
 	
 	-- LUVAS
 	bm_gloves_default_desc = "Use as Luvas padrão dos Heisters",--Use the heisters default gloves
@@ -242,6 +245,7 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	bm_gloves_techhigh_dragon_desc = "Feito com pratos desenvolvido para o programa de espaço chinês, mas adaptado para o uso civil, essas luvas oferecem movimento e conforto.",--Made with protective plating developed for the Chinese space program, but adapted for civilian use, these gloves offer superior movement and comfort.
 	bm_gloves_techhigh_tiger_desc = "Feito com pratos desenvolvido para o programa de espaço chinês, mas adaptado para o uso civil, essas luvas oferecem movimento e conforto.",--Made with protective plating developed for the Chinese space program, but adapted for civilian use, these gloves offer superior movement and comfort.
 	bm_gloves_techhigh_tortoise_desc = "Feito com pratos desenvolvido para o programa de espaço chinês, mas adaptado para o uso civil, essas luvas oferecem movimento e conforto.",--Made with protective plating developed for the Chinese space program, but adapted for civilian use, these gloves offer superior movement and comfort.
+	bm_gloves_jesterstripe_desc = "A costura nessas luvas de couro é feito de puro ouro, tecidos de oito discussões separados pelo os famosos tecelões do mundo. As mãos de um assaltante merecem algo desse tipo, especialmente enquanto estiver celebrando os oitos anos mais malucos nesse ramo.",--The stitching in these rugged leather gloves is made of pure gold, woven from eight separate threads by the finest weavers in the world. A heister's hands deserve nothing less, especially while celebrating eight glorious years on the job.",
 	
 	-- INVENTÁRIO GERAL
 	menu_sort_alphabetic = "Alfabético",
@@ -549,6 +553,9 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	achievement_eng_4_desc = "Na Diamond Store ou no dia 1 da Hoxton Breakout, encontre e pegue o Cultist Trophy escondido cinco vezes.",
 	menu_bm_achievement_locked_bulldog_1 = "Complete a Hoxton Breakout e liberte o Hoxton!",
 	bm_menu_locked_shock = "Complete a Conquista the Heavy Metal!",
+	bm_menu_locked_pda8_3 = 'Complete o desafio secundário "Alfaiate por Oito Anos".',--Complete the "Octennial Tailor" side job.',
+	bm_menu_locked_pda8_2 = 'Complete o desafio secundário "Uma Celebração Agarrado".',--Complete the \"A Gripping Celebration\" side job.",
+	bm_menu_locked_pda8_1 = 'Complete o desafio secundário "Faça Chover Grana".',--Complete the \"Make it Rain Green\" side job.',
 	achievement_sah_10_additional = "Essa é uma conquista Shacklethorne.",--
 	achievement_sah_10_desc = "Pressione [F] para pagar respeito.",--Press [F] to pay respects.
 	achievement_uno_6_desc = "Complete Nightclub em Stealth na dificuldade OVERKILL ou superior.",--Complete the Nightclub job, without setting off the alarm on the OVERKILL difficulty or above.
@@ -2308,5 +2315,39 @@ Hooks:Add("LocalizationManagerPostInit", "mercadonegro", function(loc)
 	achievement_des_9_desc = "Na Henry's Rock, pressione o botão vermelho e fuja.",
 	achievement_des_9_additional = "A Conquista requer que você jogue desde o Lobby até o final da heist. O Botão estará disponível apenas na dificuldade OVERKILL ou superior. O Botão apenas poderá ser ativado antes do primeiro hack.",
 	
+	-- Oitavo Aniversário
+	menu_challenge_div_cat_event_jobs = "Oitavo Aniversário do PAYDAY 2",--PAYDAY 2 8th Anniversary",
+	menu_event_jobs = "Missões de Eventos",--Event Missions",
+	------
+	menu_pda8_1 = "Faça Chover Grana",--Make it Rain Green",
+	menu_pda8_1_desc = "Aniversário podem ser boas ocasiões para retribuirem algo para as pessoas que você anda roubando, mas você tem que fazer isso com estilo, só pra esfregar na cara deles o quão rico você tá.",--Anniversaries can be good occasions to give something back to the people that you're stealing from, but ya gotta do it with some attitude, just to show them how filthy stinkin' rich you are.",
+	menu_pda8_1_prog_obj_desc = "Ache 2 estátuas diferentes de aniversários de Jewelry Store, Firestarter, Four Stores, Nightclub, Watchdogs, Rats, Bank Heist ou Mallcrasher. Você precisa concluir a Heist para contabilizar.",--Find 2 different anniversary statues from Jewelry store, Firestarter, Four stores, Nightclub, Watchdogs, Rats, Bank Heist or Mallcrasher. You need to finish the heist for the statues to register.",
+	menu_pda8_1_reward = "$100,000 para sua conta Offshore e desbloqueia a arma Cash Blaster durante o evento Oitavo Aniversário do PAYDAY 2.",--$100,000 to your offshore account and the ability to equip the Cash Blaster weapon during the 2021 PAYDAY 2 8th Anniversary Event.",
+	menu_pda8_1_prog_obj = "Ache 2 Estátuas de Aniversários.",--Find 2 Anniversary statues.",
+	------
+	menu_pda8_2 = "Uma Celebração Agarrado",--A Gripping Celebration",
+	menu_pda8_2_desc = "Não seria legal se, toda vez quando você olha as suas mãos segurando a sua arma favorita, você lembraria o quão foda é ser o assaltante que tá nesse ramo por oito anos, ainda vai continuar forte?",--Wouldn't it be nice if, every time you looked down at the hands holding your favorite gun, you'd be reminded of how awesome it is to be a heister with eight years on the calendar, still going strong?",
+	menu_pda8_2_track_obj = "A comunidade gasta $5,000,000,000 aposentando policiais com a Cash Blaster.",--The community spends $5,000,000,000 retiring cops with the Cash Blaster.",
+	menu_pda8_2_prog_obj_desc = "Como uma comunidade, todos os assaltantes devem gastar $5,000,000,000 aposentando policiais com a Cash Blaster e você deve achar 4 estátuas de aniversários de Jewelry Store, Firestarter, Four Stores, Nightclub, Watchdogs, Rats, Bank Heist ou Mallcrasher. Você precisa concluir a Heist para contabilizar.",--As a community all Heisters must spend $5,000,000,000 retiring cops with the Cash Blaster and you need to find 4 different anniversary statues from Jewelry store, Firestarter, Four stores, Nightclub, Watchdogs, Rats, Bank Heist and Mallcrasher. You need to finish the heist for the statues to register.",
+	menu_pda8_2_prog_obj = "Ache 4 Estátuas de Aniversários.",--Find 4 Anniversary statues.",
+	------
+	menu_pda8_3 = "Alfaiate por Oito Anos",
+	menu_pda8_3_track_obj = "A comunidade gasta $10,000,000,000 aposentando policiais com a Cash Blaster.",--The community spends $10,000,000,000 retiring cops with the Cash Blaster.",
+	menu_pda8_3_desc = "Você tem um encontro marcado com Alfaiate, e ele tem algo especial para você. Mas esse cara é bem Old School, então você tem que provar para ele que você é digno, antes que ele possa lhe-dar o presente com as suas habilidades.",--You've got an appointment with your tailor, and he's got something special for you. But this dude is old-school, so you gotta prove to him that you're worthy, before he'll gift you with his skill. ",
+	menu_pda8_3_prog_obj_desc = "Como uma comunidade todos os assaltantes devem gastar $10,000,000,000 aposentando policiais com a Cash Blaster e você precisa achar 6 estátuas de aniversários de Jewelry Store, Firestarter, Four Stores, Nightclub, Watchdogs, Rats, Bank Heist ou Mallcrasher. Você precisa concluir a Heist para contabilizar.",--As a community all Heisters must spend $10,000,000,000 retiring cops with the Cash Blaster and you need to find 6 different anniversary statues from Jewelry store, Firestarter, Four stores, Nightclub, Watchdogs, Rats, Bank Heist and Mallcrasher. You need to finish the heist for the statues to register.",
+	menu_pda8_3_prog_obj = "Ache 6 Estátuas de Aniversários.",--Find 6 Anniversary statues.",
+	------
+	menu_pda8_4 = "Deixe Entrar na Sua Cabeça",--Let it Go to Your Head",
+	menu_pda8_4_desc = "Todo cupcake celebrativo precisa de uma cereja no topo, e isso inclui os assaltantes. Mas como todo membro de respeito do Payday não iria se esforçar para uma simples cereja, certo? Precisa de algo especial... até mesmo se estiver pegando fogo, bicho!",--"Every celebratory cupcake needs a cherry on top, and that includes heisters. But no self-respecting Payday member would go for just simple cherry, right? It needs something special... maybe even flamin'!",
+	menu_pda8_4_track_obj = "A comunidade gasta $15,000,000,000 aposentando policiais com a Cash Blaster.",--The community spends $15,000,000,000 retiring cops with the Cash Blaster.",
+	menu_pda8_item_1_desc = "Como uma comunidade todos os assaltantes devem gastar $15,000,000,000 aposentando policiais com a Cash Blaster e você precisa achar 8 estátuas de aniversários de Jewelry Store, Firestarter, Four Stores, Nightclub, Watchdogs, Rats, Bank Heist ou Mallcrasher. Você precisa concluir a Heist para contabilizar.",--As a community all Heisters must spend $15,000,000,000 retiring cops with the Cash Blaster and you need to find all 8 different anniversary statues from Jewelry Store, Firestarter, Four Stores, Nightclub, Watchdogs, Rats, Bank Heist and Mallcrasher. You need to finish the heist for the statues to register.
+	menu_pda8_item_1 = "Cofre e Broca, ache em Jewelry Store.",--Safe and Drill, found on the Jewelry store heist.",
+	menu_pda8_item_2 = "Figurino de Almir, ache em Firestarter.",--Almir Figurine, found on the Firestarter heist.",
+	menu_pda8_item_3 = "Van da SWAT, ache em Four Stores.",--SWAT Van, found on the Four Stores heist.",
+	menu_pda8_item_4 = "Escova de Dente, ache em Nightclub.",--Toothbrush, found on the Nightclub heist.",
+	menu_pda8_item_5 = "Medalhão de Brooklyn Bank, ache em Watchdogs.",--Brooklyn Bank Medalion, found on the Watchdogs heist.",
+	menu_pda8_item_6 = "Bebida, ache em Rats.",--Cocktail, found on the Rats heist.",
+	menu_pda8_item_7 = 'Camisa "DEAD GAME", ache em Bank Heist (todas as variações).',--DEAD GAME T-Shirt, found on the Bank Heist heists.",
+	menu_pda8_item_8 = "Figurino de Mariachi, ache em Mallcrasher.",--Mariachi Figurine, found on the Mallcrasher heist.",
 		})
 end)

@@ -5,7 +5,7 @@
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/_gab_foxJaketto_/",
-	"version" : "9.03 - (02 Aug 2021)",
+	"version" : "9.04 - (12 Agosto 2021) Feliz Oitavo Aniversário!",
 	"blt_version" : 2,
 	"updates" : [
 		{ 

@@ -7,6 +7,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	menu_l_global_value_pda8 = "Esse é um item do Oitavo Aniversário do PAYDAY 2!",--This is a PAYDAY 2 8th Anniversary item!",
 	bm_global_value_sdtp_unlock = "Compre a DLC Guardians Tailor Pack para desbloquear.",--Buy the Guardians Tailor Pack DLC to unlock.
 	bm_global_value_solus_clan_unlock = "Entre no grupo do The Solus Project Official na Steam para desbloquear!",
 	bm_global_value_dbd_clan_unlock = "Entre no grupo do Dead by Daylight Official na Steam para desbloquear!",--Join the Dead by Daylight Official Community Group on Steam to unlock!
@@ -31,7 +32,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_l_global_value_preorder = "Esse é um item Loot Bag!",
 	menu_l_global_value_poetry_soundtrack = "Esse é um item do Poetry Jam!",
 	menu_l_global_value_ant = "Esse é um item do Antisphere!",
-	menu_l_global_value_goty_weapon_bundle_2014 = "Esse é um item Weapon Bundle!",
+	menu_l_global_value_goty_weapon_bundle_2014 = "Esse é um item da Weapon Bundle!",
 	menu_l_global_value_goty_heist_bundle_2014 = "Esse é um item da Heist Bundle!",
 	menu_l_global_value_mad = "Esse é um item do Hardcore Henry Heists!",
 	menu_l_global_value_halloween = "Esse é um item do Halloween!",
@@ -131,7 +132,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_l_global_value_svc = "Esse é um item do Cofre Social Raro!",
 	menu_l_global_value_fex = "Esse é um item da Buluc's Mansion!",
 	menu_l_global_value_wcc_s02 = "Esse é um item Leaf Color!",
-	menu_l_global_value_ztm = "ESTE É UM RARO ITEM DE BRINQUEDO ZAG!",
+	menu_l_global_value_ztm = "ESSE É UM RARO ITEM DE BRINQUEDO ZAG!",
 	menu_l_global_value_srtr = "Esse é um item do Saints Row: The Third Remastered!",
 	bm_global_value_complete_overkill_pack_unlock = "Compre o Completely OVERKILL Pack DLC para desbloquear!",
 	bm_global_value_pdcon_2015_unlock = "Requer o PAYDAY 2: PAYDAYCON 2015 Secret Mask para desbloquear!",
@@ -1195,6 +1196,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	hud_int_pick_up_item = "Segure $BTN_INTERACT para pegar o item de aniversário",--Hold [e] to pick up anniversary item",
 	hud_int_place_gas_canister = "Segure $BTN_INTERACT para colocar o gás",--Hold  to place the gas canister
 	hud_int_take_gas_canister = "Segure $BTN_INTERACT para pegar o gás",--Hold  to take the gas canister
 	hud_int_play_tort_tape = "Pressione $BTN_INTERACT para tocar a fita",--Press  to play tape
@@ -5145,7 +5147,7 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	daily_discord_progress = "Heists Completadas",--Heists Completed
 	daily_tasty_progress = "Metanfetaminas feitas",--Meth Cooked
 	daily_grenades_objective = "Mate $max_progress inimigos com granadas.",--Kill $max_progress enemies with grenades.
-	menu_es_daily_complete_desc = "Você completou o seu Desafio Diário!$NLVolte amanhã para um novo desafio.",--You've completed your daily challenge for today!$NLCome back tomorrow for a new challenge.
+	menu_es_daily_complete_desc = "Você completou o seu Desafio Diário!\nVolte amanhã para um novo desafio.",--You've completed your daily challenge for today!$NLCome back tomorrow for a new challenge.
 	daily_heirloom_objective = "Roube todas as partes da armadura na Shadow Raid. Para completar esse desafio, você deverá ter jogado a missão do início ao fim.",--Collect all the armors in Shadow Raid. To complete this daily, you have to have played the job from start to finish.
 	menu_cn_challenge_title = "crime.net/desafios_secundarios/desafios_diarios_semanais_mensais",--crime.net/side_jobs/daily_weekly_monthly_jobs
 	daily_whats_stealth_objective = "Complete a Shadow Raid na dificuldade Death Wish ou superior, com todos os membros da equipe utilizando a Improved Combined Tatical Vest. Para completar este desafio, você deverá ter jogado a missão do início ao fim.",--Complete the Shadow Raid job on the Death Wish difficulty or above, with all team members wearing the Improved Combined Tactical Vest. To complete this challenge, you have to have played the heist from start to finish.
