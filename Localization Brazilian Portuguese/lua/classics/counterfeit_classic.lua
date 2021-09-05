@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "vamostodosimprimirdinheiro", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_pal = "Counterfeit",
-	heist_pal_hl = "Counterfeit",
+	--heist_pal = "Counterfeit",
+	--heist_pal_hl = "Counterfeit",
 	heist_pal_briefing = "Bem-vindo ao estado da luz do dia! Onde as mulheres são troféus de ouro e os homens são os ladrões. Conheça o senhor Mitchell: aparentemente, um treinador de golf em um clube de country de respeito. Mas na verdade, ele é um profissional que lava e imprime dinheiro, um criminoso genial. Mitchell e o seu parceiro do crime, Wilson, conseguiram imprimir milhões enquanto estavam fora do radar. Até agora.",
 	heist_pal_crimenet = "Pessoal, façam as malas. Essa a gente vai pro sul de Mason-Dixie. Nós vamos atrás do Mitchell e Wilson, dois falsificadores de dinheiro em Pensacola. Cuidando de uma operação de baixo do seu porão. É uma operação bem discreta e o trabalho desse cara tá indo bem, está fazendo um banco lá. Vamos pegar um pedaço! \n\n» Encontre o Mitchell\n» Invada o Porão\n» Pegue o Dinheiro Falso e fuja",
 	
@@ -50,7 +50,7 @@ Hooks:Add("LocalizationManagerPostInit", "vamostodosimprimirdinheiro", function(
 	pln_pal_63_01 = "Vocês estão procurando por rolos de papel em branco e tinta. Peguem ambos e alimente-os na impressora.",
 	pln_pal_80_04 = "Boutique de meias longas Papa John, como posso ajudá-lo?",
 	pln_pal_08a_03 = "Boa. Agora coloquem um decodificador na segunda trava.",
-	pln_pal_02_05 = "Mithell está na piscina. Vão se apresentar.",
+	pln_pal_02_05 = "Mitchell está na piscina. Vão se apresentar.",
 	pln_pal_35_03 = "Encontrem a mangueira d'água. Tragam-na para o cofre!",
 	pln_pal_20_03 = "Não deixem eles fugirem!",
 	pln_pal_80_07 = "Aqui é o Museu McKendrick, como posso ajudá-lo?",

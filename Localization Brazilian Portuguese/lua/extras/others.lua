@@ -2295,8 +2295,8 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_ammo_contour = "Contorno de Munição",
 	menu_ammo_contour_help = "Adiciona um contorno nas munições dropadas no chão para melhor visualização.",
 	menu_subtitle_help = "Deixe a Legenda ligada ou desligada.",
-	menu_hit_indicator = "Indicador de Confirmamento de Clique",--Hit confirm indicator
-	menu_hit_indicator_help = "Deixe o Confirmamento de Clique ligado ou desligado.",--Turns the Hit indicator on or off.
+	menu_hit_indicator = "Indicador de Dano",--Hit confirm indicator
+	menu_hit_indicator_help = "Ligue ou desligue o indicador de dano.",--Turns the Hit indicator on or off.
 	menu_objective_reminder = "Lembrete de Objetivo",--Objective reminder message
 	menu_objective_reminder_help = "Deixe o Lembrete de Objetivo ligado ou desligado.",--Turns Objective reminders on or off.
 	menu_color_blind_hit_direction = "Indicador de Dano - Modo para Daltônicos",
@@ -2976,10 +2976,10 @@ Hooks:Add("LocalizationManagerPostInit", "todasasinformacoesprincipais", functio
 	menu_pp_hide_drawboard = "$BTN_Y Ocultar Ferramentas para Desenhar",--$BTN_Y; Hide Drawing tools
 	menu_pp_draw_default = "[CTRL] + [LEFT MOUSE] para desenhar",--[CTRL] + [LEFT MOUSE] to draw
 	menu_pp_draw_hide = "Ocultar $name",--Hide $name;
-	menu_pp_draw_erase = "Limpar o seu Mapa",--Clear your layer
+	menu_pp_draw_erase = "Limpar o seu desenho",--Clear your layer
 	menu_pp_draw_undo = "Desfazer o Último Desenho",--Undo last drawing
 	menu_pp_sub_voting = "Missão Crítica",--Mission Critical
-	menu_pp_sub_place = "Missão Benéfica",--Mission Beneficial
+	menu_pp_sub_place = "Missão Beneficial",--Mission Beneficial
 	menu_pp_cat_vault_plan = "Plano para abrir o Cofre",--Safe Cracking Plan
 	menu_pp_cat_vault_plan_desc = "Lugares alternativos para a Furadeira Térmica ou jeitos de se abrir o Cofre.$NL;$NL;Planos para abrir o Cofre precisa de maioria de votos. Em caso de Empate, o voto do Host será decisivo.",--Alternative locations for the thermal drill or ways to open the vault.$NL;$NL;Safe Cracking Plans need a majority vote. In a deadlock, the host has casting vote.
 	menu_pp_branchbank_lance001 = "Lado Esquerdo",--Left Side
