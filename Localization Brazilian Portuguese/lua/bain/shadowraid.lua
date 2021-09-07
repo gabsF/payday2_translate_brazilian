@@ -1,8 +1,8 @@
 Hooks:Add("LocalizationManagerPostInit", "peguemaarmaduradosamurai", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_kosugi = "Shadow Raid",--Shadow Raid
-	heist_kosugi_hl = "Shadow Raid",--Shadow Raid
+	--heist_kosugi = "Shadow Raid",--Shadow Raid
+	--heist_kosugi_hl = "Shadow Raid",--Shadow Raid
 	heist_kosugi_crimenet = "A Murkywater possui um armazém alfandegado lá no antigo caís. Veja que tipo de merda eles estão devolvendo para o exterior.$NL;$NL;» Invada o Armazém sem ser Detectado.$NL;» Roube qualquer item valioso que você puder encontrar$NL;» Lembre-se: Não há Plano B$NL;» Fuja com todo o Loot",
 	heist_kosugi_briefing = "Esse trabalho será feito em torno da Furtividade. O Gage quer que vocês entrem de forma silenciosa nesse depósito, peguem o que puder e saiam. A parte importante? NÃO disparem o alarme. Se vocês fizerem isso, eu estarei tirando vocês daí.$NL;$NL; Esse armazém é da Murkywater. Seus cartões de visita dizem 'Segurança Privada', quando na verdade eles são apenas um exército particular de mercenários e ladrões. O Armazém está alfandegado, e o Gage suspeita que esteja lotado de coisas enviadas do Iraque, Afeganistão e de qualquer outro lugar que esses bandidos comedores de milho tiveram treinamento.",
 

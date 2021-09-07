@@ -107,6 +107,9 @@ Hooks:Add("LocalizationManagerPostInit", "hoxtonboladaço", function(loc)
 		dr1_hb1_01_01 = "Ta, ta! Tô indo!",
 		
 		-- Legendas (breakout part 2)
+		pln_hb2_14_01 = "Um arsenal! Tá trancado, mas um Cartão de Acesso deve abrir a porta. Deve ter muita munição aí dentro.",--An Armory! It's locked down, but a keycard should get you inside. Should be plenty of ammo in there.",
+		pln_hb2_14_02 = "O arsenal! Tá bem trancado, mas só passar um Cartão de Acesso e deve abrir a porta.",--The Armory! Safely locked up, but spend a keycard and it should open up.",
+		pln_hb2_14_03 = "Um Cartão de Acesso vai abrir a porta do arsenal. Certeza que tem muita munição aí dentro.",--A keycard will get you into the Armory. Sure there must be plenty of ammo inside.",
 		dr1_hb2_03_01 = "Vocês curtiram essas rodas? Entrem!",
 		dr1_hb2_03_02 = "Entrem aí. Nós vamos sair daqui nisso!",
 		dr1_hb2_02_01 = "Vocês acabaram aí? Venham aqui. Consegui um carro novo!",

@@ -1,10 +1,10 @@
 Hooks:Add("LocalizationManagerPostInit", "estaoatacandominhacasacarajo", function(loc)
 	LocalizationManager:add_localized_strings({
 	-- Nomes e Descrições
-	heist_chill_combat = "Safe House Raid",--Safe House Raid
-	heist_chill_combat_hl = "Safe House Raid",--Safe House Raid
+	--heist_chill_combat = "Safe House Raid",--Safe House Raid
+	--heist_chill_combat_hl = "Safe House Raid",--Safe House Raid
 	chill_combat_desc = "A Safe House de vocês está sob ataque! Defenda-a!",--Your Safe House is under attack! Defend it!
-	chill_combat_header = "Safe House Raid",--Safe House Raid
+	--chill_combat_header = "Safe House Raid",--Safe House Raid
 	heist_chill_combat_crimenet = "Os policiais estão vindo para invadir a Safe House. Mas eles não sabem quem está por lá, então vocês terão a vantagem da surpresa. Protejam suas bolsas com dinheiro a todo o custo!$NL;$NL;» Derrote a Invasão da Polícia$NL;» Não deixe os Policiais roubarem a grana",--The cops are coming to raid the Safe House. But they don't know who's there , so you'll have the advantage of surprise. Protect your money bags at all costs!$NL;$NL;»Defeat the police raid.$NL;»Don't let the cops steal your money.
 	heist_chill_combat_hl_briefing = "Os policiais estão vindo para invadir a Safe House. Mas eles não sabem quem está por lá, então vocês terão a vantagem da surpresa. Protejam suas bolsas com dinheiro a todo o custo!$NL;$NL;» Derrote a Invasão da Polícia$NL;» Não deixe os Policiais roubarem a grana",--The cops are coming to raid the Safe House. But they don't know who's there , so you'll have the advantage of surprise. Protect your money bags at all costs!$NL;$NL;»Defeat the police raid.$NL;»Don't let the cops steal your money.
 

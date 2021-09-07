@@ -6,7 +6,7 @@
     </ScriptMods>
 
     <Hooks>
-		<hook source_file="lib/states/menumainstate" file="BrazilianLocFile.lua"/>
+		<!-- <hook source_file="lib/states/menumainstate" file="BrazilianLocFile.lua"/> -->
 		<hook source_file="lib/managers/menumanager" file="BrazilianLocCore.lua"/>
     </Hooks>
 	

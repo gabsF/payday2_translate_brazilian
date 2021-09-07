@@ -1,5 +1,3 @@
---- 9.05 [Correções] ---
-* Corrigido um erro de log
-* Corrigido alguns erros de Tradução e de Escrita
-* Corrigido um bug com uma das descrições das conquistas do Alesso Heist
-* Traduzido mais descrições das conquistas
+--- 9.05 Mk II [Correções] ---
+* Traduzido algumas legendas faltando em Hoxton Breakout dia 2
+* Traduzido a descrição faltando em Transport: Underpass
