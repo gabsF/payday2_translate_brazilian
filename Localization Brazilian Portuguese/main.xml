@@ -9,6 +9,112 @@
 		<!-- <hook source_file="lib/states/menumainstate" file="BrazilianLocFile.lua"/> -->
 		<hook source_file="lib/managers/menumanager" file="BrazilianLocCore.lua"/>
     </Hooks>
+
+    <Localization directory="loc">
+      <group language="portuguese">
+
+        <!-- Extras -->
+        <loc file="extras/others.lua"/>
+        <loc file="extras/mutators.lua"/>
+        <loc file="extras/bmarket.lua"/>
+        <loc file="extras/crimespree.lua"/>
+        <loc file="extras/holdout.lua"/>
+        <loc file="extras/modifiers.lua"/>
+        <loc file="extras/perkdecks.lua"/>
+        <loc file="extras/skills.lua"/>
+
+        <!-- Bain Contracts -->
+        <loc file="bain/alesso.lua"/>
+        <loc file="bain/artgallery.lua"/>
+        <loc file="bain/bankheist.lua"/>
+        <loc file="bain/carshop.lua"/>
+        <loc file="bain/cookoff.lua"/>
+        <loc file="bain/diamondjewelry.lua"/>
+        <loc file="bain/escapes.lua"/>
+        <loc file="bain/gobank.lua"/>
+        <loc file="bain/intro.lua"/>
+        <loc file="bain/reservoirdogs.lua"/>
+        <loc file="bain/safehouseraid.lua"/>
+        <loc file="bain/shadowraid.lua"/>
+        <loc file="bain/transport.lua"/>
+        <loc file="bain/tutorials.lua"/>
+
+        <!-- Butcher Contracts -->
+        <loc file="butcher/scarface.lua"/>
+        <loc file="butcher/thebomb_dockyard.lua"/>
+        <loc file="butcher/thebomb_forest.lua"/>
+
+        <!-- Classics Contracts -->
+        <loc file="classics/counterfeit.lua"/>
+        <loc file="classics/diamond.lua"/>
+        <loc file="classics/fwb.lua"/>
+        <loc file="classics/greenbridge.lua"/>
+        <loc file="classics/heatstreet.lua"/>
+        <loc file="classics/nomercy.lua"/>
+        <loc file="classics/panicroom.lua"/>
+        <loc file="classics/slaughterhouse.lua"/>
+        <loc file="classics/undercover.lua"/>
+
+        <!-- Continental Contracts -->
+        <loc file="continental/brooklyn1010.lua"/>
+        <loc file="continental/yatch.lua"/>
+
+        <!-- Dentist Contracts -->
+        <loc file="dentist/bigbank.lua"/>
+        <loc file="dentist/goldengrincassino.lua"/>
+        <loc file="dentist/hotlinemiami.lua"/>
+        <loc file="dentist/hoxtonbrre.lua"/>
+        <loc file="dentist/thediamond.lua"/>
+
+        <!-- Elephant Contracts -->
+        <loc file="elefante/bigoil.lua"/>
+        <loc file="elefante/biker.lua"/>
+        <loc file="elefante/electionday.lua"/>
+        <loc file="elefante/framingframe.lua"/>
+
+        <!-- Events Contracts -->
+        <loc file="events/halloween.lua"/>
+
+        <!-- Hector Contracts -->
+        <loc file="hector/firestarter.lua"/>
+        <loc file="hector/rats.lua"/>
+        <loc file="hector/watchdogs.lua"/>
+
+        <!-- Jimmy Contracts -->
+        <loc file="jimmy/boilingpoint.lua"/>
+        <loc file="jimmy/murkystation.lua"/>
+
+        <!-- Jiu Feng Contracts -->
+        <loc file="jiu_feng/dragonheist.lua"/>
+        <loc file="jiu_feng/sand.lua"/>
+
+        <!-- Locke Contracts -->
+        <loc file="locke/alaskandeal.lua"/>
+        <loc file="locke/beneaththemountain.lua"/>
+        <loc file="locke/birthofsky.lua"/>
+        <loc file="locke/border.lua"/>
+        <loc file="locke/breakinfeds.lua"/>
+        <loc file="locke/brooklynbank.lua"/>
+        <loc file="locke/hellisland.lua"/>
+        <loc file="locke/henry.lua"/>
+        <loc file="locke/shacklethorne.lua"/>
+        <loc file="locke/tijuana.lua"/>
+        <loc file="locke/whitehouse.lua"/>
+
+        <!-- Vlad Contracts -->
+        <loc file="vlad/aftershock.lua"/>
+        <loc file="vlad/buluc.lua"/>
+        <loc file="vlad/goat.lua"/>
+        <loc file="vlad/mallstores.lua"/>
+        <loc file="vlad/meltdown.lua"/>
+        <loc file="vlad/nightclub.lua"/>
+        <loc file="vlad/sanmartin.lua"/>
+        <loc file="vlad/santasworkshop.lua"/>
+        <loc file="vlad/ukrainian.lua"/>
+        <loc file="vlad/whitexmas.lua"/>
+
+      </group>
+    </Localization>
 	
 	<AddFiles file="add_BrazilianLoc.xml"/>
 </mod>

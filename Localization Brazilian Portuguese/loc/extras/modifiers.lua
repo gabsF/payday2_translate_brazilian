@@ -1,0 +1,32 @@
+return {
+	menu_cs_modifier_dozer_minigun = "Quando um Bulldozer spawna, existe uma chance de ser um Bulldozer com uma minigun bem lento.",--Whenever a Bulldozer spawns, there is a chance that it will be a slow-moving minigun-wielding Bulldozer.
+	menu_cs_modifier_medics = "Agora terão dois Médicos no mapa.",--Two additional Medics are allowed into the level.
+	menu_cs_modifier_cloaker_tear_gas = "Cloakers mortos irão soltar uma bomba de gás. O gás terá uma duração de $duration; segundos, cobrindo uma área de $diameter; metros de diâmetro e causa dano de $damage; por segundo para qualquer jogador que estiver dentro.",--Killed Cloakers will instantly drop a tear gas grenade. The tear gas has a duration of $duration; seconds, covers a $diameter; meter diameter area and deals $damage; damage per second to any heister who stands in it.
+	menu_cs_modifier_medic_adrenaline = "Quando um Médico revive um policial, o policial terá um aumento de dano de $damage;%.",--Whenever a Medic revives another cop, the revived cop gets a $damage;% increase to their base damage output.
+	menu_cs_modifier_medic_rage = "Para cada policial que morrer na área de cura do Médico, esse Médico vai ter o seu dano aumentado em $damage;%. Esse efeito é somado indefinidamente.",--For every cop that dies within a Medic's healing range, that Medic sees his base damage output increased by $damage;%. This effect stacks indefinitely.
+	menu_cs_modifier_cloaker_arrest = "Cloakers que chutarem os jogadores com sucesso agora irão prender o jogador ao invés de derrubar ele.",--Cloakers executing a successful charge now cuffs the player instead of downing them.
+	menu_cs_modifier_assault_extender = "Operações da Polícia vão ter uma duração de $duration;% a mais. Isso é reduzido por $deduction;% para cada refém e policial convertido, até máximo de $max_hostages;.",--Police Assaults will have a $duration;% longer duration. This gets reduced by $deduction;% for every hostage and converted cop - up to a maximum of $max_hostages;
+	menu_cs_modifier_dozers = "Agora terão dois Bulldozers no mapa.",--Two additional Bulldozers are allowed into the level.
+	menu_cs_modifier_heavies = "Toda unidade da FBI Swat irão ser substituídos por Heavy SWAT.",--All FBI Swats will be replaced with Heavy Swats.
+	menu_cs_modifier_medic_deathwish = "Quando um Médico é morto, todos policiais que estiverem na sua área de cura serão curados.",--Whenever a Medic is killed, all cops within the Medic's healing range are instantly healed.
+	menu_cs_modifier_shield_phalanx = "Todas as unidades de Shield vão ser substituídas pelas unidades de Shields do Capitão Winters.",--All Shield units in the game are replaced by Captain Winter's Shield units.
+	menu_cs_modifier_pagers = "$count; menos pager(s) podem ser respondidos por missão.",--$count; less pager(s) can be answered per heist.
+	menu_cs_modifier_medic_speed = "O tempo de recarga de cura do Médico é $speed;% mais rápido.",--Medics heal cooldown is $speed;% faster.
+	menu_cs_modifier_dozer_medic = "Quando um Bulldozer spawna, tem uma chance de ser um Bulldozer Médico. Um Bulldozer Médico conta como um Médico e um Bulldozer ao mesmo tempo.",--Whenever a Bulldozer spawns, there is a chance that it will be a Medic Bulldozer. A Medic Bulldozer counts as both a Medic and a Bulldozer.
+	menu_cs_modifier_dozer_rage = "Quando a proteção de rosto do Bulldozer é destruída, o Bulldozer estará em um estado de Berserker, recebendo um grande aumento de dano de $damage;%.",--When a Bulldozer's face plate is destroyed, the Bulldozer enters a berserker rage, receiving a $damage;% increase to their base damage output.
+	menu_cs_modifier_health_damage_total = "(Total: $health;% a mais de vida, $damage;% a mais de dano.)",--(Total: $health;% more health, $damage;% more damage.)
+	menu_cs_modifier_shield_reflect = "Shields vão refletir projéteis.",--Shields will reflect projectiles.
+	menu_cs_modifier_enemy_damage = "Inimigos vão dar $damage% a mais de dano.",
+	menu_cs_modifier_enemy_health = "Inimigos tem $health% a mais de vida.",
+	menu_cs_modifier_enemy_health_damage = "Inimigos tem $health;% a mais de vida e vão dar $damage;% a mais de dano.",--Enemies have an additional $health;% more health and deal an additional $damage;% more damage.
+	menu_cs_modifier_cloaker_smoke = "Cloakers que conseguirem chutar um jogador vão soltar uma bomba de fumaça.",--Cloakers will drop a smokebomb when they kick a player.
+	menu_cs_modifier_heavy_sniper = "Para cada SWAT que spawna, tem uma chance de ser substituído por um Sniper da ZEAL da Heavy SWAT.",--For every Heavy SWAT that spawns, there is a chance that it will be replaced by a ZEAL Heavy SWAT Marksman.
+	menu_cs_modifier_civs = "O alarme será ativado se mais de $count; civis forem mortos.",--The alarm will be sounded if more than $count; civilians are killed.
+	menu_cs_modifier_dozer_lmg = "Skulldozers agora irão spawnar.",--Skulldozers will now spawn.
+	menu_cs_modifier_concealment = "O nível mínimo de Concealment é aumentado em $conceal; em Stealth.",--The minimum concealment level is increased by $conceal; in stealth.
+	menu_cs_modifier_dozer_immune = "Bulldozers são imunes a explosões.",--Bulldozers are immune to explosive damage.
+	menu_cs_modifier_taser_overcharge = "O efeito de atordoamento de choque do Taser agora é $speed;% mais rápido.",--The tasing knockout effect of the Taser now knocks a player out $speed;% faster.
+	menu_cs_modifier_no_hurt = "Inimigos não podem ser atordoados por dano.",--Enemies can not be staggered from damage.
+	menu_cs_modifier_total_generic_value = "(Total: $value;.)",--(Total: $value;.)
+	menu_cs_modifier_total_generic_percent = "(Total: $value;%.)",--(Total: $value;%.)
+		}
