@@ -1123,7 +1123,7 @@ return {
 	hud_action_connect_hose = "Conectando a Mangueira",--Connecting hose
 	hud_action_grabbing_goat = "Pegando a Cabra",--Grabbing the goat
 	hud_action_taking_warhead = "Pegando a Ogiva",--Taking warhead
-	hud_action_rewiring_timelock = "Religando o Time Lock",--Rewiring time lock
+	hud_action_rewiring_timelock = "Religando o Temporizador",--Rewiring time lock
 	hud_action_startig_motor = "Ligando o Motor",--Starting engine
 	hud_action_grabbing_parachute = "Pegando o Paraquedas",--Grabbing parachute
 	hud_action_starting_printer = "Ligando a Impressora",--Starting printer
@@ -1622,7 +1622,7 @@ return {
 	hud_int_cut_glass = "Segure $BTN_INTERACT para cortar o vidro",--Hold $BTN_INTERACT; to cut glass
 	hud_int_cut_wire = "Pressione $BTN_INTERACT para cortar o arame",--Press $BTN_INTERACT; to cut the wire
 	hud_int_crane_release = "Pressione $BTN_INTERACT para liberar o guindaste",--Press $BTN_INTERACT; to release crane
-	hud_int_rewire_timelock = "Segure $BTN_INTERACT para reconectar o Time Lock",--Hold $BTN_INTERACT; to re-wire the time lock
+	hud_int_rewire_timelock = "Segure $BTN_INTERACT para reconectar o Temporizador",--Hold $BTN_INTERACT; to re-wire the time lock
 	hud_int_equipment_huge_lance = "Segure $BTN_INTERACT para usar a Besta",--Hold $BTN_INTERACT; to use the Beast
 	hud_int_hold_aim_laser = "Segure $BTN_INTERACT para mirar o laser",--Hold $BTN_INTERACT; to aim laser
 	hud_int_hold_born_untie = "Segure $BTN_INTERACT para desamarrar",--Hold $BTN_INTERACT; to untie
@@ -1778,7 +1778,7 @@ return {
 	hud_int_equipment_saw_upgrade = "Segure $BTN_INTERACT para melhorar a serra",--Hold $BTN_INTERACT; to upgrade the saw
 	hud_int_hold_bag_sa_armor = "Segure $BTN_INTERACT para ensacar a peça da armadura samurai",--Hold $BTN_INTERACT; to bag a piece of samurai armor
 	hud_int_press_take_chimichanga = "Segure $BTN_INTERACT para pegar o chimichanga",--Hold $BTN_INTERACT; to take the chimichanga
-	hud_int_hack_timelock = "Segure $BTN_INTERACT para forçar o time lock",--Hold $BTN_INTERACT; to force time lock
+	hud_int_hack_timelock = "Segure $BTN_INTERACT para forçar o temporizador",--Hold $BTN_INTERACT; to force time lock
 	hud_int_hold_remove_debris = "Segure $BTN_INTERACT para remover os fragmentos",--Hold $BTN_INTERACT; to remove debris
 	hud_int_hold_phone_office = "Segure $BTN_INTERACT para ligar para o escritório",--Hold $BTN_INTERACT; to call the office
 	hud_int_search_steel_cabinet = "Segure $BTN_INTERACT para procurar no armário de aço",--Hold $BTN_INTERACT; to search steel cabinet

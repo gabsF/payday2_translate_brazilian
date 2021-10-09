@@ -299,7 +299,7 @@ return {
 	bm_menu_barrel_ext_plural = "Ext. de Canos",--Barrel Extensions
 	bm_mod_incompatibility_all = "todos",--all
 	bm_mod_incompatibility_some = "alguns",--some
-	bm_menu_charm = "Chaveirinho",--Charm
+	bm_menu_charm = "Chaveiro",--Charm
 	bm_menu_ammo = "Tipo de Munição",--Ammunition
 	bm_menu_barrel = "Cano",--Barrel
 	bm_menu_barrel_ext = "Ext. de Cano",--Barrel Ext

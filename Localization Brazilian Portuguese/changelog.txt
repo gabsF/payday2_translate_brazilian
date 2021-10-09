@@ -1,7 +1,3 @@
---- 9.06 [Correções] ---
-* Agora o mod usa a função de localização do BeardLib ( Baixe a versão do BeardLib por aqui https://github.com/simon-wh/PAYDAY-2-BeardLib )
-* Melhorado a tradução das Skills e dos Perk Decks ( Recomendo baixar a versão do SuperBLT por aqui https://gitlab.com/znixian/payday2-superblt-lua e extrair os arquivos para dentro da sua pasta "base" )
-* Traduzido os "Chaveiros" das armas
-* Corrigido "macros" de texto que não estavam funcionando
-* Traduzido algumas legendas que estavam faltando em Buluc's Mansion
-* Corrigido algumas traduções em Boiling Point
+--- 9.07 [Correções] ---
+* Corrigido um erro que o Stealing Xmas não estava traduzido
+* Alterado o "Time Lock" das interações para ficar igual com a tradução do The Diamond
