@@ -6,6 +6,8 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	bm_global_value_cctp_unlock = "Compre o Mega City Tailor Pack para desbloquear",--Buy the Mega City Tailor Pack DLC to unlock
+	menu_l_global_value_cctp = "Esse é um item do Mega City Tailor Pack!",--This is a Mega City Tailor Pack item!
 	menu_l_global_value_pda8 = "Esse é um item do Oitavo Aniversário do PAYDAY 2!",--This is a PAYDAY 2 8th Anniversary item!",
 	bm_global_value_sdtp_unlock = "Compre a DLC Guardians Tailor Pack para desbloquear.",--Buy the Guardians Tailor Pack DLC to unlock.
 	bm_global_value_solus_clan_unlock = "Entre no grupo do The Solus Project Official na Steam para desbloquear!",
@@ -133,7 +135,7 @@ return {
 	menu_l_global_value_fex = "Esse é um item da Buluc's Mansion!",
 	menu_l_global_value_wcc_s02 = "Esse é um item Leaf Color!",
 	menu_l_global_value_ztm = "ESSE É UM RARO ITEM DE BRINQUEDO ZAG!",
-	menu_l_global_value_srtr = "Esse é um item do Saints Row: The Third Remastered!",
+	menu_l_global_value_srtr = "Esse é um item do Saints Row: The Third Original / Remastered!",
 	bm_global_value_complete_overkill_pack_unlock = "Compre o Completely OVERKILL Pack DLC para desbloquear!",
 	bm_global_value_pdcon_2015_unlock = "Requer o PAYDAY 2: PAYDAYCON 2015 Secret Mask para desbloquear!",
 	bm_global_value_humble_pack2_unlock = "Requer o PAYDAY 2: Humble Mask Pack 2 para desbloquear!",
@@ -1197,6 +1199,8 @@ return {
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	chca_connect_winch_hook = "Segure $BTN_INTERACT para anexar o guincho",--Hold  to attach the winch cable
+	chca_int_hold_burn_money = "Segure $BTN_INTERACT para queimar o dinheiro",--Hold  to burn the money
 	hud_hold_mark_clues = "Segure $BTN_INTERACT para marcar pistas",--Hold  to mark clues
 	hud_int_pick_up_item = "Segure $BTN_INTERACT para pegar o item de aniversário",--Hold [e] to pick up anniversary item",
 	hud_int_place_gas_canister = "Segure $BTN_INTERACT para colocar o gás",--Hold  to place the gas canister
@@ -1586,7 +1590,7 @@ return {
 	hud_int_vehicle_enter = "Segure $BTN_INTERACT para entrar no veículo",--Hold $BTN_INTERACT; to enter the vehicle
 	hud_int_vehicle_open_trunk = "Segure $BTN_INTERACT para abrir o porta-malas",--Hold $BTN_INTERACT; to open the trunk
 	hud_mil_hold_remove_bug = "Segure $BTN_INTERACT para pegar o dispositivo de gravação",--Hold $BTN_INTERACT; to pick up recording device
-	hud_screw_down = "Segure $BTN_INTERACT para aparafusar o guincho",--Hold $BTN_INTERACT; to screw the winch down
+	hud_screw_down = "Segure $BTN_INTERACT para parafusar o guincho",--Hold $BTN_INTERACT; to screw the winch down
 	hud_take_hook = "Segure $BTN_INTERACT para pegar o gancho",--Hold $BTN_INTERACT; to take the hook
 	hud_int_hold_ignite_money = "Segure $BTN_INTERACT para incendiar o dinheiro",--Hold $BTN_INTERACT; to ignite the money
 	hud_int_access_camera = "Pressione $BTN_INTERACT para ver as câmeras",--Press $BTN_INTERACT; to view the cameras

@@ -45,7 +45,7 @@ return {
 	menu_deck1_1 = "Força Bruta",
 	menu_deck1_1_desc = "Você concede ##$multiperk2;## de redução de dano para o seu grupo. Esse bônus é dobrado quando a sua vida estiver abaixo de ##$multiperk3;##.",--You grant ##$multiperk2;## damage reduction for players in your group. This bonus is doubled for you when you are under ##$multiperk3;## health.
 	menu_deck1_3 = "Homem de Maratona",
-	menu_deck1_3_desc = "O seu vigor e do seu grupo é aumentado por ##$multiperk;##.\n\nAumenta o alcance do seu grito por ##$multiperk2;##\n\nQuando você estiver no alcance de um inimigo, você recebe ##$multiperk3;## menos de dano dos inimigos.\n\nNota: esses valores não somam com os outros jogadores.",--You and your crew's stamina is increased by ##$multiperk;##.\n\nIncreases your shout distance by ##$multiperk2;##.\n\nWhen you are within medium range of an enemy, you receive ##$multiperk3;## less damage from enemies.\n\nNote: Crew perks do not stack.
+	menu_deck1_3_desc = "O seu vigor e do seu grupo é aumentado por ##$multiperk;##.\n\nAumenta o alcance do seu grito por ##$multiperk2;##\n\nQuando você estiver no alcance de um inimigo, você recebe ##8%## menos de dano dos inimigos.\n\nNota: esses valores não somam com os outros jogadores.",--You and your crew's stamina is increased by ##$multiperk;##.\n\nIncreases your shout distance by ##$multiperk2;##.\n\nWhen you are within medium range of an enemy, you receive ##$multiperk3;## less damage from enemies.\n\nNote: Crew perks do not stack.
 	menu_deck1_5 = "Alcateia",
 	menu_deck1_5_desc = "O seu grupo vão ter ##$multiperk;## mais de vida.\n\nVocê vai ganhar ##$multiperk2;## mais de vida.\n\nNota: esses valores não somam com os outros jogadores.",--Your crew will gain ##$multiperk;## more health.\n\nYou will gain ##$multiperk2;## more health.\n\nNote: Crew perks do not stack.
 	menu_deck1_7 = "Testudo",
@@ -141,13 +141,14 @@ return {
 	--menu_st_spec_8 = "Infiltrador",
 	menu_st_spec_8_desc = "O Infiltrator é um agente contratado pelo governo ou por uma organização criminal grande para obter informações dos seus inimigos ou por uma corporação para ter os segredos industriais dos seus concorrentes.\n\nO Infiltrator é focado em combate corpo-a-corpo que usa o ambiente ao redor a seu favor.",
 	menu_deck8_1 = "Pressionado",
-	menu_deck8_1_desc = "Quando você estiver cercado por três inimigos ou mais, você recebe uma redução de ##12%## de dano dos inimigos.\n\nPor segundo e a cada acerto consecutivo com a sua arma de corpo-a-corpo dentro de ##1## segundo do último acerto vai dar ##10## vezes do seu dano normal.",
+	menu_deck8_1_desc = "Quando você estiver cercado por três inimigos ou mais, você recebe uma redução de ##12%## de dano dos inimigos.\n\nPara segundo e a cada acerto consecutivo com a sua arma de corpo-a-corpo dentro de ##1## segundo do último acerto vai dar ##10## vezes do seu dano normal.\n\nNota: Errando o alvo com a arma corpo-a-corpo irá redefinir o bônus de dano. O bônus de dano pode ser ativado quando acertar no seu grupo IA ou nos civis. O bônus não redefine ou é ativado se o inimigo for contra-atacado usando ##Counterstrike##.",
+--Note: Missing a melee strike resets the buff. The buff can be activated by hitting team AI and civilians as well. Effect does not restart, nor become active if an enemy is countered using Counterstrike.
 	menu_deck8_3 = "Combate de Perto Básico",
-	menu_deck8_3_desc = "Quando você estiver em uma distância média de um inimigo, você recebe ##8%## de redução de dano dos seus inimigos.",
+	menu_deck8_3_desc = "Quando você estiver em uma distância de ##18m## de um inimigo, você recebe ##8%## de redução de dano dos seus inimigos.",
 	menu_deck8_5 = "Combate de Perto Avançado",
-	menu_deck8_5_desc = "Quando você estiver em uma distância média de um inimigo, você recebe mais ##8%## de redução de dano dos seus inimigos. \n\nMais ##6## segundos de duração do efeito de ##Pressionado##.",--An additional 6 seconds are added to OVERDOG's duration of the extra damage on melee strike, for a total of 7 seconds before expiring.",
+	menu_deck8_5_desc = "Quando você estiver em uma distância de ##18m## de um inimigo, você recebe mais ##8%## de redução de dano dos seus inimigos. \n\nMais ##6## segundos de duração do efeito de dano de ##Pressionado##.",--An additional 6 seconds are added to OVERDOG's duration of the extra damage on melee strike, for a total of 7 seconds before expiring.",
 	menu_deck8_7 = "Combate de Perto Expert",
-	menu_deck8_7_desc = "Quando você estiver em uma distância média de um inimigo, você recebe mais ##8%## de redução de dano dos seus inimigos.",
+	menu_deck8_7_desc = "Quando você estiver em uma distância de ##18m## de um inimigo, você recebe mais ##8%## de redução de dano dos seus inimigos.",
 	menu_deck8_9 = "Sugando Sangue",
 	menu_deck8_9_desc = "Batendo em um inimigo com a sua arma de corpo-a-corpo irá regenerar ##20%## da sua vida. Isso não pode ocorrer mais de uma vez durante ##10## segundos.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 	
@@ -155,7 +156,7 @@ return {
 	--menu_st_spec_9 = "Sociopath",
 	menu_st_spec_9_desc = "O Sociopath é conhecido por ser um criminoso mais efetivo. Onde ele é mais efetivo, também é difícil de se lidar, tornando assim o motivo no qual grandes grupos evitam ele.\n\nAtrevido, desinibido e perigoso, o Sociopath consegue fazer os serviços mais perigosos. Mal consegue sentir culpa dos crimes em que ele comete.. Ele é um inimigo bem perigoso.",
 	menu_deck9_1 = "No Talk", -- Referências aos nomes de fases do Hotline Miami
-	menu_deck9_1_desc = "Quando você estiver cercado por três inimigos ou mais, você recebe uma redução de ##12%## de dano dos inimigos.\n\nPor segundo e a cada acerto consecutivo com a sua arma de corpo-a-corpo dentro de ##1## segundo do último acerto vai dar ##10## vezes do seu dano normal.",
+	menu_deck9_1_desc = "Quando você estiver cercado por três inimigos ou mais, você recebe uma redução de ##12%## de dano dos inimigos.\n\nPor segundo e a cada acerto consecutivo com a sua arma de corpo-a-corpo dentro de ##1## segundo do último acerto vai dar ##10## vezes do seu dano normal.\n\nNota: Errando o alvo com a arma corpo-a-corpo irá redefinir o bônus de dano. O bônus de dano pode ser ativado quando acertar no seu grupo IA ou nos civis. O bônus não redefine ou é ativado se o inimigo for contra-atacado usando ##Counterstrike##.",
 	menu_deck9_3 = "Tension",
 	menu_deck9_3_desc = "Matando um inimigo irá regenerar ##30## de armadura.\n\nIsso não pode ocorrer mais de uma vez durante ##1## segundo.\n\nVocê ganha mais ##10%## de armadura.",
 	menu_deck9_5 = "Clean Hit",
@@ -247,7 +248,7 @@ return {
 	menu_deck15_7 = "Crescendo Demais",
 	menu_deck15_7_desc = "##50%## da sua vida é convertida em ##120%## de armadura.",
 	menu_deck15_9 = "Luxúria à Vida",
-	menu_deck15_9_desc = "Causando dano irá regenerar ##$multiperk;## de armadura, isso não poderá ocorrer mais de uma vez por ##$multiperk2;## segundos.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##$multiperk3;##.\n\n[ Nota Extra: além do fato estar mencionando ##10##, sempre vai regenerar ##30## de armadura. ]",
+	menu_deck15_9_desc = "Causando dano irá regenerar ##30## de armadura, isso não poderá ocorrer mais de uma vez por ##$multiperk2;## segundos.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##$multiperk3;##.",
 --Dealing damage will grant you ##$multiperk;## armor - this can only occur once every ##$multiperk2;## seconds.\n\nDeck Completion Bonus: Your chance of getting a higher quality item during a Payday is increased by ##$multiperk3;##.
 	
 	-- Biker
@@ -268,7 +269,7 @@ return {
 	--menu_st_spec_17 = "Kingpin",
 	menu_st_spec_17_desc = "O Kingpin é o patrão! um autocrata em que quem estiver ao lado dele deverá obedecer a ele. Mas você tem que ter o dinheiro primeiro. Assim que estiver com o Dinheiro, você terá o poder. Lembre-se disso: a única coisa nesse mundo que dá as ordens... é as bolas.",
 	menu_deck17_1 = "Abram o Caminho para o Cara Mal",
-	menu_deck17_1_desc = "Desbloqueia e equipa o ##Injetor do Kingpin##. Mudando para outro Perk Deck vai deixar o Injetor bloqueado novamente. O Injetor substitui a sua Granada, é equipado no lugar da Granada e pode ser trocada se quiser.\n\nQuando estiver jogando, você pode usar o botão de jogar a granada para ativar o injetor. Ativando o injetor, ele irá te curar ##75%## de todo o dano que você levar por ##6## segundos.\n\nVocê ainda vai levar dano durante o efeito. O Injetor só pode ser usado a cada ##30## segundos. \n\nA cada inimigo que matar irá reduzir o cooldown do injetor por ##1## segundo.",
+	menu_deck17_1_desc = "Desbloqueia e equipa o ##Injetor do Kingpin##. Mudando para outro Perk Deck vai deixar o Injetor bloqueado novamente. O Injetor substitui a sua Granada, é equipado no lugar da Granada e pode ser trocada se quiser.\n\nQuando estiver jogando, você pode usar o botão de jogar a granada para ativar o injetor. Ativando o injetor, ele irá te curar ##75%## de todo o dano que você levar por ##6## segundos.\n\nVocê ainda vai levar dano durante o efeito. O Injetor só pode ser usado a cada ##30## segundos. \n\nA cada inimigo que matar irá reduzir o tempo de espera do injetor por ##1## segundo.",
 	menu_deck17_3 = "Querem Brincar de Porrada?",
 	menu_deck17_3_desc = "Você ganha mais ##10%## de vida.",
 	menu_deck17_5 = "Inimigo Público Número 1",
@@ -310,7 +311,7 @@ return {
 	--menu_st_spec_20 = "Tag Team",
 	menu_st_spec_20_desc = "Alguns dizem que algumas experiências são melhores quando são compartilhados, até mesmo os casos com os cigarros de aerossol! Para aquele assaltante especial que é o seu crush, isso é algo para ter um lindo amor enquanto você rouba cofres de bancos e faça alguns 'negócios'.",
 	menu_deck20_1 = "Almas Gêmeas",
-	menu_deck20_1_desc = "Desbloqueia e equipa o ##Cigarro Eletrônico##.\n\nPara ativar o Cigarro Eletrônico, você precisa olhar para alguém do seu grupo dentro de um raio de ##18## metros sem nada na frente e apertar o botão da granada para marcar ele.\n\nCada inimigo que você ou o aliado que estiver marcado matar irá curar ##15## da sua vida e o aliado marcado irá ter cura de ##7.5## de vida.\n\nCada inimigo que você matar vai extender a duração do efeito por ##1.3## segundos e reduzir o tempo antes de poder usar em 2 segundos.\n\nO efeito vai ter uma duração de cerca de ##2## segundos e tem um tempo antes de poder usar de ##12## segundos.",
+	menu_deck20_1_desc = "Desbloqueia e equipa o ##Cigarro Eletrônico##.\n\nPara ativar o Cigarro Eletrônico, você precisa olhar para alguém do seu grupo dentro de um raio de ##18## metros sem nada na frente e apertar o botão da granada para marcar ele.\n\nCada inimigo que você ou o aliado que estiver marcado matar irá curar ##15## da sua vida e o aliado marcado irá ter cura de ##7.5## de vida.\n\nCada inimigo que você matar vai extender a duração do efeito por ##1.3## segundos e reduzir o tempo antes de poder usar em 2 segundos.\n\nO efeito vai ter uma duração de cerca de ##12## segundos e tem um tempo antes de poder usar de ##60## segundos.",
 	menu_deck20_3 = "Aroma",
 	menu_deck20_3_desc = "A sua vida máxima é aumentada em ##20%##.",
 	menu_deck20_5 = "Sinergia",

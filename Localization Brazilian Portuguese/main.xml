@@ -102,6 +102,7 @@
         <loc file="locke/whitehouse.lua"/>
 
         <!-- Vlad Contracts -->
+        <loc file="vlad/chca.lua"/>
         <loc file="vlad/aftershock.lua"/>
         <loc file="vlad/buluc.lua"/>
         <loc file="vlad/goat.lua"/>

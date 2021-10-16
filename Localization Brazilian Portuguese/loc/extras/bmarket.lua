@@ -198,6 +198,23 @@ return {
 	bm_suit_var_baron_default_desc = "Para o assaltante que prefere celebrar ao amanhecer.",--For the heister who prefers to celebrate when a red sun rises.",
 	bm_suit_poolrepair_desc = "Quando estiver em dúvida, sempre vai como reparador de piscinas. Pode ser uma das coisas mais chatas em muitos filmes clichês por aí e um gerador de ratos imundos, mas pode ser que te leva para lugares. A maioria das pessoas ficam doidas quando não conseguem usar o papel higiênico ou ligar a TV, e os ricos tem que ter as piscinas de última geração. O Cara da Piscina (ou Mina) é geralmente um convidado especial. Também serve chamar de traje prático, com vários bolsos e flexibilidade em espaços apertados. E nesses casos quando você precisa enfiar uma mangueira dentro de um cofre, quem sou eu para argumentar?",--When in doubt, always go the repairman route. It may be the most braindead setup in countless sleazy movies, and a generator of trashy innuendos, but it'll get you in just about anywhere. Most folks will go nuts if they can't use their toilet or TV, and the rich just gotta have their pools in tip-top shape. The Pool Guy (or Gal) is usually a welcome visitor. It's a rather practical outfit too, with plenty of pockets, and flexibility for maneuvering in tight spaces. And in those cases when you need to draw in water to crack a safe, who's going to argue?
 	bm_suit_cable_guy_desc = 'Talvez você quer ser o tipo de pessoa que pensa "alguém tem que matar a babá", ou talvez você só quer entrar na sala sem ninguém notar, para roubar sejá lá o que não estiver dentro de um cofre. Enfim, isso vai te servir.',--Maybe you wanna be the kind of person who thinks "someone has to kill the babysitter", or maybe you just wanna get into the board room unnoticed, to steal whatever isn't locked down. Either way, this ensemble will do you right.
+	bm_suit_cyberhoodie_desc = "Uma alternativa moderna com as blusas com uma vibe eletrônica.",--A modern take on hoodies with an electronica vibe.
+	bm_suit_var_cyberhoodie_mnt_desc = "Um vermelho quente enquanto você hackeia o sistema.",--Burning red hot as you hack the cyberways.
+	bm_suit_var_cyberhoodie_tgr_desc = "Tem nada de especial sobre essa blusa, exceto a cor!",--There's nothing yella' about this hoodie except the color!
+	bm_suit_var_cyberhoodie_vpr_desc = "Para quando precisar vestir uma blusa na floresta mas quer ficar no seu estilo.",--For those times when you need to wear a hoodie in the woods but stay true to your style.
+	bm_suit_var_cyberhoodie_default_desc = "Electrônica e escuridão inter-ligados.",--Electronica and darkness intertwined.
+	bm_suit_cybertrench_desc = "Uma mistura de estilo noir de sobre-tudo com uma vibe tech contemporânea.",--Mixing the noir-style of a trenchcoat with a contemporary tech vibe.
+	bm_suit_var_cybertrench_default_desc = "Trazendo um visual moderno com uma TV Old School.",--Bridging the modern look with an old-school TV
+	bm_suit_var_cybertrench_vpr_desc = "Faz um anúncio ácido.",--Make an acid statement.
+	bm_suit_var_cybertrench_tgr_desc = "É que nem uma linha de pixels dourada no meio da tela preta.",--Like a golden line of pixels in the middle of a black screen.
+	bm_suit_var_cybertrench_mnt_desc = "Mantenha as bordas pegando fogo.",--Keep the edges on fire.
+	bm_suit_mar21_thug_desc = "Tem que admitir. O pessoal da triáde tem alguma tara de fazer os velhos clichés de gangster parecerem legais de novo, sem tirar o conforto que você precisa enquanto estiver algumas atividades não tão suspeitas que um gangster faz. Eles até fazem sem nenhum esforço. Isso não é algo que você vai precisar em um filme de kung fu de 1970. Não, xispa daqui. Corte moderno, tecidos de cair o queixo, a beleza.",
+--Gotta hand it to 'em. Some of those triad guys have a knack for turning a tired-old cliché of a gangster-getup and making it cool again, without taking away the comfort you need while doing all those unscrupulous activities that a gangster does. And they do it without even really trying. This isn't something you're gonna see in a bad 1970s Kung Fu movie. No, siree. Modern cut, space-age fabrics, the works.
+	bm_suit_mar21_thug_default_desc = "A criança chata e rica fica enchendo o saco da mamãe e do papai só pra deixarem ele irem vestido desse jeito na partida de futebol da escola.",
+--You just know the rich kids beg mommy and daddy to get this for them to wear to the high school football game.
+	bm_suit_jun21_thug_black_desc = "Sombrio com um brilho de cor, como o sol passando nas nuvens.",--Somber with a spark of color, like the sun cutting through a cloudy sky.
+	bm_suit_oct21_thug_red_desc = "Alguns sugeriam que os braços vermelhos desse traje iriam distrair o pé dos inimigos. É uma ideia, mas não vale a pena botar fé nisso!",
+--Some have suggested the red arms on this suit will distract your enemies from what your feet are doing. It's a novel idea, but maybe not worth trusting implicitly!
 	
 	-- LUVAS
 	bm_gloves_default_desc = "Use as Luvas padrão dos Heisters",--Use the heisters default gloves
@@ -323,6 +340,8 @@ return {
 	bm_menu_btn_remove_weapon_cosmetic = "Remover Skin",--Remove skin
 	bm_menu_item_unlocked = "Disponível",--Available
 	bm_menu_btn_buy_mod = "Comprar com Moedas Continentais",
+	bm_w_rpg7_desc = "NÃO É POSSÍVEL PEGAR MUNIÇÃO DO CHÃO PARA ESSA ARMA.",--Ammo pickups are disabled for this weapon.
+	bm_w_saw_desc = "NÃO É POSSÍVEL PEGAR MUNIÇÃO DO CHÃO PARA ESSA ARMA.",--Ammo pickups are disabled for this weapon.
 	bm_wp_upg_a_custom_desc = "Grandes projéteis com muito mais poder de impacto.",--Bigger pellets with more impact.
 	bm_wp_upg_a_explosive_desc = "Dispara um projétil explosivo que mata ou atordoa os alvos. Esse tipo de munição é raro de se encontrar.",--Fires one explosive charge that kills or stuns targets. This ammo type is harder to find.
 	bm_wp_upg_a_piercing_desc = "Perfuração de armadura de longo alcance.",--Long range armor piercing.

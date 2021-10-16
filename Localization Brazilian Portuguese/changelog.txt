@@ -1,3 +1,4 @@
---- 9.07 [Correções] ---
-* Corrigido um erro que o Stealing Xmas não estava traduzido
-* Alterado o "Time Lock" das interações para ficar igual com a tradução do The Diamond
+--- 10.00 [Gato Preto] ---
+* Traduzido Black Cat (Matheussiome)
+* Traduzido as descrições do Mega City Tailor Pack
+* Traduzido as descrições do Dragon Bomber que estavam faltando
