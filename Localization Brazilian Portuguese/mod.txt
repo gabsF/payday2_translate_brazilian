@@ -5,7 +5,7 @@
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/_gab_foxJaketto_/",
-	"version" : "10.00 - (16 Outubro 2021) Gato Preto",
+	"version" : "10.01 - (20 Outubro 2021) Décimo Aniversário da Franquia",
 	"blt_version" : 2,
 	"updates" : [
 		{ 

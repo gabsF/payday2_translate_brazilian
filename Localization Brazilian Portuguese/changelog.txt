@@ -1,4 +1,3 @@
---- 10.00 [Gato Preto] ---
-* Traduzido Black Cat (Matheussiome)
-* Traduzido as descrições do Mega City Tailor Pack
-* Traduzido as descrições do Dragon Bomber que estavam faltando
+--- 10.01 [Décimo Aniversário da Franquia] ---
+* Traduzido o conteúdo novo do Décimo Aniversário da Franquia
+* Traduzido o Pre-Planning do Black Cat que estava faltando

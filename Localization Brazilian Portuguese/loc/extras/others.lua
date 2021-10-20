@@ -6,6 +6,8 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	--bm_global_value_a10th_unlock = "",--???
+	menu_l_global_value_a10th = "Esse é um item do Décimo Aniversário da Franquia PAYDAY!",--This is a PAYDAY Franchise 10th Anniversary Item!
 	bm_global_value_cctp_unlock = "Compre o Mega City Tailor Pack para desbloquear",--Buy the Mega City Tailor Pack DLC to unlock
 	menu_l_global_value_cctp = "Esse é um item do Mega City Tailor Pack!",--This is a Mega City Tailor Pack item!
 	menu_l_global_value_pda8 = "Esse é um item do Oitavo Aniversário do PAYDAY 2!",--This is a PAYDAY 2 8th Anniversary item!",
@@ -2025,6 +2027,8 @@ return {
 	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
 	
 	-- Menu Principal
+	menu_crimenet_event_help = "Jogue um modo de jogo único onde matar unidades especiais vão surgir balões!",--Play a unique game mode where killing special units spawns balloons!
+	menu_crimenet_event = "Jogar Evento",--Play Event
 	menu_spendable_skill_points = "Pontos de Skills restantes: $points",
 	menu_visit_community = "Comunidade",
 	menu_visit_community_help = "Entre na comunidade Steam",
@@ -3293,6 +3297,29 @@ return {
 	menu_pp_fex_stealth_semi_open_garage_door_001 = "Garagem",
 	menu_pp_fex_bpr_loc_a = "Térreo",
 	menu_pp_fex_bpr_loc_b = "Andar Superior",
+	menu_pp_chca_keycard = "Cartão de Acesso",--Keycard
+	menu_pp_chca_spiked_drink = "Bebida Estragada",--Spiked drink
+	menu_pp_chca_unlocked_doors = "Portas Destrancadas",--Unlocked doors
+	menu_pp_asset_chca_keycard_desc = "O contato do Jiu Feng vai deixar um cartão de acesso nos equipamentos.",--Jiu Feng's inside man will leave a keycard in the equipment stash.
+	menu_pp_asset_chca_keycard = "Cartão de Acesso",--Keycard
+	menu_pp_asset_chca_spiked_drink_desc = "A bebida do Li Deng vai estar estragada, o vômito não vai ser bonito.",--Li Deng's drink has been spiked with a puking agent.
+	menu_pp_asset_chca_spiked_drink = "Bebida Estragada",--Spiked drink
+	menu_pp_asset_chca_unlocked_doors_desc = "Todas as portas que levam e que tem no convés vão estar abertas pelo o contato do Jiu Feng.",--All doors to and on the Crew Deck will be left unlocked by Jiu Feng's inside man.
+	menu_pp_asset_chca_unlocked_doors = "Portas Destrancadas",--Unlocked Doors
+	menu_pp_chca_spycam_001 = "Cassino",--Casino
+	menu_pp_chca_spycam_002 = "Área Esquerda do Quarto",--Cabin area left
+	menu_pp_chca_spycam_003 = "Área Direita do Quarto",--Cabin area right
+	menu_pp_chca_spycam_004 = "Spa",--Spa
+	menu_pp_chca_camera_access_001 = "Convés",--Crew Deck
+	menu_pp_chca_camera_access_002 = "Área do Banheiro",--Cabin area bathroom
+	menu_pp_chca_deaddrop_001 = "Cassino",--Casino
+	menu_pp_chca_deaddrop_002 = "Área de Botes Salva-Vidas",--Lifeboat balcony
+	menu_pp_chca_deaddrop_003 = "Corredor",--Hall
+	menu_pp_chca_deaddrop_004 = "Bar do Pátio",--Courtyard bar
+	menu_pp_chca_deaddrop_005 = "Salão das Escadas",--Staircase lobby balcony
+	menu_pp_chca_deaddrop_006 = "Banheiro de Spa",--Spa bathroom
+	menu_pp_chca_deaddrop_007 = "Bar do Heliporto",--Helipad deck bar
+	menu_pp_chca_deaddrop_008 = "Convés",--Crew deck
 	menu_asset_location = "Localização da Posse",--Asset Location
 	menu_pp_asset_fex_stealth_semi_open_garage_door = "Porta Semi-Aberta da Garagem (Stealth)",
 	menu_pp_asset_fex_stealth_semi_open_garage_door_desc = "Um amigo facilitará sua entrada na Mansão.",

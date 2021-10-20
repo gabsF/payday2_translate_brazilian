@@ -65,4 +65,19 @@ return {
 	menu_mutators_lobby_wait_desc = "Por favor espere enquanto verificamos se todo mundo quer jogar com as Mutações...",--Please wait while we check that everyone wants to play with mutators...
 	menu_mutators_lobby_wait_title = "Mutações Ativas",
 	cn_menu_contract_mutators_header = "MUTAÇÕES:",--MUTATORS:
-		}
+	menu_cn_mutators_active = "Mutações Ativas",--Active Mutators
+
+	-- Décimo Aniversário
+	mutator_birthday = "Evento de Aniversário",--Anniversary Event
+	menu_events_lobby_wait_title = "EVENTO ESTÁ ATIVO",--EVENT IS ACTIVE
+	menu_event_a10th_info = "INFO. DO EVENTO",--EVENT INFO
+	dialog_a10th_event_text = "Quando matar unidades especiais vão surgir balões que você pode atirar para conseguir Buffs para sua equipe, que seria um bônus direto ou temporário, depende da unidade que for morto. Algumas unidades fazem surgir balões mais frequentes do que os outros. Alguns Buffs podem ser ativos ao mesmo tempo.",
+	--Killing special units will spawn balloons which you can shoot to give the entire team a buff, that will be either a direct bonus or timed, depending on which unit is killed. Some units spawn balloons more frequently than others. Several buffs can be active at the same time.
+	dialog_a10th_event_title = "Evento de Décimo Aniversário",--10th Anniversary Event
+	hud_buff_birthday_ammo_refresh = "Recuperação de Munição",--Ammo Refresh
+	hud_buff_birthday_regenerate_armor = "Recuperação de Armadura",--Armor Recovery
+	hud_buff_birthday_recover_health = "Recuperação de Vida",--Health Recovery
+	hud_buff_birthday_god_mode = "Invencível",--God Mode
+	hud_buff_birthday_inf_ammo = "Munição Infinita",--Infinite Ammo
+	hud_buff_birthday_2x_damage = "Dano em Dobro",--2X Damage
+}
