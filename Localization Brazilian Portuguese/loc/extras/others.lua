@@ -1,4 +1,10 @@
 return {
+	-- Texto "Legal"
+	--legal_text = "",--
+
+	-- Tentativa de mudar o sinal de dolar para o real brasileiro (não funcionou)
+	-- cash_sign = "R$",--$
+
 	-- Telas de Loading
 	savefile_progress_description = "Estatísticas do Jogador e Progressão de Jogo",--Player statistics and game progression.
 	savefile_saving = "Salvando...",
@@ -6,6 +12,7 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	menu_l_global_value_trik = "Esse é um item de Dia Das Bruxas 2021!",--This is a Halloween 2021 Item!
 	--bm_global_value_a10th_unlock = "",--???
 	menu_l_global_value_a10th = "Esse é um item do Décimo Aniversário da Franquia PAYDAY!",--This is a PAYDAY Franchise 10th Anniversary Item!
 	bm_global_value_cctp_unlock = "Compre o Mega City Tailor Pack para desbloquear",--Buy the Mega City Tailor Pack DLC to unlock
@@ -2062,6 +2069,8 @@ return {
 	menu_cn_quickplay_desc = "Entre em um lobby baseado nas suas preferências que podem ser mudadas nas opções",
 	menu_cash = "Dinheiro: $money",
 	-- Opções
+	--menu_sbz_account_help = "",--
+	menu_sbz_account = "Criar Conta Starbreeze",--Create Starbreeze Account
 	menu_controls = "Controles",
 	menu_controls_help = "Mude as suas preferências de controles",
 	dialog_key_binding_forbidden = 'A telca "$KEY" está reservado pelo jogo, por favor tente outra tecla.',--Key "$KEY;" is reserved by the game, please try something else.

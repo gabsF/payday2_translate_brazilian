@@ -215,7 +215,43 @@ return {
 	bm_suit_jun21_thug_black_desc = "Sombrio com um brilho de cor, como o sol passando nas nuvens.",--Somber with a spark of color, like the sun cutting through a cloudy sky.
 	bm_suit_oct21_thug_red_desc = "Alguns sugeriam que os braços vermelhos desse traje iriam distrair o pé dos inimigos. É uma ideia, mas não vale a pena botar fé nisso!",
 --Some have suggested the red arms on this suit will distract your enemies from what your feet are doing. It's a novel idea, but maybe not worth trusting implicitly!
-	
+	bm_suit_classyske_desc = "Ah, sim. É aquele tempo do ano de novo, amigos, quando quando todo mundo se veste em fantasias malucas, eles queriam fazer isso o ano inteiro! Mas nós assaltantes não ligam para isso, né? Nós vestimos o que quiser e quando quiser. Mas, ei, tem nada de errado em entrar no espiríto do Dia das Bruxas, remexe o esqueleto.\n\nCriado por Luke Millanta.",
+--[[Oh, yeah. It's that time of year again folks, when all the normies get to dress up in the crazy getups they wish they could wear all year 'round! But us heisters don't care about that, right? We put on whatever we want, whenever we want. But hey, there's nothin' wrong with getting into the spirit of the season, but doin' it in boney style.
+
+	Created by Luke Millanta.]]
+	bm_suit_var_classyske_default_desc = "Ah, sim. É aquele tempo do ano de novo, amigos, quando quando todo mundo se veste em fantasias malucas, eles queriam fazer isso o ano inteiro! Mas nós assaltantes não ligam para isso, né? Nós vestimos o que quiser e quando quiser. Mas, ei, tem nada de errado em entrar no espiríto do Dia das Bruxas, remexe o esqueleto.\n\nCriado por Luke Millanta.",
+--[[Oh, yeah. It's that time of year again folks, when all the normies get to dress up in the crazy getups they wish they could wear all year 'round! But us heisters don't care about that, right? We put on whatever we want, whenever we want. But hey, there's nothin' wrong with getting into the spirit of the season, but doin' it in boney style.
+
+	Created by Luke Millanta.]]
+	bm_suit_var_classyske_red_desc = "Tá querendo viver em uma fábrica de pesadelo o ano inteiro? Beleza, vá em frente. Para todos os assaltantes que não consegue ficar limpo de sangue, esse traje vai servir em você. Só toma cuidado com vampiros e touros!\n\nCriado por Luke Millanta.",
+--[[Feel like you wanna live in the nightmare factory all year? Well, go right ahead. For those heisters out there that just can't seem to stay clear of blood-spatter, this getup will do ya right. Just watch out for Vampires and bulls!
+
+	Created by Luke Millanta.]]
+	bm_suit_var_classyske_cream_desc = "Torta de mirtilo e um toque de creme branco é uma alternativa interessante de torta de abóbora, é todo Outubro. Então, se esse é o seu estilo, então vá em frente e remexe o seu esqueleto com esse estilo.\n\nCriado por Luke Millanta.",
+--[[Blueberry pie and a touch of vanilla cream is a fine alternative to pumpkin pie, come every October. So if that's your cuppa, go ahead and get your boney thing on with this ensemble.
+
+	Created by Luke Millanta.]]
+	bm_suit_clown_desc_2 = "Dez anos de golpes. Dez. Anos. Isso é um belo de sequência de crimes. A gente não iria ficar por mais 10 dez. Né?\n\nConceito por Angusburgers.",
+--[[Ten years of heisting. Ten. Years. That's one hell of a crime spree. We wouldn't bet against another ten. Would you?
+
+	Concept by Angusburgers.]]
+	bm_suit_var_clown_2_white_desc = 'Se Wolf teria vivido nessa vida, ele iria encher esse traje com lá direto das terras da Suécia. Mas devido ao clima da D.C. e outros locais de golpes não ia ficar tão prático. Ainda, se ele fizesse isso, ele iria ter que mudar o seu apelido para "O Palhaço Puto da Vida" e isso não soa tão estiloso, né?\n\nConceito por Angusburgers.',
+--[[If Wolf had his way, he would line the insides of this suit with wool from his native Sweden. But alas, the weather in DC and most other heisting locales would make it rather impracical. Still, if he did, he might have to change its name to "The Itching Clown" and that doesn't sound very stylish, does it?
+
+	Concept by Angusburgers.]]
+	bm_suit_var_clown_2_yellow_desc = "Uns roubos casuais nas ruais, uns anos atrás, de Sheffield para Londres, Hoxton sempre queria fazer altos roubos. Depois de dez anos com a Gangue Payday (não contando aquele que ele estava atrás das barras), a estrela desse palhaço ainda cresce e com estilo.\n\nConceito por Angusburgers.",
+--[[From his early years, pulling jobs in dingy back-alley streets, from Sheffield to London, Hoxton was always meant for greater things. After ten years with the Payday gang (not counting that little spell behind bars), this clown's star is still rising, and this is his suit.
+
+	Concept by Angusburgers.]]
+	bm_suit_var_clown_2_default_desc = "Um tempo atrás quando ele conheceu Bain, Quando Dallas estava se escondendo e ajudado Chains a criar um estande de tiro, ele nunca imaginou ser o assaltante de sucesso ainda respirando. Mas ele forçou, não deixou as suas cores fugirem, e ainda tá forte. Esse traje pode parecer bobo, mas qualquer assaltante palhaço pode vestir isso com orgulho.\n\nConceito por Angusburgers.",
+--[[Back before he met Bain, when Dallas was in hiding and he helped Chains run a firing range, he didn't ever imagine being the most successful heister alive. But he pushed on, didn't let his colors run, and is still going strong. This suit may be regarded as silly by some, but any heisting clown can wear it with pride.
+
+	Concept by Angusburgers.]]
+	bm_suit_var_clown_2_orange_desc = "Especialista em armas, tagarela, poeta, Chains é muitas coisas. Se Dallas é o cérebro da Gangue Payday, Chains é o coração. Veste esse traje com amor enquanto você celebra decênio de golpes!\n\nConceito por Angusburgers.",
+--[[Weapons expert, smooth-talkin', wise-crackin' poet, Chains is a great many things. If Dallas is the brain of the Payday gang, Chains is the heart. Wear this suit with love as you celebrate a decennium of heisting!
+
+	Concept by Angusburgers.]]
+
 	-- LUVAS
 	bm_gloves_default_desc = "Use as Luvas padrão dos Heisters",--Use the heisters default gloves
 	bm_gloves_heistwrinkled_desc = "Vestido para roubar.",--Dressed up for stealing.

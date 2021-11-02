@@ -9,7 +9,7 @@ return {
     jfe_sand_intro1b_01 = "Me manda mais uma dessas frases que você acha que sabe.",--Hit me with another one of those phrases you think you know.
     loc_sand_intro1b_01 = "Nós temos tempo pra isso?",--Do we really have time for this?
     jfe_sand_intro1b_02 = "Bom, não é que vai fazer essa van ir mais lenta, me ajuda a concentrar um pouco, né?",--Well, not like it's going to make this van go any slower! It helps me concentrate, right?
-    loc_sand_intro1b_02 = "Tá, lá vem... Wuh duh ma huh tah duh fong kwong duh wai shung!",--Right, here goes... Wuh duh ma huh tah duh fong kwong duh wai shung!
+    loc_sand_intro1b_02 = "Tá, lá vem... (Em Chinês: Santa grande mãe e os seus netos retardados!).",--Right, here goes... Wuh duh ma huh tah duh fong kwong duh wai shung!
     jfe_sand_intro1b_03 = "Ainda Mandarim, cara. Fez menos sentindo do que o último.",--Still Mandarin, Chief. Made even less sense than the last one.
     loc_sand_intro1b_03 = "Ah, sérião?",--Aw, for sure?
     jfe_sand_intro1b_04 = "Sim. hã... Quem foi o idiota que te ensinou isso?",--Yeah. Uuh... What moron taught you these?

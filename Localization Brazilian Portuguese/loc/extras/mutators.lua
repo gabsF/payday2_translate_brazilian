@@ -68,6 +68,7 @@ return {
 	menu_cn_mutators_active = "Mutações Ativas",--Active Mutators
 
 	-- Décimo Aniversário
+	cn_menu_contract_events_header = "EVENTOS:",--EVENTS:
 	mutator_birthday = "Evento de Aniversário",--Anniversary Event
 	menu_events_lobby_wait_title = "EVENTO ESTÁ ATIVO",--EVENT IS ACTIVE
 	menu_event_a10th_info = "INFO. DO EVENTO",--EVENT INFO
