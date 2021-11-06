@@ -2,7 +2,7 @@ return {
     --heist_sand_hl = "The Ukrainian Prisoner",
     --heist_sand = "The Ukrainian Prisoner",
     heist_sand_crimenet = "Eu tenho algo pra vocês, né? O meu velho chefe, Yufu Wang tá atrás de vocês e a tríade sequestraram o seu associado, Vlad Kozak. Eles vão torturar ele para abrir o bico e revelar a sua localização. Eles chamaram um dos profissionais para cuidar da interrogação, um filho da puta chamado Xun Kang, frio como um gelo, o cara que anda gerenciando os negócios naquele lado do lago. Eles prenderam o seu amigo dentro de um container nas docas do São Francisco. Vocês tem sorte que eu tenho um contato lá, né?\n\n» Infiltre nas docas\n» Resgate Vlad e fuja",--I've got something for you, right? My old boss Yufu Wang is coming after you and the triad has grabbed your associate, Vlad Kozak. Going to force your location out of him. They've brought back one of their top guys from Hong Kong to handle the interrogation, a piece of shit named Xun Kang, ruthless motherfucker, who has been running things on that side of the pond. They've got your man inside a shipping container in the San Francisco docklands. You're lucky I have a man inside, right?\n\n» Infiltrate the docklands\n» Find Vlad and escape
-    heist_sand_briefing = "Beleza, idiotas, precisamos fazer isso rápido. A lealdade do Vlad para nós tá indo bem longe e se eles torturarem demais, vai deixar a gente numa situação de merda. Nós recebemos muita informações pelo contato do Jiu Feng nas docas. O lugar é cheio de segurança, que nós podemos usar para nossa vantagem. Assim que acharem Vlad, o nosso contato irá nos ajudar a tirar ele daqui. Jiu Feng vai te tirar pessoalmente com um barco. Depois disso, esse Ucraniano desgraçado vai estar nós devendo, com certeza!",--Ok you chops, we have to move quickly. Vlad's loyalty to us will only go so far, and if they break him it will leave us in a kakspul of trouble. Jiu Feng's insider at the docklands facility gave us a lot of intel. The place is set up for major surveillance, which we can use to our advantage. Once you find Vlad, our insider will help you move him. Jiu Feng has volunteered to get you out personally by boat. After we do this, that dwankie Ukranian will owe us one, for sure!
+    heist_sand_briefing = "Beleza, idiotas, precisamos fazer isso rápido. A lealdade do Vlad para nós tá indo bem longe e se eles torturarem demais, vai deixar a gente numa situação de merda. Nós recebemos muitas informações pelo contato do Jiu Feng nas docas. O lugar é cheio de segurança, que nós podemos usar para nossa vantagem. Assim que acharem Vlad, o nosso contato irá nos ajudar a tirar ele daqui. Jiu Feng vai te tirar pessoalmente com um barco. Depois disso, esse Ucraniano desgraçado vai estar nós devendo, com certeza!",--Ok you chops, we have to move quickly. Vlad's loyalty to us will only go so far, and if they break him it will leave us in a kakspul of trouble. Jiu Feng's insider at the docklands facility gave us a lot of intel. The place is set up for major surveillance, which we can use to our advantage. Once you find Vlad, our insider will help you move him. Jiu Feng has volunteered to get you out personally by boat. After we do this, that dwankie Ukranian will owe us one, for sure!
 
     -- Introduções
     loc_sand_intro1a_01 = "Tá, tá, tenho mais uma.",--OK, ok I've got another one.
@@ -30,7 +30,7 @@ return {
     jfe_sand_intro2a_03 = "Não, seu idiota.",--No, you fool.
     loc_sand_intro2a_04 = "Sérião, o que significa?",--Seriously, what does it mean?
     jfe_sand_intro2a_04 = "Deixa pra lá, chefe.",--Never mind, chief.
-    --loc_sand_intro1a_01 = "",--OK, ok I've got another one.
+    --loc_sand_intro1a_01 = "Tá, tá, tenho mais um",--OK, ok I've got another one.
     jfe_sand_intro1a_01 = "A gente tem tempo pra isso?",--Do we really have time for this?
     loc_sand_intro1a_02 = "Relaxa, a van não vai ir mais rápido! Me ajuda a concentrar, sabe?",--No worries, the van doesn't go any faster! Helps me concentrate, yeah?
     jfe_sand_intro1a_02 = "Tá, manda, chefe. EI, CUIDADO!",--Alright, go ahead Chief. HEY, watch it!!
@@ -281,13 +281,13 @@ return {
     loc_sand_32_02 = "Vamos lá amigos, tirem Vlad daquela parede.",
     loc_sand_32_03 = "O que estão fazendo? Ajudem Vlad sair daquela repressão!",
     loc_sand_33_01 = "Ele vai precisar de atenção médica antes de mover ele. Deve ter algum produto médico para manter ele vivo por todo aquele dano. Vejam se conseguem achar algo.",
-    loc_sand_33_02 = "Não precisa der um doutor pra saber que ele vai precisar de uma empurrada para estabilizá-lo. Lugares como esse são geralmente bem equipados com medicamentos. Vejam se podem achar um kid de primeiros socorros com uma adrenalina.",
-    loc_sand_33_03 = "Vlad precisa ser estabilizado antes de vocês poderem mover ele. Procurem em volta por algum kid médico e dêem a ele uma picada de atrenalina se possível.",
+    loc_sand_33_02 = "Não precisa ser um doutor pra saber que ele vai precisar de uma empurrada para estabilizá-lo. Lugares como esse são geralmente bem equipados com medicamentos. Vejam se podem achar um kit de primeiros socorros com uma adrenalina.",
+    loc_sand_33_03 = "Vlad precisa ser estabilizado antes de vocês poderem mover ele. Procurem em volta por algum kid médico e dêem a ele uma picada de adrenalina se possível.",
     loc_sand_34_01 = "Sem tempo a perder, Encontrem medicamentos pro Vlad. Rápido, amigos!",
     loc_sand_34_02 = "Encontrem um medicamento para Vlad!",
     loc_sand_34_03 = "Vlad Precisa da adrenalina!",
-    loc_sand_36_01 = "OK, Ele parece meio tonto , mas temos que arriscar a mover ele. O contato do Jiu Feng está esperando lá fora com um carregador de skid. Escorte o Vlad até ele, chop-chop.",
-    loc_sand_36_02 = "Not too bad. He can be safely moved a little bit. Our inside guy has a skid loader waiting. Get Vlad to it and put him in the scoop.",
+    loc_sand_36_01 = "OK, Ele parece meio tonto , mas temos que arriscar a mover ele. O contato do Jiu Feng está esperando lá fora com um carregador de skid. Escolte o Vlad até ele, bora.",
+    loc_sand_36_02 = "Nada mal. Ele pode se mover com segurança um pouco. O nosso contato tem um carregador de skid esperando no lado de fora. Levem Vlad e coloquem ele dentro do balde.",--Not too bad. He can be safely moved a little bit. Our inside guy has a skid loader waiting. Get Vlad to it and put him in the scoop.",
     loc_sand_36_03 = "Isso basta. Tem um carregador de skid próxima sendo dirigido pelo homem de Jiu Feng. Ajude Vlad a entrar no balde.",
     loc_sand_37_01 = "Levem Vlad até o carregador de skid.",
     loc_sand_37_02 = "Vlad está estável suficiente para caminhar, então levem ele para o carregador.",
@@ -397,12 +397,12 @@ return {
     loc_sand_75_02 = "Nossa intel ta correta, ele ta em um contêiner. ",
     loc_sand_75_03 = "Ai... certo. Ele está sendo mantido em um contêiner.",
     loc_sand_76_01 = "Abra a porta da sala de controle e procure por um manifesto de envio. Podemos combinar a companhia do contêiner com o depósito que está sendo guardado.",
-    loc_sand_76_02 = "Vocês devem conseguir achar documentações de entrega na sala de controle. Usem-a para achar qual depósito Vlad está.",
+    loc_sand_76_02 = "Vocês devem conseguir achar os documentos de entrega na sala de controle. Usem-a para achar qual depósito Vlad está.",
     loc_sand_76_03 = "Precisamos achar qual depósito aquele contêiner está. Encontre o manifesto da companhia na sala de controle e combine com os contêineres.",
     loc_sand_77_01 = "Acessem a sala de controle.",
     loc_sand_77_02 = "Vocês precisam hackear a porta da sala de controle.",
     loc_sand_77_03 = "Já estão abrindo aquela porta?",
-    loc_sand_78_01 = "Agora achem a documentação da companhia. Com isso, vocês vão poder achar o contêiner que guarda Vlad.",
+    loc_sand_78_01 = "Agora achem os documentos da companhia. Com isso, vocês vão poder achar o contêiner que guarda Vlad.",
     loc_sand_78_02 = "Vejam se podem achar os documentos certos da companhia oara ajudar a localizar o contêiner.",
     loc_sand_78_03 = "Comece a procurar por documentos para combinar a companhia e o contêiner.",
     loc_sand_79_01 = "Comece o hack para encontrarmos o manifesto de entregas.",
@@ -497,13 +497,13 @@ return {
     hud_heist_sand14 = "Tire Vlad de suas correntes.",
     hud_heist_sand15_hl = "Dê a Vlad uma injeção de adrenalina",
     hud_heist_sand15 = "Localize um kit de primeiros socorros com alguma adrenalina dentro e use no Vlad.",
-    hud_heist_sand16_hl = "Escorte Vlad",
-    hud_heist_sand16 = "Escorte Vlad até o carregador de skid lá fora.",
+    hud_heist_sand16_hl = "Escolte Vlad",
+    hud_heist_sand16 = "Escolte Vlad até o carregador de skid lá fora.",
     hud_heist_sand17_hl = "Juntem-se no portão de segurança",
     hud_heist_sand17 = "Vocês precisam se juntar no portão de segurança antes de prosseguir.",
-    hud_heist_sand18_hl = "Escorte o carregador de skid",
-    hud_heist_sand18 = "Escorte Vlad e o carregador de skid até o fim das docas.",
-    hud_heist_sand19_hl = "Roube a documentação da tríade",
+    hud_heist_sand18_hl = "Escolte o carregador de skid",
+    hud_heist_sand18 = "Escolte Vlad e o carregador de skid até o fim das docas.",
+    hud_heist_sand19_hl = "Roube os documentos da tríade",
     hud_heist_sand19 = "Infiltre-se no escritório e roube documentos contendo informação das negociações da tríade.",
     hud_heist_sand20_hl = "Mova o contêiner",
     hud_heist_sand20 = "Tire o contêiner do caminho para o carregador de skid continuar se movendo.",

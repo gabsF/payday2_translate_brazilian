@@ -1,3 +1,2 @@
---- 10.02 [Correções] ---
-* Traduzido mais coisas do Dia das Bruxas e do Décimo Aniversário
-* Alterado o signo do dolar para real brasileiro (sim, eu mudei isso Kappa)
+--- 10.03 [Correções] ---
+* Correção: Legendas, interações, objetivos e o Briefing em Ukrainian Prisoner

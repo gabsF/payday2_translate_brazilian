@@ -836,6 +836,8 @@ return {
 	hud_equipment_wire = "Cabos",
 	hud_action_pickup_keychain_forklift = "Chaves da Empilhadeira",--Forklift keys
 	hud_equipment_defibrillator_paddles = "Pás de Desfibrilador",--Defibrillator paddles
+	hud_equipment_adrenaline = "Adrenalina",--Adrenaline
+	hud_equipment_documents = "Documentos",--Documents
 	
 	-- Outros Interagindo
 	hud_opening_cas_briefcase = "Abrindo a Maleta",--Opening the briefcase
@@ -1208,6 +1210,12 @@ return {
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	hud_int_insert_usb = "Segure $BTN_INTERACT para inserir o Pen Drive",--Hold  to insert the usb
+	hud_int_place_documents = "Segure $BTN_INTERACT para colocar os documentos",--Hold  to place the documents
+	hud_int_search_for_documents = "Segure $BTN_INTERACT para procurar nos documentos",--Hold  to search through documents
+	hud_int_take_adrenaline = "Pressione $BTN_INTERACT para pegar a adrenalina",--Press  to take the adrenaline
+	hud_int_use_adrenaline = "Segure $BTN_INTERACT para aplicar a adrenalina",--Hold  to use the adrenaline
+	hud_int_take_usb = "Pressione $BTN_INTERACT para pegar o Pen Drive",--Press  to take the usb
 	chca_connect_winch_hook = "Segure $BTN_INTERACT para anexar o guincho",--Hold  to attach the winch cable
 	chca_int_hold_burn_money = "Segure $BTN_INTERACT para queimar o dinheiro",--Hold  to burn the money
 	hud_hold_mark_clues = "Segure $BTN_INTERACT para marcar pistas",--Hold  to mark clues
@@ -1701,7 +1709,7 @@ return {
 	hold_interact_charge_gun = "Segure $BTN_INTERACT para começar a carregar o laser",--Hold $BTN_INTERACT; to start charging the laser
 	hud_int_press_fire_laser = "Pressione $BTN_INTERACT para atirar o laser",--Press $BTN_INTERACT; to fire laser
 	hud_int_hold_search_documents = "Segure $BTN_INTERACT para procurar nos documentos",--Hold $BTN_INTERACT; to search documents
-	hud_int_hold_insert_usb = "Segure $BTN_INTERACT para inserir o pen drive",--Hold $BTN_INTERACT; to insert the usb
+	hud_int_hold_insert_usb = "Segure $BTN_INTERACT para inserir o Pen Drive",--Hold $BTN_INTERACT; to insert the usb
 	hud_int_hold_remove_painting = "Segure $BTN_INTERACT para remover o quadro",--Hold $BTN_INTERACT; to remove painting
 	hud_int_hold_search_books = "Segure $BTN_INTERACT para procurar",--Hold $BTN_INTERACT; to search
 	hud_int_hold_start_hack = "Segure $BTN_INTERACT para começar o hackeamento",--Hold $BTN_INTERACT; to start hacking
