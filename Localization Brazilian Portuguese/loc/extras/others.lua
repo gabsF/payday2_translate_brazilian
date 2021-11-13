@@ -1210,6 +1210,16 @@ return {
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	hud_int_open_safe = "Segure $BTN_INTERACT para abrir o cofre",--Hold  to open the safe
+	hud_equipment_need_keychain = "Requer Chave do Cofre",--Safe key required
+	hud_int_use_handprint = "Segure $BTN_INTERACT para usar a mão protética",--Hold  to use the prosthetic hand
+	hud_int_hold_take_hand = "Segure $BTN_INTERACT para pegar a mão protética",--Hold  to take prosthetic hand
+	hud_int_take_business_card = "Segure $BTN_INTERACT para pegar a carta de negócios",--Hold  to pick up business card
+	hud_int_passenger_manifest = "Segure $BTN_INTERACT para exibir a lista de convidados",--Hold  to display the passenger manifest
+	hud_int_hold_place_bug = "Segure $BTN_INTERACT para plantar a escuta",--Hold  to plant the bug
+	hud_int_hit_gong = "(NÃO) Pressione $BTN_INTERACT para bater no gongo",--(Don't) press  to hit the gong
+	hud_int_lower_painting = "Segure $BTN_INTERACT para mover a pintura",--Hold  to move the painting
+	hud_int_ink_money = "Segure $BTN_INTERACT para plantar a bomba de tinta",--Hold  plant the ink bomb
 	hud_int_insert_usb = "Segure $BTN_INTERACT para inserir o Pen Drive",--Hold  to insert the usb
 	hud_int_place_documents = "Segure $BTN_INTERACT para colocar os documentos",--Hold  to place the documents
 	hud_int_search_for_documents = "Segure $BTN_INTERACT para procurar nos documentos",--Hold  to search through documents
@@ -2498,6 +2508,12 @@ return {
 	hud_cam_access_camera_crojob2_dock_3B = "Carregando Doca 3B",--Loading Dock 3B
 	hud_cam_access_camera_crojob2_ship_control_room_right = "Sala de Controle do Navio - Direita",--Ship Control Room - Right
 	menu_preplanning_enter = "Clique para Entrar",--Enter Preplanning
+	menu_pp_asset_chca_entry_as_crew = "Entrar do convés (Stealth)",--Entrance from the crew deck (Stealth)
+	menu_pp_asset_chca_entry_as_guest = "Entrar como convidado (Stealth)",--Entrance as a guest (Stealth)
+	menu_pp_asset_chca_entry_helicopter = "Entrada de Helicóptero (Loud)",--Helicopter drop (Loud)
+	menu_pp_asset_chca_entry_as_crew_desc = "Um associado consegue arranjar uma entrada para você no convés.",--An associate managed to sneak you in into the crew quarters.
+	menu_pp_asset_chca_entry_as_guest_desc = "Um associado arranjou uns convites VIP. Dá um tapa no seu estilo!",--An associate provided you with VIP invitations. Put on your best suit!
+	menu_pp_asset_chca_entry_helicopter_desc = "Entre no iate metendo bala que nem um retardado!",--Storm the cruise ship guns blazing!
 	menu_pp_chas_tram_001 = "Rua",--Street
 	menu_pp_chas_ilija_the_sniper_001 = "Rua",--Street
 	menu_pp_chas_garbage_truck_001 = "Beco",--Back Alley

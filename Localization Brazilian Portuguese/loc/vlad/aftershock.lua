@@ -169,4 +169,4 @@ return {
 	hud_escape_jolly_mission8 = "Com toda essa destruição, vamos precisar de uma evacuação da cidade.",--With all of the destruction, we will need an evac out of the city.
 	hud_escape_jolly_mission3 = "Um helicóptero vai soltar o C4 que vamos precisar para derrubar o muro.",--A helicopter will drop off the C4 needed to breach the construction site wall.
 	hud_escape_jolly_mission7 = "Nós vamos precisar de um caminhão que pode servir de transporte para os cofres. Joguem os cofres aí atrás.",--We can use the truck for transporting the safes. Toss the safes in the back.	
-		}
+	}

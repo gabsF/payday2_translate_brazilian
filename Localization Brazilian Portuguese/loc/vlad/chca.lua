@@ -2,16 +2,16 @@ return {
     --heist_chca_hl = "",--Black Cat
     --heist_chca
     heist_chca_briefing = 'Vamos ter que ajudar Vlad ter sua vingança e fazer um bocado de dinheiro limpando o Black Cat logo que ele entrar em águas internacionais. Jiu Feng tem um infiltrado ajudando a gente e sabemos que Xun Kang, e outro boboca chamado Li Deng estão liderando essa operação. Eles vão ter as chaves para abrir o cofre. Mantenham a operação firme, porque a guarda costeira vai encher o navio de policiais antes que possam falar "Olha, um texugo nadando!", então sem brincadeiras, ta?',
---[[ We're going to help Vlad get some payback and make a kakspul of cash doing it by cleaning out the Black Cat as soon as it enters international waters. Jiu Feng has an insider helping us and we've learned that Xun Kang, and another dwankie named Li Deng are running the operation. They will have the keys to opening the vault. Keep a tight operation, because the coast guard will fill the ship with kerels before you can say "Look, a blerrie swimming badger!", so no messing around, yeah?
-]]
+--[[ We're going to help Vlad get some payback and make a kakspul of cash doing it by cleaning out the Black Cat as soon as it enters international waters. Jiu Feng has an insider helping us and we've learned that Xun Kang, and another dwankie named Li Deng are running the operation. They will have the keys to opening the vault. Keep a tight operation, because the coast guard will fill the ship with kerels before you can say "Look, a blerrie swimming badger!", so no messing around, yeah?]]
+
     heist_chca_crimenet = "Meus amigos, tá na hora de se vingar daqueles filhas da puta da tríade. Com ajuda de Jiu Feng, eu descobri que a tríade está mantendo a maioria de seu dinheiro em um cofre de casino em seu navio cruzeiro, O Black Cat. O fodido que me torturou está até comandando o lugar! Vamos fazer aqueles chupa-massas sentir come se estivessem no Titanic, e limpa-los! Parece bom?\n\n» Embarque no Black Cat\n» Obtenha a informação, código e a digital para o cofre\n» Encontre e abra o cofre\n» Assegure o espólio e fuja",
 --[[ My Friends, it's time to get back at those Golden Toothpick motherfuckers. With the help of Jiu Feng, I found out that The triad is keeping most of it's money in a casino vault on their cruise ship, The Black Cat. The fucker that tortured me is even running the place! Let's make those noodle-suckers feel like they are on the Titanic, and clean them out! Sound good?
 
     » Board the Black Cat
     » Obtain the insider info, code and the handprint for the vault
     » Locate and open the vault
-    » Secure the loot and Escape
-]]
+    » Secure the loot and Escape]]
+
     -- Intros
     loc_chca_intro_01_01 = "Então, você se lembra do Hajrudin, o meu cunhado?",--So, you remember Hajrudin, my brother-in law?
     loc_chca_intro_01_02 = "Um pouco, o que tem ele?",--Vaguely. What about him?
@@ -37,7 +37,7 @@ return {
     loc_chca_intro_04_05 = "Eu espero. Eu realmente espero, porra. Ninguém coloca Vlad numa situação de merda e sai vivo. O mundo precisa saber! Vlad aqui tem uma reputação pra representar, sabe.",--I hope so. I really fucking hope so. No one puts Vlad through that shit and lives. The world has to know! Vlad has a reputation to uphold, you know.
     loc_chca_intro_05_01 = "Então, Vlad... sabe falar Chinês?",--So, Vlad.... do you know any Chinese?
     loc_chca_intro_05_02 = "Sei porra nenhuma.",--Not a fucking word.
-    loc_chca_intro_05_03 = "O que você acha que isso significa? Meio que aplica pro cara do Wang, (Em Chinês: Sapo transante filha da puta.).",--What do you think this means? It kind of applies to that Wang-guy, Ching-wah TSAO duh liou mahnge
+    loc_chca_intro_05_03 = "O que você acha que isso significa? Meio que aplica pro cara do Wang, Ching-wah TSAO duh liou mahnge.",--What do you think this means? It kind of applies to that Wang-guy, Ching-wah TSAO duh liou mahnge
     loc_chca_intro_05_04 = "Seja lá o que isso for, eu acho que você falou tudo errado. Parecia Hajrudin bêbado depois de ter bebido duas garrafas de rum uma vez.",--Whatever that was, I don't think you said it right. Sounded like Hajrudin after he drank two bottles of rum that one time.
     loc_chca_intro_05_05 = "Foi o que Jiu Feng disse.",--That's pretty much what Jiu Feng said.
     loc_chca_intro_05_06 = "Ué, ele conhece o meu cunhado?",--What, he knows my brother-in-law?
@@ -69,7 +69,7 @@ return {
     loc_chca_intro_loud_04_05 = "Eu espero. Eu realmente espero, porra. Ninguém coloca Vlad numa situação de merda e sai vivo. O mundo precisa saber! Vlad aqui tem uma reputação pra representar, sabe.",--I hope so. I really fucking hope so. No one puts Vlad through that shit and lives. The world has to know! Vlad has a reputation to uphold, you know.
     loc_chca_intro_loud_05_01 = "Então, Vlad... sabe falar Chinês?",--So, Vlad.... do you know any Chinese?
     loc_chca_intro_loud_05_02 = "Sei porra nenhuma.",--Not a fucking word.
-    loc_chca_intro_loud_05_03 = "O que você acha que isso significa? Meio que aplica pro cara do Wang, (Em Chinês: Sapo transante filha da puta.).",--What do you think this means? It kind of applies to that Wang-guy, Ching-wah TSAO duh liou mahnge
+    loc_chca_intro_loud_05_03 = "O que você acha que isso significa? Meio que aplica pro cara do Wang, Ching-wah TSAO duh liou mahnge.",--What do you think this means? It kind of applies to that Wang-guy, Ching-wah TSAO duh liou mahnge
     loc_chca_intro_loud_05_04 = "Seja lá o que isso for, eu acho que você falou tudo errado. Parecia Hajrudin bêbado depois de ter bebido duas garrafas de rum uma vez.",--Whatever that was, I don't think you said it right. Sounded like Hajrudin after he drank two bottles of rum that one time.
     loc_chca_intro_loud_05_05 = "Foi o que Jiu Feng disse.",--That's pretty much what Jiu Feng said.
     loc_chca_intro_loud_05_06 = "Ué, ele conhece o meu cunhado?",--What, he knows my brother-in-law?

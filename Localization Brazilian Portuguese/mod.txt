@@ -5,7 +5,7 @@
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/_gab_foxJaketto_/",
-	"version" : "10.03 - (6 Novembro 2021) Correções",
+	"version" : "10.04 - (13 Novembro 2021) Correções",
 	"blt_version" : 2,
 	"updates" : [
 		{ 
@@ -14,7 +14,6 @@
 		}
 	]
 	"hooks" : [
-		{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "loc/scripts/cash_sign_brl.lua" },
 		{ "hook_id" : "lib/units/props/timergui", "script_path" : "loc/scripts/TimerGui.lua" },
 		{ "hook_id" : "lib/utils/LevelLoadingScreenGuiScript", "script_path" : "loc/scripts/LevelLoadingScreenGuiScript.lua" },
 		{ "hook_id" : "lib/utils/lightloadingscreenguiscript", "script_path" : "loc/scripts/lightloadingscreenguiscript.lua" },
