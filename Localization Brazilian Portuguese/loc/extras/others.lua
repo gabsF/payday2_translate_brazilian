@@ -2508,7 +2508,7 @@ return {
 	hud_cam_access_camera_crojob2_dock_3B = "Carregando Doca 3B",--Loading Dock 3B
 	hud_cam_access_camera_crojob2_ship_control_room_right = "Sala de Controle do Navio - Direita",--Ship Control Room - Right
 	menu_preplanning_enter = "Clique para Entrar",--Enter Preplanning
-	menu_pp_asset_chca_entry_as_crew = "Entrar do convés (Stealth)",--Entrance from the crew deck (Stealth)
+	menu_pp_asset_chca_entry_as_crew = "Entrar no convés (Stealth)",--Entrance from the crew deck (Stealth)
 	menu_pp_asset_chca_entry_as_guest = "Entrar como convidado (Stealth)",--Entrance as a guest (Stealth)
 	menu_pp_asset_chca_entry_helicopter = "Entrada de Helicóptero (Loud)",--Helicopter drop (Loud)
 	menu_pp_asset_chca_entry_as_crew_desc = "Um associado consegue arranjar uma entrada para você no convés.",--An associate managed to sneak you in into the crew quarters.

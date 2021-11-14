@@ -1,5 +1,3 @@
-10.04 [Correções]
-* Traduzido mais interações
-* Traduzido uma parte do pre-planning que tava faltando no Black Cat
-* Corrigido várias partes da tradução do Ukrainian Prisoner
-* Alterado a moeda do dinheiro para Dólar Americano (acabou a brincadeira Kappa)
+10.04 MK II [Correções]
+* Corrigido um erro de tradução da descrição da Ukrainian Prisoner
+* Corrigido um erro de tradução em uma das entradas do Pre-Planning do Black Cat
