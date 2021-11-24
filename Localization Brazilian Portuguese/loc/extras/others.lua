@@ -50,9 +50,10 @@ return {
 	menu_l_global_value_gage_pack_jobs = "Esse é um item do Gage Mod Courier!",
 	menu_l_global_value_chico = "Esse é um item do Scarface Character Pack!",
 	menu_l_global_value_friend = "Esse é um item do Scarface Heist Pack!",
-	menu_l_global_value_infamous = "Esse é um item de Infamous",
-	menu_l_global_value_inf = "Esse é um item de Infamous",
+	menu_l_global_value_infamous = "Esse é um item de Infamous!",
+	menu_l_global_value_inf = "Esse é um item de Infamous!",
 	menu_l_infamous = "Esse é um item de Infamous!",
+	menu_l_global_value_in33 = "Esse é um item de Infamous!",--CARALHO, OVERKILL, POR QUE NÃO RE-USA A STRING VELHA?!
 	menu_l_global_value_in32 = "Esse é um item de Infamous!",
 	menu_l_global_value_in31 = "Esse é um item de Infamous!",
 	menu_infamy_lock_info = "Esse é um item de Recompensa pela Infamy!",
@@ -145,6 +146,7 @@ return {
 	menu_l_global_value_wcc_s02 = "Esse é um item Leaf Color!",
 	menu_l_global_value_ztm = "ESSE É UM RARO ITEM DE BRINQUEDO ZAG!",
 	menu_l_global_value_srtr = "Esse é um item do Saints Row: The Third Original / Remastered!",
+	menu_l_global_value_sbzac2 = "Esse é um item da Conta Starbreeze!",--This is a Starbreeze Account Item!
 	bm_global_value_complete_overkill_pack_unlock = "Compre o Completely OVERKILL Pack DLC para desbloquear!",
 	bm_global_value_pdcon_2015_unlock = "Requer o PAYDAY 2: PAYDAYCON 2015 Secret Mask para desbloquear!",
 	bm_global_value_humble_pack2_unlock = "Requer o PAYDAY 2: Humble Mask Pack 2 para desbloquear!",
@@ -771,7 +773,7 @@ return {
 	hud_equipment_usb_key = "Pen Drive",--USB stick
 	hud_carry_master_server = "Servidor Principal",--Master server
 	hud_carry_turret = "Parte da Turret",--Turret part
-	hud_equipment_thermite_paste = "Pasta Thermite",--Thermite paste
+	hud_equipment_thermite_paste = "Pasta Térmite",--Thermite paste
 	debug_equipment_crowbar = "PÉ DE CABRA",--CROWBAR
 	hud_int_equipment_c_keys = "Chaves do Carro",--Car Keys
 	hud_int_equipment_plates = "Placas de Impressão",--Printing plates
@@ -842,7 +844,7 @@ return {
 	-- Outros Interagindo
 	hud_opening_cas_briefcase = "Abrindo a Maleta",--Opening the briefcase
 	hud_action_opening_slash_closing_sec_box = "Abrindo/Fechando a caixa de segurança",
-	hud_action_ignite_thermite_paste = "Acendendo a Thermite",--Igniting thermite paste
+	hud_action_ignite_thermite_paste = "Acendendo a Térmite",--Igniting thermite paste
 	hud_action_taking_briefcase = "Pegando a Pasta",--Taking briefcase
 	hud_action_open_slash_close = "Abrindo/Fechando",
 	hud_action_fixing_bfd_drill = "Consertando a BFD", --Furadeira Grande pra Caralho
@@ -873,7 +875,7 @@ return {
 	hud_action_grabbing_lance = "Pegando a Furadeira Térmica",
 	hud_action_fixing_lance = "Consertando a Furadeira Térmica",
 	hud_action_methlab_caustic_cooler = "Adicionando Soda Cáustica",--Adding caustic soda
-	hud_action_ignite_thermite = "Acendendo a Thermite",--Igniting the thermite
+	hud_action_ignite_thermite = "Acendendo a Térmite",--Igniting the thermite
 	hud_action_hack_barrier = "Hackeando a Barreira de Segurança",--Hacking the security barrier
 	hud_action_signaling_driver = "Avisando o Motorista",--Signaling driver
 	hud_action_moving_car = "Movendo o Carro",--Moving the car
@@ -1005,7 +1007,7 @@ return {
 	hud_action_turning_on_power = "Ligando a Energia",--Turning on the Power
 	hud_action_searching_files = "Procurando os Arquivos",--Searching files
 	hud_action_disabling_lasers = "Desabilitando os Lasers",--Disabling the lasers
-	hud_action_assemble_thermite = "Montando a Thermite",--Assembling thermite rig
+	hud_action_assemble_thermite = "Montando a Térmite",--Assembling thermite rig
 	hud_action_start_bomb_charge = "Carregando a Bomba",--Charging bomb
 	hud_action_searching_cigar_boxes = "Procurando as Caixas de Charuto",--Searching the cigar boxes
 	hud_action_calling_captain = "Chamando o Capitão",--Calling captain
@@ -1504,10 +1506,10 @@ return {
 	hud_int_hold_open_slash_close_sec_box = "Segure $BTN_INTERACT para abrir/fechar a caixa de segurança",--Hold $BTN_INTERACT; to open/close security box
 	hud_int_rewire_box = "Segure $BTN_INTERACT para religar",--Hold $BTN_INTERACT; to rewire
 	hud_int_hold_rewire_fuse_box = "Segure $BTN_INTERACT para religar a barreira de segurança",--Hold $BTN_INTERACT; to rewire the security barrier
-	hud_int_hold_ignite_thermite_paste = "Segure $BTN_INTERACT para acender a Thermite",--Hold $BTN_INTERACT; to ignite the thermite paste
+	hud_int_hold_ignite_thermite_paste = "Segure $BTN_INTERACT para acender a térmite",--Hold $BTN_INTERACT; to ignite the thermite paste
 	hud_int_take_supplies = "Pressione $BTN_INTERACT para pegar os suprimentos médicos",--Press $BTN_INTERACT; to take medical supplies
-	hud_int_take_thermite = "Segure $BTN_INTERACT para pegar a Thermite",--Hold $BTN_INTERACT; to take the thermite
-	hud_int_take_thermite_paste = "Pressione $BTN_INTERACT para pegar a Pasta de Thermite",--Press $BTN_INTERACT; to take the thermite paste
+	hud_int_take_thermite = "Segure $BTN_INTERACT para pegar a térmite",--Hold $BTN_INTERACT; to take the thermite
+	hud_int_take_thermite_paste = "Pressione $BTN_INTERACT para pegar a Pasta de Térmite",--Press $BTN_INTERACT; to take the thermite paste
 	hud_int_hold_remove_ladder = "Segure $BTN_INTERACT para remover a escada",--Hold $BTN_INTERACT; to remove the ladder
 	hud_int_hold_take_painting = "Segure $BTN_INTERACT para pegar a pintura",--Hold $BTN_INTERACT; to take the painting
 	hud_int_hold_grab_the_painting = "Segure $BTN_INTERACT para pegar a pintura",--Hold $BTN_INTERACT; to grab the painting
@@ -1855,7 +1857,7 @@ return {
 	hud_int_barrier_numpad = "Pressione $BTN_INTERACT para abrir a barreira",--Press $BTN_INTERACT; to open bandit barrier
 	hud_int_break_open = "Pressione $BTN_INTERACT para arrombar",--Press $BTN_INTERACT; to break open
 	hud_int_hold_analyze_evidence = "Segure $BTN_INTERACT para analisar a evidência",--Hold $BTN_INTERACT; to analyze evidence
-	hud_int_hold_assemble_thermite = "Segure $BTN_INTERACT para montar o equipamento de thermite",--Hold $BTN_INTERACT; to assemble thermite rig
+	hud_int_hold_assemble_thermite = "Segure $BTN_INTERACT para montar o equipamento de térmite",--Hold $BTN_INTERACT; to assemble thermite rig
 	hud_int_hold_bypass_firewall = "Segure $BTN_INTERACT para ignorar o firewall",--Hold $BTN_INTERACT; to bypass firewall
 	hud_int_hold_call_captain = "Segure $BTN_INTERACT para chamar o capitão",--Hold $BTN_INTERACT; to call the captain
 	hud_int_hold_disable_alarm = "Seguure $BTN_INTERACT para desabilitar o alarme",--Hold $BTN_INTERACT; to disable the alarm
@@ -1866,7 +1868,7 @@ return {
 	hud_int_hold_place_breaching_detonator_rearm = "Segure $BTN_INTERACT para rearmar o detonador",--Hold $BTN_INTERACT; to re-arm breaching detonator
 	hud_int_hold_place_liquid_nitrogen = "Segure $BTN_INTERACT para colocar o Nitrogênio Líquido",--Hold $BTN_INTERACT; to place liquid nitrogen
 	hud_int_hold_poison_bottle = "Segure $BTN_INTERACT para adulterar a garrafa",--Hold $BTN_INTERACT; to spike the bottle
-	debug_interact_thermite = "Segure $BTN_INTERACT para colocar a Thermite",--Hold $BTN_INTERACT; to place the Thermite
+	debug_interact_thermite = "Segure $BTN_INTERACT para colocar a térmite",--Hold $BTN_INTERACT; to place the Thermite
 	hud_int_hold_remove_parts = "Segure $BTN_INTERACT para mover as partes",--Hold $BTN_INTERACT; to move the parts
 	hud_int_hold_search_computer = "Segure $BTN_INTERACT para procurar no banco de dados",--Hold $BTN_INTERACT; to search the database
 	hud_int_methlab_drying_meth = "Segure $BTN_INTERACT para adicionar a metanfetamina líquida",--Hold $BTN_INTERACT; to add the liquid meth
@@ -1917,7 +1919,7 @@ return {
 	debug_interact_open_trunk = "Segure $BTN_INTERACT para abrir o porta-malas",--Hold $BTN_INTERACT; to Open Trunk
 	debug_interact_key = "Pressione $BTN_INTERACT para usar o Cartão de Acesso",--Press $BTN_INTERACT; to use the Keycard
 	debug_interact_key_PS3 = "Pressione $BTN_INTERACT para usar o Cartão de Acesso",--Press $BTN_INTERACT; to use the Keycard
-	debug_interact_thermite_PS3 = "Segure $BTN_INTERACT para colocar a Thermite",--Hold $BTN_INTERACT; to place the Thermite
+	debug_interact_thermite_PS3 = "Segure $BTN_INTERACT para colocar a térmite",--Hold $BTN_INTERACT; to place the Thermite
 	press_insert_keycard = "Pressione $BTN_INTERACT para inserir o Cartão de Acesso",--Press $BTN_INTERACT; to insert keycard
 	hud_hack_ship_control = "Segure $BTN_INTERACT para hackear o terminal de controle do navio",--Hold $BTN_INTERACT; to hack the ship control terminal
 	hud_int_armory_hack = "Segure $BTN_INTERACT para colocar o dispositivo de hackeamento",--
@@ -2089,6 +2091,10 @@ return {
 	-- Opções
 	--menu_sbz_account_help = "",--
 	menu_sbz_account = "Criar Conta Starbreeze",--Create Starbreeze Account
+	menu_no_sbz_account = "Vincular Conta Starbreeze",--Link Starbreeze Account
+	menu_no_sbz_account_help = "Vincule a sua conta Steam com a sua conta Starbreeze.",--Link your Steam account to your Starbreeze Account.
+	menu_has_sbz_account_help = "Veja a sua Conta Starbreeze.",--Check out your Starbreeze Account
+	menu_has_sbz_account = "Checar a sua Conta Starbreeze",--Go to your Starbreeze Account
 	menu_controls = "Controles",
 	menu_controls_help = "Mude as suas preferências de controles",
 	dialog_key_binding_forbidden = 'A telca "$KEY" está reservado pelo jogo, por favor tente outra tecla.',--Key "$KEY;" is reserved by the game, please try something else.
@@ -2645,7 +2651,7 @@ return {
 	menu_pp_asset_crojob3_better_pilot_desc = "O piloto do helicóptero que irá transportar a água necessária para abrir o cofre irá chegar mais rápido. A Bomba D'água do Riacho será melhorada, fazendo-a bombear água mais rápido.",--The helicopter pilot transporting the water needed for the water-cracking will arrive faster. The creekside water pump will also be upgraded, making it pump water faster.
 	menu_pp_info_crojob3_vault = "O Cofre do Vagão",--The Vault Wagon
 	menu_pp_info_crojob3_water_pump = "Bomba D'Água",--Water Pump
-	menu_pp_info_crojob3_thermite = "Pasta Thermite",--Thermite paste
+	menu_pp_info_crojob3_thermite = "Pasta Térmite",--Thermite paste
 	menu_pp_framing_frame_1_loc_a = "Interior da Galeria",--Gallery Interior
 	menu_pp_framing_frame_1_loc_b = "Exterior da Galeria",--Gallery Exterior
 	menu_pp_framing_frame_1_deaddrop004 = "Cabine do Banheiro",--Bathroom Stall
@@ -2691,10 +2697,10 @@ return {
 	menu_pp_shadow_raid_deaddrop008 = "Passarela Traseira",--Rear Walkway
 	menu_pp_shadow_raid_deaddrop010 = "Armazenamento do Primeiro Andar",--First Floor Storage
 	menu_pp_shadow_raid_loc_d = "Térreo do Armazem",--Warehouse Ground Floor
-	menu_asset_kosugi_room = "Pasta Thermite",--Thermite Paste
-	menu_asset_kosugi_thermite = "Pasta Thermite",--Thermite paste
-	menu_pp_asset_thermal_paste = "Pasta Thermite",--Thermite paste
-	menu_pp_asset_thermal_paste_desc = "a Thermite poderá queimar as barras de ferro.",--Thermite paste can burn through iron bars.
+	menu_asset_kosugi_room = "Pasta Térmite",--Thermite Paste
+	menu_asset_kosugi_thermite = "Pasta Térmite",--Thermite paste
+	menu_pp_asset_thermal_paste = "Pasta Térmite",--Thermite paste
+	menu_pp_asset_thermal_paste_desc = "a Térmite poderá queimar as barras de ferro.",--Thermite paste can burn through iron bars.
 	menu_pp_asset_loot_drop_off_desc = "Gage irá providenciar novas localizações onde você poderá assegurar o espólio.",--Gage can arrange for additional locations where you can secure loot.
 	menu_pp_shadow_raid_loot_drop_off004 = "Lixeira na Beira do Mar",--Waterfront Garbage
 	menu_pp_shadow_raid_loot_drop_off001 = "Lixeira das Portas do Armazém",--Warehouse Doors Garbage
@@ -2861,7 +2867,7 @@ return {
 	menu_pp_thermite001 = "Corredor do Cofre",--Vault access corridor
 	menu_pp_thermite002 = "Sala de Segurança",--Security room
 	menu_pp_thermite003 = "Sala de Contagem",--Counting rooms
-	menu_pp_vault_thermite_desc = "Um informante irá esconder uma mochila com um equipamento thermite no local selecionado. Thermite não é tão rápida quanto A Besta, porém é mais fácil de implantar e nunca irá emperrar.",--An insider stashes a backpack with a thermite rig in the selected location. Thermite isn't as fast as the Beast drill, but it's easier to deploy and it never ever jams.
+	menu_pp_vault_thermite_desc = "Um informante irá esconder uma mochila com um equipamento Térmite no local selecionado. Térmite não é tão rápida quanto A Besta, porém é mais fácil de implantar e nunca irá emperrar.",--An insider stashes a backpack with a thermite rig in the selected location. Thermite isn't as fast as the Beast drill, but it's easier to deploy and it never ever jams.
 	menu_pp_escape_helicopter_loud = "Plano B: Transporte Aéreo",--Basic Plan B: Airlift
 	menu_pp_escape_helicopter_loud_desc = "Testado e Aprovado: Alugue um Helicóptero para pousar no telhado e buscar você e o seu espólio para um local seguro. Alto perfil e muito trabalho para colocar as bolsas no telhado.",--Tried and trusted: hire a helicopter to land on the roof and carry you and your loot to safety. High profile, and lots of work to get the bags up on the roof.
 	menu_pp_escape_elevator_loud = "O Truque do Elevador",--The Elevator Trick
@@ -3309,8 +3315,8 @@ return {
 	menu_pp_asset_fex_loud_escape_with_heli_desc = "Fuja da Mansão do Buluc com a ajuda do Bile através de um Helicóptero.",
 	menu_pp_cat_entry_plan_generic = "Plano de Entrada",
 	menu_pp_cat_entry_plan_generic_desc = "Escolha o seu plano de entrada.",
-	menu_pp_asset_fex_stealth_entry_with_thermite = "Entrada por Thermite (Stealth)",
-	menu_pp_asset_fex_stealth_entry_with_thermite_desc = "Infiltre-se na Mansão do Buluc derretendo o portão da frente com uma Thermite.",
+	menu_pp_asset_fex_stealth_entry_with_thermite = "Entrada por Térmite (Stealth)",
+	menu_pp_asset_fex_stealth_entry_with_thermite_desc = "Infiltre-se na Mansão do Buluc derretendo o portão da frente com uma Térmite.",
 	menu_pp_asset_fex_stealth_entry_with_boat = "Entrada pelo Barco (Stealth)",
 	menu_pp_asset_fex_stealth_entry_with_boat_desc = "Infiltre-se na Mansão do Buluc com a ajuda de um Barco.",
 	menu_pp_fex_camera_access_001 = "Entrada da Frente",
@@ -3768,7 +3774,7 @@ return {
 	debug_interact_equipment_gas = "Você precisa de Gasolina",--You need Gasoline
 	hud_equipment_need_car_keys = "Você precisa das Chaves do Carro",--You need car keys
 	hint_no_bfd_tool = "Você precisa da ferramenta da BFD para consertar a BFD",--You need a BFD tool to fix the BFD
-	debug_interact_equipment_thermite = "Você precisa da Thermite!",--You need Thermite!
+	debug_interact_equipment_thermite = "Você precisa da Térmite!",--You need Thermite!
 	hud_equipment_need_plates = "Você precisa de Placas de Impressão",--You need printing plates
 	hud_equipment_need_a_paper_roll = "Você precisa de Rolos de Papel",--You need a paper roll
 	hud_equipment_need_printer_ink = "Você precisa de Tinta de Impressora",--You need printer ink
@@ -3784,7 +3790,7 @@ return {
 	debug_interact_equipment_c4 = "Requer C4",--Requires C4
 	hud_equipment_need_blow_torch = "Você precisa de um Maçarico",--Need blow torch
 	hud_int_requires_chrome_skull = "Requer a Caveira Cromada",--Requires chrome skull
-	hud_int_need_thermite_paste = "Você precisa da Thermite",--You need thermite paste
+	hud_int_need_thermite_paste = "Você precisa da Térmite",--You need thermite paste
 	hud_hint_no_briefcase = "Requer uma Maleta do Diamante",--Requires diamond briefcase
 	hud_hint_requires_panel_access = "Requer Acesso ao Painel",--Requires Panel Access
 	hud_hint_hostage_follow_limit = "Número Máximo de Reféns te seguindo atingido.",--Maximum number of following hostages reached.
@@ -3814,7 +3820,7 @@ return {
 	hint_civilian_escaped = "Os Policiais libertaram um civil - controlem os civis!",--The cops freed a civilian - control the civilians!
 	hud_hint_zipline_no_bag = "Você precisa estar carregando uma bolsa para prendê-la",--You need to carry a bag to attach it
 	debug_interact_equipment_stash_server = "Você precisa do Servidor",--You Need the Server
-	hint_thermite = "Você pode adicionar outra thermite para acelerar o processo.",--You can pour out another can of thermite to speed up the process.
+	hint_thermite = "Você pode adicionar outra Térmite para acelerar o processo.",--You can pour out another can of thermite to speed up the process.
 	hint_key_pickup = "Você pegou uma Chave",--You picked up a key
 	hud_hint_phoneline_jammed = "A Linha Telefônica está bloqueada pelo ECM",--Phone line is jammed by an ECM
 	hint_short_firstaidkit = "Coloque o Kit de Primeiros Socorros com o botão $BTN_USE_ITEM;.",--Deploy first aid kit with $BTN_USE_ITEM;.
@@ -5463,7 +5469,7 @@ return {
 	menu_challenges_help = "Veja seu progresso nos Desafios.",--View your progress on all your challenges.
 	menu_challenge_you_shall_not_pass_objective = "Na heist de escape Overpass, não deixe que os policiais pisem na ponte até que você possa fugir.",--In the Overpass escape, don't let the cops set foot on the bridge before you can escape.
 	menu_challenge_stat_boost = "Boost Aleatório",--Random Stat Boost
-	menu_challenge_clone_5_desc = "Usar uma thermite para derreter algum obstáculo é algo que nunca enjoa. É simplesmente divertido para caralho! Enganar esses policiais burros de novo e de novo acaba enjoando no entanto.",--Using thermite to melt your way past an obstacle never gets old. That stuff is just nasty fun. Whackin' the same dumb-ass cops over and over does though.
+	menu_challenge_clone_5_desc = "Usar uma Térmite para derreter algum obstáculo é algo que nunca enjoa. É simplesmente divertido para caralho! Enganar esses policiais burros de novo e de novo acaba enjoando no entanto.",--Using thermite to melt your way past an obstacle never gets old. That stuff is just nasty fun. Whackin' the same dumb-ass cops over and over does though.
 	menu_challenge_voff_3_objective = "Completa a Murky Station encontrando e assegurando todo o espólio sem matar ninguém na dificuldade OVERKILL ou superior.",--Complete the Murky Station job by finding and securing all loot without killing anyone on the OVERKILL difficulty or above.
 	menu_challenge_cane_4 = "Alegre e Animado",--Pumped Up and Jolly
 	menu_challenge_menu_challenge_moon_6_desc = "Querem saber, a gente pode comer um hambúrger depois que acertarmos as coisas lá na Slaughterhouse. Não podemos perder tempo com coisas desnecessárias.",--"You know, we should go for a hamburger run after we deal with the thing in the slaughter house. No time to stick around for anything unnessesary"

@@ -273,7 +273,7 @@ return {
 	hud_heist_friend_loud_04_hl = "Entre na Casa",--Enter the house
 	hud_heist_friend_anger_0_hl = "Espere pelo Plano do Bain",--Wait for Bain's plan
 	hud_heist_friend_stealth_03_hl = "Faça a Ligação",--Make the call
-	hud_heist_friend_anger_3 = "Ache um pouco de thermite e coloque na banheira para fazer um buraco. Com certeza vai deixar ele puto!",--Find some thermite and place it in the bathtub to create a hole. That should surely piss him off!
+	hud_heist_friend_anger_3 = "Ache um pouco de Térmite e coloque na banheira para fazer um buraco. Com certeza vai deixar ele puto!",--Find some thermite and place it in the bathtub to create a hole. That should surely piss him off!
 	hud_heist_friend_loud_02_hl = "Hackeie o Laptop",--Hack the laptop
 	hud_heist_friend_anger_2_hl = "Junte os Quadros",--Gather the paintings
 	hud_heist_friend_loud_07_hl = "Abra o Cofre de Chão",--Open the floor safe

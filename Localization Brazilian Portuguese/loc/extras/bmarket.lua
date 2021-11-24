@@ -251,6 +251,12 @@ return {
 --[[Weapons expert, smooth-talkin', wise-crackin' poet, Chains is a great many things. If Dallas is the brain of the Payday gang, Chains is the heart. Wear this suit with love as you celebrate a decennium of heisting!
 
 	Concept by Angusburgers.]]
+	menu_in33_one_hundred_desc = "Muitas pessoas não iriam compreender. Esse é o lugar que você chegou; isso é o que você conquistou. O que um assaltante pode ter a esse ponto? Com esse kit de adornos, com certeza você vai deixar uma mensagem.",
+--[[Beyond many, beyond the grasp of most. This is the place you have reached; this is what you have accomplished. What to give a heister at this level?  With this kit of adornments, you will surely make a statement.]]
+	bm_suit_overkillpunk_desc = "Atitude urbana, um pouco fora do normal, raras vezes algo sai dos planos. Além disso, uma gravata pura e uma camiseta abaixo, você está pronto para encarar qualquer situação. Resumindo, você está estiloso para meter bala.",
+--[[Urban attitude, with a bit of an edge, seldom goes wrong. Plus, with an immaculate tie and shirt look beneath, you're ready to take on just about any situation. In other words, you're dressed to kill.]]
+	bm_suit_elegantscarf_desc = "Nunca substime o estilo e um pouco de talento. Esse traje de alta costura vai deixar uma impressão elegante em você. Seja lá o que for os seus planos, você vai parecer um profissional enquanto estiver dando os detalhes.",
+--[[Never underestimate style and a bit of flair. This piece of haute couture will have you make an elegant impression. Whatever your plans, you will look stunning while going about them.]]
 
 	-- LUVAS
 	bm_gloves_default_desc = "Use as Luvas padrão dos Heisters",--Use the heisters default gloves
@@ -299,6 +305,8 @@ return {
 	bm_gloves_techhigh_tiger_desc = "Feito com pratos desenvolvido para o programa de espaço chinês, mas adaptado para o uso civil, essas luvas oferecem movimento e conforto.",--Made with protective plating developed for the Chinese space program, but adapted for civilian use, these gloves offer superior movement and comfort.
 	bm_gloves_techhigh_tortoise_desc = "Feito com pratos desenvolvido para o programa de espaço chinês, mas adaptado para o uso civil, essas luvas oferecem movimento e conforto.",--Made with protective plating developed for the Chinese space program, but adapted for civilian use, these gloves offer superior movement and comfort.
 	bm_gloves_jesterstripe_desc = "A costura nessas luvas de couro é feito de puro ouro, tecidos de oito discussões separados pelo os famosos tecelões do mundo. As mãos de um assaltante merecem algo desse tipo, especialmente enquanto estiver celebrando os oitos anos mais malucos nesse ramo.",--The stitching in these rugged leather gloves is made of pure gold, woven from eight separate threads by the finest weavers in the world. A heister's hands deserve nothing less, especially while celebrating eight glorious years on the job.",
+	bm_gloves_overkillpunk_desc = "Esse estilo representa os cérebros faltando um parafuso lá em Silicon Valley, um 'protégé' que consumiu drogas demais. O seu cérebro torrado é o seu prêmio.",
+--[[This design is the brainchild of some messed up Silicon Valley protégé who took one smart drug too many. His fried brain is your gain.]]
 	
 	-- INVENTÁRIO GERAL
 	menu_sort_alphabetic = "Alfabético",

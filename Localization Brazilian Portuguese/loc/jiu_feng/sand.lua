@@ -48,6 +48,7 @@ return {
 
     -- Legendas
     loc_sand_119a_03 = "Vocês devem dar uma olhada nos escritórios das docas. Talvez tem a Tríade tenha deixado algo que possamos usar contra eles no futuro.",--You should have a rummage around the harbor offices. Maybe the triad has left us something we can use against them in the future.
+    loc_sand_199a_02 = "Vamos dar uma olhada no escritórios das docas. De acordo com o nosso contato, a Tríade guarda informações ali, talvez vocês possam achar algo para o futuro.",--Let's have a look in the harbor office. Our intel says the triad keeps records there, maybe you'll find something for future use. [espero que esse seja o certo, isso aqui é no chute.]
     loc_sand_119a_01 = "Pode ser uma boa ideia dar uma olhada no escritório das docas. O contato do Jiu Feng disse que a Tríade mantinha os registros ali.",--It might be a good idea to take a look in the harbor office. Jiu Feng's insider said the triad keeps computer records there.
     loc_sand_143_02 = "Eu já disse isso. Mas ele é bem durão como uma pedra, nosso Vlad.",--That's kind of what I said. But he's tough like an old shoe, our Vlad.",
     jfe_sand_01_01 = "Tô indo aí. Tô vendo os fogos. Aguentem aí, beleza?",--On my way. I see the fire. Hold on for a while, right?", [FOGOS DE ARTIFICIO]

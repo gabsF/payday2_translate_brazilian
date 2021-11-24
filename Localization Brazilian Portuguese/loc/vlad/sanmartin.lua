@@ -26,7 +26,7 @@ return {
 	loc_bex_03_01 = "Que barulho horrível.",--What an awful noise.
 	loc_bex_04_01 = "Então, Vlad. Já te contei sobre o meu encontro com uma cobra-tigre Australiana?",--So, Vlad. Did I ever tell you about my run-in with an Australian tiger-snake?
 	loc_bex_04_02 = "Vlad, você sabe... Uma vez encontrei um Wolverine Russo...",--Vlad, you know... I encountered a Russian wolverine once...
-	loc_bex_05_01 = "Vocês sabem que, a thermite é mais ou menos um equipamento padrão pra gente.",--You do realize, thermite is more or less standard equipment for us.
+	loc_bex_05_01 = "Vocês sabem que, a Térmite é mais ou menos um equipamento padrão pra gente.",--You do realize, thermite is more or less standard equipment for us.
 	loc_bex_06_01 = "Mexam-se, amigos.",--Get moving, friends.
 	loc_bex_06_02 = "O banco não vai se roubar sozinho.",--The bank is not going to heist itself.
 	loc_bex_06_03 = "Meio que estamos no ponto aqui. Também temos muitas outras coisas para cuidarmos, yeah?",--We're kind of on the clock here. A lotta other things to take care of too, yeah?

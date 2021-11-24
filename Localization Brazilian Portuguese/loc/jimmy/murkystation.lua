@@ -53,13 +53,13 @@ return {
 	pln_drk_16_01 = "Pessoal, vocês precisam achar um maçarico, se não estaremos fudidos.",--Guys, you need to find a blowtorch otherwise we're screwed.
 	pln_drk_02_02a = "Lembrem-se de que a bomba de EMP possui duas partes e não preciso lembrá-los de que precisamos das duas.",--Remember that the EMP bomb is two parts and I don't have to remind you we need both.
 	pln_drk_02_01 = "Achem um caminho para dentro do perímetro e localizem os trens da Murkywater. As partes da EMP provavelmente estarão em vagões diferentes.",--Find your way inside and locate the Murkywater trains. The EMP parts will most likely be in different wagons.
-	pln_drk_22_02 = "Ótimo, vocês encontraram um pouco de thermite. Agora podemos derreter o portão de aço.",--Great, you found some thermite. Now we can melt our way through that steel gate.
+	pln_drk_22_02 = "Ótimo, vocês encontraram um pouco de Térmite. Agora podemos derreter o portão de aço.",--Great, you found some thermite. Now we can melt our way through that steel gate.
 	pln_drk_03_02 = "Os trens da Murkywater devem estar fáceis de avistar. Encontre-os.",--The trains belonging to Murkywater should be easy to spot. Find them.
 	pln_drk_41_02 = "Bom trabalho, aquele drone não vai estar aqui para ser testemunha da revolução dos robôs. Mas tenham certeza de que vocês esconderam a pilha de lixo. Não podemos deixar os guardas verem isso.",--Good job, that drone won't be here to witness the robot revolution. But make sure you hide the pile of junk. We can't have one of the guards finding it.
 	pln_drk_11_04 = "Vocês precisam achar um cartão de acesso para abrir aquela porta. Vamos.",--You really need to find a keycard to get that door open. Come on.
 	pln_drk_11_02 = "Pessoal, a gente ainda precisa de um cartão de acesso.",--Guys, we still need a keycard.
 	pln_drk_31_01 = "Okay, temos tudo o que precisamos para roubar as partes da EMP. Voltem para os trens.",--Okay, now we got all we need to steal the EMP parts. Head back to the trains.
-	pln_drk_22_03 = "Agora que vocês já possuem um pouco de thermite, podemos facilmente derreter as barras do portão.",--Now that you got your hands on some thermite, we can easily melt the bars on the gate.
+	pln_drk_22_03 = "Agora que vocês já possuem um pouco de Térmite, podemos facilmente derreter as barras do portão.",--Now that you got your hands on some thermite, we can easily melt the bars on the gate.
 	pln_drk_33_02 = "Bom trabalho. Agora, assegurem a EMP na área de fuga antes de saquear mais coisas.",--Good job. Now, secure the EMP at the escape area before grabbing any additional loot.
 	pln_drk_28_03 = "Voltem para a porta do cofre e insiram o HD. Eu cuido do resto.",--Head back to the vault door and plug in the hard drive. I'll take care of the rest.
 	pln_drk_46_01 = "Galera, eu quero uma varredura da área inteira. Isso significa checar todos os cantos do pátio de trens. Não deixem passar nada.",--Gang, I want a sweep of the whole area. That means checking all corners of the train yard. Don't leave any stone unturned.
@@ -75,8 +75,8 @@ return {
 	pln_drk_17_01 = "Macacos me mordam, você achou um maçarico. Agora podemos abrir caminho pela porta.",--Well, I'll be damned, you found a blowtorch. Now we can burn our way through the door.
 	pln_drk_37_03 = "Enviando a van pra aí. O Twitch vai vir pela ponte de cima.",--Sending the van your way. Twitch will come from the upper bridge side.
 	pln_drk_05_01 = "Procurem pelo painel de segurança, galera. É o único jeito de entrar.",--Look for the security panel, gang. That's the only way in.
-	pln_drk_23_01 = "Voltem para o portão de segurança e usem a thermite.",--Get back to the security gate and use the thermite.
-	pln_drk_22_01 = "Vocês encontraram a thermite? Excelente! Voltem para o portão e derretam as barras de aço.",--You found thermite? Excellent! Head back to the steel gate and melt those bars.
+	pln_drk_23_01 = "Voltem para o portão de segurança e usem a Térmite.",--Get back to the security gate and use the thermite.
+	pln_drk_22_01 = "Vocês encontraram a Térmite? Excelente! Voltem para o portão e derretam as barras de aço.",--You found thermite? Excellent! Head back to the steel gate and melt those bars.
 	pln_drk_15_01 = "Estamos em um pátio de trens, devem ter ferramentas por aqui. Vejam o que vocês podem achar. Um maçarico seria perfeito.",--We're in a train yard, there should be tools laying around somewhere. See what you can find. A blowtorch would be perfect.
 	pln_drk_36_02 = "Ei, o motorista de fuga está vindo de barco. Vão lá para o pequeno acesso de água perto do rio.",--Hey, I got your escape driver coming in by boat. Head over to the small water access area near the river.
 	pln_drk_30_01 = "Esse pé de cabra vai aumentar nossas chances de conseguir loots adicionais antes de ir embora.",--That crowbar will increase our chances of getting additional loot before we leave.
@@ -97,7 +97,7 @@ return {
 	pln_drk_42_02 = "Vocês já procuraram pelo pátio de trens inteiro?",--Have you searched through the whole train yard?
 	pln_drk_35_03a = "Por que não voltam para pegar um pouco dos valiosos loots? Isso vai valer o nosso tempo.",--Why not go back and get some of that juicy loot? I'll make it worth your time.
 	pln_drk_08_01 = "Droga! Eles tem uma porta de segurança adicional...",--Damn! They have set up an additional security door...
-	pln_drk_23_02 = "Vocês precisam usar a thermite para passar pela porta de segurança.",--You need to use the thermite to get past that security gate.
+	pln_drk_23_02 = "Vocês precisam usar a Térmite para passar pela porta de segurança.",--You need to use the thermite to get past that security gate.
 	pln_drk_26_02 = "Veja se vocês conseguem achar algo para hackear o sistema do cofre.",--See if you can find something we can use to hack the vault system.
 	pln_drk_01_02 = "Okay, pessoal, esse é um bom lugar. Vocês quase tem uma visão completa do pátio de trens. Mantenham os rastros dos guardas e das câmeras.",--Okay, guys, this is a good spot. You almost have a clear view of the train yard. Keep track of the patrolling guards and cameras.
 	pln_drk_18_01 = "Pessoal, voltem para a porta de segurança e usem o maçarico.",--Guys, head back to the security door and use the blowtorch.
