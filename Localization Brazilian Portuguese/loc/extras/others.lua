@@ -12,6 +12,8 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	bm_global_value_snow_unlock = "Compre a DLC Winter Ghosts Tailor Pack para desbloquear!",--Buy the Winter Ghosts Tailor Pack DLC to unlock!
+	menu_l_global_value_snow = "Esse é um item de Winter Ghost Tailor Pack!",--This is a Winter Ghosts Tailor Pack Item!
 	menu_l_global_value_trik = "Esse é um item de Dia Das Bruxas 2021!",--This is a Halloween 2021 Item!
 	--bm_global_value_a10th_unlock = "",--???
 	menu_l_global_value_a10th = "Esse é um item do Décimo Aniversário da Franquia PAYDAY!",--This is a PAYDAY Franchise 10th Anniversary Item!
@@ -678,6 +680,7 @@ return {
 	menu_button_throw_grenade = "Arremessar Granada",--Throw grenade
 	
 	-- "Carregando a Bolsa"
+	hud_equipment_laxative = "Produto de Limpeza",--Cleaning product
 	hud_carrying = "Carregando:",
 	hud_carry_dragon_statue = "Estátua de Dragão",--Dragon Statue
 	hud_carry_tea_set = "Jogo de Chá",--Tea Set
@@ -1212,6 +1215,7 @@ return {
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	hud_int_take_laxative = "Pressione $BTN_INTERACT para pegar produto de limpeza",--Press  to take the household cleaner
 	hud_int_open_safe = "Segure $BTN_INTERACT para abrir o cofre",--Hold  to open the safe
 	hud_equipment_need_keychain = "Requer Chave do Cofre",--Safe key required
 	hud_int_use_handprint = "Segure $BTN_INTERACT para usar a mão protética",--Hold  to use the prosthetic hand
@@ -5071,22 +5075,22 @@ return {
     -- Aldstone's Heritage Missions
 	menu_aru_job_1 = "Legislação de Faca",--Knife Legislation
 	menu_aru_job_1_desc = "Balas uma hora vão acabar - Facas não. Tudo o que você precisará fazer é enfiar a lâmina em seu inimigo e você ficará vivo.",--Bullets will run out - knives won't. All you need to do is to thrust the blade into your enemy and you'll stay alive.
-	menu_aru_job_1_obj = "Inimigos mortos: $progress;/$max_progress;",--Enemies killed: $progress/$max_progress
+	menu_aru_job_1_obj = "Inimigos mortos: $progress/$max_progress",--Enemies killed: $progress/$max_progress
 	menu_aru_job_1_obj_desc = "Mate 10 inimigos usando a arma de corpo-a-corpo Push Dagger.",--Kill 10 enemies using the Push Dagger melee weapon.
 	menu_aru_job_1_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Amigos do Peito" na Safe House.',--A new weapon, Continental Coins, and a the "Friends in Close-Quarters" trophy in the safehouse.
 	menu_aru_job_2 = "Prepare-se para a Guerra",--Prepare for War
 	menu_aru_job_2_desc = 'Parabellum significa "Prepare-se para a Guerra". Portanto, carregar a Pistola Parabellum significa que você estará sempre preparado, não importando o tipo de obstáculo que possa aparecer.',--Parabellum means "Prepare for War". So carrying the Parabellum Pistol means you are always prepared, no matter what type of obstacle that might appear.
-	menu_aru_job_2_obj = "Inimigos mortos: $progress;/$max_progress;",--Enemies killed: $progress/$max_progress
+	menu_aru_job_2_obj = "Inimigos mortos: $progress/$max_progress",--Enemies killed: $progress/$max_progress
 	menu_aru_job_2_obj_desc = "Mate 50 inimigos usando a Parabellum Pistol.",--Kill 50 enemies using the Parabellum Pistol.
 	menu_aru_job_2_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Uma Guerra bem travada!" na Safe House.',--A new weapon, Continental Coins, and a the "A War Well Fought" trophy in the safehouse.
 	menu_aru_job_3 = "Retribuição Rápida",--Rapid Retribution
 	menu_aru_job_3_desc = "Os assaltos costumam ser lotados. Então velocidade é essencial. Combine uma alta velocidade com lama afiada e você terá um grande poder de impacto.",--Raids are often crowded. so speed is of the essence. Combine high velocity with sharp sludges and you'll make a serious impact.
-	menu_aru_job_3_obj = "Inimigos mortos: $progress;/$max_progress;",--Enemies killed: $progress/$max_progress
+	menu_aru_job_3_obj = "Inimigos mortos: $progress/$max_progress",--Enemies killed: $progress/$max_progress
 	menu_aru_job_3_obj_desc = "Mate 100 inimigos usando a MP40 Submachine Gun.",--Kill 100 enemies using the MP40 Submachine Gun.
 	menu_aru_job_3_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Tagarela" na Safe House.',--A new weapon, Continental Coins, and a the "Speed Talker" trophy in the safehouse.
 	menu_aru_job_4 = "O Controle de Guia",--The Control's Hundred Tab
 	menu_aru_job_4_desc = "O maior instrumento de batalha já inventado. Mostre sua habilidade e ferocidade com este pedaço da história Americana.",--The greatest battle implement ever devised. Show your skill and ferocity with this piece of American history.
-	menu_aru_job_4_obj = "Inimigos mortos: $progress;/$max_progress;",--Enemies killed: $progress/$max_progress
+	menu_aru_job_4_obj = "Inimigos mortos: $progress/$max_progress",--Enemies killed: $progress/$max_progress
 	menu_aru_job_4_obj_desc = "Mate 200 inimigos usando o Galant Rifle.",--Kill 200 enemies using the Galant Rifle.
 	menu_aru_job_4_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Parceiro do Herói" na Safe House.',--A new weapon, Continental Coins, and a the "Hero's Companion" trophy in the safehouse.
 	menu_raid_jobs = "Trabalhos da Hierarquia do Aldstone",
@@ -5257,7 +5261,7 @@ return {
 	menu_challenge_pink_panther_objective = "No Dia 1 da Framing Frame, roube todas as pinturas com adesivos de vendido sem ser visto.",--On day 1 of the Framing Frame job, steal all sold paintings without being seen.
 	menu_challenge_melee_creep_kills_desc = "Senhores, escolham seus objetos de matança e comecem a produzir cadáveres. Só tomem cuidado com os cadáveres que explodem.",--Gentlemen, choose your implement of skull-bashing and get to making corpses. Just watch out for the exploding bodies.
 	menu_challenge_sentry_100_kills_obj = "Mate 100 inimigos utilizando sentinelas.",--Kill 100 enemies using heister placed Sentry Guns.
-	menu_challenge_bain_4_jobs_objective = "Heists Completadas: $progress;/$max_progress;",--Jobs completed: $progress;/$max_progress
+	menu_challenge_bain_4_jobs_objective = "Heists Completadas: $progress/$max_progress",--Jobs completed: $progress;/$max_progress
 	menu_challenge_cee_1 = "Inicie no Crime",--Indulge in Crime
 	menu_challenge_farm_6_desc = "Sanduíches de carne de porco ficaram populares novamente depois que aquele serial killer mexicano falou deles na TV alguns anos atrás. Não acreditam em mim? Então deem uma olhada em quantos restaurantes vendiam esses lanches antes disso acontecer. E agora eu estou com fome, talvez devemos roubar um porco no nosso próximo trabalho.",--Pulled pork sandwiches got popular again after that gringo serial-killer talked about them in that TV show a few years ago. Don't believe me? Go back and check how many places sold 'em before then. And now I'm hungry. Maybe we stop and get a pig on the next job.
 	menu_challenge_div_monthly = "Desafio Mensal",--Monthly Job
@@ -5328,7 +5332,7 @@ return {
 	menu_challenge_peta_3 = "Contagem Perigosa",--Hazzard County
 	menu_challenge_lmg_100_kills_obj = "Mate 100 inimigos utilizando LMGs.",--Kill 100 enemies using LMGs.
 	menu_challenge_halloween_2 = "Mistura Completa",--Full Measure
-	menu_challenge_spending_cash_earned = "Dinheiro Offshore ganho: $$progress; / $$max_progress;",--Offshore cash earned: $$progress / $$max_progress
+	menu_challenge_spending_cash_earned = "Dinheiro Offshore ganho: $$progress / $$max_progress",--Offshore cash earned: $$progress / $$max_progress
 	menu_challenge_bat_3_desc = "Algumas pessoas nunca se satisfazem. Deem a elas diamantes, e elas ainda vão querer mais. Nós criminosos geralmente somos assim, não somos?",--Some people are never satisfied. Give them diamonds, and they still want more. Heisters are usually that kind of people, aren't they?
 	menu_challenge_slakt_4_desc = "A sobrinha do Vlad está comemorando 16 anos. Mas o DJ que ela queria não quer tocar na festa dela. Mudem a mente dele indo até o Nightclub, amarrando-o e levando-o até a van.",--Vlad's niece is celebrating her sweet sixteenth. The DJ she wanted isn't willing to play at her party. Change his mind by going to the Nightclub, tying him and bringing him to the van.
 	menu_challenge_fish_5_objective = "Complete a Yacht Heist sem matar ninguém.",--Complete the Yacht Heist job without killing anyone.
@@ -5369,7 +5373,7 @@ return {
 	menu_challenge_crime_spree_heists_desc = "Nas seis heists deste desafio, meu amor de verdade me deu várias armas e dinheiro, dentro de uma amável Crime Spree.",--On the six heists of this challenge, my true love gave to me, lots of guns and money, in a lovely Crime Spree.
 	menu_challenge_bob_4_objective = "No Dia 2 da Election Day, roube todo o espólio extra de dentro do armazém.",--On day 2 of the Election Day job, steal all of the extra loot in the storage bins.
 	menu_challenge_lets_do_this_objective = "Complete a Ukrainian Job em menos de 35 segundos.",--In the Ukrainian job, complete the heist within 35 seconds.
-	menu_challenge_kills_objective = "Inimigos mortos: $progress;/$max_progress;",--Enemies killed: $progress/$max_progress
+	menu_challenge_kills_objective = "Inimigos mortos: $progress/$max_progress",--Enemies killed: $progress/$max_progress
 	menu_challenge_still_retrieving = "Baixando os Desafios Secundários da Crime.net",--Downloading Side Jobs from Crime.net
 	menu_challenge_crime_spree_heists_obj = "Complete 6 heists na Crime Spree. Para completar este desafio, você precisa ter jogado as missões do início ao fim.",--Complete 6 heists in the Crime Spree. To complete this challenge, you have to have played the heist from start to end.
 	menu_challenge_slakt_5_objective = "Na Firestarter, complete o Dia 3 com você e sua equipe se mantendo dentro do cofre até que o dinheiro termine de queimar na dificuldade Death Wish ou superior.",--In the Firestarter job, complete day 3 with you and your crew staying inside the vault while all of the money burns out on the Death Wish difficulty or above.
@@ -5406,7 +5410,7 @@ return {
 	menu_challenge_xp_drop = "Experiência",--Experience
 	menu_challenge_charliesierra_6 = "Nós Todos Somos Profissionais",--We Are All Professionals
 	menu_challenge_frog_1_objective = "Complete a Hoxton Breakout na dificuldade OVERKILL ou\nsuperior com cada membro da equipe utilizando nenhuma skill, vestindo o terno e equipando\no Rifle de Assalto Golden AK.762 e a submachine gun Chicago Typewriter.",--In the Hoxton Breakout job, complete the heist on OVERKILL difficulty or$NLabove with each crew member using no skills, wearing suits, wielding$NLGolden AK.762 rifles and Chicago Typewriter submachine guns.
-	menu_challenge_any_6_jobs_objective = "Trabalhos Completados: $progress;/$max_progress; ",--Jobs completed: $progress/$max_progress
+	menu_challenge_any_6_jobs_objective = "Trabalhos Completados: $progress/$max_progress ",--Jobs completed: $progress/$max_progress
 	menu_challenge_monthly_tabula_obj = "Complete uma Crime Spree de rank 100 ou superior, com todos os membros da equipe utilizando somente o Rifle de Assalto AMCAR, pistola Chimano 88 e nenhuma skill. Para completar este desafio, você precisa ter jogado a missão do início ao fim.",--Complete a Crime Spree of rank 100 or above, with all heisters using the AMCAR rifle, Chimano 88 pistol, and no skills. To complete this challenge, you have to have played the heist from start to end.
 	menu_challenge_monthly_firestarter = "Nostalgia",--Nostalgia
 	menu_challenge_cookoff_mutated_obj = "Complete a Cook Off com pelo menos 6 mutações ativas. Para completar este desafio, você precisa ter jogado a missão do início ao fim.",--Complete the Cook Off job with at least 6 mutators active. To complete this challenge, you have to have played the heist from start to end.
@@ -5428,7 +5432,7 @@ return {
 	menu_challenge_dark_3 = "O Pacifista",--The Pacifist
 	menu_challenge_fish_4_objective = "Complete a Yacht Heist em 6 minutos, na dificuldade OVERKILL ou superior.",--Complete the Yacht Heist job within 6 minutes, on the OVERKILL difficulty or above.
 	menu_challenge_brb_8_desc = "Quando você leva em conta todo trabalho que dá entrar em um cofre, é uma boa ideia roubar o máximo de ouro que puder enquanto estiver nele.",--When you take into account all the planning and work that comes with breaking into a vault, it's a good idea to pull as much gold out of it as possible to make it worthwhile.
-	menu_challenge_vlad_4_jobs_objective = "Trabalhos Completados: $progress;/$max_progress; ",--Jobs completed: $progress/$max_progress
+	menu_challenge_vlad_4_jobs_objective = "Trabalhos Completados: $progress/$max_progress ",--Jobs completed: $progress/$max_progress
 	menu_challenge_any_25_sniper_kills = "Sniperino",--Sniperino
 	menu_challenge_do_no_harm = "Não machuque ninguém",--Do No Harm
 	menu_challenge_any_100_headshot_kills_obj = "Mate 100 inimigos com tiros na cabeça usando qualquer arma de sua escolha.",--Kill 100 enemies with headshots using weapons of your choice.
@@ -5505,7 +5509,7 @@ return {
 	menu_challenge_kosugi_3_desc = "Variedade é um estilo de vida, não é? O Elefante está reformando o bloco dele. Ele quer cada um dos tipos de espólio do armazém da Murkywater na Shadow Raid.",--Variety is the spice of life, huh? The Elephant is refurbishing his pad. He wants one of every piece of loot from the Murkywater warehouse in Shadow Raid.
 	menu_challenge_pig_4_desc = "Se você passa o dia todo escravizando um laboratório de químicos, o que você tem que conseguir disso? Metanfetamina.",--If you spend all day slaving over a hot bunsen burner and chemicals, what do you really have to show for it? Meth... you got meth.
 	menu_challenge_kenaz_2 = "Olho Cego nos Céus",--Blind Eye in the Sky
-	menu_challenge_dentist_4_jobs_objective = "Heists Completadas: $progress;/$max_progress;",--Jobs completed: $progress/$max_progress
+	menu_challenge_dentist_4_jobs_objective = "Heists Completadas: $progress/$max_progress",--Jobs completed: $progress/$max_progress
 	menu_challenge_bat_4 = "Fumaça e Espelhos",--Smoke and Mirrors
 	menu_challenge_monthly_rats = "Velhas Memórias",--Old Memories
 	menu_challenge_kenaz_2_desc = "Cassinos são detestavelmente barulhentos. Considere uma benção passar por um ser visto nem ouvido, principalmente se você tiver um mandato para isso!",--Casinos are really obnoxiously loud. Consider it a blessing to pass through one unseen and unheard, especially if you have an errand there!
@@ -5516,7 +5520,7 @@ return {
 	menu_challenge_born_5_desc = "Quando o Bain quer alguma coisa, ele geralmente quer rápido. Esse é uma delas. Na verdade, ele quer mais rápido ainda.",--When Bain wants something, he sometimes wants it fast. This is one of those times. In fact, he wants it faster than usual!
 	menu_challenge_monthly_rats_objective = "Complete a Rats na dificuldade OVERKILL utilizando apenas o Rifle AMCAR, a pistola Chimano 88, o terno e sem utilizar skills.",--Complete the Rats job on OVERKILL or above using only AMCAR Rifle, Chimano 88 Pistol, the Two-piece Suit and no skills.
 	menu_challenge_clone_2_obj = "Complete a Big Oil na dificuldade OVERKILL ou superior, com a mutação 'Clone Army - Tasers' ativa. Para completar este desafio, você precisa ter jogado a missão do início ao fim. ",--Complete the Big Oil job on the OVERKILL difficulty or above, with the Clone Army - Tasers mutator active. To complete this challenge, you have to have played the heist from start to end.
-	menu_challenge_hector_4_jobs_objective = "Heists Completadas: $progress;/$max_progress;",--Jobs completed: $progress/$max_progress
+	menu_challenge_hector_4_jobs_objective = "Heists Completadas: $progress/$max_progress",--Jobs completed: $progress/$max_progress
 	menu_challenge_earn_2000k_offshore_cash_desc = "Ganhe $2.000.000 em Dinheiro Offshore.",--Earn 2 000 000 in offshore money.
 	menu_challenge_bat_6 = "Diamantes Ásperos",--Diamonds in the Rough
 	menu_challenge_cac_23_desc = "As vezes, é normal saciar nosso ego e satisfação para provar o quão superior suas habilidades são. Não há nada como dizer 'Eu posso acabar com vocês' utilizando um arco e uma flecha contra um exército inteiro.",--Sometimes, it's OK to indulge in the pure ego-driven satisfaction of showing your enemies just how superior your skills really are. Nothing says "I can aim the shit out of you" like using a bow and arrow against a firearm.
@@ -5547,7 +5551,7 @@ return {
 	menu_challenge_brb_8 = "Todo o Ouro de Brooklyn",--All the Gold in Brooklyn
 	menu_challenge_gage4_5 = "Shotgun 101",--Shotgun 101
 	menu_challenge_yeah_hes_a_gold_digger_desc = "Para nos proteger contra os Falsificadores, o Vlad precisa de uma barra de ouro pura para medir o peso exato dela. Nós ouvimos que um gerente das lojas da Four Stores tem uma.",--To help protect against counterfeiters, Vlad needs an ingot of pure gold to measure its precise weight. We have heard that a manager at Four Stores has one in a safe.
-	menu_challenge_cash_earned = "Dinheiro Livre ganho: $$progress; / $$max_progress;",--Spending cash earned: $$progress; / $$max_progress
+	menu_challenge_cash_earned = "Dinheiro Livre ganho: $$progress / $$max_progress",--Spending cash earned: $$progress; / $$max_progress
 	menu_challenge_charliesierra_1_desc = "Nós queremos assegurar cada bolsa de dinheiro na GO Bank na dificuldade OVERKILL ou superior, mas fique fora da vista de qualquer helicóptero. Use somente o esgoto.",--We want to haul every bag of cash out of the GO Bank on OVERKILL or harder, but stay out of the eye of any press choppers. Use the sewers only.
 	menu_challenge_slakt_1 = "Xeroque Rolmes",--Speedlock Holmes
 	menu_challenge_monthly_firestarter_objective = "Complete a Firestarter na dificuldade OVERKILL ou superior com você e sua equipe usando somente o Rifle AMCAR, a pistola Chimano 88, terno e nenhuma skill. Para completar este desafio, você precisa ter jogado a missão do início ao fim.",--Complete the Firestarter job on OVERKILL or above with your crew using only the AMCAR Rifle, Chimano 88 Pistol, the Two-piece Suit and no skills.
@@ -5632,7 +5636,7 @@ return {
 	menu_challenge_div_daily = "Desafio Diário",--Daily Job
 	menu_challenge_lets_do_this_desc = "O Vlad é um louco filho da puta. E também um impaciente de merda. Roube para ele aquela Tiara da Ukrainian Job em menos de 35 segundos.",--Vlad is one crazy motherfucker. He's also an impatient motherfucker. Fetch him that tiara in Ukrainian Job in thirty-five seconds or less.
 	menu_challenge_div_menu = "Menu",--Menu
-	menu_challenge_elephant_4_jobs_objective = "Heists Completadas: $progress;/$max_progress;",--Jobs completed: $progress/$max_progress
+	menu_challenge_elephant_4_jobs_objective = "Heists Completadas: $progress/$max_progress",--Jobs completed: $progress/$max_progress
 	menu_challenge_kosugi_4_desc = "O Dentista está desesperado por um comprador para a armadura do Samurai, que está trancada nos cofres do armazém da Murkywater na Shadow Raid. Um grande diretor de filmes, aparentemente. Luzes, Câmera e Ação, pessoal!",--The Dentist has a buyer ready for the samurai armor locked away in the Murky warehouse in Shadow Raid. A big movie director, apparently. Lights, camera, action, guys.
 	menu_challenge_winters_mutated_obj = "Derrote o Capitão Winters em qualquer heist com a mutação 'Hydra' ativa.",--Defeat Captain Winters while on any job, while the Hydra mutator is active.
 	menu_challenge_any_50_headshot_kills_desc = "Tem aquele lugar que você sabe que machuca mais... Mate 50 inimigos com tiros na cabeça usando qualquer arma de sua escolha.",--There's that one spot where you know it hurts the most... Kill 50 enemies with headshots using weapons of your choice.
