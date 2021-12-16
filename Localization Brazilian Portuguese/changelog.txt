@@ -1,6 +1,7 @@
-10.05 [Correções]
-* Corrigido vários erros do Black Cat
-* Corrigido uma parte dos erros do Buluc's Mansion
-* Traduzido o conteúdo do Infamy 3.3
+10.06 [Update 216]
+* Traduzido o conteúdo novo da atualização 216
+    > Perk Deck novo, Leech
+    > Novos trajes da nova DLC
 
-Nota: devido a atualização Infamy 3.3 lançando hoje, tive que lançar a atualização apressado, mas vou continuar revisando o Buluc's Mansion.
+* Traduzido alguns textos que estavam faltando em certas partes
+* Corrigido um erro que causava as barras de progresso dos Side Jobs ficarem bugadas

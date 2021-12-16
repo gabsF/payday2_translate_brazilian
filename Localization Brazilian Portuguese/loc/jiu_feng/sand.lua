@@ -50,7 +50,7 @@ return {
     loc_sand_119a_03 = "Vocês devem dar uma olhada nos escritórios das docas. Talvez tem a Tríade tenha deixado algo que possamos usar contra eles no futuro.",--You should have a rummage around the harbor offices. Maybe the triad has left us something we can use against them in the future.
     loc_sand_199a_02 = "Vamos dar uma olhada no escritórios das docas. De acordo com o nosso contato, a Tríade guarda informações ali, talvez vocês possam achar algo para o futuro.",--Let's have a look in the harbor office. Our intel says the triad keeps records there, maybe you'll find something for future use. [espero que esse seja o certo, isso aqui é no chute.]
     loc_sand_119a_01 = "Pode ser uma boa ideia dar uma olhada no escritório das docas. O contato do Jiu Feng disse que a Tríade mantinha os registros ali.",--It might be a good idea to take a look in the harbor office. Jiu Feng's insider said the triad keeps computer records there.
-    loc_sand_143_02 = "Eu já disse isso. Mas ele é bem durão como uma pedra, nosso Vlad.",--That's kind of what I said. But he's tough like an old shoe, our Vlad.",
+    loc_sand_143_02 = "Eu já disse isso. Mas ele é bem durão como uma pedra, nosso Vlad.",--That's kind of what I said. But he's tough like an old shoe, our Vlad.
     jfe_sand_01_01 = "Tô indo aí. Tô vendo os fogos. Aguentem aí, beleza?",--On my way. I see the fire. Hold on for a while, right?", [FOGOS DE ARTIFICIO]
     jfe_sand_01_02 = "Quase aí. Preciso tomar cuidado ou eles vão ficar bem agitados.",--Almost there. I need to be careful or they'll start raising hell. ",
     jfe_sand_01_03 = "Eles tem muitas pessoas nas docas agora. Vou ter que ir com calma. Me dá um minuto, tá?",--They have lots of people on the docks at the moment. Have to move slowly. Gimme a minute, right?",
@@ -287,7 +287,7 @@ return {
     loc_sand_34_01 = "Sem tempo a perder, Encontrem medicamentos pro Vlad. Rápido, amigos!",
     loc_sand_34_02 = "Encontrem um medicamento para Vlad!",
     loc_sand_34_03 = "Vlad precisa da adrenalina!",
-    loc_sand_36_01 = "OK, Ele parece meio tonto , mas temos que arriscar a mover ele. O contato do Jiu Feng está esperando lá fora com um carregador de skid. Escolte o Vlad até ele, bora.",
+    loc_sand_36_01 = "OK, Ele parece meio tonto, mas temos que arriscar a mover ele. O contato do Jiu Feng está esperando lá fora com um carregador de skid. Escolte o Vlad até ele, bora.",
     loc_sand_36_02 = "Nada mal. Ele pode se mover com segurança um pouco. O nosso contato tem um carregador de skid esperando no lado de fora. Levem Vlad e coloquem ele dentro do balde.",--Not too bad. He can be safely moved a little bit. Our inside guy has a skid loader waiting. Get Vlad to it and put him in the scoop.",
     loc_sand_36_03 = "Isso basta. Tem um carregador de skid próxima sendo dirigido pelo homem do Jiu Feng. Ajudem o Vlad a entrar no balde.",
     loc_sand_37_01 = "Levem o Vlad até o carregador de skid.",

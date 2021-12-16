@@ -100,16 +100,16 @@ return {
 
 	-- TIER 3
 	--menu_control_freak_beta = "Partners in Crime",
-	menu_control_freak_beta_desc = "BÁSICO: ##$basic##\nTendo um convertido irá aumentar a sua velocidade de movimento em ##$multibasic;##. \n\nO seu convertido terá uma resistência de dano de ##$multibasic3;##. \n\nAVANÇADO: ##$pro##\nTendo um convertido irá aumentar a sua vida em ##$multipro3;##. \n\nO seu convertido terá mais resistência de dano de ##$multipro4;##.",
+	menu_control_freak_beta_desc = "BÁSICO: ##$basic##\nTendo um convertido irá aumentar a sua velocidade de movimento em ##$multibasic;##.\n\nO seu convertido terá uma resistência de dano de ##$multibasic3;##. \n\nAVANÇADO: ##$pro##\nTendo um convertido irá aumentar a sua vida em ##$multipro3;##.\n\nO seu convertido terá mais resistência de dano de ##$multipro4;##.",
 	--BASIC: ##$basic;##\nHaving a converted enemy increases your movement speed by ##$multibasic;##.\n\nYour converted enemy takes ##$multibasic3;## less damage.\n\nACE: ##$pro;##\nHaving a converted enemy increases your health by ##$multipro3;##.\n\nYour converted enemy takes an additional ##$multipro4;## less damage.
 	--menu_stockholm_syndrome_beta = "Stockholm Syndrome",
-	menu_stockholm_syndrome_beta_desc = 'BÁSICO: ##$basic##\nCivis são intimidados pelo barulho que você faz e ficam ##$multibasic;## mais quietos. \n\nAVANÇADO: ##$pro##\nOs seus reféns não irão fugir quando são resgatados pela policia. Quando você for preso, o seu refém irá "salvar" você. \n\nEsse efeito só pode ocorrer durante as Operações, e somente ##$multipro;## vez(es) por Heist.',
+	menu_stockholm_syndrome_beta_desc = 'BÁSICO: ##$basic##\nCivis são intimidados pelo barulho que você faz e ficam ##$multibasic;## mais quietos.\n\nAVANÇADO: ##$pro##\nOs seus reféns não irão fugir quando são resgatados pela policia. Quando você for preso, o seu refém irá "salvar" você.\nEsse efeito só pode ocorrer durante as Operações, e somente ##$multipro;## vez(es) por Heist.',
 	--BASIC: ##$basic;##\nCivilians are intimidated by the noise you make and remain intimidated ##$multibasic;## longer.\n\nACE: ##$pro;##\nYour hostages will not flee when they have been rescued by law enforcers. Whenever you get into custody, your hostages will trade themselves for your safe return. This effect can occur during assaults, but only ##$multipro;## time during a heist.
 	-- TIER 3
 
 	-- TIER 4
 	--menu_black_marketeer_beta = "Hostage Taker",
-	menu_black_marketeer_beta_desc = "BÁSICO: ##$basic##\nTendo pelo menos um refém ou um policial convertido, você irá receber uma cura de ##$multibasic;## a cada ##$multibasic2;## segundos. \n\nAVANÇADO: ##$pro##\nTendo pelo menos um refém ou um policial convertido, você irá receber uma cura de ##$multipro;## a cada ##$multipro2;## segundos.",
+	menu_black_marketeer_beta_desc = "BÁSICO: ##$basic##\nTendo pelo menos um refém ou um policial convertido, você irá receber uma cura de ##$multibasic;## a cada ##$multibasic2;## segundos.\n\nAVANÇADO: ##$pro##\nTendo pelo menos um refém ou um policial convertido, você irá receber uma cura de ##$multipro;## a cada ##$multipro2;## segundos.",
 	--BASIC: ##$basic;##\nHaving at least one of your own hostage or converted law enforcer makes you regenerate ##$multibasic;## health every ##$multibasic2;## seconds.\n\nACE: ##$pro;##\nHaving at least one of your own hostage or converted law enforcer makes you regenerate ##$multipro;## health every ##$multipro2;## seconds.
 	-- TIER 4
 	

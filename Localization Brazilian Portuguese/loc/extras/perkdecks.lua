@@ -8,7 +8,7 @@ return {
 	menu_deckall_6_desc = "Desbloqueia o equipamento 'Bolsa de Armadura'. O equipamento pode ser usado para colocar o seu colete durante o assalto.\n\nAumenta a quantidade de munição coletada do chão para ##$multiperk;## de quantidade normal.",--Unlocks an armor bag equipment for you to use. The armor bag can be used to change your armor during a heist.\n\nIncreases your ammo pickup to ##$multiperk;## of the normal rate.
 	menu_deckall_8 = "Rápido e Furioso",
 	menu_deckall_8_desc = "Você causa ##$multiperk;## mais de dano. Não se aplica em dano corpo-a-corpo, lança-granadas ou lança-foguetes.\n\nAumenta a velocidade de interação com a 'Bolsa Médica' por ##$multiperk2;##.",--You do ##$multiperk;## more damage. Does not apply to melee damage, throwables, grenade launchers or rocket launchers.\n\nIncreases your doctor bag interaction speed by ##$multiperk2;##.
-	menu_st_available_spec_points = "$points Pontos de Cartas disponíveis",
+	menu_st_available_spec_points = "$points Pontos de Deck disponíveis",
 	menu_st_active_spec = "Equipado: $specialization",
 	menu_st_activate_spec = "Equipar o Perk Deck",
 	menu_st_max_perk_deck = "Maximizar Perk Deck",--Maximize perk deck
@@ -31,13 +31,13 @@ return {
 	bm_menu_skill_locked_smoke_screen_grenade = "Requer o Perk Deck do Sicario equipado",
 	bm_grenade_pocket_ecm_jammer = "Dispositivo ECM de Bolso",
 	bm_menu_skill_locked_pocket_ecm_jammer = "Requer o Perk Deck do Hacker equipado",
-	bm_grenade_pocket_ecm_jammer_desc = "Um pequeno dispositivo para atrapalhar e hackear sinais criptografados próximos. Com algoritmos sofisticados para ferrar informações sem fios, o Dispositivo ECM de Bolso dá ao portador uma vantagem em se esconder nas sombras e em um combate intenso.",
+	bm_grenade_pocket_ecm_jammer_desc = "Um pequeno dispositivo para atrapalhar e invadir sinais criptografados próximos. Com algoritmos sofisticados para ferrar informações sem fios, o Dispositivo ECM de Bolso dá ao portador uma vantagem em se esconder nas sombras e em um combate intenso.",
 	bm_grenade_tag_team = "Cigarro Eletrônico",
 	bm_menu_skill_locked_tag_team = "Requer o Perk Deck do Tag Team equipado",
 	bm_grenade_tag_team_desc = "Um pequeno cigarro eletrônico que temporariamente aumenta o senso do corpo humano e dá a ele um efeito de cura para duas pessoas.",
 	bm_grenade_damage_control = "Bebida do Stoic",
 	bm_menu_skill_locked_damage_control = "Requer o Perk Deck do Stoic equipado",
-	bm_grenade_damage_control_desc = 'Um frasco antigo de 1882 tendo a inscrição de "Estóico" e "JW Spirits", dado ao Duke quando era mais jovem na época em que treinou com monges budistas. Duke manteve o frasco cheio com o seu uísque favorito; tomar um gole é um gesto simbólico de calma e dá ao portador um momento de foco "zen", acabando com a dor.',
+	bm_grenade_damage_control_desc = 'Um frasco antigo de 1882 tendo a inscrição de "Estoico" e "JW Spirits", dado ao Duke quando era mais jovem na época em que treinou com monges budistas. Duke manteve o frasco cheio com o seu uísque favorito; tomar um gole é um gesto simbólico de calma e dá ao portador um momento de foco "zen", acabando com a dor.',
 	
 	-- Crew Chief
 	--menu_st_spec_1 = "Crew Chief",
@@ -64,12 +64,12 @@ return {
 	menu_deck2_5_desc = "Você ganha ##$multiperk;## a mais de vida.",--You gain an additional ##$multiperk;## more health.
 	menu_deck2_7 = "Paz não é o meu forte",
 	menu_deck2_7_desc = "Todas as armas tem uma chance de fazer os seus inimigos têrem pânico. \n\nPânico vai fazer os inimigos atordoados por um curto tempo.",--All firearms have a chance to spread panic among your enemies. \n\nPanic will make enemies go into short bursts of uncontrollable fear.
-	menu_deck2_9 = "800 quilos de Gorilla",
+	menu_deck2_9 = "800 quilos de Gorila",
 	menu_deck2_9_desc = "Você ganha ##$multiperk;## a mais de vida.\n\nVocê regenera ##$multiperk2;## de vida cada ##$multiperk3;## segundos.\n\nBônus por Completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##$multiperk4;##.",--You gain an additional ##$multiperk;## more health.\n\nYou regenerate ##$multiperk2;## of your life every ##$multiperk3;## seconds.\n\nDeck Completion Bonus: Your chance of getting a higher quality item during a Payday is increased by ##$multiperk4;##.
 	
 	-- Armorer
 	--menu_st_spec_3 = "Armorer",
-	menu_st_spec_3_desc = "O Armorer era um profissional dentro do exército. O trabalho do Armorer é fazer a manuntenção, reparar e melhorar as armas.\n\nQualquer sindicato criminal com respeito precisa de alguém que tenha certeza que os soldados tenham o armamento necessário para todo e qualquer serviço.",
+	menu_st_spec_3_desc = "O Armorer era um profissional dentro do exército. O trabalho do Armorer é fazer a manutenção, reparar e melhorar as armas.\n\nQualquer sindicato criminal com respeito precisa de alguém que tenha certeza que os soldados tenham o armamento necessário para todo e qualquer serviço.",
 	menu_deck3_1 = "Tipo I de Colete",
 	menu_deck3_1_desc = "Você ganha ##$multiperk;## mais de armadura.",--You gain ##$multiperk;## more armor.
 	menu_deck3_3 = "Tipo II de Colete",
@@ -182,7 +182,7 @@ return {
 	
 	-- Grinder
 	--menu_st_spec_11 = "Grinder",
-	menu_st_spec_11_desc = "Um tipíco Grinder é quem trabalha sozinho, consegue ter o controle de situações em que não teria um final feliz e matar todo mundo que estiver ao seu redor.\n\nO Grinder se preocupa em estar sempre na frente e punindo os seus inimigos, conseguindo sobreviver devido ao fato que ele causa um alto dano aos inimigos, não importa o dano que ele consiga aguentar.",
+	menu_st_spec_11_desc = "Um típico Grinder é quem trabalha sozinho, consegue ter o controle de situações em que não teria um final feliz e matar todo mundo que estiver ao seu redor.\n\nO Grinder se preocupa em estar sempre na frente e punindo os seus inimigos, conseguindo sobreviver devido ao fato que ele causa um alto dano aos inimigos, não importa o dano que ele consiga aguentar.",
 	menu_deck11_1 = "Histamina",
 	menu_deck11_1_desc = "Causando dano em um inimigo cura ##1## ponto de vida por ##0.3## segundos durante ##3## segundos.\n\nEsse efeito soma, mas não pode ocorrer mais de uma vez durante ##1.5## segundos e só funciona quando você estiver vestindo o ##Two-piece Suit## ou ##Lightweight Balistic Vest##.",
 	menu_deck11_3 = "Adrenalina",
@@ -224,7 +224,7 @@ return {
 	
 	-- Maniac
 	--menu_st_spec_14 = "Maniac",
-	menu_st_spec_14_desc = "O Perk Deck do Maniac é a encarnação da loucura e de nunca aceitar as situações de merda em momentos de perigo. Pela punição de estar constantemente causando dano, os seus amigos vão ter um escudo temporário fazendo todo mundo sentir o espiríto imortal do Jimmy.",
+	menu_st_spec_14_desc = "O Perk Deck do Maniac é a encarnação da loucura e de nunca aceitar as situações de merda em momentos de perigo. Pela punição de estar constantemente causando dano, os seus amigos vão ter um escudo temporário fazendo todo mundo sentir o espírito imortal do Jimmy.",
 	menu_deck14_1 = "Excitação",
 	menu_deck14_1_desc = "##100%## do dano que você causa é convertido em Pedaços de Histeria, até ##240## por ##4## segundos. O máximo é ##600##.\n\nPedaços de Histeria\nVocê ganha ##1## de absorção de dano para cada ##30## Pedaços de Histeria. Pedaços de Histeria cai ##60% + 80## a cada ##8## segundos.",
 	menu_deck14_3 = "Explosão",
@@ -253,7 +253,7 @@ return {
 	
 	-- Biker
 	--menu_st_spec_16 = "Biker",
-	menu_st_spec_16_desc = "As Gangues de Motoqueiros são as mais temidas em todo o mundo e os maiores clubes possuem nomes familiares comuns. Para ser um motoqueiro você precisará ser durão e leal e saber que as regras do clube não devem ser quebradas jamais. Motoqueiros são conhecidos por serem impiedosos e violentos, e que nunca teve qualquer medo de meter a porrada em qualquer um que entrar em seu caminho.\n\nQuando estiver vestindo a sua jaqueta e pilotando uma moto, você dirá pra todo mundo que você faz parte dos 1% que recusa a seguir as regras da sociedade e carrega com orgulho o título de Fora-da-Lei. Para um motoqueiro, tudo o que de fato importa são os seus irmãos do Motoclube e o seu trajeto.",
+	menu_st_spec_16_desc = "As Gangues de Motoqueiros são as mais temidas em todo o mundo e os maiores clubes possuem nomes familiares comuns. Para ser um motoqueiro você precisará ser durão e leal e saber que as regras do clube não devem ser quebradas jamais. Motoqueiros são conhecidos por serem impiedosos e violentos, e que nunca teve qualquer medo de meter a porrada em qualquer um que entrar em seu caminho.\n\nQuando estiver vestindo a sua jaqueta e pilotando uma moto, você dirá pra todo mundo que você faz parte dos 1% que recusa a seguir as regras da sociedade e carrega com orgulho o título de Fora-da-Lei. Para um motoqueiro, tudo o que, de fato, importa são os seus irmãos do Moto clube e o seu trajeto.",
 	menu_deck16_1 = "Prospecto",
 	menu_deck16_1_desc = "Toda vez que você e o seu grupo matar um inimigo, você ganha ##5## de vida e ##5## de armadura. Isso não poderá ocorrer mais do que ##4## vezes a cada ##4## segundos.",
 	menu_deck16_3 = "Rabo do Caçador",
@@ -302,7 +302,7 @@ return {
 	menu_deck19_3_desc = "Toda a sua armadura é convertida e aplicada na sua vida total.\n\nNota: todas as Skills que regenerem a sua armadura não funcionaram.",
 	menu_deck19_5 = "Calma",
 	menu_deck19_5_desc = "Depois de ##4## segundos sem levar dano, qualquer dano de tempo em que você estiver pendente será negado.",
-	menu_deck19_7 = "Impertubável",
+	menu_deck19_7 = "Imperturbável",
 	menu_deck19_7_desc = "Quando a sua vida estiver abaixo de ##35%##, ao invés de ##1## segundo, vai reduzir o tempo antes de poder usar de novo em ##2## segundos para cada inimigo que você matar.",
 	menu_deck19_9 = "Paciente",
 	menu_deck19_9_desc = "Quando o dano com tempo é removido, você será curado em ##50%## do dano em que levou com dano do tempo que restar daquele ponto.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
@@ -311,7 +311,7 @@ return {
 	--menu_st_spec_20 = "Tag Team",
 	menu_st_spec_20_desc = "Alguns dizem que algumas experiências são melhores quando são compartilhados, até mesmo os casos com os cigarros de aerossol! Para aquele assaltante especial que é o seu crush, isso é algo para ter um lindo amor enquanto você rouba cofres de bancos e faça alguns 'negócios'.",
 	menu_deck20_1 = "Almas Gêmeas",
-	menu_deck20_1_desc = "Desbloqueia e equipa o ##Cigarro Eletrônico##.\n\nPara ativar o Cigarro Eletrônico, você precisa olhar para alguém do seu grupo dentro de um raio de ##18## metros sem nada na frente e apertar o botão da granada para marcar ele.\n\nCada inimigo que você ou o aliado que estiver marcado matar irá curar ##15## da sua vida e o aliado marcado irá ter cura de ##7.5## de vida.\n\nCada inimigo que você matar vai extender a duração do efeito por ##1.3## segundos e reduzir o tempo antes de poder usar em 2 segundos.\n\nO efeito vai ter uma duração de cerca de ##12## segundos e tem um tempo antes de poder usar de ##60## segundos.",
+	menu_deck20_1_desc = "Desbloqueia e equipa o ##Cigarro Eletrônico##.\n\nPara ativar o Cigarro Eletrônico, você precisa olhar para alguém do seu grupo dentro de um raio de ##18## metros sem nada na frente e apertar o botão da granada para marcar ele.\n\nCada inimigo que você ou o aliado que estiver marcado matar irá curar ##15## da sua vida e o aliado marcado irá ter cura de ##7.5## de vida.\n\nCada inimigo que você matar vai estender a duração do efeito por ##1.3## segundos e reduzir o tempo antes de poder usar em 2 segundos.\n\nO efeito vai ter uma duração de cerca de ##12## segundos e tem um tempo antes de poder usar de ##60## segundos.",
 	menu_deck20_3 = "Aroma",
 	menu_deck20_3_desc = "A sua vida máxima é aumentada em ##20%##.",
 	menu_deck20_5 = "Sinergia",
@@ -323,7 +323,7 @@ return {
 	
 	-- Hacker
 	--menu_st_spec_21 = "Hacker",
-	menu_st_spec_21_desc = "Usando o seu equipamento e a sua mente brilhante, você pode fuder qualquer sistema de segurança com um simples apertar de um botão. Você nunca foi pego no flagra por uma câmera de segurança ou por um guarda, mas se as coisas irem por água a baixo, você poderá facilmente fazer uma força bruta, passar pelos guardas e dar um final não muito feliz para alguém que estiver te ouvindo.",
+	menu_st_spec_21_desc = "Usando o seu equipamento e a sua mente brilhante, você pode foder qualquer sistema de segurança com um simples apertar de um botão. Você nunca foi pego no flagra por uma câmera de segurança ou por um guarda, mas se as coisas irem por água a baixo, você poderá facilmente fazer uma força bruta, passar pelos guardas e dar um final não muito feliz para alguém que estiver te ouvindo.",
 	menu_deck21_1 = "Bug de Código",
 	menu_deck21_1_desc = "Desbloqueia e equipa o ##Dispositivo ECM de Bolso##.\n\nMudando para outro Perk Deck vai fazer com que o Dispositivo ECM de Bolso seja novamente bloqueado. O Dispositivo ECM de Bolso substitui a sua granada, e pode ser trocado caso queira. Enquanto estiver jogando, você poderá apertar a tecla da granada e ativar o Dispositivo ECM de Bolso.\n\nAtivando o Dispositivo ECM de Bolso antes do alarme soar, vai ativar o efeito de bloqueamento, desativando todos eletrônicos e pagers por ##6## segundos.\n\nAtivando o Dispositivo ECM de Bolso depois do alarme ter soado vai ativar o efeito de Feedback, tendo uma chance de atordoar os inimigos no mapa todo por ##6## segundos.\n\nO Dispositivo ECM de Bolso tem ##2## usos com um tempo de ##100## segundos antes de poder usar novamente, mas cada inimigo que você matar vai reduzir o tempo em ##6## segundos. \n\nNota: Os cooldowns dos ##2## usos são separados, o segundo não vai recarregar até que o primeiro termine.",
 	menu_deck21_3 = "Operação de Segurança",
@@ -334,4 +334,45 @@ return {
 	menu_deck21_7_desc = "Matando pelo menos ##1## inimigo enquanto estiver no efeito do Feedback ou de Jammer, você vai receber ##20## de Dodge por ##30## segundos.",
 	menu_deck21_9 = "Bot da INTERWEB",
 	menu_deck21_9_desc = "Enquanto estiver no efeito do Feedback, os seus aliados vão regenerar ##10## de vida.\n\nVocê ganha mais ##15%## de Dodge.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
-	}
+	
+	-- Leech
+	--menu_st_spec_22 = "",--Leech
+	menu_st_spec_22_desc = "Você é um parasita seletivo em combate, sugando os seus inimigos para curar os seus aliados e a si mesmo. Mas você não é só uma parede de tijolos que pode aguentar uma porrada. Você pode pegar essa dor que você sofre e usar para dar uma força para sua equipe.",
+--[[You are a selective parasite in combat, draining your foes to strengthen yourself and your teammates. Still, you're not just some brick shithouse that can take a beating. You can dish out the pain and use that aggression to bolster your team.  ]]
+	menu_deck22_1 = "Impulso",--Momentum
+	menu_deck22_1_desc = "Desbloqueia e equipa o Ampola do Leech.\n\nMudar para outro Perk Deck irá fazer o Ampola do Leech indisponível de novo. O Ampola do Leech substitui a sua 'granada' atual, é equipado no lugar da sua granada e pode ser trocado caso queira.\n\nEnquanto estiver jogando, você pode usar a tecla da granada ##$BTN_ABILITY;## para ativar o Ampola Leech.\n\nAtivando o Ampola do Leech irá restaurar ##$multiperk;## da vida e desativar a sua armadura por duração do Ampola do Leech.\n\nEnquanto o Ampola do Leech estiver ativo, a sua vida é dividido em pedaços de ##$multiperk2;## e o dano sofrido dos inimigos remove um pedaço. Matando ##$multiperk3;## inimigos irá restaurar um pedaço da sua vida e bloquear dano por 1 segundo. Assim que você sofrer dano, os seus aliados vão receber cura por ##$multiperk4;## da vida deles.\n\nO Ampola do Leech dura por ##$multiperk5;## segundos com um cooldown de ##$multiperk6;## segundos.",
+--[[Unlocks and equips the Leech Ampule.
+
+Changing to another perk deck will make the Leech Ampule unavailable again. The Leech Ampule replaces your current throwable, is equipped in your throwable slot and can be switched out if desired.
+
+While in game you can use throwable key ##$BTN_ABILITY;## to activate the Leech Ampule.
+
+Activating the Leech Ampule will restore ##$multiperk;## health and disables your armor for the duration of the Leech Ampule.
+
+While the Leech Ampule is active your health is divided into segments of ##$multiperk2;## and damage taken from enemies removes one segment. Killing ##$multiperk3;## enemies will restore one segment of your health and block damage for 1 second. Anytime you take damage your teammates are healed for ##$multiperk4;## of their health.
+
+The Leech Ampule lasts ##$multiperk5;## seconds with a ##$multiperk6;## seconds cooldown.]]
+	menu_deck22_3 = "Indomável",--Indomitable
+	menu_deck22_3_desc = "A sua vida máxima aumenta por ##$multiperk;##\n\nEnquanto o Ampola do Leech estiver ativo, você não pode cair, mas ficar com zero de vida irá reduzir o seu movimento por ##$multiperk2;##.",
+--[[Your maximum health is increased by ##$multiperk;##.
+
+While the Leech Ampule is active you cannot go into bleedout, but being out of health will slow you down by ##$multiperk2;##.]]
+	menu_deck22_5 = "Robusto",--Stalwart
+	menu_deck22_5_desc = "A duração do Ampola do Leech é aumentado para ##$multiperk;## segundos.\n\nMatando um inimigo reduz o cooldown do Ampola do Leech por ##$multiperk2;## segundo(s).\n\nSofrer dano agora cura os seus aliados por ##$multiperk3;## da vida deles.",
+--[[The Leech Ampule duration is increased to ##$multiperk;## seconds.
+
+Killing an enemy reduces the cooldown of the Leech Ampule by ##$multiperk2;## second(s).
+
+Taking damage now heals teammates by ##$multiperk3;## of their health.]]
+	menu_deck22_7 = "Construído Diferentemente",--Built Different
+	menu_deck22_7_desc = "A sua vida máxima aumenta por ##$multiperk;##.",--Your maximum health is increased by ##$multiperk;##.
+	menu_deck22_9 = "Simbiose",--Symbiosis
+	menu_deck22_9_desc = "Você pode ativar o Ampola do Leech enquanto estiver no chão, vai te reviver temporariamente até o Ampola do Leech acabar. Se você conseguir reviver um aliado ou usar uma Bolsa Médica antes do Ampola do Leech acabar, você pode ficar vivo se a sua vida não estiver vazia.\n\nEnquanto o Ampola do Leech estiver ativo, a sua vida é agora dividido em pedaços de ##$multiperk;##.\n\nA sua vida máxima aumenta por ##$multiperk2;##.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+--[[You can now activate Leech Ampule while downed, temporarily reviving you until the end of the Leech Ampule. If you successfully revive a teammate or use a doctor bag before the Leech Ampule ends, you may stay alive if you are above 0 health.
+
+While the Leech Ampule is active your health is now divided into segments of ##$multiperk;##.
+
+Your maximum health is increased by ##$multiperk2;##.
+
+Deck Completion Bonus: Your chance of getting a higher quality item during a Payday is increased by ##$multiperk3;##.]]
+}

@@ -258,6 +258,28 @@ return {
 	bm_suit_elegantscarf_desc = "Nunca substime o estilo e um pouco de talento. Esse traje de alta costura vai deixar uma impressão elegante em você. Seja lá o que for os seus planos, você vai parecer um profissional enquanto estiver dando os detalhes.",
 --[[Never underestimate style and a bit of flair. This piece of haute couture will have you make an elegant impression. Whatever your plans, you will look stunning while going about them.]]
 
+	bm_suit_rusbear_desc = "Nada diz que você vai ter que passar frio enquanto estiver assaltando. Com isso, você pode assaltar enquanto estiver com estilo e confortável.",
+--[[Nothing says you have to freeze while out there heisting. With this, you can heist away while looking good and feeling comfy.]]
+	bm_suit_var_rusbear_arctic_desc = "Com isso, você tem uma boa camuflagem para nevascas.",
+--[[With this, you got some real good camo for those snowy ranges.]]
+	bm_suit_var_rusbear_blacmor_desc = "Essa variação é perfeita para roubos noturnos.",
+--[[This variant is perfect for those night heists.]]
+	bm_suit_var_rusbear_quilt_desc = "Tá indo para náutica? Por que não usar uma cor combinando?",
+--[[Going nautical? Why not sport a fitting color?]]
+	bm_suit_var_rusbear_default_desc = "Você pode se destacar, mas pelo menos o sangue não vai aparecer... bom, não tanto.",
+--[[You might stand out, but at least blood stains won't show...as much.]]
+
+	bm_suit_lonorwa_desc = "Estiloso e foda, não esquece que é morninho e confortável. Vai assaltar nas florestas de neve ou nas ruas do inverno? Não se preocupe, isso aqui vai servir os dois.",
+--[[Stylish and sleek, yet warm and comfy. Ambush in the snowy forest or winter streets? No worries, you'll be good to go.]]
+	bm_suit_var_lonorwa_blue_desc = "Essa variação tem uma boa mistura de claro e escuro.",
+--[[This variant sports a good mix of light and dark.]]
+	bm_suit_var_lonorwa_orange_desc = "Um pouco mais de uma aparência de utilitarista nunca pode dar errado.",
+--[[A bit more of a utilitarian look is never wrong.]]
+	bm_suit_var_lonorwa_white_desc = "Quer ficar invinsível em campos do inverno? Essa variação é perfeita para você.",
+--[[Wanna be invisible in the winter fields? This variant is for you.]]
+	bm_suit_var_lonorwa_default_desc = "Agora, isso é clássico. O único que transmite a mensagem.",
+--[[Now, this is the classic version. The one that really makes a statement.]]
+
 	-- LUVAS
 	bm_gloves_default_desc = "Use as Luvas padrão dos Heisters",--Use the heisters default gloves
 	bm_gloves_heistwrinkled_desc = "Vestido para roubar.",--Dressed up for stealing.

@@ -5,7 +5,7 @@
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/_gab_foxJaketto_/",
-	"version" : "10.05 - (24 de Novembro 2021) Correções",
+	"version" : "10.06 - (24 de Novembro 2021) Update 216",
 	"blt_version" : 2,
 	"updates" : [
 		{ 
