@@ -2,12 +2,12 @@ return {
 	-- Nomes e Descrições
 	--heist_mex = "Border Crossing",--Border Crossing
 	--heist_mex_hl = "Southern Border",--Southern Border
-	heist_mex_crimenet = "Bens valiosos da Murkywater estão sendo transportados para fora do continente pelo México usando um túnel secreto da Overkill MC e o cartel Coyopa. Se formos rápidos, podemos pegar tudo bem abaixo do nariz deles enquanto o Dentista está ocupado com o Bain, e desestabilizar eles.\n\n» Infiltre-se na Instalação da Overkill MC no Arizona\n» Encontre o Túnel para o Complexo Coyopa no México\n» Roube o Loot da Murkywater e Fuja",--Valuable Murkywater assets are being moved off the continent through Mexico using a hidden tunnel by the Overkill MC and Coyopa cartel. If we move quickly, we can take those resources right from under their noses while the Dentist is occupied with Bain, and deal them a crippling blow.\n\n» Infiltrate Overkill MC's facility in Arizona\n» Find the tunnel to the Coyopa compound in Mexico\n» Steal the Murkywater loot and escape
+	heist_mex_crimenet = "Bens valiosos da Murkywater estão sendo transportados para fora do continente pelo México usando um túnel secreto da Overkill MC e o cartel Coyopa. Se formos rápidos, podemos pegar tudo bem abaixo do nariz deles enquanto o Dentista está ocupado com o Bain, e desestabilizar eles.\n\n» Infiltre-se na Instalação da Overkill MC no Arizona\n» Encontre o Túnel para o Complexo Coyopa no México\n» Roube o Espólio da Murkywater e Fuja",--Valuable Murkywater assets are being moved off the continent through Mexico using a hidden tunnel by the Overkill MC and Coyopa cartel. If we move quickly, we can take those resources right from under their noses while the Dentist is occupied with Bain, and deal them a crippling blow.\n\n» Infiltrate Overkill MC's facility in Arizona\n» Find the tunnel to the Coyopa compound in Mexico\n» Steal the Murkywater loot and escape
 	heist_mex_briefing = "A Overkill MC tem um clube bem na borda em Miracle Valley, Arizona, com um túnel secreto que se conecta a um complexo no México pertencido aos Coyopas. A Murkywater conseguiu um avião que vai transportar os bens, mas não sei para onde. Vocês vão roubar aquele avião. Precisarão entrar no complexo da Overkill MC e encontrar o túnel para o México, e então encontrem os bens antes de saírem com o avião. Se conseguirem fazer isso quietos, seria uma humilhação e tanto para os caras da Murkywater, mas pode ir em frente se quiser sair atirando em todo mundo.",--Overkill has a club house right by the border in Miracle Valley, Arizona, with a hidden underground tunnel leading into a compound in Mexico owned by the Coyopas. The Murky's have arranged an airplane that will transport their goods, but I don't know to where. You're going to steal that plane. You gotta get into the Overkill facility and find the tunnel to Mexico, then find the goods before you get out with the plane. If you can do it quietly, it would be a nice humiliation for the Murky's, but go ahead and shoot up the place if you want to.
 	
 	-- Nomes e Descrições (Border Crystals)
-	heist_mex_cooking = "Border Crystals",--Border Crystals
-	heist_mex_cooking_hl = "Coyopa Compound",--Coyopa Compound
+	--heist_mex_cooking = "Border Crystals",--Border Crystals
+	--heist_mex_cooking_hl = "Coyopa Compound",--Coyopa Compound
 	heist_mex_cooking_crimenet = "Amigos, arranjei um jeitinho de nós fazermos mais uma boa grana. Vocês vão cozinhar um pouquinho de coisas não saudáveis. Aqueles idiotas do Cartel Coyopa possuem um bom laboratório de metanfetamina montado em seu complexo, bem ao sul da borda, para nós pegarmos 'emprestado' rapidinho.\n\n» Entre no Complexo\n» Encontre o Laboratório\n» Encontre os Ingredientes\n» Cozinhe Metanfetamina\n» Fuja",--Friends, I've arranged a little way to make us another big pile of nice cash. You're going to do a little cooking, of the less-than-healthy kind. Those dwankies in the Coyopa Cartel have a nice meth lab set up in their compound, just south of the border, for us to "borrow" for a bit.\n\n» Enter the compound\n» Find the meth lab\n» Find the ingredients\n» Cook meth\n» Escape
 	heist_mex_cooking_briefing = "Já sabem o esquema amigos.. Apenas cozinhem o máximo que conseguirem e isso vai ser muito bom para as nossas economias. Vou ajudá-los o máximo que eu conseguir. Os Coyopas não vão ficar felizes em ver vocês, e eles têm ajuda dos meus antigos colegas da Murkywater, então vão ficar de mãos ocupadas, mas vai valer a pena, yeah?",--You know the routine friends. Just keep cooking as long as you can and this will be a nice boost to our finances. I will assist you as much as I can. The Coyopas will not be happy to see you, and they've got help from my former colleagues at Murkywater, so you will have your hands full, but it will be worth it, yeah?
 	
@@ -77,13 +77,13 @@ return {
 	loc_mex_20_01 = "Precisam encontrar aquele avião.",--You gotta find that plane. 
 	loc_mex_20_02 = "Não percam tempo. Encontrem o avião, rápido.",--No standing around. Find the plane, quickly.
 	loc_mex_20_03 = "O avião, amigos, o avião!",--The plane, friends, the plane!
-	loc_mex_21_01 = "Aí está a carona de vocês. Assim que assegurarem todo o loot, vão precisar reabastecer ele.",--There's your ride. Once you've got all the loot secured, you gotta get it refueled. 
-	loc_mex_21_02 = "Esse é o avião. Levem o loot pra dentro, e depois coloquem o combustível.",--That's the plane. Get the loot inside, then give it some fuel.
-	loc_mex_21_03 = "Ok, é isso. Quando colocarem o loot a bordo, vão precisar colocar combustível nele.",--OK, that's it. When you've got the loot aboard, you need to juice it up as well.
-	loc_mex_22_01 = "Hora de procurar o loot da Murkywater. É armas que estamos atrás.",--Time to start looking for that stash of Murkywater contraband. It's weapons we're after. 
+	loc_mex_21_01 = "Aí está a carona de vocês. Assim que assegurarem todo o espólio, vão precisar reabastecer ele.",--There's your ride. Once you've got all the loot secured, you gotta get it refueled. 
+	loc_mex_21_02 = "Esse é o avião. Levem o espólio pra dentro, e depois coloquem o combustível.",--That's the plane. Get the loot inside, then give it some fuel.
+	loc_mex_21_03 = "Ok, é isso. Quando colocarem o espólio a bordo, vão precisar colocar combustível nele.",--OK, that's it. When you've got the loot aboard, you need to juice it up as well.
+	loc_mex_22_01 = "Hora de procurar o espólio da Murkywater. É armas que estamos atrás.",--Time to start looking for that stash of Murkywater contraband. It's weapons we're after. 
 	loc_mex_22_02 = "Os recursos da Murkywater que queremos são armas. Podem estar em qualquer lugar, então comecem a procurar.",--The Murky resources we're after will be weapons. They could be anywhere so you'll just have to start looking.
 	loc_mex_22_03 = "Comecem a procurar a mina de ouro da Murkywater. Ela está na forma de armas.",--Start searching for that Murkywater nest egg. It's in the form of weapons.
-	loc_mex_23_01 = "Hora de procurar o loot da Murkywater. Estamos atrás de drogas.",--Time to start looking for that stash of Murky loot. It's drugs we're after. 
+	loc_mex_23_01 = "Hora de procurar o espólio da Murkywater. Estamos atrás de drogas.",--Time to start looking for that stash of Murky loot. It's drugs we're after. 
 	loc_mex_23_02 = "Os recursos da Murkywater que precisamos encontrar são drogas. Podem estar em qualquer lugar por aí.",--The Murky resources we've gotta find will be in the form of drugs. They could be anywhere around here.
 	loc_mex_23_03 = "Comecem a procurar a mina de ouro da Murkywater, em formato de muita cocaína.",--Start searching for that Murkywater nest egg, shaped like a lot of cocaine.
 	loc_mex_24_01 = "É hora de procurarmos pelo tesouro da Murkywater. Estamos procurando por dinheiro, muito dinheiro.",--Time to start looking for that stash of Murky loot. We're looking for cash, and lots of it.
@@ -209,17 +209,17 @@ return {
 	loc_mex_65_01 = "Vocês devem encontrar aquele avião.",--You gotta find that plane.
     loc_mex_65_02 = "Não fiquem parados. Procurem pelo avião, rápido.",--No standing around. Find the plane, quickly.
     loc_mex_65_03 = "O avião, amigos, o avião!",--The plane, friends, the plane!
-	loc_mex_66_01 = "Aí está a carona de vocês. Depois de assegurar todo o loot, vocês vão precisar reabastecê-los.",--There's your ride out. Once you've got all the loot secured, you gotta get it refueled.
-	loc_mex_66_02 = "Esse é o avião que estamos procurando. Coloque o loot dentro, e depois um pouco de combustível.",--That's the plane we're looking for. Get the loot inside, then give it some fuel.
-	loc_mex_66_03 = "OK, é isso. Assim que tiverem colocado todo o loot dentro, vocês vão precisar sair rapidamente.",--OK, that's it. When you've got the loot inside, you need to juice it up as well.
-	loc_mex_67_01 = "Hora de procurar o loot da Murkywater. Estamos atrás de armas.",--Time to start looking for that stash of Murky loot. It's weapons we're after.
-    loc_mex_67_02 = "O loot da Murkywater que estamos procurando são armas. Elas podem estar em qualquer lugar por aqui, então vocês terão que começar a procurar.",--The Murky resources we're after will be weapons. They could be anywhere around here, so you're just going to have to start looking.
+	loc_mex_66_01 = "Aí está a carona de vocês. Depois de assegurar todo o espólio, vocês vão precisar reabastecê-los.",--There's your ride out. Once you've got all the loot secured, you gotta get it refueled.
+	loc_mex_66_02 = "Esse é o avião que estamos procurando. Coloque o espólio dentro, e depois um pouco de combustível.",--That's the plane we're looking for. Get the loot inside, then give it some fuel.
+	loc_mex_66_03 = "OK, é isso. Assim que tiverem colocado todo o espólio dentro, vocês vão precisar sair rapidamente.",--OK, that's it. When you've got the loot inside, you need to juice it up as well.
+	loc_mex_67_01 = "Hora de procurar o espólio da Murkywater. Estamos atrás de armas.",--Time to start looking for that stash of Murky loot. It's weapons we're after.
+    loc_mex_67_02 = "O espólio da Murkywater que estamos procurando são armas. Elas podem estar em qualquer lugar por aqui, então vocês terão que começar a procurar.",--The Murky resources we're after will be weapons. They could be anywhere around here, so you're just going to have to start looking.
 	loc_mex_67_03 = "Comecem a procurar a mina de ouro da Murkywater. Ela está na forma de Armas.",--Start searching for the Murkywater nest egg we're after. It's in the form of weapons.
-	loc_mex_68_01 = "Hora de procurar o loot da Murkywater. Estamos atrás de drogas.",--Time to start looking for that stash of Murky loot. It's drugs we're after.
+	loc_mex_68_01 = "Hora de procurar o espólio da Murkywater. Estamos atrás de drogas.",--Time to start looking for that stash of Murky loot. It's drugs we're after.
 	loc_mex_68_02 = "Os bens da Murkywater que queremos são drogas. Podem estar em qualquer lugar por aí, então comecem a procurar.",--The Murky resources we're after will be in the form of drugs. They could be anywhere around there, so you're just going to have to start looking.
 	loc_mex_68_03 = "Comecem a procurar a mina de ouro da Murkywater. Ela está na forma de Cocaína.",--Start searching for the Murkywater nest egg we're after. It's in the form of cocaine.
-	loc_mex_69_01 = "Hora de procurar o loot da Murkywater. Estamos procurando por dinheiro, muito dinheiro.",--Time to start looking for that stash of Murky loot. We're looking for cash, and lots of it.
-	loc_mex_69_02 = "O loot da Murkywater que estamos atrás é dinheiro vivo. Podem estar mantidos em algum lugar próximo, então vocês só terão que procurar por ele.",--The Murky resources we're after will be money. Could be kept anywhere nearby, so you're just going to have to search for it.
+	loc_mex_69_01 = "Hora de procurar o espólio da Murkywater. Estamos procurando por dinheiro, muito dinheiro.",--Time to start looking for that stash of Murky loot. We're looking for cash, and lots of it.
+	loc_mex_69_02 = "O espólio da Murkywater que estamos atrás é dinheiro vivo. Podem estar mantidos em algum lugar próximo, então vocês só terão que procurar por ele.",--The Murky resources we're after will be money. Could be kept anywhere nearby, so you're just going to have to search for it.
 	loc_mex_69_03 = "A mina de ouro dos caras da Murkywater são dinheiro vivo, então comecem a procurar. Podem estar em qualquer lugar por aí.",--The Murky's nest egg is cash money, so start looking. It could be anywhere around there.
 	loc_mex_70_01 = "Deve ser o suficiente pra chutarmos os dentes dos Murkies.",--That should be enough to kick the Murkys in the teeth.
 	loc_mex_70_02 = "Ótimo, já temos o que precisamos. A Murkywater e o Dentista estarão com grandes problemas quando isso chegar em casa.",--Good, we got what we need. Murkywater and the Dentist will be in big trouble once this hits home.
@@ -409,7 +409,7 @@ return {
 	-- Objetivos
 	hud_heist_mex1 = "Encontre o túnel subterrâneo para o México em algum lugar na parte de fora.",--Find an underground tunnel leading to Mexico somewhere outside.
 	hud_heist_mex1_hl = "Localize o Túnel",--Locate the tunnel
-	hud_heist_mex10 = "Encontre um tanque de combústivel de avião e uma bomba. Conecte ambos ao avião.",--Find a tank of airplane fuel and a pump. Connect them both to the plane.
+	hud_heist_mex10 = "Encontre um tanque de combustível de avião e uma bomba. Conecte ambos ao avião.",--Find a tank of airplane fuel and a pump. Connect them both to the plane.
 	hud_heist_mex10_hl = "Conecte a Mangueira de Combustível no Avião",--Connect the fuel hose to the plane
 	hud_heist_mex11 = "Fuja roubando o avião.",--Escape by stealing the plane.
 	hud_heist_mex11_hl = "Fuga Disponível",--Escape available

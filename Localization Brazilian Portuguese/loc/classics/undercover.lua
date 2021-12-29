@@ -1,7 +1,7 @@
 return {
 	-- Nomes e Descrições
-	heist_man_hl = "Undercover",
-	heist_man = "Undercover",
+	--heist_man_hl = "Undercover",
+	--heist_man = "Undercover",
 	heist_man_briefing = "O Contribuinte achou que seria esperto fazer um acordo com uma grande empresa, mas a informação acabou vazando, e agora grandes apostadores querem - querem tudo. Nós temos um prédio abandonado inteiro para nós, para ficar de olho no acordo. Temos tudo já preparado. O Alex vai nos ajudar com o guindaste. Assustem o contribuinte para dentro da limousine, balançem ele um pouco, e ele com certeza vai nos dar o servidor e as senhas. Quando estamos falando de 25 milhões de dólares, vale tudo.",
 	heist_man_crimenet = "O Contribuinte está carregando um servidor que tem mais fortuna do que o seu peso. Me conectem com o computador dentro do prédio e vou conseguir transferir os dados facilmente. Vamos mostrar para eles como são os negócios. \n\n» Pegue o Servidor do Contribuinte\n» Extraia as Senhas\n» Hackeie e Transfira os Dados",
 	

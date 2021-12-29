@@ -7,7 +7,7 @@ return {
 	pln_bigoil_stage1_brief_01b = "Aposto que está no cofre deles.",--I'm betting it's in their safe.
 	pln_bigoil_stage1_brief_02 = "É, eles estão prontos para nós a julgar pelo número de guardas. Parece que eles tem câmeras também. Tenham certeza de chegar perto antes de começar a agir.",--Yeah, they're ready for us judging by the number of lookouts... Looks like they have cameras too. Make sure you get close before you hit 'em.
 	pln_bigoil_stage1_brief_02b = "Não queremos eles nos impedindo de conseguir a informação. Encontrem o cofre, provavelmente estará lá.",--We don't want them stopping us from getting the intel before we get it. Find the safe, it's probably there.
-	heist_welcome_to_the_jungle_2_hl = "Engine Problem",--Engine Problem
+	--heist_welcome_to_the_jungle_2_hl = "Engine Problem",--Engine Problem
 	heist_welcome_to_the_jungle_2_briefing = "Bem, examinei a informação e isso está ficando interessante. Verifiquem as pistas. Conheçam elas de cima a baixo. Precisamos fazer uma visita ao Laboratório do cara, e depois, roubar o seu motor de fusão.",--Well, I've been through the intel, and this is gonna be interesting. Check out the assets. Get to know them upside down. We need to sneak in to find this guy's lab, and, in the lab, his fusion engine.
 	pln_bigoil_stage2_brief_01b = "Não é surpresa que a segurança vai estar rígida, então iremos pelo ar em vez de dirigir. Silenciosos e mortais. Encontrem o motor, e mandem ele pelo helicóptero. Boa sorte.",--No surprise security's going to be real tight, so we'll airdrop in instead of driving. Quiet and deadly. Find the engine, and i'll have it flown out. Good luck.
 

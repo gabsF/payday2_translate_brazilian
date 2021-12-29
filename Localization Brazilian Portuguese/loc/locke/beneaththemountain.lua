@@ -3,7 +3,7 @@ return {
 	--heist_pbr = "Beneath the Mountain",
 	--heist_pbr_hl = "Beneath the Mountain",
 	heist_pbr_briefing = "Locke quer que nós ataquemos uma instalação da Murkywater no deserto. A Black Ridge. Era uma antiga instalação das forças aéreas. A Murkywater comprou o lugar depois da guerra fria, o transformando em seu próprio Fort Knox, então vocês podem apostar que eles estão guardando grandes coisas por lá. Não tenho certeza do que esperar, não tem muita coisa online então temos poucas informações. Mas uma coisa é certa - Você não vai atravessar esse lugar de forma furtiva. Se preparem para mais uma guerra.",--Locke has us hitting a Murky facility out in the desert. Black Ridge. Was an old air force place, back in the day. Murkywater bought it up after the Cold War, turned it into their own Fort Knox, so you can bet they're holding some serious loot here. Not sure what to expect. Not much online, so we got little in the way of intel. One thing is certain though - you're not going to sneak through this one. Dress for loud.
-	heist_pbr_crimenet = "O alvo da vez é uma instalação da Murkywater no deserto. Considerem o próprio Fort Knox deles. Force a sua entrada e traga qualquer espólio que eles estejam guardando.\n\n» Recupere os Recursos deixados por Locke\n» Lute pelo caminho até o Complexo interior\n» Abra os Cofres e pegue os Loots\n» Encontre-se com o Locke\n» Destrua os Radares e fuja!",--The target is a Murkywater facility in the desert. Consider it their Fort Knox. Force your way in, and bring out whatever loot they're holding.\n\n» Retrieve assets left by Locke\n» Fight your way to the inner complex\n» Open the vaults and retrieve the loot\n» Meet with Locke\n» Destroy the radars and escape
+	heist_pbr_crimenet = "O alvo da vez é uma instalação da Murkywater no deserto. Considerem o próprio Fort Knox deles. Force a sua entrada e traga qualquer espólio que eles estejam guardando.\n\n» Recupere os Recursos deixados por Locke\n» Lute pelo caminho até o Complexo interior\n» Abra os Cofres e pegue os Espólios\n» Encontre-se com o Locke\n» Destrua os Radares e fuja!",--The target is a Murkywater facility in the desert. Consider it their Fort Knox. Force your way in, and bring out whatever loot they're holding.\n\n» Retrieve assets left by Locke\n» Fight your way to the inner complex\n» Open the vaults and retrieve the loot\n» Meet with Locke\n» Destroy the radars and escape
 	
 	-- Legendas
 	mer_jr1_intro_01_01 = "Intrusos! Fogo!",--Intruders! Fire!
@@ -23,7 +23,7 @@ return {
 	loc_jr1_66_03 = "Apenas dois usando a tirolesa de cada vez, meus bons amigos. e quando estiverem lá em cima, não tem mais volta. Então vão.",--Only two riding the ziplines at a time, my good friends. And once you're up, that's it. So come on.
 	loc_jr1_22_01 = "Tenham certeza que todos vocês estejam dentro, a porta de fora deverá fechar para a de dentro abrir.",--Make sure all you fine people are inside, the outer door must close before the inner door can open.
 	loc_jr1_27_02 = "O controle será encontrado com uma boa vista para o complexo.",--The control will be found overlooking the complex.
-	loc_jr1_51_01 = "Eu tenho um ótimo lugar, apenas para as bolsas de loot... bem aqui.",--I have a nice spot, just for those loot bags... right here.
+	loc_jr1_51_01 = "Eu tenho um ótimo lugar, apenas para as bolsas de espólios... bem aqui.",--I have a nice spot, just for those loot bags... right here.
 	loc_jr1_40_01 = "Ah! Cavalheiros! Saudações!",--Ah! Gentlemen! Greetings!
 	loc_jr1_23_02 = "Vai abrir em um segundo ou dois. E então...",--It will open in a second or two. And then... 
 	loc_jr1_14_02 = "Vocês deixaram os kerels fuderem vocês. Fodam eles de volta e consertem o detonador.",--You let the kerels fuck you. Fuck 'em back and fix the detonator.
@@ -41,7 +41,7 @@ return {
 	loc_jr1_07_01 = "Lembrem-se, larguem as cargas perto da porta.",--Remember, drop the charges near the door.
 	loc_jr1_17_03 = "Essa porta tem um protocolo de segurança de dois estágios. O primeiro estágio é usar o cartão de acesso. então... quando vocês quiserem.",--This door has a two-stage security protocol. First stage is using the keycard. So...if you please.
 	loc_jr1_12_01 = "A contagem começou. mantenham a policia longe do detonador, yeah? Nada de se esconder!",--The countdown has started. Keep the police off the detonator, yes? No snippy-snip!
-	loc_jr1_50_02 = "Agora, se vocês quiserem ser gentis.. As bags de loot para dentro do helicóptero, pode ser?",--And now, if you would be so kind, the loot bags to the helicopter? Please?
+	loc_jr1_50_02 = "Agora, se vocês quiserem ser gentis.. As bolsas de espólios para dentro do helicóptero, pode ser?",--And now, if you would be so kind, the loot bags to the helicopter? Please?
 	loc_jr1_43_01 = "Nosso helicóptero de fuga está lá fora, mas vocês também irão ver vários equipamentos de radar. É com isso que eles conseguiriam nos seguir para qualquer lugar que voássemos.",--Our escape chopper is out here, but you will also see a lot of radar equipment. With this, they could follow us anywhere we could fly to. 
 	loc_jr1_46_03 = "Quase aberta. lembrem-se, vocês lidam com os radares e eu preparo o helicóptero.",--Almost open. Remember, you deal with the radars, and I will prepare the helicopter.
 	loc_jr1_67_02 = "Esse sistema foi construido para ser simples. Tudo o que vocês precisam fazer é escolher um cofre e pressionar um botão. fácil, yeah? Com certeza.",--This system is built to be simple. All you got to do is choose a vault and press a button. Easy, yeah? For sure.
@@ -50,14 +50,14 @@ return {
 	loc_jr1_19_02 = "Bravo! Agora, segundo passo - Encontrem a estação de segurança, Entrem e aprovem a sequência de abertura",--Bravo! Now, second step - find the local security station, cut through and approve the opening sequence.
 	loc_jr1_53_03 = "Sim, seria mais agradável conseguir combustível para o helicóptero.",--Yes, it would be most agreeable to get some fuel in this chopper.
 	loc_jr1_58_01 = "A luta continua!",--A luta continua!
-	loc_jr1_32_01 = "E eu acredito que seja isso, meus amigos! Agora, por favor tenham certeza de que nossos loots duramente conquistados estejam amarrados nos cabos e sejam trazidos até mim.",--And I believe that about does it, my friends! Now, please ensure that our hard-earned loot is placed on the cables and conveyed up to me. 
+	loc_jr1_32_01 = "E eu acredito que seja isso, meus amigos! Agora, por favor tenham certeza de que nossos espólios duramente conquistados estejam amarrados nos cabos e sejam trazidos até mim.",--And I believe that about does it, my friends! Now, please ensure that our hard-earned loot is placed on the cables and conveyed up to me. 
 	loc_jr1_59_03 = "Agora apenas deixem a trava de tempo acabar, queridos amigos. Vai valer a pena. Eu prometo.",--Now just let the timelock run down, dear friends. It will be worth it, I promise.
 	loc_jr1_58_06 = "Nós poderiamos ter usado vocês lá em Rodésia.",--We could have done with you guys in Rhodesia.
-	loc_jr1_52_03 = "Amigos! Alguns zé bucetas estiveram passeando com esse passáro. O tanque tá totalmente vazio. Vocês poderiam ser bons companheiros e enganchar a mangueira de combustível?",--Ach! Some poes has been joyriding this bird. Gas is empty. Can you be a good chap and hook up the fuel line?
+	loc_jr1_52_03 = "Amigos! Alguns zé bucetas estiveram passeando com esse pássaro. O tanque tá totalmente vazio. Vocês poderiam ser bons companheiros e enganchar a mangueira de combustível?",--Ach! Some poes has been joyriding this bird. Gas is empty. Can you be a good chap and hook up the fuel line?
 	loc_jr1_03_01 = "Cavalheiros? As caixas marcadas? Por favor?",--Gentlemen? The crates with the strobes? Please?
 	loc_jr1_35_02 = "Esse servidor tem segredos, gravações, informações que podem mudar o mundo. E todos os meus jogos salvos. Yeah, com certeza.",--This server has secrets, recordings, data that can change the world. And all my saved games. Yeah, for sure.
 	loc_jr1_35_01 = 'Essa coisa tem segredos que podem derrubar o governo. Quer ver o que o presidente mantém guardado em uma pasta chamada "Interesses de Cavalheiros"?. você quer, com certeza!',--This thing has secrets that can topple the government. Wanna see what the President keeps in a folder called "Gentlemen's Interests"? Yeah, you do - for sure!
-	loc_jr1_28_02 = "Agora, apenas um cofre pode ser aberto por vez, e não são todos os cofres que tem loots. Eu vou deixar para vocês decidirem qual vale a pena ser aberto.",--Now, only one vault can be opened at a time, and not all vaults are containing the loot. I will leave it to you to figure out which is worth opening. 
+	loc_jr1_28_02 = "Agora, apenas um cofre pode ser aberto por vez, e não são todos os cofres que tem espólios. Eu vou deixar para vocês decidirem qual vale a pena ser aberto.",--Now, only one vault can be opened at a time, and not all vaults are containing the loot. I will leave it to you to figure out which is worth opening. 
 	loc_jr1_21_01 = "Esplêndido! Tudo está progredindo perfeitamente. Agora, por favor, Todos para dentro da trava de ar.",--Superb! Everything is proceeding perfectly. Now, please, everybody into the airlock.
 	loc_jr1_44_02 = "Nós queremos sair em paz, então esses devem ser destruidos. Eu posso deixar isso com vocês, yeah?",--We want to get away cleanly so these must be destroyed. I can leave that to you, yes?
 	loc_jr1_41_02 = "Nós podemos nos conhecer melhor depois, mas agora eu sinto que seria oportuno, como vocês dizem, DAR O FORA, sim?",--We can get better acquainted later, but I feel now would be the opportune time to, how you say, GTFO, yes?
@@ -71,13 +71,13 @@ return {
 	loc_jr1_51_02 = "Nós estamos quase acabando, mas deixem-me lembrar a todos de novo para trazer as bolsas para o helicóptero.",--We're almost done, but may I remind you again about bringing the bags to the helicopter?
 	loc_jr1_58_05 = "Façam isso como vocês fizeram no armazém. Yeah, eu vi aquilo, com certeza.",--Do it like you did it at the warehouse. Yeah, I saw that. For sure.
 	loc_jr1_32_02 = "Maravilhoso! Creio eu que isso seja o suficiente para fazer nossa viagem ter valido a pena. Por favor tenham certeza de que todas as bolsas estejam presas aos cabos e cheguem até mim.",--Wonderful! I believe that that is enough to make this a worthwhile venture. Please, ensure all of the bags are placed on the cables and sent up to me.
-	loc_jr1_30_03 = "Essa é uma boa quantidade de loots, amigos. O suficiente para fazer isso ter valido a pena. Mas, se vocês quiserem fuder a Murkywater mais um pouquinho... vocês podem pegar mais.",--That is a good amount of loot, friends. Enough to make this worthwhile. Still, if you feel like you still got a little lead in your pencil and wanted to fuck Murkywater a little longer... you can get more.
+	loc_jr1_30_03 = "Essa é uma boa quantidade de espólios, amigos. O suficiente para fazer isso ter valido a pena. Mas, se vocês quiserem foder a Murkywater mais um pouquinho... vocês podem pegar mais.",--That is a good amount of loot, friends. Enough to make this worthwhile. Still, if you feel like you still got a little lead in your pencil and wanted to fuck Murkywater a little longer... you can get more.
 	loc_jr1_37_03 = "Vocês veem os cabos? Sim, mandem as bolsas aqui pra cima.",--Do you see the shaft? Yes, just send the bags of loot up here.
-	loc_jr1_14_01 = "Esses zé bucetas fuderam com o detonador. Consertem!",--Those poes fucked the detonator, mans. Fix it!
+	loc_jr1_14_01 = "Esses zé bucetas foderam com o detonador. Consertem!",--Those poes fucked the detonator, mans. Fix it!
 	loc_jr1_66_01 = "Ok, vocês podem subir dois de cada vez. E não tem como descer de volta, amigos.",--Okay, you can only zipline up two at a time. And there's no going back down, friends. 
 	loc_jr1_09_01 = 'Eu falei em Africano? Me desculpem! Eu quis dizer "por favor" "plantem" "as" "cargas" "nas fechaduras"... seus merdinhas.',--Did I speak in Afrikaans? My apologies! I meant to say "please" "plant" "the" "charges" "on the locks"... you kaks.
 	loc_jr1_60_01 = "Merda, esses comedores de bosta desativaram o destravamento. Ativem-no de novo!",--Shit, those fucking shit-eating kerels shut down the unlocking. Get it going again!
-	loc_jr1_01_03 = "Ah! Meus amigos! Bem-vindos ao Black Ridge. Ela é usada para, bem, por enquanto guardar uma quantia significável de loots de grande valor. Vamos roubá-los!",--Ah! My friends! Welcome to Black Ridge. It's used for, well, for now is holding loot of a significent value. Let's steal it!
+	loc_jr1_01_03 = "Ah! Meus amigos! Bem-vindos ao Black Ridge. Ela é usada para... bem, por enquanto, guardar uma quantia significável de espólio de grande valor. Vamos roubá-los!",--Ah! My friends! Welcome to Black Ridge. It's used for, well, for now is holding loot of a significent value. Let's steal it!
 	loc_jr1_33_01 = "É uma linda pintura. Última vez vista nas paredes de um Ditador conhecido da América do Sul. Veem como o artista retratou a luz e todas essas besteiras? Lindo.",--It's a beautiful painting. Last seen on the walls of a well known South American dictator. See how the artist captured the light and all that shit? Beautiful.
 	loc_jr1_57_06 = "Ele tinha apenas uma semana sobrando em seu contrato.",--He only had a week left on his contract.
 	loc_jr1_40_03 = "Olá para vocês, meus novos amigos!",--Hello, to you, my new friends!
@@ -87,7 +87,7 @@ return {
 	loc_jr1_57_19 = "Ele era meu amigo. Mas merdas acontecem, certo?",--He was my chomma. Shit happens though, right?
 	loc_jr1_21_02 = "Bakgat! Agora mexam-se, meus amigos. A trava de ar espera por vocês!",--Bakgat! Now, onwards, my friends. The airlock awaits you!
 	loc_jr1_63_03 = "Se eles vão seguir o roteiro de sempre, eles vão ter snipers posicionados logo em frente. E esses caras sempre seguem o roteiro à risca.",--If they're going by the book they'll have snipers set up ahead. These cocks always go by the book.
-	loc_jr1_55_02 = "Ótimo. Nós temos um tanque cheio, várias luzes verdes e estamos cheios de loots roubados. Entrem meus amigos, vamos concluir isso.",--Great. We got a full tank, lots of green lights and we're fat with stolen loot. Hop aboard, my friends. Let's conclude this.
+	loc_jr1_55_02 = "Ótimo. Nós temos um tanque cheio, várias luzes verdes e estamos cheios de espólios roubados. Entrem, meus amigos, vamos concluir isso.",--Great. We got a full tank, lots of green lights and we're fat with stolen loot. Hop aboard, my friends. Let's conclude this.
 	loc_jr1_12_03 = "Tick-tock, disse o detonador. Mantenha os kerels longe.",--Tick-tock, said the detonator. Keep the kerels away. 
 	loc_jr1_57_14 = "Ele bombardeou uma escola. Boa libertação.",--He bombed a school. Good riddance.
 	loc_jr1_10_02 = "Muito bem-feito. Próximo, nós precisamos de um detonador naquelas cargas. Vocês não querem acioná-las?",--Nicely done. Next, we need a detonator on those charges. Rig it up, won't you?
@@ -129,7 +129,7 @@ return {
 	loc_jr1_22_03 = "Por favor, todos dentro da trava de ar. As portas são projetadas para que o interior não abra até que o exterior esteja fechado.",--Please, everyone into the airlock. The doors are designed so that the inner cannot open until the outer is closed.
 	loc_jr1_67_01 = "É a simplicidade em si, amigos. Apenas pressionem o botão do cofre que vocês querem abrir. Apenas se certifiquem de que tem algo lá dentro.",--It's simplicity itself, friends. Just press the button of the vault you want to open. Just be sure it actually contains something.
 	loc_jr1_09_02 = "Talvez tenha ocorrido uma interferência no rádio, então permitam-me repetir. Plantem a porra das cargas nas travas, por gentileza.",--Perhaps there was interference on the radio, so let me repeat. Plant the fucking charges on the locks. Please.
-	loc_jr1_29_03 = "Ahhh, se algum som é mais satisfatório do que o de um cofre abrindo é o de empacotar loots valiosos. Vocês estão produzindo uma bela sinfonia para os meus ouvidos!",--Ahhh, if any sound is sweeter than that of an opening vault it is that of bagging loot. You are producing a symphony for my ears!
+	loc_jr1_29_03 = "Ahhh, se algum som é mais satisfatório do que o de um cofre abrindo é o de empacotar espólios valiosos. Vocês estão produzindo uma bela sinfonia para os meus ouvidos!",--Ahhh, if any sound is sweeter than that of an opening vault it is that of bagging loot. You are producing a symphony for my ears!
 	loc_jr1_25_03 = "Seria lindo se vocês pudessem concluir isso apenas se escondendo na trava de ar, Mas... Infelizmente...",--It would be beautiful if we could do this with you hiding in the airlock, but... alas...
 	loc_jr1_05_01 = "Seria muito gentil se vocês coletassem os itens que deixei para vocês.",--If you would be so kind as to collect the articles I have left for you.
 	loc_jr1_29_02 = "Ahhh, Meus ouvidos me enganam ou esse é o som de um cofre de titânio se abrindo? Continuem com seus esforços, amigos!",--Ahhh, do my ears deceive me or is that the sound of a titanium vault opening. Maintain your efforts, friends!
@@ -140,7 +140,7 @@ return {
 	loc_jr1_59_01 = "Ok, paciência agora, meus amigos. Cada cofre tem uma pequena trava de tempo. Vocês sabem, por segurança.",--Okay, patience now, my friends. Each vault has a short timelock. You know, for security.
 	loc_jr1_40_02 = "Meus amigos! Muito prazer!",--My friends! My pleasure!
 	loc_jr1_18_03 = "Eu ainda preciso que um de vocês passem o cartão.",--I still require one of you poes to swipe the card.
-	loc_jr1_01_01 = "Meus novos amigos! Bem-vindos ao Black Ridge. É como um armazém para loots - Um armazém fortificado, com loots muito valiosos.",--My new friends! Welcome to Black Ridge. Like a storehouse for loot - an armored storehouse, with very valuable loot.
+	loc_jr1_01_01 = "Meus novos amigos! Bem-vindos ao Black Ridge. É como um armazém para espólios - Um armazém fortificado, com espólioss muitos valiosos.",--My new friends! Welcome to Black Ridge. Like a storehouse for loot - an armored storehouse, with very valuable loot.
 	loc_jr1_17_01 = "O cartão de acesso que vocês coletaram mais cedo vai iniciar a abertura da trava de ar, que leva para o complexo interno. Passem esse pequeno merdinha.",--The keycard you collected earlier will initiate the opening of this airlock, which leads to the inner complex. Swipe that little kaka.
 	loc_jr1_58_07 = "Vocês sabem mesmo como lutar.",--You guys know how to fight.
 	loc_jr1_04_01 = "Cartão de acesso, cortador de arco e, sim, as cargas explosivas. Nós precisamos fazer parecer como se eu não estivesse envolvido. Colete-os",--Keycard, arc cutter and, yes, those are breaching charges. We need to make it look like I am not involved. Collect them.
@@ -156,7 +156,7 @@ return {
 	loc_jr1_26_01 = 'Vão para a sala de controle - o coração negro da instalação. De lá, vocês vão poder abrir os cofres e pegar toda aquela, como vocês dizem, "Merda da Boa".',--Get to the control room - the black heart of the facility. From there, you can open the vaults and grab all that, as you say, 'good shit'.
 	loc_jr1_37_01 = "Yoohoooooo! Mandem as bolsas aqui pra cima, meus amigos!",--Yoohoooooo! Send the bags up here, my friends!
 	loc_jr1_71_02 = "Mais um cofre aberto e pronto.",--That's another vault open and ready. 
-	loc_jr1_31_01 = "Essa é a primeira bolsa de um loot fudidamente bom! Excelente! Agora, vocês vão encontrar um grande eixo vertical por perto. Mandem os loots por cabos. Eu vou cuidar disso.",--That is the first of some fucking sweet loot! Excellent! Now, you will find a large vertical shaft nearby. Send loot up it by cable. I will look after it.
+	loc_jr1_31_01 = "Essa é a primeira bolsa de espólio bom pra caralho! Excelente! Agora, vocês vão encontrar um grande eixo vertical por perto. Mandem os espólios por cabos. Eu vou cuidar disso.",--That is the first of some fucking sweet loot! Excellent! Now, you will find a large vertical shaft nearby. Send loot up it by cable. I will look after it.
 	loc_jr1_35_03 = "É feito de metal e plástico, mas esse servidor tem segredos que fariam a caixa de pandora parecer uma caixa de brinquedos de criança.",--It's made of metal and plastic, but this server has secrets that makes Pandora's Box look like a fucking kiddies toy-chest.
 	loc_jr1_38_03 = "Um, dois, feijão com arroz. Sim, parece que todas as bolsas estão presentes. Agora, por favor, se prendam aos cabos e juntem-se a mim.",--One, two, buckle my shoe. Yes, it would seem all of the bags are present. Now, please, attach your good selves to the cables and join me.
 	loc_jr1_42_01 = "Por aqui, por favor.",--Over here, please.
@@ -180,7 +180,7 @@ return {
 	loc_jr1_48_01 = "Usem a C4 e mandem esses radares para o ares, meus amigos!",--Use the C4 to send those radars tumbling, my friends!
 	loc_jr1_48_03 = "Lembrem-se, vocês devem aplicar o C4 em cada um dos radares.",--Remember, you must apply the C4 to each of those radars.
 	loc_jr1_54_03 = "Eles estão mandando tudo pra cima da gente. Segurem eles, meus amigos. Eles irão matar vocês, mas vão me fuder junto. Com certeza.",--They're throwing everything into this. Hold them off, my friends. They'll kill you, but they'll fuck me proper. For sure.
-	loc_jr1_30_02 = "Ótimo. Essas bolsas vão satisfazer nosso acordo... entretanto, se vocês quiserem continuar... Eu estou apenas dizendo...Hmmm?",--Great. That loot will satisfy our arrangement... however, if you wanted to carry on... I am just saying... hmmmm?
+	loc_jr1_30_02 = "Ótimo. Essas bolsas vão satisfazer nosso acordo... entretanto, se vocês quiserem continuar... Eu estou apenas dizendo... hmmm?",--Great. That loot will satisfy our arrangement... however, if you wanted to carry on... I am just saying... hmmmm?
 	loc_jr1_31_03 = "A primeira bolsa! Belissimo! Agora, perto dos cofres vocês irão encontrar um grande eixo vertical com cabos. Prendam as bolsas nos cabos e elas serão enviadas até mim.",--The first bag! Bellissimo! Now, close to the vaults you will find a tall vertical shaft with cables. Attach the bags to the cables, and they will be lifted to me.
 	loc_jr1_10_01 = "Excelente. Agora, coloquem um detonador lá também.",--Excellent. Now, let's just get a detonator on there too.
 	loc_jr1_06_02 = "Esplêndido! Agora, larguem as cargas perto da porta principal.",--Superb! Now, just drop the charges near the main door.
@@ -230,8 +230,8 @@ return {
 	loc_jr1_22_02 = "Tenham certeza de estarem dentro da trava de ar. A porta exterior não pode fechar até que todos estejam dentro.",--Make sure your gang are safely gathered in the airlock. The outer door cannot close until this is so.
 	loc_jr1_49_01 = "Excelente. Eles são cegos! Cegos como morcegos. Apesar de que morcegos supostamente são cegos e localizam a presa por ecolocalização, então...",--Excellent. They are blind! Blind as a bat. Though bats are supposed to be blind, and locate prey by echolocation, so that is...
 	loc_jr1_44_03 = "Por favor, destruam os radares. Ceguem eles, para ser mais preciso.",--Please, destroy the radars. Stab their fucking eyes out, so to speak.
-	loc_jr1_01_02 = "Amigos! Bem-vindos ao Black Ridge. Super secreto! O que eu posso contar para vocês é que tem muitos e muitos loots aqui. Itens muito valiosos.",--Friends! Welcome to Black Ridge. Top secret! What I can tell you is that there is loot here. Very valuable loot. 
-	loc_jr1_28_03 = "Apenas um cofre pode ser aberto por vez, E apenas certos cofres contém loot. Como isso é determinado eu deixo para vocês, já que eu confio em suas habilidades.",--Only one vault can be opened at a time. Further, only certain vaults have loot within them. How that is determined is up to you, but I have confidence in your ability.
+	loc_jr1_01_02 = "Amigos! Bem-vindos ao Black Ridge. Super secreto! O que eu posso contar para vocês é que tem muitos e muitos espólios aqui. Bem valiosos.",--Friends! Welcome to Black Ridge. Top secret! What I can tell you is that there is loot here. Very valuable loot. 
+	loc_jr1_28_03 = "Apenas um cofre pode ser aberto por vez, E apenas certos cofres contém espólios. Como isso é determinado eu deixo para vocês, já que eu confio em suas habilidades.",--Only one vault can be opened at a time. Further, only certain vaults have loot within them. How that is determined is up to you, but I have confidence in your ability.
 	loc_jr1_25_02 = "O complexo interno não é nada que deva ser temido.",--The inner complex is nothing to be scared of. 
 	loc_jr1_52_02 = "Merda! Algum bastardo desleixado esqueceu de reabastecer o helicóptero. Poderiam engatar a mangueira no tanque de combustível?",--Kak! Some sloppy bastard forgot to refuel the chopper. Hook up the fuel, would you?
 	loc_jr1_29_01 = "Sim, eu acredito que ouvi um cofre abrindo. Excelente! Continuem assim, cavalheiros!",--Yes, I do believe I hear a vault opening. Excellent! Keep at it, gentlemen!
@@ -284,15 +284,15 @@ return {
 	hud_heist_jerry01_04_hl = "Acione o Detonador",--Rig the detonator
 	hud_heist_jerry01_06 = "Entre na Black Ridge e vá até o complexo interno.",--Get inside Black Ridge and fight your way to the inner complex.
 	hud_heist_jerry01_10 = "Entre na trava de ar. Ela leva direto para o complexo interno.",--Step inside the airlock. It leads to the inner complex.
-	hud_heist_jerry01_vault_loop_002_hl = "Encontre loots destrancando os Cofres",--Find loot by unlocking vaults
+	hud_heist_jerry01_vault_loop_002_hl = "Encontre espólios destrancando os Cofres",--Find loot by unlocking vaults
 	hud_heist_jerry01_07_hl = "Use o Cartão de Acesso",--Use the keycard
 	hud_heist_jerry01_17 = "Junte-se com Locke perto da saída.",--Join with Locke near the surface exit.
 	hud_heist_jerry01_22_hl = "Fuga Disponivel!",--Escape available!
 	hud_heist_jerry01_06_hl = "Chegue no Complexo Interno",--Reach the inner complex
 	hud_heist_jerry01_01_hl = "Colete o Equipamento",--Collect the stashed equipment
-	hud_heist_jerry01_19_hl = "Leve os loots para o Helicóptero",--Get the vault loot to the helicopter
+	hud_heist_jerry01_19_hl = "Leve os espólios para o Helicóptero",--Get the vault loot to the helicopter
 	hud_heist_jerry01_17_hl = "Reuna-se na Saída",--Gather at the surface exit
-	hud_heist_jerry01_16 = "Use a tirolesa no elevador para chegar à superficie. Você também pode ficar para pegar mais loots, caso tenha algum.",--Use ziplines in the elevator shaft to reach the surface. You can also stay and find more loot.
+	hud_heist_jerry01_16 = "Use a tirolesa no elevador para chegar à superficie. Você também pode ficar para pegar mais espólios, caso tenha algum.",--Use ziplines in the elevator shaft to reach the surface. You can also stay and find more loot.
 	hud_heist_jerry01_07 = "Use o cartão de acesso dado por Locke para iniciar o destravamento da trava de ar.",--Use the keycard provided by Locke to initiate the airlock opening sequence.
 	hud_heist_jerry01_11_hl = "Juntem-se dentro",--Gather everyone inside
 	hud_heist_jerry01_05restart = "Re-acione o detonador desativado.",--Re-arm the disabled detonator.
@@ -300,8 +300,8 @@ return {
 	hud_heist_jerry01_vault_loop_001 = "Use o painel de controle para selecionar um cofre para abrir.",--Use the control panel to select a vault to unlock first.
 	hud_heist_jerry01_05restart_hl = "Rearme o Detonador",--Re-arm the detonator
 	hud_heist_jerry01_00 = "Locke deixou equipamento vital em três caixas. As caixas estão marcadas em vermelho.",--Locke has supplied vital equipment in three crates. The crates are marked with a strobe light.
-	hud_heist_jerry01_15 = "Prenda a bolsa de loots na tirolesa do elevador. o Locke vai manter elas seguras.",--Attach a bag of loot to the zipline in the elevator shaft. Locke will keep it safe.
-	hud_heist_jerry01_19 = "Guarde os loots no helicóptero.",--Secure the vault loot in the helicopter.
+	hud_heist_jerry01_15 = "Prenda a bolsa de espólios na tirolesa do elevador. o Locke vai manter elas seguras.",--Attach a bag of loot to the zipline in the elevator shaft. Locke will keep it safe.
+	hud_heist_jerry01_19 = "Guarde os espólios no helicóptero.",--Secure the vault loot in the helicopter.
 	hud_heist_jerry01_22 = "Entre no helicóptero e se prepare para fugir!",--Get in the helicopter and prepare for take off!
 	hud_heist_jerry01_03 = "Plante as cargas explosivas na porta de entrada da Black Ridge.",--Plant the breaching charges on Black Ridge's blast door.
 	hud_heist_jerry01_08 = "Entre na estação de segurança e aprove a sequência de abertura da porta.",--Get into the local security station and approve the door opening sequence.
@@ -309,7 +309,7 @@ return {
 	hud_heist_jerry01_18_hl = "Destrua os Radares e Equipamentos de Comunicação",--Destroy radars and communication equipment
 	hud_heist_jerry01_vault_loop_001_hl = "Selecione um Cofre para abrir",--Select a vault to open first
 	hud_heist_jerry01_08_hl = "Aprove a Sequência de Abertura",--Approve the opening sequence
-	hud_heist_jerry01_15_hl = "Mande os loots para cima",--Send up the loot
+	hud_heist_jerry01_15_hl = "Mande os espólios para cima",--Send up the loot
 	hud_heist_jerry01_02 = "A Black Ridge é protegida por portas pesadas. Largue as cargas explosivas perto da porta.",--Black Ridge is protected by heavy blast doors. Drop off the breaching charges at the doors.
 	hud_heist_jerry01_12_hl = "Chegue na Sala de Controle",--Reach the control room
 	hud_heist_jerry01_20 = "Use o equipamento de abastecimento para reabastecer o helicóptero.",--Use the refueling equipment to refuel the helicopter.
@@ -326,5 +326,5 @@ return {
 	hud_heist_jerry01_05_hl = "Defenda o Detonador",--Defend the detonator
 	hud_heist_jerry01_12 = "Vá até a sala de controle.",--Fight your way to the overhead control room.
 	hud_heist_jerry01_16_hl = "Escape para a Superfície",--Escape to the surface
-	hud_heist_jerry01_vault_loop_002 = "Continue usando o painel de controle para destravar os cofres e encontrar loots.",--Continue using the control panel to unlock vaults and find loot.
+	hud_heist_jerry01_vault_loop_002 = "Continue usando o painel de controle para destravar os cofres e encontrar espólios.",--Continue using the control panel to unlock vaults and find loot.
 		}

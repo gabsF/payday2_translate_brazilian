@@ -1,5 +1,9 @@
 -- HopLib force Brazilian
-PD2PTBR = true
+if(BrazilianLocGlobal.Options:GetValue("HopLibShouldBeInPortuguese")) then
+    PD2PTBR = true
+end
 
 -- BeardLib force Brazilian
-LocalizationModule.forced_language = "portuguese"
+if(BrazilianLocGlobal.Options:GetValue("BeardLibShouldBeInPortuguese")) then
+    LocalizationModule.forced_language = "portuguese"
+end

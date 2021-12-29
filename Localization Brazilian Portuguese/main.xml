@@ -1,4 +1,4 @@
-<mod name="Tradução PT-BR" global_key="BrazilianLocGlobal" core_class="BrazilianLocCore.lua">
+<mod name="LocalizationBrazilianPortuguese" global_key="BrazilianLocGlobal" core_class="BrazilianLocCore.lua" author="gabsF">
     <ScriptMods>
        <mod file="BrazilianLocScriptData.xml" type="custom_xml" target_file="gamedata/menus/start_menu" target_type="menu">
             <options merge_mode="script_merge"/>
@@ -12,6 +12,9 @@
 
     <Localization directory="loc">
       <group language="portuguese">
+
+        <!-- Custom Text / Options Text -->
+        <loc file="extras/options_strings.lua"/>
 
         <!-- Extras -->
         <loc file="extras/others.lua"/>
@@ -117,6 +120,14 @@
 
       </group>
     </Localization>
+
+    <Options auto_build_menu="true">
+        <options>
+            <merge_data area_bg="half"/>
+            <option type="bool" default_value="true" name="HopLibShouldBeInPortuguese"/>
+            <option type="bool" default_value="true" name="BeardLibShouldBeInPortuguese"/>
+        </options>
+    </Options>
 	
 	<AddFiles file="add_BrazilianLoc.xml"/>
 </mod>

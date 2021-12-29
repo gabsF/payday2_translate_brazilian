@@ -65,7 +65,7 @@ return {
 	loc_jr2_32_01 = "Aí está o bote. Subam, meus bons amigos! Vamos levá-lá para um gentil cruzeiro.",--There's the boat. Hop in, my good friends! Let us take her for gentle cruise.
 	loc_jr2_19_01 = "Certo. Bem, vocês sabem onde ele está, mas eu não. Acendam um sinalizador, yeah?",--Okay. Well, you know where it is, but I don't fucking know. Light a flare, yeah?
 	loc_jr2_40_03 = "O telhado daquela lanchonete pode ser acessado por uma escada de serviço, mas vocês irão precisar de um cartão para isso. Com certeza está aí em algum lugar.",--The roof of that diner can be accessed by a service ladder, but you're going to need a keycard to get to it. Surely there's one around somewhere.
-	pln_jr2_05_02 = "Tenham certeza de que aquelas cintas estão bem presas. Não queremos o Locke derrubando o loot antes da hora agora.",--Make sure those straps are nicely fastened. Don't want Locke dropping the loot too early now.
+	pln_jr2_05_02 = "Tenham certeza de que aquelas cintas estão bem presas. Não queremos o Locke derrubando o espólio antes da hora agora.",--Make sure those straps are nicely fastened. Don't want Locke dropping the loot too early now.
 	loc_jr2_05_03 = "Esplêndido. O dinheiro está carregado nas cargas, que estão presas ao convés. Somente o oficial de logística pode soltá-las, e seus controles ficam acima de vocês - estão vendo? Para acessá-los, vocês deverão chegar nas escadas na frente do avião, e depois voltar nesse caminho.",--Superb. The cash is loaded on pallets, which are secured to the deck. Only the logistics officer can release them, and his controls are up above you - you see? To access them, you must get to the stairs at the front of the aircraft, and then return this way.
 	loc_jr2_19_02 = "Certo. Agora ajudem seu amigo Locke. Acendam um sinalizador. Me mostrem onde está o dinheiro.",--Okay. Now help your friend Locke. Light a flare. Show me where the money is.
 	loc_jr2_03_05 = "Abram essas portas! A alavanca está logo alí!",--Get those doors open! The switch is right there!
@@ -80,7 +80,7 @@ return {
 	pln_jr2_01_03 = "Equipe, vocês ouviram o Locke - para dentro do porão de carga!",--You heard Locke, crew - into the cargo hold!
 	loc_jr2_15_03 = "A segunda carga! Boa. Mas coisas boas vem em três. Como aquela semana em que todas as minhas esposas morreram. Achem a terceira carga.",--The second pallet! Good. But good things come in threes. Like that week all my wives died. Find the third pallet.
 	loc_jr2_02_05 = "Agora, levantem, meus amigos!",--Now, rise, my friends!
-	loc_jr2_31_03 = "Puta merda, mas que demora. Derretam a grade com a pasta de Térmite!",--Holy shit, what is the delay. Burn the grate away with the thermal paste!
+	loc_jr2_31_03 = "Puta merda, mas que demora. Derretam a grade com a pasta de térmite!",--Holy shit, what is the delay. Burn the grate away with the thermal paste!
 	loc_jr2_34_02 = "Estou esperando vocês. Continuem dirigindo esse barco para mim.",--I'm waiting for you. Keep driving that boat to me.
 	loc_jr2_21_01 = "Meus olhos já não são mais como antes. Ajudem um velho e acendam um sinalizador, yeah?",--My eyes aren't what they were. Help an old man out and light a flare, yeah?
 	loc_jr2_42_02 = "Bem, parece que temos uns ladrõezinhos espertos, tentando roubar nosso dinheiro. Derrubem eles.",--Well, looks like we have some crafty litte thieves, trying to steal our money. Put them down.
