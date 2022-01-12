@@ -322,7 +322,7 @@ return {
 
 	-- TIER 2
 	--menu_heavy_impact_beta = "Heavy Impact",
-	menu_heavy_impact_beta_desc = "BÁSICO: ##$basic##\nOs seus tiros possuem uma chance de ##$multibasic;## de atordoar todos os inimigos, exceto os Bulldozers e o ##Captain Winters. \n\nAVANÇADO: ##$pro##\nA Chance aumenta até ##$multipro;##.",
+	menu_heavy_impact_beta_desc = "BÁSICO: ##$basic;##\nOs seus tiros possuem uma chance de ##$multibasic;## de atordoar todos os inimigos, exceto os ##Bulldozers## e o ##Captain Winters##.\n\nAVANÇADO: ##$pro;##\nA Chance aumenta até ##$multipro;##.",
 --BASIC: ##$basic;##\nYour shots have a ##$multibasic;## chance to stagger all enemies except Bulldozers and Captain Winters.\n\nACE: ##$pro;##\nIncreases your stagger chance to ##$multipro;##.
 	--menu_fire_control_beta = "Fire Control",
 	menu_fire_control_beta_desc = "BÁSICO: ##$basic##\nGanha ##$multibasic;## de Precisão quando atira sem mirar. \n\nAVANÇADO: ##$pro##\nA sua penalidade de Precisão, enquanto se move, é diminuida em ##$multipro;##",
@@ -334,7 +334,7 @@ return {
 	menu_fast_fire_beta_desc = 'BÁSICO: ##$basic##\nSuas Submetralhadoras, Rifles de Assalto e Armas Pesadas ganham ##$multibasic;## balas nos seus carregadores. Isso não afeta a skill avançada do "Lock n Load". \n\nAVANÇADO: ##$pro##\nAs suas Armas à distância podem causar perfuração no colete de alguns inimigos. \nNota: Isso não aplica nas armas que você arremessa.',
 --BASIC: ##$basic;##\nYour SMGs, LMGs and Assault Rifles gain ##$multibasic;## more bullets in their magazines. This does not affect the "Lock n' Load" Ace skill.\n\nACE: ##$pro;##\nYour ranged weapons can now pierce through enemy body armor.\n\nNote: Does not apply to throwable weapons.
 	--menu_shock_and_awe_beta = "Lock n' Load",
-	menu_shock_and_awe_beta_desc = "BÁSICO: ##$basic##\nVocê poderá agora correr e atirar ao mesmo tempo com as suas armas. \n\nAVANÇADO: ##$pro##\nMatando ##$multipro;## inimigos com Submetralhadoras, Rifles de Assalto, Armas Pesadas ou Armas Especiais, com o modo automático, vai aumentar a velocidade de recarregar a arma em até ##$multipro2;##. Esse bônus é reduzido em ##$multipro3;## para cada bala dentro do carregador, acima de ##$multipro4;##, o mínimo é ##$multipro5;## de velocidade de recarregar a arma.",
+	menu_shock_and_awe_beta_desc = "BÁSICO: ##$basic##\nVocê poderá agora correr e atirar ao mesmo tempo com as suas armas.\n\nAVANÇADO: ##$pro##\nMatando ##$multipro;## inimigos com Submetralhadoras, Rifles de Assalto, Armas Pesadas ou Armas Especiais, com o modo automático, vai aumentar a velocidade de recarregar a arma em até ##$multipro2;##. Esse bônus é reduzido em ##$multipro3;## para cada bala dentro do carregador, acima de ##$multipro4;##, o mínimo é ##$multipro5;## de velocidade de recarregar a arma.",
 --BASIC: ##$basic;##\nYou can now hip-fire with your weapons while sprinting.\n\nACE: ##$pro;##\nKilling ##$multipro;## enemies with SMGs, LMGs, Assault Rifles or Special Weapons set on automatic fire mode will increase your next reload speed by up to ##$multipro2;##. This bonus is reduced by ##$multipro3;## for each bullet above ##$multipro4;## in the total magazine size, down to a minimum of ##$multipro5;## reload speed increase.
 	-- TIER 3
 
@@ -442,7 +442,7 @@ return {
 	-- Second Tree (Revenant)
 	--st_menu_fugitive_undead = "Revenant",
 	--menu_nine_lives_beta = "Nine Lives",
-	menu_nine_lives_beta_desc = "BÁSICO: ##$basic##\nVocê ganha mais ##$multibasic2;## mais vida enquanto estiver no chão.\n\nAVANÇADO: ##$pro##\nVocê poderá cair mais ##$multipro2;## vez(es) antes de ir para custódia.",
+	menu_nine_lives_beta_desc = "BÁSICO: ##$basic##\nVocê ganha ##$multibasic2;## mais de vida enquanto estiver no chão.\n\nAVANÇADO: ##$pro##\nVocê poderá cair mais ##$multipro2;## vez(es) antes de ir para custódia.",
 --BASIC: ##$basic;##\nYou gain a ##$multibasic2;## increase to your bleedout health.\n\nACE: ##$pro;##\nYou gain the ability to get downed ##$multipro2;## more time before going into custody.
 	--menu_running_from_death_beta = "Running from Death",
 	menu_running_from_death_beta_desc = "BÁSICO: ##$basic##\nVocê recarrega e troca de armas ##$multibasic;## mais rápido por ##$multibasic2;## segundos depois de ser revivido.\n\nAVANÇADO: ##$pro##\nVocê se move ##$multipro;## mais rápido por ##$multipro2;## segundos depois de ser revivido.",

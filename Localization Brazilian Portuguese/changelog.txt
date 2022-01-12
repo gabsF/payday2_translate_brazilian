@@ -1,6 +1,5 @@
-10.07 [Correções]
-* Adicionado opções se o usuário deseja que os mods do HopLib e BeardLib sejam traduzidos (Vão estar ativadas por padrão)
-> AVISO: A TRADUÇÃO DEPENDE DO IDIOMA DO BEARDLIB
-* Retrabalhado algumas partes do Beneath the Mountain, Birth of Sky e Border Crossing
-* Outros Perk Decks, que substituem a granada, agora mostram o botão da granada (obrigado Overkill por ter colocado no Perk Deck do Leech)
-* Traduzido mais textos do Leech que estavam faltando
+10.08
+* Traduzido mais textos das conquistas que estavam faltando
+* Corrigido um bug na descrição da skill "Heavy Impact"
+* Corrigido um erro de escrita na descrição da skill "Nine Lives"
+* Corrigido um bug na descrição do Perk Deck "Hacker"

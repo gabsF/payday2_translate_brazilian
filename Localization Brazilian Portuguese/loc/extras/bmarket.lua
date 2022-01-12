@@ -331,6 +331,7 @@ return {
 --[[This design is the brainchild of some messed up Silicon Valley protégé who took one smart drug too many. His fried brain is your gain.]]
 	
 	-- INVENTÁRIO GERAL
+	menu_sort_chronologic = "Cronológico",--Chronologic
 	menu_sort_alphabetic = "Alfabético",
 	steam_inventory_quality = "Qualidade:",
 	steam_inventory_rarity = "Raridade:",
@@ -627,11 +628,57 @@ return {
 	bm_msk_myh_desc = "Duke é um homem de cultura, virtude e compostura dura como uma pedra. Assim, sua máscara foi modelada a partir das grandes estátuas históricas como um reflexo de sua personalidade. A máscara é uma janela para a mente e o coração deste determinado agente do crime sofisticado, elegante e inquebrável diante de qualquer roubo.\n\nUma grande atração para Duke é o seu amor pelo mistério - Você nunca sabe o que tem dentro do cofre até abri-lo ou atrás da pintura até tirá-la da moldura. E com a Gangue PAYDAY, o maior mistério pode estar ao virar a esquina...\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nVelha guarda é para poucos!\n\n- grandegt17A!",--grandegt14A!
 
 	-- ACHIEVEMENTS (CONQUISTAS REQUISITOS)
+	menu_achievements_teamwork_players_1_to_4 = "1-4 Jogadores",--1-4 Players
+	menu_achievements_teamwork_players_4 = "4 Jogadores",--4 Players
+	menu_achievements_teamwork = "Trabalho em Equipe",--Teamwork
+	menu_achievements_inventory_weapon = "Arma",--Weapon
+	--menu_achievements_inventory_skill = "Habilidade",--Skill
+	menu_achievements_inventory_outfit = "Traje",--Outfit
+	menu_achievements_inventory_mask = "Máscara",--Mask
+	menu_achievements_inventory_armor = "Armadura",--Armor
+	menu_achievements_inventory_equipment = "Equipamento",--Equipment
+	menu_achievements_inventory = "Inventário",--Inventory
+	menu_achievements_tactics_timed = "Tempo",--Timed
+	menu_achievements_tactics_killer = "Assassino",--Killer
+	--menu_achievements_tactics_help = "",--
+	menu_achievements_tactics_loud = "Loud",--Loud
+	menu_achievements_tactics_stealth = "Stealth",--Stealth
+	menu_achievements_tactics = "Táticas",--Tactics
+	menu_achievements_unlock_weapon_charm = "Chaveiro",--Weapon Charm
+	menu_achievements_unlock_weapon_color = "Cor de Arma",--Weapon Color
+	menu_achievements_unlock_skill_slot = "Slot de Skill Salva",--Skill slot
+	menu_achievements_unlock_weapon = "Modificação de Arma",--Weapon mod
+	menu_achievements_unlock_outfit = "Traje",--Outfit
+	menu_achievements_unlock_gloves = "Luvas",--Gloves
+	menu_achievements_unlock_mask = "Máscara",--Mask
+	menu_achievements_unlock_character = "Personagem",--Character
+	menu_achievements_unlock = "Desbloquear",--Unlock
+	menu_achievements_contracts = "Contratos",--Contracts
+	menu_achievements_contracts_all = "Todos",--All
+	menu_achievement_none = "Sem Tag",--No tag
+	menu_achievements_progress_leveling = "Upar o Nível",--Leveling
+	menu_achievements_progress_heisting = "Mapas",--Heisting
+	menu_achievements_progress_generic = "Genérico",--Generic
+	menu_achievements_progress_beginner = "Iniciante",--Beginner
+	menu_achievements_progress_completion = "Conclusão",--Completion
+	menu_achievements_progress = "Progresso",--Progress
+	menu_achievement_filter_off = "Desativado",--Disabled
+	menu_achievement_any = "Qualquer Tag",--Any tag
+	menu_achievements_difficulty = "Dificuldade",--Difficulty
+	menu_achievements_tags_intro = "Tags:",--Tags:
+	menu_achievements_sort_order_picker = "Ajustar Ordem: $SORT;",--Sort order: $SORT;
+	menu_achievements_sort_order = "Ajustar Ordem",--Sort order
+	menu_achievements_hide_ladder_help = "Mostra primeira conquista bloqueada em cada sequência",--Only shows the first locked in each ladder
+	menu_achievements_hide_ladder = "Esconder Sequência",--Hide ladder
+	menu_achievements_hide_unlocked_help = "Esconde as Conquistas que já estão Alcançadas",--Hides all unlocked achievements
+	menu_achievements_hide_unlocked = "Esconder Já Alcançados",--Hide unlocked
+	menu_filter_achievement_count = "CONQUISTAS PARA EXIBIR $COUNT",--ACHIEVEMENTS TO SHOW $COUNT;
+	menu_milestone_next_at = "PRÓXIMO RECORDE EM",--NEXT MILESTONE AT
+	menu_milestone_btn = "RECORDES $MY_BTN",--MILESTONES $MY_BTN;
 	menu_achievements_levels_left_intro = "Mapas restantes a fazer:\n",--Levels left to do:
 	menu_total_achievements = "Total de Conquistas",
 	menu_achievements_filter_btn = "FILTROS $MY_BTN",
 	menu_achievements_forced = "MOSTRAR NO HUD: $CURRENT / $MAX",
-	menu_milestone_next_at = "PRÓXIMO MILESTONE EM",
 	menu_legend_forced = "$MY_BTN MOSTRAR NO HUD",
 	menu_legend_preview = "$BTN_Y Prévia",
 	menu_legend_track_achievement = "$MY_BTN MONITORAR",
@@ -2479,6 +2526,14 @@ return {
 	achievement_sand_10_desc = "Na Ukrainian Prisoner, ache e destrua todos vasos do dragão.",--In the Ukrainian Prisoner job, find and destroy all dragon vases.
 	achievement_sand_10_additional = "A Conquista requer que você jogue desde o Lobby até o final da heist.",--This achievement requires you to play from the lobby to the end of the heist.
 	achievement_sand_11_desc = "Na Ukrainian Prisoner, mate pelo menos 100 inimigos e conclua o mapa com precisão de 100% ou mais na dificuldade OVERKILL ou superior.",--In the Ukrainian Prisoner job, kill at least 100 enemies with a sniper rifle and complete the level with 100% or higher accuracy on the OVERKILL difficulty or above.
+	achievement_fin_1_desc = "Conclua o Segredo do PADYAY 2.",--Complete the PAYDAY 2 Secret.
+	achievement_fin_1_additional = "Assim que for alcançado, é preciso que reinicie o jogo para desbloquear tudo da conquista.",--When unlocked, this achievement will require the game to restart to fully unlock it's reward.
+	achievement_armed_to_the_teeth_desc = "Compre uma arma pela primeira vez.",--Buy a weapon for the first time.
+	--achievement_armed_to_the_teeth = "Would You Like Your Receipt? (Gostaria do Recibo?)",--Would You Like Your Receipt?
+	achievement_death_31_desc = "Equipe o 350k Brass Knuckles. Celebrando o lançamento da atualização Death Wish, você pode desbloquear o 350k knuckles entrando no grupo oficial no Steam do PAYDAY 2.",
+	--[[Equip the 350K brass knuckles. Celebrating the release of the Death Wish update, you can now unlock the 350K knuckles by simply joining the PAYDAY 2 Official Group on Steam.]]
+	achievement_death_31_additional = "Você precisa ser parte do grupo oficial no Steam do PAYDAY 2.",--You need to be a part of the official PAYDAY 2 group on Steam.
+	
 	
 	-- Oitavo Aniversário
 	menu_challenge_div_cat_event_jobs = "Oitavo Aniversário do PAYDAY 2",--PAYDAY 2 8th Anniversary",
