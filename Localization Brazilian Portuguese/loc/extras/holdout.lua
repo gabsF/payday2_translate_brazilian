@@ -42,7 +42,7 @@ return {
 	heist_skm_arena_briefing = "A maioria das pessoas pagam para ir a um show. Hoje alguém irá pagar para sair. Estaremos fazendo um refém e vamos pressionar os policiais a pagar pela libertação dele. Apenas fiquem calmos e curtam a música. Eles pagarão uma boa quantia se vocês se manterem firmes.",
 	-- Notificações
 	hud_skirmish_wave_start = "Onda $current; iniciada",
-	hud_skirmish_wave_end = "Onda $current; concluída",
+	hud_skirmish_wave_end = "Onda $current; sobrevivida",
 	hud_skirmish_ransom_popup = "Nova Oferta: $money;",
 	-- Legendas
 	loc_skm_intro_01 = "Se preparem amigos! nós estamos quase no refém.",

@@ -2533,8 +2533,7 @@ return {
 	achievement_death_31_desc = "Equipe o 350k Brass Knuckles. Celebrando o lançamento da atualização Death Wish, você pode desbloquear o 350k knuckles entrando no grupo oficial no Steam do PAYDAY 2.",
 	--[[Equip the 350K brass knuckles. Celebrating the release of the Death Wish update, you can now unlock the 350K knuckles by simply joining the PAYDAY 2 Official Group on Steam.]]
 	achievement_death_31_additional = "Você precisa ser parte do grupo oficial no Steam do PAYDAY 2.",--You need to be a part of the official PAYDAY 2 group on Steam.
-	
-	
+
 	-- Oitavo Aniversário
 	menu_challenge_div_cat_event_jobs = "Oitavo Aniversário do PAYDAY 2",--PAYDAY 2 8th Anniversary",
 	menu_event_jobs = "Missões de Eventos",--Event Missions",

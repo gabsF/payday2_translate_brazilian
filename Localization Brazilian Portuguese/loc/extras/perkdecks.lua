@@ -371,12 +371,16 @@ Taking damage now heals teammates by ##$multiperk3;## of their health.]]
 	menu_deck22_7 = "Construído Diferentemente",--Built Different
 	menu_deck22_7_desc = "A sua vida máxima aumenta por ##$multiperk;##.",--Your maximum health is increased by ##$multiperk;##.
 	menu_deck22_9 = "Simbiose",--Symbiosis
-	menu_deck22_9_desc = "Você pode ativar o Ampola do Leech enquanto estiver no chão, vai te reviver temporariamente até o Ampola do Leech acabar. Se você conseguir reviver um aliado ou usar uma Bolsa Médica antes do Ampola do Leech acabar, você pode ficar vivo se a sua vida não estiver vazia.\n\nEnquanto o Ampola do Leech estiver ativo, a sua vida é agora dividido em pedaços de ##$multiperk;##.\n\nA sua vida máxima aumenta por ##$multiperk2;##.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+	menu_deck22_9_desc = "Você pode ativar o ##Ampola do Leech## enquanto estiver no chão, vai te reviver temporariamente até o ##Ampola do Leech## acabar. Se você conseguir reviver um aliado ou usar uma Bolsa Médica antes do ##Ampola do Leech## acabar, você pode ficar vivo se a sua vida não estiver vazia.\n\nEnquanto o ##Ampola do Leech## estiver ativo, a sua vida é agora dividido em pedaços de ##$multiperk;##.\n\nA sua vida máxima aumenta por ##$multiperk2;##.\n\nO cooldown da queda do ##Ampola do Leech## vai ser removido assim que você reviver um aliado ou recuperar a sua vida.\n\nAssim que você reviver outro jogador ou recuperar a sua vida, o cooldown do ##Ampola do Leech## é reduzido pelo tempo passado enquanto esteve caído.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 --[[You can now activate Leech Ampule while downed, temporarily reviving you until the end of the Leech Ampule. If you successfully revive a teammate or use a doctor bag before the Leech Ampule ends, you may stay alive if you are above 0 health.
 
 While the Leech Ampule is active your health is now divided into segments of ##$multiperk;##.
 
 Your maximum health is increased by ##$multiperk2;##.
+
+The cooldown on the leech perk deck from being downed will be removed when you revive another player or replenish your health.
+
+When you revive another player or replenish your health the cooldown of the leech perk deck is reduced by the time past on the downed cooldown.
 
 Deck Completion Bonus: Your chance of getting a higher quality item during a Payday is increased by ##$multiperk3;##.]]
 }

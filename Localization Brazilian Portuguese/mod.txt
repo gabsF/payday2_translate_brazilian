@@ -4,8 +4,8 @@
 	"author" : "[ Gerentes do Projeto ]\n-HimuraBR-\ngabsF\n\n[ Tradutores ]\nWalkingJohnn\n$Lucas$\nRockZero\nLupuens\nNobrod\nNoTh\nSky3Killer\nMrUmbrella\nMatheussimoe\nCaçador de Otacus\nDarK\nGavel\nlulajr\nneour\nBruno\n\n[ Discord OFICIAL da Tradução ]\nEntrem no nosso Discord para ficar por dentro de mais detalhes sobre a Tradução, para reportar possíveis Bugs e Erros de Tradução e até mesmo para criar novas amizades para jogar algumas Heist's por ai.\nLink do Discord: https://discord.gg/nEjGhXD \n\n[ Créditos Adicionais ]\nSavvy\nDr_Newbie\nCENSOR_1337\nKisuke\nKrimzin \n\n[ Template de Updates no Github Usado ]\nHugoZink ( https://github.com/HugoZink/PD2AutoUpdateExample )",
 	"image" : "icon.png",
 	"color" : "0 255 17",
-	"contact" : "https://steamcommunity.com/id/_gab_foxJaketto_/",
-	"version" : "10.08 - (12 Janeiro 2022)",
+	"contact" : "https://steamcommunity.com/id/gabs_F/",
+	"version" : "10.09 - (21 Janeiro 2022)",
 	"blt_version" : 2,
 	"updates" : [
 		{ 

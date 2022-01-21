@@ -76,6 +76,16 @@ return {
     loc_chca_intro_loud_05_07 = "Não, seu idiota, foi um sentimento da coisa, sabe?",--No you chop, it was the sentiment of the thing, yeah?
 
     -- Legendas
+	vld_chca_13_02 = "Bom, esse é o tipo de detalhe que você não pega quando está sendo torturado, sim?",--Well, that's the kind of detail you don't really pick up on when you're being tortured, yes?",
+	vld_chca_06_02 = "Eu só queria que você soubesse, seu filha duma puta, que o Vlad não esquece ou perdoa. Dragãozinho.",--I just wanted you to know, you motherfucker, that Vlad does not forget. Or forgive. Little dragon.",
+	vld_chca_13_01 = "Como eu deveria saber, porra? O filha da puta estava me fritando com uma bateria de carro!",--"How the fuck was I supposed to know? The son of a bitch was massaging me with a fucking car battery!",
+	vld_chca_03_01 = "Olá, seu chupa-miojo filha da puta.",--"Hello you noodle-sucking piece of shit.",
+	vld_chca_04_01 = "Nada mal, nada mal. Já ouviu falar da história de criança de uma garotinha e o dragão?",--"Not, bad, not bad. Have you ever heard the children's story of the little girl and the dragon?",
+	vld_chca_04_02 = "Estou bem, na verdade. Sabe, eu recentemente ouvi falar de uma história muito fofa da China, sobre uma garota e o dragão.",--"Pretty good, actually. You know, I recently heard a very cute story from China, about a girl and dragon.",
+	vld_chca_05_01 = "Vou spoilar o final para você... o dragão é esmagado pela montanha, e a garotinha quebra a montanha com o seu espirito.",--I'll spoil the ending for you- the dragon is crushed by a mountain, and the little girl then breaks the mountain with her spirit.",
+	vld_chca_05_02 = "Tem um final interessante. A garota usou a montanha para esmagar o dragão.",--It had a very interesting ending. The girl used a mountain to crush the dragon.",
+	vld_chca_06_01 = "Bom, só quero que saiba que tenho uma surpresa para você.",--Well, I just wanted you to know, that I have a special surprise coming for you. ",
+	vld_chca_14_02 = "Puta que pariu, Kang, seu filha da puta! É ele, é ele!",--Holy piece of shit Kang, you motherfucker! That's him, that's him!",
     vld_chca_14_01 = "É ele! É o filho da puta que tentou me matar!",--That's him! That's the motherfucker that got me! [Tô rezando que só tem três variações, eu vou ficar puto se tiver mais.]
     bar_chca_01_01 = "Eu estive esperando. Seu equipamento está esperando em um dos banheiros, mas tem um pequeno problema. A segurança do cofre mudou. Li Deng ainda tem o código, mas vocês vão precisar pegar a digital de Xun Kang também para abri-lo. Eu deixei uma cera de impressão nas suas coisas. Boa Sorte.",--I've been waiting. Your equipment is waiting in one of the cabin lavatories, but there is a small complication. Vault security has been changed. Li Deng still has the code, but you will need Xun Kang's hand print as well to open it. I was able to acquire some impression wax and store it with your gear. Good luck.
     loc_chca_001_01 = "OK, amigos. Deem uma olhada em volta.",--OK, friends. Have a look around.

@@ -1,5 +1,4 @@
-10.08
-* Traduzido mais textos das conquistas que estavam faltando
-* Corrigido um bug na descrição da skill "Heavy Impact"
-* Corrigido um erro de escrita na descrição da skill "Nine Lives"
-* Corrigido um bug na descrição do Perk Deck "Hacker"
+10.09
+* Traduzido mais falas do Vlad em Black Cat
+* As opções de vídeo agora tem descrições explicando o efeito
+* Alterado o "Onda Concluída" do Holdout para "Onda Sobrevivida"
