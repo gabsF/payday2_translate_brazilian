@@ -16,7 +16,7 @@ return {
 	loc_mex_intro_02 = "Depois disso, que tal irmos naquele lugar que o Sangres sempre fala para comer uns tacos de peixe e ver um show. Twister sei lá o que era o nome.",--After this, how about we go to that place Sangres is always talking about for some fish tacos and a show. Twister-something-something it was called...
 	loc_mex_intro_03 = "Não parem por muito tempo, amigos. Aqui é o país dos morcegos!",--Don't stop too long, friends. This is bat country!
 	loc_mex_intro_04 = "Se vocês acharem um estojo de guitarram cheio de armas... só deixem ai, yeah?",--If you chops find a guitar case full of guns... just let it be, yeah?  
-	heist_mex_transition = "EM ALGUM LUGAR NO MÉXICO...",--SOMEWHERE IN MEXICO...
+	heist_mex_transition = "EM ALGUM LUGAR EM MÉXICO...",--SOMEWHERE IN MEXICO...
 	loc_mex_01_01 = "Ok, gente. Hora de encontrar a entrada do túnel.",--OK, you chops. Time to find that tunnel entrance. 
 	loc_mex_01_02 = "Agora procurem aquele túnel. A entrada deve ser bem acessível.",--Now, get to finding that tunnel. The entrance should be fairly accessible. 
 	loc_mex_01_03 = "Encontrem o túnel, amigos. Eles provavelmente esconderam, mas não deve ser tão difícil de achar.",--Find that tunnel, friends. They've probably got it hidden, but it shouldn't be too hard to locate.
@@ -276,6 +276,28 @@ return {
     loc_mex_86_03 = "A chave não será mais útil para nada agora, vocês terão que usar uma furadeira, amigos.",--The key is not going to work any longer, you gotta use a drill, friends.
 	
 	-- Legendas (Border Crystals)
+	loc_mex_cook_12_06 = "Caramba, aquilo não era o ingrediente certo pelo visto.",--"Oh dear, that wasn't the right ingredient after all.",
+	loc_mex_cook_12_03 = "Suponho que não era esse.",--"I suppose that wasn't it.",
+	loc_mex_cook_12_15 = "Heh, suponho que você aprende algo novo todo dia.",--"Heh. I suppose you learn something new every day.",
+	loc_mex_cook_12_09 = "Ok, eu levo a culpa.",--"OK, that one is on me.",
+	loc_mex_cook_12_17 = "Ah, merda, aquilo não foi bom!",--"Ag man, that wasn't very nice!",
+	loc_mex_cook_12_21 = "Talvez eu esteja confundindo as coisas...",--"Maybe I'm confusing these things... ",
+	loc_mex_cook_12_14 = "Morto... pela metanfetamina... sinto muito, amigos. Não é muito engraçado.",--"Death... by meth... sorry, friends. Not funny.",
+	loc_mex_cook_12_18 = "Tava com um pressentimento que aquilo não era o certo... deveria ter escutado!",--"My gut feeling told me that wasn't the right ingredient... should have listened!",
+	loc_mex_cook_12_20 = "Essa coisa consegue fazer boas explosões...",--"This stuff makes great bombs...",
+	loc_mex_cook_12_01 = "Sinto muito, amigos.",--"Sorry, friends.",
+	loc_mex_cook_12_13 = "Ouviram esse barulho? Amigos?",--"Did you hear that loud noise? Friends?",
+	loc_mex_cook_17_01 = "Mais uma bolsa feita!",--"Another batch done!",
+	loc_mex_cook_12_08 = "Caralho! O que foi isso?",--"Blerrie! What are the odds?",
+	loc_mex_cook_14_02 = "Pegue essa metanfetamina para que possámos fazer mais.",--"Put that batch away so we can make some more.",
+	loc_mex_cook_12_05 = "Puta que pariu!",--"Kakspul of trouble!",
+	loc_mex_cook_12_12 = "Muito barulhento, né?",--"Pretty loud, yeah?",
+	loc_mex_cook_12_07 = "Suponho que é nisso que dar por confiar na internet.",--"That's what you get for trusting the internet, I suppose.",
+	loc_mex_cook_12_02 = "Deveria ter lido essas coisas, né?",--"I should read up on these things, yeah?",
+	loc_mex_cook_17_06 = "Quantas bolsas vamos cozinhar?",--"How many are you gonna cook?",
+	loc_mex_cook_12_16 = "Merda, olha a bagunça que causamos!",--"Ach, what a kraaines we made!",
+	loc_mex_cook_16_03 = "Vocês podem ficar e fazer mais ou irem embora, mas todos nós já temos o que precisamos!",--"You can stay and make more or leave, but we have all we need!",
+	loc_mex_cook_16_01 = "Ok, já está bom. Vocês podem continuar cozinhando ou caírem fora.",--"OK, that's enough. You can keep cooking or get out of there.",
 	loc_mex_cook_intro_01 = "Estou tentando encontrar algumas boas receitas aqui... alguns arquivos do Bain estão uma bagunça de merda, então espero que eu consiga resolver isso!",--Trying to find some good recipies here... some of Bain's files are a blerrie mess, so I hope I get it sorted!
 	loc_mex_cook_intro_02 = "Merda, eu devia ter prestado mais atenção nas aulas de química, yeah? Tudo bem, amigos... vamos dar um jeito.",--Ach, I should have paid more attention in chemistry class, yeah? No worries, friends... we'll figure it out as we go.
 	loc_mex_cook_intro_03 = "Ok, amigos. Vamos lá que o Velho Locke vai ajudar vocês, com certeza!",--OK, friends. You just get to it and old Locke will have you cooking in no time, for sure!
@@ -380,7 +402,7 @@ return {
 	loc_mex_cook_12_04 = "Porra! não, não estava certo...",--Ach! No, that wasn't right...
 	loc_mex_cook_12_10 = "Devem sempre confiar no Locke, menos nessas horas.",--You should always trust Locke, except when you shouldn't.
 	loc_mex_cook_12_11 = "Não... tava errado, não tava?",--No... that wasn't right, was it?
-	loc_mex_cook_12_19 = "Tenho o presentimento de que era o ingrediente errado...",--I had a feeling that was the wrong ingredient...
+	loc_mex_cook_12_19 = "Tenho o pressentimento de que era o ingrediente errado...",--I had a feeling that was the wrong ingredient...
 	loc_mex_cook_13_01 = "Um lote ficou pronto.",--Thats one batch done.
 	loc_mex_cook_13_02 = "O lote está pronto, amigos.",--The batch is done, friends.
 	loc_mex_cook_13_03 = "A primeira está pronta!",--First serving is ready!

@@ -360,6 +360,7 @@ return {
 	menu_locked = "BLOQUEADO",--LOCKED
 	
 	-- ARMAS
+	bm_mod_incompatibility_most = "maioria dos(as)",--most
 	bm_w_rsh12_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
 	bm_w_lemming_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
 	bm_menu_blackmarket_title = "Mercado Negro: $item;",--Blackmarket: $item;
@@ -374,6 +375,8 @@ return {
 	bm_menu_customizable_weapon_color = "Cor Customizada",
 	bm_menu_btn_customize_weapon_color = "Customizar Cor",
 	bm_menu_customizable_weapon_color_desc = "Adiciona uma Cor Customizada em sua arma.",--Add a custom color to your weapon
+	bm_menu_exclusive_set = "Conjunto Exclusivo",--Exclusive Set
+	bm_menu_exclusive_set_plural = "Conjuntos Exclusivos",--Exclusive Weapon Sets
 	bm_menu_weapon_cosmetics = "Skin da Arma",
 	bm_menu_ammo_plural = "Tipos de Munições",--Ammo Types
 	bm_menu_sight_plural = "Miras",--Sights
@@ -395,7 +398,7 @@ return {
 	bm_menu_stock = "Coronha",--Stock
 	bm_menu_upper_reciever = "Receptor Superior",--Upper Receiver
 	bm_menu_lower_reciever = "Receptor Inferior",--Lower Receiver
-	bm_menu_underbarrel_ammo = "Munição da Lança Granada",--Underbarrel
+	bm_menu_underbarrel_ammo = "Munição do Cano Inferior",--Underbarrel
 	bm_menu_underbarrel = "Cano Inferior",--Underbarrel
 	menu_assault_rifle = "Rifle de Assalto",--Assault Rifle
 	menu_akimbo_pistol = "Akimbo Pistola",--Akimbo Pistol
@@ -492,13 +495,13 @@ return {
 	menu_reticle_19 = "OVERKILL",
 	menu_reticle_20 = "Starbreeze",
 	menu_reticle_21 = "Vá se Foder",
-	menu_reticle_22 = "RocknRoll",
+	menu_reticle_22 = "Rock 'n Roll",
 	menu_reticle_color = "Cor",
 	menu_recticle_color_red = "Vermelho",
 	menu_recticle_color_blue = "Azul",
 	menu_recticle_color_green = "Verde",
 	menu_recticle_color_yellow = "Amarelo",
-	bm_menu_buy_weapon_title = "Comprar $weapon_category",--Buy $weapon_category;
+	bm_menu_buy_weapon_title = "Comprar $weapon_category;",--Buy $weapon_category;
 	bm_menu_btn_buy_selected_weapon = "Comprar Arma",--Buy weapon
 	bm_menu_locked_weapon_slot = "Slot de Arma Trancado",--Locked weapon slot
 	bm_menu_level_req = "Trancado até o Level de Reputação $level;",--Locked to reputation level $level;
@@ -2533,6 +2536,7 @@ return {
 	achievement_death_31_desc = "Equipe o 350k Brass Knuckles. Celebrando o lançamento da atualização Death Wish, você pode desbloquear o 350k knuckles entrando no grupo oficial no Steam do PAYDAY 2.",
 	--[[Equip the 350K brass knuckles. Celebrating the release of the Death Wish update, you can now unlock the 350K knuckles by simply joining the PAYDAY 2 Official Group on Steam.]]
 	achievement_death_31_additional = "Você precisa ser parte do grupo oficial no Steam do PAYDAY 2.",--You need to be a part of the official PAYDAY 2 group on Steam.
+	achievement_ja22_01_desc = "Destrua uma Turret da van da SWAT usando apenas o CAR-4 Rifle.",--Destroy a SWAT van turret using only the CAR-4 rifle.
 
 	-- Oitavo Aniversário
 	menu_challenge_div_cat_event_jobs = "Oitavo Aniversário do PAYDAY 2",--PAYDAY 2 8th Anniversary",

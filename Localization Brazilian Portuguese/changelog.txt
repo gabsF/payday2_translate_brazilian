@@ -1,4 +1,10 @@
-10.09
-* Traduzido mais falas do Vlad em Black Cat
-* As opções de vídeo agora tem descrições explicando o efeito
-* Alterado o "Onda Concluída" do Holdout para "Onda Sobrevivida"
+10.10
+* Traduzido mais falas
+    > Charon em Brooklyn 10-10
+    > Locke em Ukrainian Prisoner e Border Crystals
+    > Vlad em Buluc's Mansion
+
+* Traduzido conteúdo do Ano Novo Chinês 2022
+    > Menu de acessibilidade
+    > Nova categoria de modificações de armas, Conjunto Exclusivo
+    > Traduzido nova conquista para desbloquear o Conjunto Exclusivo da CAR-4

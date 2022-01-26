@@ -4,7 +4,7 @@ return {
 	--heist_vit_hl = "The White House",
 	heist_vit_crimenet = "O Golpe Mais BELÍSSIMO de Todos! O que vocês estavam treinando por muito tempo. A nossa querida Casa Branca, porra! Lá dentro tem o que a gente precisa, uns documentos importantes do presidente, os perdões, ainda legal e válido, mas sem nenhum nome neles! Se conseguir pegar eles, vocês vão poder fugir daqui e se aposentar. Eu não tenho muito tempo restando. Esse maldito vírus está consumindo o meu corpo cada vez mais. Mas caralho, vou viver pra ver isso.\n\n» Entre na Casa Branca \n» Entre no Escritório Oval\n» Encontre o Cartão Chave do Presidente\n» Vá para o C.O.E.P e Abra o Cofre \n» Roube os Perdões do Presidente e Fuja",
 	heist_vit_briefing = "Aqui vamos nós, queridos amigos. Os perdões que a gente procura estão no Centro de Operações de Emergência do Presidente, ou C.O.E.P. como eles chamam, que está em baixo da Casa Branca. Eu não consegui mais detalhes disso - Parece que aumentaram a segurança de lá, então, a gente vai fazer isso discretamente. Vou levar vocês em um helicóptero e vocês estarão vestidos como um deles. Entrem lá de forma furtiva, caso consigam, e só faça barulhos se for preciso. Essa é pelo Bain. E talvez pela gente, yeah?",
-	
+
 	-- Introduções
 	vit_intro_03_08 = "Mesmo com essas teorias da conspiração que já ouviu falar, quem é que acreditaria nessa?",
 	vit_intro_01_08 = "O que a gente tem, já é bom.",
@@ -73,7 +73,7 @@ return {
 	vit_intro_05_05 = "O fim da toca do coelho.",
 	vit_intro_05_07 = "Porra, a gente ainda não terminou.",
 	vit_intro_05_12 = "Essa é a questão, né?",
-	
+
 	-- Legendas
 	loc_vit_01_01 = "Quase lá. Caralho, vai ser muito tenso esse golpe! Eu consegui pegar umas informações com a ajuda da Joy. Para entrar na C.O.E.P, vocês vão precisar de um cartão especial que eles usam. É provável que esteja dentro do Escritório Oval.",
 	loc_vit_01_03 = "Okay, gente!",
@@ -509,8 +509,7 @@ return {
 	loc_vit_79_02 = "Vocês precisam verificar as salas, amigos!",
 	loc_vit_79_03 = "Apressem-se e procurem nas salas!",
 	loc_vit_79_04 = "Vocês precisam me conectar nessas caixas, amigos!",
-	
-	
+
 	-- Objetivos
 	hud_heist_vit_1_hl = "Entre na Casa Branca",
 	hud_heist_vit_1 = "Entre na Casa Branca pela entrada.",

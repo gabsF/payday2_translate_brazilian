@@ -43,7 +43,7 @@ return {
 	pln_fri_32_01 = "Isso vai levar um tempo. Certifiquem-se de proteger os guinchos enquanto eles fazem a mágica.",--This is gonna take a while. Make sure to protect the winches while they are working their magic.
 	pln_fri_05_01 = "Bom, agora conecte o Pen Drive no computador. Procure por um laptop, deve estar perto da casa.",--Great, now plug the usb into the computer. Look for a laptop, it should be near the house.
 	pln_fri_03_03 = "O Chefe da segurança vai ter aquele Pen Drive",--The head of security will have that USB stick.
-	pln_fri_56_02 = "Ernesto é sempre paranóico, assim que começar a fazer a ligação é melhor terminar. Igual um Pager.",--Ernesto is always paranoid, so once you start making that call you better finish it. Treat it like a pager
+	pln_fri_56_02 = "Ernesto é sempre paranoico, assim que começar a fazer a ligação é melhor terminar. Igual um Pager.",--Ernesto is always paranoid, so once you start making that call you better finish it. Treat it like a pager
 	pln_fri_06_03 = "O Laptop deve estar perto da casa, talvez em alguma das casas pequenas?",--The laptop should be near the house, maybe in one of the smaller buildings?
 	pln_fri_31_03 = "Acoplem os guinchos no chão!",--Hook the winches up to the floor!
 	pln_fri_46_01 = "Procurem pelos pacotes de cocaína, pessoal.",--Search those bags of coke, guys.

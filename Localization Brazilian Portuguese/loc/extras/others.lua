@@ -12,6 +12,7 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	menu_l_global_value_ja22 = "Esse é um item do Ano Novo Chinês 2022!",--This is a Chinese New Year 2022 item!
 	bm_global_value_snow_unlock = "Compre a DLC Winter Ghosts Tailor Pack para desbloquear!",--Buy the Winter Ghosts Tailor Pack DLC to unlock!
 	menu_l_global_value_snow = "Esse é um item de Winter Ghost Tailor Pack!",--This is a Winter Ghosts Tailor Pack Item!
 	menu_l_global_value_trik = "Esse é um item de Dia Das Bruxas 2021!",--This is a Halloween 2021 Item!
@@ -2354,6 +2355,21 @@ return {
 	menu_toggle_infamy_roman_rank_help = "Use números romanos para mostrar o seu nível Infamy próximo ao seu nível de Jogador.",
 	menu_toggle_infamy_roman_card = "Números Romanos na Carta Infamy",
 	menu_toggle_infamy_roman_card_help = "Use números romanos para mostrar o seu nível Infamy na Carta de Infamy.",
+
+	-- Acessibilidade
+	menu_accessibility = "Acessibilidade",--Accessibility
+	menu_accessibility_help = "Esse menu contém opções de acessibilidade e configurações de daltônismo.",--This menu contains Accessibility Options, such as color blind settings.
+	menu_accessibility_dot = "Ponto Anti-náusea",--Motion Dot
+	menu_accessibility_dot_help = "O Ponto Anti-náusea serve para reduzir a náusea de movimento.",--The Motion Dot is designed to lessen the effect of motion sickness.
+	menu_dot_off = "Desligado",--off
+	menu_dot_green = "Verde",--green
+	menu_dot_blue = "Azul",--blue
+	menu_dot_yellow = "Amarelo",--yellow
+	menu_dot_white = "Branco",--branco
+	menu_accessibility_dot_size = "Tamanho do Ponto",--Motion Dot Size
+	menu_accessibility_dot_size_help = "Selecione o tamanho do Ponto Anti-náusea",--Select Motion Dot Size
+	menu_toggle_dot_hide_ads = "Esconder o Ponto Anti-náusea enquanto mira",--Hide Motion Dot during ADS
+	menu_toggle_dot_hide_ads_help = "Esconde ou mostra o ponto anti-náusea enquanto estiver mirando com a sua arma.",--Hide or Show Motion Dot while aiming down sights
 	
 	-- HUD
 	hud_access_camera_feed_lost = "Transmissão perdida",--Feed lost

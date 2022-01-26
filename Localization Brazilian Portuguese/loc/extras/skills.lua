@@ -127,16 +127,16 @@ return {
 	menu_rifleman_beta_desc = "BÁSICO: ##$basic##\nO seu zoom é ##$multibasic;## mais rápido com todas as armas. \n\nA sua velocidade de movimento não é afetada enquanto mira. \n\nAVANÇADO: ##$pro##\nO nível do seu zoom é aumentado em ##$multipro;## para todas as armas. A Precisão da sua arma aumenta em ##$multipro2;## enquanto se move.",
 --BASIC: ##$basic;##\nYour snap to zoom is ##$multibasic;## faster with all weapons.\n\nYour movement speed is unhindered while using steel sight.\n\nACE: ##$pro;##\nYour weapon zoom level is increased by ##$multipro;## with all weapons. Your weapon accuracy while moving with SMGs, Assault Rifles and Sniper Rifles is increased by ##$multipro2;##.
 	--menu_sharpshooter_beta = "Marksman",
-	menu_sharpshooter_beta_desc = "BÁSICO: ##$basic##\nVocê ganha ##$multibasic2;## de Precisão para Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro único. \n\nAVANÇADO: ##$pro##\n Você ganha ##$multipro2;## de Precisão a mais enquanto mira com todas as Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro único.",
+	menu_sharpshooter_beta_desc = "BÁSICO: ##$basic##\nVocê ganha ##$multibasic2;## de Precisão para Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro unitário. \n\nAVANÇADO: ##$pro##\n Você ganha ##$multipro2;## de Precisão a mais enquanto mira com todas as Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro unitário.",
 --BASIC: ##$basic;##\nYou gain ##$multibasic2;## weapon accuracy with all SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode. \n\nACE: ##$pro;##\nYou gain a ##$multipro2;## accuracy bonus while aiming down sights with all SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode.
 	-- TIER 2
 
 	-- TIER 3
 	--menu_speedy_reload_beta = "Aggressive Reload",
-	menu_speedy_reload_beta_desc = "BÁSICO: ##$basic##\nAumenta a sua velocidade de recarregar todas as Submetralhadoras, Rifles de Assalto e Rifles de Sniper em ##$multibasic;## \n\nAVANÇADO: ##$pro##\nQualquer tiro na cabeça irá aumentar a sua velocidade de recarregar a sua arma em ##$multipro;## por ##$multipro2;## segundos. Só pode ser ativado por Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro único.",
+	menu_speedy_reload_beta_desc = "BÁSICO: ##$basic##\nAumenta a sua velocidade de recarregar todas as Submetralhadoras, Rifles de Assalto e Rifles de Sniper em ##$multibasic;## \n\nAVANÇADO: ##$pro##\nQualquer tiro na cabeça irá aumentar a sua velocidade de recarregar a sua arma em ##$multipro;## por ##$multipro2;## segundos. Só pode ser ativado por Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro unitário.",
 --BASIC: ##$basic;##\nIncreases your reload speed with SMGs, Assault Rifles and Sniper Rifles by ##$multibasic;##.\n\nACE: ##$pro;##\nAny killing headshot will increase your reload speed by ##$multipro;## for ##$multipro2;## seconds. Can only be triggered by SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode.
 	--menu_single_shot_ammo_return_beta = "Ammo Efficiency",
-	menu_single_shot_ammo_return_beta_desc = "BÁSICO: ##$basic##\nConseguindo ##$multibasic;## tiros na cabeça em menos de ##$multibasic2;## segundos, você ganha ##$multibasic3;## bala(s) para a sua arma equipada. Só pode ser ativado com Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro único. \n\nAVANÇADO: ##$pro##\nA quantidade de tiros na cabeça necessária é reduzida para ##$multipro;##.",
+	menu_single_shot_ammo_return_beta_desc = "BÁSICO: ##$basic##\nConseguindo ##$multibasic;## tiros na cabeça em menos de ##$multibasic2;## segundos, você ganha ##$multibasic3;## bala(s) para a sua arma equipada. Só pode ser ativado com Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro unitário. \n\nAVANÇADO: ##$pro##\nA quantidade de tiros na cabeça necessária é reduzida para ##$multipro;##.",
 --BASIC: ##$basic;##\nGetting ##$multibasic;## headshots in less than ##$multibasic2;## seconds will refund ##$multibasic3;## bullet to your used weapon. Can only be triggered by SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode.\n\nACE: ##$pro;##\nThe amount of headshots required is reduced to ##$multipro;##.
 	-- TIER 3
 
@@ -167,7 +167,7 @@ return {
 
 	-- TIER 3
 	--menu_close_by_beta = "Close By",
-	menu_close_by_beta_desc = "BÁSICO: ##$basic##\nVocê agora pode correr e atirar com as escopetas. \n\nAVANÇADO: ##$pro##\nA cadência é aumentada por ##$multipro;## enquanto estiver atirando sem mirar com as escopetas de tiro único. Escopetas que tem carregadores têm o seu tamanho aumentado por ##$multipro2;## cartuchos.",
+	menu_close_by_beta_desc = "BÁSICO: ##$basic##\nVocê agora pode correr e atirar com as escopetas. \n\nAVANÇADO: ##$pro##\nA cadência é aumentada por ##$multipro;## enquanto estiver atirando sem mirar com as escopetas de tiro unitário. Escopetas com carregadores têm o seu tamanho aumentado por ##$multipro2;## cartuchos.",
 	--BASIC: ##$basic;##\nYou can now hip-fire with your Shotguns while sprinting.\n\nACE: ##$pro;##\nYour rate of fire is increased by ##$multipro;## while firing from the hip with single shot Shotguns. Shotguns with magazines have their magazine sizes increased by ##$multipro2;## shells.
 	--menu_far_away_beta = "Far Away",
 	menu_far_away_beta_desc = "BÁSICO: ##$basic##\nEnquanto estiver mirando com a escopeta, a sua precisão aumenta por ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nO seu bônus de precisão é aumentado por ##$multipro;## enquanto estiver mirando com a escopeta.",

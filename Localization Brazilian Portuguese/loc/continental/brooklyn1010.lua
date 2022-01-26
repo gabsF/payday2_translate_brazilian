@@ -147,6 +147,8 @@ return {
 	cha_spa_15_01 = "Eu fico tão feliz de ouvir isso!",--I am so glad to hear that!
 	cha_spa_04_02 = "Esperem só um minuto. Eu tenho que abrir essa grade.",--Just a minute.  I have to open the gate!
 	cha_spa_13_01 = "Eles estão por todo lado da entrada principal. Nós não podemos escapar por lá.",--They are all over the main entrance. We can't get out that way.
+	cha_spa_13_02 = "Eu sinto que a entrada principal não é uma opção. Eles estão por toda parte.",--"I fear the main entrance is not an option. They are all over it.",
+	cha_spa_13_03 = "Não podemos usar a entrada principal. Muitos policiais.",--"We cannot use the main entrance. Too much heat.",
 	cha_spa_02_03 = "Seria ótimo se vocês pudessem ajudar com esses Snipers? Não seria?",--It'd be very helpful if you could deal with those snipers. Yes?
 	cha_spa_07_06 = "Eu preciso de cobertura para abrir essa porta!",--I need covering fire to get the door open!
 	cha_spa_14_02 = "E quanto a fuga? O motorista de vocês está vindo?",--How about that escape? Is your driver coming?
