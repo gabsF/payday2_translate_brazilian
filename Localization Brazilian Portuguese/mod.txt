@@ -5,7 +5,7 @@
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/gabs_F/",
-	"version" : "10.10 - (26 Janeiro 2022 / Ano Novo Chinês 2022)",
+	"version" : "10.11 - (4 de Fevereiro de 2022)",
 	"blt_version" : 2,
 	"updates" : [
 		{ 
@@ -14,9 +14,10 @@
 		}
 	]
 	"hooks" : [
+		{ "hook_id": "lib/managers/localizationmanager", "script_path": "loc/scripts/LocalizationManager.lua" },
 		{ "hook_id" : "lib/units/props/timergui", "script_path" : "loc/scripts/TimerGui.lua" },
-		{ "hook_id" : "lib/utils/LevelLoadingScreenGuiScript", "script_path" : "loc/scripts/LevelLoadingScreenGuiScript.lua" },
-		{ "hook_id" : "lib/utils/lightloadingscreenguiscript", "script_path" : "loc/scripts/lightloadingscreenguiscript.lua" },
+		{ "hook_id" : "lib/utils/levelloadingscreenguiscript", "script_path" : "loc/scripts/main.lua" },
+		{ "hook_id" : "lib/utils/lightloadingscreenguiscript", "script_path" : "loc/scripts/main.lua" },
 		{ "hook_id" : "lib/managers/menumanager", "script_path" : "loc/scripts/menumanager.lua" }
 	]
 }

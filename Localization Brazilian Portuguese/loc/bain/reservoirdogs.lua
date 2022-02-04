@@ -338,10 +338,10 @@ return {
 	-- Objetivos (Dia 1)
 	hud_heist_rvd_01_hl = "Defenda o Depósito",
 	hud_heist_rvd_01 = "SWATs estão chegando! Use as tábuas de dentro do depósito para barricar as janelas. Fique de olho nas entradas!",--SWATS incoming! Use the planks from inside the warehouse to barricade the windows. Watch the entrances!
-	hud_heist_rvd_02_hl = "Ajude o Mr. Pink",
-	hud_heist_rvd_02 = "Vá para o local do acidente e ajude o Mr. Ping a sair do veículo!",--Get to the crash site and help Mr. Pink out of the vehicle!
-	hud_heist_rvd_03_hl = "Proteja o Mr. Pink até o Depósito",
-	hud_heist_rvd_03 = "Certifique-se de que o Mr. Pink volte ao ponto de encontro.",--Make sure Mr. Pink makes it back to the rendezvous point.
+	hud_heist_rvd_02_hl = "Ajude o Senhor Pink",
+	hud_heist_rvd_02 = "Vá para o local do acidente e ajude o Senhor Pink a sair do veículo!",--Get to the crash site and help Mr. Pink out of the vehicle!
+	hud_heist_rvd_03_hl = "Proteja o Senhor Pink até o Depósito",
+	hud_heist_rvd_03 = "Certifique-se de que o Senhor Pink volte ao ponto de encontro.",--Make sure Mr. Pink makes it back to the rendezvous point.
 	hud_heist_rvd_04_hl = "Pegue a Serra",
 	hud_heist_rvd_04 = "Pegue a serra de dentro do depósito, você irá precisar abrir a unidade de armazenamento.",--Take the saw from inside the warehouse, you'll need it to open the storage units!
 	hud_heist_rvd_05_hl = "Pegue os Diamantes",

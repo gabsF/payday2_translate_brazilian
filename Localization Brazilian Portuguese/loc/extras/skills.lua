@@ -92,7 +92,7 @@ return {
 
 	-- TIER 2
 	--menu_cable_guy_beta = "Confident",
-	menu_cable_guy_beta_desc = "BÁSICO: ##$basic##\nO alcance e o medo da sua intimidação é aumentado em ##$multibasic2;## \n\nAVANÇADO: ##$pro##\nAgora você poderá ter ##$multipro2;## políciais convertidos. \nNota: é preciso ter o Básico do ##Joker##",--BASIC: ##$basic;##\nThe power and range of your intimidation is increased by ##$multibasic2;## \n\nACE: ##$pro;##\nYou can now have ##$multipro2;## converted enemies at the same time.
+	menu_cable_guy_beta_desc = "BÁSICO: ##$basic##\nO alcance e o medo da sua intimidação é aumentado em ##$multibasic2;## \n\nAVANÇADO: ##$pro##\nAgora você poderá ter ##$multipro2;## políciais convertidos. \n\nNota: é preciso ter o Básico do ##Joker##",--BASIC: ##$basic;##\nThe power and range of your intimidation is increased by ##$multibasic2;## \n\nACE: ##$pro;##\nYou can now have ##$multipro2;## converted enemies at the same time.
 	--menu_joker_beta = "Joker",
 	menu_joker_beta_desc = "BÁSICO: ##$basic##\nVocê pode converter um policial para lutar ao seu lado (Não os Especiais). \nNão pode ser feito durante o Stealth e o policial deve estar rendido para poder ser convertido. \n\nVocê só pode ter um policial convertido. \n\nAVANÇADO: ##$pro##\nO seu convertido causará ##$multipro2;## de dano a mais. O tempo para converter o policial é diminuído em ##$multipro3;##.",
 --BASIC: ##$basic;##\nYou can convert a non-special enemy to fight on your side.\nThis can not be done during stealth and the enemy must have surrendered in order for you to convert them.\n\nYou can only convert one non-special enemy at a time.\n\nACE: ##$pro;##\nYour converted enemy deals ##$multipro2;## more damage. The time to convert an enemy is reduced by ##$multipro3;##.
@@ -270,7 +270,7 @@ return {
 	menu_jack_of_all_trades_beta_desc = 'BÁSICO: ##$basic##\nA Velocidade das interações ao colocar todos os Equipamentos é aumentada em ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nAgora você pode equipar um Equipamento Secundário. Se um Equipamento for equipado como secundário, você apenas poderá levar a metade do que você levaria se fosse primária.\nPressione o $BTN_CHANGE_EQ; para alternar entre os Equipamentos.',
 --BASIC: ##$basic;##\nYou deploy and interact with all deployables ##$multibasic;## faster.\n\nACE: ##$pro;##\nYou can now equip a secondary deployable to bring with you. If your deployable is equipped as a secondary deployable, you can only bring half of what you would bring if it was equipped as a primary deployable.\n\nPress  to toggle between deployables.
 	--menu_engineering_beta = "Engineering",
-	menu_engineering_beta_desc = "BÁSICO: ##$basic##\nVocê pode equipar uma Sentinela Silenciada que faz menos barulho, fazendo ter menos atenção dos policiais. \nNota: não poderá usá-lo em Stealth.\n\nAVANÇADO: ##$pro##\nAgora você pode mudar o tipo de munição das suas Sentinelas para a munição AP, reduzindo a velocidade de tiro em ##$multipro;## mas aumentando o dano em ##250%## e permitindo que a bala atravesse os escudos dos Shields e os coletes de alguns inimigos.",
+	menu_engineering_beta_desc = "BÁSICO: ##$basic##\nVocê pode equipar uma Sentinela Silenciada que faz menos barulho, fazendo ter menos atenção dos policiais. \n\nNota: não poderá usá-lo em Stealth.\n\nAVANÇADO: ##$pro##\nAgora você pode mudar o tipo de munição das suas Sentinelas para a munição AP, reduzindo a velocidade de tiro em ##$multipro;## mas aumentando o dano em ##250%## e permitindo que a bala atravesse os escudos dos Shields e os coletes de alguns inimigos.",
 --BASIC: ##$basic;##\nYou can now select a less noisy version of the sentry guns, making them much less likely to be targeted by enemies.\n\nACE: ##$pro;##\nYou can now toggle AP rounds on your sentry guns, lowering the rate of fire by ##$multipro;##, but increasing damage by ##$multipro2;## and allowing it to pierce through enemies and shields.
 	-- TIER 3
 
@@ -285,7 +285,7 @@ return {
 
 	-- TIER 1
 	--menu_hardware_expert_beta = "Hardware Expert",
-	menu_hardware_expert_beta_desc = "BÁSICO: ##$basic##\nVocê pode consertar as furadeiras e serras ##$multibasic;## mais rápido. Reduz o tempo de colocar as Trip Mines em ##$multibasic2;##. Furadeiras e Serras agora são silenciosas. Civis e Guardas agora devem ver a sua Furadeira ou Serra para ficarem alertados. \n\nAVANÇADO: ##$pro##\nSua Furadeira ou Serra ganham uma chance de ##$multipro3;## para se consertarem automaticamente depois de quebrarem. \nNota: Esse efeito não se aplica ao OVE9000 Saw.",
+	menu_hardware_expert_beta_desc = "BÁSICO: ##$basic##\nVocê pode consertar as furadeiras e serras ##$multibasic;## mais rápido. Reduz o tempo de colocar as Trip Mines em ##$multibasic2;##. Furadeiras e Serras agora são silenciosas. Civis e Guardas agora devem ver a sua Furadeira ou Serra para ficarem alertados. \n\nAVANÇADO: ##$pro##\nSua Furadeira ou Serra ganham uma chance de ##$multipro3;## para se consertarem automaticamente depois de quebrarem. \n\nNota: Esse efeito não se aplica ao OVE9000 Saw.",
 --BASIC: ##$basic;##\nYou fix drills and saws ##$multibasic;## faster. Decreases trip mine deploy time by ##$multibasic2;##. Drills and saws are also silent. Civilians and guards must see the drill or saw in order to become alerted.\n\nACE: ##$pro;##\nGives your drills and saws a ##$multipro3;## chance to automatically restart after breaking.\n\nNote: Skill does not affect the OVE9000 saw.
 	-- TIER 1
 
@@ -294,7 +294,7 @@ return {
 	menu_combat_engineering_desc = "BÁSICO: ##$basic##\nO raio de explosão da sua Trip Mine é aumentada em ##$multibaisc;##. \n\nAVANÇADO: ##$pro##\nO dano de sua Trip Mine é aumentado em ##$multipro;##",
 --BASIC: ##$basic;##\nThe radius of your trip mine explosion is increased by ##$multibasic;##.\n\nACE: ##$pro;##\nYour trip mine damage is increased by ##$multipro;##.
 	--menu_drill_expert_beta = "Drill Sawgeant",
-	menu_drill_expert_beta_desc = "BÁSICO: ##$basic##\nO timer da sua Furadeira ou Serra é diminuido em ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nO timer da sua Furadeira ou Serra é diminuido em mais ##$multipro;##. Nota: Esse efeito não se aplica ao OVE9000 Saw.",
+	menu_drill_expert_beta_desc = "BÁSICO: ##$basic##\nO timer da sua Furadeira ou Serra é diminuido em ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nO timer da sua Furadeira ou Serra é diminuido em mais ##$multipro;##. \n\nNota: Esse efeito não se aplica ao OVE9000 Saw.",
 --BASIC: ##$basic;##\nYour drill and saw timer is decreased by ##$multibasic;##.\n\nACE: ##$pro;##\nYour drill and saw timer is decreased by an additional ##$multipro;##.\n\nNote: Skill does not affect the OVE9000 saw.
 	-- TIER 2
 
@@ -303,7 +303,7 @@ return {
 	menu_kick_starter_beta_desc = "BÁSICO: ##$basic##\nAs suas Furadeiras e Serras ganham ##$multibasic;## a mais de chance de se consertar sozinhas assim que quebrarem. \n\nAVANÇADO: ##$pro##\nAgora você pode consertar as suas Furadeiras ou Serras com um ataque de alguma arma corpo-a-corpo. Tem ##$multipro2;## de chance de consertar a furadeira ou serra. Só pode ser usada uma vez por Furadeira ou Serra quebrada. \n\nNota: esse efeito não aplica ao OVE9000 Saw.",
 --BASIC: ##$basic;##\nYour drills and saws gain an additional ##$multibasic;## chance to automatically restart after breaking.\n\nACE: ##$pro;##\nEnables the ability to reset a broken drill or saw with a melee attack. The ability has a ##$multipro2;## chance to fix the drill or saw. The ability can only be used once per time the drill or saw is broken.\n\nNote: Skill does not affect the OVE9000 saw.
 	--menu_more_fire_power = "More Firepower",
-	menu_more_fire_power_desc = "BÁSICO: ##$basic##\nVocê ganha mais ##$multibasic;## Carga Explosiva e mais ##$multibasic2;## Trip Mines. \n\nAVANÇADO: ##$pro##\nVocê ganha mais ##$multipro;## Cargas Explosivas e mais ##$;## Trip Mines.",
+	menu_more_fire_power_desc = "BÁSICO: ##$basic##\nVocê ganha mais ##$multibasic;## Carga Explosiva e mais ##$multibasic2;## Trip Mines. \n\nAVANÇADO: ##$pro##\nVocê ganha mais ##$multipro;## Cargas Explosivas e mais ##$multipro2;## Trip Mines.",
 --BASIC: ##$basic;##\nYou gain ##$multibasic;## more shaped charge and ##$multibasic2;## more trip mines.\n\nACE: ##$pro;##\nYou gain ##$multipro;## more shaped charges and ##$multipro2;## more trip mines.
 	-- TIER 3
 
@@ -331,7 +331,7 @@ return {
 
 	-- TIER 3
 	--menu_fast_fire_beta = "Surefire",
-	menu_fast_fire_beta_desc = 'BÁSICO: ##$basic##\nSuas Submetralhadoras, Rifles de Assalto e Armas Pesadas ganham ##$multibasic;## balas nos seus carregadores. Isso não afeta a skill avançada do "Lock n Load". \n\nAVANÇADO: ##$pro##\nAs suas Armas à distância podem causar perfuração no colete de alguns inimigos. \nNota: Isso não aplica nas armas que você arremessa.',
+	menu_fast_fire_beta_desc = 'BÁSICO: ##$basic##\nSuas Submetralhadoras, Rifles de Assalto e Armas Pesadas ganham ##$multibasic;## balas nos seus carregadores. Isso não afeta a skill avançada do "Lock n Load". \n\nAVANÇADO: ##$pro##\nAs suas Armas à distância podem causar perfuração no colete de alguns inimigos. \n\nNota: Isso não aplica nas armas que você arremessa.',
 --BASIC: ##$basic;##\nYour SMGs, LMGs and Assault Rifles gain ##$multibasic;## more bullets in their magazines. This does not affect the "Lock n' Load" Ace skill.\n\nACE: ##$pro;##\nYour ranged weapons can now pierce through enemy body armor.\n\nNote: Does not apply to throwable weapons.
 	--menu_shock_and_awe_beta = "Lock n' Load",
 	menu_shock_and_awe_beta_desc = "BÁSICO: ##$basic##\nVocê poderá agora correr e atirar ao mesmo tempo com as suas armas.\n\nAVANÇADO: ##$pro##\nMatando ##$multipro;## inimigos com Submetralhadoras, Rifles de Assalto, Armas Pesadas ou Armas Especiais, com o modo automático, vai aumentar a velocidade de recarregar a arma em até ##$multipro2;##. Esse bônus é reduzido em ##$multipro3;## para cada bala dentro do carregador, acima de ##$multipro4;##, o mínimo é ##$multipro5;## de velocidade de recarregar a arma.",

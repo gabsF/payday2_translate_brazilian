@@ -13,10 +13,11 @@
     <Localization directory="loc">
       <group language="portuguese">
 
-        <!-- Custom Text / Options Text -->
+        <!-- Custom Text -->
         <loc file="extras/options_strings.lua"/>
 
         <!-- Extras -->
+        <loc file="extras/vr.lua"/>
         <loc file="extras/others.lua"/>
         <loc file="extras/mutators.lua"/>
         <loc file="extras/bmarket.lua"/>

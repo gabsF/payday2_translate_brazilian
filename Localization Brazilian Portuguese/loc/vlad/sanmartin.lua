@@ -354,6 +354,26 @@ return {
     loc_bex_111_03 = "Tenho algo a caminho para vocês que será um pesadelo para esse cofre!",--Got something on the way for you that's going to be a kakspul of trouble for that vault!
 
 	-- Legendas (Vlad)
+	vld_bex_07_01 = "Ainda bem que Vlad enviou esta térmite para usarem, né?",--Good thing Vlad sent you that thermite to use, eh!",
+	vld_bex_19_01 = "Ele morreu? Cace... a minha esposa vai me dar uma bronca se ele estiver.",--Is he dead? Oh sh... my wife will give me an earful at dinner if he is.",
+	vld_bex_07_02 = "Não esta coisa, esta coisa é nano-térmite! Foi roubado da Suécia para mim. Bem forte.",--Not this stuff, this shit is nano-thermite! Was smuggled out of Sweden for me. Extra strong.",
+	vld_bex_10_01a = "Nojento, correndo por aí com coisas e copinhos de café usados!",--Disgusting, running around with used coffee cups and things!",
+	vld_bex_18_01 = "Eita, eu achei que iria funcionar!",--Oh wow, I really thought that would work!",
+	vld_bex_05_01 = "Coisa pra caralho está acontecendo em Washington agora.",--Lot's of shit happening in Washington right now.",
+	vld_bex_10_01b = "Nojento, correndo por aí com coisas e copinhos de café usados!",--Disgusting, running around with used coffee cups and things!",
+	vld_bex_12_01a = "Merda, esqueci de uma coisa. Se vocês acharem qualquer fita dentro daquele cofre, peguem ele, por favor... hã, eu... eu sei lá, talvez... queime aquilo em algum lugar depois, ok?",--Shit, I forgot something. If you find any tapes in that vault, take them too please... uh I.. I don't know, maybe... maybe burn them somewhere later, OK?",
+	vld_bex_11_01 = "Isto é que nem quando Vlad era jovem, mas menos tiroteio. Incrível, ninguém morreu até agora.",--This is like when Vlad was younger, but much less shooting. Incredible, no one is dead yet.",
+	vld_bex_02_01 = "Em México, eles têm um instrumento músical que você toca num maxilar de uma mula! Dar pra acreditar nisso!? Eu amo este país!",--In Mexico, they have a musical instrument where you play on the jawbone of a mule! Can you believe it!? Ha! I fucking love that country!",
+	vld_bex_03_01 = "Vou ficar de olho em vocês. Isso é importante pro Vlad.",--I'm gonna keep my eye on you. This one is important to Vlad.",
+	vld_bex_08_01c = "Eu já estive nesse banco uma vez, uns anos atrás. O gerente deste bando é um idiota. Ele manteve o seu cartão de acesso em um cofre pessoal, não me lembro aonde.",--I have been in the bank one time, a few years ago. The bank manager is an idiot. He keeps his access key in a personal safe, but I don't remember where.",
+	vld_bex_10_01c = "Nojento, correndo por aí com coisas e copinhos de café usados!",--Disgusting, running around with used coffee cups and things!",
+	vld_bex_11_02 = "No meu velho bairro, a gente atirávamos no ar e as ruas ficavam vazias. Bem efetivo.",--In my old neighborhood, we just shoot in the air and all the streets empty. Very effective.",
+	vld_bex_12_01b = "Oh, merda, esqueci de uma coisa. Escutem, se alguns de vocês acharem uma fita, peguem ele, por favor... Eu sei lá, talvez queimar aquilo em algum lugar depois, ok?",--Oh, shit, shit, I forgot something. Listen, If you find any tapes, take them too please... I don't know maybe burn them somewhere later, OK?",
+	vld_bex_12_01c = "Oh, merda! merda! esqueci de uma coisa. Escutem, se vocês acharem qualquer fita naquele cofre, peguem eles, por favor... Eu, hâ... talvez queime aquilo em algum lugar depois, ok?",--Oh, shit! shit! I forgot something. Listen, If you find any tapes in that vault, take them too please... I umm... maybe burn them somewhere later, OK?",
+	vld_bex_18_02 = "Eita... isso não... ohoyoyoyo... isso não parece nada bem.",--Oh...That looks... Ohoyoyoyo... That looks, not very good.",
+	vld_bex_19_02 = "Ei, filha da puta! Acorda. Sai daí antes que o cartel rouba a caminhonete!",--Hey, you fucker! Wake up. Get out of there before the cartels steal the truck!",
+	vld_bex_21_02 = "Nah, ele vai ficar bem.",--Naaah, He'll be fine.",
+	vld_bex_28_01 = "Eu... tô te dizendo. Ucrânia sabe fazer as melhores furadeiras. Na próxima vez, Locky, compra um de lá que não vai quebrar.",--I... I'm telling you. Ukraine makes the best drills. Next time Locky, buy one from there and it will not break.",
 	vld_bex_intro_01_01 = "Bem, eu, eu, eu estou aqui para ajudar. Essa merda é muito importante e preciso ter certeza de que farão isso certo.",--Well, I, I, I am here to help. This shit is too important and I have to make sure you do it right.
 	vld_bex_intro_01_02 = "Não se preocupe Locky, Vlad ficará quieto como um rato bebendo Sputniks!",--Don't worry Locky, Vlad will be quiet as mouse drinking Sputniks!
 	vld_bex_intro_02_01 = "Ei! Ei! Ei Ei Eeeei! Locky!",--Hey! Heey! Hey Hey Heeey! Locky!
@@ -387,7 +407,7 @@ return {
 	vld_bex_16_02a = "Meu cunhando. Se lembram dele, sim? Ele veio de uma festa em Chihuahua para ajudar!",--My brother-in-law. You remember him, yes? He came down from a party in Chihuahua to help!
 	vld_bex_16_02b = "Se lembram do meu cunhado? Bem, ele está vindo de Chihuahua para lhes dar uma mão.",--You remember my Brother-in-law? Well, he's coming down from Chihuahua to give you a hand.
 	vld_bex_17_01 = "Isso vai ser ótimo... Ele chegará em breve.",--It's going to be great... He will be there soon.
-	vld_bex_17_02 = "Não se preocupem, tudo vai ficar bem. AH! Eles estão vindo!",--Don't worry, it will be fine. Ah! Here he comes!
+	vld_bex_17_02 = "Não se preocupem, tudo vai ficar bem. AH! Olha ele ali!",--Don't worry, it will be fine. Ah! Here he comes!
 	vld_bex_20_01a = "Pessoal, melhor dizer para o meu cunhado pisar fundo!",--Guys, you better tell my brother-in-law to step on it!
 	vld_bex_20_01b = "Hey hey hey pessoal, Pessoal! É melhor dizer ao meu cunhado para pisar fundo nisso!",--Hey hey hey guys, Guys! you better tell my brother-in-law to step on it!
 	vld_bex_20_01c = "Ei pessoal, melhor dizerem para o meu cunhado pisar fundo!",--Hey guys, you better tell my brother-in-law to step on it!
@@ -398,7 +418,7 @@ return {
 	vld_bex_24_01 = "O que estão fazendo dando voltas com ele? Apenas batam na cabeça dele com umas maracas ou algo assim e ele irá falar.",--What are you doing leading him around? Just hit him in the head with a maracas or something and he will talk.
 	vld_bex_24_02 = "Acho que ele irá fazer melhor com uma porrada na cabeça.",--I still think he will do better with a hit in the head.
 	vld_bex_25_01 = "Ugh, o quão lerdo é esse cara?",--Ugh, How slow is this guy?
-	vld_bex_26_01 = "Essa é uma grande... furadeira.",--That's one big...drill.
+	vld_bex_26_01 = "Isso é uma grande... furadeira.",--That's one big...drill.
 	vld_bex_27_01a = "Por que isso está demorando tanto?",--Why is it taking so long?
 	vld_bex_27_01b = "Ugh, por que isso está demorando tanto?",--Ugh, Why is it taking so long?
 	vld_bex_29_01 = "Apenas comecem a atirar, isso move as pessoas!",--Just start shooting, that gets people moving!

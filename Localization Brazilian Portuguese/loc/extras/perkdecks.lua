@@ -273,7 +273,7 @@ return {
 	--menu_st_spec_17 = "Kingpin",
 	menu_st_spec_17_desc = "O Kingpin é o patrão! um autocrata em que quem estiver ao lado dele deverá obedecer a ele. Mas você tem que ter o dinheiro primeiro. Assim que estiver com o Dinheiro, você terá o poder. Lembre-se disso: a única coisa nesse mundo que dá as ordens... é as bolas.",
 	menu_deck17_1 = "Abram o Caminho para o Cara Mal",
-	menu_deck17_1_desc = "Desbloqueia e equipa o ##Injetor do Kingpin##. Mudando para outro Perk Deck vai deixar o Injetor bloqueado novamente. O Injetor substitui a sua Granada, é equipado no lugar da Granada e pode ser trocada se quiser.\n\nQuando estiver jogando, você poderá usar a tecla da granada ##$BTN_ABILITY;## para ativar o injetor. Ativando o injetor, ele irá te curar ##75%## de todo o dano que você levar por ##6## segundos.\n\nVocê ainda vai levar dano durante o efeito. O Injetor só pode ser usado a cada ##30## segundos. \n\nA cada inimigo que matar irá reduzir o tempo de espera do injetor por ##1## segundo.",
+	menu_deck17_1_desc = "Desbloqueia e equipa ##Injetor do Kingpin##. Mudando para outro Perk Deck vai deixar Injetor bloqueado novamente. Injetor substitui a sua Granada e pode ser trocada se quiser.\n\nQuando estiver jogando, você poderá usar a tecla da granada ##$BTN_ABILITY;## para ativar injetor. Ativando injetor, ele irá te curar ##75%## de todo o dano que você levar por ##6## segundos.\n\nVocê ainda vai levar dano durante o efeito. O Injetor só pode ser usado a cada ##30## segundos. \n\nA cada inimigo que matar irá reduzir o tempo de espera do injetor por ##1## segundo.",
 	menu_deck17_3 = "Querem Brincar de Porrada?",
 	menu_deck17_3_desc = "Você ganha mais ##10%## de vida.",
 	menu_deck17_5 = "Inimigo Público Número 1",
@@ -287,7 +287,7 @@ return {
 	--menu_st_spec_18 = "Sicario",
 	menu_st_spec_18_desc = 'O "Sicario" é o que todo cartel de drogas deve ter. Alguém que toma conta de qualquer tipo de problema do jeito mais letal possível. O "Sicario" nunca dá um passo atrás pra uma luta, eles fazem sempre um bom trabalho, sem hesitação ou medo.',
 	menu_deck18_1 = "Fumaça",
-	menu_deck18_1_desc = "Desbloqueia e equipa a granada ##Bomba de Fumaça##.\n\nQuando lançado, a ##Bomba de Fumaça## cria uma fumaça que dura ##10## segundos. Quando estiver dentro dessa fumaça, você e qualquer um do seu grupo automaticamente ganha ##50%## de Dodge.\n\nDepois da fumaça sumir, a ##Bomba de Fumaça## terá um tempo de ##60## segundos antes de poder ser usada novamente, porém matar um inimigo irá reduzir esse tempo em ##1## segundo.",
+	menu_deck18_1_desc = "Desbloqueia e equipa a granada ##Bomba de Fumaça##.\n\nQuando lançado, ##Bomba de Fumaça## cria uma fumaça que dura ##10## segundos. Quando estiver dentro dessa fumaça, você e qualquer um do seu grupo automaticamente ganha ##50%## de Dodge.\n\nDepois da fumaça sumir, ##Bomba de Fumaça## terá um tempo de ##60## segundos antes de poder ser usada novamente, porém matar um inimigo irá reduzir esse tempo em ##1## segundo.",
 	menu_deck18_3 = "Convulsão",
 	menu_deck18_3_desc = "Toda vez quando o jogador levar um tiro, ganha ##20%## de chance de Dodge. Esse efeito só vai ser anulado quando o jogador desviar de uma bala e isso não pode ocorrer mais de uma vez a cada ##4## segundos.",
 	menu_deck18_5 = "Sútil",
@@ -301,11 +301,11 @@ return {
 	--menu_st_spec_19 = "Stoic",
 	menu_st_spec_19_desc = "Você é uma parede inquebrável de determinação e calma. A disciplina da mente ajuda o Stoic a passar por situações que os outros estariam chorando e pedindo por sua mãe. Combinações de respiração e controle de reação física aprendido dos monges budistas vão te manter de pé até o final do serviço, não importa a pressão que os inimigos estiverem colocando em cima de você.",
 	menu_deck19_1 = "Virtude",
-	menu_deck19_1_desc = "Desbloqueia e equipa a ##Bebida do Stoic##.\n\nO dano levado é agora reduzido em ##75%##. O resto do dano será aplicado diretamente.\n\nOs ##75%## do dano reduzido será aplicado com o passar do tempo (##12## segundos).\n\nVocê poderá usar a tecla da granada ##$BTN_ABILITY;## para ativar a ##Bebida do Stoic## e imediatamente negar qualquer dano pendente. A bebida tem um tempo de ##10## segundos antes de poder ser usada novamente, mas pode ser reduzida em ##1## segundo para cada inimigo morto por você.",
+	menu_deck19_1_desc = "Desbloqueia e equipa ##Bebida do Stoic##.\n\nO dano levado é agora reduzido em ##75%##. O resto do dano será aplicado diretamente.\n\nOs ##75%## do dano reduzido será aplicado com o passar do tempo (##12## segundos).\n\nVocê poderá usar a tecla da granada ##$BTN_ABILITY;## para ativar ##Bebida do Stoic## e imediatamente negar qualquer dano pendente. A bebida tem um tempo de ##10## segundos antes de poder ser usada novamente, mas pode ser reduzida em ##1## segundo para cada inimigo morto por você.",
 	menu_deck19_3 = "Imóvel",
 	menu_deck19_3_desc = "Toda a sua armadura é convertida e aplicada na sua vida total.\n\nNota: todas as Skills que regenerem a sua armadura não funcionaram.",
 	menu_deck19_5 = "Calma",
-	menu_deck19_5_desc = "Depois de ##4## segundos sem levar dano, qualquer dano de tempo em que você estiver pendente será negado.",
+	menu_deck19_5_desc = "Depois de ##4## segundos sem levar dano, qualquer dano de tempo que você tiver pendente será negado.",
 	menu_deck19_7 = "Imperturbável",
 	menu_deck19_7_desc = "Quando a sua vida estiver abaixo de ##35%##, ao invés de ##1## segundo, vai reduzir o tempo antes de poder usar de novo em ##2## segundos para cada inimigo que você matar.",
 	menu_deck19_9 = "Paciente",
@@ -315,7 +315,7 @@ return {
 	--menu_st_spec_20 = "Tag Team",
 	menu_st_spec_20_desc = "Alguns dizem que algumas experiências são melhores quando são compartilhados, até mesmo os casos com os cigarros de aerossol! Para aquele assaltante especial que é o seu crush, isso é algo para ter um lindo amor enquanto você rouba cofres de bancos e faça alguns 'negócios'.",
 	menu_deck20_1 = "Almas Gêmeas",
-	menu_deck20_1_desc = "Desbloqueia e equipa o ##Cigarro Eletrônico##.\n\nPara ativar o ##Cigarro Eletrônico##, você precisa olhar para alguém do seu grupo dentro de um raio de ##18## metros sem nada na frente e apertar a tecla da granada ##$BTN_ABILITY;## para marcar ele.\n\nCada inimigo que você ou o aliado que estiver marcado matar irá curar ##15## da sua vida e o aliado marcado irá ter cura de ##7.5## de vida.\n\nCada inimigo que você matar vai estender a duração do efeito por ##1.3## segundos e reduzir o tempo antes de poder usar em 2 segundos.\n\nO efeito vai ter uma duração de cerca de ##12## segundos e tem um tempo antes de poder usar de ##60## segundos.",
+	menu_deck20_1_desc = "Desbloqueia e equipa ##Cigarro Eletrônico##.\n\nPara ativar o ##Cigarro Eletrônico##, você precisa olhar para alguém do seu grupo dentro de um raio de ##18## metros sem nada na frente e apertar a tecla da granada ##$BTN_ABILITY;## para marcar ele.\n\nCada inimigo que você ou o aliado que estiver marcado matar irá curar ##15## da sua vida e o aliado marcado irá ter cura de ##7.5## de vida.\n\nCada inimigo que você matar vai estender a duração do efeito por ##1.3## segundos e reduzir o tempo antes de poder usar em ##2## segundos.\n\nO efeito vai ter uma duração de cerca de ##12## segundos e tem um tempo antes de poder usar de ##60## segundos.",
 	menu_deck20_3 = "Aroma",
 	menu_deck20_3_desc = "A sua vida máxima é aumentada em ##20%##.",
 	menu_deck20_5 = "Sinergia",
@@ -329,7 +329,7 @@ return {
 	--menu_st_spec_21 = "Hacker",
 	menu_st_spec_21_desc = "Usando o seu equipamento e a sua mente brilhante, você pode foder qualquer sistema de segurança com um simples apertar de um botão. Você nunca foi pego no flagra por uma câmera de segurança ou por um guarda, mas se as coisas irem por água a baixo, você poderá facilmente fazer uma força bruta, passar pelos guardas e dar um final não muito feliz para alguém que estiver te ouvindo.",
 	menu_deck21_1 = "Bug de Código",
-	menu_deck21_1_desc = "Desbloqueia e equipa o ##Dispositivo ECM de Bolso##.\n\nMudar para outro Perk Deck irá fazer o ##Dispositivo ECM de Bolso## indisponível de novo. O ##Dispositivo ECM de Bolso## substitui a sua 'granada' atual, é equipado no lugar da sua granada e pode ser trocado caso queira.\n\nEnquanto estiver jogando, você pode usar a tecla da granada ##$BTN_ABILITY;## para ativar o ##Dispositivo ECM de Bolso##.\n\nAtivando o ##Dispositivo ECM de Bolso## antes do alarme soar, vai ativar o efeito de bloqueamento, desativando todos eletrônicos e pagers por ##6## segundos.\n\nAtivando o ##Dispositivo ECM de Bolso## depois do alarme ter soado vai ativar o efeito de Feedback, tendo uma chance de atordoar os inimigos no mapa todo por ##6## segundos.\n\nO ##Dispositivo ECM de Bolso## tem ##2## usos com um tempo de ##100## segundos antes de poder usar novamente, mas cada inimigo que você matar vai reduzir o tempo em ##6## segundos. \n\nNota: Os cooldowns dos ##2## usos são separados, o segundo não vai recarregar até que o primeiro termine.",
+	menu_deck21_1_desc = "Desbloqueia e equipa ##Dispositivo ECM de Bolso##.\n\nMudar para outro Perk Deck irá fazer ##Dispositivo ECM de Bolso## indisponível de novo. ##Dispositivo ECM de Bolso## substitui a sua 'granada' atual, é equipado no lugar da sua granada e pode ser trocado caso queira.\n\nEnquanto estiver jogando, você pode usar a tecla da granada ##$BTN_ABILITY;## para ativar ##Dispositivo ECM de Bolso##.\n\nAtivando ##Dispositivo ECM de Bolso## antes do alarme soar, vai ativar o efeito de bloqueamento, desativando todos eletrônicos e pagers por ##6## segundos.\n\nAtivando o ##Dispositivo ECM de Bolso## depois do alarme ter soado vai ativar o efeito de Feedback, tendo uma chance de atordoar os inimigos no mapa todo por ##6## segundos.\n\nO ##Dispositivo ECM de Bolso## tem ##2## usos com um tempo de ##100## segundos antes de poder usar novamente, mas cada inimigo que você matar vai reduzir o tempo em ##6## segundos. \n\nNota: Os cooldowns dos ##2## usos são separados, o segundo não vai recarregar até que o primeiro termine.",
 	menu_deck21_3 = "Operação de Segurança",
 	menu_deck21_3_desc = "Você ganha mais ##20%## de vida.",
 	menu_deck21_5 = "Distração de Bit",
@@ -337,14 +337,14 @@ return {
 	--menu_deck21_7 = "Kluge",
 	menu_deck21_7_desc = "Matando pelo menos ##1## inimigo enquanto estiver no efeito do Feedback ou de Jammer, você vai receber ##20## de Dodge por ##30## segundos.",
 	menu_deck21_9 = "Bot da INTERWEB",
-	menu_deck21_9_desc = "Enquanto estiver no efeito do Feedback, os seus aliados vão regenerar ##10## de vida.\n\nVocê ganha mais ##15%## de Dodge.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+	menu_deck21_9_desc = "Enquanto estiver no efeito do Feedback, os seus aliados vão regenerar ##10## de vida quando matarem um inimigo.\n\nVocê ganha mais ##15%## de Dodge.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 	
 	-- Leech
 	--menu_st_spec_22 = "",--Leech
 	menu_st_spec_22_desc = "Você é um parasita seletivo em combate, sugando os seus inimigos para curar os seus aliados e a si mesmo. Mas você não é só uma parede de tijolos que pode aguentar uma porrada. Você pode pegar essa dor que você sofre e usar para dar uma força para sua equipe.",
 --[[You are a selective parasite in combat, draining your foes to strengthen yourself and your teammates. Still, you're not just some brick shithouse that can take a beating. You can dish out the pain and use that aggression to bolster your team.  ]]
 	menu_deck22_1 = "Impulso",--Momentum
-	menu_deck22_1_desc = "Desbloqueia e equipa o ##Ampola do Leech##.\n\nMudar para outro Perk Deck irá fazer o ##Ampola do Leech## indisponível de novo. O Ampola do Leech substitui a sua 'granada' atual, é equipado no lugar da sua granada e pode ser trocado caso queira.\n\nEnquanto estiver jogando, você pode usar a tecla da granada ##$BTN_ABILITY;## para ativar o ##Ampola Leech##.\n\nAtivando o ##Ampola do Leech## irá restaurar ##$multiperk;## da vida e desativar a sua armadura por duração do ##Ampola do Leech##.\n\nEnquanto o ##Ampola do Leech## estiver ativo, a sua vida é dividido em pedaços de ##$multiperk2;## e o dano sofrido dos inimigos remove um pedaço. Matando ##$multiperk3;## inimigos irá restaurar um pedaço da sua vida e bloquear dano por 1 segundo. Assim que você sofrer dano, os seus aliados vão receber cura por ##$multiperk4;## da vida deles.\n\nO ##Ampola do Leech## dura por ##$multiperk5;## segundos com um cooldown de ##$multiperk6;## segundos.",
+	menu_deck22_1_desc = "Desbloqueia e equipa ##Ampola do Leech##.\n\nMudar para outro Perk Deck irá fazer ##Ampola do Leech## indisponível de novo. Ampola do Leech substitui a sua 'granada' atual, é equipado no lugar da sua granada e pode ser trocado caso queira.\n\nEnquanto estiver jogando, você pode usar a tecla da granada ##$BTN_ABILITY;## para ativar ##Ampola Leech##.\n\nAtivando ##Ampola do Leech## irá restaurar ##$multiperk;## da vida e desativar a sua armadura por duração de ##Ampola do Leech##.\n\nEnquanto ##Ampola do Leech## estiver ativo, a sua vida é dividido em pedaços de ##$multiperk2;## e o dano sofrido abaixo de ##200## dos inimigos remove um pedaço, mas acima de ##200## remove dois. Matando ##$multiperk3;## inimigos irá restaurar um pedaço da sua vida e bloquear dano por 1 segundo. Assim que você sofrer dano, os seus aliados vão receber cura por ##$multiperk4;## da vida deles. A cura por segundo tem limite ##20%## da vida dos seus aliados.\n\nO ##Ampola do Leech## dura por ##$multiperk5;## segundos com um cooldown de ##$multiperk6;## segundos.",
 --[[Unlocks and equips the Leech Ampule.
 
 Changing to another perk deck will make the Leech Ampule unavailable again. The Leech Ampule replaces your current throwable, is equipped in your throwable slot and can be switched out if desired.
@@ -357,12 +357,12 @@ While the Leech Ampule is active your health is divided into segments of ##$mult
 
 The Leech Ampule lasts ##$multiperk5;## seconds with a ##$multiperk6;## seconds cooldown.]]
 	menu_deck22_3 = "Indomável",--Indomitable
-	menu_deck22_3_desc = "A sua vida máxima aumenta por ##$multiperk;##\n\nEnquanto o Ampola do Leech estiver ativo, você não pode cair, mas ficar com zero de vida irá reduzir o seu movimento por ##$multiperk2;##.",
+	menu_deck22_3_desc = "A sua vida máxima aumenta por ##$multiperk;##\n\nEnquanto ##Ampola do Leech## estiver ativo, você não pode cair, mas ficar com zero de vida irá reduzir o seu movimento por ##$multiperk2;##.",
 --[[Your maximum health is increased by ##$multiperk;##.
 
 While the Leech Ampule is active you cannot go into bleedout, but being out of health will slow you down by ##$multiperk2;##.]]
 	menu_deck22_5 = "Robusto",--Stalwart
-	menu_deck22_5_desc = "A duração do Ampola do Leech é aumentado para ##$multiperk;## segundos.\n\nMatando um inimigo reduz o cooldown do Ampola do Leech por ##$multiperk2;## segundo(s).\n\nSofrer dano agora cura os seus aliados por ##$multiperk3;## da vida deles.",
+	menu_deck22_5_desc = "A duração de ##Ampola do Leech## é aumentado para ##$multiperk;## segundos.\n\nMatando um inimigo reduz o cooldown de Ampola do Leech por ##$multiperk2;## segundo(s).\n\nSofrer dano agora cura os seus aliados por ##$multiperk3;## da vida deles.",
 --[[The Leech Ampule duration is increased to ##$multiperk;## seconds.
 
 Killing an enemy reduces the cooldown of the Leech Ampule by ##$multiperk2;## second(s).
@@ -371,7 +371,7 @@ Taking damage now heals teammates by ##$multiperk3;## of their health.]]
 	menu_deck22_7 = "Construído Diferentemente",--Built Different
 	menu_deck22_7_desc = "A sua vida máxima aumenta por ##$multiperk;##.",--Your maximum health is increased by ##$multiperk;##.
 	menu_deck22_9 = "Simbiose",--Symbiosis
-	menu_deck22_9_desc = "Você pode ativar o ##Ampola do Leech## enquanto estiver no chão, vai te reviver temporariamente até o ##Ampola do Leech## acabar. Se você conseguir reviver um aliado ou usar uma Bolsa Médica antes do ##Ampola do Leech## acabar, você pode ficar vivo se a sua vida não estiver vazia.\n\nEnquanto o ##Ampola do Leech## estiver ativo, a sua vida é agora dividido em pedaços de ##$multiperk;##.\n\nA sua vida máxima aumenta por ##$multiperk2;##.\n\nO cooldown da queda do ##Ampola do Leech## vai ser removido assim que você reviver um aliado ou recuperar a sua vida.\n\nAssim que você reviver outro jogador ou recuperar a sua vida, o cooldown do ##Ampola do Leech## é reduzido pelo tempo passado enquanto esteve caído.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+	menu_deck22_9_desc = "Você pode ativar ##Ampola do Leech## enquanto estiver no chão, vai te reviver temporariamente até ##Ampola do Leech## acabar. Se você conseguir reviver um aliado ou usar uma Bolsa Médica antes que ##Ampola do Leech## acabe, você pode ficar vivo se a sua vida não estiver vazia.\n\nEnquanto ##Ampola do Leech## estiver ativo, a sua vida é agora dividido em pedaços de ##$multiperk;##.\n\nA sua vida máxima aumenta por ##$multiperk2;##.\n\nO cooldown da queda do ##Ampola do Leech## vai ser removido assim que você reviver um aliado ou recuperar a sua vida.\n\nAssim que você reviver outro jogador ou recuperar a sua vida, o cooldown de ##Ampola do Leech## é reduzido pelo tempo passado enquanto esteve caído.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
 --[[You can now activate Leech Ampule while downed, temporarily reviving you until the end of the Leech Ampule. If you successfully revive a teammate or use a doctor bag before the Leech Ampule ends, you may stay alive if you are above 0 health.
 
 While the Leech Ampule is active your health is now divided into segments of ##$multiperk;##.
