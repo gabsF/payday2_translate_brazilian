@@ -3680,6 +3680,7 @@ return {
 	dialog_request_timed_out_message = "O pedido para se conectar ao jogo expirou.",
 	
 	-- Notificações na Tela
+	hint_chill_betting_insufficient = "Dinheiro Insuficiente!",
 	hud_hint_gunfire = "Alarme disparado: Câmera detectou um tiro",
 	hud_hint_cop_drill = "Alarme disparado: A Polícia detectou uma furadeira",
 	hud_hint_cam_computer = "Alarme disparado: Câmera detectou um computador hackeado",

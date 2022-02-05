@@ -1,12 +1,5 @@
-10.11.1
-* Corrigido um bug com a descrição da skill "Combat Engineering"
-
-10.11
-* Atualizado a descrição do Leech para refletir as mudanças que a Overkill fez
-* Traduzido mais falas
-    > Vlad em San Martín Bank
-* Corrigido um bug com a descrição da skill "More Firepower"
-* Traduzido a versão VR (Sim, eu sei, tem textos faltando, mas eu não vou torrar o meu dinheiro só pra traduzir isso)
-* Alterado "ESPERE" das telas de carregamento para "CARREGANDO" (Obrigado, Punished Bernadetta)
-* Organizado a tela de créditos
-* Corrigido alguns erros em algumas descrições dos Perk Decks
+10.12
+• Traduzido a notificação faltando na Safe House
+• Traduzido mais falas
+    > Vlad em Black Cat
+• Corrigido o crash da Tela de Loading (o "ESPERE" voltou :()

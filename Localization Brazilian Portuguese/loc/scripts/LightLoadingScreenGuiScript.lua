@@ -1,6 +1,8 @@
-LightLoadingScreenGuiScript.old__init = LightLoadingScreenGuiScript.old__init or LightLoadingScreenGuiScript.init
-
-function LightLoadingScreenGuiScript:init(scene_gui, res, progress, base_layer, is_win32)
-	self:old__init(scene_gui, res, progress, base_layer, is_win32)
-	self._title_text:set_text("ESPERE") --managers.localization:text("debug_loading_level")
-end
+Hooks:PostHook(LightLoadingScreenGuiScript,"init","PortugueseLocalizationLightLoading",function(self)
+    local title_text = "ESPERE"
+	if self._level_title_text then
+		self._level_title_text:set_text(title_text)
+	else
+		self._title_text:set_text(title_text) --VOID UI fix
+	end
+end)

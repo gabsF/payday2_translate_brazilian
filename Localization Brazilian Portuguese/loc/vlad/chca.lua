@@ -76,6 +76,11 @@ return {
     loc_chca_intro_loud_05_07 = "Não, seu idiota, foi um sentimento da coisa, sabe?",--No you chop, it was the sentiment of the thing, yeah?
 
     -- Legendas
+    vld_chca_15_01 = "Ei, o filha da puta tava torrando os meus mamilos com eletricidade! Eu nem olhei para a porra da mão dele!",--Hey, the motherfucker was burning my fucking nipples off with electricity! I didn't look at his fucking hand!
+    vld_chca_01_01 = "Ah, isso pode ser interessante!",--Oh, this might be interesting!
+    vld_chca_01_02 = "Ah, legal! Vlad gosta de escutar!",--Ah, nice! Vlad likes to eavesdrop!
+    vld_chca_02_01 = "Aí, quanto tempo vocês vão ficar correndo por aí? É tão difícil assim de achar a cabine?",--Hey, how long are you guys going to run around over there? What's so hard about finding a cabin
+    vld_chca_15_02 = "Sabe, eu tava meio ocupado com os meus mamilos sendo torrados só para notar a mão desse filha da puta!",--You know, I was a little too busy getting my fucking chest hair grilled to notice the fucker's hand!
 	vld_chca_13_02 = "Bom, esse é o tipo de detalhe que você não pega quando está sendo torturado, sim?",--Well, that's the kind of detail you don't really pick up on when you're being tortured, yes?",
 	vld_chca_06_02 = "Eu só queria que você soubesse, seu filha duma puta, que o Vlad não esquece ou perdoa. Dragãozinho.",--I just wanted you to know, you motherfucker, that Vlad does not forget. Or forgive. Little dragon.",
 	vld_chca_13_01 = "Como eu deveria saber, porra? O filha da puta estava me fritando com uma bateria de carro!",--"How the fuck was I supposed to know? The son of a bitch was massaging me with a fucking car battery!",
