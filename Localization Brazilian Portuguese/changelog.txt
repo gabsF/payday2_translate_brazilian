@@ -1,4 +1,5 @@
 10.11
+* Corrigido um bug com a descrição da skill "Combat Engineering"
 * Atualizado a descrição do Leech para refletir as mudanças que a Overkill fez
 * Traduzido mais falas
     > Vlad em San Martín Bank

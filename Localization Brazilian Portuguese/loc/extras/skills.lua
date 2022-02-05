@@ -291,7 +291,7 @@ return {
 
 	-- TIER 2
 	--menu_combat_engineering = "Combat Engineering",
-	menu_combat_engineering_desc = "BÁSICO: ##$basic##\nO raio de explosão da sua Trip Mine é aumentada em ##$multibaisc;##. \n\nAVANÇADO: ##$pro##\nO dano de sua Trip Mine é aumentado em ##$multipro;##",
+	menu_combat_engineering_desc = "BÁSICO: ##$basic##\nO raio de explosão da sua Trip Mine é aumentada em ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nO dano de sua Trip Mine é aumentado em ##$multipro;##",
 --BASIC: ##$basic;##\nThe radius of your trip mine explosion is increased by ##$multibasic;##.\n\nACE: ##$pro;##\nYour trip mine damage is increased by ##$multipro;##.
 	--menu_drill_expert_beta = "Drill Sawgeant",
 	menu_drill_expert_beta_desc = "BÁSICO: ##$basic##\nO timer da sua Furadeira ou Serra é diminuido em ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nO timer da sua Furadeira ou Serra é diminuido em mais ##$multipro;##. \n\nNota: Esse efeito não se aplica ao OVE9000 Saw.",
