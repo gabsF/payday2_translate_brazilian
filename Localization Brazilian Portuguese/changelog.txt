@@ -1,5 +1,2 @@
-10.12
-• Traduzido a notificação faltando na Safe House
-• Traduzido mais falas
-    > Vlad em Black Cat 
-• Corrigido o crash da Tela de Loading (o "ESPERE" voltou :()
+10.12.1
+* Alterado a tela de Loading para "CARREGANDO" (Obrigado, Punished Bernadetta)
