@@ -1,5 +1,5 @@
 10.12
 • Traduzido a notificação faltando na Safe House
 • Traduzido mais falas
-    > Vlad em Black Cat
+    > Vlad em Black Cat 
 • Corrigido o crash da Tela de Loading (o "ESPERE" voltou :()
