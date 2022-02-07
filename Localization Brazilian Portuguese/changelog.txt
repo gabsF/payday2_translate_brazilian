@@ -1,2 +1,4 @@
-10.12.1
+10.13
 * Alterado a tela de Loading para "CARREGANDO" (Obrigado, Punished Bernadetta)
+* Traduzido mais falas
+    > Vlad, Xun Kang e Yufu Wang em Black Cat

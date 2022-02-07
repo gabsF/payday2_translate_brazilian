@@ -844,6 +844,7 @@ return {
 	hud_equipment_defibrillator_paddles = "Pás de Desfibrilador",--Defibrillator paddles
 	hud_equipment_adrenaline = "Adrenalina",--Adrenaline
 	hud_equipment_documents = "Documentos",--Documents
+	hud_equipment_business_card = "Cartão de Negócios",--Business Card
 	
 	-- Outros Interagindo
 	hud_opening_cas_briefcase = "Abrindo a Maleta",--Opening the briefcase
