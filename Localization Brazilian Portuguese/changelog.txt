@@ -2,3 +2,5 @@
 * Alterado a tela de Loading para "CARREGANDO" (Obrigado, Punished Bernadetta)
 * Traduzido mais falas
     > Vlad, Xun Kang e Yufu Wang em Black Cat
+* Traduzido descrições faltando em dois mapas do Holdout
+* Traduzido introduções faltando em Dia 2 do Tutorial Stealth
