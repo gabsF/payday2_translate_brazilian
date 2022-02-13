@@ -26,7 +26,9 @@ return {
 	pln_sh11_intro_01_03 = "Chegamos. Hora de voltar aos negócios. Parece bom, não é?",
 	pln_sh21_intro_01_03 = "Pronto para festejar que nem os velhos dias, Dallas?",
 	pln_sh21_intro_01_01 = "Estamos em uma boate. Hora de rebolar o esqueleto! Começa a revisar o lugar antes de começar a parte divertida. Dê uma olhada no lugar primeiro.",
-	pln_sh21_intro_01_02 = "Beleza, primeira coisa. Bora revisar o lugar primeiro como um profissional.", --Por algum motivo, esse e "pln_s21_intro_01_01" tem os seus audios trocados, enquanto ao "_03" tá normal
+	pln_sh21_intro_01_02 = "Beleza, primeira coisa. Bora revisar o lugar primeiro como um profissional.", --Por algum motivo, este e "pln_s21_intro_01_01" tem os seus audios trocados, enquanto ao "_03" tá normal
+	pln_sh12_intro_01_01 = "Ok, chegamos. Tá na hora do show.",--Okay, here we are. It's show time.",
+	pln_sh12_intro_01_03 = "Chegamos. Vou guiar você até o final.",--This is it. I'll guide you through the whole thing.",
 	pln_sh12_intro_01_02 = "Chegamos. Hora de botar as mãos na massa.",
 	pln_sh12_01_01 = "Estamos fazendo isso quieto. O computador que você procura deve tá no segundo andar.",
 	pln_sh12_02_01 = "Esquece a entrada da frente. Coloque a máscara e corte a cerca.",
