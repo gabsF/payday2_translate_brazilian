@@ -1,2 +1,4 @@
 10.14
 * Melhorado a descrição da skill "Surefire" Aced
+* Traduzido novos trajes (e adicionado créditos aos artistas)
+* Traduzido nova descrição do Rifle Valkyria

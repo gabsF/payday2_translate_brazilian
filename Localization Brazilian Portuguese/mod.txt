@@ -5,7 +5,7 @@
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/gabs_F/",
-	"version" : "10.13 - (14 de Fevereiro de 2022)",
+	"version" : "10.14 - (16 de Fevereiro de 2022)",
 	"blt_version" : 2,
 	"updates" : [
 		{ 

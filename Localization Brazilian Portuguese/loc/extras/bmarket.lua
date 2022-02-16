@@ -280,6 +280,12 @@ return {
 	bm_suit_var_lonorwa_default_desc = "Agora, isso é clássico. O único que transmite a mensagem.",
 --[[Now, this is the classic version. The one that really makes a statement.]]
 
+	-- TRAJES DO DÉCIMO ANIVERSÁRIO
+	bm_suit_waistcoat_desc = "Este traje vai mostrar o profissionalismo, e poder, dentro de você.\n\nCriado por @_jenericku",--This outfit will truly get the job done if you want to exude an air of power and professionalism.
+	bm_suit_sparkle_desc = "Quer ser notado em um trabalho e deixar uma impressão fabulosa? Este traje vai servir.\n\nCriado por @OneMonovan",--Want to get noticed on the job and leave a flamboyant impression? Yeah, this is the way to go.
+	bm_suit_bunny_desc = "Um traje de coelho rosa? Por que não? O contraste entre o seu traje e a sua arma vai ficar muito fofo!\n\nCriado por @SilversTweet",--A pink bunny suit? Why the hell not? The contrast between your outfit and your gun will be stunning! 
+	-- TRAJES DO DÉCIMO ANIVERSÁRIO
+
 	-- LUVAS
 	bm_gloves_default_desc = "Use as Luvas padrão dos Heisters",--Use the heisters default gloves
 	bm_gloves_heistwrinkled_desc = "Vestido para roubar.",--Dressed up for stealing.
@@ -360,6 +366,7 @@ return {
 	menu_locked = "BLOQUEADO",--LOCKED
 	
 	-- ARMAS
+	bm_w_asval_desc = "Essa arma é silenciada.",--This weapon is suppressed.
 	bm_mod_incompatibility_most = "maioria dos(as)",--most
 	bm_w_rsh12_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
 	bm_w_lemming_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
