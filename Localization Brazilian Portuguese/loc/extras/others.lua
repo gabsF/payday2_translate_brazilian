@@ -12,6 +12,8 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	bm_global_value_lawp_unlock = "Compre o Jiu Feng Smuggler Pack 4 para desbloquear!",--Buy the Jiu Feng Smuggler Pack 4 to unlock!
+	menu_l_global_value_lawp = "Esse é um item de Jiu Feng Smuggler Pack 4!",--This is a Jiu Feng Smuggler 4 Pack item!
 	menu_l_global_value_ja22 = "Esse é um item do Ano Novo Chinês 2022!",--This is a Chinese New Year 2022 item!
 	bm_global_value_snow_unlock = "Compre a DLC Winter Ghosts Tailor Pack para desbloquear!",--Buy the Winter Ghosts Tailor Pack DLC to unlock!
 	menu_l_global_value_snow = "Esse é um item de Winter Ghost Tailor Pack!",--This is a Winter Ghosts Tailor Pack Item!

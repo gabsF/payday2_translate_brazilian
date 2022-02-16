@@ -366,6 +366,9 @@ return {
 	menu_locked = "BLOQUEADO",--LOCKED
 	
 	-- ARMAS
+	bm_w_maxim9_desc = "Essa arma é silenciada e consegue empurrar igual uma Escopeta.",--This weapon is suppressed and has shotgun push functionality.
+	bm_wp_fmg9_conversion_desc = "Conjuntos Exclusivos adicionam algumas modificações, um estilo extra e algumas mudanças leves nas estastísticas.",--The Exclusive Set adds several mods, giving the weapon a visual flair and some slight stat tweaks.
+	bm_wp_ultima_body_kit_desc = "Conjuntos Exclusivos adicionam algumas modificações, um estilo extra e algumas mudanças leves nas estastísticas.",--The Exclusive Set adds several mods, giving the weapon a visual flair and some slight stat tweaks.
 	bm_w_asval_desc = "Essa arma é silenciada.",--This weapon is suppressed.
 	bm_mod_incompatibility_most = "maioria dos(as)",--most
 	bm_w_rsh12_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.

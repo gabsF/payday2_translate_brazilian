@@ -1,4 +1,6 @@
 10.14
+* Traduzido conteúdo novo do Jiu Feng Smuggler Pack 4
+    > Trajes novos (mais créditos aos artistas)
+
 * Melhorado a descrição da skill "Surefire" Aced
-* Traduzido novos trajes (e adicionado créditos aos artistas)
 * Traduzido nova descrição do Rifle Valkyria
