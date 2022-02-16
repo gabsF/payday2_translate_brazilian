@@ -331,7 +331,7 @@ return {
 
 	-- TIER 3
 	--menu_fast_fire_beta = "Surefire",
-	menu_fast_fire_beta_desc = 'BÁSICO: ##$basic##\nSuas Submetralhadoras, Rifles de Assalto e Armas Pesadas ganham ##$multibasic;## balas nos seus carregadores. Isso não afeta a skill avançada do "Lock n Load". \n\nAVANÇADO: ##$pro##\nAs suas Armas à distância podem causar perfuração no colete de alguns inimigos. \n\nNota: Isso não aplica nas armas que você arremessa.',
+	menu_fast_fire_beta_desc = 'BÁSICO: ##$basic##\nSuas Submetralhadoras, Rifles de Assalto e Armas Pesadas ganham ##$multibasic;## balas nos seus carregadores. Isso não afeta a skill avançada do "Lock n Load". \n\nAVANÇADO: ##$pro##\nTodas as suas armas podem causar perfuração no colete dos inimigos. \n\nNota: Isso não aplica nas armas corpo-a-corpo e nas granadas.',
 --BASIC: ##$basic;##\nYour SMGs, LMGs and Assault Rifles gain ##$multibasic;## more bullets in their magazines. This does not affect the "Lock n' Load" Ace skill.\n\nACE: ##$pro;##\nYour ranged weapons can now pierce through enemy body armor.\n\nNote: Does not apply to throwable weapons.
 	--menu_shock_and_awe_beta = "Lock n' Load",
 	menu_shock_and_awe_beta_desc = "BÁSICO: ##$basic##\nVocê poderá agora correr e atirar ao mesmo tempo com as suas armas.\n\nAVANÇADO: ##$pro##\nMatando ##$multipro;## inimigos com Submetralhadoras, Rifles de Assalto, Armas Pesadas ou Armas Especiais, com o modo automático, vai aumentar a velocidade de recarregar a arma em até ##$multipro2;##. Esse bônus é reduzido em ##$multipro3;## para cada bala dentro do carregador, acima de ##$multipro4;##, o mínimo é ##$multipro5;## de velocidade de recarregar a arma.",
