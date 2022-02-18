@@ -414,8 +414,13 @@ return {
 	menu_backstab_beta_desc = "BÁSICO: ##$basic##\nVocê ganha uma chance de ##$multibasic;## de dano crítico para cada ##$multibasic2;## pontos de detecção abaixo de ##$multibasic3;## até no máximo de ##$multibasic4;##. \n\nAVANÇADO: ##$pro##\nVocê ganha uma chance de ##$multipro;## de dano crítico para cada ##$multipro2;## pontos de detecção abaixo de ##$multipro3;## até no máximo de ##$multipro4;##. \n\nNota: Isso não se aplica a lança-granadas.",
 --BASIC: ##$basic;##\nYou gain a ##$multibasic;## critical hit chance for every ##$multibasic2;## points of detection rate under ##$multibasic3;## up to ##$multibasic4;##.\n\nACE: ##$pro;##\nYou gain ##$multipro;## critical hit chance for every ##$multipro2;## point of detection rate under ##$multipro3;## up to ##$multipro4;##.\n\nNote: Does not apply to grenade launchers.
 	--menu_unseen_strike_beta = "Unseen Strike",
-	menu_unseen_strike_beta_desc = "BÁSICO: ##$basic##\nSe você não perder nenhuma armadura ou vida por ##$multibasic;## segundos, você ganha ##$multibasic2;## mais chances de um acerto crítico por ##$multibasic3;## segundos. \n\nAVANÇADO: ##$pro##\nA duração da chance de crítico é aumentado para ##$multipro;## segundos.",--\n\nTomando qualquer dano vai cancelar o efeito.", [Nota: por mais que o texto original menciona que tomar dando vai cancelar o efeito, essa skill é quebrada e não cancela o efeito.]
---BASIC: ##$basic;##\nIf you do not lose any armor or health for ##$multibasic;## seconds, you gain ##$multibasic2;## critical hit chance for ##$multibasic3;## seconds.\n\nACE: ##$pro;##\nThe critical hit chance duration is increased to ##$multipro;## seconds.\n\nTaking any damage will cancel the effect.
+	menu_unseen_strike_beta_desc = "BÁSICO: ##$basic##\nSe você não perder nenhuma armadura ou vida por ##$multibasic;## segundos, você ganha ##$multibasic2;## mais chances de um acerto crítico por ##$multibasic3;## segundos. \n\nAVANÇADO: ##$pro##\nA duração da chance de crítico é aumentado para ##$multipro;## segundos.\n\nSofrer dano irá recomeçar o timer de ##$multibasic;## segundos.",--[[BASIC: ##$basic;##
+	If you do not lose any armor or health for ##$multibasic;## seconds, you gain ##$multibasic2;## critical hit chance for ##$multibasic3;## seconds.
+	
+	ACE: ##$pro;##
+	The critical hit chance duration is increased to ##$multipro;## seconds.
+	
+	Taking damage after the effect ends resets the ##$multibasic;##-second timer.]]
 	
 	-- Fugitive
 	-- First Tree (Gunslinger)

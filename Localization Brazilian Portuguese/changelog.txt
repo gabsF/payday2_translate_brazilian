@@ -4,3 +4,4 @@
 
 * Melhorado a descrição da skill "Surefire" Aced
 * Traduzido nova descrição do Rifle Valkyria
+* Traduzido nova descrição da skill "Unseen Strike" Aced
