@@ -1,7 +1,11 @@
-10.14
-* Traduzido conteúdo novo do Jiu Feng Smuggler Pack 4
-    > Trajes novos (mais créditos aos artistas)
-
-* Melhorado a descrição da skill "Surefire" Aced
-* Traduzido nova descrição do Rifle Valkyria
-* Traduzido nova descrição da skill "Unseen Strike" Aced
+10.15
+* Traduzido a Heist "Mountain Master" (Traduzido por Matheussiome e revisado por MrUmbrella e Rosa)
+* Adicionado uma opção de alternar a moeda do dinheiro para Real Brasileiro (Desativado por padrão)
+* Traduzido uma descrição faltando da Akimbo Gecko M2
+* Traduzido uma interação faltando em Casa Branca
+* Corrigido algumas legendas em Panic Room
+* Corrigido uma interação em No Mercy
+* Alterações em "Editar as Configurações do Lobby"
+    > Alterado a "Permissão" para "Privacidade"
+    > Melhorado a descrição do "Nível Permitido"
+    > Traduzido a opção do "Stealth Prompt" do "Drop-In" que estava faltando

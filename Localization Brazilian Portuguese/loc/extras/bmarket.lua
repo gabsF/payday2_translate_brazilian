@@ -280,6 +280,27 @@ return {
 	bm_suit_var_lonorwa_default_desc = "Agora, isso é clássico. O único que transmite a mensagem.",
 --[[Now, this is the classic version. The one that really makes a statement.]]
 
+	bm_suit_kungfumaster_desc = "Este traje foi feito para ter rapidez e liberdade enquanto utiliza um estilo de luta, e não há negação que tem uma elegância de cair o queixo.",
+--This outfit facilitates swiftness and freedom while performing one's fighting style, and there is no denying its badass elegance. 
+	achievement_pent_11_desc = "Colete e assegure o jogo de chá em cada heist da campanha City of Gold.",
+--Collect and secure the tea sets from all heists in the City of Gold campaign.
+	bm_suit_var_kungfumaster_default_desc = "Alguns clássicos nunca saiam do estilo!",--Some classics will never go out of style!
+	bm_suit_var_kungfumaster_white_desc = "As vezes, menos é mais, ou melhor, quando você estiver assaltando com este traje, eles nunca esperarão o seu ataque.",--At times, less is more, and better yet, when you wear this, they'll never expect you to pounce. 
+	bm_suit_var_kungfumaster_red_desc = "Claro, você ficará de pé, mas este estilo permitirá que você resiste e lute até o final.",--Sure, you will stand out, but this look will allow you to persevere and fight on through anything. 
+	bm_suit_var_kungfumaster_black_desc = "Este design é para quando você precisa de foco para terminar o serviço.",--This design is for when you need to empty your mind, focus, and get the job done.
+
+	bm_suit_enforcer_suit_desc = "Este traje moderno contém elementos tradicionais da Adaga Dourada.",--This is a modern cut suit with traditional elements worn by the Golden Dagger's Red Poles.
+	bm_suit_var_enforcer_suit_blood_desc = "Uma das versões populares; você não pode errar com preto e branco... só não se suja com o sangue, é sério.",--One of the most popular versions; you can't go wrong with black and white... don't get blood on the white, though.
+	bm_suit_var_enforcer_suit_red_dragon_desc = "Seja um duelo até a morte, um tiroteio violento, ou uma negociação importante, este traje não vai te deixar na mão.",--Whether it's a duel to the death, a violent shootout, or an important negotiation, this variant won't fail you.  
+	bm_suit_var_enforcer_suit_default_desc = "Esta versão está com tons escuros, perfeito para se misturar.",--This version is toned down and perfect when you want to blend in.
+	bm_suit_var_enforcer_suit_dragon_desc = "Se você quer se vestir para uma luta de vida e morte, pode se preparar para o funeral.",--If you want to dress up for a life and death battle, you can always stand on ceremony.  
+
+	bm_suit_boss_suit_desc = "Inspirado pelo traje tradicional de Zhongshan, esta beleza transmite uma mensagem de líder.",--Inspired by the traditional Zhongshan suit, this exquisite attire exudes the air of a true leader.
+	bm_suit_var_boss_suit_default_desc = "Quando estiver num clima de vingança, veste isto.",--At times of vengeance, this suit is more than fitting. 
+	bm_suit_var_boss_suit_yellow_desc = "Ouro é, obviamente, um metal superior, então por que não custurá-lo num traje com vários desenhos?",--Gold is, after all, the superior metal, so why not wear it woven into an opulent, ornate pattern?
+	bm_suit_var_boss_suit_red_desc = "Estiloso e deixa uma marca de fortuna, sim, funciona com todas as ocasiões.",--Stylish and bearing the mark of fortune, it goes well with all occasions. 
+	bm_suit_var_boss_suit_green_desc = "Esperto, aguardando na superfície, o dono deste traje sabe o valor de esconder a sua verdadeira força até chegar a hora.",--Sly, awaiting beneath the surface, the wearer of this garb knows the value of hiding his true strength until it's time to strike.
+
 	-- TRAJES DO DÉCIMO ANIVERSÁRIO
 	bm_suit_waistcoat_desc = "Este traje vai mostrar o profissionalismo, e poder, dentro de você.\n\nCriado por @_jenericku",--This outfit will truly get the job done if you want to exude an air of power and professionalism.
 	bm_suit_sparkle_desc = "Quer ser notado em um trabalho e deixar uma impressão fabulosa? Este traje vai servir.\n\nCriado por @OneMonovan",--Want to get noticed on the job and leave a flamboyant impression? Yeah, this is the way to go.
@@ -366,7 +387,8 @@ return {
 	menu_locked = "BLOQUEADO",--LOCKED
 	
 	-- ARMAS
-	bm_w_maxim9_desc = "Essa arma é silenciada e consegue empurrar igual uma Escopeta.",--This weapon is suppressed and has shotgun push functionality.
+	bm_w_x_maxim9_desc = "Essa arma é silenciada e tem força de Escopeta.",--This weapon is suppressed and has shotgun push functionality.
+	bm_w_maxim9_desc = "Essa arma é silenciada e tem força de Escopeta.",--This weapon is suppressed and has shotgun push functionality.
 	bm_wp_fmg9_conversion_desc = "Conjuntos Exclusivos adicionam algumas modificações, um estilo extra e algumas mudanças leves nas estastísticas.",--The Exclusive Set adds several mods, giving the weapon a visual flair and some slight stat tweaks.
 	bm_wp_ultima_body_kit_desc = "Conjuntos Exclusivos adicionam algumas modificações, um estilo extra e algumas mudanças leves nas estastísticas.",--The Exclusive Set adds several mods, giving the weapon a visual flair and some slight stat tweaks.
 	bm_w_asval_desc = "Essa arma é silenciada.",--This weapon is suppressed.

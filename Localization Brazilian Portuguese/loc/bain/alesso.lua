@@ -181,7 +181,7 @@ return {
 	pyr_al1_10_09 = "Não estraguem agora. Hora de acertar!",--Don't mess it up now. Time to hit it!
 	pyr_al1_09_13 = "Fogo no buraco parceiro!",--Fire in the hole buddy!
 	pyr_al1_14_04 = "Bom trabalho, cuzão. Trabalho bom pra caralho.",--(drolly) Good job, fuckface. Great fucking job.
-	pyr_al1_19_01 = "(chegando perto do telefone)... então o Sid limpou ele por todo o sanduíche de Keith, e falou que era Maionese! (risadas)",--(coming close to the phone)...so then Sid wiped it all over Keith's sandwich, and said it was just mayonnaise! (laughs)
+	pyr_al1_19_01 = "(chegando perto do telefone)... então, o Sid limpou ele por todo o sanduíche de Keith, e falou que era Maionese! (risadas)",--(coming close to the phone)...so then Sid wiped it all over Keith's sandwich, and said it was just mayonnaise! (laughs)
 	pyr_al1_19_04 = "Já falei para vocês sobre o fim de semana que eu e o Jimi traficamos um fardo de grama e uma cabra para fora de Tijuana?",--Did I ever tell you guys about the weekend me and Jimi smuggled a bale of grass and a goat out of Tijuana?
 	pyr_al1_01_01 = "Esse é o nosso último show, ouviu? Façam ele bombar.",--This is our final show, y'hear? Make sure it goes with a bang.
 	pyr_al1_17_01 = "Algo acabou de se soltar? Verifiquem, e consertem!",--Did something just come loose? Check it, and fix it!

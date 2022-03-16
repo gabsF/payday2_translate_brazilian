@@ -105,6 +105,9 @@
         <loc file="locke/tijuana.lua"/>
         <loc file="locke/whitehouse.lua"/>
 
+        <!-- Shayu Contracts -->
+        <loc file="shayu/pent.lua"/>
+
         <!-- Vlad Contracts -->
         <loc file="vlad/chca.lua"/>
         <loc file="vlad/aftershock.lua"/>
@@ -122,13 +125,19 @@
       </group>
     </Localization>
 
-    <Options auto_build_menu="true">
+    <Options auto_build_menu="true" save_file="braziliansavefile.txt">
         <options>
             <merge_data area_bg="half"/>
-            <option type="bool" default_value="true" name="HopLibShouldBeInPortuguese"/>
-            <option type="bool" default_value="true" name="BeardLibShouldBeInPortuguese"/>
+                <option_group name="Compatibility">
+                  <option type="bool" default_value="true" name="HopLibShouldBeInPortuguese"/>
+                  <option type="bool" default_value="true" name="BeardLibShouldBeInPortuguese"/>
+                </option_group>
+                <option_group name="Extras">
+                  <option type="bool" hidden="true" default_value="false" name="AprilFools2022"/>
+                  <option type="bool" default_value="false" name="BRLCurrency"/>
+                </option_group>
         </options>
     </Options>
-	
+
 	<AddFiles file="add_BrazilianLoc.xml"/>
 </mod>
