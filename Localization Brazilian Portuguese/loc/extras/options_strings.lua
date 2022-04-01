@@ -9,7 +9,7 @@ return {
 	LocalizationBrazilianPortugueseExtrasOptionsButtonDescID = "Opções que geralmente não afetará a sua jogatina.",
 
 	LocalizationBrazilianPortugueseAprilFools2022TitleID = "Todo Dia é Primeiro de Abril de 2022",
-	LocalizationBrazilianPortugueseAprilFools2022DescID = "Traduz os nomes das Heists... mas é Primeiro de Abril.",
+	LocalizationBrazilianPortugueseAprilFools2022DescID = " ",
 
 	LocalizationBrazilianPortugueseBRLCurrencyTitleID = "Dinheiro em Real",
 	LocalizationBrazilianPortugueseBRLCurrencyDescID = "Deixe a Gangue Payday na pobreza!",

@@ -113,8 +113,8 @@ if(BrazilianLocGlobal.Options:GetValue("Extras/AprilFools2022")) then
             heist_hox_3_hl = "La Vendetta",--The Revenge",
             heist_hox = "Resgate do Assaltante Hoxton",--Hoxton Breakout",
             heist_hox_hl = "Resgate do Assaltante Hoxton",--Hoxton Breakout",
-            heist_hox_1_hl = "Resgate",--The Breakout",
-            heist_hox_2_hl = "Buscando",--The Search",
+            heist_hox_1_hl = "Resgate da Casa do Caralho",--The Breakout",
+            heist_hox_2_hl = "Pesquisa Google",--The Search",
             heist_mia = "Linha-Gostosa Miami",--Hotline Miami",
             heist_mia_1_hl = "Linha-Gostosa Miami",--Hotline Miami",
             heist_mia_2_hl = "Entregador de Pizza",--Four Floors",
@@ -134,7 +134,7 @@ if(BrazilianLocGlobal.Options:GetValue("Extras/AprilFools2022")) then
             heist_election_day_3_hl = "SEU IDIOTA",--Breaking Ballot
             heist_framing_frame = "Enquadrando Mentiras",--Framing Frame
             heist_framing_frame_2_hl = "Troca-Troca",--Train Trade
-            heist_framing_frame_3_hl = "NFT",--Framing
+            heist_framing_frame_3_hl = "Comi o cu de curioso",--Framing
             heist_framing_frame_1_hl = "NFT Gallery",--Art Gallery
             -- Hector
             heist_watchdogs = "Assista-Cães",--Watchdogs
@@ -156,8 +156,8 @@ if(BrazilianLocGlobal.Options:GetValue("Extras/AprilFools2022")) then
             heist_tag_hl = "Bora Matar Garret?",--Breakin' Feds
             heist_brb = "Banco Brookar o seu cu",--Brooklyn Bank
             heist_brb_hl = "Banco Brookar o seu cu",--Brooklyn Bank
-            heist_bph_hl = "ALGUÉM OTIMIZA ESSA BOSTA",
-            heist_bph = "ALGUÉM OTIMIZA ESSA BOSTA",
+            heist_bph_hl = "ALGUÉM OTIMIZA ESTA BOSTA",
+            heist_bph = "ALGUÉM OTIMIZA ESTA BOSTA",
             heist_des = "Henry's Cock",
             heist_des_hl = "Henry's Cock",
             heist_sah = "Teblete Prete",--Shacklethorne Auction",
@@ -207,10 +207,10 @@ if(BrazilianLocGlobal.Options:GetValue("Extras/AprilFools2022")) then
             heist_dark = "Estação Murky",--Murky Station
             heist_dark_hl = "Estação Murky",--Murky Station
             -- Events
-            heist_hvh = "Sala de Treino com Zumbis",--Cursed Kill Room
-            heist_hvh_hl = "Sala de Treino com Zumbis",--Cursed Kill Room
-            heist_haunted = "Deus me ajuda",--Safe house Nightmare
-            heist_haunted_hl = "Deus me ajuda",--Safe house Nightmare
+            heist_hvh = "CÉREBROOOOOOS!",--Cursed Kill Room
+            heist_hvh_hl = "CÉREBROOOOOOS!",--Cursed Kill Room
+            heist_haunted = "Deus, me ajuda",--Safe house Nightmare
+            heist_haunted_hl = "Deus, me ajuda",--Safe house Nightmare
             heist_nail = "Portal 2 Comic",--Lab Rats
             heist_nail_hl = "Portal 2 Comic",--Lab Rats
             heist_help = "Pesadelo da Prisão",--Prison Nightmare
@@ -234,6 +234,127 @@ if(BrazilianLocGlobal.Options:GetValue("Extras/AprilFools2022")) then
             --heist_escape_overpass_hl = "Escape Overpass",
             --heist_escape_garage = "Escape Garage",
             --heist_escape_garage_hl = "Escape Garage",
+
+            -- Skills
+            st_menu_mastermind_inspire = "Inspirador",
+            menu_combat_medic_beta = "Médico de Combate",
+            menu_tea_time_beta = "Conserto Rápido",
+            menu_fast_learner_beta = "Dor Máxima",
+            menu_medic_2x_beta = "Doutor de Combate",
+            menu_tea_cookies_beta = "Anti-Queda",
+            menu_inspire_beta = "LEVANTA, PORRA!",
+
+            st_menu_mastermind_dominate = "Domador",
+            menu_triathlete_beta = "Pedido de Amizade",
+            menu_cable_guy_beta = "O Cara dos Cabos",
+            menu_joker_beta = "Coringa",
+            menu_control_freak_beta = "Comparça do Crime",
+            menu_stockholm_syndrome_beta = "Denver x Estocolmo",
+            menu_black_marketeer_beta = "Mercador Negro",
+
+            st_menu_mastermind_single_shot = "Franco-Atirador",
+            menu_stable_shot_beta = "Tiro Estável",
+            menu_rifleman_beta = "Homem do Sexo",
+            menu_sharpshooter_beta = "É muito sexo",
+            menu_speedy_reload_beta = "Agressividade",
+            menu_single_shot_ammo_return_beta = "Munição Grátis",
+            menu_sniper_graze_damage = "Raspão",
+
+            st_menu_enforce_shotgun = "Espingardeiro",
+            menu_underdog_beta = "Sob Pressão",
+            menu_shotgun_cqb_beta = "Atira de Perto",
+            menu_shotgun_impact_beta = "Impacto de Porra",
+            menu_close_by_beta = "Chega Mais Perto",
+            menu_far_away_beta = "Chega Pra lá",
+            menu_overkill_beta = "Porra, Overkill",
+
+            st_menu_enforcer_armor = "Tanque do Left 4 Dead",
+            menu_oppressor_beta = "Tá Cego, men?kk",
+            menu_show_of_force_beta = "Duro de Matar 7",
+            menu_pack_mule_beta = "Transporte",
+            menu_prison_wife_beta = "Buff de Anarchist",
+            menu_iron_man_beta = "Tá em Shock????",
+            menu_juggernaut_beta = "Tony Stark",
+
+            st_menu_enforcer_ammo = "Especialista em Munição",
+            menu_scavenging_beta = "Catador de Latinha",
+            menu_ammo_reservoir_beta = "Tempestade de Bosta",
+            menu_portable_saw_beta = "Serra Portátil",
+            menu_carbon_blade_beta = "Massacre da Serra",
+            menu_ammo_2x_beta = "Munição Extra",
+            menu_bandoliers_beta = "Mamada",
+
+            st_menu_technician_sentry = "Engenheiro do TF2",
+            menu_defense_up_beta = "Terceira Lei",
+            menu_sentry_targeting_package_beta = "Sentinela no seu cu",
+            menu_eco_sentry_beta = "Sentinela Ecu",
+            menu_jack_of_all_trades_beta = "Pau Pra Toda Obra",
+            menu_engineering_beta = "Engenhoca",
+            menu_tower_defense_beta = "Defender Towe",
+
+            st_menu_technician_breaching = "Arrombador de Cu",
+            menu_hardware_expert_beta = "Metendo porrada em Hardware",
+            menu_combat_engineering = "Engenhocas em Kombate",
+            menu_drill_expert_beta = "Serragento",
+            menu_kick_starter_beta = "Chuta-Starter",
+            menu_more_fire_power = "Mais Poder de Fogo",
+            menu_fire_trap_beta = "Churrasqueira Controle Remoto",
+
+            st_menu_technician_auto = "Oppressor MK. II",
+	        menu_steady_grip_beta = "Punho Firme",
+            menu_heavy_impact_beta = "Impacto Pesadaço",
+            menu_fire_control_beta = "Controle de Fogo",
+            menu_fast_fire_beta = "Infalível",
+            menu_shock_and_awe_beta = "Preparado e Carregado",
+            menu_body_expertise_beta = "Não Sabe Mirar",
+
+            st_menu_ghost_stealth = "Liu Kang",
+            menu_jail_workout_beta = "Camuflagem",
+            menu_cleaner_beta = "Zelador",
+            menu_chameleon_beta = "Terceiro Olho",
+            menu_ecm_booster_beta = "ECM Enfiado na Bunda",
+            menu_second_chances_beta = "Ágil",
+            menu_ecm_2x_beta = "Rush de ECM",
+
+            st_menu_ghost_concealed = "Desviador de Bala",
+            menu_sprinter_beta = "I RAN SO FAR AWAY",
+            menu_awareness_beta = "Olha pra onde anda",
+            menu_thick_skin_beta = "Bolso Mágico",
+            menu_insulation_beta = "Vai se Foder, Axium",
+            menu_dire_need_beta = "Necessidade Medonha",
+            menu_jail_diet_beta = "Bastardo nas sombras",
+
+            st_menu_ghost_silencer = "Assassino Silencioso",
+            menu_scavenger_beta = "Vento Beija a sua bunda",
+            menu_optic_illusions = "Ilusão Ótica",
+            menu_silence_expert_beta = "O Profissional",
+            menu_spotter_teamwork_beta = "Bunda de Alto Valor",
+            menu_backstab_beta = "Boquete Baixo",
+            menu_unseen_strike_beta = "Tiro Pela Culatra",
+
+            st_menu_fugitive_pistol_akimbo = "Cole Cassidy",
+            menu_equilibrium_beta = "Equilíbrio",
+            menu_dance_instructor = "Cano da Arma",
+            menu_akimbo_skill_beta = "Um é Bom, Dois é Foda",
+            menu_expert_handling = "Mão Desesperada",
+            menu_gun_fighter_beta = "Punheteiro",
+            menu_trigger_happy_beta = "Senta o Dedo nessa porra",
+
+            st_menu_fugitive_undead = "Revenant",
+            menu_nine_lives_beta = "Nine Lives",
+            menu_running_from_death_beta = "Correndo da Morte",
+            menu_up_you_go_beta = "Lá Vai Você",
+            menu_feign_death = "Não Morri",
+            menu_perseverance_beta = "Duvido Abusar com Essa Merda",
+            menu_pistol_beta_messiah = "Segunda Chance",
+
+            st_menu_fugitive_berserker = "Porradeiro",
+            menu_martial_arts_beta = "Artes Marciais",
+            menu_bloodthirst = "Sede de Sangue",
+            menu_steroids_beta = "Esteroides",
+            menu_wolverine_beta = "Build de Anarchista",
+            menu_drop_soap_beta = "Vai se Foder, Gabs",
+            menu_frenzy = "OP Com Anarchista",
         })
     end)
 end

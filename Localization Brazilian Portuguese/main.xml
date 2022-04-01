@@ -133,7 +133,7 @@
                   <option type="bool" default_value="true" name="BeardLibShouldBeInPortuguese"/>
                 </option_group>
                 <option_group name="Extras">
-                  <option type="bool" hidden="true" default_value="false" name="AprilFools2022"/>
+                  <option type="bool" hidden="true" default_value="true" name="AprilFools2022"/>
                   <option type="bool" default_value="false" name="BRLCurrency"/>
                 </option_group>
         </options>
