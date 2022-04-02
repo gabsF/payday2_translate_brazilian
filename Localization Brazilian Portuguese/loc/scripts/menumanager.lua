@@ -18,7 +18,7 @@ if(BrazilianLocGlobal.Options:GetValue("Extras/BRLCurrency")) then
 end
 
 -- April Fools Joke 2022
-if(BrazilianLocGlobal.Options:GetValue("Extras/AprilFools2022_Force")) then
+if(BrazilianLocGlobal.Options:GetValue("Extras/AprilFools2022")) then
 
     Hooks:Add("LocalizationManagerPostInit", "AprilFools2022_somethingIneedisnotherebutIwillgetitsoonyouhearmeIwillgetit", function(loc)
         loc:add_localized_strings({

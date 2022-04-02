@@ -1,12 +1,3 @@
-69.420
-* Corrigido o que foi corrigido
-* Gabs foi promovido pra membro comum
-* Axium foi promovido pra Admins
-* Corrigido um erro que não deveria estar aqui, mas de algum jeito está aqui
-* Adicionado um spyware
-* Adicionado novas falas do Wolf
-* Esqueci o que adicionei aqui
-* Lucas voltou dos mortos
-* Todos os NPCs foram movidos 3 metros para esquerda
-* É muito sexo, filho
-* SINTA O MARTELO DO MARCELO
+11.01 (dessa vez é sério)
+* Removido a força do Primeiro de Abril de 2022
+* Adicionado uma opção para usar o Primeiro de Abril de 2022 na categoria "Extra"
