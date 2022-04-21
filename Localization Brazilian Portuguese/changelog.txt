@@ -1,3 +1,5 @@
-11.01 (dessa vez é sério)
-* Removido a força do Primeiro de Abril de 2022
-* Adicionado uma opção para usar o Primeiro de Abril de 2022 na categoria "Extra"
+11.02
+* Corrigido o erro do "térmite"
+* Traduzido as falas do Bile em Alesso Heist
+* Corrigido o erro de escrita em Pre-Planning do Big Bank
+* Traduzido o conteúdo do Southbound Tailor Pack

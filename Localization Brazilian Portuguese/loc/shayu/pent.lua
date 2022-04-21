@@ -38,7 +38,7 @@ return {
 	loc_pent_09_01 = "O pessoal da Shayu deixaram um pacote para nós em uma das vans. Encontre! Peguem as ferramentas e usem-nas para abrir as portas do elevador para usar a tirolesa até o topo.",--"Shayu's people have left a care package for us in one of the vans. Find it. Get the tools and use them to breach the elevator doors and zipline up.",
 	loc_pent_05_03 = "O poço do elevador tem que ficar vazio. Vão até a garagem e chamem o elevador.",--"The elevator shaft needs to be empty. Get to the garage and call the elevator.",
 	yuw_pent_threat_03 = "Mas que entretenimento, vocês realmente não desistem, e vocês estão destruindo bastante da minha propriedade em seu caminho. Não importa. Eu posso reconstruir, mas vocês não poderão voltar da morte.",--"How entertaining, you truly won't give up, and you're destroying quite a bit of my property in your wake. No matter, I can rebuild, but you won't be able to come back from the dead.",
-	loc_pent_82_02 = "O térmite está derretendo a porta. Só mais um segundinho.",--"The thermite is melting through the door. Just give it another second.",
+	loc_pent_82_02 = "O termite está derretendo a porta. Só mais um segundinho.",--"The thermite is melting through the door. Just give it another second.",
 	loc_pent_63_01 = "Liguem o carro, e quando estiver rápido, tirem o macaco. Isso vai ser um baita de um arrombamento de porta.",--"Start up the car, and when it hits enough RPMs, disable the jack. This is gonna be one hell of a door breach.",
 	loc_pent_28_01 = "Vamos, vão até o telhado e acabem com ele, ta?",--"C'mon, head up to the roof and punch his ticket. No time to waste, yeah?",
 	loc_pent_47_02 = "Forcem o elevador a abrir e prendam as cordas. Depois, vocês vão chegar na cobertura em um segundinho. ",--"Force the elevator doors open and attach the lines. Next, you'll be zipping up to the penthouse for a jol.",
@@ -57,7 +57,7 @@ return {
 	loc_pent_85_01 = "Tenham certeza que ninguém vai mexer na luz ou o piloto não virá.",--"Make sure nobody messes with the lights or the pilot won't come.",
 	loc_pent_44_01 = "Vocês precisam achar a sala da energia e religar a caixa de fusíveis.",--"You need to find that power room and rewire the fuse box.",
 	loc_pent_37_02 = "Eu preciso de acesso ao computador da recepção para tomar controle dos sistemas do prédio.",--"I need access to the reception computer to take over the building's network.",
-	loc_pent_82_01 = "O térmite ta fazendo seu trabalho. Mais um pouco e vocês entram.",--"The thermite is doing it's thing. Give it a bit and you're in. ",
+	loc_pent_82_01 = "O termite ta fazendo seu trabalho. Mais um pouco e vocês entram.",--"The thermite is doing it's thing. Give it a bit and you're in. ",
 	loc_pent_61_02 = "Agora encontrem a chave do carro. Wang provavelmente mantem trancadas em algum lugar.",--"Now find the car keys. Wang probably has them locked away.",
 	loc_pent_48_02 = "Abram as portas do elevador e coloquem as tirolesas. Não tem tempo como o presente.",--"Get those elevator doors open and hook up the ziplines! No time like the present.",
 	loc_pent_27_01 = "Ah droga, parece que ele fugiu pro telhado ao invés da saída de emergência. Vão lá e derrubem-no.",--"Ah kak, looks like he slipped off to the roof instead of the emergency exit. Get up there and take him out.",
@@ -72,7 +72,7 @@ return {
 	loc_pent_74_02 = "Tudo certo, é hora de sair. Se acharem que temos o suficiente, vocês podem ir. Mas mal não faz pegar tudo.",--"All right, it's time to leave. If you think we have enough, you can go. But it never hurts to take it all.",
 	loc_pent_60_02 = "Vão logo, idiotas! Coloquem a gasolina e o macaco!",--"Get going, you chops! Fuel up and jack up!",
 	loc_pent_41_03 = "Acabei com o hack! Vão para a garagem e chamem o elevador. Vocês têm que tirar ele do caminho para poder subir no apartamento.",--"Done with the hack! Get to the garage and call the elevator. You need to move it out of the way to get up to the penthouse.",
-	loc_pent_81_03 = "térmite. Vai derreter aquela porta em instantes.",--"Thermite. It'll sear through that door in no time.",
+	loc_pent_81_03 = "termite. Vai derreter aquela porta em instantes.",--"Thermite. It'll sear through that door in no time.",
 	loc_pent_57_03 = "Muito bem, temos o disco rígido! Hora de pegar o Wang. Aquele desgraçado está se escondendo na sala de reuniões. Girem o carro. E vamos usá-lo para arrebentar a porta.",--"Well done, we have the hard drive! Time to get Wang. The bastard is hiding in the meeting room. Rotate the show car platform, and we'll use it to break down the door.",
 	loc_pent_23_01 = "Tudo pronto. Peguem o disco rígido e coloquem no elevador de cargas. Os caras da Shayu vão pegá-lo.",--"All done. Grab the drive and send it down the dumbwaiter. Shayu's guys will snatch it up.",
 	loc_pent_52_03 = "Coloquem o fio entre o elevador e a porta. E atirem no cabo.",--"Hook up the wire between the elevator and the door. Then shoot the cable.",
@@ -188,7 +188,7 @@ return {
 	loc_pent_17_03 = "A sala dos servidores deve estar aqui em algum lugar.",--"The server room must be around there.",
 	loc_pent_87_02 = "Os policiais cortaram a luz! Consertem-a!",--"The cops cut the power for the lights! Fix it!",
 	loc_pent_49_01 = "Vocês vão precisar de um pouco de torque para passar por aquelas grandes portas de segurança. É bom que temos um plano, né? Vamos começar religando o gerador. Vão para a sala do gerador e liguem.",--"You will need a bit of torque to get through those massive security doors. Good thing we got a plan, ey? Let's start with powering the elevator back up. Head for the generator and start it up. ",
-	loc_pent_81_02 = "Peguem o térmite e usem para queimar a porta.",--"Grab the thermite and use it to burn through the door.",
+	loc_pent_81_02 = "Peguem o termite e usem para queimar a porta.",--"Grab the thermite and use it to burn through the door.",
 	loc_pent_04_02 = "Cortem o fio na caixa de segurança com a luz verde.",--"Cut the wire in the security box with the green light.",
 	loc_pent_77a_02 = "Bom trabalho! Esse é um dos amontoados de ouro. Continuem procurando, deve ter outro.",--"Good job! That's one of the gold stashes. Keep looking, there should be another one.",
 	loc_pent_26_02 = "Puxem o alarme de incêndio para tirar ele da sala de reuniões.",--"Pull the fire alarm to flush him out of the meeting.",
@@ -218,7 +218,7 @@ return {
 	loc_pent_70_01 = "Ativem o interruptor para fazer a luz sinalizadora funcionar.",--"Activate the power box to get the signal light up and running.",
 	loc_pent_92_02 = "Tem munição extra em uma sala perto do heliporto.",--"There is extra ammo in a room near the helipad.",
 	loc_pent_83_01 = "Defendam o dispositivo de hack enquanto ele está funcionando. Não deixem ninguém chegar perto!",--"Defend the hacking device while it's running. Don't let anyone near it!",
-	loc_pent_82_03 = "Esperem um pouco e deixem o térmite funcionar.",--"Hold on for a bit and let the thermite work.",
+	loc_pent_82_03 = "Esperem um pouco e deixem o termite funcionar.",--"Hold on for a bit and let the thermite work.",
 	loc_pent_21_03 = "Aquele disco rígido está criptografado, ele pode ser aberto se vocês acharam o programa de descriptograficação. Deve estar no laptop de Wang. Sem isso, vai demorar meses para descriptografar.",--"That hard drive is encrypted, but it can be bypassed if you find the encryption protocol. It should be on Wang's laptop. Otherwise, we'll have to spend months decrypting it.",
 	loc_pent_42_01 = "Ei, chamem o elevador para a garagem. Vão em frente.",--"Hey, call that elevator down to the garage. Get going.",
 	loc_pent_54_01 = "Vão logo e achem a sala dos servidores. Lembrem, está escondida.	",--"Hurry up and find that server room. Remember, it's hidden. ",
@@ -376,8 +376,8 @@ return {
     hud_heist_pent27_hl = "Fuga Disponível",--Escape Available
     hud_heist_pent27 = "Fuja usando o helicóptero.",--Escape using the helicopter.
 
-    hud_heist_pent28_hl = "Coloque o térmite na porta",--Put thermite on the door
-    hud_heist_pent28 = "Pegue o térmite no elevador da cozinha e coloque na porta da sala de reuniões.",--Pick up the thermite from the kitchen elevator and place it on the meeting room door.
+    hud_heist_pent28_hl = "Coloque o termite na porta",--Put thermite on the door
+    hud_heist_pent28 = "Pegue o termite no elevador da cozinha e coloque na porta da sala de reuniões.",--Pick up the thermite from the kitchen elevator and place it on the meeting room door.
 
     hud_heist_pent29_hl = "Espere pelo helicóptero",--Wait for the helicopter
     hud_heist_pent29 = "O helicóptero está a caminho. Espere por ele.",--The helicopter is en route. Wait for it.

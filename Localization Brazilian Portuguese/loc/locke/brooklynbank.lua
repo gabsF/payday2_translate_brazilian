@@ -25,7 +25,7 @@ return {
 	loc_brb_50_03 = "Agora vocês precisam explodir um buraco no chão, yeah? O que nós viemos buscar está na fundação do prédio.",--Now you gotta blow a hole into the floor, yeah? What we're after is in the foundation of the building.
 	loc_brb_55_01 = "...Não demorem muito. Tenho um pressentimento de que meus velhos amigos na Murky estão rastreando nossos movimentos.",--....Don't take too long. Got a feeling my old friends at Murky have been tracking our movements.
 	loc_brb_39_03 = "...Hora de arrancar aquela porta, yeah? Iniciem o guincho e mantenham os policiais longe dele!",--...Time to pull that door off, yeah? Start the winch and keep the kerels from getting to it!
-	loc_brb_30_02 = "A Térmite terminou de queimar, yeah? Hora de montar aquele guincho.",--Thermite has burned through, yeah? Time to get that winch set up.
+	loc_brb_30_02 = "A termite terminou de queimar, yeah? Hora de montar aquele guincho.",--Thermite has burned through, yeah? Time to get that winch set up.
 	loc_brb_08_01 = "Maldição! Todas as portas estão seladas. Vocês terão que achar outra maneira de entrar na sala do cofre. Vão para o segundo andar e procurem por uma fraqueza no chão ou algo parecido, yeah?",--Blerrie! All the doors are sealed. You're going to have to find another way into the vault room. Get up to the second floor and look for a weakness in the floor or something, yeah?
 	loc_brb_04_01 = "Maldição! Vocês terão que atravessar a porta usando uma serra, yeah?",--Blerrie! You'll have to go through the back door with a saw, yeah?
 	loc_brb_41_05 = "Policiais pararam o guincho! Mantenham eles longe dele, yeah?",--Coppers have stopped the winch! Keep them away from it, yeah?
@@ -36,7 +36,7 @@ return {
 	loc_brb_06_01 = "Maldição! O primeiro andar está bloqueado. Vão para o segundo pelo andaime lá fora. Deve haver uma porta que vocês possam cortar com uma serra.",--Blerrie! First floor is blocked off. Get up to the 2nd by the scaffolding outside. Should be a door you can hack through with a saw.
 	loc_brb_28_01 = "Maldição! Esse é um cofre velho! É quase uma pena ter que explodir ele, yeah?",--Blerrie that's an OLD vault! Almost a shame to blow it open, yeah?
 	loc_brb_04_02 = "Amigos, não iremos entrar por esse caminho. Saiam e achem uma porta dos fundos para arrombar com uma serra.",--Not going to get in that way, friends. Go outside and find a back door to crack open with a saw.
-	loc_brb_29_04 = "Amigos, coloquem algumas pastas de Térmites na porta do cofre, yeah?",--Friends, get some thermite on that vault door, yeah?
+	loc_brb_29_04 = "Amigos, coloquem algumas pastas de termites na porta do cofre, yeah?",--Friends, get some thermite on that vault door, yeah?
 	loc_brb_25_03 = "Amigos, vocês terão que trazer aquela furadeira para a sala do cofre.",--Friends, you're going to need to bring that drill into the vault room.
 	loc_brb_12_02 = "Certo, amigos, removam a serra agora.",--OK, friends, now remove that saw.
 	loc_brb_25_02 = "Vocês precisam trazer aquela furadeira térmica pra dentro da sala do cofre, yeah?",--You need to bring that thermal drill into the vault room, yeah?
@@ -46,7 +46,7 @@ return {
 	loc_brb_25_01 = "Amigos, levem aquela furadeira para dentro da sala do cofre!",--Take that drill inside to the vault room, friends!
 	loc_brb_42_01 = "Enquanto estão esperando pela porta do cofre, talvez também seja bom tentarem abrir as caixas de depósito. Elas são Titans, então não conseguirão cortar elas com as serras.",--While you're waiting on that vault door, might as well have a go at those safe deposit boxes. They're Titans, so you will not be able to just cut through.
 	loc_brb_27_04 = "Religuem a furadeira, yeah?",--Restart the drill, yeah?
-	loc_brb_29_02 = "Amigos, usem o Térmite que enviei para enfraquecer a porta do cofre.",--Use the thermite I sent to weaken that vault door, friends.
+	loc_brb_29_02 = "Amigos, usem o termite que enviei para enfraquecer a porta do cofre.",--Use the thermite I sent to weaken that vault door, friends.
 	loc_brb_52_04 = "Amigos, não posso tirá-los daí até que vocês tenham passado por aquele chão.",--I can't pull you out of there until you've got through that floor, friends.
 	loc_brb_55_02 = "Não fiquem muito tempo, amigos. Estou vendo muitas conversas nos canais da Murkywater. Parece que eles estão nos rastreando.",--Don't stray too long though, friends. I'm seeing a lot of chatter in Murkywater channels. Looks like they're tracking us.
 	loc_brb_21_02 = "...Desculpe amigos, mas tive que colocá-lo no sky-rocket [Banheiro Portátil] lá fora no Canteiro de Obras... vocês podem chamá-los de porta-pinico, yeah?",--...sorry friends, but I had to put it in the sky-rocket [portable toilet] out by the construction site... you call them porta-potties, yeah?
@@ -64,8 +64,8 @@ return {
 	loc_brb_49_03 = "Sem dúvidas, o Bain nos enviou ao banco certo, yeah?",--No question, Bain sent us to the right bank, yeah?
 	loc_brb_56_02 = "Puta merda! Operadores da Murky estão na área. Cuidado com eles, amigos!",--Bliksem! Operatives from Murky are in the area. Watch out for them, friends!
 	loc_brb_43_02 = "...Talvez alguém tenha esquecido um Cartão de Acesso ou algo assim.",--...Maybe someone forgot a keycard or something.
-	loc_brb_57_02 = "Desculpe amigos, mas preciso tirá-los daí via esgotos. Levem eles para fora... e vocês irão precisar de um pouco de Térmite para derreter as grades.",--Sorry about this friends, but I've got to pull you out via the sewers. Get to them outside... and you'll need some thermite to burn through the grating.
-	loc_brb_29_01 = "Certo, vocês precisam usar um pouco do Térmite que enviei nas dobradiças do cofre, yeah?",--Right, you need to use some of the thermite I sent on those vault hinges, yeah?
+	loc_brb_57_02 = "Desculpe amigos, mas preciso tirá-los daí via esgotos. Levem eles para fora... e vocês irão precisar de um pouco de termite para derreter as grades.",--Sorry about this friends, but I've got to pull you out via the sewers. Get to them outside... and you'll need some thermite to burn through the grating.
+	loc_brb_29_01 = "Certo, vocês precisam usar um pouco do termite que enviei nas dobradiças do cofre, yeah?",--Right, you need to use some of the thermite I sent on those vault hinges, yeah?
 	loc_brb_05_02 = "A porta dos fundos parece boa. Arrombem ela com uma serra, amigos.",--Back door looks good. Crack it open with a saw, friends.
 	loc_brb_15_03 = "Pefeito amigos! Agora entrem na sala do cofre.",--Perfect friends! Get into the vault room now.
 	loc_brb_38_03 = "...Vocês precisam colocar aquele gancho no cofre.",--...You gotta get that hook onto the vault.
@@ -109,7 +109,7 @@ return {
 	loc_brb_20_02 = "Tem uma porrada de equipamentos esperando por vocês, amigos.",--There's a load of equipment waiting for you, friends.
 	loc_brb_17_06 = "Vamos lá amigos, vocês realmente precisam abrir aquela porta.",--Come on friends, you really must get that door open.
 	loc_brb_51_02 = "Vocês precisam de mais C4, deem uma olhada no estoque lá fora, yeah?",--If you need more c4, take a look in the stash outside again, yeah?
-	loc_brb_57_01 = "Tenho alguém esperando por vocês lá fora nos esgotos. Vocês precisarão de um pouco de Térmite para passar.",--I've got someone waiting for you ouside in the sewers. You'll need some thermite to get through.
+	loc_brb_57_01 = "Tenho alguém esperando por vocês lá fora nos esgotos. Vocês precisarão de um pouco de termite para passar.",--I've got someone waiting for you ouside in the sewers. You'll need some thermite to get through.
 	loc_brb_02_01 = "...Policiais chegarão a qualquer momento.",--...Kerels will be there any second.
 	loc_brb_17_03 = "Vocês precisam arrombar aquela porta, amigos.",--You gotta crack that door open, friends.
 	loc_brb_41_04 = "Vocês precisam religar o guincho, amigos!",--You need to restart the winch, friends! 
@@ -127,7 +127,7 @@ return {
 	loc_brb_51_03 = "Vocês podem pegar mais C4 lá fora se precisarem, yeah?",--You can go get more C4 outside if you need it, yeah?
 	loc_brb_13_01 = "Agora explodam um belo buraquinho para poderem entrar na sala do cofre, yeah?",--Now you gotta blow a nice little hole to get into the vault room, yeah?
 	loc_brb_03_02 = "Certo amigos, entrem na sala do cofre cortando aquela porta do bancário com uma serra.",--OK  friends, get into the vault room by cutting open that teller door with a saw.
-	loc_brb_29_03 = "Um pouco de Térmite naquele cofre irá enfraquecer as dobradiças, yeah?",--Some thermite on that vault will weaken the hinges, yeah?
+	loc_brb_29_03 = "Um pouco de termite naquele cofre irá enfraquecer as dobradiças, yeah?",--Some thermite on that vault will weaken the hinges, yeah?
 	loc_brb_05_03 = "Arrombem a porta dos fundos com uma serra e passem por lá, yeah?",--Crack open the back door with a saw and go through there, yeah?
 	loc_brb_40_03 = "Como estão indo com esse guincho, amigos?",--How are you coming along with that winch, friends?
 	loc_brb_10_01 = "Ótimo! Esse é o lugar. Cortem a camada de cima com uma serra, yeah?",--Lekker! That's the spot. Cut through the top layer with a saw, yeah?
@@ -188,7 +188,7 @@ return {
 	loc_brb_35_03 = "Amigos, vocês precisam pegar todas as partes do guincho.",--You need to get all the winch parts, friends.
 	loc_brb_46_02 = "Aí está, amigos! Agora deem uma olhada dentro daquele cofre!",--There you go, friends! Now have a look inside that vault!
 	loc_brb_32_02 = "Tenho o seu guincho chegando em volta de 60 segundos.",--Got your winch incoming in about 60 seconds.
-	loc_brb_57_03 = "Façam o caminho de vocês para fora e desçam para os esgotos. Vocês precisarão de um pouco de Térmite para cortar as grades, yeah?",--Make your way outside and go down into the sewers. You'll need a bit of thermite to cut through the grating, yeah?
+	loc_brb_57_03 = "Façam o caminho de vocês para fora e desçam para os esgotos. Vocês precisarão de um pouco de termite para cortar as grades, yeah?",--Make your way outside and go down into the sewers. You'll need a bit of thermite to cut through the grating, yeah?
 	loc_brb_47_01 = "Se precisarem de mais suprimentos, ainda deve ter mais lá fora.",--If you need more supplies, there should still be more outside.
 	loc_brb_12_04 = "Vocês precisam remover a serra, yeah?",--You gotta remove that saw, yeah?
 	loc_brb_31_01 = "Idiota filho da puta! O entregador esqueceu o guincho! Certo amigos, em breve enviarei esse de trem.",--Blerrie paw-paw! The courier forgot the winch! Ok friends, I'll have one coming by train shortly.
@@ -196,7 +196,7 @@ return {
 	loc_brb_44_03 = "...Computadores do banco devem ser capaz de abri-los, yeah?",--...Bank computers should be able to open them up, yeah?
 	loc_brb_38_01 = "Agora, vocês precisam conectar o gancho na porta do cofre.",--...Now, you gotta connect the hook to the vault door.
 	loc_brb_37_03 = "...Apertem bem aqueles parafusos amigos.",--...tighten those bolts down friends.
-	loc_brb_30_01 = "A Térmite acabou. Queimou bem através daquilo, yeah? Agora sigam com o guincho.",--Thermite is done. Burned right through that nicely, yeah? Now get going with the winch.
+	loc_brb_30_01 = "A termite acabou. Queimou bem através daquilo, yeah? Agora sigam com o guincho.",--Thermite is done. Burned right through that nicely, yeah? Now get going with the winch.
 	loc_brb_27_05 = "Amigos, a furadeira precisa de atenção!",--The drill needs some attention, friends!
 	loc_brb_16_03 = "Talvez seja uma boa ideia tirar aquela lona.",--Might be a good idea to get that tarp off.
 	loc_brb_43_03 = "...Um Cartão de Acesso poderia abrir um.",--...A keycard could probably open one.
@@ -204,7 +204,7 @@ return {
 	loc_brb_23_01 = "...Ele está esperando por vocês em uma lixeira no estacionamento.",--...it's waiting for you in a dumpster out by the parking lot.
 	loc_brb_13_02 = "Pronto, agora é hora de explodir um buracão no chão antigo, yeah?",--There, now it's time to blow a big hole in that antique floor, yeah?
 	loc_brb_21_01 = "...Deem uma olhada lá fora no banheiro portátil no Canteiro de Obras.",--... take a look outside in the portable toilet at the construction site.
-	loc_brb_30_03 = "Certo, o Térmite acabou. Lindo mas nojento. Agora montem o guincho, yeah?",--OK, the thermite is through. Nasty but beautiful. Now set up the winch, yeah?
+	loc_brb_30_03 = "Certo, o termite acabou. Lindo mas nojento. Agora montem o guincho, yeah?",--OK, the thermite is through. Nasty but beautiful. Now set up the winch, yeah?
 	loc_brb_00_02 = "Pegaram todo o dinheiro daquele veículo, yeah? Hora de dar uma olhada dentro do banco. Sejam rápidos, amigos.",--Got your money's worth out of that vehicle, yeah? Time to go have a look inside the bank. Make it quick, friends.
 	loc_brb_52_01 = "Amigos, vocês precisam abrir aquele andar!",--You gotta get that floor open, friends!
 	loc_brb_22_03 = "...Vocês irão achar ele em uma lixeira lá fora pelo Canteiro de Obras, amigos.",--...you will find it in a dumpster out by the construction site, friends.
@@ -237,7 +237,7 @@ return {
 	hud_heist_brb_23 = "Pegue o medalhão da caixa dentro do chão.",--Take the medallion from the box inside the floor.
 	hud_heist_brb_21_hl = "Inspecione o Cofre",--Inspect the vault
 	hud_heist_brb_22_hl = "Exploda o Chão",--Blow up the floor
-	hud_heist_brb_10 = "Coloque a Térmite no cofre para derreter as dobradiças da porta.",--Put thermite on the vault to melt the door hinges.
+	hud_heist_brb_10 = "Coloque a termite no cofre para derreter as dobradiças da porta.",--Put thermite on the vault to melt the door hinges.
 	hud_heist_brb_22 = "Hora de pegar aquilo que viemos buscar; coloque alguns C4 e exploda aquele chão!",--Time to get what we came for; place some C4 and blow open that floor!
 	hud_heist_brb_27_hl = "Remova a Serra",--Remove the saw
 	hud_heist_brb_19 = "Mantenha os policiais longe do cofre!",--Keep the cops away from the vault!
@@ -264,7 +264,7 @@ return {
 	hud_heist_brb_01_hl = "Entre no Banco",--Enter the bank
 	hud_heist_brb_15_hl = "Conecte o Guincho ao Cofre",--Connect the winch to the vault
 	hud_heist_brb_17_hl = "Defenda o Guincho",--Defend the winch
-	hud_heist_brb_10_hl = "Coloque o Térmite no Cofre",--Place the thermite on the vault
+	hud_heist_brb_10_hl = "Coloque o termite no Cofre",--Place the thermite on the vault
 	hud_heist_brb_14 = "Parafuse o guincho no chão!",--Screw the winch down to the floor!
 	hud_heist_brb_21 = "Entre e inspecione o cofre.",--Go inside and inspect the vault.
 	hud_heist_brb_04 = "Use a serra para cortar um buraco na parte fraca do chão!",--Use the saw to cut a hole at the weak spot of the floor!
@@ -279,7 +279,7 @@ return {
 	hud_heist_brb_06 = "Use o C4 para criar um buraco no chão fraco!",--Use the C4 to blow a hole in the weakened floor!
 	hud_heist_brb_02 = "Use o andaime exterior para chegar ao segundo andar.",--Use the exterior scaffolding to reach the second floor.
 	hud_heist_brb_31_hl = "Religue o Guincho",--Restart the winch
-	hud_heist_brb_24 = "Use a Térmite para derreter as grades dos esgotos.",--Use thermite to melt through the sewer grating.
+	hud_heist_brb_24 = "Use a termite para derreter as grades dos esgotos.",--Use thermite to melt through the sewer grating.
 	hud_heist_brb_09_hl = "Retire o Equipamento",--Retrieve the equipment
 	hud_heist_brb_17 = "Impessa os policiais de pararem o guincho.",--Keep the cops from stopping the winch.
 	hud_heist_brb_31 = "O guincho parou. Religue-o!",--The winch has stopped. Restart it!

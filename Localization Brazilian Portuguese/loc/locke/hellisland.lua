@@ -34,7 +34,7 @@ return {
 	
 	-- Legendas
 	loc_bph_21_01 = "Usem a furadeira nessa porta.",--Drill through the door.
-	loc_bph_08_02 = "Talvez tentem usar a térmite que vocês acharam antes.",--Maybe try that thermite you found before.
+	loc_bph_08_02 = "Talvez tentem usar a termite que vocês acharam antes.",--Maybe try that thermite you found before.
 	loc_bph_25_01 = "Não se preocupem, amigos. Vou pegar o Bain. Só mantenham esses Murkies longe da gente, yeah?",--No worries, friends. I'll get Bain. Just keep those Murkys away from us, yeah?
 	loc_bph_04_02 = "Isso poderá ser útil pra algo mais pra frente.",--Could be useful somewhere down the line.
 	loc_bph_28_02 = "Caralho, os Kataru realmente foderam com ele.",--Blerrie, the Kataru have really messed him up. 
@@ -115,7 +115,7 @@ return {
 	loc_bph_04a_01 = "Filha da puta! Eu adoraria dar um chute na boca dele!",
 	loc_bph_05_03 = "Aí está, agora vejam se vocês conseguem achar o bloco de celas.",
 	loc_bph_07_01 = "Ok, Agora vocês vão ter que ir para a sala de controle.",
-	loc_bph_08_01 = "Aquele Térmite que você pegou antes.. deve funcionar.",
+	loc_bph_08_01 = "Aquele termite que você pegou antes.. deve funcionar.",
 	loc_bph_11_12 = "Bom, agora usem as câmeras para localizar a cela do Bain.",
 	loc_bph_12a_03 = "É essa, ali está ele! Abram a cela dele, yeah?",
 	loc_bph_20_03 = "Puta que pariu! o Bain deu uma bela surra nesse Murky, yeah? Coloquem a furadeira na porta e peguem as chaves!",
@@ -132,7 +132,7 @@ return {
 	loc_bph_36_03 = "Rápido! Temos que sair daqui!",
 	loc_bph_05_02 = "Boa amigos, agora vão pro bloco de celas, encontrem o Bain e libertem ele.",
 	loc_bph_07_03 = "Vocês precisam encontrar um jeito de chegar até a sala de controle, yeah?",
-	loc_bph_08_03 = "Usem a Térmite que vocês pegaram. Isso deve dar conta dessas barras.",
+	loc_bph_08_03 = "Usem a termite que vocês pegaram. Isso deve dar conta dessas barras.",
 	loc_bph_12a_01 = "É essa, bem ali! Agora libertem ele.",
 	loc_bph_21_02 = "Vocês vão precisar usar a furadeira na porta",
 	loc_bph_32_02 = "Eles estão na nossa cola!",

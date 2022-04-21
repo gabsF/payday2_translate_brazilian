@@ -26,7 +26,7 @@ return {
 	loc_bex_03_01 = "Que barulho horrível.",--What an awful noise.
 	loc_bex_04_01 = "Então, Vlad. Já te contei sobre o meu encontro com uma cobra-tigre Australiana?",--So, Vlad. Did I ever tell you about my run-in with an Australian tiger-snake?
 	loc_bex_04_02 = "Vlad, você sabe... Uma vez encontrei um Wolverine Russo...",--Vlad, you know... I encountered a Russian wolverine once...
-	loc_bex_05_01 = "Vocês sabem que, a Térmite é mais ou menos um equipamento padrão pra gente.",--You do realize, thermite is more or less standard equipment for us.
+	loc_bex_05_01 = "Vocês sabem que, a termite é mais ou menos um equipamento padrão pra gente.",--You do realize, thermite is more or less standard equipment for us.
 	loc_bex_06_01 = "Mexam-se, amigos.",--Get moving, friends.
 	loc_bex_06_02 = "O banco não vai se roubar sozinho.",--The bank is not going to heist itself.
 	loc_bex_06_03 = "Meio que estamos no ponto aqui. Também temos muitas outras coisas para cuidarmos, yeah?",--We're kind of on the clock here. A lotta other things to take care of too, yeah?
@@ -354,9 +354,9 @@ return {
     loc_bex_111_03 = "Tenho algo a caminho para vocês que será um pesadelo para esse cofre!",--Got something on the way for you that's going to be a kakspul of trouble for that vault!
 
 	-- Legendas (Vlad)
-	vld_bex_07_01 = "Ainda bem que Vlad enviou esta térmite para usarem, né?",--Good thing Vlad sent you that thermite to use, eh!",
+	vld_bex_07_01 = "Ainda bem que Vlad enviou esta termite para usarem, né?",--Good thing Vlad sent you that thermite to use, eh!",
 	vld_bex_19_01 = "Ele morreu? Cace... a minha esposa vai me dar uma bronca se ele estiver.",--Is he dead? Oh sh... my wife will give me an earful at dinner if he is.",
-	vld_bex_07_02 = "Não esta coisa, esta coisa é nano-térmite! Foi roubado da Suécia para mim. Bem forte.",--Not this stuff, this shit is nano-thermite! Was smuggled out of Sweden for me. Extra strong.",
+	vld_bex_07_02 = "Não esta coisa, esta coisa é nano-termite! Foi roubado da Suécia para mim. Bem forte.",--Not this stuff, this shit is nano-thermite! Was smuggled out of Sweden for me. Extra strong.",
 	vld_bex_10_01a = "Nojento, correndo por aí com coisas e copinhos de café usados!",--Disgusting, running around with used coffee cups and things!",
 	vld_bex_18_01 = "Eita, eu achei que iria funcionar!",--Oh wow, I really thought that would work!",
 	vld_bex_05_01 = "Coisa pra caralho está acontecendo em Washington agora.",--Lot's of shit happening in Washington right now.",

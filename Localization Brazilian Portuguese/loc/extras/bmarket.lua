@@ -302,10 +302,22 @@ return {
 	bm_suit_var_boss_suit_green_desc = "Esperto, aguardando na superfície, o dono deste traje sabe o valor de esconder a sua verdadeira força até chegar a hora.",--Sly, awaiting beneath the surface, the wearer of this garb knows the value of hiding his true strength until it's time to strike.
 
 	-- TRAJES DO DÉCIMO ANIVERSÁRIO
-	bm_suit_waistcoat_desc = "Este traje vai mostrar o profissionalismo, e poder, dentro de você.\n\nCriado por @_jenericku",--This outfit will truly get the job done if you want to exude an air of power and professionalism.
+	bm_suit_waistcoat_desc = "Este traje vai mostrar o profissionalismo, e poder, dentro de você.\n\nCriado por @_jenericku",--This outfit will truly get the job done if you want to exude an air of power and professionalism. (rip)
 	bm_suit_sparkle_desc = "Quer ser notado em um trabalho e deixar uma impressão fabulosa? Este traje vai servir.\n\nCriado por @OneMonovan",--Want to get noticed on the job and leave a flamboyant impression? Yeah, this is the way to go.
 	bm_suit_bunny_desc = "Um traje de coelho rosa? Por que não? O contraste entre o seu traje e a sua arma vai ficar muito fofo!\n\nCriado por @SilversTweet",--A pink bunny suit? Why the hell not? The contrast between your outfit and your gun will be stunning! 
+	bm_suit_fighterpilot_desc = "Um fato curioso: Bile adora o combate aéreo da Primeira Guerra Mundial! O pessoal que fica de olho nele vão notar que ele sempre veste um uniforme de piloto autêntico durante os roubos, fingindo que está em um Avro 504 invés de um velho helicóptero. Morte vindo de cima, né?\n\nCriado por @OverlordLettuce",--Little known fact: Bile has a deep fascination with World War 1 aerial combat! Eagle-eyed viewers often catch him wearing his authentic fighter pilot uniform during heists, pretending he's in an Avro 504 instead of a helicopter. Death from above, anyone?
 	-- TRAJES DO DÉCIMO ANIVERSÁRIO
+
+	bm_suit_bullranch_suit_desc = "História é forjado por pioneiros. Olha a parte do escoteiro com um traje que é estiloso e prático. Se ficar frio lá fora no desconhecido, e o traje certo faz toda diferença. As vezes, tudo que você precisa é de alguma coisa pra vestir.",--History is forged by pioneers. Look the part of the trailblazer with an outfit that's equal parts stylish and practical. It gets cold out there in the Great Unknown, and the right jacket can make a huge difference. Sometimes, all you need is the clothes on your back.
+	bm_suit_var_bullranch_suit_blue_desc = "Quer ser o durão? Durão veste Denim.",--When the going gets tough, the tough wear Denim.
+	bm_suit_var_bullranch_suit_brown_desc = "O espiríto do pioneiro está vivo com 'ocê.",--The Pioneer Spirit is alive in you.
+	bm_suit_var_bullranch_suit_default_desc = "A única coisa constante é mudança.",--The only thing constant is change.
+	bm_suit_var_bullranch_suit_black_desc = "Para tomar território, as vezes você tem que quebrar as regras.",--Sometimes, to break new ground, you have to break some rules.
+	bm_suit_texvest_desc = "Quando estiver encarando os policiais cascas-grossas, você fica calvagando e ainda consegue ser estiloso. O orgulho do caubói é um símbolo de perseverança. Este sobreviveu o velho oeste até hoje. Um caubói contemporâneo não tem medo de nada, assim como os seus ancestrais, só um pouco desajeitado. Não tem nada de errado com o estilo, companheiro.",--When facing rugged terrain, you stay on the horse and look good doing it. The cowboy stands proud as a mythic symbol of perseverance - a dashing one at that. This get-up worked in the Old West, and it sure as hell works now. A contemporary cowboy is every bit as fearless as their ancestors, just a bit sleeker. Nothing wrong with a little style, partner.
+	bm_suit_texvest_black_desc = "Escuro que nem a noite com lua nova.",--There's dark, there's dark as a moonless prairie night, and then there's you.
+	bm_suit_texvest_blue_desc = "Quando há pressão, você continua suave.",--When the pressure's on, you always keep a cool head.
+	bm_suit_texvest_green_desc = "Lembre-se das suas rotas.",--Remember your roots.
+	bm_suit_var_texvest_default_desc = "Sertanejo com classe.",--Country with class.
 
 	-- LUVAS
 	bm_gloves_default_desc = "Use as Luvas padrão dos Heisters",--Use the heisters default gloves
@@ -356,6 +368,18 @@ return {
 	bm_gloves_jesterstripe_desc = "A costura nessas luvas de couro é feito de puro ouro, tecidos de oito discussões separados pelo os famosos tecelões do mundo. As mãos de um assaltante merecem algo desse tipo, especialmente enquanto estiver celebrando os oitos anos mais malucos nesse ramo.",--The stitching in these rugged leather gloves is made of pure gold, woven from eight separate threads by the finest weavers in the world. A heister's hands deserve nothing less, especially while celebrating eight glorious years on the job.",
 	bm_gloves_overkillpunk_desc = "Esse estilo representa os cérebros faltando um parafuso lá em Silicon Valley, um 'protégé' que consumiu drogas demais. O seu cérebro torrado é o seu prêmio.",
 --[[This design is the brainchild of some messed up Silicon Valley protégé who took one smart drug too many. His fried brain is your gain.]]
+	bm_gloves_blackstar_desc = "Quando você aparece, o ticket do Inferno fica bem barato.",--When you show up, Hell ain't far behind.
+	bm_gloves_hardwork_desc = "Não fique com medo em surjar as mãos.",--Don't be afraid to get your hands dirty.
+	bm_gloves_texriding_desc = "Você faz isso parecer fácil.",--You make this look easy.
+	bm_gloves_workranch_desc = "Pegue a vida pela as rédeas.",--Grab life by the reins.
+	bm_gloves_mnk_desc = "Luvas de couro confortáveis e práticos, com a tecnologia que facilita as suas atividades.",--Comfortable and practical veg-tanned leather gloves with padding and breathability.
+	bm_gloves_mnt_desc = "Luvas de couro confortáveis e práticos, com a tecnologia que facilita as suas atividades.",--Comfortable and practical veg-tanned leather gloves with padding and breathability.
+	bm_gloves_tgr_desc = "Luvas de couro confortáveis e práticos, com a tecnologia que facilita as suas atividades.",--Comfortable and practical veg-tanned leather gloves with padding and breathability.
+	bm_gloves_vpr_desc = "Luvas de couro confortáveis e práticos, com a tecnologia que facilita as suas atividades.",--Comfortable and practical veg-tanned leather gloves with padding and breathability.
+	bm_gloves_bike_red_led_desc = "Aconchegante, estiloso, com aquela vibe de retro vaporwave, não dá pra errar.",--Snug, stylish, and with that vaporwave retro feel, you can't go wrong. 
+	bm_gloves_spikeknuckle_desc = "Volátil e liso em cada ângulo, perfeito. É, esta luva pra você.",--Volatile, on edge, and sharp at every angle. Yup, this glove is for you. 
+	bm_gloves_dragonscale_desc = "Coberto por escamas de fogo e cheio de espinhas afiadas, veste isso quando você quer apertar a mão da pessoa que você tem ódio.",--Covered by fiery scales and riddled with sharp spines, wear these when you want to shake hands with someone you hate.
+	bm_gloves_bike_yellow_led_desc = "Até onde as luvas forem, estes daqui são utilitários e estilosos, também vão dar um brilho extra para cada situação.",--As far as gloves go, these are both utilitarian and fashion-conscious; and they will give that extra glow to every situation.
 	
 	-- INVENTÁRIO GERAL
 	menu_sort_chronologic = "Cronológico",--Chronologic
