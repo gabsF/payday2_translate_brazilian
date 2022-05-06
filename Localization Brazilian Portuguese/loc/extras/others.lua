@@ -1208,7 +1208,7 @@ return {
 	hud_action_searching_for_clue = "Procurando por Pista",
 	hud_action_placing_gas_can = "Colocando o Galão de Gasolina",
 	hud_unlocking_car = "Destravando o Carro",
-	hud_uncuffed_in = "Soltando-se",
+	hud_uncuffed_in = "Soltando-se em",
 	hud_int_activating_flare = "Ativando Sinal",
 	hud_action_take_wire = "Pegando Cabos",
 	hud_action_take_alarm_clock = "Pegando Despertador",
@@ -3480,7 +3480,7 @@ return {
 	menu_jukebox_your_choice = "Música Personalizada",--Custom track:
 	menu_waiting_is_not_ready = "NÃO ESTÁ PRONTO",
 	menu_waiting_is_ready = "PRONTO",
-	menu_lobby_player_slot_available = "ESPAÇO DE JOGADOR DISPONIVEL",
+	menu_lobby_player_slot_available = "ESPAÇO DE JOGADOR DISPONÍVEL",
 	debug_loading_level = "CARREGANDO",
 	menu_waiting_is_joining = "ENTRANDO",
 	menu_ghostable_stage = "É possível fazer de forma Stealth.",
@@ -3493,6 +3493,7 @@ return {
 	menu_ingame_menu = "MENU EM-JOGO",
 	menu_restart_game = "REINICIAR A PARTIDA",
 	dialog_mp_restart_level_host_message = "Você tem certeza que deseja reiniciar?",
+	dialog_dlc_require_restart = "Atenção",--Attention
 	dialog_dlc_require_restart_desc = "Você precisa reiniciar o PAYDAY 2 para acessar os seus novos itens.",
 	dialog_show_restart_game_message = "Tem certeza que deseja reiniciar a partida atual?",
 	menu_restart_game_help = "Reinicia a Partida.",
@@ -3511,7 +3512,7 @@ return {
 	menu_briefing = "Descrição da Crime.net:",
 	
 	-- Lobby
-	menu_lby_job_crimenet = "Mudar a Heist",--Change Heist
+	menu_lby_job_crimenet = "Mudar Heist",--Change Heist
 	menu_lby_crimenet = "Selecionar Heist",--Select Heist
 	menu_preferred_character_lobby_error = "Não pode mudar enquanto estiver em um lobby",
 	menu_crewpage = "Fase de Pré-planejamento",
@@ -3552,7 +3553,7 @@ return {
 	-- Prompt
 	hud_waiting_accept = "ACEITAR$MY_BTN;",
 	hud_waiting_kick = "EXPULSAR$MY_BTN;",
-	hud_waiting_ok = "OK$MY_BTN;", -- not sure where this is is showed...
+	hud_waiting_ok = "OK$MY_BTN;", -- ???????
 	hud_waiting_return = "RETORNAR$MY_BTN;",
 	
 	-- In Summary
@@ -3853,7 +3854,7 @@ return {
 	hint_teammate_downed = "$TEAMMATE; caiu!",
 	hint_teammate_helpedup = "$HELPER; ajudou $TEAMMATE;!",
 	hint_teammate_rescued = "$HELPER; desprendeu $TEAMMATE;!",
-	hint_teammate_arrested = "$TEAMMATE; foi algemado $LOCATION;!",--$TEAMMATE; was cuffed$LOCATION;!
+	hint_teammate_arrested = "$TEAMMATE; foi algemado$LOCATION;!",--$TEAMMATE; was cuffed$LOCATION;!
 	hint_been_tasered = "Um Taser está te prendendo!",
 	hud_hint_blame_police_alerted = "A Polícia foi alertada.",
 	hud_hint_blame_missing = "Alguém viu atividade suspeita e ligou para polícia.",
@@ -4631,7 +4632,7 @@ return {
 	loading_heister_30 = '"Shields" podem bloquear balas, tentem trabalhar juntos para flanquear eles ou use balas pefurantes.',
 	loading_heister_31 = "Custos de Limpeza remove o seu dinheiro imediatamente. Portanto, não adianta reiniciar a partida.",
 	loading_heister_32 = "Clicando com o botão direito do mouse enquanto estiver com zoom com um arco irá cancelar o seu tiro.",
-	loading_heister_33 = "Comunique-se com os seus aliados, trabalho em equipe é a chave para sobrevivência.", --um clone do "loading_heister_28" :awkward:
+	loading_heister_33 = "AGORA NÃO DÁ.", --um clone do "loading_heister_28" :awkward:
 	loading_heister_34 = "Você não precisa ter uma DLC para jogar uma missão especifíca. Você só não poderá hostear, a menos que você tenha. (Não precisa de DLC quando estiver jogando Crime Spree ou A História.)",
 	loading_heister_35 = "Se a fuga estiver disponivel, lembre-se de ir embora quando for a melhor hora. Todo esse dinheiro não irá valer a pena se você for para a custódia.",
 	loading_heister_36 = "Enquanto estiver na tela de Equipamento, dê uma olhada no Equipamento da Equipe para ver o que os seus aliados estão levando.",

@@ -1,5 +1,2 @@
-11.02
-* Corrigido o erro do "térmite"
-* Traduzido as falas do Bile em Alesso Heist
-* Corrigido o erro de escrita em Pre-Planning do Big Bank
-* Traduzido o conteúdo do Southbound Tailor Pack
+11.03
+* Alterado o pop-up do "Onda Sobrevivida" para "Onda Concluída" (Holdout e Safehouse Raid)

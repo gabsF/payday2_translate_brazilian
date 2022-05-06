@@ -30,7 +30,7 @@ return {
     jfe_sand_intro2a_03 = "Não, seu idiota.",--No, you fool.
     loc_sand_intro2a_04 = "Sérião, o que significa?",--Seriously, what does it mean?
     jfe_sand_intro2a_04 = "Deixa pra lá, chefe.",--Never mind, chief.
-    --loc_sand_intro1a_01 = "Tá, tá, tenho mais um",--OK, ok I've got another one.
+    loc_sand_intro1a_01 = "Tá, tá, tenho mais um",--OK, ok I've got another one.
     jfe_sand_intro1a_01 = "A gente tem tempo pra isso?",--Do we really have time for this?
     loc_sand_intro1a_02 = "Relaxa, a van não vai ir mais rápido! Me ajuda a concentrar, sabe?",--No worries, the van doesn't go any faster! Helps me concentrate, yeah?
     jfe_sand_intro1a_02 = "Tá, manda, chefe. EI, CUIDADO!",--Alright, go ahead Chief. HEY, watch it!!
