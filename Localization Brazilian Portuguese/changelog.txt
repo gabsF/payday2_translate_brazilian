@@ -1,2 +1,6 @@
-11.03
-* Alterado o pop-up do "Onda Sobrevivida" para "Onda Concluída" (Holdout e Safehouse Raid)
+11.04
+* Traduzido o conteúdo do McShay Weapon Pack
+* Traduzido e corrigido algumas falas do Locke em Ukrainian Prisoner
+* Traduzido interações faltando
+* Corrigido um erro em uma das dicas na tela de Loading
+* Alterado a tradução do "Granada de Concussão" para "Flashbang"

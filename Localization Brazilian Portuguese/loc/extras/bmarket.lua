@@ -466,6 +466,7 @@ return {
 	bm_menu_btn_remove_weapon_cosmetic = "Remover Skin",--Remove skin
 	bm_menu_item_unlocked = "Disponível",--Available
 	bm_menu_btn_buy_mod = "Comprar com Moedas Continentais",
+	bm_w_scout_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
 	bm_w_rpg7_desc = "NÃO É POSSÍVEL PEGAR MUNIÇÃO DO CHÃO PARA ESSA ARMA.",--Ammo pickups are disabled for this weapon.
 	bm_w_saw_desc = "NÃO É POSSÍVEL PEGAR MUNIÇÃO DO CHÃO PARA ESSA ARMA.",--Ammo pickups are disabled for this weapon.
 	bm_wp_upg_a_custom_desc = "Grandes projéteis com muito mais poder de impacto.",--Bigger pellets with more impact.
@@ -2593,6 +2594,7 @@ return {
 	--[[Equip the 350K brass knuckles. Celebrating the release of the Death Wish update, you can now unlock the 350K knuckles by simply joining the PAYDAY 2 Official Group on Steam.]]
 	achievement_death_31_additional = "Você precisa ser parte do grupo oficial no Steam do PAYDAY 2.",--You need to be a part of the official PAYDAY 2 group on Steam.
 	achievement_ja22_01_desc = "Destrua uma Turret da van da SWAT usando apenas o CAR-4 Rifle.",--Destroy a SWAT van turret using only the CAR-4 rifle.
+	achievement_pxp1_1_desc = "Mate 200 inimigos usando veneno na dificuldade OVERKILL ou superior, enquanto veste o traje Scrubs.",--Kill 200 enemies using poison on the OVERKILL difficulty or above, while wearing the Scrubs outfit.
 
 	-- Oitavo Aniversário
 	menu_challenge_div_cat_event_jobs = "Oitavo Aniversário do PAYDAY 2",--PAYDAY 2 8th Anniversary",

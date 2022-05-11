@@ -12,6 +12,8 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	bm_global_value_pxp1_unlock = "Compre o McShay Weaopn Pack para desbloquear!",--
+	menu_l_global_value_pxp1 = "Esse é um item do McShay Weapon Pack!",--This is a McShay Weapon Pack Item!
 	bm_global_value_txt1_unlock = "Compre a DLC Southbound Tailor Pack para desbloquear",--
 	menu_l_global_value_txt1 = "Esse é um item do Southbound Tailor Pack!",--This is a Southbound Tailor Pack Item!
 	bm_global_value_tawp_unlock = "Compre o Jiu Feng Smuggler Pack 3 para desbloquear!",--This is a Jiu Feng Smuggler Pack 3 Item!
@@ -496,7 +498,7 @@ return {
 	bm_grenade_molotov_desc = 'O Coquetel Molotov talvez é a arma mais simples que pode se chamar de granada. Nada melhor do que uma garrafa com líquido inflamável para queimar tudo e todos. É barato, simples e muito efetivo.',
 	bm_grenade_frag = "Granada Explosiva",
 	bm_grenade_frag_desc = "A Granada Explosiva é um conceito que mudou-se um pouco do seu início. É jogada e explode com tanta força que faz qualquer pessoa voar pelos ares. Bem barato e efetivo.",
-	bm_concussion = "Granada de Concussão",
+	bm_concussion = "Flashbang",--Granada de Concussão
 	bm_concussion_desc = "Essa belezinha de atordoamento vai dar um tapa na cara de todo mundo, dando a você alguns segundinhos de tempo para matar todos eles.",
 	bm_dynamite = "Dinamite",
 	bm_dynamite_desc = "O Engenheiro suéco, Alfred Nobel, descobriu a dinamite e a sua utilidade de explodir pedras. Mas era um protestor bêbado, Velho Kenneth, que descobriu a utilidade de explodir pessoas usando ela.",
@@ -512,6 +514,9 @@ return {
 	bm_wpn_prj_ace_desc = 'Jogar cartas é geralmente associados com mágicos dividindo um melão no meio em um palco, mas adicionando peso e mais estilo, você vai ter um assassino silencioso. Coloque essas cartas nas suas mangas e você vai estar pronto para qualquer coisa, não importa a situação.\n\nAs Cartas são uma espécie de "Granada" dado para a comunidade para celebrar dois anos de PAYDAY 2!', -- você chama isso de granada?
 	--bm_grenade_electric = "X1-ZAper",
 	bm_grenade_electric_desc = "Shrapnel tem tudo de bom, mas algumas coisas precisam ser queimadas, e essa coisinha é uma besta em fazer dano com alta potência de eletricidade.",--Shrapnel is all well and good, but some things need to be fried, and this little beauty is a rather practical beast for dishing out some damage with high voltage.
+	bm_grenade_poison_gas_grenade = "Granada de Veneno",--Viper Grenade
+	bm_grenade_poison_gas_grenade_desc = "Tá afim de uma arma química letal e compacto? Os seus problemas acabaram! Esta granada mortal, porém limitado com o alcance, irá soltar uma fumaça de gás tóxico que coloca o poder da fumaça na palma da sua mão. Seus inimigos podem dizer adeus aos seus sistemas respiratórios.",--Craving a chemical weapon that's equal parts deadly and compact? Look no further! This highly-illegal grenade, though limited in explosive radius, will emit a sweeping cloud of toxic gas that puts the power of the viper into the palm of your hand. Your enemies can kiss their respiratory systems goodbye.
+
 	
 	-- Equipamentos
 	bm_menu_btn_equip_deployable = "Equipar o Equipamento",
@@ -1226,6 +1231,9 @@ return {
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	hint_no_documents = "Necessário documentos",--Need documents
+	hud_int_spike_cake = "Segure $BTN_INTERACT para fermentar o bolo",--Hold  to spike the cake
+	hud_int_press_number_sign = "Pressione $BTN_INTERACT para digitar #",--Press  to enter #
 	hud_equipment_pent_need_keys = "Requer Chaves do Carro",--Car keys required
 	hud_born_give_item = "Pressione $BTN_INTERACT para passar o item",--Press  to hand over item
 	hud_cas_close_door = "Pressione $BTN_INTERACT para fechar a porta",--Press  to close the door
@@ -4632,7 +4640,7 @@ return {
 	loading_heister_30 = '"Shields" podem bloquear balas, tentem trabalhar juntos para flanquear eles ou use balas pefurantes.',
 	loading_heister_31 = "Custos de Limpeza remove o seu dinheiro imediatamente. Portanto, não adianta reiniciar a partida.",
 	loading_heister_32 = "Clicando com o botão direito do mouse enquanto estiver com zoom com um arco irá cancelar o seu tiro.",
-	loading_heister_33 = "AGORA NÃO DÁ.", --um clone do "loading_heister_28" :awkward:
+	loading_heister_33 = "Não enche, Dark.", --um clone do "loading_heister_28" :awkward:
 	loading_heister_34 = "Você não precisa ter uma DLC para jogar uma missão especifíca. Você só não poderá hostear, a menos que você tenha. (Não precisa de DLC quando estiver jogando Crime Spree ou A História.)",
 	loading_heister_35 = "Se a fuga estiver disponivel, lembre-se de ir embora quando for a melhor hora. Todo esse dinheiro não irá valer a pena se você for para a custódia.",
 	loading_heister_36 = "Enquanto estiver na tela de Equipamento, dê uma olhada no Equipamento da Equipe para ver o que os seus aliados estão levando.",
@@ -4719,7 +4727,7 @@ return {
 	loading_gameplay_63 = "Cloakers não são afetados pelo Feedback do ECM.",
 	loading_gameplay_64 = "Depois de atirar com qualquer tipo de arco, não esqueça de pegar as flechas de volta.",
 	loading_gameplay_65 = "Algumas missões podem ser feitas sem disparar o alarme.",
-	loading_gameplay_66 = "Tá achando difícil em achar munição solta? Você pode ativar os contornos para as munições, flechas e granadas nas configurações do jogo.",
+	loading_gameplay_66 = "Tá difícil achar munição solta? Você pode ativar os contornos para as munições, flechas e granadas nas configurações do jogo.",
 	loading_gameplay_67 = "Rifles de Sniper podem penetrar paredes. Use isso ao seu favor.",
 	loading_gameplay_68 = "Munição é mais importante do que você pensa. Reserve a munição para os inimigos especiais, como Médicos, Cloakers, Tasers e Bulldozers.",
 	loading_gameplay_69 = "Ficando perto dos inimigos podem fazer eles darem um ataque corpo-a-corpo bem forte.",
