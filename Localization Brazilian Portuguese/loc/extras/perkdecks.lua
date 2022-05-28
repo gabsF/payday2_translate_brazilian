@@ -303,7 +303,7 @@ return {
 	menu_deck19_1 = "Virtude",
 	menu_deck19_1_desc = "Desbloqueia e equipa ##Bebida do Stoic##.\n\nO dano levado é agora reduzido em ##75%##. O resto do dano será aplicado diretamente.\n\nOs ##75%## do dano reduzido será aplicado com o passar do tempo (##12## segundos).\n\nVocê poderá usar a tecla da granada ##$BTN_ABILITY;## para ativar ##Bebida do Stoic## e imediatamente negar qualquer dano pendente. A bebida tem um tempo de ##10## segundos antes de poder ser usada novamente, mas pode ser reduzida em ##1## segundo para cada inimigo morto por você.",
 	menu_deck19_3 = "Imóvel",
-	menu_deck19_3_desc = "Toda a sua armadura é convertida e aplicada na sua vida total.\n\nNota: todas as Skills que regenerem a sua armadura não funcionaram.",
+	menu_deck19_3_desc = "Toda a sua armadura é convertida e aplicada na sua vida total.\n\nNota: Todas as Skills que regeneram a sua armadura não funcionarão.",
 	menu_deck19_5 = "Calma",
 	menu_deck19_5_desc = "Depois de ##4## segundos sem levar dano, qualquer dano de tempo que você tiver pendente será negado.",
 	menu_deck19_7 = "Imperturbável",

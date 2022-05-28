@@ -153,7 +153,7 @@ return {
 	cha_spa_07_06 = "Eu preciso de cobertura para abrir essa porta!",--I need covering fire to get the door open!
 	cha_spa_14_02 = "E quanto a fuga? O motorista de vocês está vindo?",--How about that escape? Is your driver coming?
 	cha_spa_09_01 = "Se vocês cruzarem o telhado para o próximo prédio, eu posso encontrar vocês lá.",--If you move across the roof into the next building, I can meet you there.
-	cha_spa_19_01 = "Porque vocês estão demorando tanto?",--What took you so long?
+	cha_spa_19_01 = "Por que vocês estão demorando tanto?",--What took you so long?
 	cha_spa_19_13 = "Eu acho que vocês me subestimaram!",--I think you underestimate me!
 	cha_spa_14_03 = "Nós realmente precisamos do veículo de fuga agora! Quanto tempo você acha que vai demorar?",--We really need that escape car now! How long do you think it will be?
 	cha_spa_01_03 = "A Gangue PAYDAY! Bem-vindos! Precisamos ensinar a esses caras uma lição, não é?",--The Payday Gang! Welcome! Let's teach these guys a lesson, yes?

@@ -9,7 +9,7 @@ return {
 	heist_peta2_briefing = "Ok, eu acho que o pior já ficou pra trás. O motorista do Vlad levou as Cabras para fora da cidade, pronto para fazer a extração do produto. Fiquem por ali. Vigiem o perímetro. Trabalho fácil, certo?",--Okay, I think the worst is behind us. Vlad's driver got the goats to a farm outside the city, ready to perform the extraction of the packages. Stick around. Watch the perimeter. Easy work, right?
 	
 	-- Legendas (Vlad - Dia 1)
-	vld_pt1_intro_01 = "Tudo bem, hora de... honestamente. A Cocaína está em... Cabras. Sim, Cabras. E elas fugiram. Haha, Cabras complicadas, né?! Encontrem elas!",--Okay, time for...honesty. The coke is packed in...goats. Yes, goats. And they've escaped. Haha, tricky goats, huh?! Find them!
+	vld_pt1_intro_01 = "Tudo bem, hora de... honestidade. A Cocaína está em... Cabras. Sim, Cabras. E elas fugiram. Haha, Cabras complicadas, né?! Encontrem elas!",--Okay, time for...honesty. The coke is packed in...goats. Yes, goats. And they've escaped. Haha, tricky goats, huh?! Find them!
 	vld_pt1_intro_02 = 'É, meus amigos. Então, os "burros", sabe... bem, eles são na realidade Cabras. E elas... ééé, fugiram. Encontrem elas para mim.',--Ah, my friends. So, the "mules", you see...well, they're actually goats. And they've..errr, escaped. Find them for me.
 	vld_pt1_intro_03 = "Ahhh, ouçam. A Cocaína está sendo traficada em Cabras. Sim, Cabras. C. A. B. R. A. S. E elas fugiram. Encontrem todas elas.",--Ahhh, listen. The coke is being smuggled in goats. Yes, goats. G. O. T's. And they've escaped. Find them all.
 	vld_pt1_05_03 = "E não se mexam. Cabras do caralho...",--And don't fucking move. Fucking goat prick...
@@ -227,7 +227,7 @@ return {
 	pln_pt2_15_03 = "Excepcional! São todas as Cabras! Agora pé na estrada, gangue!",--Outstanding! That's all the goats! Now time to hit the road, gang!
 	pln_pt2_16_01 = "Vamos lá, gente. Não fodam tudo agora. Entrem no carro e pé na estrada!",--Come on, crew. Don't fuck up now. Get the car, and hit the road!
 	pln_pt2_16_02 = "Pessoal! Estamos prontos aqui. Peguem suas rodas e queimem a borracha!",--Guys! We're done here. Grab your wheels and burn rubber!
-	pln_pt2_16_03 = "Porque vocês ainda estão ai? Vamos lá, parem o carro e saiam!",--Why you still there? Come on, into the car and floor it!
+	pln_pt2_16_03 = "Por que vocês ainda estão ai? Vamos lá, parem o carro e saiam!",--Why you still there? Come on, into the car and floor it!
 	pln_pt2_17_01 = "Wow, espere até todos estiverem no carro!",--Woah, wait til everyone is in the car!
 	pln_pt2_17_03 = "Esperem, esperem - Esperem até todos estiverem no carro.",--Hold it, hold it - wait til everyone's in the car.
 	pln_pt2_18_02 = "De volta pro carro! Hora de ir!",--Back in the car! Time to ride!
@@ -250,7 +250,7 @@ return {
 	vld_pt2_01_02 = "Vocês acham que o tio Vlad iria deixar vocês aí sem nenhuma ajuda? Acharam errado!",--You think your Uncle Vlad would leave you there and not have support? Shame on you!
 	vld_pt2_02_02 = "Estou mandando meu cunhado. Ele vai largar uma jaula. Se ele conseguir não bater.",--I'm sending in my brother-in-law. He'll drop a skyhook cage. If he can avoid crashing.
 	vld_pt2_02_03 = "Meu cunhado está a caminho. Ele vai largar uma jaula para vocês",--My brother-in-law is on his way. He will drop a skyhook cage for you. 
-	vld_pt2_03_03 = "Espere, algumas Cabras estão faltando. Porque tem Cabras faltando?!",--Wait, some of the goats are missing. Why are some of the goats missing?!
+	vld_pt2_03_03 = "Espere, algumas Cabras estão faltando. Por que tem Cabras faltando?!",--Wait, some of the goats are missing. Why are some of the goats missing?!
 	vld_pt2_04_01 = "É isso! Pegamos as Cabras, pegamos a Cocaína! Ka-ching-ching, meus amigos! Agora, quem quer vir aqui comer curry?",--That's it! We got the goats, we got the coke! Ka-ching-fucking-ching, my friends! Now, who wants to come over for a curry?
 	vld_pt2_04_02 = "Bom trabalho, queridos amigos. Eu amo todos vocês! Não tanto quanto eu amo toda essa Cocaína, mas ainda amo muito!",--Well done, dear friends. I fucking love you all. Not as much as I love all of this coke, but still quite a lot!
 	

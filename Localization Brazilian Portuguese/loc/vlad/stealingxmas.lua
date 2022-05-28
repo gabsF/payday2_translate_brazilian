@@ -118,7 +118,7 @@ return {
 	vld_moon_38_03 = "Eu amo fazer compras. Só não gosto de pagá-las. Vlad não paga, ele leva o que ele quiser.",--I love shopping. I just don't like to pay. Vlad doesn't pay, he takes what he wants.
 	vld_moon_38_05 = "Eu sempre faço bons negócios por volta do Natal. As pessoas gastam muito dinheiro. É o estresse, elas precisam das minhas coisas.",--I always do good business around Christmas. People spend a lot of money. It's the stress, they need my stuff.
 	vld_moon_38_07 = "Minha esposa disse que talvez faria compras aí amanhã. Eu devia avisá-la que aí provavelmente estará fechado. (risadas)",--My wife said she might go shopping here tomorrow. I should warn her that it'll probably be closed. (laughs)
-	vld_moon_38_08 = "Tem algo que acho muito prazeroso sobre o som de janelas de lojas quebrando. Mas não sei porquê.",--There is something about the sound of shattering shop windows that I find very pleasing. I don't know why.
+	vld_moon_38_08 = "Tem algo que acho muito prazeroso sobre o som de janelas de lojas quebrando. Mas não sei o porquê.",--There is something about the sound of shattering shop windows that I find very pleasing. I don't know why.
 	vld_moon_38_10 = "Aposto que esses policiais não acreditam em Papai Noel. Mas eu acredito! E ele é um pé no saco.",--I bet these cops don't believe in Santa Claus. But I do! And he's a fucking pain in the ass!
 	vld_moon_39_01 = "Ei! Não destruam a árvore!",--Hey! Don't destroy the tree!
 	vld_moon_39_03 = "Essa é uma linda árvore! Parem com isso, seus bárbaros!",--That's a beautiful tree! Stop it, you barbarians!

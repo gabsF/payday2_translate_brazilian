@@ -2,7 +2,7 @@ return {
 	-- Nomes e Descrições
 	--heist_roberts = "GO Bank",
 	--heist_roberts_hl = "GO Bank",
-	heist_roberts_crimenet = "Um clássico assalto a banco. Arrombe o cofre, esvazie as caixas do depósito e leve o Loot. Simples! A informação do Bain diz que essa agência bancária tem a menor taxa de golpes no país. Hora de mudar isso!\n\n» Procure Cartões de Acesso pelo local. Dois são necessários para abrir o Cofre\n» Se isso não der certo, use uma Furadeira no Cofre\n» Abra as Caixas de Depósito\n» Montem a Gaiola com o Gancho\n» Leve o Dinheiro embora", --This is a classic bank job. Break the vault, empty the deposit boxes and get the loot out. Simple. Bain's intel says this branch has the lowest hit-rate in the country. It's time to change that.\n\n» Search the environment for keycards. Two are needed for the vault\n» Failing that, use a drill on the vault\n» Crack open the deposit boxes\n» Assemble the skyhook\n» Get the money out
+	heist_roberts_crimenet = "Um clássico assalto a banco. Arrombem o cofre, esvaziem as caixas do depósito e levem os espólios. Simples! A informação do Bain diz que essa agência bancária tem a menor taxa de golpes no país. Hora de mudar isso!\n\n» Procure Cartões de Acesso pelo local. Dois são necessários para abrir o Cofre\n» Se isso não der certo, use uma Furadeira no Cofre\n» Abra as Caixas de Depósito\n» Montem a Gaiola com o Gancho\n» Leve o Dinheiro embora", --This is a classic bank job. Break the vault, empty the deposit boxes and get the loot out. Simple. Bain's intel says this branch has the lowest hit-rate in the country. It's time to change that.\n\n» Search the environment for keycards. Two are needed for the vault\n» Failing that, use a drill on the vault\n» Crack open the deposit boxes\n» Assemble the skyhook\n» Get the money out
 	heist_roberts_briefing = "Temos um banco aqui. Não é dos grandes, mas eu vi que o cofre tá com uma grana temporária. Notas de câmbio.\n\nEnfim, sabem como fazer - do seu jeito. Sorrateiramente ou atirando na porra toda. De qualquer forma, eu tenho uma ideia de como vamos tirar o dinheiro daí. Vocês vão ver do que estou falando. Acho que vocês vão gostar.", --We got a bank here. Not a big branch but I've learned the vault is temporarily holding stacks of cash in transit. Foreign exchange notes.\n\nAnyway, you know how to do it - your way. Sneak in silent, or unleash hell. Either way, I got a little idea for how to lift the money out of there. You'll see what I mean. I think you'll like it.
 	
 	-- Legendas
@@ -21,7 +21,7 @@ return {
 	pln_cs1_20_03 = "Leve as bolsas para o estacionamento. Montem a gaiola lá.",--Carry the bags to the parking lot. Get the cage put together there. 
 	pln_cs1_109_02 = "Protejam a gaiola. Esses policiais não têm nenhum respeito com seu trabalho honesto e podem levar as bolsas.",--Protect the cage. These cops have no respect for your honest work and can take the bags.
 	pln_cs1_33_01 = "Porra! Luzes vermelhas piscando. Esqueçam os cartões de acesso, a trava de segurança e a merda sorrateira. Hora do Plano B.",--Damn! Red lights across the board. Forget the keycards, the time lock and the softly-softly crap. It's plan B time.
-	pln_cs1_67_02 = "Vocês estão no pior lugar se estão pocurando por loot extra. Saiam daí.",--You guys are seriously in the wrong place if you're looking for extra loot. Get out of there.
+	pln_cs1_67_02 = "Vocês estão no pior lugar se estão pocurando por espólio extra. Saiam daí.",--You guys are seriously in the wrong place if you're looking for extra loot. Get out of there.
 	pln_cs1_37_01 = "A equipe terrestre vai montar a gaiola no telhado do banco, Câmbio.",--I'm going to have the ground team assemble the cage on the bank roof. Over.
 	pln_cs1_78_02 = "Vão ter uma boa chance se alguns de vocês derem cobertura enquanto os outros trabalham nas caixas.",--You'll stand a good chance if some guys provide cover, while others work on those boxes.
 	pln_cs1_16_03 = "Lembrem-se, se não montarem aquela gaiola não vai dar pra levar a grana. Terminem logo!",--Remember, if you don´t get that cage assembled we can't move the cash. Get it done!
@@ -232,7 +232,7 @@ return {
 	pln_cs1_81_02 = "Esses desgraçados estão jogando granadas no esgoto.",--Those crafty fuckers are dropping grenades into the sewers. 
 	pln_cs1_06_02 = "Pilhas verdes! É por isso que estamos nesse negócio, gangue.",--Piles of green! Thats why we're in this business, gang. 
 	pln_cs1_15_02 = "Cofre aberto. Comecem a juntar o dinheiro, gangue.",--Vault is open. Start stacking that cash, gang.
-	pln_cs1_15_01 = "Ok, abriu. Entrem no cofre e comecem a mover o loot pra fora!",--OK, we're in. Get in that vault, start moving the loot out!
+	pln_cs1_15_01 = "Ok, abriu. Entrem no cofre e comecem a mover os espólios pra fora!",--OK, we're in. Get in that vault, start moving the loot out!
 	pln_cs1_107_02 = "Cartão de acesso ao cofre. Termina metade do trabalho. Passem no leitor, e depois procurem o segundo cartão.",--Vault keycard. It gets half the job done. Swipe it in the reader, and then track down the second card.
 	pln_cs1_79_01 = "Essa merda de lugar é um labirinto.",--This goddamn place is a maze. 
 	pln_cs1_78_01 = "Não fiquem de bobeira. Comecem a abrir essas caixas de depósito.",--Don't stand around. Start working on those deposit boxes.
@@ -300,7 +300,7 @@ return {
 	pln_cs1_83_02 = "Caixas de depósito! Comecem a abrir, gangue. Uma bolsa no mínimo, mas peguem o que conseguir.",--Deposit boxes! Start breaking them, gang. One bag is minimum, but take as much as you can.
 	pln_cs1_83_03 = "Abra as caixas. Nosso contato demanda uma bolsa, mas sua profissionalidade quer que você pegue tudo o que conseguir.",--Open the boxes. Our client demands one bag, but your professional honor demands you take as much as you can.
 	pln_cs1_86_01 = "Foram três. Tão indo bem. Continuem.",--Thats three. You're going strong. Keep going.
-	pln_cs1_89_01 = "Seis bolsas. Estou ficando excitado pensando em todo esse loot extra.",--Six bags. I'm getting buttery thinking of all that extra loot.
+	pln_cs1_89_01 = "Seis bolsas. Estou ficando excitado pensando em todo esse dinheiro extra.",--Six bags. I'm getting buttery thinking of all that extra loot.
 	pln_cs1_92_01 = "Nove bolsas! Vocês são lendários.",--Nine bags! You guys are legendary. 
 	pln_cs1_96_03 = "Eles fecharam todas as ruas daí. Hora de dar uma de Vietcong neles. Vão ver o que tô dizendo.",--They've got every road out of there blocked. Time to go Vietcong on them. You'll see what I mean.
 	pln_cs1_99_01 = "Estão vendo a janela do drive-thru ao lado do banco? Tem um bueiro pros esgotos. Desçam lá.",--See that drive thru window at the side of the bank? There's a manhole there to the sewers. Get down there.
@@ -432,7 +432,7 @@ return {
 	hud_roberts_mission8 = "Use a furadeira térmica para entrar no cofre.",--Use the thermal drill to get into the vault.
 	hud_roberts_mission14 = "Carregue as partes da gaiola para a área marcada e monte-a.",--Carry the cage part bags to the marked out spot and assemble the cage.
 	hud_roberts_mission12 = "Espere o avião soltar as partes da gaiola.",--Wait for the plane to drop the bags with the cage parts.
-	hud_roberts_mission5_hl = "Assegure o Loot",--Secure the loot
+	hud_roberts_mission5_hl = "Assegure os Espólios",--Secure the loot
 	hud_roberts_mission11 = "Ache a saída do esgoto, procure pela luz!",--Find the exit out of the sewers, look for the light!
 	hud_roberts_mission12_hl = "Espere pelo Avião",--Wait for the plane
 	hud_roberts_mission14_hl = "Monte a Gaiola",--Assemble the cage
@@ -440,7 +440,7 @@ return {
 	hud_roberts_mission1_hl = "Encontre os Cartões de Acesso",--Find the vault keycards
 	hud_roberts_mission2 = "Use os cartões de acesso nos leitores para abrir o cofre.",--Use the keycards on the card readers to open up the vault.
 	hud_roberts_mission4 = "Abra as caixas de depósito dentro do cofre, e procure pelo dinheiro. Uma bolsa é requirida pro nosso contato, o resto é lucro.",--Open up deposit boxes inside the vault, and look for the money. One bag is required from your contact, the rest is gravy.
-	hud_roberts_mission5 = "Cerfitique-se de assegurar o loot",--Make sure that the loot is secured
+	hud_roberts_mission5 = "Cerfitique-se de assegurar os espólios",--Make sure that the loot is secured
 	hud_roberts_mission6 = "A Fuga está disponível!",--The escape is now available!
 	hud_roberts_mission6_hl = "Fuga Disponível!",--Escape available!
 	hud_roberts_mission7_hl = "Pegue a Furadeira Térmica",--Pick up the Thermal Drill

@@ -108,7 +108,7 @@ return {
 	vld_as1_08_11 = "Vocês estão concorrendo ao oscar de Melhor Grupo de Fodões.",--You guys are in the running for a Best Performance By A Crew Of Badasses oscar.
 	vld_as1_08_14 = "Esse grupo da Costa Oeste especializa em mandar grande número de customizações, guardados em cofres. Eles me contrataram para ser o cara da Costa Leste. É um bom negócio!",--This West Coast crew specialises in shifting huge numbers of customisations, stored in safes. They made me their man on the East Coast. It's a big deal! My way in!
 	vld_as1_09_01 = "Não sejam tímido com os explosivos, amigos. C4 bom. C4 é amiguinho, tá?",--Don't be shy of the explosives, friends. C4 good. C4 is friend, yes?
-	vld_as1_09_02 = "Porque ninguém está pegando o C4? Não está fazendo sentindo nenhum pro Vlad.",--Why is no-one getting the C4? Makes no sense to Vlad. 
+	vld_as1_09_02 = "Por que ninguém está pegando o C4? Não está fazendo sentindo nenhum pro Vlad.",--Why is no-one getting the C4? Makes no sense to Vlad. 
 	vld_as1_09_03 = "Não fiquem com medo do C4. Não vai explodir. Bom, agora não. Vlad é engraçado...",--Don't be afraid of the C4. It won't explode. Well, not yet. Vlad is funny..
 	vld_as1_10_02 = "Alguns muros estão de pé depois do terremoto... tinha que ser esses. Explodam essa porra toda.",--Few walls left standing after the earthquake...had to be these ones. Blow the fucking things.
 	vld_as1_11_01 = "Boa. Esse primeiro caminhão vazio. Como as suas colunas estão indo?",--Great. That's the first truck emptied. How are your backs feeling?

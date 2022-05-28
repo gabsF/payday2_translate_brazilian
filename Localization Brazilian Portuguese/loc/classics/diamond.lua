@@ -58,7 +58,7 @@ return {
 	pln_dah_71_01 = "É isso, terminei!",--That's it, I'm done!
 	pln_dah_39_03 = "Se vocês errarem a ordem do código, tudo isso vai pra casa do caralho.",--If you get the code order wrong, all hell will break loose.
 	pln_dah_114_03 = "Vocês estão bloqueados. O sistema vai levar 30 segundos para reiniciar.",--You're locked out. The system is gonna take 30 seconds to reset.
-	pln_dah_55_08 = "Vocês estão pensando em alugar um Escritório? Por quê a lerdeza?",--You looking to rent an office? What's the delay?
+	pln_dah_55_08 = "Vocês estão pensando em alugar um Escritório? Por que a lerdeza?",--You looking to rent an office? What's the delay?
 	pln_dah_51_01 = "Só mais uma bolsa.",--Just one more bag.
 	pln_dah_92_04 = "Mais uma vez, o código é...",--Once more, the code is...
 	pln_dah_46_02 = "É um pedaço brilhante de carbono.",--That's one shiny piece of carbon.

@@ -24,14 +24,14 @@ return {
 	mrp_rvd_02_04 = "Meu Deus, gente, venham logo! antes que os gambés me peguem. Não to muito longe.",
 	mrp_rvd_02_05 = "Onde caralhos eu to? Eu vejo... Unidade de armazenamento?",
 	mrp_rvd_03_01 = "Venham logo, porra!",
-	mrp_rvd_03_02 = "Porque cêis tão demorando tanto?!",
+	mrp_rvd_03_02 = "Por que cêis tão demorando tanto?!",
 	mrp_rvd_03_03 = "Anda logo, os gambés vão me pegar se eu não sair daqui, porra!",
 	mrp_rvd_03_04 = "Parem de ser bunda moles e venham me pegar aqui!",
-	mrp_rvd_03_05 = "Porque cêis tão demorando desse jeito? Eu to sangrando aqui!",
+	mrp_rvd_03_05 = "Por que cêis tão demorando desse jeito? Eu to sangrando aqui!",
 	mrp_rvd_03_06 = "Jesus Cristo! eu vou morrer aqui!",
 	mrp_rvd_03_07 = "Qualé, gente, cêis me buscam ou chama um táxí.",
 	mrp_rvd_03_08 = "Eles estão em cima de mim! Não sei se vou conseguir aguentar.",
-	mrp_rvd_04_01 = "Porque caralhos cêis demoraram?",
+	mrp_rvd_04_01 = "Por que caralhos cêis demoraram?",
 	mrp_rvd_04_02 = "Meu Deus, isso demorou pra caralho.",
 	mrp_rvd_04_03 = "Porra cara, eu vou morrer aqui. O que cê andou fazendo? Comendo cachorro-quente?!",
 	mrp_rvd_06_01 = "Que merda aconteceu? De jeito nenhum os gambés saberiam onde a gente ia se encontrar.",
@@ -165,7 +165,7 @@ return {
 	pln_rvd_03_08 = "Qual é o atraso? Vendo um famoso de um filme ou algo do tipo?",
 	pln_rvd_04_01 = "Qual é daquele caminhão da GenSec lá fora?",
 	pln_rvd_04_02 = "Eu acho que deveria estar surpreso com esse caminhão da Gensec. Eles estão se espalhando ao que parece.",
-	pln_rvd_04_03 = "Porque tem um caminhão da GenSec ali fora?",
+	pln_rvd_04_03 = "Por que tem um caminhão da GenSec ali fora?",
 	pln_rvd_05_01 = "Calma, gente, não vamos começar a festa muito cedo.",
 	pln_rvd_05_02 = "Eita, gente, não começa tão cedo assim.",
 	pln_rvd_05_03 = "Não fiquem ansiosos, a loja não vai sair do lugar.",
@@ -353,7 +353,7 @@ return {
 	hud_heist_rvd_08_hl = "Espere pelo Twitch",
 	hud_heist_rvd_08 = "Aguarde o Twitch chegar com a Van de fuga!",--Wait for Twitch to arrive with the getaway van!
 	hud_heist_rvd_09_hl = "Leve mais bolsas ou saia daí",
-	hud_heist_rvd_09 = "Assegure mais loot na Van de fuga ou escape!",--Secure more loot in the getaway van or escape!
+	hud_heist_rvd_09 = "Assegure mais espólio na Van de fuga ou escape!",--Secure more loot in the getaway van or escape!
 	hud_heist_rvd_10_hl = "Fuja!",
 	hud_heist_rvd_10 = "Fuga Disponível!",--Escape available!
 	
@@ -379,12 +379,12 @@ return {
 	hud_heist_rvd2_10_hl = "Use o C4 na Porta do Cofre",
 	hud_heist_rvd2_10 = "Pegue o C4 que o Bile enviou e use-o no cofre. Você precisará de 2 cargas.",--Get the C4 Bile supplied and use it to block the vault. You need two charges.
 	hud_heist_rvd2_11_hl = "Saqueie o Cofre",
-	hud_heist_rvd2_11 = "Pegue o máximo de loot do cofre que puder carregar.",--Grab as many valuables from the vault that you can.
+	hud_heist_rvd2_11 = "Pegue o máximo de espólio do cofre que puder carregar.",--Grab as many valuables from the vault that you can.
 	hud_heist_rvd2_12_hl = "Leve os Diamantes pro Carro do Blonde",
 	hud_heist_rvd2_12 = "Deposite as bolsas de diamante no porta-malas do carro do Senhor Blonde.",--Haul and deposit bags of diamonds in the trunk of Mr. Blonde's car.
 	hud_heist_rvd2_13_hl = "Fuja!",
 	hud_heist_rvd2_13 = "Fuja pelas ruas.",--Escape through the streets.
-	hud_heist_rvd2_14_hl = "Assegure mais Loot ou Fuja",--Secure more or escape
+	hud_heist_rvd2_14_hl = "Assegure mais espólio ou Fuja",--Secure more or escape
 	hud_heist_rvd2_14 = "Continue saqueando o cofre se você quiser, ou fuja.",--Keep looting the vault if you want, or make your escape.
 	hud_heist_rvd2_15_hl = "Desative a eletricidade do cofre",--Disable the vault doors electricity",
 	hud_heist_rvd2_15 = "Ache a caixa de energia e corte os fios para desativar a armadilha eletrificada.",--Find the electric box and cut the mains leading to the vault, to disable the electrified booby-trap.",

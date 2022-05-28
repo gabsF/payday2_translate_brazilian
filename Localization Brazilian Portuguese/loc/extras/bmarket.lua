@@ -415,6 +415,7 @@ return {
 	bm_w_maxim9_desc = "Essa arma é silenciada e tem força de Escopeta.",--This weapon is suppressed and has shotgun push functionality.
 	bm_wp_fmg9_conversion_desc = "Conjuntos Exclusivos adicionam algumas modificações, um estilo extra e algumas mudanças leves nas estastísticas.",--The Exclusive Set adds several mods, giving the weapon a visual flair and some slight stat tweaks.
 	bm_wp_ultima_body_kit_desc = "Conjuntos Exclusivos adicionam algumas modificações, um estilo extra e algumas mudanças leves nas estastísticas.",--The Exclusive Set adds several mods, giving the weapon a visual flair and some slight stat tweaks.
+	bm_wp_scout_exlusive_desc = "Conjuntos Exclusivos adicionam algumas modificações, um estilo extra e algumas mudanças leves nas estastísticas.",--The Exclusive Set adds several mods, giving the weapon a visual flair and some slight stat tweaks.
 	bm_w_asval_desc = "Essa arma é silenciada.",--This weapon is suppressed.
 	bm_mod_incompatibility_most = "maioria dos(as)",--most
 	bm_w_rsh12_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
@@ -423,8 +424,8 @@ return {
 	dialog_blackmarket_buy_weapon_slot = "Comprar isso irá desbloquear mais um slot para arma.\n\nIsso irá custar para você $money;.",--Buying this will unlock one more weapon slot.\n\nThis will cost you $money;.
 	bm_menu_item_amount = "Em Estoque: $amount;",--In stock: $amount;
 	bm_menu_chosen = "Marcado",--Selected
-	bm_menu_preview_mods = "Visualizar os Mods",--Preview Mods
-	bm_menu_mod_preview = "Visualizar Mod",--Mod Preview
+	bm_menu_preview_mods = "Visualizar as modificações",--Preview Mods
+	bm_menu_mod_preview = "Visualizar a modificação",--Mod Preview
 	dialog_blackmarket_buy_item = "Você realmente deseja comprar $item;?\n\nIsso irá custar para você $money;.\n\n$num_in_inventory;",--Do you really want to buy $item;?\n\nIt will cost you $money;.\n\n$num_in_inventory;
 	bm_menu_cannot_buy_weapon_slot = "Fundos Insuficientes",--Insufficient funds
 	bm_menu_locked_weapon_slot_desc = "Esse slot de arma precisará ser desbloqueado antes que você possa colocar qualquer arma aqui!",--This weapon slot needs to be unlocked before you can place any weapons here!
@@ -435,8 +436,9 @@ return {
 	bm_menu_exclusive_set_plural = "Conjuntos Exclusivos",--Exclusive Weapon Sets
 	bm_menu_weapon_cosmetics = "Skin da Arma",
 	bm_menu_ammo_plural = "Tipos de Munições",--Ammo Types
-	bm_menu_sight_plural = "Miras",--Sights
+	bm_menu_sight_plural = "Mira de Ferro",--Sights
 	--bm_menu_gadget_plural = "",--Gadgets
+	bm_menu_bolt = "Ferrolho",--Bolt
 	bm_menu_underbarrel_plural = "Canos Inferiores",--Underbarrels
 	bm_menu_barrel_plural = "Canos",--Barrels
 	bm_menu_barrel_ext_plural = "Ext. de Canos",--Barrel Extensions
@@ -673,7 +675,7 @@ return {
 	bm_msk_joy_desc = 'Traga de volta o estilo Discoteca e confunda os seus inimigos quando eles olharem diretamente para o seu rosto fabulosamente chamativo.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n"Se eu tiver que escolher entre um mal e outro, prefiro nem escolher."\n\n- WalkingJohnn',--WalkingJohnn
 	bm_msk_anonymous_desc = 'Vista a máscara, torne-se anônimo e faça o que quiser.\n\nFaça isso por vontade própria, faça isso por que foi mandado ou faça isso pelo lulz.\n\nFaça todas as coisas que a sociedade não permite. É como roubar um banco.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nJoy é uma ótima hacker, porém nunca comentou com ninguém sobre um contato que ela tinha no Brasil. Essa máscara foi usada por um antigo contato de Joy que a ajudou em sua trajetória. Nunca foi dito o seu verdadeiro nome, mas diz a lenda que ele atua hoje em uma plataforma de streaming e que também junto com o "Pepino" fazem grandes assaltos diariamente.\n\n- twitch.tv/christyansouza',--ChristyanSouza
 	bm_msk_war_desc = "O Segundo cavaleiro do apocalipse é a guerra e o espírito violento da humanidade. War acredita que os humanos são naturalmente perversos e que não precisam de um motivo real para lutar ou matar. Ele montou em um cavalo vermelho de fogo, sugerindo que o sangue fluiria aonde quer que fosse.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nQuando o cara é macho ele joga de Joy, usa Peter pintado de rosa e segue o twitch.tv/napajumento\n\n- Napajumento",--Napajumento
-	bm_msk_eng_02_desc = "O Robô era um membro honrado do exército Killbot. Quando comandado por seu mestre, EMP-R0R, para matar o líder da resistência humana, ele quebrou o protocolo, não conseguindo eliminar a humanidade.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nConsidere um investimento. Eu irei criar uma nova forma de entretenimento! Pense, a magia, o drama, a verdadeira paixão e devoção daqueles que participam. Quero ver a escória da sociedade livre e ativa apenas para ver o CAOS E A DESORDEM EM ESCALA DESUMANA COM A CIDADE CHEIA DE CHAMAS E COBERTA PELOS CORPOS DAQUELES QUE TENTARAM DEFENDÊ-LA! E não esquecer de pegar uma grana extra, sempre bom.\n\n- EmiQuatru [o.O]",--emiQuatro
+	bm_msk_eng_02_desc = "O Robô era um membro honrado do exército Killbot. Quando comandado por seu mestre, PEM-R0R, para matar o líder da resistência humana, ele quebrou o protocolo, não conseguindo eliminar a humanidade.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nConsidere um investimento. Eu irei criar uma nova forma de entretenimento! Pense, a magia, o drama, a verdadeira paixão e devoção daqueles que participam. Quero ver a escória da sociedade livre e ativa apenas para ver o CAOS E A DESORDEM EM ESCALA DESUMANA COM A CIDADE CHEIA DE CHAMAS E COBERTA PELOS CORPOS DAQUELES QUE TENTARAM DEFENDÊ-LA! E não esquecer de pegar uma grana extra, sempre bom.\n\n- EmiQuatru [o.O]",--emiQuatro
 	bm_msk_bodhi_begins_desc = 'Essa é a versão limpa da icônica máscara do Bodhi, antes de ser pintada.\n\nNunca gostou de como a original ficou? Esta é sua chance de mudar isso.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n"Em vez de Aventura, encontramos o medo. E na guerra, o único ponto em comum é a morte."\n\n- SNOWOVSKI',--snow
 	bm_msk_mega_sydney_desc = "A Mega Sydney Mask é uma versão evoluída da máscara original. Simboliza a transcendência e a catarse.\n\nObrigado pelo seu apoio!\n\nOVERKILL saúda você!\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nCriminoso da mais alta patente.\nMembro da Professional Heisters Community Squad [PHC$]\n\n- =M$= P3R31R4",--=M$= P3R31R4
 	bm_msk_max_begins_desc = "Essa é a versão limpa da icônica máscara do Sangres, antes de ser pintada.\n\nNunca gostou de como a original ficou? Esta é sua chance de mudar isso.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nMANOS ARRIBA, CARAJO!\n\n- SagaT1",--SagaT1

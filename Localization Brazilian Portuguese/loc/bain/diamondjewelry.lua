@@ -2,13 +2,13 @@ return {
 	-- Nomes e Descrições (Diamond Store)
 	--heist_family = "Diamond Store",--Diamond Store
 	--heist_family_hl = "Diamond Store",--Diamond Store
-	heist_family_crimenet = "Essa é uma joalheria bem fashion. A maioria do loot é Diamante. O Bain quer muitas bolsas cheias desses Diamantes. Tem um alarme conectado aos vidros de amostras. Vai ser um desafio.$NL;$NL;» Vigie o Local com cuidado$NL;» Procure por Guardas, Alarmes e Câmeras$NL;» Encha várias bolsas com Diamantes da Joalheria e vá para o Veículo de Fuga$NL;",--This is a high fashion jewelry store. Mostly diamonds in there. Bain wants a lot of bags. There is an alarm connected to the display cases. It will be a tough one.$NL;$NL;» Case the place carefully.$NL;» Check for guards, alarms and cameras$NL;» Fill your bags with diamond jewelry and get to the escape car$NL;
+	heist_family_crimenet = "Essa é uma joalheria bem fashion. A maioria dos espólios é Diamante. O Bain quer muitas bolsas cheias desses Diamantes. Tem um alarme conectado aos vidros de amostras. Vai ser um desafio.$NL;$NL;» Vigie o Local com cuidado$NL;» Procure por Guardas, Alarmes e Câmeras$NL;» Encha várias bolsas com Diamantes da Joalheria e vá para o Veículo de Fuga$NL;",--This is a high fashion jewelry store. Mostly diamonds in there. Bain wants a lot of bags. There is an alarm connected to the display cases. It will be a tough one.$NL;$NL;» Case the place carefully.$NL;» Check for guards, alarms and cameras$NL;» Fill your bags with diamond jewelry and get to the escape car$NL;
 	heist_family_briefing = "Todos os vidros das amostras estarão conectados a um alarme. Desarme o alarme e roube a joalheria de diamantes. O Motorista da fuga é meio agitado, então mantenham o sigilo e seja metódico. Peguem tudo. Vamos fazer a limpa!",--All the display cases in there are connected to an alarm. Disable the alarm and then steal the diamond jewelry. The escape driver is a bit jumpy so keep this quiet and methodical. Bag up everything. Let's get it all!
 	
 	-- Nomes e Descrições (Jewelry Store)
 	--heist_jewelry_store = "Jewelry Store",--Jewelry Store
 	--heist_jewelry_store_hl = "Jewelry Store",--Jewelry Store
-	heist_jewelry_store_crimenet = "O Bain quer que você faça um assalto clássico em uma joalheria. Entrem, peguem o loot e saiam.$NL;$NL;» Localize a Joalheria$NL;» Cheque o Escritório por um Cofre$NL;» Roube as Joias e leve-as para o Veículo de Fuga$NL;» Roube quaisquer outros bens valiosos que encontrar na Loja",--Bain wants you to do a classic jewelry heist. Get in, grab the loot, and get out.$NL;$NL;» Locate the jewelry store$NL;» Check the back office for a safe$NL;» Bag and get the jewelry to the escape car$NL;» Steal any other valuables in the store
+	heist_jewelry_store_crimenet = "O Bain quer que você faça um assalto clássico em uma joalheria. Entrem, peguem os espólios e saiam.$NL;$NL;» Localize a Joalheria$NL;» Cheque o Escritório por um Cofre$NL;» Roube as Joias e leve-as para o Veículo de Fuga$NL;» Roube quaisquer outros bens valiosos que encontrar na Loja",--Bain wants you to do a classic jewelry heist. Get in, grab the loot, and get out.$NL;$NL;» Locate the jewelry store$NL;» Check the back office for a safe$NL;» Bag and get the jewelry to the escape car$NL;» Steal any other valuables in the store
 	heist_jewelry_store_briefing = "Essa cidade é ótima para se guardar joias. Fáceis de mover. Diplomatas e interesseiras comprando muito - sem comentários. Isso vai ser tão fácil quanto tirar um doce da boca de uma criança. Vamos lá.",--This town is a great place to fence jewelry. Easy to move. Diplomats and trophy wives buying it - no questions asked. This is going to be cake. Let's get going.
 	
 	-- Legendas (Diamond Store)
@@ -35,7 +35,7 @@ return {
 	pln_fj1_07_01 = "Certo pessoal, levem as bolsas para a van!",--Alright guys, get the bags to the van!
 	pln_fj1_14_01 = "Lembrem-se, precisamos de oito bolsas!",--Remember, we need eight bags!
 	pln_fj1_11_01 = "O cofre está aberto. Veremos o que tem dentro!",--The safe's open. Let's see what's in it!
-	pln_fj1_10_02 = "Oh, parece que o cofre pode ter loot extra para nós. Abra-o!",--Oh, that safe looks like it could hold some etra loot for us. Get it open!
+	pln_fj1_10_02 = "Oh, parece que o cofre pode ter espólio extra para nós. Abra-o!",--Oh, that safe looks like it could hold some etra loot for us. Get it open!
 	pln_fj1_01_02 = "Entrem na joalheria, vocês sabem o que fazer! Bora pegar essas joias.",--Get into the store, you know what to do! Let's get those jewels.
 	pln_fj1_03_01 = "É isso que queremos. Levem para a van.",--That's the stuff. Get it to the van.
 	pln_fj1_04_02 = "Essa é a parada. Continuem!",--That's the stuff. Keep going!
@@ -48,7 +48,7 @@ return {
 	pln_fj1_12_03 = "Precisamos de três bolsas dessa vez.",--We need to get three bags with us for this one.
 	pln_fj1_13_03 = "Vamos precisar de seis bolsas dessa vez.",--We need to get six bags with us for this one.
 	pln_fj1_brf_01_01 = "Mantenham os civis sob controle, procurem por câmeras. Vigiem o local e encontrem o melhor jeito de se fazer isso sem disparar o alarme.",--Keep the civs down, look out for cameras. Scout the place and find the best way to do it without raising the alarm.
-	pln_fj1_02_03 = "Quebrem o vidro e ensacolem as joias. Lembrem-se de todo o loot extra em volta da loja.",--Break the glass and bag those jewels. Remember all the extra stuff around the store.
+	pln_fj1_02_03 = "Quebrem o vidro e ensacolem as joias. Lembrem-se de todo o espólio extra em volta da loja.",--Break the glass and bag those jewels. Remember all the extra stuff around the store.
 	pln_fj1_02_01 = "Procurem pelos vidros, quebre-os e ensacolem as joias.",--Look for the cases, break them and bag the jewels.
 	pln_fj1_07_03 = "A van está de volta. Levem as bolsas até ela!",--The van is back. Get the bags to it!
 	pln_fj1_05_01 = "Esse é o alarme galera. Cuidado com os policiais!",--That's the alarm guys. Watch out for the cops!
@@ -84,7 +84,7 @@ return {
 	pln_jewelrystore_stage1_end_02 = "Algum docinho estica a mão e pega lá atrás. Aposto que vão investir em melhorias na segurança ou fechar. Não é problema nosso.",--Some pretty sweet snatch and grab back there. I bet they're going to invest in better security measures, or close. Not our problem. 
 	pln_jewelrystore_stage1_brief_b_03 = "Certo pessoal, essa é uma ótima oportunidade, todos os tipos de diamantes de preço médio e afins nas vitrines. Façam o seu pior, dêem seu melhor, e caiam fora no fim. Um clássico assalto.",--Alright people, this is a pretty sweet opportunity, All sorts of mid-ranged diamonds and the like in the display cases. Do your worst, make your bones, get on out. A classic knockover.
 	pln_jewelrystore_stage1_end_05 = "O crime.net está bombando - vocês causaram um pequeno transtorno aqui.",--Crime.net is buzzing - you guys pulled off a nice little upset here.
-	pln_jewelrystore_stage1_brief_b_02 = "Ok galera, esse lugar tem toneladas de vitrines. Quebre-as e peguem tudo, encham essas bolsas de loot até a borda.",--OK crew, this place has a ton of display cases. Smash and grab style, fill those loot bags to the brim. 
+	pln_jewelrystore_stage1_brief_b_02 = "Ok galera, esse lugar tem toneladas de vitrines. Quebre-as e peguem tudo, encham essas bolsas de espólios até a borda.",--OK crew, this place has a ton of display cases. Smash and grab style, fill those loot bags to the brim. 
 	pln_jewelrystore_stage1_brief_a_01 = "Essa cidade é um ótimo lugar para cercar joias. Fácil de repassar. Diplomatas e esposas de troféu comprando, sem fazer perguntas. Isso vai ser moleza. Vamos indo. ",--This town is a great place to fence jewelry.  Easy to move. Diplomats and trophy wives buying it, no questions asked. This is going to be cake. Let's get going.
 	pln_jewelrystore_stage1_cnc_03 = "Ótima pontuação no distrito dos diamantes, pessoal. Sorvete para todo mundo.",--Juicy score in the diamond district, people. Ice for everyone. 
 	pln_jewelrystore_stage1_end_01 = "O proprietário dessa loja terá um mês de documentos do seguro para fazer. Boa tomada, galera, de volta para a casa.",--The owner of this store will have a month of insurance paperwork to do. Nice take boys, back to the house.

@@ -69,7 +69,7 @@ return {
 	pln_fost_cam_03_02 = "Como sempre, Vlad não dá informações suficientes. Câmeras e guardas... Merda.",--As usual, Vlad went light on the information. Cameras and guards... Shit.
 	pln_fost_sfe_01_03 = "Abrem isso.",--You get that open.
 	pln_fost_brf_04_02 = "Tá, vamos nessa.",--OK let's do this one.
-	pln_fost_sfe_01_01 = "Epa, deve tá cheio de dinheiro! Entendi porquê Vlad quer esse negócio de dinheiro...",--Woah, that must be full of valuables! I can understand why Vlad want's these business' money...
+	pln_fost_sfe_01_01 = "Epa, deve tá cheio de dinheiro! Entendi o porquê Vlad quer esse negócio de dinheiro...",--Woah, that must be full of valuables! I can understand why Vlad want's these business' money...
 	pln_fost_brf_01_01 = "Tá, então, esse é um assalto fácil para se acostumar com a DC.",--OK, so this is an easy job to get accustomed to DC.
 	pln_fost_msk_02_02 = "Coloquem as suas máscaras quando quiserem começar.",--Get your masks on whenever you want to start it up.
 	pln_fost_cam_03_01 = "Câmeras? E guardas? Vlad disse nada sobre isso!",--Cameras? And guards? Vlad didn't say anything about this!

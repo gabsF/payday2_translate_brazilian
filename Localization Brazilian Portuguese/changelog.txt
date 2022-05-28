@@ -1,6 +1,6 @@
-11.04
-* Traduzido o conteúdo do McShay Weapon Pack
-* Traduzido e corrigido algumas falas do Locke em Ukrainian Prisoner
-* Traduzido interações faltando
-* Corrigido um erro em uma das dicas na tela de Loading
-* Alterado a tradução do "Granada de Concussão" para "Flashbang"
+11.05
+* Corrigido a consistência dos "Mods de Arma" para "Modificações de Arma"
+* Traduzido o conteúdo restante da nova atualização
+* Corrigido um erro de tradução em uma das descrições dos efeitos do Stoic
+* Traduzido o "EPM" para "PEM"
+* Corrigido algumas legendas em algumas heists

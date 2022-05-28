@@ -131,7 +131,7 @@ return {
 	loc_bex_39_03 = "Ok, Vlad... Ok...",--OK, Vlad... OK....
 	loc_bex_40_01a = "É aquele brasão... Romanov?",--Is that crest... Romanov?
 	loc_bex_40_01b = "Eu já vi isso antes... isso é... Romanov? O império russo?",--I've seen that before... is that... Romanov? The Russian empire?
-	loc_bex_40_02 = "Estou começando a entender o porque isso é tão importante, yeah?",--I'm starting to understand why it's so important, yeah?
+	loc_bex_40_02 = "Estou começando a entender o porquê isso é tão importante, yeah?",--I'm starting to understand why it's so important, yeah?
 	loc_bex_41_01 = "Agora peguem o máximo da mercadoria do Vlad que vocês puderem, mas continuem quietos!",--Now grab as much of Vlad's merchandise as you can, but stay quiet!
 	loc_bex_41_02 = "Certo, vocês podem pegar todo o loot especial do Vlad, mas não façam muito barulho.",--OK, now you can take all of Vlad's special loot, but don't make too much noise.
 	loc_bex_41_03 = "Beleza, agora fiquem quietos e coletem todo o loot 'precioso' do Vlad.",--Right, now stay quiet and collect all of Vlad's "precious" loot.

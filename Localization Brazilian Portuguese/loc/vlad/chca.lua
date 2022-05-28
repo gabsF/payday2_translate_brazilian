@@ -491,7 +491,7 @@ return {
     loc_chca_107_03 = "Vocês vão precisar colocar o imã no cofre.",--You gotta put the magnet onto the vault.
     loc_chca_108_01 = "Vamo lá, conectem aquele imã!",--Come on, get that magnet attached!
     loc_chca_108_02 = "Conectem o imã!",--Attach the magnet!
-    loc_chca_108_03 = "Tem algo errado? Porque o imã não tá conectado?",--Is there something wrong? Why isn't the magnet attached?
+    loc_chca_108_03 = "Tem algo errado? Por que o imã não tá conectado?",--Is there something wrong? Why isn't the magnet attached?
     loc_chca_109_01 = "O helicóptero não pode voltar para vocês então terão que arriscar usando os botes salva vidas. Vão até um e baixem ele. Estamos quase lá!",--The helicopter can't come back for you so you'll have to risk using a lifeboat. Get over to one and lower it. We're almost done!
     loc_chca_109_02 = "Sem combustível suficiente para o helicóptero voltar. Usem os botes!",--Not enough fuel in the chopper for a return trip. Use the lifeboats!
     loc_chca_109_03 = "Eu não posso mandar o helicóptero de volta, é muito arriscado. Os botes salva vidas devem adiantar, yeah?",--I can't send the chopper back again, it's too risky. The lifeboats will have to do, yeah?
@@ -545,7 +545,7 @@ return {
     xuk_chca_10_06 = "É hora de rodar os negócios.",--It's time to rotate the dealers.
     xuk_chca_10_07 = "Ouviu o que aconteceu com o conta-cartas que pegamos semana passada? Ele ficou tão envergonhado que se jogou no mar... tentou nadar para terra-firme!",--Did you hear what happened to the card-counter we caught last week? He was so ashamed that he threw himself overboard... tried to swim to the mainland!
     xuk_chca_11_01 = "Eu nunca devia ter saído de Hong Kong",--I should have never left Hong Kong.
-    xuk_chca_11_02 = "Porque essas pessoas patéticas continuam me perguntando coisas?",--Why do these pathetic people keep asking me things?
+    xuk_chca_11_02 = "Por que essas pessoas patéticas continuam me perguntando coisas?",--Why do these pathetic people keep asking me things?
     xuk_chca_11_03 = "Eu me pareço como a porra de um garçom?",--Do I look like a fucking waiter?
     xuk_chca_11_04 = "Sim... apostem tudo, como pequenos papagaios.",--Yes... gamble away, like little parrots.
     xuk_chca_12_01 = "Ei! O que tá acontecendo?",--Hey! What is going on?

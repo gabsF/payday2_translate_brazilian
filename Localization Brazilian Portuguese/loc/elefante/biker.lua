@@ -13,7 +13,7 @@ return {
 	pln_brn_01_01 = "Essa passou perto. Agora, não temos tempo a perder, gangue. Tirem ele daquela cadeira para acabar logo com isso.",--That was too damn close. Now, we don't have time to stand around, gang. Get him off that chair so we can get this over with.
 	pln_brn_05_02 = "Caveira Cromada? Tanto faz, só façam o que o mecânico pede. Vão até a Casa do Clube e usem o maçarico que ele deu a vocês.",--Chrome skull? Whatever, just do as the mechanic says. Go to the clubhouse and use the blowtorch he gave you.
 	pln_brn_06_03 = "Lembrem-se: O mecânico disse algo sobre um Bunker, e que vocês precisam encontrar um assento para a moto ali.",--Remember: the mechanic said something about a Bunker, and that you would find a seat for the bike there.
-	pln_brn_10_03 = "Ele conseguiu, gangue. Vocês podem pegar mais loot ou peguem as motos e fujam!",--He did it, gang. You can grab more loot if you want or you get on those bikes and escape!
+	pln_brn_10_03 = "Ele conseguiu, gangue. Vocês podem pegar mais espólios ou peguem as motos e fujam!",--He did it, gang. You can grab more loot if you want or you get on those bikes and escape!
 	pln_brn_09_02 = "Ah, Vocês sabem que a gente não vai embora sem algumas armas. Só precisamos nos livrar delas.",--Oh, you know we aren't leaving without some of those weapons. We just need to get them out of here some way...
 	pln_brn_11_01 = "Agora ouçam: A policia vai cercar o lugar inteiro em minutos. O tempo está passando! Usem a rota do canal, e rápido!",--Now listen: The police will have the entire site surrounded any minute. The clock is ticking! Take the canal route, quick!
 	pln_brn_03_01 = "O mecânico falou que ele precisa de uma de suas ferramentas da Oficina. Vão lá.",--The mechanic said he needs his tools from the workshop. Get over there.
@@ -26,7 +26,7 @@ return {
 	pln_brn_07_03 = "Não ouviram o cara, gangue? Ele precisa de um tanque de gasolina e tubos de escape da Oficina. Vão lá e entreguem-as",--Didn't you hear the man, gang? He needs a gas tank and exhaust pipes from the workshop. Get over there and deliver.
 	pln_brn_11_03 = "Droga, a policia está jogando tudo o que eles tem em vocês, e vocês vão estar cercados se não sairem agora. Se apressem e fujam pela rota do canal. Agora!",--Damn, the cops are bringing everything they have to get you, and you're gonna be surrounded if you don't leave now. Hurry up and escape via the canal route. Now!
 	pln_brn_11_02 = "Pessoal, vocês precisam dar o fora daí, e rápido. A SWAT vai inundar esse lugar e essa é a nossa única chance de fugir!",--Guys, you need to get the hell out of there, and you need to do it fast. SWATS are gonna swarm the place and this is your only chance to get out!
-	pln_brn_10_01 = "O mecânico acabou. Se quiserem pegar mais loot podem pegar agora, caso contrário, saiam daí.",--The mechanic's done. If you want more loot you get it now, otherwise you ride out of there. 
+	pln_brn_10_01 = "O mecânico acabou. Se quiserem pegar mais espólios podem pegar agora, caso contrário, saiam daí.",--The mechanic's done. If you want more loot you get it now, otherwise you ride out of there. 
 	pln_brn_07_01 = "Um tanque de gasolina, gangue. É isso que o mecânico disse que precisava, e vocês vão encontrar eles na Oficina.",--A gas tank and exhaust pipes, gang. That's what the mechanic said he needed, and you'll find them in the workshop.
 	pln_brn_08_01 = "É esse, levem de volta ao mecânico!",--That's the one, bring it back to the mechanic!
 	pln_brn_08_07 = "Uma parte coletada. Levem ao mecânico.",--One part collected. Get it to the mechanic.
@@ -34,7 +34,7 @@ return {
 	pln_brn_10_02 = "Ouviram o cara! Vocês podem roubar mais coisas ou pegar a moto e fugir! Dirijam como o vento!",--You heard the man! You can either steal more things or you get on that bike and ride! Ride like the wind!
 	pln_brn_13_02 = "Dirijam até a grade e vocês estarão seguros!",--Ride through the gate and you'll be safe!
 	pln_brn_14_02 = "Acho que o cara realmente quer um refrigerante...",--I guess the man really wanted a soda...
-	pln_brn_09_01 = "Aquilo é um ótimo loot que eles tem, mas agora é nosso. Como vamos tirar eles?",--That's some fine loot they stashed in there, but it's ours now. How do we get it out?
+	pln_brn_09_01 = "Aquilo é um ótimo espólio que eles têm, mas agora é nosso. Como vamos tirar eles?",--That's some fine loot they stashed in there, but it's ours now. How do we get it out?
 	pln_brn_01_03 = "Vocês salvaram o mecânico a tempo. Agora ajudem ele a sair da cadeira e montar a moto.",--You saved the mechanic just in time. Now help him off the chair and make him assemble the bike.
 	pln_brn_05_01 = "Rust quer muito uma Caveira Cromada para sua moto, não temos tempo para reclamar. Usem o maçarico que o mecânico os deu quando chegarem na Casa do Clube.",--Rust really wants a chrome skull for his bike, and we have no time to argue. Use the blowtorch the mechanic gave you when you reach the clubhouse.
 	pln_brn_08_03 = "Ótimo, essa é a parte que ele precisa.",--Great, that's the part he needed.
@@ -118,7 +118,7 @@ return {
 	mch_brn_07_02b = "Socorro!",--Help me!
 	mch_brn_25_02b = "O que vocês tem aí? Quer saber, não ligo. Só joguem no caminhão que eu vou dirigir depois.",--What you got there? You know what, I really don't care. Just throw it in the truck and I'll take it with me as I drive off.
 	mch_brn_07_07b = "Ei! Me protejam!",--Hey! Protect me!
-	mch_brn_05_04b = "Porque eu me ofereci para consertar essa moto...",--Why did I offer to fix the bike...
+	mch_brn_05_04b = "Por que eu me ofereci para consertar essa moto...",--Why did I offer to fix the bike...
 	mch_brn_14_01b = "Certo, vou precisar de duas coisas: Um tanque de gasolina e alguns tubos de escape. Vão até a Oficina e encontrem o suspensor. É lá onde ficam as coisas. Me tragam os dois.",--All right, I'm gonna need two things: a gas tank and some exhaust pipes. Go into the workshop and find a ceiling lift. That's where they store them. Get it down and bring both to me.
 	mch_brn_22_06b = "Caralho, gente! Me deem cobertura!",--God dammit, people! Cover me!
 	mch_brn_23_02b = "Mãezinha querida, por favor me deixe viver mais um dia... eu sou um bom garoto, não sou?",--Sweet Mother Mary, please let me live another day... I'm a good boy, aren't I?
@@ -152,7 +152,7 @@ return {
 	mch_brn_17_03b = "Vocês vão me cobrir, certo?",--You guys got me covered, right?
 	mch_brn_21_01b = "Ah, isso vai ser Fan-fucking-tástico! Me vejam a próxima parte!",--Oh, this is gonna be fan-fucking-tastic! Get me the next part!
 	mch_brn_20_01b = "Eu não quero ser um cuzão, realmente não quero, mas a coca não vai vir aqui por conta própria, sabe?",--I don't want to be a douche, I really don't, but that coke ain't getting here itself, you know?
-	mch_brn_02_02b = "Jesus... Porque isso tem que acontecer comigo? O que eu fiz para irritar esses merdinhas? Eu só vim aqui pegar a moto do Rust.",--Sweet Jesus . . . Why does this happen to me? What did I ever do to upset these shitbags? I was only here to get Rust's bike...
+	mch_brn_02_02b = "Jesus... Por que isso tem que acontecer comigo? O que eu fiz para irritar esses merdinhas? Eu só vim aqui pegar a moto do Rust.",--Sweet Jesus . . . Why does this happen to me? What did I ever do to upset these shitbags? I was only here to get Rust's bike...
 	mch_brn_02_03b = "Ahh, cara... eu achei que eu tava frito... Não posso dizer que esperava um bando de palhaços salvarem a minha bunda.",--Aw, man... I thought I was toast for sure... Can't say I expected a group of clowns to suddenly save my ass.
 	mch_brn_03_03b = "Eh, vou dizer isso a vocês: Vocês não vieram aqui me salvar, né? Não, vocês vieram pela moto personalizada, eu estou certo ou não estou certo? Eu vou ajudar vocês. Eu devo a vocês tanto assim, mas vocês vão ter que me trazer as partes que preciso.",--Eh, I'll say it for you: you didn't come here only to save me, now did ya? No, you're here for the custom built bike, am I right or am I right? I'll help you. I owe you that much, but you'll have to get me the parts I need.
 	mch_brn_07_03b = "Porra! Eu não quero morrer hoje!",--Fuck! I don't wanna die today!
@@ -182,19 +182,19 @@ return {
 	pln_chw_22_03 = "Jesus, aquela miserável não estava brincando, né? Peguem o cartão que ela largou.",--Jesus, that bastard wasn't playing around, was she? Take the keycard she dropped.
 	pln_chw_17_03 = "Um minuto, gangue! Um minuto.",--One minute, gang! One minute.
 	pln_chw_04_01 = "Se não tiver uma porta, façam uma. Usem o maçarico.",--If you don't have a door, you make one. Time to use the blowtorch.
-	pln_chw_17_01 = "Droga, gangue! Vocês tem menos de um minuto agora!",--Damn it, gang! You have less than a minute now!
+	pln_chw_17_01 = "Droga, gangue! Vocês têm menos de um minuto agora!",--Damn it, gang! You have less than a minute now!
 	pln_chw_15_01 = "Droga! A policia bloqueou os trilhos na frente. Peguem o BCI e corram de volta para o helicóptero.",--Damn! The cops have blocked the tracks up ahead, which means you need to be gone before you reach that point. Get the BCI tech and run back to the chopper!
-	pln_chw_11_01 = "O que estão esperando? Voltem para o helicóptero e assegurem o loot!",--What are you waiting for? Run back to the helicopter and secure the loot!
-	pln_chw_16_01 = "O trem está chegando na barricada da polícia. Vocês tem dois minutos para assegurar o loot.",--The train is rapidly approaching the cop barricade. I give you a maximum of two minutes to secure the loot and get out.
-	pln_chw_12_01 = "Certo, o BCI está em mãos seguras agora. Vocês ainda tem a oportunidade de voltar e pegar mais loot. Tudo vale a pena.",--All right, the BCI tech is in safe hands now. You still have the opportunity to go back to the wagon and get more loot. It's all worth good cash.
+	pln_chw_11_01 = "O que estão esperando? Voltem para o helicóptero e assegurem o espólio!",--What are you waiting for? Run back to the helicopter and secure the loot!
+	pln_chw_16_01 = "O trem está chegando na barricada da polícia. Vocês tem dois minutos para assegurarem o espólio.",--The train is rapidly approaching the cop barricade. I give you a maximum of two minutes to secure the loot and get out.
+	pln_chw_12_01 = "Certo, o BCI está em mãos seguras agora. Vocês ainda têm a oportunidade de voltarem e pegarem mais espólios. Tudo vale a pena.",--All right, the BCI tech is in safe hands now. You still have the opportunity to go back to the wagon and get more loot. It's all worth good cash.
 	pln_chw_04_02 = "Usem o maçarico para criar um novo caminho.",--Use the blowtorch to create a way through that car.
 	pln_chw_01_01 = "Ok, gangue. O Elefante lhes deu a informação, vocês já sabem o que fazer. Precisamos achar o Capacete BCI e o computador. Vocês conseguem isso e teremos muita grana.",--Okay, gang. Elephant gave you the briefing, so you know what we're after. We need to find the BCI headset and the computer software. You manage this, we'll make a lot of money.
 	pln_chw_09_02 = "Vamos lá! Abram a porta logo e peguem o que viemos buscar!",--Come on! Open the gate already and get the stuff we came for.
 	pln_chw_14_02 = "Hora de irmos! Vamos!",--Time to go! Come on!
-	pln_chw_17_02 = "Pessoal! Vocês tem um minuto!",--Guys! You got one minute!
-	pln_chw_03_05 = "Vão até a frente, pessoal. Vamos lá!",--Make your way to the front, guys. Come on!
-	pln_chw_03_07 = "O carro que estamos procurando está na frente, gangue!",--The car we're after is in the front, gang!
-	pln_chw_12_02 = "Excelente! Com a tecnologia BCI em nossas mãos, vocês tem tempo para pegar mais loot se quiserem para fazer ainda mais dinheiro.",--Excellent! With the BCI tech in safe possession, you have time to get more of the loot if you want to make some good money.
+	pln_chw_17_02 = "Pessoal! Vocês têm um minuto!",--Guys! You got one minute!
+	pln_chw_03_05 = "Vão até à frente, pessoal. Vamos lá!",--Make your way to the front, guys. Come on!
+	pln_chw_03_07 = "A vaga de trem que estamos procurando está na frente, gangue!",--The car we're after is in the front, gang!
+	pln_chw_12_02 = "Excelente! Com a tecnologia BCI em nossas mãos, vocês têm tempo para pegarem mais espólio para conseguirem ainda mais dinheiro.",--Excellent! With the BCI tech in safe possession, you have time to get more of the loot if you want to make some good money.
 	pln_chw_01_03 = "O Elefante nos deu a informação sobre o BCI, certo? Nós vamos atrás do headset de alta tecnologia e o software que permite o usuário controlar um drone com o cérebro. Confiem em mim, eu não acredito também. De qualquer jeito, de acordo com o Rust, as duas coisas estão nesse trem. ",--The Elephant briefed you about the Brain-Computer Interface, right? We're after a high-tech headset and a software that allows you to control a drone using your brain. Trust me, I can barely believe it myself. Anyhow, according to Rust, both things are currently being transported on this train.
 	pln_chw_06_01 = "Droga, eles colocaram C4 nas caixas! Desarmem elas!",--Damn, they rigged the boxes with C4! Defuse them! 
 	pln_chw_20_03 = "Vocês tem um maçarico, não tem? Usem na porta.",--You got a blowtorch, don't you? Use it on that gate.
@@ -211,13 +211,13 @@ return {
 	pln_chw_05_01 = "Não quero perder nenhuma chance, gangue. Procurem nas caixas que vocês olharem. No pior caso vocês vão achar outras coisas valiosas.",--I'm not taking any chances, gang. Search any boxes you see. Worst case scenario is you find other valuables.
 	pln_chw_22_01 = "Droga, eles realmente salvaram suas armas pesadas por último. E parece que ela tinha um cartão.",--Damn, they really saved their big guns for last. And it looks like she had a keycard.
 	pln_chw_16_02 = "Vocês tem aproximadamente dois minutos antes do trem chegar na barricada. Me ouviram? Dois minutos",--You have approximately two minutes before the train reaches the barricade. You hear me? Two minutes.
-	pln_chw_12_03 = "Eu prefiro que saiam antes que algo dê errado, mas entendo se quiserem ficar para pegar mais loot.",--I would prefer it if you just left before anything goes wrong, but I understand if you wanna go back to get more of the loot.
+	pln_chw_12_03 = "Eu prefiro que saiam antes que algo dê errado, mas entendo se quiserem ficar para pegarem mais espólio.",--I would prefer it if you just left before anything goes wrong, but I understand if you wanna go back to get more of the loot.
 	pln_chw_10_01 = "Ok, vocês pegaram essa merda. Isso é o importante. Hora de trazer todos ao helicóptero. Mexam-se, o Bile está esperando.",--Okay, you got the stuff. That's the important thing. Time to bring it all to the helicopter. Get a move on, Bile's waiting.
 	pln_chw_19_01 = "Aqueles barris estão bloqueando. Encontrem as alças e libertem eles. Não temos outra maneira.",--Those oil barrels are blocking your path. Find the straps and release them. We don't have time to find another way.
 	pln_chw_18_02 = "Vocês tem trinta segundos para sair daí!",--You got thirty seconds to make it out of there!
 	pln_chw_06_02 = "As caixas estão armadas com C4! Defusem elas rapidamente! ",--The boxes are rigged with C4! Defuse them quick!
 	pln_chw_10_03 = "A tecnologia está em nossas mãos! Hora de voltar ao helicóptero! o Bile está esperando vocês.",--The tech is in our hands! Time to head back to the helicopter! Don't keep Bile waiting.
-	pln_chw_08_01 = "Jackpot! A informação do Rust estava certa. Agora, passem pelas portas e peguem o Capacete BCI e o software.",--Jackpot! Rust's info was correct. Now, get through the gate and grab the BCI headset and the software.
+	pln_chw_08_01 = "Na mosca! A informação do Rust estava certa. Agora, passem pelas portas e peguem o Capacete BCI e o software.",--Jackpot! Rust's info was correct. Now, get through the gate and grab the BCI headset and the software.
 	pln_chw_02_01 = "Rust me falou que os motoqueiros tem um carro na frente que tem as coisas que estamos procurando. Vão até lá e não parem por nada.",--Rust told me the bikers have one of the cars in the front where they guard the stuff we're after. Make your way there and don't let anything stop you.
 	pln_chw_03_02 = "Vocês precisam ir para frente!",--You need to get to the front!
 	pln_chw_03_03 = "Vão em frente e não parem!",--Go forward and don't stop!
@@ -236,15 +236,15 @@ return {
 	pln_chw_21_03 = "A porta parece trancada por fora. Vejam se conseguem achar outra maneira de passar.",--The door appears to be locked from the outside. Look around and see if you can find another way to get out.
 	
 	-- Legendas (Outros - Dia 2)
-	plt_chw_intro_01 = "Certo Cowboys, Vou largar vocês aqui, e vou circular pela área até vocês me chamarem para pegar o loot.",--All right Cowboys, I'm dropping you off here, and I'll circle around until you call me back to pick up the goods.
+	plt_chw_intro_01 = "Certo, caubóis, vou largar vocês aqui, e vou circular pela área até vocês me chamarem para pegar o espólio.",--All right Cowboys, I'm dropping you off here, and I'll circle around until you call me back to pick up the goods.
 	plt_chw_intro_02 = "Isso parece algo de um filme de cowboy e o Bile gosta disso, Cavalheiros! De qualquer jeito, aqui é onde deixo vocês. Vou esperar até vocês me darem o sinal para voltar e pegar o loot.",--This feels like something out from a cowboy movie and Bile likes it, gentlemen! Anyhow, here's where I drop you off. I'll be on standby until you give me the signal to come back and pick up the loot.
-	plt_chw_intro_03 = "Yihaaaa! Aqui estamos! Vou circular até vocês pegarem o que quiserem. Só me deem o sinal e eu volto para pegar o loot. Boa sorte!",--Yihaaaa! Here we are! I'll circle around until you get whatever you came for. Just give me the signal and I'll be back to pick the loot up. Good luck!
-	plt_chw_01_02 = "Ei, pessoal, estou vindo por um pequeno período de tempo, então me tragam todo o loot que quiserem.",--Hey, guys, I'm coming in for a short period of time, so bring me any loot you want to secure.
-	plt_chw_01_03 = "Vindo por trás, meus amigos mascarados. Vou ficar apenas por um pequeno período de tempo então me tragam tudo o que quiserem, e sejam rápidos.",--Coming in at the back, my masked friends. I'll only stay a short while so bring me anything you want to secure, and do it fast.
-	plt_chw_01_01 = "Cavalheiros, eu achei uma abertura para que eu possa entrar por um curto período de tempo. Se tiverem algum loot para assegurar, agora é a hora. Vou estar atrás do trem.",--Gentlemen, I see an opening for me to come in a short period of time. If you have any loot to secure, now is the time. I'll be at the back of the train.
-	plt_chw_02_01 = "Estou aqui. Me tragam o loot logo, porque não posso ficar por muito tempo.",--I'm here. Bring me the loot pronto, because I can't stay too long.
-	plt_chw_02_02 = "Ei, estou aqui atrás. Se apressem e me tragam o loot que quiserem assegurar.",--Hey, I'm here in the back now. Hurry up and get me any loot you want secured.
-	plt_chw_02_03 = "Ei, estou aqui atrás. Se apressem e me tragam o loot que quiserem assegurar.",--Hey, I'm here in the back now. Hurry up and get me any loot you want secured.
+	plt_chw_intro_03 = "Irá! Aqui estamos! Vou circular até vocês pegarem o que quiserem. Só me deem o sinal e eu volto para pegar o espólio. Boa sorte!",--Yihaaaa! Here we are! I'll circle around until you get whatever you came for. Just give me the signal and I'll be back to pick the loot up. Good luck!
+	plt_chw_01_02 = "Ei, pessoal, vou ficar aqui por um tempinho, então me tragam todo o espólio que quiserem.",--Hey, guys, I'm coming in for a short period of time, so bring me any loot you want to secure.
+	plt_chw_01_03 = "Vindo por trás, meus amigos mascarados. Vou ficar apenas por uns minutos, então me tragam tudo o que quiserem, e sejam rápidos.",--Coming in at the back, my masked friends. I'll only stay a short while so bring me anything you want to secure, and do it fast.
+	plt_chw_01_01 = "Cavalheiros, eu achei uma abertura para que eu possa entrara, mas não tenho muito tempo. Se tiverem algum espólio para assegurar, agora é a hora. Vou estar atrás do trem.",--Gentlemen, I see an opening for me to come in a short period of time. If you have any loot to secure, now is the time. I'll be at the back of the train.
+	plt_chw_02_01 = "Estou aqui. Me tragam o espólio logo, porque não posso ficar por muito tempo.",--I'm here. Bring me the loot pronto, because I can't stay too long.
+	plt_chw_02_02 = "Ei, estou aqui atrás. Se apressem e me tragam o espólio que quiserem assegurar.",--Hey, I'm here in the back now. Hurry up and get me any loot you want secured.
+	plt_chw_02_03 = "Ei, estou aqui atrás. Se apressem e me tragam o espólio que quiserem assegurar.",--Hey, I'm here in the back now. Hurry up and get me any loot you want secured.
 	
 	-- Objetivos (Dia 1)
 	hud_heist_born_01 = "Encontre uma maneira de passar pela entrada da Casa do Clube dos Motoqueiros.",--Find a way through the entrance into the Bikers clubhouse.
@@ -265,7 +265,7 @@ return {
 	hud_heist_born_05_hl = "Colete as Ferramentas",--Collect the tools
 	hud_heist_born_14_hl = "Defenda o Mecânico",--Defend the mechanic
 	hud_heist_born_02_hl = "Liberte o Mecânico",--Untie the mechanic
-	hud_heist_born_15_hl = "Colete mais Loot ou Pegue a Moto",--Collect more loot or take the bike
+	hud_heist_born_15_hl = "Colete mais Espólio ou Pegue a Moto",--Collect more loot or take the bike
 	hud_heist_born_02 = "Ajude o mecânico e liberte ele da fita!",--Help the mechanic and set him free off the tape!
 	hud_heist_born_03 = "Escolte o mecânico até seu caminhão para que ele comece a montar a moto.",--Escort the mechanic to his truck so he can start assembling the bike
 	hud_heist_born_09_hl = "Colete o Motor",--Collect the engine
@@ -278,7 +278,7 @@ return {
 	hud_heist_born_11_hl = "Colete o Tanque e os Tubos de Escape",--Collect the tank and exhaust pipes
 	hud_heist_born_17 = "Jogue a parte que você achou no caminhão do mecânico!",--Throw the part you've found into the mechanic's truck!
 	hud_heist_born_11 = "Localize o suspensor dentro da Oficina. Plugue-o na tomada e ligue-o. Colete as duas partes e entregue ao mecânico!",--Locate a ceiling lift inside the workshop. Plug it into the outlet and turn it on. Collect both parts and deliver them to the mechanic!
-	hud_heist_born_15 = "Procure pela área por mais loot e jogue-os no caminhão ou pegue a moto e fuja!",--Search the area for more loot and throw it into the van or take the bike and leave!
+	hud_heist_born_15 = "Procure pela área por mais espólio e jogue-os no caminhão ou pegue a moto e fuja!",--Search the area for more loot and throw it into the van or take the bike and leave!
 	
 	-- Objetivos (Dia 2)
 	hud_heist_chew_container_03_hl = "Sinalize ao Helicóptero",--Signal the helicopter
@@ -288,14 +288,14 @@ return {
 	hud_heist_chew_container_04 = "Espere pelo helicóptero.",--Wait for the helicopter
 	hud_heist_chew_landing_01 = "Vá para a Área de pouso.",--Get to the landing area
 	hud_heist_chew_train_07 = "Espere até o Bain achar uma rota de fuga.",--Hold out until Bain finds an escape
-	hud_heist_chew_train_04_hl = "Assegure mais Loot ou Fuja",--Secure more loot or escape
+	hud_heist_chew_train_04_hl = "Assegure mais espólio ou Fuja",--Secure more loot or escape
 	hud_heist_chew_landing_06 = "Fuga disponível.",--Escape available
 	hud_heist_chew_train_01_hl = "Vá para a Frente",--Get to the front
 	hud_heist_chew_train_04 = "Se você quiser, pegue qualquer coisa de valor e jogue no helicóptero, ou fuja.",--If you want, grab anything of value and throw it into the helicopter, or escape.
 	hud_heist_chew_container_06 = "Fuga disponível.",--Escape available
 	hud_heist_chew_container_01_hl = "Encontre um Contêiner Vazio",--Find an empty container
 	hud_heist_chew_train_02_hl = "Abra a Grade",--Open the gate
-	hud_heist_chew_container_02 = "Assegure o loot no contêiner.",--Secure loot in the container
+	hud_heist_chew_container_02 = "Assegure o espólio no contêiner.",--Secure loot in the container
 	hud_heist_chew_train_06 = "Entre no trem.",--Get out of the train
 	hud_heist_chew_container_05 = "Prenda o contêiner.",--Attach the container
 	hud_heist_chew_container_03 = "Sinalize para o helicóptero.",--Signal the helicopter
@@ -303,7 +303,7 @@ return {
 	hud_heist_chew_train_03 = "Assegure o Capacete BCI no helicóptero.",--Secure the BCI Helmet in the helicopter
 	hud_heist_chew_landing_03 = "Sinalize para o helicóptero.",--Signal the helicopter
 	hud_heist_chew_train_05 = "Nós temos tudo que precisamos. Saia agora.",--We have everything we came for. Get out of here now.
-	hud_heist_chew_landing_05 = "Assegure o loot no helicóptero.",--Secure the loot in the helicopter
+	hud_heist_chew_landing_05 = "Assegure o espólio no helicóptero.",--Secure the loot in the helicopter
 	hud_heist_chew_container_01 = "Encontre um contêiner vazio.",--Find an empty container
 	hud_heist_chew_landing_02 = "Tire os obstáculos na área de pouso.",--Clear obstacles in the landing area
 	hud_heist_chew_train_07_hl = "Espere até o Bain achar uma Fuga",--Hold out until Bain finds an escape
@@ -311,11 +311,11 @@ return {
 	hud_heist_chew_train_01 = "Eles devem ter o BCI na frente do trem. Vá até lá.",--They should have the BCI in the front of the train. Make your way there!
 	hud_heist_chew_container_04_hl = "Espere pelo Helicóptero",--Wait for the helicopter
 	hud_heist_chew_container_06_hl = "Fuga Disponível",--Escape available
-	hud_heist_chew_landing_05_hl = "Assegure o Loot no Helicóptero",--Secure the loot in the helicopter
+	hud_heist_chew_landing_05_hl = "Assegure o espólio no Helicóptero",--Secure the loot in the helicopter
 	hud_heist_chew_container_05_hl = "Prenda o Contêiner",--Attach the container
 	hud_heist_chew_train_02 = "Precisamos passar pela grade, o BCI está do outro lado.",--We need to get through that gate, the BCI is on the other side.
 	hud_heist_chew_landing_04_hl = "Espere pelo Helicóptero",--Wait for the helicopter
-	hud_heist_chew_container_02_hl = "Assegure o Loot no Contêiner",--Secure loot in the container
+	hud_heist_chew_container_02_hl = "Assegure o espólio no Contêiner",--Secure loot in the container
 	hud_heist_chew_landing_03_hl = "Sinalize ao Helicóptero",--Signal the helicopter
 	hud_heist_chew_landing_04 = "Espere pelo helicóptero.",--Wait for the helicopter
 	hud_heist_chew_train_05_hl = "Fuja",--Escape

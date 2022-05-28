@@ -55,7 +55,7 @@ return {
 	pln_hm1_43_02 = "A porra dos policiais desligaram o motor. É melhor colocarem essa picape para funcionar de novo - Rápido!",
 	pln_hm1_44_02 = "Certifiquem-se que os policiais não mexam nisso de novo. Mantenham-o ativo!",
 	pln_hm1_47_01 = "Nós já sabemos que ele está em West End, em algum lugar. Procurem por qualquer coisa que tenha relação com isso. Arquivos, mapas. Lembrem-se: West End.",
-	pln_hm1_31_02 = "O Dentista me deu uma informação aqui - o Comissário gosta de manter o loot dele no porão. Olhem os quartos no térreo para ver se encontram alguma coisa.",
+	pln_hm1_31_02 = "O Dentista me deu uma informação aqui - o Comissário gosta de manter os espólios dele no porão. Olhem os quartos no térreo para ver se encontram alguma coisa.",
 	pln_hm1_54_03 = "Os russos tem uns malotes de dinheiro espalhados por aí. Não vai deixar a gente rico, mas tudo ajuda né.",
 	pln_hm1_46_03 = "Já sabemos que o Comissário nos ligou de Georgetown. Procurem por algo relacionado a esse lugar. Georgetown.",
 	pln_hm1_13_01 = "Opa, eu acho que esse posto de gasolina também é do nosso amiguinho. Tem umas cargas de C4 lá no veículo. Peguem-as. Hora de fazer uma baguncinha.",
@@ -464,6 +464,6 @@ return {
 	hud_heist_mia_mission3_hl = "Encontre um pouco de Gasolina",
 	hud_heist_mia_mission4 = "Pegue as cargas de C4 no veículo e plante-as nas bombas de gasolina.",
 	hud_heist_mia_mission5_hl = "Procure pelo Porão",
-	hud_heist_mia_mission23_hl = "Assegure Loot Extra e Fuja!",
-	hud_heist_mia_mission23 = "Use o helicóptero para garantir loot extra e fuja do prédio.",
+	hud_heist_mia_mission23_hl = "Assegure Espólio Extra e Fuja!",
+	hud_heist_mia_mission23 = "Use o helicóptero para garantir espólio extra e fuja do prédio.",
 		}

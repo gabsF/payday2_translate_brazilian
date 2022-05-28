@@ -283,7 +283,7 @@ return {
 		-- Legendas (Hoxton Revenge)
 		pln_hb3_59_01 = "Eu acho que temos evidências suficiente para foder a investigação contra a gente, mas se quiserem pode pegar mais.",
 		pln_hb3_48_02 = "A carona de vocês chegou.",
-		pln_hb3_42_07 = "Hector era o traidor! Ele tentou foder a gente com o trampo dos Traidores. Agora sei o porque dos policiais acharem o Laboratório de metanfetamina tão rápido. Todo esse tempo, ele era o traidor.",
+		pln_hb3_42_07 = "Hector era o traidor! Ele tentou foder a gente com o trampo dos Traidores. Agora sei o porquê dos policiais acharem o Laboratório de metanfetamina tão rápido. Todo esse tempo, ele era o traidor.",
 		pln_hb3_40_02 = "Agora abram essa porta. Hora de revelar o traidor.",
 		pln_hb3_39_03 = "Botem a furadeira pra funcionar nessa porta. Furem essa coisa até passar!",
 		pln_hb3_38_02 = "Gente, peguem a furadeira!",
@@ -400,7 +400,7 @@ return {
 		pln_hb3_41_03 = "O traidor! Matem ele!",
 		pln_hb3_41_02 = "Matem esse traidor desgraçado!",
 		pln_hb3_42_03 = "O traidor era o Hector!? Ele dizia que havia muitos criminosos idiotas no mundo. Parece que ele achava que podia ferrar a gente.",
-		pln_hb3_42_01 = "Pessoal, pera aí... esse é... o Hector!? Mas que porra é essa? Por que... eu não entendi isso. Espera... o trampo do Watch Dogs, então é por isso que os policiais já estavam nos esperando. Era uma armadilha! Que filho da puta!",
+		pln_hb3_42_01 = "Pessoal, pera aí... esse é... o Hector!? Mas que porra é essa? Por que... eu não entendi isso. Espera... o trampo do Watch Dogs, então, é por isso que os policiais já estavam nos esperando. Era uma armadilha! Que filho da puta!",
 		pln_hb3_42_05 = "Hector era o traidor!? Esse merdinha pensou que podia ferrar a gente. Ajudamos ele a ter o poder e tentou foder a gente. Que traidor desgraçado.",
 		pln_hb3_42_06 = "O Hector é o traidor! É por isso que o FBI sabia tudo sobre o banco secreto dos Mendoza, era por causa de informante desgraçado!",
 		pln_hb3_42_02 = "Hector!? Mas o que!? Eu sempre achei aquele trampo do Firestarter estranho. Os Mendozas, talvez eles não eram tão maus assim. Quero dizer.. eles eram maus, mas esse traidor é ainda pior.",

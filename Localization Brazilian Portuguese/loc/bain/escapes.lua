@@ -1,7 +1,7 @@
 return {
     -- Descrições
     heist_escape_street_briefing = "Eles perseguiram a gente... Trocar de carro não deu certo, todos aí segurem-se!",--...They tailed us from the scene, switch car failed, everyone batten down the hatches!
-	heist_escape_cafe_briefing = "Caralho, eles estão muito na nossa cola, estão na nossa cola! Vocês precisam fugir com o loot!",--...Damn it to hell they're onto us, they're onto us! You gotta escape with the loot!
+	heist_escape_cafe_briefing = "Caralho, eles estão muito na nossa cola, estão na nossa cola! Vocês precisam fugir com o espólio!",--...Damn it to hell they're onto us, they're onto us! You gotta escape with the loot!
 	heist_escape_park_briefing = "Merda, temos policiais na nossa cola, não vou conseguir despistar eles!",--...Shit we picked up a tail folks, no shaking 'em now!
 	heist_escape_overpass_briefing = "Meu Deus, eles estão em cima de vocês, se preparem pra bater!",--...Jesus they're right on top of you, prepare to get hit!
 	heist_escape_garage_briefing = "Despistem eles... Despistem eles, Caralho... CARALHO! Vocês vão tem que resistir!",--...Lose 'em... Lose 'em... Dammit... DAMMMIT! You gotta stand and fight!
@@ -125,7 +125,7 @@ return {
 	pln_esc_requirement_08_bags = "Lembrem-se pessoal, nós precisamos de oito bolsas para fugir.",--Remember guys, we need eight bags to escape.
 	pln_esc_10_to_arrival = "O veículo de fuga vai chegar aí em dez minutos.",--The escape vehicle will be there in ten minutes.
 	pln_esc_park_suggest_park_01 = "Tem um parque próximo daí, ele deve lhes oferecer alguma cobertura...",--There's a park nearby that should offer some cover...
-	pln_esc_garage_01_any_02 = "Mas que merda aconteceu?! Só peguem o loot e fiquem vivos! Os policiais estão chegando com tudo.",--What the hell just happened?! Just grab the loot and look alive! The cops are moving in.
+	pln_esc_garage_01_any_02 = "Mas que merda aconteceu?! Só peguem os espólios e fiquem vivos! Os policiais estão chegando com tudo.",--What the hell just happened?! Just grab the loot and look alive! The cops are moving in.
 	pln_esc_requirement_04_bags = "Lembrem-se pessoal, nós precisamos de quatro bolsas para fugir.",--Remember guys, we need four bags to escape.
 	pln_esc_park_suggest_park_03 = "O parque deve oferecer uma posição boa de defesa.",--The park should offer a good defensive position.
 	pln_esc_park_marksmen_rooftop_02 = "Atenção, os policiais estão no telhado próximo!",--Heads up, the cops are deploying on a nearby rooftop!
@@ -162,7 +162,7 @@ return {
 	pln_esc_street_more_snipers_deployed_04 = "Os policiais estão mandando mais Snipers!",--The cops are deploying more snipers!
 	pln_esc_street_more_snipers_deployed_05 = "Mais Snipers vindo!",--Additional snipers are entering the area!
 	pln_esc_cafe_30secs_to_departure_subway_01 = "30 segundos, vão para entrada!",--30 seconds, get to the entrance!
-	pln_esc_cafe_01_to_departure_01 = "Vocês só tem mais um minuto. Levem o loot para a entrada do metrô e caiam fora daí!",--You've only got one more minute. Get the loot to the subway entrance and get the hell out of there!
+	pln_esc_cafe_01_to_departure_01 = "Vocês só tem mais um minuto. Levem os espólios para a entrada do metrô e caiam fora daí!",--You've only got one more minute. Get the loot to the subway entrance and get the hell out of there!
 	pln_esc_04_to_departure = "Andem logo! O veículo de fuga vai ir embora em quatro minutos.",--Step it up! The escape vehicle is leaving in four minutes.
 	pln_esc_05_to_arrival = "A sua carona vai estar aí em cinco minutos.",--Your ride will be there in about five minutes.
 	pln_esc_05_to_departure = "Rápido, pessoal! O veículo de fuga vai ir embora em cinco minutos.",--Hurry up, guys! The escape vehicle is leaving in five minutes.
@@ -188,12 +188,12 @@ return {
     pln_esc_01_to_arrival_heli = "O helicóptero vai chegar aí em um minuto.",--The chopper is one minute away.
     pln_esc_fixed_heli = "Pessoal, eu consegui um helicóptero para buscar vocês. Aguentem um pouco mais!",--Guys, I've secured a chopper to get you out. Stay put!
     pln_esc_pep = "Fiquem juntos! Vocês não podem se separar!",--Keep it together! You can't fall apart now!
-    pln_esc_plan_b = "Vou tirar vocês daí. Só mantenham o loot seguro!",--I'll get you out of there. Just keep the loot safe!
+    pln_esc_plan_b = "Vou tirar vocês daí. Só mantenham os espólios seguro!",--I'll get you out of there. Just keep the loot safe!
     pln_esc_overpass_more_snipers_02 = "Os policiais estão mandando Snipers na área, tomem cuidado.",--The cops are deploying snipers in the area, don't walk into their sights.
     pln_esc_02_to_arrival = "Dois minutos até vocês cairem fora daí.",--Two minutes until you can get the hell out of there.
     pln_esc_start = "Cuidado, pessoal! Os policiais estão cercando vocês!",--Watch out, guys! The cops are surrounding you!
     pln_esc_fixed_van = "Beleza, pessoal! Uma van está chegando aí para buscarem vocês!",--Alright, guys! A van is coming in to get you out!
-    pln_esc_03_to_departure = "Assegurem o loot se possível. O veículo de fuga vai ir embora em três minutos.",--Secure as much loot as you can. The escape vehicle is leaving in three minutes.
+    pln_esc_03_to_departure = "Assegurem os espólios se possível. O veículo de fuga vai ir embora em três minutos.",--Secure as much loot as you can. The escape vehicle is leaving in three minutes.
     pln_esc_02_to_departure = "O veículo de fuga vai sair em dois minutos, com ou sem você lá.",--The escape vehicle is leaving in two minutes, with or without you.
     pln_esc_01_to_arrival_van = "A van está logo na esquina. Vou estar aí em um minuto.",--The van is right around the corner. I'll be there in one minute.
     pln_esc_warn_timelimit_van = "A van não vai conseguir ficar por aí por muito tempo. Vocês vão ter que ir rápido quando ela chegar!",--The van won't be able to stay long. You gotta move fast when it arrives!
