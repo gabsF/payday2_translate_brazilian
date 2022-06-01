@@ -1,6 +1,2 @@
-11.05
-* Corrigido a consistência dos "Mods de Arma" para "Modificações de Arma"
-* Traduzido o conteúdo restante da nova atualização
-* Corrigido um erro de tradução em uma das descrições dos efeitos do Stoic
-* Traduzido o "EPM" para "PEM"
-* Corrigido algumas legendas em algumas heists
+11.06
+* Traduzido o conteúdo do Infamy 4.0

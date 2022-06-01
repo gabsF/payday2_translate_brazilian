@@ -560,6 +560,12 @@ return {
 	bm_melee_cqc_info = "Faca com a ponta envenenada que causa dano ao longo do tempo e tem a chance de interromper os inimigos.",--Knife with a poisoned tip that deals damage over time and has a chance to interrupt enemies
 	
 	-- Infamy
+	menu_infamy_prestige_error_rank = "O sistema do XP do Infamy se desbloqueia assim que chegar no Infamy 1",--Infamy Pool system unlocks at Infamy 1",
+	menu_infamy_prestige_error_paused = "Você deve estar no nível 100 para coletar XP do Infamy",--You must be level 100 to collect Infamy Pool xp
+	menu_infamy_infamy_panel_prestige_level = "XP do Infamy atual:",--Current Infamy Pool: 
+	menu_infamy_go_infamous_error_prestige_xp = "Não há XP do Infamy suficiente",--Not enough xp in your Infamy Pool
+	menu_infamy_go_inf_rep = "Com o Nível de Reputação",--With Reputation
+	menu_infamy_go_inf_prestige = "Com o XP do Infamy",--With Infamy Pool
 	menu_infamy_rank = "Nível $rank de Infamy",
 	menu_infamy_help = "Seja Infamous e aumente o seu nível de Infamy. Recompensas especiais estão disponíveis para níveis de Infamy 1 ao 100.",
 	menu_infamy_banner_unlock = "Desbloqueado no Infamy $rank.",
