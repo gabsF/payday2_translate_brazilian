@@ -1,2 +1,5 @@
-11.06
-* Traduzido o conteúdo do Infamy 4.0
+11.07
+* Melhorado algumas traduções do Infamy 4.0
+* Traduzido alguns textos graças aos scripts (Obrigado Punished Bernadetta)
+> O valor das bolsas asseguradas do Tab Stats
+> Modo Carreira

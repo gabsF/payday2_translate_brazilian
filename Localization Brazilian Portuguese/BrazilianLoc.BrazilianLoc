@@ -22,17 +22,9 @@
 	<text text="WalkingJohnn" type="name"/>
 	<br/>
 	<text text="Créditos Adicionais" type="title"/>
-	<text text="Dr_Newbie" type="name"/>
-	<text text="pelo script de traduzir certas partes que normalmente não é possível" type="fill"/>
-	<text text="Kisuke" type="name"/>
-	<text text="pelo script de exportação de strings" type="fill"/>
-	<text text="CENSOR_1337" type="name"/>
-	<text text="pela lista de textos do jogo" type="fill"/>
-	<text text="Krimzin" type="name"/>
-	<text text="pela ajuda de achar textos das Heists recentes" type="fill"/>
+	<text text="SCRIPTS" type="fill"/>
+	<text text="Dr_Newbie, Punished Bernadetta, Kisuke & Krimzin" type="name"/>
+	<text text="TELA DE CRÉDITOS" type="fill"/>
 	<text text="Dagoth Ur" type="name"/>
-	<text text="pelo código da tela de créditos e da tela de mensagens" type="fill"/>
-	<text text="Punished Bernadetta" type="name"/>
-	<text text="pela ajuda com as telas de 'LOADING'" type="fill"/>
 	<command cmd="stop" offset="1000"/>
 </table>

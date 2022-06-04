@@ -560,12 +560,12 @@ return {
 	bm_melee_cqc_info = "Faca com a ponta envenenada que causa dano ao longo do tempo e tem a chance de interromper os inimigos.",--Knife with a poisoned tip that deals damage over time and has a chance to interrupt enemies
 	
 	-- Infamy
-	menu_infamy_prestige_error_rank = "O sistema do XP do Infamy se desbloqueia assim que chegar no Infamy 1",--Infamy Pool system unlocks at Infamy 1",
-	menu_infamy_prestige_error_paused = "Você deve estar no nível 100 para coletar XP do Infamy",--You must be level 100 to collect Infamy Pool xp
-	menu_infamy_infamy_panel_prestige_level = "XP do Infamy atual:",--Current Infamy Pool: 
-	menu_infamy_go_infamous_error_prestige_xp = "Não há XP do Infamy suficiente",--Not enough xp in your Infamy Pool
+	menu_infamy_prestige_error_rank = "O sistema do Progresso de XP Infamy se desbloqueia assim que chegar no Infamy 1",--Infamy Pool system unlocks at Infamy 1",
+	menu_infamy_prestige_error_paused = "Você deve estar no nível 100 para coletar XP Infamy",--You must be level 100 to collect Infamy Pool xp
+	menu_infamy_infamy_panel_prestige_level = "Progresso de XP Infamy atual:",--Current Infamy Pool: 
+	menu_infamy_go_infamous_error_prestige_xp = "Não há XP Infamy suficiente",--Not enough xp in your Infamy Pool
 	menu_infamy_go_inf_rep = "Com o Nível de Reputação",--With Reputation
-	menu_infamy_go_inf_prestige = "Com o XP do Infamy",--With Infamy Pool
+	menu_infamy_go_inf_prestige = "Com o Progresso de XP Infamy",--With Infamy Pool
 	menu_infamy_rank = "Nível $rank de Infamy",
 	menu_infamy_help = "Seja Infamous e aumente o seu nível de Infamy. Recompensas especiais estão disponíveis para níveis de Infamy 1 ao 100.",
 	menu_infamy_banner_unlock = "Desbloqueado no Infamy $rank.",
@@ -4836,6 +4836,13 @@ return {
 	menu_feature_crimenet_thanks_gagemod_desc = "De: Gage [gage@///REDIGIDA///]\nPara: $player;\nData: 2014-04-10 17:02 (GMT+1)\nAssunto: Jogada Inteligente\n\n Hey $player;, eu só queria te agradecer por ter comprado o Gage Mod Courier DLC.\n\n Para ler mais sobre o trabalho do Mod Courier e verificar o seu progresso, simplesmente selecione o ícone do Gage na Crime.net (É um G enorme, não tem como errar).\n\n- Gage",--$NL;$NL;- Gage$NL;
 	
 	-- A História
+	menu_sm_play_online = "Jogar Online",--"Play Online",
+	sm_act_2_name = "Capítulo 2: Os Reis da Crimenet",--"Chapter 2: The Kings of Crimenet",
+	sm_act_3_name = "Capítulo 3: O Fim Se Aproxima",--"Chapter 3: Endgame",
+	sm_act_1_name = "Capítulo 1: É Apenas o Começo",--"Chapter 1: Just Getting Started",
+	menu_legend_sm_start_mission = "$MY_BTN; INICIAR O MAPA",--"$MY_BTN; START LEVEL",
+	menu_legend_sm_toggle_online = "$MY_BTN; Habilitar o Online",--"$MY_BTN; Toggle Online",
+	menu_legend_sm_skip_mission = "$MY_BTN; Pular missão",--$MY_BTN; Skip Mission
 	menu_story_missions_help = "Veja o seu progresso do Modo Carreira",--View your progress through the story line
 	menu_story_missions = "Modo Carreira",
 	menu_challenge_objective_title = "Objetivo:",
@@ -4847,6 +4854,7 @@ return {
 	menu_sm_claim_goto_next = "PRÓXIMO CAPÍTULO",--NEXT ASSIGNMENT
 	menu_sm_start_level = "INICIAR LEVEL",--START LEVEL
 	menu_sm_claim_rewards = "RESGATAR RECOMPENSAS",--CLAIM REWARDS
+	menu_sm_dlc_locked_help_text = "Um ou mais objetivos estão bloqueados por DLCs. Você pode achar alguém na Crime.net que tem o conteúdo e se juntar ou jogar em modo offline.",--"One or more objectives are locked behind DLC. You can either find someone on Crime.net who owns the heist and join them or play this assignment in offline mode.",
 	menu_sm_dlc_locked = "NÃO DISPONÍVEL NO MODO ONLINE",--NOT AVAILABLE IN ONLINE MODE
 	menu_sm_chill_safehouse = "Nova Safehouse",--New Safehouse
 	menu_sm_inv_deployable = "Equipe um Equipamento",--Equip a deployable
@@ -5031,6 +5039,7 @@ return {
 	sm_53_name = "O Maior Golpe De Todos",--The Greatest Heist of All
 	sm_53_obj = "Conclua o Contrato The White House na dificuldade Muito Difícil ou acima\nÉ necessário jogar a heist do início ao fim.",--Complete The White House job on the Very Hard difficulty or higher.\nThis assignment requires you to play from the lobby to the end of the heist.
 	sm_end_name = "Á Espera De Um Próximo Golpe!",--Here's to Another Heist!
+	menu_sm_all_done = "Obrigado por jogar!\n\nVocê alcançou o fim da história do PAYDAY 2. Nós da Overkill agradecemos por se juntar conosco nessa jornada, e nós esperamos que você gostou de jogar o jogo quanto nós que o desenvolvemos. Seja você um assaltante que esteve conosco desde 2013, ou entrou na diversão no meio, nós agradecemos pelo suporte.\n\nA nossa comunidade esteve sendo importante para a evolução do PAYDAY 2, e não conseguiríamos sem vocês.\n\nIsto pode ser o fim da história, mas o mundo continua cheiro de assaltantes.\nNós vemos na Crime.net.\n\nA Overkill te saúda!",--"Thanks for playing!$NL;$NL;You've reached the end of the Payday 2 story. We here at OVERKILL thank you for joining us on this wild ride, and we$NL;hope you've enjoyed playing the game as much as we enjoyed making it. Whether you're a heister who's been with us$NL;since our launch in 2013, or you joined the crew along the way, we're grateful for your support.$NL;$NL;Our community has been vital to PAYDAY 2's evolution, and we couldn't have done it without you.$NL;$NL;This may be the end of the story, but the world is still full of heisters.$NL;We'll see you on Crime.net.$NL;$NL;OVERKILL salutes you!",
 	
 	-- Descrição dos Personagens
 	bm_menu_characters = "Personagem",
