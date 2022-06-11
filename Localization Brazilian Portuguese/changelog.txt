@@ -1,5 +1,9 @@
-11.07
-* Melhorado algumas traduções do Infamy 4.0
-* Traduzido alguns textos graças aos scripts (Obrigado Punished Bernadetta)
-> O valor das bolsas asseguradas do Tab Stats
-> Modo Carreira
+11.08
+* Corrigido algumas descrições de alguns trajes
+* Corrigido um dos objetivos em Mountain Master
+* Corrigido algumas interações
+* Traduzido uma tela de aviso do Infamy
+* Traduzido os controles do Xbox na tela do Infamy
+* Traduzido uma legenda do Hotline Miami, dia 2
+* Traduzido várias interações que são feitas por outro jogador
+* Traduzido o nome de um espólio do Mountain Master

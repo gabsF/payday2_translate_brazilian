@@ -316,6 +316,7 @@ return {
 	pln_hm2_02_02 = "Saiam das caixas. Peguem-os de surpresa.",
 	pln_hm2_02_04 = "Nós precisamos colocar o Comissário em uma caixa de madeira. Não a gente mesmo. Mexam-se!",
 	pln_hm2_02_05 = "Eu dei esses brinquedinhos para vocês e tudo o que vocês querem é ficar na caixa. Mexam-se!",
+	pln_hm2_02_06 = "Botem as máscaras e vão logo! Andem!",--Mask on and move! Hustle!",
 	pln_hm2_03_02 = "Aí está ele! Matem-o!",
 	pln_hm2_04_01 = "Porra, esse maldito está subindo pelo elevador. Vão atrás dele! Peguem-o antes que ele fuja!",
 	pln_hm2_04_02 = "Ele pegou o elevador! Subam atrás dele. Não deixem com que ele escape.",

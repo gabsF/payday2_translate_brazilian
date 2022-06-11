@@ -560,6 +560,8 @@ return {
 	bm_melee_cqc_info = "Faca com a ponta envenenada que causa dano ao longo do tempo e tem a chance de interromper os inimigos.",--Knife with a poisoned tip that deals damage over time and has a chance to interrupt enemies
 	
 	-- Infamy
+	menu_infamy_legend_go_infamous = "$BTN_X; Tornar-se Infamous",--$BTN_X; Go Infamous",
+	menu_infamy_legend_go_infamous_prestige = "$BTN_Y; Tornar-se Infamous com XP Infamy",--$BTN_Y; Go Infamous with infamy pool",
 	menu_infamy_prestige_error_rank = "O sistema do Progresso de XP Infamy se desbloqueia assim que chegar no Infamy 1",--Infamy Pool system unlocks at Infamy 1",
 	menu_infamy_prestige_error_paused = "Você deve estar no nível 100 para coletar XP Infamy",--You must be level 100 to collect Infamy Pool xp
 	menu_infamy_infamy_panel_prestige_level = "Progresso de XP Infamy atual:",--Current Infamy Pool: 
@@ -625,9 +627,10 @@ return {
 	menu_infamy_desc_technician_new = "Frio, calculista e um mestre de sumiços forçados. Morto ou Vivo.\n\nBÔNUS:\nA Experiência ganha é aumentada em ##5%##.\n\nITENS:",
 	menu_infamy_box_title = "RECOMPENSA DE INFAMY",
 	menu_infamy_box_description = "Alcance esse nível de Infamy para desbloquear algo especial!",
-	menu_dialog_become_infamous_3_above_5 = "Se você prosseguir, o seu nível de reputação será resetado para o nível 0. O seu primeiro skill set será resetado, e todos os outros skill sets serão suspensos até que você tenha pontos suficientes para usá-los novamente ou até que você decida redefini-los. Todos os profiles serão atribuidos para usar skill sets resetadas. Se você tiver uma arma equipada com bloqueio de nível 1 ou superior, ela será substituída por uma arma sem bloqueio de nível. Se essa arma não estiver disponível, você receberá uma AMCAR e/ou uma Chimano 88. Seus profiles irão manter máscaras, trajes e perk decks atribuidos anteriormente.\n\nIsso será irreversível, e você NÃO PODERÁ recuperar o que sacrificou.\n\nVocê poderá manter todas as suas armas, mods, máscaras, desenhos e materiais. O dinheiro de sua Conta Offshore permanecerá. Você ganhará um nível de Infamy, se estiver em um nível de infamy 100 ou abaixo, você também irá receber uma recompensa de Infamy.",
+	menu_dialog_become_infamous_3_above_5 = "Se você prosseguir, o seu nível de reputação será resetado para o nível 0. O seu primeiro skill set será resetado, e todos os outros skill sets serão suspensos até que você tenha pontos suficientes para usá-los novamente ou até que você decida redefini-los. Todos os perfis serão atribuidos para usar skill sets resetadas. Se você tiver uma arma equipada com bloqueio de nível 1 ou superior, ela será substituída por uma arma sem bloqueio de nível. Se essa arma não estiver disponível, você receberá uma AMCAR e/ou uma Chimano 88. Seus perfis irão manter máscaras, trajes e perk decks atribuidos anteriormente.\n\nIsso será irreversível, e você NÃO PODERÁ recuperar o que sacrificou.\n\nVocê poderá manter todas as suas armas, mods, máscaras, desenhos e materiais. O dinheiro de sua Conta Offshore permanecerá. Você ganhará um nível de Infamy, se estiver em um nível de infamy 100 ou abaixo, você também irá receber uma recompensa de Infamy.",
 	menu_infamy_color_stinger_name = "Cor de Arma e Som de Entrada",--Weapon Color and a Join Stinger
 	menu_infamy_color_stinger_desc = "Cor de Arma: $weapon_color\nSom de Entrada: $join_stinger",--Weapon Color: $weapon_color;\nJoin Stinger: $join_stinger;
+	menu_dialog_become_infamous_prestige = "Você ganhará mais um nível de Infamy. Se estiver abaixo de 100, também receberá um prêmio do Infamy.",--You will gain one rank of Infamy. If you are at Infamy rank 100 or below, you will also receive an Infamy Reward.
 	
 	-- Discord RP
 	-- discord_rp_single_end_details = "TranslationHere",--$heist; $day;
@@ -645,7 +648,7 @@ return {
 	-- discord_rp_mp_end_details = "TranslationHere",--$heist; $day;
 	discord_rp_day_string = "dia $day",
 	discord_rp_single_end = "Sumário do Assalto", -- Singleplayer
-	discord_rp_safehouse = "Na Safe House",
+	discord_rp_safehouse = "No Esconderijo",
 	discord_rp_mp_end = "Sumário do Assalto", -- Multiplayer
 	discord_rp_lobby = "Em um Lobby",
 	discord_rp_mp_heist = "Jogando Online",
@@ -700,7 +703,8 @@ return {
 	menu_button_shout_and_stop = 'Gritar/Interagir "Pressionar" ou Parar IA "Segurar"',--Shout/Interact "Tap" or Stop AI "Hold"
 	menu_button_throw_grenade = "Arremessar Granada",--Throw grenade
 	
-	-- "Carregando a Bolsa"
+	-- Nome dos Espólios
+	hud_carry_gnome = "Gnomo de Jardim",--"Garden gnome",
 	hud_equipment_laxative = "Produto de Limpeza",--Cleaning product
 	hud_carrying = "Carregando:",
 	hud_carry_dragon_statue = "Estátua de Dragão",--Dragon Statue
@@ -867,12 +871,26 @@ return {
 	hud_equipment_business_card = "Cartão de Negócios",--Business Card
 	
 	-- Outros Interagindo
+	hud_int_action_lift_car = "Levantando o carro",--Lifting the car",
+	hud_int_hold_connecting_wire_to_door = "Prendendo a corda na porta",--Connecting the wire to the door",
+	hud_action_take_tea_set = "Pegando o Jogo de Chá",--"Taking tea set",
+	hud_action_moving_shelf = "Movendo a estante",--"Moving bookshelf",
+	hud_action_setting_up_device = "Ligando o dispositivo",--"Setting up device",
+	hud_action_take_gnome = "Pegando o Gnomo de Jardim",--"Picking up garden gnome",
+	hud_action_removing_elevator_hatch = "Removendo a escotilha",--"Removing hatch",
+	hud_action_rebooting_device = "Reiniciando o dispositivo",--Rebooting device",
+	hud_action_pkuing_force_open_vent = "Abrindo a ventilação",--Opening the vent",
+	hud_action_starting_override = "Iniciando o Hack",--Starting override",
+	hud_action_placing_saw = "Colocando a serra",--Placing saw",
+	hud_action_entering_vehicle = "Entrando no veículo",--Entering vehicle",
+	hud_action_fixing_saw = "Consertando a serra"--Fixing saw",
+	hud_action_picking_up_c4 = "Pegando a C4",--Picking up C4",
 	hud_opening_cas_briefcase = "Abrindo a Maleta",--Opening the briefcase
 	hud_action_opening_slash_closing_sec_box = "Abrindo/Fechando a caixa de segurança",
 	hud_action_ignite_thermite_paste = "Acendendo a termite",--Igniting thermite paste
 	hud_action_taking_briefcase = "Pegando a Pasta",--Taking briefcase
 	hud_action_open_slash_close = "Abrindo/Fechando",
-	hud_action_fixing_bfd_drill = "Consertando a BFD", --Furadeira Grande pra Caralho
+	hud_action_fixing_bfd_drill = "Consertando a BFD",
 	hud_action_starting_drill = "Iniciando a BFD",
 	hud_action_stoping_drill = "Parando a BFD",
 	hud_action_placing_ecm_jammer = "Colocando o Bloqueador de ECM",
@@ -888,7 +906,7 @@ return {
 	hud_action_moving_crane = "Movendo o Guindaste",--Moving crane
 	hud_action_taking_safe = "Pegando o Cofre",--Taking safe
 	hud_action_read_barcode = "Lendo o Código de Barra",--Reading barcode
-	hud_action_bagging_sa_armor = "Empacotando a Peça da Armadura do Samurai",--Bagging piece of samurai armor
+	hud_action_bagging_sa_armor = "Saqueando a Peça da Armadura do Samurai",--Bagging piece of samurai armor
 	hud_action_handing_over_tool = "Entregando a Ferramenta",--Handing over the tool
 	hud_action_checking_evidence = "Verificando Evidência",--Checking evidence
 	hud_action_taking_painting = "Pegando a Pintura",--Taking painting
@@ -942,9 +960,9 @@ return {
 	hud_action_taking_server = "Pegando o Servidor",--Taking server
 	hud_action_grabbing_bag = "Pegando a Bolsa",--Grabbing bag
 	hud_action_taking_evidence_bag = "Pegando a Evidência",--Bagging Evidence
-	hud_action_standing_up = "Levantando o Refém",--Standing up
+	hud_action_standing_up = "Guiando o Refém",--Standing up
 	hud_action_using_computer = "Usando o Computador",--Using computer
-	hud_action_getting_down = "Descendo o Refém",--Getting down
+	hud_action_getting_down = "Abaixando o Refém",--Getting down
 	hud_action_healing = "Curando-se",--Patching up
 	hud_action_breach = "Quebrando a Escotilha",--Breaching the hatch
 	hud_action_taking_medallion = "Pegando o Medalhão",--Taking the medallion
@@ -1248,8 +1266,8 @@ return {
 	hud_int_flip_table = "Segure $BTN_INTERACT para virar a mesa",--Hold  to flip the table
 	hud_int_help_vlad = "Segure $BTN_INTERACT para ajudar Vlad",--Hold  to help Vlad up
 	hud_int_hold_boot_generator = "Segure $BTN_INTERACT para ligar o gerador",--Hold  to boot up the generator
-	hud_int_hold_connect_wire_to_door = "Segure $BTN_INTERACT para conectar a corda à porta",--Hold  to connect the wire to the door
-	hud_int_hold_connect_wire_to_elevator = "Segure $BTN_INTERACT para conectar a corda ao elevador",--Hold  to connect the wire to the elevator
+	hud_int_hold_connect_wire_to_door = "Segure $BTN_INTERACT para prender a corda na porta",--Hold  to connect the wire to the door
+	hud_int_hold_connect_wire_to_elevator = "Segure $BTN_INTERACT para prender a corda no elevador",--Hold  to connect the wire to the elevator
 	hud_int_hold_flip_light_off = "Pressione $BTN_INTERACT para desligar as luzes",--Press  to turn off the lights
 	hud_int_hold_hack_box = "Segure $BTN_INTERACT para abrir a caixa",--Hold  to open the hack box
 	hud_int_hold_ignite_thermite = "Segure $BTN_INTERACT para acender o termite",--Hold  to ignite the thermite
@@ -1448,7 +1466,7 @@ return {
 	debug_interact_bodybags_bag_take_bodybag = "Segure $BTN_INTERACT para pegar uma Bolsa de Corpo",
 	hud_int_invisible_interaction_open = "Segure $BTN_INTERACT para abrir",
 	debug_interact_gage_assignment_take = "Segure $BTN_INTERACT para pegar o pacote",
-	hud_int_hostage_convert = "Segure $BTN_INTERACT para converter o inimigo",
+	hud_int_hostage_convert = "Segure $BTN_INTERACT para converter o refém",
 	debug_interact_trade_hostage_skm = "Segure $BTN_INTERACT para trocar o refém",
 	debug_interact_trade = "Segure $BTN_INTERACT para trocar pelo seu companheiro",
 	debug_interact_trade_PS3 = "Segure $BTN_INTERACT para trocar pelo seu companheiro",
@@ -1510,8 +1528,8 @@ return {
 	debug_interact_stash_server_cord = "Pressione $BTN_INTERACT para ligar o cabo",
 	hud_int_grab_server = "Segure $BTN_INTERACT para pegar o servidor",
 	hud_int_equipment_keycard = "Pressione $BTN_INTERACT para usar o Cartão de Acesso",
-	debug_interact_hostage_stay = "Segure $BTN_INTERACT para parar o Refém",
-	debug_interact_hostage_move = "Segure $BTN_INTERACT para mover o Refém",
+	debug_interact_hostage_stay = "Segure $BTN_INTERACT para abaixar o Refém",
+	debug_interact_hostage_move = "Segure $BTN_INTERACT para guiar o Refém",
 	debug_interact_intimidate = "Segure $BTN_INTERACT para prender",
 	hud_int_pickup_keycard = "Pressione $BTN_INTERACT para pegar o Cartão de Acesso",
 	hud_int_use_ticket = "Segure $BTN_INTERACT para usar o Ticket",

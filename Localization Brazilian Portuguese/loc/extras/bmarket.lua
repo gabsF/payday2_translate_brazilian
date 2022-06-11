@@ -284,9 +284,9 @@ return {
 --This outfit facilitates swiftness and freedom while performing one's fighting style, and there is no denying its badass elegance. 
 	achievement_pent_11_desc = "Colete e assegure o jogo de chá em cada heist da campanha City of Gold.",
 --Collect and secure the tea sets from all heists in the City of Gold campaign.
-	bm_suit_var_kungfumaster_default_desc = "Alguns clássicos nunca saiam do estilo!",--Some classics will never go out of style!
+	bm_suit_var_kungfumaster_default_desc = "Alguns clássicos nunca deixarão de ter estilo!",--Some classics will never go out of style!
 	bm_suit_var_kungfumaster_white_desc = "As vezes, menos é mais, ou melhor, quando você estiver assaltando com este traje, eles nunca esperarão o seu ataque.",--At times, less is more, and better yet, when you wear this, they'll never expect you to pounce. 
-	bm_suit_var_kungfumaster_red_desc = "Claro, você ficará de pé, mas este estilo permitirá que você resiste e lute até o final.",--Sure, you will stand out, but this look will allow you to persevere and fight on through anything. 
+	bm_suit_var_kungfumaster_red_desc = "Claro, você ficará de pé, mas este estilo permitirá que você resista e lute até o final.",--Sure, you will stand out, but this look will allow you to persevere and fight on through anything. 
 	bm_suit_var_kungfumaster_black_desc = "Este design é para quando você precisa de foco para terminar o serviço.",--This design is for when you need to empty your mind, focus, and get the job done.
 
 	bm_suit_enforcer_suit_desc = "Este traje moderno contém elementos tradicionais da Adaga Dourada.",--This is a modern cut suit with traditional elements worn by the Golden Dagger's Red Poles.
@@ -306,7 +306,6 @@ return {
 	bm_suit_sparkle_desc = "Quer ser notado em um trabalho e deixar uma impressão fabulosa? Este traje vai servir.\n\nCriado por @OneMonovan",--Want to get noticed on the job and leave a flamboyant impression? Yeah, this is the way to go.
 	bm_suit_bunny_desc = "Um traje de coelho rosa? Por que não? O contraste entre o seu traje e a sua arma vai ficar muito fofo!\n\nCriado por @SilversTweet",--A pink bunny suit? Why the hell not? The contrast between your outfit and your gun will be stunning! 
 	bm_suit_fighterpilot_desc = "Um fato curioso: Bile adora o combate aéreo da Primeira Guerra Mundial! O pessoal que fica de olho nele vão notar que ele sempre veste um uniforme de piloto autêntico durante os roubos, fingindo que está em um Avro 504 invés de um velho helicóptero. Morte vindo de cima, né?\n\nCriado por @OverlordLettuce",--Little known fact: Bile has a deep fascination with World War 1 aerial combat! Eagle-eyed viewers often catch him wearing his authentic fighter pilot uniform during heists, pretending he's in an Avro 504 instead of a helicopter. Death from above, anyone?
-	-- TRAJES DO DÉCIMO ANIVERSÁRIO
 
 	bm_suit_bullranch_suit_desc = "História é forjado por pioneiros. Olha a parte do escoteiro com um traje que é estiloso e prático. Se ficar frio lá fora no desconhecido, e o traje certo faz toda diferença. As vezes, tudo que você precisa é de alguma coisa pra vestir.",--History is forged by pioneers. Look the part of the trailblazer with an outfit that's equal parts stylish and practical. It gets cold out there in the Great Unknown, and the right jacket can make a huge difference. Sometimes, all you need is the clothes on your back.
 	bm_suit_var_bullranch_suit_blue_desc = "Quer ser o durão? Durão veste Denim.",--When the going gets tough, the tough wear Denim.

@@ -343,7 +343,7 @@ return {
     hud_heist_pent16_hl = "Hackeie o sistema de segurança",--Hack the building's security
     hud_heist_pent16 = "O prédio está indo a modo de confinamento. Crie uma conexão para o operador desativar os sistemas pelo lado de fora.",--The building is going into lockdown mode. Create a connection for the operator to disable its systems from the outside.
 
-    hud_heist_pent17_hl = "Reinicie o elevador e chame-no",--Restart the elevator and call it
+    hud_heist_pent17_hl = "Reinicie o elevador e chame-o",--Restart the elevator and call it
     hud_heist_pent17 = "A entrada do apartamento está bloqueada. Ligue o gerador reserva e chame o elevador.",--The entrance to the penthouse is blocked. Start the backup generator and call for the elevator.
 
     hud_heist_pent18_hl = "Arrombe a porta do apartamento",--Force open the penthouse door
