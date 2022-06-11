@@ -883,7 +883,7 @@ return {
 	hud_action_starting_override = "Iniciando o Hack",--Starting override",
 	hud_action_placing_saw = "Colocando a serra",--Placing saw",
 	hud_action_entering_vehicle = "Entrando no veículo",--Entering vehicle",
-	hud_action_fixing_saw = "Consertando a serra"--Fixing saw",
+	hud_action_fixing_saw = "Consertando a serra",--Fixing saw",
 	hud_action_picking_up_c4 = "Pegando a C4",--Picking up C4",
 	hud_opening_cas_briefcase = "Abrindo a Maleta",--Opening the briefcase
 	hud_action_opening_slash_closing_sec_box = "Abrindo/Fechando a caixa de segurança",
