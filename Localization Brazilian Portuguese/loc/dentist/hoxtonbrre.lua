@@ -553,7 +553,7 @@ return {
 		hud_heist_hox3_4a = "Hackeie um computador do FBI para achar o código da Sala do Pânico.",
 		hud_heist_hox3_4a_2_hl = "Use o Código para abrir a Sala do Pânico",
 		hud_heist_hox3_4a_2 = "Use o código para abrir a porta da Sala do Pânico.",
-		hud_heist_hox3_4b_hl = "Use os dois Cartões de Acessos para abrir a Sala do Pânico",
+		hud_heist_hox3_4b_hl = "Use os dois Cartões para abrir a Sala do Pânico",
 		hud_heist_hox3_4b = "Ache e use os dois Cartões de Acessos para abrir a Sala do Pânico.",
 		hud_heist_hox3_4c_hl = "Localize e domine o chefe do FBI",
 		hud_heist_hox3_4c_2_hl = "Leve o Chefe do FBI até a Sala do Pânico",

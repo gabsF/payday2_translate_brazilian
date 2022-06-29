@@ -1,2 +1,9 @@
-11.08.1
-* Corrigido o crash
+11.09
+* Traduzido os novos trajes do Prime Matter e do Drop da Twitch
+* Traduzido a nova tela de mensagens quando você recebe o conteúdo da Conta Starbreeze e do Drop da Twitch
+* Traduzido o Pré-planejamento do Midland Ranch
+* Corrigido o "mascará" no tutorial do Loud
+* Corrigido um dos textos dos objetivos cortando no Hoxton Revenge
+* Removido uma legenda duplicada em Ukrainian Prisoner
+* Traduzido e corrigido várias interações em terceira/primeira pessoa
+* Melhorado a tradução da descrição da Skill "Body Expertise"

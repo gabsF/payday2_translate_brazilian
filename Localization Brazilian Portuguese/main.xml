@@ -16,6 +16,9 @@
         <!-- Custom Text -->
         <loc file="extras/options_strings.lua"/>
 
+        <!-- Cowgirl Contracts -->
+        <!-- <loc file="cowgirl/midland_ranc.lua"/> -->
+
         <!-- Extras -->
         <loc file="extras/vr.lua"/>
         <loc file="extras/others.lua"/>

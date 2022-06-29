@@ -340,7 +340,7 @@ return {
 
 	-- TIER 4
 	--menu_body_expertise_beta = "Body Expertise",
-	menu_body_expertise_beta_desc = "BÁSICO: ##$basic##\nOs ##$multibasic;## de dano bônus aplicados quando se acerta um policial na cabeça, agora é aplicado acertando um policial em qualquer parte do corpo. Este efeito só se aplica para SMG, Rifles de Assalto, LMG e Special. \n\nAVANÇADO: ##$pro##\nOs ##$multipro;## de dano bônus aplicados quando se acerta um policial na cabeça, agora é aplicado acertando um policial em qualquer parte do corpo. Este efeito só se aplica para SMG, Rifles de Assalto, LMG e Special.",
+	menu_body_expertise_beta_desc = "BÁSICO: ##$basic##\nOs ##$multibasic;## de dano bônus do tiro na cabeça se aplicará em qualquer parte do corpo. Este efeito só aplicará em armas SMGs, Rifles de Assalto, LMGs e Especiais no modo de tiro automático. \n\nAVANÇADO: ##$pro##\nOs ##$multipro;## de dano bônus do tiro na cabeça se aplicará em qualquer parte do corpo. Este efeito só aplicará em armas SMGs, Rifles de Assalto, LMGs e Especiais no modo de tiro automático.",
 --BASIC: ##$basic;##\n##$multibasic;## from the bonus headshot damage is permanently applied to hitting enemies on the body. This skill is only activated by SMGs, LMGs, Assault Rifles or Special Weapons fired in automatic fire mode.\n\nACE: ##$pro;##\n##$multipro;## from the bonus headshot damage is permanently applied to hitting enemies on the body. This skill is only activated by SMGs, LMGs, Assault Rifles or Special Weapons fired in automatic fire mode.
 	-- TIER 4
 	

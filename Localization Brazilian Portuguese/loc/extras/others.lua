@@ -12,14 +12,18 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
-	bm_global_value_pxp1_unlock = "Compre o McShay Weaopn Pack para desbloquear!",--
+	menu_l_global_value_rat = "Esse é um item do Texas Heat!",--"This is a Texas Heat Item!",
+	bm_global_value_rat_unlock = "Esse item requer um Drop da Twitch para desbloquear!",--"This item requires a Twitch drop to unlock!",
+	menu_l_global_value_prim = "Esse é um item do Prime Matter!",--This is a Prime Matter Item!",
+	bm_global_value_prim_unlock = "Crie uma conta Starbreeze nas Opções para desbloquear!",--Create a Starbreeze Account in the Options menu to unlock!",
+	bm_global_value_pxp1_unlock = "Compre o McShay Weaopn Pack para desbloquear!",--Buy the McShay Weapon Pack to unlock!
 	menu_l_global_value_pxp1 = "Esse é um item do McShay Weapon Pack!",--This is a McShay Weapon Pack Item!
-	bm_global_value_txt1_unlock = "Compre a DLC Southbound Tailor Pack para desbloquear",--
+	bm_global_value_txt1_unlock = "Compre o Southbound Tailor Pack para desbloquear!",--Buy the Southbound Tailor Pack DLC to unlock!
 	menu_l_global_value_txt1 = "Esse é um item do Southbound Tailor Pack!",--This is a Southbound Tailor Pack Item!
 	bm_global_value_tawp_unlock = "Compre o Jiu Feng Smuggler Pack 3 para desbloquear!",--This is a Jiu Feng Smuggler Pack 3 Item!
 	bm_global_value_sawp_unlock = "Compre o Jiu Feng Smuggler Pack 2 para desbloquear!",--This is a Jiu Feng Smuggler Pack 2 Item!
 	bm_global_value_faco_unlock = "Compre o Jiu Feng Smuggler Pack para desbloquear!",--This is a Jiu Feng Smuggler Pack item!
-	bm_global_value_gdtp_unlock = "Compre o Golden Dagger Tailor Pack para desbloquear!",--Buy the Jiu Feng Smuggler Pack 4 to unlock!
+	bm_global_value_gdtp_unlock = "Compre o Golden Dagger Tailor Pack para desbloquear!",--Buy the Golden Dagger Tailor Pack DLC to unlock!
 	menu_l_global_value_gdtp = "Esse é um item do Golden Dagger Tailor Pack!",--This is a Golden Dagger Tailor Pack Item!
 	bm_global_value_lawp_unlock = "Compre o Jiu Feng Smuggler Pack 4 para desbloquear!",--Buy the Jiu Feng Smuggler Pack 4 to unlock!
 	menu_l_global_value_lawp = "Esse é um item de Jiu Feng Smuggler Pack 4!",--This is a Jiu Feng Smuggler 4 Pack item!
@@ -29,18 +33,18 @@ return {
 	menu_l_global_value_trik = "Esse é um item de Dia Das Bruxas 2021!",--This is a Halloween 2021 Item!
 	--bm_global_value_a10th_unlock = "",--???
 	menu_l_global_value_a10th = "Esse é um item do Décimo Aniversário da Franquia PAYDAY!",--This is a PAYDAY Franchise 10th Anniversary Item!
-	bm_global_value_cctp_unlock = "Compre o Mega City Tailor Pack para desbloquear",--Buy the Mega City Tailor Pack DLC to unlock
+	bm_global_value_cctp_unlock = "Compre o Mega City Tailor Pack para desbloquear!",--Buy the Mega City Tailor Pack DLC to unlock
 	menu_l_global_value_cctp = "Esse é um item do Mega City Tailor Pack!",--This is a Mega City Tailor Pack item!
 	menu_l_global_value_pda8 = "Esse é um item do Oitavo Aniversário do PAYDAY 2!",--This is a PAYDAY 2 8th Anniversary item!",
-	bm_global_value_sdtp_unlock = "Compre a DLC Guardians Tailor Pack para desbloquear.",--Buy the Guardians Tailor Pack DLC to unlock.
+	bm_global_value_sdtp_unlock = "Compre a DLC Guardians Tailor Pack para desbloquear!",--Buy the Guardians Tailor Pack DLC to unlock.
 	bm_global_value_solus_clan_unlock = "Entre no grupo do The Solus Project Official na Steam para desbloquear!",
 	bm_global_value_dbd_clan_unlock = "Entre no grupo do Dead by Daylight Official na Steam para desbloquear!",--Join the Dead by Daylight Official Community Group on Steam to unlock!
 	bm_menu_skill_locked_usp = "Entre no grupo oficial do PAYDAY 2 na Steam para desbloquear!",--Join the PAYDAY 2 Official Community Group on Steam to unlock!
 	bm_global_value_raidww2_clan_unlock = "Entre no grupo oficial do RAID: World War II na Steam para desbloquear!",--Join the RAID: World War II Steam Community to unlock
-	bm_global_value_hlm2_unlock = "Tenha o Hotline Miami 2 na Steam para desbloquear",--Own the Hotline Miami 2 Game on Steam to unlock
-	bm_global_value_hlm2_deluxe_unlock = "Tenha o Hotline Miami 2: Wrong Number - Digital Special Edition na Steam para desbloquear",--Own the Hotline Miami 2: Wrong Number - Digital Special Edition on Steam to unlock
-	bm_global_value_mbs_unlock = "Compre o Tailor Pack 2 para desbloquear.",--Buy the Tailor Pack 2 DLC to unlock.
-	bm_global_value_tstp_unlock = "Compre o Dragon Pack para desbloquear.",--Buy the Dragon Pack DLC to unlock
+	bm_global_value_hlm2_unlock = "Tenha o Hotline Miami 2 na Steam para desbloquear!",--Own the Hotline Miami 2 Game on Steam to unlock
+	bm_global_value_hlm2_deluxe_unlock = "Tenha o Hotline Miami 2: Wrong Number - Digital Special Edition na Steam para desbloquear!",--Own the Hotline Miami 2: Wrong Number - Digital Special Edition on Steam to unlock
+	bm_global_value_mbs_unlock = "Compre o Tailor Pack 2 para desbloquear!",--Buy the Tailor Pack 2 DLC to unlock.
+	bm_global_value_tstp_unlock = "Compre o Dragon Pack para desbloquear!",--Buy the Dragon Pack DLC to unlock
 	bm_global_value_chico_unlock = "Compre o Scarface Character Pack para desbloquear",
 	menu_l_global_value_tawp = "Esse é um item do Jiu Feng Smuggler Pack 3!",--This is a Jiu Feng Smuggler Pack 3 Item!
 	menu_l_global_value_sawp = "Esse é um item do Jiu Feng Smuggler Pack 2!",--This is a Jiu Feng Smuggler Pack 2 Item!
@@ -703,7 +707,13 @@ return {
 	menu_button_shout_and_stop = 'Gritar/Interagir "Pressionar" ou Parar IA "Segurar"',--Shout/Interact "Tap" or Stop AI "Hold"
 	menu_button_throw_grenade = "Arremessar Granada",--Throw grenade
 	
-	-- Nome dos Espólios
+	-- Nome dos Espólios/Equipamento da missão
+	hud_equipment_cargo_strap = "Alça",--Wire",
+	hud_equipment_sheriff_star = "Estrela do Xerife",--"Sheriff Star",
+	hud_equipment_stock = "Coronha da Arma",--"Weapon Stock",
+	hud_equipment_receiver = "Receptor da Arma",--"Weapon Receiver",
+	hud_equipment_barrel = "Cano da Arma",--"Weapon Barrel",
+	hud_equipment_silver_ingot = "Barra de Ferro",--Silver Ingot",
 	hud_carry_gnome = "Gnomo de Jardim",--"Garden gnome",
 	hud_equipment_laxative = "Produto de Limpeza",--Cleaning product
 	hud_carrying = "Carregando:",
@@ -869,8 +879,15 @@ return {
 	hud_equipment_adrenaline = "Adrenalina",--Adrenaline
 	hud_equipment_documents = "Documentos",--Documents
 	hud_equipment_business_card = "Cartão de Negócios",--Business Card
-	
+
 	-- Outros Interagindo
+	hud_action_enter_turret = "Equipando a Turret",--"Equipping turret",
+	hud_action_construct_weapon = "Montando a arma",--"Assembling Weapon",
+	hud_action_craft_sheriff_star = "Montando a estrela do Xerife",--"Crafting sheriff star",
+	hud_action_turning_on_water = "Ligando a água",--Turning on water",
+	hud_action_defusing_c4 = "Desarmando a C4",--Defusing C4",
+	hud_action_pulling_hose = "Puxando a mangueira",--Pulling hose",
+	hud_action_opening_briefcase = "Abrindo a maleta",--"Opening briefcase",
 	hud_int_action_lift_car = "Levantando o carro",--Lifting the car",
 	hud_int_hold_connecting_wire_to_door = "Prendendo a corda na porta",--Connecting the wire to the door",
 	hud_action_take_tea_set = "Pegando o Jogo de Chá",--"Taking tea set",
@@ -1031,7 +1048,7 @@ return {
 	hud_action_taking_pills = "Pegando Comprimidos",--Taking Pills
 	hud_action_taking_blow_torch = "Pegando o Maçarico",--Taking blow torch
 	hud_action_hack_timelock = "Forçando o Dispositivo",--Forcing device
-	hud_action_placing_c4 = "Colocando o C4",--Placing C4
+	hud_action_placing_c4 = "Colocando a C4",--Placing C4
 	hud_action_taking_gage_assignment = "Pegando um Pacote",--Picking it up
 	hud_action_connecting_cable = "Conectando o Cabo de Energia",--Connecting power cable
 	hud_action_attaching_magnet = "Prendendo ao Imã",--Attaching magnet
@@ -1255,10 +1272,32 @@ return {
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	hud_int_take_sheriff_star = "Segure $BTN_INTERACT para pegar a estrela do xerife",--"Hold  to pick up sheriff star",
+	hud_int_craft_sheriff_star = "Segure $BTN_INTERACT para montar a estrela do xerife",--"Hold  to craft sheriff star",
+	hud_hint_need_stock = "Necessário a coronha da arma",--"Requires weapon stock",
+	hud_hint_need_barrel = "Necessário o cano da arma",--"Requires weapon barrel",
+	hud_hint_need_receiver = "Necessário o receptor da arma",--"Requires weapon receiver",
+	hud_int_take_silver_ingot = "Segure $BTN_INTERACT para pegar uma barra de ferro",--"Hold  to pick up one silver ingot",
+	debug_interact_equipment_silver_ingot = "Você precisa de uma barra de ferro",--"You need a silver ingot",
+	hud_int_take_hammer = "Segure $BTN_INTERACT para pegar o martelo",--Hold  to pick up hammer",
+	hud_int_place_barrel = "Segure $BTN_INTERACT para colocar o cano da arma",--Hold  to place weapon barrel",
+	hud_int_take_barrel = "Segure $BTN_INTERACT para pegar o cano da arma",--"Hold  to take weapon barrel",
+	hud_int_start_truck = "Pressione $BTN_INTERACT para ligar a caminhonete",--Press  to start reversing truck",
+	hud_int_push_truck = "Segure $BTN_INTERACT para empurrar a caminhonete",--Hold  to push truck",
+	hud_int_release_brake = "Segure $BTN_INTERACT para soltar o freio de mão",--Hold  to release parking brake",
+	hud_int_take_stock = "Segure $BTN_INTERACT para pegar a coronha da arma",--Hold  to take weapon stock",
+	hud_int_attach_winchhook = "Segure $BTN_INTERACT para conectar o gancho do guincho",--Hold  to attach winch hook",
+	hud_int_pickup_horseshoe = "Pressione $BTN_INTERACT para pegar a ferradura",--Press  to pick up horseshoe",
+	hud_int_place_receiver = "Segure $BTN_INTERACT para colocar o receptor da arma",--Hold  to place weapon receiver",
+	hud_int_place_laptop = "Pressione $BTN_INTERACT para colocar o laptop",--Press  to place laptop",
+	hud_int_place_stock = "Segure $BTN_INTERACT para colocar a coronha da arma",--Hold  to place weapon stock",
+	hud_int_take_winchhook = "Segure $BTN_INTERACT para pegar o gancho do guincho",--Hold  to take winch hook",
+	hud_int_take_receiver = "Segure $BTN_INTERACT para pegar o receptor da arma",--"Hold  to take weapon receiver",
+	hud_int_take_laptop = "Pressione $BTN_INTERACT para pegar o Laptop",--"Press  to take laptop",
 	hint_no_documents = "Necessário documentos",--Need documents
 	hud_int_spike_cake = "Segure $BTN_INTERACT para fermentar o bolo",--Hold  to spike the cake
 	hud_int_press_number_sign = "Pressione $BTN_INTERACT para digitar #",--Press  to enter #
-	hud_equipment_pent_need_keys = "Requer Chaves do Carro",--Car keys required
+	hud_equipment_pent_need_keys = "Requer as Chaves do Carro",--Car keys required
 	hud_born_give_item = "Pressione $BTN_INTERACT para passar o item",--Press  to hand over item
 	hud_cas_close_door = "Pressione $BTN_INTERACT para fechar a porta",--Press  to close the door
 	hud_check_customer_database = "Segure $BTN_INTERACT para baixar a lista de convidados",--Hold  to download guest list
@@ -1266,8 +1305,8 @@ return {
 	hud_int_flip_table = "Segure $BTN_INTERACT para virar a mesa",--Hold  to flip the table
 	hud_int_help_vlad = "Segure $BTN_INTERACT para ajudar Vlad",--Hold  to help Vlad up
 	hud_int_hold_boot_generator = "Segure $BTN_INTERACT para ligar o gerador",--Hold  to boot up the generator
-	hud_int_hold_connect_wire_to_door = "Segure $BTN_INTERACT para prender a corda na porta",--Hold  to connect the wire to the door
-	hud_int_hold_connect_wire_to_elevator = "Segure $BTN_INTERACT para prender a corda no elevador",--Hold  to connect the wire to the elevator
+	hud_int_hold_connect_wire_to_door = "Segure $BTN_INTERACT para prender a alça na porta",--Hold  to connect the wire to the door
+	hud_int_hold_connect_wire_to_elevator = "Segure $BTN_INTERACT para prender a alça no elevador",--Hold  to connect the wire to the elevator
 	hud_int_hold_flip_light_off = "Pressione $BTN_INTERACT para desligar as luzes",--Press  to turn off the lights
 	hud_int_hold_hack_box = "Segure $BTN_INTERACT para abrir a caixa",--Hold  to open the hack box
 	hud_int_hold_ignite_thermite = "Segure $BTN_INTERACT para acender o termite",--Hold  to ignite the thermite
@@ -1279,7 +1318,7 @@ return {
 	hud_int_hold_search_code = "Segure $BTN_INTERACT para procurar pelo código",--Hold  to search for the code
 	hud_int_hold_start_brew = "Pressione $BTN_INTERACT para ligar a cafeteira",--Press  to start the coffee machine
 	hud_int_hold_start_fire_alarm = "Pressione $BTN_INTERACT para disparar o alarme de incêndio",--Press  to trigger the fire alarm
-	hud_int_hold_to_place_gasoline = "Segure $BTN_INTERACT para colocar gasoline",--Hold  to place the gasoline
+	hud_int_hold_to_place_gasoline = "Segure $BTN_INTERACT para colocar gasolina",--Hold  to place the gasoline
 	hud_int_open_first_aid_kit = "Segure $BTN_INTERACT para abrir o kit de primeiros socorros",--Hold  to open the first aid kit
 	hud_int_pku_disable_firewall = "Segure $BTN_INTERACT para desabilitar firewall",--Hold  to disable firewall
 	hud_int_pku_force_open_vent = "Segure $BTN_INTERACT para abrir a ventilação",--Hold  to open the vent
@@ -1929,7 +1968,7 @@ return {
 	hud_int_fork_lift_sound = "Segure $BTN_INTERACT para ligar a empilhadeira",--Hold $BTN_INTERACT; to start the fork lifter
 	hud_int_hold_remove_cover = "Segure $BTN_INTERACT para remover a cobertura",--Hold $BTN_INTERACT; to remove the cover
 	hud_int_search_washer = "Segure $BTN_INTERACT para procurar na lavadora",--Hold $BTN_INTERACT; to search washer
-	hud_int_set_off_alarm = "Segure $BTN_INTERACT para desligar o alarme",--Hold $BTN_INTERACT; to set off the alarm
+	hud_int_set_off_alarm = "Segure $BTN_INTERACT para ativar o alarme",--Hold $BTN_INTERACT; to set off the alarm
 	hud_int_hack_server_room = "Segure $BTN_INTERACT para hackear o laptop",--Hold $BTN_INTERACT; to hack laptop
 	hud_int_take_c4 = "Pressione $BTN_INTERACT para pegar o C4",--Press $BTN_INTERACT; to take the C4
 	hud_int_search_display_case = "Segure $BTN_INTERACT para procurar pela vitrine",--Hold $BTN_INTERACT; to search display case
@@ -2052,8 +2091,12 @@ return {
 	hud_int_hold_xm20_mask = "Segure $BTN_INTERACT para pegar a máscara",
 	hud_hold_place_gas_can = "Segure $BTN_INTERACT para colocar o galão de gasolina",
 	hud_hold_restart_timer = "Segure $BTN_INTERACT para reiniciar o cronômetro",
-	
+
 	-- Caixas de confirmações + Notificações do SISTEMA
+	dialog_texas_heat_drop_name = "Drop da Twitch",--ERROR:
+	dialog_sbzacc_drop_name = "Conta Starbreeze",--"Starbreeze Account",
+	dialog_external_items_title = "Novos itens importados",--New Imported Loot",
+	dialog_external_items_prefix_desc = "Os itens especiais foram adicionados no seu inventário!",--"Special items were smuggled to your inventory!",
 	dialog_default_video_options_message = "Tem certeza que deseja restaurar as opções de vídeo ao seu estado padrão?",--Do you wish to reset all video options to their default state?
 	dialog_cancel = "Cancelar",
 	dialog_yes = "Sim",
@@ -2131,11 +2174,11 @@ return {
 	dialog_mp_banned_title = "BANIDO",--BANNED
 	dialog_mp_banned_body = "Você foi banido pelo host.",--You have been banned by the host.
 	dialog_key_binding_collision = 'Tecla "$KEY" já está mapeada para "$MAPPED", por favor remape-o primeiro.',--Key "$KEY;" is already mapped to "$MAPPED;", please remap it first.
-	
+
 	-- Tela de Título
 	menu_visit_forum3 = "Pressione qualquer botão",
 	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
-	
+
 	-- Menu Principal
 	menu_crimenet_event_help = "Jogue um modo de jogo único onde matar unidades especiais vão surgir balões!",--Play a unique game mode where killing special units spawns balloons!
 	menu_crimenet_event = "Jogar Evento",--Play Event
@@ -3498,6 +3541,51 @@ return {
 	menu_pp_chca_deaddrop_006 = "Banheiro de Spa",--Spa bathroom
 	menu_pp_chca_deaddrop_007 = "Bar do Heliporto",--Helipad deck bar
 	menu_pp_chca_deaddrop_008 = "Convés",--Crew deck
+	menu_pp_asset_ranc_extra_weapon_parts = "Partes Extras das Armas",--Extra Weapon Parts",
+	menu_pp_asset_ranc_marked_crate = "Caixas das Partes das Armas Marcadas",--Mark Weapon Part Crates",
+	menu_pp_asset_ranc_plane_loot_secure = "Gaiola de Espólio do Avião (Loud)",--Fulton Loot Secure (Loud)",
+	menu_pp_asset_ranc_plane_loot_secure_desc = "Extraia o espólio numa gaiola com um balão com a ajuda de um avião (Apenas Loud).",--Extract loot to a plane via a fulton surface-to-air balloon and cage (Loud only).",
+	menu_pp_asset_ranc_reduce_countermeasure_desc = "Reduzirá o risco de ativar as contras medidas durante a missão que irá soar o alarme. (Apenas Stealth).",--Reduces the risk of triggering countermeasures during the heist, which will alert the police unless they are deactivated. (Stealth only).",
+	menu_pp_asset_ranc_reduce_countermeasure = "Contra Medidas (Stealth)",--Countermeasures (Stealth)",
+	menu_pp_asset_ranc_extra_weapon_parts_desc = "Uma entrega extra das partes das armas acabaram de chegar no Rancho Midland. É todo seu.",--"An extra delivery of weapon parts has just arrived at Midland Ranch. Yours for the taking.",
+	menu_pp_asset_ranc_marked_crate_desc = "Marcará as caixas das partes das armas para identificar sem a necessidade de abrir.",--Marks weapon part crates so they're easier to identify without opening.",
+	menu_pp_ranc_spycam007 = "Fazenda B - Área de Carregamento",--Barn B - Loading Area",
+	menu_pp_ranc_crowbar001 = "Docas",--"Dock",
+	menu_pp_ranc_deaddrop005 = "Garagem",--"Garage",
+	menu_pp_ranc_deaddrop004 = "Fonte",--Fountain",
+	menu_pp_ranc_spycam010 = "Fazenda C - Entrada Norte",--Barn C - North Entrance",
+	menu_pp_ranc_spycam001 = "Rancho - Salão",--Ranch House - Lobby",
+	menu_pp_ranc_deaddrop003 = "Ferro-Velho",--Scrapyard",
+	menu_pp_ranc_spotter002 = "Rancho - Portão",--"Ranch House - Heavy Gate",
+	menu_pp_ranc_spycam004 = "Rancho - Sala de Jantar",--"Ranch House - Dining Corridor",
+	menu_pp_ranc_spycam011 = "Fazenda C - Entrada Sul",--Barn C - South Entrance",
+	menu_pp_ranc_deaddrop008 = "Estande de Tiro",--Shooting Range",
+	menu_pp_ranc_spycam008 = "Fazenda B - Entrada Sul",--"Barn B - South Entrance",
+	menu_pp_ranc_plane_loot_secure002 = "Fazenda Sul",--South Barn",
+	menu_pp_ranc_deaddrop002 = "Cabana Abandonada",--"Abandoned Shack",
+	menu_pp_ranc_spycam002 = "Rancho - Cozinha",--"Ranch House - Kitchen",
+	menu_pp_ranc_deaddrop006 = "Chuveiro",--Showers",
+	menu_pp_ranc_spotter003 = "Rancho - Fogueira",--"Ranch House - Firepit",
+	menu_pp_ranc_spotter005 = "Oficina - Portão",--Workshop - Heavy Gate",
+	menu_pp_ranc_spycam005 = "Rancho - Garagem",--"Ranch House - Garage",
+	menu_pp_ranc_bpr_loc_a = "Rancho Midland",--"Midland Ranch",
+	menu_pp_ranc_sniper002 = "Rancho e a Área de Recriação",--"Ranch House and Recreation Area",
+	menu_pp_ranc_deaddrop007 = "Cabana",--Shed",
+	menu_pp_ranc_spotter006 = "Oficina - Fazenda Sul",--"Workshop - South Barn"
+	menu_pp_ranc_sniper001 = "Oficinas",--"Workshops",
+	menu_pp_ranc_spycam009 = "Fazenda B - Entrada Norte",--"Barn B - North Entrance",
+	menu_pp_ranc_spotter001 = "Rancho - Frontal",--"Ranch House - Front",
+	menu_pp_ranc_reduce_countermeasure001 = "Reduz o risco de contra medidas",--Reduce risk of countermeasures",
+	menu_pp_ranc_deaddrop010 = "Silo",--Silo",
+	menu_pp_ranc_plane_loot_secure003 = "Portão da Oficina",--"Workshop Gate",
+	menu_pp_ranc_extra_weapon_parts001 = "Partes Extras das Armas",--"Extra weapon parts",
+	menu_pp_ranc_deaddrop001 = "Moinho de Vento",--Windmill",
+	menu_pp_ranc_plane_loot_secure001 = "Estande de Tiro",--Shooting Range",
+	menu_pp_ranc_spycam003 = "Rancho - Sala de Jantar",--"Ranch House - Dining Room",
+	menu_pp_ranc_spycam006 = "Fazenda A - Entrada",--"Barn A - Entrance",
+	menu_pp_ranc_spotter004 = "Rancho - Varanda dos Fundos",--"Ranch house - Back Porch",
+	menu_pp_ranc_mark_crates001 = "Marcar as Caixas das Armas",--"Mark weapon crates",
+	menu_pp_ranc_deaddrop009 = "Oficina",--"Workshop",
 	menu_asset_location = "Localização da Posse",--Asset Location
 	menu_pp_asset_fex_stealth_semi_open_garage_door = "Porta Semi-Aberta da Garagem (Stealth)",
 	menu_pp_asset_fex_stealth_semi_open_garage_door_desc = "Um amigo facilitará sua entrada na Mansão.",

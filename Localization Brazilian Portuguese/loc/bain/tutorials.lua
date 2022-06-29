@@ -363,7 +363,7 @@ return {
 	hud_heist_short2_stage2b_14_hl = "Lute contra os Policiais",
 	hud_heist_short2_stage2b_04 = "Faça um refém para trocar pelo seu companheiro.",
 	hud_heist_short2_stage1_11_hl = "Mate a SWAT",
-	hud_heist_short2_stage1_04 = "Coloque a mascará para começar o assalto.",
+	hud_heist_short2_stage1_04 = "Coloque a máscara para começar o assalto.",
 	hud_heist_short2_stage1_13_hl = "Assegure a Cocaína",
 	hud_heist_short2_stage2b_08_hl = "Vá para fora",
 	hud_heist_short2_stage2b_02_hl = "Pegue a Cocaína",

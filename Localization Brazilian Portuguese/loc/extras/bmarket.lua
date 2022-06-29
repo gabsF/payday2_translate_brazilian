@@ -318,6 +318,9 @@ return {
 	bm_suit_texvest_green_desc = "Lembre-se das suas rotas.",--Remember your roots.
 	bm_suit_var_texvest_default_desc = "Sertanejo com classe.",--Country with class.
 
+	bm_suit_mocow_desc = "Todo aquele estilo caubói icônico, mas nada do fedor ou sujeira dos animais. Você seria um convidado especial num saloon do Velho Oeste e num clube de dança.",--All the iconic swagger of the American cowboy, but none of the filth or animal-stink. You'd be a welcome guest at the dance club and the Old West saloon.",
+	bm_suit_newhorizon_desc = "Uma nova era está chegando. Alianças foram formadas. Caminhos se cruzaram. Aquela luz no fim do túnel está ficando mais forte.\n\nTá pronto pelo futuro?",--"A new era is dawning. Alliances have been formed. Courses have been set. That fiery glow in the distance is only getting brighter.\n\nAre you ready for what's next?",
+
 	-- LUVAS
 	bm_gloves_default_desc = "Use as Luvas padrão dos Heisters",--Use the heisters default gloves
 	bm_gloves_heistwrinkled_desc = "Vestido para roubar.",--Dressed up for stealing.
