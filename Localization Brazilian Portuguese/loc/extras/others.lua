@@ -1,10 +1,4 @@
 return {
-	-- Texto "Legal"
-	--legal_text = "",--
-
-	-- Tentativa de mudar o sinal de dolar para o real brasileiro (não funcionou)
-	-- cash_sign = "R$",--$
-
 	-- Telas de Loading
 	savefile_progress_description = "Estatísticas do Jogador e Progressão de Jogo",--Player statistics and game progression.
 	savefile_saving = "Salvando...",
