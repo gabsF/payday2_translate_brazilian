@@ -702,6 +702,7 @@ return {
 	menu_button_throw_grenade = "Arremessar Granada",--Throw grenade
 	
 	-- Nome dos Espólios/Equipamento da missão
+	hud_equipment_car_jack = "Macaco",--Car jack",
 	hud_equipment_cargo_strap = "Alça",--Wire",
 	hud_equipment_sheriff_star = "Estrela do Xerife",--"Sheriff Star",
 	hud_equipment_stock = "Coronha da Arma",--"Weapon Stock",
@@ -1266,6 +1267,8 @@ return {
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	debug_interact_press_open_trunk = "Pressione $BTN_INTERACT para abrir o porta-malas",--Press  to Open Trunk",
+	debug_interact_long_pour_gas = "Segure $BTN_INTERACT para derramar gasolina",--Hold  to pour Gasoline",
 	hud_int_take_sheriff_star = "Segure $BTN_INTERACT para pegar a estrela do xerife",--"Hold  to pick up sheriff star",
 	hud_int_craft_sheriff_star = "Segure $BTN_INTERACT para montar a estrela do xerife",--"Hold  to craft sheriff star",
 	hud_hint_need_stock = "Necessário a coronha da arma",--"Requires weapon stock",
@@ -3535,8 +3538,8 @@ return {
 	menu_pp_chca_deaddrop_006 = "Banheiro de Spa",--Spa bathroom
 	menu_pp_chca_deaddrop_007 = "Bar do Heliporto",--Helipad deck bar
 	menu_pp_chca_deaddrop_008 = "Convés",--Crew deck
-	menu_pp_asset_ranc_extra_weapon_parts = "Partes Extras das Armas",--Extra Weapon Parts",
-	menu_pp_asset_ranc_marked_crate = "Caixas das Partes das Armas Marcadas",--Mark Weapon Part Crates",
+	menu_pp_asset_ranc_extra_weapon_parts = "Peças Extras das Armas",--Extra Weapon Parts",
+	menu_pp_asset_ranc_marked_crate = "Marcar as caixas da peça da arma",--Mark Weapon Part Crates",
 	menu_pp_asset_ranc_plane_loot_secure = "Gaiola de Espólio do Avião (Loud)",--Fulton Loot Secure (Loud)",
 	menu_pp_asset_ranc_plane_loot_secure_desc = "Extraia o espólio numa gaiola com um balão com a ajuda de um avião (Apenas Loud).",--Extract loot to a plane via a fulton surface-to-air balloon and cage (Loud only).",
 	menu_pp_asset_ranc_reduce_countermeasure_desc = "Reduzirá o risco de ativar as contras medidas durante a missão que irá soar o alarme. (Apenas Stealth).",--Reduces the risk of triggering countermeasures during the heist, which will alert the police unless they are deactivated. (Stealth only).",

@@ -30,7 +30,7 @@ return {
 	["menu_vr_autowarp_length_desc"] = "Dash automático permite que você segure o botão para iniciar um novo Dash assim que a sua habilidade de Dash tenha recarregado.",--Automatic dash allows you to hold down on the off-hand track pad to initiate a new dash as soon as your dash ability has refilled.",
 	["addation_c0345cd9e0b726dc"] = "Mortes",--Deaths",
 	["hud_int_hold_action_choose_hand_right"] = "Escolhendo mão direita",--Choosing right hand",
-	["menu_vr_default_tablet_hand"] = "Tablet de Mão",--Tablet hand",
+	["menu_vr_default_tablet_hand"] = "Tablete de Mão",--Tablet hand",
 	["addation_3eb27e13f601ced5"] = "Altura entre Ombro e Cabeça",--Height from shoulder to head",
 	["addation_4ff6356cdba73a8b"] = "Tamanho do braço",--Arm length",
 	["bm_menu_vr_locked"] = "Não disponível em VR",--Not available in VR",
