@@ -6,6 +6,8 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	menu_l_global_value_txt2 = "Esse é um item do High Octane Tailor Pack!",--This is a High Octane Tailor Pack Item!",
+	bm_global_value_txt2_unlock = "Compre o High Octane Tailor Pack para desbloquear!",--Buy the High Octane Tailor Pack to unlock!",
 	menu_l_global_value_rat = "Esse é um item do Texas Heat!",--"This is a Texas Heat Item!",
 	bm_global_value_rat_unlock = "Esse item requer um Drop da Twitch para desbloquear!",--"This item requires a Twitch drop to unlock!",
 	menu_l_global_value_prim = "Esse é um item do Prime Matter!",--This is a Prime Matter Item!",
@@ -702,6 +704,8 @@ return {
 	menu_button_throw_grenade = "Arremessar Granada",--Throw grenade
 	
 	-- Nome dos Espólios/Equipamento da missão
+	hud_equipment_hammer = "Martelo",--"Hammer",
+	hud_equipment_audio_device = "Escuta",--"Bugging Device",
 	hud_equipment_car_jack = "Macaco",--Car jack",
 	hud_equipment_cargo_strap = "Alça",--Wire",
 	hud_equipment_sheriff_star = "Estrela do Xerife",--"Sheriff Star",
@@ -1267,6 +1271,20 @@ return {
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações
+	hud_int_disassemble_turret = "Segure $BTN_INTERACT para desmontar a torreta",--"Hold  to disassemble turret",
+	hud_int_take_bugging_device = "Segure $BTN_INTERACT para pegar escutas",--"Hold  to take bugging device",
+	hud_int_construct_weapon = "Segure $BTN_INTERACT para construir a arma",--"Hold  to construct weapon",
+	hud_int_take_turret_part = "Segure $BTN_INTERACT para pegar a parte da torreta",--"Hold  to pick up turret part",
+	hud_int_pour_acid = "Segure $BTN_INTERACT para derramar ácido",--"Hold  to pour acid",
+	hud_int_enter_turret = "Segure $BTN_INTERACT para usar a torreta",--"Hold  to equip turret",
+	hud_int_assemble_turret = "Segure $BTN_INTERACT para montar a torreta",--"Hold  to unpack turret",
+	hud_int_take_mould = "Segure $BTN_INTERACT para pegar o mold",--"Hold  to pick up mold"
+	hud_int_wake_computer = "Pressione $BTN_INTERACT para ligar o computador",--"Press  to wake up computer",
+	hud_int_place_hammer = "Pressione $BTN_INTERACT para colocar o martelo",--"Press  to place hammer",
+	hud_int_turn_on_firepit = "Pressione $BTN_INTERACT para ligar a fogueira",--"Press  to turn on firepit",
+	hud_int_place_mould = "Pressione $BTN_INTERACT para colocar o mold",--Press  to place mold",
+	hud_int_take_ranc_acid = "Pressione $BTN_INTERACT para pegar ácido",--"Press  to take acid",
+	hud_int_open_door = "Pressione $BTN_INTERACT para abrir a porta",--"Press  to open door",
 	debug_interact_press_open_trunk = "Pressione $BTN_INTERACT para abrir o porta-malas",--Press  to Open Trunk",
 	debug_interact_long_pour_gas = "Segure $BTN_INTERACT para derramar gasolina",--Hold  to pour Gasoline",
 	hud_int_take_sheriff_star = "Segure $BTN_INTERACT para pegar a estrela do xerife",--"Hold  to pick up sheriff star",

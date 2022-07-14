@@ -1,5 +1,6 @@
-12.00 [BETA]
+12.00 - 13 de Julho de 2022
 * Traduzido Midland Heist (Traduzida por gabsF, revisado por HimuraBR)
 * Traduzido um nome de equipamento de missão
-* Traduzido duas interações de primeira pessoa que faltavam
+* Traduzido várias interações em primeira pessoa
 * Corrigdo a tela de transição no Border Crossing
+* Traduzido o conteúdo do High Octane Tailor Pack
