@@ -879,7 +879,20 @@ return {
 	hud_equipment_documents = "Documentos",--Documents
 	hud_equipment_business_card = "Cartão de Negócios",--Business Card
 
-	-- Outros Interagindo
+	-- Outros Interagindo (Terceira Pessoa)
+	hud_action_sliding_ramp = "Movendo a rampa",--"Moving ramp",
+	hud_action_breach_shutter = "Forçando a porta de garagem",--"Forcing open the shutter",
+	hud_action_take_hand = "Pegando a mão protética",--"Taking prosthetic hand",
+	hud_action_using_paddles = "Usando as pás",--"Using paddles",
+	hud_action_opening_slide_gate = "Abrindo o portão",--"Opening gate",
+	hud_action_raise_ramp = "Levantando a rampa",--"Raising the ramp",
+	hud_action_start_truck = "Ligando a caminhonete",--"Starting truck",
+	hud_action_release_brake = "Soltando o freio de mão",--Releasing parking brake",
+	hud_action_take_winchhook = "Pegando o gancho do guincho",--"Taking winch hook",
+	hud_action_xm20_mask = "Pegando a máscara",--Picking up the mask",
+	hud_action_attach_winchhook = "Colocando o gancho do guincho",--Attaching winch hook",
+	hud_action_applying_tape = "Colocando a fita",--"Applying tape",
+	hud_action_pushing_truck = "Empurrando a caminhonete",--Pushing truck",
 	hud_action_enter_turret = "Equipando a Turret",--"Equipping turret",
 	hud_action_construct_weapon = "Montando a arma",--"Assembling Weapon",
 	hud_action_craft_sheriff_star = "Montando a estrela do Xerife",--"Crafting sheriff star",
@@ -1270,7 +1283,7 @@ return {
 	hud_action_assembling_bomb = "Montando Explosivos",
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
-	-- Interações
+	-- Interações (Primeira Pessoa)
 	hud_int_disassemble_turret = "Segure $BTN_INTERACT para desmontar a torreta",--"Hold  to disassemble turret",
 	hud_int_take_bugging_device = "Segure $BTN_INTERACT para pegar escutas",--"Hold  to take bugging device",
 	hud_int_construct_weapon = "Segure $BTN_INTERACT para construir a arma",--"Hold  to construct weapon",
@@ -2195,6 +2208,11 @@ return {
 	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
 
 	-- Menu Principal
+	menu_nh_txt2_02 = "Checa o Lost in Trasit Bundle aqui!",--"Check out the Lost in Transit Bundle here!",
+	menu_nh_txt2_01 = "Compre o High Octane Tailor Pack agora!",--"Buy the High Octane Tailor Pack now!",
+	menu_nh_sbzacc_01 = "Resgate os seus cosméticos grátis hoje mesmo!",--"GET YOUR FREE COSMETICS TODAY! ",
+	menu_nh_txt1_02 = "O Midland Bundle está disponível agora!",--"The Midland Bundle is available now!",
+	menu_nh_ranc_01 = "Checa a Midland Ranch Heist!",--"Check out the Midland Ranch heist!",
 	menu_crimenet_event_help = "Jogue um modo de jogo único onde matar unidades especiais vão surgir balões!",--Play a unique game mode where killing special units spawns balloons!
 	menu_crimenet_event = "Jogar Evento",--Play Event
 	menu_spendable_skill_points = "Pontos de Skills restantes: $points",
@@ -2508,6 +2526,9 @@ return {
 	menu_toggle_dot_hide_ads_help = "Esconde ou mostra o ponto anti-náusea enquanto estiver mirando com a sua arma.",--Hide or Show Motion Dot while aiming down sights
 	
 	-- HUD
+	hud_vehicle_no_enter_berserker = "Não pode entrar no veículo enquanto Swan Song estiver ativo",--"Cannot enter the vehicle while Swan Song is active",
+	hud_vehicle_wait_respawn = "Esperando o motorista respawnar o veículo",--Waiting for the driver to respawn the vehicle",
+	hud_assault_pnr_goloud_in = "Detectado em: ",--"Detected in: ",
 	hud_access_camera_feed_lost = "Transmissão perdida",--Feed lost
 	hud_assault_point_no_vlad_in = "Vlad vai morrer em",--Vlad will die in
 	menu_achievements_tracking_notify = "MONITORANDO",
@@ -3542,11 +3563,14 @@ return {
 	menu_pp_asset_chca_spiked_drink = "Bebida Estragada",--Spiked drink
 	menu_pp_asset_chca_unlocked_doors_desc = "Todas as portas que levam e que tem no convés vão estar abertas pelo o contato do Jiu Feng.",--All doors to and on the Crew Deck will be left unlocked by Jiu Feng's inside man.
 	menu_pp_asset_chca_unlocked_doors = "Portas Destrancadas",--Unlocked Doors
+	menu_pp_chca_bpr_loc_c = "Convés Inferior",--"Lower deck",
+	menu_pp_chca_bpr_loc_b = "Convés Intermediário",--"Middle deck",
+	menu_pp_chca_bpr_loc_a = "Convés Superior",--"Upper deck",
 	menu_pp_chca_spycam_001 = "Cassino",--Casino
 	menu_pp_chca_spycam_002 = "Área Esquerda do Quarto",--Cabin area left
 	menu_pp_chca_spycam_003 = "Área Direita do Quarto",--Cabin area right
 	menu_pp_chca_spycam_004 = "Spa",--Spa
-	menu_pp_chca_camera_access_001 = "Convés",--Crew Deck
+	menu_pp_chca_camera_access_001 = "Convés da Tripulação",--Crew Deck
 	menu_pp_chca_camera_access_002 = "Área do Banheiro",--Cabin area bathroom
 	menu_pp_chca_deaddrop_001 = "Cassino",--Casino
 	menu_pp_chca_deaddrop_002 = "Área de Botes Salva-Vidas",--Lifeboat balcony
@@ -5252,6 +5276,8 @@ return {
     menu_playable_characters = "A Gangue PAYDAY",--The Payday Gang
     menu_contact_info_title = "Crime.net/Contato_Database",--Crime.Net/Contact_Database
 	--menu_continental = "O Continental",--The Continental
+	heist_contact_mcshay_description = "Uma Texana desde que nasceu, Gemma McShay vem de uma família grande de vigaristas meia boca, mas ela se distinguiu como uma ladrã perfeita, melhor do que a sua família. Ela trabalha como um membro de alta patente em uma gangue Texana, operando os seus negócios de tráfico diariamente. Gemma é descontraída, o seu charme é uma camuflagem para esconder a sua crueldade. Se alguém entrar no seu caminho, ela não pensará duas vezes para retribuir o favor.",--"A Texan since birth, Gemma McShay comes from a large family of small-time grifters, but she quickly distinguished herself as a sharper and more capable thief than any of her kin. She now works as a high-ranking member of a Texas-based smuggling ring, overseeing many of its day-to-day operations herself. Gemma's laid-back, gregarious charm is a camouflage to hide her ruthless cunning. If someone crosses her, she's not afraid to strike back.",
+	heist_contact_shayu_description = "Shayu é um membro poderoso da Adaga Dourada, sua base principal está no San Francisco. Nascida em Macao, China, ela se envolveu com o crime desde jovem, gerenciando benefícios adicionais para os sindicatos do crime locais. Com o tempo, foi ganhando uma reputação para eficiência e lealdade, ela foi recrutada pela a Adaga Dourada para vigiar as operações entre Hong Kong, Singapura e San Francisco. Ela é uma diplomata e perfeitamente capaz de lidar com as situações precárias com um balanço perfeito entre crueldade e pragmatismo.",--"Shayu is a powerful member of the Golden Dagger Triad, based in San Francisco. Born in Macao, China, she got involved with crime at an early age, running fringe jobs for local crime syndicates. Over time gaining a reputation for efficiency and loyalty, she was recruited by the Golden Dagger Triad to oversee smuggling operations running between Hong Kong, Singapore, and San Francisco. She is a shrewd diplomat and perfectly able to handle tough situations with a superb balance between ruthlessness and pragmatism.",
 	heist_contact_jiufeng_description = "Então, você pode me chamar de Jiu Feng. Pessoas dizem que a gangue Payday é é perfeita para fazer parceria, certo? E que você sempre vai precisar de... vendedores. Acho que os meus serviços podem ser interessantes. Talvez algo como... armas de alto preço que podem ser comprados. Pensa sobre isso e conversaremos, tá bom?",
 	heist_contact_hector_description = 'Um ex-chefe de administração, Hector é o maior traficante de drogas da Costa Leste, e o próximo para liderar o cartel Sinaloan no México.',--A detail-oriented former business administrator, Hector is the biggest drug trafficker on the Eastern Seaboard and next in line for leadership of the Sinaloan Cartel in Mexico.
 	heist_contact_the_butcher_description = 'O negócio da Butcher são armas - suas compras, vendas e distribuição. Com o Gage em umas "férias estendidas", ela está procurando uma relação comercial longa com o Bain e a Gangue PAYDAY.',--The Butcher's business is weapons - their procurement, sale and distribution. With Gage on an "extended vacation", she is looking forward to a long and fruitful business relationship with Bain and the Payday Gang.
@@ -5917,4 +5943,14 @@ return {
 	menu_challenge_the_first_line_desc = "O Elefante gosta de colecionar itens raros de esportes. Tem um pôster raro do time de hóquei da OVERKILL em uma das caixas de depósito do Dia 3 da Firestarter! Recupere-o.",--The Elephant collects rare sports memorabilia. There is a rare poster of the OVERKILL hockey team in one of the deposit boxes in Firestarter (Day 3). Recover it!
 	menu_challenge_the_first_line_objective = "No Dia 3 da Firestarter, encontre o pôster raro do time de hóquei da OVERKILL.",--On day 3 of the Firestarter job, find the rare hockey poster of the OVERKILL hockey team.
 	menu_challenge_voff_3 = "Roubando no Escuro",--Looting in the Dark
+
+	-- Nomes dos veículos
+	vhl_rust_bike_name = "Moto do Rust",--"Rust's bike",
+	vhl_bike_name = "Moto",--Bike",
+	vhl_golfcart_name = "Carrinho de Golfe",--"Golf Cart"
+	vhl_forklift_name = "Empilhadeira",--"Forklift",
+	vhl_truck_name = "Caminhão",--"Truck",
+	--vhl_longfellow_name = "",--"Longfellow",
+	--vhl_blackhawk_name = "Blackhawk",
+	--vhl_falcogini_name = "Falcogini",
 }

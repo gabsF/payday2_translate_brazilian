@@ -152,7 +152,7 @@ return {
 
 	-- TIER 1
 	--menu_underdog_beta = "Underdog",
-	menu_underdog_beta_desc = "BÁSICO: ##$basic##\nQuando três ou mais inimigos dentro de ##$multibasic;## metros estão com a mira em você, você causará ##$multibasic2;## mais dano com duração de ##$multibasic3;##. \n\nAVANÇADO: ##$pro##\nQuando três ou mais inimigos dentro de ##$multipro;## metros estão com a mira em você, você receberá ##$multipro2;## menos dano que dura por ##$multipro3;## segundos.\n\nNota: não aplica em dano corpo-a-corpo, granadas, lança-granadas ou lança-foguetes.",
+	menu_underdog_beta_desc = "BÁSICO: ##$basic##\nQuando três ou mais inimigos dentro de ##$multibasic;## metros estão com a mira em você, você causará ##$multibasic2;## mais dano com duração de ##$multibasic3;## segundos. \n\nAVANÇADO: ##$pro##\nQuando três ou mais inimigos dentro de ##$multipro;## metros estão com a mira em você, você receberá ##$multipro2;## menos dano que dura por ##$multipro3;## segundos.\n\nNota: não aplica em dano corpo-a-corpo, granadas, lança-granadas ou lança-foguetes.",
 --BASIC: ##$basic;##\nWhen three or more enemies within ##$multibasic;## meters are targeting you, you receive a ##$multibasic2;## damage bonus that lasts for ##$multibasic3;## seconds.\n\nACE: ##$pro;##\nWhen three or more enemies within ##$multipro;## meters are targeting you, you also receive a ##$multipro2;## damage reduction that lasts for ##$multipro3;## seconds.\n\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers.
 	-- TIER 1
 

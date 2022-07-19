@@ -15,8 +15,8 @@ return {
 	LocalizationBrazilianPortugueseBRLCurrencyDescID = "Deixe a Gangue Payday na pobreza!",
 
     LocalizationBrazilianPortugueseHopLibShouldBeInPortugueseTitleID = "Hoplib em português",
-	LocalizationBrazilianPortugueseHopLibShouldBeInPortugueseDescID = "Decide se a tradução deveria forçar o Hoplib ficar em português.",
+	LocalizationBrazilianPortugueseHopLibShouldBeInPortugueseDescID = "Decide se a tradução deveria forçar o Hoplib e os seus mods ficarem em português.",
 
     LocalizationBrazilianPortugueseBeardLibShouldBeInPortugueseTitleID = "Beardlib em português",
-	LocalizationBrazilianPortugueseBeardLibShouldBeInPortugueseDescID = "Decide se a tradução deveria forçar o Beardlib ficar em português.\n[AVISO: A TRADUÇÃO DO JOGO TAMBÉM DEPENDE DESSA OPÇÃO.]",
-	}
+	LocalizationBrazilianPortugueseBeardLibShouldBeInPortugueseDescID = "Decide se a tradução deveria forçar o Beardlib ficar em português.",
+}

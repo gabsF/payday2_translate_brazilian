@@ -1,6 +1,12 @@
-12.00 - 13 de Julho de 2022
-* Traduzido Midland Heist (Traduzida por gabsF, revisado por HimuraBR)
-* Traduzido um nome de equipamento de missão
-* Traduzido várias interações em primeira pessoa
-* Corrigdo a tela de transição no Border Crossing
-* Traduzido o conteúdo do High Octane Tailor Pack
+
+
+12.01 - Pequena atualização
+* Traduzido uma parte da HUD que só aparecia no Stealth do Ranch Midland
+* Traduzido mais duas dicas na HUD
+* A opção do "BeardLib em Português" não afetará a tradução
+* Traduzido a informações de contato da McShay e da Shayu
+* Traduzido os nomes de alguns veíuclos
+* Traduzido mais interações em terceira pessoa
+* Corrigido a descrição da skill Underdog
+* Traduzido os nomes dos lugares que estavam faltando em Black Cat
+* Adicionado mais easter eggs nas máscaras
