@@ -6,6 +6,7 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	bm_menu_skill_locked_saw_secondary = 'Requer a Skill "Portable Saw"',--"Requires the Portable Saw skill"
 	menu_l_global_value_txt2 = "Esse é um item do High Octane Tailor Pack!",--This is a High Octane Tailor Pack Item!",
 	bm_global_value_txt2_unlock = "Compre o High Octane Tailor Pack para desbloquear!",--Buy the High Octane Tailor Pack to unlock!",
 	menu_l_global_value_rat = "Esse é um item do Texas Heat!",--"This is a Texas Heat Item!",
@@ -704,6 +705,7 @@ return {
 	menu_button_throw_grenade = "Arremessar Granada",--Throw grenade
 	
 	-- Nome dos Espólios/Equipamento da missão
+	hud_carry_feed = "Dinheiro do Porquinho",--"Piggy Bucks",
 	hud_equipment_hammer = "Martelo",--"Hammer",
 	hud_equipment_audio_device = "Escuta",--"Bugging Device",
 	hud_equipment_car_jack = "Macaco",--Car jack",
@@ -879,7 +881,10 @@ return {
 	hud_equipment_documents = "Documentos",--Documents
 	hud_equipment_business_card = "Cartão de Negócios",--Business Card
 
-	-- Outros Interagindo (Terceira Pessoa)
+	-- Outros Interagindo (Terceira Pessoa) [Nota: só Deus sabe porque algumas interações em terceira pessoa não funcionam, pelo menos alguns estão funcionando.]
+	hud_action_opening_handcuffs = "Removendo as algemas",--"Removing handcuffs",
+	hud_action_moving_truck = "Movendo o caminhão",--"Moving truck"
+	hud_action_opening_warehouse_door = "Abrindo o portão do depósito",--"Opening warehouse door"
 	hud_action_sliding_ramp = "Movendo a rampa",--"Moving ramp",
 	hud_action_breach_shutter = "Forçando a porta de garagem",--"Forcing open the shutter",
 	hud_action_take_hand = "Pegando a mão protética",--"Taking prosthetic hand",
@@ -1284,6 +1289,12 @@ return {
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 	
 	-- Interações (Primeira Pessoa)
+	hud_pda9_show_progress = "Porquinho no estágio $PIGGY_LEVEL; ($PIGGY_PROGRESS;%)",--"Piggy Bank at Stage $PIGGY_LEVEL; ($PIGGY_PROGRESS;%)"
+	hint_no_gas_canister = "Necessário o botijão de gás",--"Need gas canister"
+	hud_hint_need_mould = "Necessário o mold",--"Requires mold",
+	hud_hint_need_hammer = "Necessário o martelo",--"Requires hammer"
+	hud_equipment_get_hand = "Necessário a mão do líder cientista",--Requires lead scientist hand",
+	hud_int_take_tablets = "Segure $BTN_INTERACT para pegar o dispositivo",--"Hold  to take the device",
 	hud_int_disassemble_turret = "Segure $BTN_INTERACT para desmontar a torreta",--"Hold  to disassemble turret",
 	hud_int_take_bugging_device = "Segure $BTN_INTERACT para pegar escutas",--"Hold  to take bugging device",
 	hud_int_construct_weapon = "Segure $BTN_INTERACT para construir a arma",--"Hold  to construct weapon",
@@ -1388,7 +1399,7 @@ return {
 	hud_int_place_paddles = "Segure $BTN_INTERACT para colocar as pás",--Hold  to place the paddles
 	hud_int_move_cargo = "Pressione $BTN_INTERACT para mover a carga",--Hold  to move the cargo
 	hud_int_open_warehouse_door = "Segure $BTN_INTERACT para abrir a porta do depósito",--Hold  to open the warehouse door
-	hint_no_defibrillator_paddles = "Precisa das Pás de Desfibrilador",--Need the defibrillator paddles
+	hint_no_defibrillator_paddles = "Necessário as Pás de Desfibrilador",--Need the defibrillator paddles
 	hud_int_hold_turn_off_power = "Pressione $BTN_INTERACT para desligar a energia",--Press  to turn off the power
 	hud_int_use_scanner = "Segure $BTN_INTERACT para usar o scanner",--Press  to use scanner
 	hud_int_slide_ramp = "Segure $BTN_INTERACT para mover a rampa",--Hold  to move the ramp
@@ -1586,7 +1597,7 @@ return {
 	hud_int_no_caustic_soda = "Requer Soda Cáustica",
 	hud_int_no_acid = "Requer Ácido Muriático",
 	debug_interact_gold_bag = "Segure $BTN_INTERACT para pegar a bolsa",--Hold $BTN_INTERACT; to Pick up the Bag
-	hud_int_no_liquid_meth = "Requer Metanfetamina Líquido",--Requires liquid meth
+	hud_int_no_liquid_meth = "Necessário Metanfetamina Líquido",--Requires liquid meth
 	debug_interact_equipment_stash_planks = "Você precisa de Tábuas",
 	hud_int_methlab_gas_to_salt = "Segure $BTN_INTERACT para adicionar o Cloreto de Hidrogênio",
 	hud_int_methlab_caustic_cooler = "Segure $BTN_INTERACT para adicionar a Soda Cáustica",
@@ -2121,6 +2132,18 @@ return {
 	hud_hold_restart_timer = "Segure $BTN_INTERACT para reiniciar o cronômetro",
 
 	-- Caixas de confirmações + Notificações do SISTEMA
+	dialog_pda9_event_title = "Nono Aniversário do PAYDAY 2",--"Payday 2 9th Anniversary",
+	dialog_pda9_event_text = "PAYDAY 2 está celebrando o seu aniversário! Você sabe o que isso significa... COFRINHO DO PORQUINHO!\n\nVocês acharão o Cofrinho do Porquinho em qualquer heist na página do Crime.net do evento. Geralmente estará no começo ou no final da heist, nos telhados e espaços abertos. Enche o Porquinho com o Dinheiro do Porquinho até ficar gordinho, depois quebrem-o e fujam para ganharem muito XP! O porquinho pode crescer até no estágio cinco, dependendo das quantas bolsas você deu para ele. Quanto mais gordo o Porquinho fica, mais XP ganhará!\n\nMas onde acharão o Dinheiro do Porquinho, você se pergunta? Fácil! Matando os inimigos na cabeça ou usando o Lança-Grana para fazer eles soltarem bolsas de ouro. Você pode conseguí-las matando normalmente também, mas vão ter menos chance de surgirem. O Dinheiro do Porquinho desaparecerá se não pegá-lo depois de 10 segundos, então não enrola!\n\nNão há limite de quantas vezes podem jogar a heist que contenha o Porquinho, e quando concluir, o seu XP total é dobrado. Além disso, você pode ganhar mais XP com as tarefas secundárias do Porquinho.\n\nAgora, vai lá e deixa o Porquinho orgulhoso!",
+	--[["Payday 2 is celebrating an anniversary! You know what that means...PIGGY BANK STUFF!
+	
+	You'll find the Piggy Bank in any heist on this event's Crime.net page. Usually hanging out near the beginning or end of the heist, on rooftops, and any wide-open spaces. Pay the Piggy as many Piggy Bucks as you can to make it grow, then break the Bank and escape to earn a ton of XP! The Piggy can grow up to five stages, based on how much you pay it. The bigger the Piggy, the more XP you'll earn!
+	
+	But where can you find Piggy Bucks, you ask? Easy! Kill enemies with headshots or the Cash Blaster to make them drop those shiny golden bags. You can earn them through normal kills as well, but they'll appear much less often. The Piggy Bucks will disappear if you don't grab them after ten seconds, so move fast!
+	
+	There's no limit to the number of times you can play a Piggy heist, and when it's complete, your total XP is doubled. Plus, you can earn even more XP through Piggy-related Side Jobs.
+	
+	Now, get out there and make that Piggy proud!",]]
+	dialog_requires_steam_overlay = "Isto requer o Painel Steam. Por favor certifique-se que o Painel Steam está ativo",--"This requires the Steam Community Overlay. Please ensure that in-game Steam Community is enabled and restart the game to use this feature.",
 	dialog_texas_heat_drop_name = "Drop da Twitch",--ERROR:
 	dialog_sbzacc_drop_name = "Conta Starbreeze",--"Starbreeze Account",
 	dialog_external_items_title = "Novos itens importados",--New Imported Loot",
@@ -2213,7 +2236,7 @@ return {
 	menu_nh_sbzacc_01 = "Resgate os seus cosméticos grátis hoje mesmo!",--"GET YOUR FREE COSMETICS TODAY! ",
 	menu_nh_txt1_02 = "O Midland Bundle está disponível agora!",--"The Midland Bundle is available now!",
 	menu_nh_ranc_01 = "Checa a Midland Ranch Heist!",--"Check out the Midland Ranch heist!",
-	menu_crimenet_event_help = "Jogue um modo de jogo único onde matar unidades especiais vão surgir balões!",--Play a unique game mode where killing special units spawns balloons!
+	menu_crimenet_event_help = "Jogue um modo de jogo único onde você precisa achar o Porquinho e fazê-lo crescer com o Dinheiro do Porquinho.",--Play a unique game mode where killing special units spawns balloons! = Play a unique game mode where you need to find a piggy bank in the heist and make it grow by paying it Piggy Bucks.
 	menu_crimenet_event = "Jogar Evento",--Play Event
 	menu_spendable_skill_points = "Pontos de Skills restantes: $points",
 	menu_visit_community = "Comunidade",
@@ -2691,7 +2714,10 @@ return {
 	hud_cam_access_camera_crojob2_dock_3B = "Carregando Doca 3B",--Loading Dock 3B
 	hud_cam_access_camera_crojob2_ship_control_room_right = "Sala de Controle do Navio - Direita",--Ship Control Room - Right
 	menu_preplanning_enter = "Clique para Entrar",--Enter Preplanning
-	menu_pp_pent_thermite = "termite",--Thermite
+	menu_pp_pent_spotter_001 = "Terraço",--"Terrace"
+	menu_pp_pent_spotter_002 = "Varanda",--"Balcony",
+	menu_pp_pent_spotter_003 = "Escritório",--"Office",
+	menu_pp_pent_thermite = "Termite",--Thermite
 	menu_pp_pent_thermite_editor = "Elevador de Entrega da Cozinha",--Kitchen elevator delivery
 	menu_pp_pent_thermite_desc = "Um contato enviou termite para usar na porta da reunião",--An insider sends up thermite to be used on the meeting room door.
 	menu_pp_pent_bpr_loc_a = "Penthouse",--Penthouse
@@ -4057,7 +4083,7 @@ return {
 	hint_no_hotel_room_key = "Você precisa de um Cartão de Acesso para entrar no Quarto de Hotel",--You need a keycard to enter the hotel room
 	hud_int_trick_treat = "Doces ou Travessuras",--Trick or treat
 	debug_interact_equipment_c4 = "Requer C4",--Requires C4
-	hud_equipment_need_blow_torch = "Você precisa de um Maçarico",--Need blow torch
+	hud_equipment_need_blow_torch = "Necessário um Maçarico",--Need blow torch
 	hud_int_requires_chrome_skull = "Requer a Caveira Cromada",--Requires chrome skull
 	hud_int_need_thermite_paste = "Você precisa da termite",--You need thermite paste
 	hud_hint_no_briefcase = "Requer uma Maleta do Diamante",--Requires diamond briefcase
@@ -4094,10 +4120,10 @@ return {
 	hud_hint_phoneline_jammed = "A Linha Telefônica está bloqueada pelo ECM",--Phone line is jammed by an ECM
 	hint_short_firstaidkit = "Coloque o Kit de Primeiros Socorros com o botão $BTN_USE_ITEM;.",--Deploy first aid kit with $BTN_USE_ITEM;.
 	hint_ammo_bag = "Você pode selecionar a Bolsa de Munição no seu inventário e pressionar $BTN_USE_ITEM; para colocá-la.",--You can select the ammo bag in your inventory and press $BTN_USE_ITEM; to place it.
-	hint_no_compound_a = "Você precisa do Composto A",--Need compound a
-	hint_no_compound_c = "Você precisa do Composto C",--Need compound c
-	hint_no_compound_d = "Você precisa do Composto D",--Need compound d
-	hint_no_compound_b = "Você precisa do Composto B",--Need compound b
+	hint_no_compound_a = "Necessário o Composto A",--Need compound a
+	hint_no_compound_c = "Necessário o Composto C",--Need compound c
+	hint_no_compound_d = "Necessário o Composto D",--Need compound d
+	hint_no_compound_b = "Necessário o Composto B",--Need compound b
 	hud_int_need_concoction_paste = "Você precisa da Mistura",--You need the concoction
 	hint_no_blueprints = "Você precisa de Projetos para Escanear!",--You need blueprints to scan them!
 	hint_no_sleeping_gas = "Você precisa do Gás Sonífero",--You need sleeping gas
@@ -4112,7 +4138,7 @@ return {
 	hud_int_timelock_panel_no_keycard = "Você precisa de um cartão de acesso para abrir o cofre",--You need a keycard to open the vault
 	hud_int_taking_supplies = "Pegando Suprimentos Médicos",--Taking medical supplies
 	hud_int_equipment_no_drill = "Você precisa de uma Furadeira",--You need the drill
-	hud_int_hint_medallion = "Você precisa do Medalhão",--Need the medallion
+	hud_int_hint_medallion = "Necessário o Medalhão",--Need the medallion
 	hud_int_hold_place_bottle = "Você precisa da Garrafa Adulterada",--You need a spiked bottle!
 	hud_int_requires_soda = "Requer um Refrigerante",--Requires Soda
 	hud_vehicle_broken = "O Veículo está quebrado",--The vehicle is broken
@@ -4136,7 +4162,7 @@ return {
 	hint_reload_PS3 = "Pressione $BTN_X; para Recarregar.",--Press $BTN_X; to reload.
 	hint_no_elevator_key = "Você precisa da Chave de Manutenção do Elevador",--You need the elevator maintenance key
 	hint_no_bottle = "Você precisa da Bebida Adulterada!",--You need a spiked bottle!
-	hint_usb_stick = "Necessário ter o Pen Drive",--Need the usb stick
+	hint_usb_stick = "Necessário o Pen Drive",--Need the usb stick
 	hint_no_usb_key = "Você precisa de um Pen Drive",--You need a USB stick
 	hint_teammate_revived = "$TEAMMATE; saiu da custódia graças ao $HELPER;!",--$TEAMMATE; has been released from custody thanks to $HELPER;!
 	hint_ammo_bag_PS3 = "Você poderá selecionar a Bolsa de Munição do seu Inventário e Pressionar $BTN_USE_ITEM; para colocá-la.",--You can select the ammo bag in your inventory and press $BTN_USE_ITEM; to place it.

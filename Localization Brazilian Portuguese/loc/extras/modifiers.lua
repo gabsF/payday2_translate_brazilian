@@ -10,14 +10,14 @@ return {
 	menu_cs_modifier_heavies = "Toda unidade da FBI Swat irão ser substituídos por Heavy SWAT.",--All FBI Swats will be replaced with Heavy Swats.
 	menu_cs_modifier_medic_deathwish = "Quando um Médico é morto, todos policiais que estiverem na sua área de cura serão curados.",--Whenever a Medic is killed, all cops within the Medic's healing range are instantly healed.
 	menu_cs_modifier_shield_phalanx = "Todas as unidades de Shield vão ser substituídas pelas unidades de Shields do Capitão Winters.",--All Shield units in the game are replaced by Captain Winter's Shield units.
-	menu_cs_modifier_pagers = "$count; menos pager(s) podem ser respondidos por missão.",--$count; less pager(s) can be answered per heist.
+	menu_cs_modifier_pagers = "$count; pager(s) a menos podem ser respondidos por missão.",--$count; less pager(s) can be answered per heist.
 	menu_cs_modifier_medic_speed = "O tempo de recarga de cura do Médico é $speed;% mais rápido.",--Medics heal cooldown is $speed;% faster.
 	menu_cs_modifier_dozer_medic = "Quando um Bulldozer spawna, tem uma chance de ser um Bulldozer Médico. Um Bulldozer Médico conta como um Médico e um Bulldozer ao mesmo tempo.",--Whenever a Bulldozer spawns, there is a chance that it will be a Medic Bulldozer. A Medic Bulldozer counts as both a Medic and a Bulldozer.
 	menu_cs_modifier_dozer_rage = "Quando a proteção de rosto do Bulldozer é destruída, o Bulldozer estará em um estado de Berserker, recebendo um grande aumento de dano de $damage;%.",--When a Bulldozer's face plate is destroyed, the Bulldozer enters a berserker rage, receiving a $damage;% increase to their base damage output.
 	menu_cs_modifier_health_damage_total = "(Total: $health;% a mais de vida, $damage;% a mais de dano.)",--(Total: $health;% more health, $damage;% more damage.)
 	menu_cs_modifier_shield_reflect = "Shields vão refletir projéteis.",--Shields will reflect projectiles.
 	menu_cs_modifier_enemy_damage = "Inimigos vão dar $damage% a mais de dano.",
-	menu_cs_modifier_enemy_health = "Inimigos tem $health% a mais de vida.",
+	menu_cs_modifier_enemy_health = "Inimigos terão $health% a mais de vida.",
 	menu_cs_modifier_enemy_health_damage = "Inimigos tem $health;% a mais de vida e vão dar $damage;% a mais de dano.",--Enemies have an additional $health;% more health and deal an additional $damage;% more damage.
 	menu_cs_modifier_cloaker_smoke = "Cloakers que conseguirem chutar um jogador vão soltar uma bomba de fumaça.",--Cloakers will drop a smokebomb when they kick a player.
 	menu_cs_modifier_heavy_sniper = "Para cada SWAT que spawna, tem uma chance de ser substituído por um Sniper da ZEAL da Heavy SWAT.",--For every Heavy SWAT that spawns, there is a chance that it will be replaced by a ZEAL Heavy SWAT Marksman.

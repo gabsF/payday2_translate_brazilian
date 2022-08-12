@@ -29,6 +29,7 @@
         <loc file="extras/modifiers.lua"/>
         <loc file="extras/perkdecks.lua"/>
         <loc file="extras/skills.lua"/>
+        <loc file="extras/pda9.lua"/>
 
         <!-- Bain Contracts -->
         <loc file="bain/alesso.lua"/>
@@ -145,6 +146,7 @@
         <loc file="extras/modifiers.lua"/>
         <loc file="extras/perkdecks.lua"/>
         <loc file="extras/skills.lua"/>
+        <loc file="extras/pda9.lua"/>
 
         <!-- Bain Contracts -->
         <loc file="bain/alesso.lua"/>

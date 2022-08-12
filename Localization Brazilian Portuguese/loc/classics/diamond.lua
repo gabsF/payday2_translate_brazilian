@@ -7,8 +7,8 @@ return {
 	
 	-- Legendas
 	pln_dah_intro_01 = "Certo, ponto de entrada. Sincronizem na minha marca... marca.",--All right, entry point. Synchronize on my mark... mark.
-	pln_dah_intro_02 = "19... 20... 21... Todo esse dinheiro e Garnet é muito pão-duro para pagar um equipamento de lavagem de janela mais rápido! Ok é isso, 22º andar e... pronto.",--19... 20... 21... All that money and Garnet is too cheap to pay for a faster window washing rig! Ok that's it, 22nd floor and... go.
-	pln_dah_intro_03 = "Certo, vocês estão quase no 22º andar. Continuem e não fiquem com nariz sangrando aí em cima.",--All right, you're almost on the 22nd. Get going and don't get a nose-bleed up there.
+	pln_dah_intro_02 = "19... 20... 21... Todo esse dinheiro e Garnet é muito pão-duro para pagar um equipamento de lavagem de janela mais rápido! Ok é isso, vigésimo segundo andar e... pronto.",--19... 20... 21... All that money and Garnet is too cheap to pay for a faster window washing rig! Ok that's it, 22nd floor and... go.
+	pln_dah_intro_03 = "Certo, vocês estão quase no vigésimo segundo andar. Continuem e não fiquem com nariz sangrando aí em cima.",--All right, you're almost on the 22nd. Get going and don't get a nose-bleed up there.
 	pln_dah_79_02 = "Não vai demorar muito para pressionarem esse cara pelo código. Aguentem firme.",--Won't take long to squeeze this guy for the code. Hang tight.
 	pln_dah_22_03 = "Há algo eletrônico e brilhante no Escritório da Administração.",--There's something electronic and glowing in the Admin Office.
 	pln_dah_cbf_01 = "No 22º andar do edifício Garnet Group, propriedade de Nathan Garnet, há um cofre com diamantes que custam milhões. O edifício tem uma segurança de alta tecnologia e guardas alertas, mas sorte a nossa, tem uma festa de aniversário acontecendo para mantê-los distraídos.",--On the 22nd floor of the Garnet Group Building, owned by Nathan Garnet, there's a safe with millions worth of diamonds. The building has high-tech security and trigger-happy guards but luckily for us there's a birthday party going on to keep them distracted. 

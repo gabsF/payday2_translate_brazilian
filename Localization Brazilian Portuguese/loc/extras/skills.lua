@@ -468,7 +468,7 @@ return {
 	-- Third Tree (Brawler)
 	--st_menu_fugitive_berserker = "Brawler",
 	--menu_martial_arts_beta = "Martial Arts",
-	menu_martial_arts_beta_desc = "BÁSICO: ##$basic##\nVocê toma ##$multibasic;## menos de dano de todos os ataques corpo-a-corpo. Por causa de treino. \n\nAVANÇADO: ##$pro##\nVocê tem ##$multipro;## mais chance de atordoar os inimigos com os ataques coropo-a-corpo.",
+	menu_martial_arts_beta_desc = "BÁSICO: ##$basic##\nVocê toma ##$multibasic;## menos de dano de todos os ataques corpo-a-corpo. Por causa de treino. \n\nAVANÇADO: ##$pro##\nVocê tem ##$multipro;## mais chance de atordoar os inimigos com os ataques corpo-a-corpo.",
 --BASIC: ##$basic;##\nYou take ##$multibasic;## less damage from all melee attacks. Because of training.\n\nACE: ##$pro;##\nYou are ##$multipro;## more likely to knock down enemies with a melee strike.
 	--menu_bloodthirst = "Bloodthirst",
 	menu_bloodthirst_desc = "BÁSICO: ##$basic##\nCada vítima aumentará o dano do seu próximo ataque com a arma corpo-a-corpo por ##$multibasic;##, até no máximo de ##$multibasic2;##. Esse efeito é reiniciado quando você mata um inimigo com um ataque corpo-a-corpo. \n\nAVANÇADO: ##$pro##\nQuando você matar um inimigo com um ataque corpo-a-corpo, você terá mais ##$multipro;## de velocidade em recarregar a sua arma por ##$multipro2;## segundos.",

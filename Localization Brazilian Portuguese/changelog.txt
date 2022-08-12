@@ -1,12 +1,10 @@
 
 
-12.01 - Pequena atualização
-* Traduzido uma parte da HUD que só aparecia no Stealth do Ranch Midland
-* Traduzido mais duas dicas na HUD
-* A opção do "BeardLib em Português" não afetará a tradução
-* Traduzido a informações de contato da McShay e da Shayu
-* Traduzido os nomes de alguns veíuclos
-* Traduzido mais interações em terceira pessoa
-* Corrigido a descrição da skill Underdog
-* Traduzido os nomes dos lugares que estavam faltando em Black Cat
+12.02 - Pequena atualização
+* Traduzido o evento de nono aniversário do PAYDAY 2
 * Adicionado mais easter eggs nas máscaras
+* Corrigido um erro de escrita na Skill "Martial Arts"
+* Alterado algumas legendas em Diamond Heist para remover um caractere bugado
+* Melhorado a tradução do objetivo de fuga do Ukrainian Prisoner
+* Traduzido mais interações em primeira/terceira pessoa
+* Traduzido algumas partes do pré-planejamento do Mountain Master

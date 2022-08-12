@@ -11,6 +11,9 @@ return {
 	pln_flt_intro_03 = "Tô ansioso pra isso, gente. Chavez não tem a menor ideia sobre o que lhe espera.",
 	
 	-- Legendas
+	plt_flt_04_01 = "Puts, eu errei... Me desculpem, pessoal... Vocês acharão a C4 no beco.",--Jeez, I missed the drop... Sorry about that, guys... You'll find the C4 in the back alley",
+	plt_flt_04_02 = "Ah, merda... eu errei o telhado... Gente, a C4 caiu no beco...",--Oh hell... I missed the roof... Guys, the C4 landed in the back alley...",
+	plt_flt_04_03 = "Porra! A C4 caiu no beco...",--God dammit! The C4 landed in the back alley...",
 	plt_flt_01_03 = "Beleza, eu tô perto agora, mas tem Snipers em todo canto. Vou precisar que vocês cuidem deles antes de soltar o C4.",
 	plt_flt_02_01 = "Ei! Cadê a ajuda que preciso? Eu tô encurralado aqui!",
 	plt_flt_02_03 = "Ei! Eu tô sendo pipocado aqui! Desde que esses Snipers continuem vivos, eu não posso chegar perto e fazer a entrega!",
@@ -27,7 +30,7 @@ return {
 	plt_flt_02_02 = "Pessoal, me protejam! Esses Snipers estão sendo um pé no saco pra eu chegar perto. Vocês precisam matar todos eles!",
 	plt_flt_01_02 = "Tô chegando, gente. Mas os policiais trouxeram muitos Snipers nos telhados próximos do prédio. Vou precisar que vocês cuidem deles antes de eu fazer a entrega.",
 	plt_flt_05_01 = "Varanda! A C4 caiu na varanda. Eu errei o telhado. Sinto muito por isso.",
-	plt_flt_06_02 = "Yihaa! A C4 caiu no telhado como planejado.",
+	plt_flt_06_02 = "Irá! A C4 caiu no telhado como planejado.",
 	plt_flt_06_01 = "Cavalheiros, a C4 está no telhado.",
 	plt_flt_06_03 = "Tudo certo! A C4 caiu no telhado.",
 	plt_flt_01_01 = "Ok, estou na área, mas os policiais trouxeram muitos Snipers nos telhados próximos do prédio. Vocês precisam se livrar deles antes que eu possa soltar a C4.",
@@ -36,7 +39,7 @@ return {
 	plt_flt_09_03 = "Beleza, isso deve servir! Entrando.",
 	plt_flt_10_03 = "Descendo o imã agora.",
 	plt_flt_11_02 = "Desci o imã, mas preciso que vocês conectem.",
-	plt_flt_11_03 = "O imã está onde deveria estar, mas vou precisar da ajuda de vocês para conectar.",
+	plt_flt_11_03 = "O imã está onde deveria estar, mas vou precisar da ajuda de vocês para conectá-la.",
 	plt_flt_14_03 = "É isso! Tô dando fora!",
 	pln_flt_01_03 = "Chegamos, gente. Logo ali é o prédio do Chavez.",
 	pln_flt_01_02 = "Aqui estamos, gente. Prédio do Chavez.",
