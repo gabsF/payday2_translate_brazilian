@@ -1,6 +1,9 @@
 
 
-12.02 - Pequena atualização
+12.02.1 - Pequena atualização
+* Traduzido mais coisas que estavam faltando no nono aniversário
+* Corrigido alugmas legendas do nono aniversário
+-------------------
 * Traduzido o evento de nono aniversário do PAYDAY 2
 * Adicionado mais easter eggs nas máscaras
 * Corrigido um erro de escrita na Skill "Martial Arts"

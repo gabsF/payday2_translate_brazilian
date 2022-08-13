@@ -6,6 +6,7 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	menu_l_global_value_pda9 = "Esse é um item do Nono Aniversário do PAYDAY 2!",--"This is a PAYDAY 2 9th Anniversary Item!",
 	bm_menu_skill_locked_saw_secondary = 'Requer a Skill "Portable Saw"',--"Requires the Portable Saw skill"
 	menu_l_global_value_txt2 = "Esse é um item do High Octane Tailor Pack!",--This is a High Octane Tailor Pack Item!",
 	bm_global_value_txt2_unlock = "Compre o High Octane Tailor Pack para desbloquear!",--Buy the High Octane Tailor Pack to unlock!",
@@ -881,7 +882,8 @@ return {
 	hud_equipment_documents = "Documentos",--Documents
 	hud_equipment_business_card = "Cartão de Negócios",--Business Card
 
-	-- Outros Interagindo (Terceira Pessoa) [Nota: só Deus sabe porque algumas interações em terceira pessoa não funcionam, pelo menos alguns estão funcionando.]
+	-- Outros Interagindo (Terceira Pessoa) [Nota: só Deus sabe porque algumas interações em terceira pessoa não funcionam, pelo menos o resto tá funcionando.]
+	hud_action_exploding_pig = "Quebrando o Porquinho",--"Breaking the Piggy Bank...",
 	hud_action_opening_handcuffs = "Removendo as algemas",--"Removing handcuffs",
 	hud_action_moving_truck = "Movendo o caminhão",--"Moving truck"
 	hud_action_opening_warehouse_door = "Abrindo o portão do depósito",--"Opening warehouse door"
@@ -1287,8 +1289,9 @@ return {
 	hud_action_center_button = "Empurrando o Símbolo do Centro",
 	hud_action_assembling_bomb = "Montando Explosivos",
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
-	
+
 	-- Interações (Primeira Pessoa)
+	hud_int_hold_explode_the_pig = "Segure $BTN_INTERACT para explodir o Porquinho",--"Hold  to break the Piggy Bank"
 	hud_pda9_show_progress = "Porquinho no estágio $PIGGY_LEVEL; ($PIGGY_PROGRESS;%)",--"Piggy Bank at Stage $PIGGY_LEVEL; ($PIGGY_PROGRESS;%)"
 	hint_no_gas_canister = "Necessário o botijão de gás",--"Need gas canister"
 	hud_hint_need_mould = "Necessário o mold",--"Requires mold",
@@ -2231,6 +2234,7 @@ return {
 	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
 
 	-- Menu Principal
+	menu_nh_pda9_01 = "Celebre os noves anos de PAYDAY 2!",--Celebrate 9 years of PAYDAY 2!
 	menu_nh_txt2_02 = "Checa o Lost in Trasit Bundle aqui!",--"Check out the Lost in Transit Bundle here!",
 	menu_nh_txt2_01 = "Compre o High Octane Tailor Pack agora!",--"Buy the High Octane Tailor Pack now!",
 	menu_nh_sbzacc_01 = "Resgate os seus cosméticos grátis hoje mesmo!",--"GET YOUR FREE COSMETICS TODAY! ",
@@ -3756,6 +3760,8 @@ return {
 	menu_es_xp_gained = "XP ganho",
 	menu_es_current_xp = "XP atual",
 	menu_cash_crew = "Bônus de Grupo Vivo",--Crew alive bonus
+	menu_piggybank_exp_bonus = "Bônus do Porquinho",--"Piggy Bank Bonus",
+	menu_event_double_exp_bonus = "Bônus Duplo do Evento",--"Event Double Bonus",
 	menu_es_package_unlocked_singular = "Novo item desbloqueado!",--New item unlocked!
 	menu_es_package_unlocked_plural = "Novos itens desbloqueados!",--New items unlocked!
 	menu_es_rep_upgrade = "$point; pontos de skills adquiridos!",--$point; more skill points!

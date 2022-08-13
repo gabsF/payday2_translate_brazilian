@@ -2684,7 +2684,7 @@ return {
 	menu_pda9_2_desc = "Faça chover dinheiro no Porquinho! Ele tá mandando!",--Shower the Piggy Bank in riches! The Piggy commands it!",
 	--menu_pda9_community_1_reward = "",--Magic Touch",
 	menu_pda9_item_3_desc = "Na dificuldade Overkill ou acima, quebre o Porquinho no estágio 2 em seis heists diferentes.",--On Overkill difficulty or above, break the Piggy Bank at a minimum of Stage 2 on six different heists.",
-	menu_pda9_community_2_desc = "Você ficou sem bolsas no meio de uma heist. Bom saber que o seu terno é um pouco mais grande!",--You ran out of loot bags in the middle of a heist. Good thing your suit's a few sizes too big!",
+	menu_pda9_community_2_desc = "Você ficou sem bolsas no meio de uma heist. Bom saber que o seu terno é mais grande!",--You ran out of loot bags in the middle of a heist. Good thing your suit's a few sizes too big!",
 	menu_pda9_community_item_2_desc = "Pessoal: Quebre o Porquinho no estágio 2\nComunidade: Pague o Porquinho num total de 1,500,000 bolsas do Dinheiro do Porquinho.",--Personal: Break the Piggy Bank at Stage 2\nCommunity: Pay the Piggy Bank a total of 1,500,000 bags of Piggy Bucks.",
 	menu_pda9_community_item_1_desc = "Pessoal: Quebre o Porquinho no estágio 1\nComunidade: Pague o Porquinho num total de 100,000 bolsas do Dinheiro de Porquinho.",--Personal: Break the Piggy Bank at Stage 1\nCommunity: Pay the Piggy Bank a total of 100,000 bags of Piggy Bucks.",
 	menu_pda9_community_3_desc = 'Locke pediu uma máscara especial para comemorar o nono aniversário do Payday! Não se esqueça de mandar um bilhete com um "Obrigado".',--Locke ordered you a special mask to commemorate the Payday Gang's 9th anniversary! Make sure to send him a thank you note.",

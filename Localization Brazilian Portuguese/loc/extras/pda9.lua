@@ -64,7 +64,7 @@ return {
     alm_pda9_17_01 = "Graças a Deus! Aquele Porquinho já está num tamanho crítico!",--Thank god! That Piggy was at critical mass!",
     alm_pda9_17_02 = "O Porquinho está num nível nuclear!",--The Piggy went nuclear!",
     alm_pda9_17_03 = "Porquinho no estágio 6... E eu achando que era mito!",--A Stage 6 Piggy...I thought it was just a legend!",
-    alm_pda9_18_01 = "Você está ficando bom com os tiros na cabela.",--You're a little TOO good at getting headshots.",
+    alm_pda9_18_01 = "Você está ficando bom com os tiros na cabeça.",--You're a little TOO good at getting headshots.",
     alm_pda9_18_02 = "Como as cabeças deles estão fazendo esse barulho?",--How do their heads keep making that noise?",
     alm_pda9_18_03 = "Tiros na cabeça pra ontem!",--Headshots for days!",
     alm_pda9_19_01 = "Vocês são máquinas de cuspir dinheiro!",--You're a cash blasting badass!",
