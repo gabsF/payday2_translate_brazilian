@@ -1,6 +1,8 @@
 
 
-12.02.1 - Pequena atualização
+12.02.2 - Pequena atualização
+* Alterado o título do "Oitavo aniversário" para "Missões de Eventos" para igualado ao texto original (Overkill, por quê?)
+-------------------
 * Traduzido mais coisas que estavam faltando no nono aniversário
 * Corrigido alugmas legendas do nono aniversário
 -------------------

@@ -2632,7 +2632,7 @@ return {
 	achievement_pxp1_1_desc = "Mate 200 inimigos usando veneno na dificuldade OVERKILL ou superior, enquanto veste o traje Scrubs.",--Kill 200 enemies using poison on the OVERKILL difficulty or above, while wearing the Scrubs outfit.
 
 	-- Oitavo Aniversário
-	menu_challenge_div_cat_event_jobs = "Oitavo Aniversário do PAYDAY 2",--PAYDAY 2 8th Anniversary",
+	--menu_challenge_div_cat_event_jobs = "Oitavo Aniversário do PAYDAY 2",--PAYDAY 2 8th Anniversary",
 	menu_event_jobs = "Missões de Eventos",--Event Missions",
 	------
 	menu_pda8_1 = "Faça Chover Grana",--Make it Rain Green",
@@ -2667,6 +2667,7 @@ return {
 	menu_pda8_item_8 = "Figurino de Mariachi, ache em Mallcrasher.",--Mariachi Figurine, found on the Mallcrasher heist.",
 
 	-- Nono Aniversário
+	menu_challenge_div_cat_event_jobs = "Missões de Eventos",--Event Jobs
 	menu_pda9_community_2 = "Dinheiro Sujo",--"Bleeding Cash",
 	menu_pda9_1_reward = "+250 mil de XP e o Lança-Grana",--+250k EXP and the Cash Blaster",
 	menu_pda9_3_reward = "+3 milhões de XP",--+3 million EXP",
