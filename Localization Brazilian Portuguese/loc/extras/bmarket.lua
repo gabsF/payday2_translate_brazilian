@@ -2701,4 +2701,22 @@ return {
 	menu_pda9_2_reward = "+500 mil de XP",--+500k EXP",
 	menu_pda9_item_2_desc = "Pague o Porquinho num total de 20 bolsas de Dinheiro do Porquinho, e conclua a Heist, em três heists diferentes.",--Pay the Piggy Bank a total of 20 bags of Piggy Bucks, and successfully escape, on three different heists.",
 	menu_pda9_community_item_3_desc = "Pessoal: Quebre o Porquinho no estágio 1 seis vezes.\nComunidade: Pague o Porquinho num total de 3,000,000 bolsas de Dinheiro do Porquinho.",--Personal: Break the Piggy Bank six times at Stage 1.\nCommunity: Pay the Piggy Bank a total of 3,000,000 bags of Piggy Bucks.",
+	menu_pda9_community_4 = "Ouro Maciço",--Go For Gold",
+	menu_pda9_community_5 = "Coração de Fogo",--"The Fire Within",
+	menu_pda9_community_objective_1 = "Participou no Nono Aniversário em 2022 do PAYDAY 2",--"Participated in PAYDAY 2 9th Anniversary 2022",
+	menu_pda9_item_n3 = "Espólio solto roubado",--Loose Cash picked up",
+	menu_pda9_item_n2 = "Dupla Vítimas",--Double Kills",
+	menu_pda9_item_n1 = "9 bolsas de ouro asseguradas",--"9 Gold Bags secured",
+	menu_pda9_item_n4 = 'Inimigos mortos com a arma corpo-a-corpo "Money Bundle"',--"Enemies killed with the Money Bundle melee weapon",
+	menu_pda9_item_n5 = "Torradas do Almir asseguradas",--"Almir's Toasts secured",
+	bm_menu_locked_pda9_community_4 = 'Conclua a missão de evento "Ouro Maciço"',--ERROR:
+	bm_menu_locked_pda9_community_2 = 'Conclua a missão de evento "Dinheiro Sujo"',--ERROR:
+	bm_menu_locked_pda9_community_3 = 'Conclua a missão de evento "Presente pra você"',--ERROR:
+	bm_menu_locked_pda9_community_5 = 'Conclua a missão de evento "Coração de Fogo"',--ERROR:
+	bm_menu_locked_pda9_community_1 = 'Conclua a missão de evento "Saúde!"',--ERROR:
+	menu_pda9_community_4_desc = "Você sabe o que é melhor do que um terno cheio da grana? Um terno feito de ouro que também está cheio da grana!",--"You know what's better than a suit filled with money? A suit made of gold! That's also filled with money!",
+	menu_pda9_community_5_desc = "Tem algo estranho acontecendo com esta máscara que o Locke lhe deu. Alguém deixou o forno ligado?",--"There's something weird going on with that mask Locke gave you. And what's that burning smell?",
+	menu_l_global_value_side_job_pda9 = "Esse é um desafio secundário do Nono Aniversário do PAYDAY 2!",--"This is a PAYDAY 2 9th Anniversary Side Job!",
+	menu_pda9_community_item_4_desc = 'Pague 10,000,000 bolsas com Dinheiro do Porquinho para o Porquinho e participe do evento do Nono Aniversário ou mate 99 inimigos com a arma corpo-a-corpo "Money Bundle".',--"Pay the Piggy Bank a total of 10,000,000 bags of Piggy Bucks, and either participate in the 9th Anniversary event or kill 99 enemies with the Money Bundle melee weapon.",
+	menu_pda9_community_item_5_desc = "Pague 20,000,000 bolsas com Dinheiro do Porquinho para o Porquinho e participe do evento do Nono Aniversário ou assegure 9 Torradas do Almir na dificuldade Overkill ou acima.",--"Pay the Piggy Bank a total of 20,000,000 bags of Piggy Bucks, and either participate in the 9th Anniversary event or secure 9 Almir's Toasts on Overkill difficulty or above.",
 }
