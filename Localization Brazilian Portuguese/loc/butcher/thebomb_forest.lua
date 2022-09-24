@@ -172,7 +172,7 @@ return {
 	hud_heist_crojob2_mission25 = "O gerador parou devido à perda de pressão, vá até lá e o reinicie-o!",--Generator stopped due to loss of pressure, get there and restart it!
 	hud_heist_crojob2_mission4_hl = "Proteja o Helicóptero",--Protect the helicopter
 	hud_heist_crojob2_mission17 = "Pegue o loot e levo-o na fuga.",--Pick up the loot and take it to the escape.
-	hud_heist_crojob2_mission19 = "O helicóptero está enchendo o vagão com água. Vai levar alguns minutos até o helicóptero esvaziar o reservatório de água.",--The helicopter is filling the wagon with water. It's gonna take a couple of minutes until the helicopter empties its water container.
+	hud_heist_crojob2_mission19 = "O helicóptero está enchendo o vagão com água. Vai levar alguns minutos até o helicóptero esvaziar o reservatório de água.",--The helicopter is filling the wagon with water. It's gonna take a couple of minutes until the helicopter empties its water contêiner.
 	hud_heist_crojob2_mission1_hl = "Encontre o Vagão-Cofre",--Find the vault wagon
 	hud_heist_crojob2_mission7b = "Para o avião pousar na estrada, você precisará cortar as árvores que sobraram.",--In order for a plane to land on the road, you need to cut the remaining trees down.
 	hud_heist_crojob2_mission9_hl = "Leve o loot para o Barco",--Carry the loot to the boat

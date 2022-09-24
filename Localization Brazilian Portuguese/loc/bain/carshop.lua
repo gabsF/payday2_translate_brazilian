@@ -66,7 +66,7 @@ return {
 	pln_ch1_21_02 = "Agora pulem pra dentro do carro. Ah, e cabeça abaixada - é hora de *explodir* essa joça.",--Now jump into the car. Oh, and keep your head down - it's time to *blow* the joint.
 	pln_ch1_34_02 = "Agora vazem daí!",--Now bail out of there!
 	pln_ch1_09_02 = "Achem o gerente. Ele está vestindo um terno preto, ficando calvo. Amarre-o e veja se ele pode ajudar.",--Find the manager. He's wearing a black suit, going bald. Tie him up and see if he can help.
-	pln_ch1_33_02 = "Agora coloquem o carro dentro do contêiner, sai fora dele e poderemos concluir essa.",--Now put the car in the container, get out and we can close this caper.
+	pln_ch1_33_02 = "Agora coloquem o carro dentro do contêiner, sai fora dele e poderemos concluir essa.",--Now put the car in the contêiner, get out and we can close this caper.
 	pln_ch1_31_02 = "Agora vão!",--Now drive!
 	pln_ch1_09_01 = "Procurem pelo gerente. Calvo, Terno preto. Amarre-o e vejam se ele tem informações.",--Look for the manager. Balding, black suit. Tie him down and see if he has more information.
 	pln_ch1_07_02 = "Consegui o arquivo do gerente. Parece que o cara nasceu pra usar esse terno.",--I got the manager's file here. Looks like the guy was born to wear this black suit.
@@ -106,7 +106,7 @@ return {
 	pln_ch1_13_03 = "Procurem o Escritório do gerente. Você deve conseguir descobrir quem é o cara do TI. Daí você pode hackear seu PC.",--Scope out the manager's office. You should be able to find who the IT guy is. Then you can hack his pc.
 	pln_ch1_28_03 = "Quase consegui. Mais rápido, mais rápido.",--Almost got it. Faster, faster, faster.
 	pln_ch1_01_01 = "Lembre-se, não podemos vender carros danificados então sem polícia. Mantenham o sigilo. Eu aviso quando vocês puderem plantar a C4 na rua.",--Remember, we can't sell damaged cars so no cops. Keep it quiet. I'll let you know when you can plant the C4 on the road.
-	pln_ch1_33_03 = "Deixem o carro no contêiner e dê o fora. Estamos quase lá.",--Just leave the car in the container and mosey on out. We're nearly done.
+	pln_ch1_33_03 = "Deixem o carro no contêiner e dê o fora. Estamos quase lá.",--Just leave the car in the contêiner and mosey on out. We're nearly done.
 	pln_ch1_cnc_01_02 = "Estamos indo para a Concessionária Teuer. É um lugar de classe alta.",--We're going to the Teuer dealership. It's a high-end place.
 	pln_ch1_05_02 = "Encontrem a Despensa, galera. As chaves estarão lá.",--Find that storage room, gang. The keys will be there.
 	pln_ch1_06_02 = "Trancada. Droga! Beleza, mantenham a calma. Achem o gerente. Faça-o de refém. Tenho certeza que ele pode nos ajudar a entrar.",--Locked. Damn it! Alright, stay cool. Find the manager. Take him hostage. I'm sure he can help us get in.
@@ -124,7 +124,7 @@ return {
 	pln_ch1_26_02 = "Quase lá.",--Nearly got it.
 	pln_ch1_27_02 = "Espero que esse seja o certo.",--Hope this is the right one.
 	pln_ch1_29_03 = "Droga, computador errado. Policiais estão a caminho. Vocês não tem muito tempo agora.",--Crap, wrong computer. Cops are incoming. You don't have much time now.
-	pln_ch1_33_01 = "Certo, estacionem o carro naquele contêiner, e vá embora!",--Alright, just park the car in that container, and walk away!
+	pln_ch1_33_01 = "Certo, estacionem o carro naquele contêiner, e vá embora!",--Alright, just park the car in that contêiner, and walk away!
 	pln_ch1_35_01 = "Certo, vou detoná-los quando a hora chegar. Vocês precisam estar preparado com os carros.",--Nice, I'll detonate these. You just be ready with the cars.
 	pln_ch1_35_02 = "Ok, eu vou detoná-los manualmente. Foque nos carros.",--Ok, I'll set these off remotely. You focus on the cars.
 	pln_ch1_35_03 = "Ótimo. Papai Bain vai cuidar disso. Agora, voltem para as chaves.",--Great. Poppa Bain will take care of these. Now, back to the keys.
@@ -135,7 +135,7 @@ return {
 	hud_heist_cag1_9 = "Vá para o estaleiro o mais rápido possível!",--Drive to the dock yard as fast as possible!
 	hud_heist_cag1_12 = "Tenha certeza de que ninguém veja o computador.",--Make sure nobody sees the computer.
 	hud_heist_cag1_4_hl = "Investigue o Escritório do Gerente",--Investigate the manager's office
-	hud_heist_cag1_10 = "Estacione o carro em um dos contêineres.",--Park the car in one of the containers.
+	hud_heist_cag1_10 = "Estacione o carro em um dos contêineres.",--Park the car in one of the contêiners.
 	hud_heist_cag1_11 = "Vá para a van de fuga.",--Go to the escape van.
 	hud_heist_cag1_7_hl = "Abrigue-se da Explosão e Pegue as Chaves",--Hide from the blast and get the keys
 	hud_heist_cag1_6_hl = "Plante o C4",--Plant the C4

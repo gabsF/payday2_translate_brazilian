@@ -554,7 +554,7 @@ return {
     xuk_chca_12_04 = "Chamem mais guardas!",--Call more guards!
     xuk_chca_12_05 = "Vocês não vão sair desse navio vivos, palhaços!",--You will not get off this ship alive, clowns!
     yuw_chca_01_01 = "O que tá acontecendo? Xun Kang?!",--What's Going on? Xun Kang?!
-    yuw_chca_02_01 = "Seus... fudidos! Eu vou jogar vocês em um container no fundo do oceano!",--You... Fuckers! I will drop you in a container at the bottom of the ocean!
+    yuw_chca_02_01 = "Seus... fudidos! Eu vou jogar vocês em um contêiner no fundo do oceano!",--You... Fuckers! I will drop you in a contêiner at the bottom of the ocean!
 
     -- Objetivos [SÓ COLOCA PONTO FINAL NAS DESCRIÇÕES!!! OS "_hl" NÃO DEVEM TER PONTO FINAL!!!]
     hud_heist_chca01_hl = "Encontre-se com o Infiltrado",--Meet with the inside man

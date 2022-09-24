@@ -1,4 +1,8 @@
 
 
-12.03 - Pequena atualização / Correções
-* Traduzido o conteúdo final do nono aniversário
+12.04 - Pequena atualização / Correções
+* Corrigido "container" para "contêiner".
+* Traduzido o resto do conteúdo anterior que estava faltando.
+* Traduzido o "bloco de notas" do Moutain Master.
+* Traduzido uma interação faltando no Moutain Master.
+* Traduzido as legendas que estavam faltando nos tutoriais.

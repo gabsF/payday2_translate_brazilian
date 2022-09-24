@@ -6,6 +6,8 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	bm_global_value_tma1_unlock = "Compre o Tijuana Music Papck para desbloquear!",--"Buy the Tijuana Music Pack to unlock!",
+	menu_l_global_value_tma1 = "Esse é um item do Tijuana Music Pack!",--"This is a Tijuana Music Pack Item!",
 	menu_l_global_value_pda9 = "Esse é um item do Nono Aniversário do PAYDAY 2!",--"This is a PAYDAY 2 9th Anniversary Item!",
 	bm_menu_skill_locked_saw_secondary = 'Requer a Skill "Portable Saw"',--"Requires the Portable Saw skill"
 	menu_l_global_value_txt2 = "Esse é um item do High Octane Tailor Pack!",--This is a High Octane Tailor Pack Item!",
@@ -881,6 +883,7 @@ return {
 	hud_equipment_adrenaline = "Adrenalina",--Adrenaline
 	hud_equipment_documents = "Documentos",--Documents
 	hud_equipment_business_card = "Cartão de Negócios",--Business Card
+	hud_equipment_notepad = "Bloco de notas",--Notepad
 
 	-- Outros Interagindo (Terceira Pessoa) [Nota: só Deus sabe porque algumas interações em terceira pessoa não funcionam, pelo menos o resto tá funcionando.]
 	hud_action_exploding_pig = "Quebrando o Porquinho",--"Breaking the Piggy Bank...",
@@ -1291,6 +1294,8 @@ return {
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
 
 	-- Interações (Primeira Pessoa)
+	hint_no_notepad = "Necessário o bloco de notas",--"Need the notepad",
+	hud_hint_cargo_strap = "Necessário a alça",--"Wire required",
 	hud_int_hold_explode_the_pig = "Segure $BTN_INTERACT para explodir o Porquinho",--"Hold  to break the Piggy Bank"
 	hud_pda9_show_progress = "Porquinho no estágio $PIGGY_LEVEL; ($PIGGY_PROGRESS;%)",--"Piggy Bank at Stage $PIGGY_LEVEL; ($PIGGY_PROGRESS;%)"
 	hint_no_gas_canister = "Necessário o botijão de gás",--"Need gas canister"
@@ -2234,12 +2239,13 @@ return {
 	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
 
 	-- Menu Principal
+	menu_nh_tma1_01 = "Cheque o Lost in Transit Bundle aqui!",--"Check out the Lost in Transit Bundle here!",
 	menu_nh_pda9_01 = "Celebre os noves anos de PAYDAY 2!",--Celebrate 9 years of PAYDAY 2!
-	menu_nh_txt2_02 = "Checa o Lost in Trasit Bundle aqui!",--"Check out the Lost in Transit Bundle here!",
+	menu_nh_txt2_02 = "Cheque o Lost in Trasit Bundle aqui!",--"Check out the Lost in Transit Bundle here!",
 	menu_nh_txt2_01 = "Compre o High Octane Tailor Pack agora!",--"Buy the High Octane Tailor Pack now!",
 	menu_nh_sbzacc_01 = "Resgate os seus cosméticos grátis hoje mesmo!",--"GET YOUR FREE COSMETICS TODAY! ",
 	menu_nh_txt1_02 = "O Midland Bundle está disponível agora!",--"The Midland Bundle is available now!",
-	menu_nh_ranc_01 = "Checa a Midland Ranch Heist!",--"Check out the Midland Ranch heist!",
+	menu_nh_ranc_01 = "Cheque a Midland Ranch Heist!",--"Check out the Midland Ranch heist!",
 	menu_crimenet_event_help = "Jogue um modo de jogo único onde você precisa achar o Porquinho e fazê-lo crescer com o Dinheiro do Porquinho.",--Play a unique game mode where killing special units spawns balloons! = Play a unique game mode where you need to find a piggy bank in the heist and make it grow by paying it Piggy Bucks.
 	menu_crimenet_event = "Jogar Evento",--Play Event
 	menu_spendable_skill_points = "Pontos de Skills restantes: $points",

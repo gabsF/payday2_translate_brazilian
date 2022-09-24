@@ -62,7 +62,7 @@ return {
 	pln_al1_28_02 = "Fazendo download do cronograma da pirotécnia agora. Vocês pressionam o botão quando eu falar, entenderam?",--Downloading the pyro schedule. You hit the button I say, got it?
 	pln_al1_51_02 = "Nosso cara está esperando para acabar esse show. Só atendar o Interfone quando estiverem prontos. Tenham certeza de que o dinheiro está assegurado.",--Our guy is waiting to shut down the gig. Just answer that intercom when you're ready. Make sure all the loot you wanna take is secured.
 	pln_al1_37_02 = "Gangue. Coloquem aquele cortador no chão do cofre. Vamos fatiar aquilo.",--Gang. Get that cutter onto the vault floor. Let's slice that thing open.
-	pln_al1_49_03 = "O tempo está passando, gangue. Vocês precisam mover o dinheiro para o contêiner.",--Time is ticking, gang. You have to move the loot to the container to secure it.
+	pln_al1_49_03 = "O tempo está passando, gangue. Vocês precisam mover o dinheiro para o contêiner.",--Time is ticking, gang. You have to move the loot to the contêiner to secure it.
 	pln_al1_cnc_01_02 = "Alesso está tocando na Arena GenSec. Vamos ensiná-los que nada poderá impedir a Gangue PAYDAY.",--Alesso is playing at the GenSec arena. We're going to teach them that nothing can stop the Payday Gang.
 	pln_al1_cnc_01_03 = "Alesso está na cidade hoje à noite. Vamos usar o seu concerto para cobertura e atacar a GenSec em sua própria arena.",--Alesso is in town tonight. Going to use his concert as cover to hit GenSec at their arena.
 	pln_al1_38_01 = "Ótimo! O cortador acabou! Lá vem o nosso doce dinheiro!",--Great! Cutter's done! Here comes the sweet loot!
@@ -78,7 +78,7 @@ return {
 	pln_al1_56_05 = "Bom achado. Mas vão precisar de mais C4. Continuem procurando.",--Good find. But you'll need more C4. Keep searching.
 	pln_al1_08_01 = "Ok, o concerto acabou. Tirem a máscara, e se disfarcem com a multidão. Vocês devem poder andar até a porta. A van vai estar esperando por vocês. ",--Ok, the concert is finished. Get those masks off, and blend in with the crowd. You should be able to walk right back out the front door. The van will be waiting for you.
 	pln_al1_39_02 = "Tudo certo. Agora vamos levar o dinheiro antes que percebam o que está acontecendo.",--All right. Now let's shift that loot before they realise what's happened.
-	pln_al1_53_03 = "Sem caminho de volta. Entrem naquele contêiner, gangue. E esperem que o cabo aguente.",--No other way out. Get into that container, gang. And hope the cable holds.
+	pln_al1_53_03 = "Sem caminho de volta. Entrem naquele contêiner, gangue. E esperem que o cabo aguente.",--No other way out. Get into that contêiner, gang. And hope the cable holds.
 	pln_al1_21_09 = "Alesso prometeu um show lendário. Eu digo que prometemos um roubo lendário.",--Alesso has promised a legendary gig. I'm promising we'll deliver a legendary heist.
 	pln_al1_18_02 = "Tudo certo. Aí está um dos Armários marcados.",--All right. There's one of the marked closets.
 	pln_al1_26_03 = "Vão até a cabine de pirotécnia, pessoal. Andar superior.",--Haul ass to the pyro booth, guys. Top floor.
@@ -97,7 +97,7 @@ return {
 	pln_al1_46_01 = "Moxie's Milkshakes!",--Moxie's Milkshakes!
 	pln_al1_15_03 = "Ok, aí está um Armário marcado. Abram o cadeado.",--Okay, there's a marked closet. Get working on the lock.
 	pln_al1_34_03 = "MEIO, e DIREITA!",--Center. And right!
-	pln_al1_49_01 = "Vamos lá, palhaços. Levem as bolsas para a varanda e para o contêiner. O helicóptero está esperando.",--Come on, clowns. Get those bags up to the balcony and into the container. The chopper's waiting.
+	pln_al1_49_01 = "Vamos lá, palhaços. Levem as bolsas para a varanda e para o contêiner. O helicóptero está esperando.",--Come on, clowns. Get those bags up to the balcony and into the contêiner. The chopper's waiting.
 	pln_al1_06_02 = "Joguem o dinheiro no duto de ventilação no teto marcado pelo nosso infiltrado.",--Stow the loot in the ceiling vent marked by the Inside Man.
 	pln_al1_54_01 = "Vocês entraram e sairam sem atrair atenção. A GenSec não vai poder varrer para baixo do tapete. Ótimo trabalho, gangue.",--You got in and out without attracting notice to yourselves. GenSec won't be able to discreetly sweep this under the rug. Great work, gang.
 	pln_al1_16_03 = "Segundo Armário. Boa! Abram.",--Second closet. Good. Get it open.
@@ -136,7 +136,7 @@ return {
 	pln_al1_31_03 = "O do MEIO!",--The center one!
 	pln_al1_14_01 = "Não se esqueçam, a C4 está amontoada nos Armários marcados com um X.",--Don't forget, the C4 is stashed in closets marked with an X.
 	pln_al1_23_03 = "Tudo certo. Mais C4. Quase pegamos o que precisamos. Continuem procurando.",--All right. More C4. Almost got all we need now. Keep looking.
-	pln_al1_53_02 = "Sem saída pela frente. Rápido! Entrem no contêiner. Vocês vão sair com o dinheiro. Não fiquem pensando no drop, ok?",--No way out the front. Quick! Get into the container. You're leaving with the loot. Don't think about the drop, okay?
+	pln_al1_53_02 = "Sem saída pela frente. Rápido! Entrem no contêiner. Vocês vão sair com o dinheiro. Não fiquem pensando no drop, ok?",--No way out the front. Quick! Get into the contêiner. You're leaving with the loot. Don't think about the drop, okay?
 	pln_al1_08_03 = "Certo, é isso pelo concerto. Hora de tirar a máscara e se misturar com a multidão. Se tudo for de acordo com o plano, vocês vão conseguir sair pela porta da frente, boa sorte!",--Alright, that's it for the concert. Time to de-mask and blend in with the crowd. If all goes to plan, you'll be able to stroll right out the front door. Good luck.
 	pln_al1_27_03 = "A multidão está pesada hoje. Vamos fazer um grande show.",--The crowd is heaving tonight. Let's give them a great show.
 	pln_al1_22_01 = "Ótimo. Esse é o primeiro amontoado, mas vamos precisar de mais. Peguem o resto.",--Nice. That's the first batch, but we'll need more. Get after the rest.
@@ -284,10 +284,10 @@ return {
 	plt_al1_01_08 = "Bora, bora. Se apressem com essas bolsas!",--Come on, come on. Get that stuff moving!
 	plt_al1_02_06 = "Não tomem cuidado. Mas também se apressem!",--Don't be careful. But be fast!",
 	plt_al1_01_02 = "Os policiais não vão deixar o meu helicóptero voando por muito tempo. Parem de enrolarem!",--Cops ain't gonna let my bird hover for long. Get your asses moving!",
-	plt_al1_03_03 = "Não tem outro jeito. Entrem nesse contêiner, pessoal. E torçam que os cabos aguentam.",--No other way out. Get into that container, gang. And hope the cable holds.",
+	plt_al1_03_03 = "Não tem outro jeito. Entrem nesse contêiner, pessoal. E torçam que os cabos aguentam.",--No other way out. Get into that contêiner, gang. And hope the cable holds.",
 	plt_al1_01_06 = "Não podemos ficar enrolando aqui, gente. Levem o dinheiro no contentor.",--Can't hang around here, gang. Get the money in the box.",
 	plt_al1_01_03 = "Aqui está o contêiner. Bora, levantem as bundas.",--Here's your box. Come on, shake a little ass now.",
-	plt_al1_03_06 = "Tô vendo blitz, snipers... caramba. Vocês não sairão pela frente. Pulem para dentro do contêiner, palhaços. Bora sair daqui voando.",--I see roadblocks, snipers...oh man. You're not going out the front. Jump into the container, clowns. I'm flying you out.",
+	plt_al1_03_06 = "Tô vendo blitz, snipers... caramba. Vocês não sairão pela frente. Pulem para dentro do contêiner, palhaços. Bora sair daqui voando.",--I see roadblocks, snipers...oh man. You're not going out the front. Jump into the contêiner, clowns. I'm flying you out.",
 	plt_al1_02_03 = "Podem ir na violência. Só joguem essa merda.",--Don't be gentle. Just throw that shit in.",
 	plt_al1_01_05 = "Ok, cheguei, palhaços. Joguem o dinheiro pra cá.",--Okay, here's it, clowns. Get that money over here.",
 	plt_al1_01_01 = "Cheguei com o seu contêiner. Bora logo! Botem essa bosta aí dentro.",--Got your box. Get over here! Get that crap stowed.",
@@ -300,11 +300,11 @@ return {
 	plt_al1_02_07 = "Não fiquem apreciando a paisagem, só joguem essa merda.",--Don't piss about being neat. Just throw it in.",
 	plt_al1_02_08 = "Boa, mais dinheiro.",--That's great. Another one safely stowed.",
 	plt_al1_03_01 = "Os policiais cercaram o lugar. Vocês vão ter que escapar daqui com o dinheiro. Vêm logo!",--The cops have this place surrounded. So you're goin' out with the loot. Get in there!",
-	plt_al1_03_02 = "Sem saída da frente. Rápido! Entrem no contêiner. Vocês sairão com o dinheiro aqui. Nem pensem em caírem, ok?",--No way out the front. Quick! Get in the container. You're leaving with the loot. Don't think about the drop, okay?",
-	plt_al1_03_04 = "Merda. Este lugar está cercado. Vai ser impossível de escapar pela frente. Entrem no contêiner!",--Shit. I can see this place is surrounded. You're not fighting out. Get in the container!",
-	plt_al1_03_05 = "Porra, todo policial tá querendo o nosso couro. Sem saída. Vocês vão comigo. Pulem pra dentro do contêiner!",--Damnit, looks like every cop in the city is crawling outside. No way out. You're coming with me. Into the container!",
+	plt_al1_03_02 = "Sem saída da frente. Rápido! Entrem no contêiner. Vocês sairão com o dinheiro aqui. Nem pensem em caírem, ok?",--No way out the front. Quick! Get in the contêiner. You're leaving with the loot. Don't think about the drop, okay?",
+	plt_al1_03_04 = "Merda. Este lugar está cercado. Vai ser impossível de escapar pela frente. Entrem no contêiner!",--Shit. I can see this place is surrounded. You're not fighting out. Get in the contêiner!",
+	plt_al1_03_05 = "Porra, todo policial tá querendo o nosso couro. Sem saída. Vocês vão comigo. Pulem pra dentro do contêiner!",--Damnit, looks like every cop in the city is crawling outside. No way out. You're coming with me. Into the contêiner!",
 	plt_al1_03_07 = "Cacete, policiais barra pesada chegando. É melhor vocês entrarem no contêiner junto com o dinheiro caso queiram escapar daqui com vida.",--Crap, heavy reinforcements moving in. You guys better jump in with the loot if you wanna get out of here.",
-	plt_al1_03_08 = "Ih, merda! Tô vendo os policiais chegando. Esquecem a saída de frente. Pulem pra dentro do contêiner, nós iremos voar!",--Oh man. Oh man! I see cops to the horizon. Forget fighting your way out. Jump into the container - we fly out!",
+	plt_al1_03_08 = "Ih, merda! Tô vendo os policiais chegando. Esquecem a saída de frente. Pulem pra dentro do contêiner, nós iremos voar!",--Oh man. Oh man! I see cops to the horizon. Forget fighting your way out. Jump into the contêiner - we fly out!",
 	
 	-- Objetivos
 	hud_heist_arena_mission11 = "Saia pelo lobby de entrada. Fiquem frios.",--Exit through the lobby entrance. Stay casual.

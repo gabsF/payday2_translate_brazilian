@@ -2,7 +2,7 @@ return {
 	-- Nome e Descrição
 	--heist_crojob2_hl = "The Bomb: Dockyard",
 	--heist_crojob1 = "The Bomb: Dockyard",
-	heist_crojob1_crimenet = "Meus contatos na divisa me informaram que um navio de carga, a Moretta, deve atracar em Washington dentro de alguns dias. Ela está carregando uma grande quantidade de explosivos termobáricos. Eu quero uma equipe especializada para recuperá-los. A discrição é desejada.\n\n» Abra o Portão da Doca\n» Mova o Navio para a Doca 3B\n» Embarque no Navio e procure os Contêineres\n» Pegue a Bomba e fuja",--My contacts in Split has informed me that a cargo ship, the Moretta, is due to dock in Washington within the next few days. It is carrying a large amount of thermobaric explosive. I require a skilled team to recover these. Discretion is desired.\n\n» Open the dock gate\n» Move the ship to Loading Dock 3B\n» Get on the ship and search the containers\n» Take the bomb and escape
+	heist_crojob1_crimenet = "Meus contatos na divisa me informaram que um navio de carga, a Moretta, deve atracar em Washington dentro de alguns dias. Ela está carregando uma grande quantidade de explosivos termobáricos. Eu quero uma equipe especializada para recuperá-los. A discrição é desejada.\n\n» Abra o Portão da Doca\n» Mova o Navio para a Doca 3B\n» Embarque no Navio e procure os Contêineres\n» Pegue a Bomba e fuja",--My contacts in Split has informed me that a cargo ship, the Moretta, is due to dock in Washington within the next few days. It is carrying a large amount of thermobaric explosive. I require a skilled team to recover these. Discretion is desired.\n\n» Open the dock gate\n» Move the ship to Loading Dock 3B\n» Get on the ship and search the contêiners\n» Take the bomb and escape
 	heist_crojob2_briefing = "A Moretta está estacionada em uma doca fechada, esperando a alfândega liberá-lo. É ai que você entra. Assim que chegarem ao estaleiro, vocês vão movê-la para o ancoradouro aonde vocês consigam embarcar. Da 2B para 3B. Abra o portão da doca, e deixem o capitão saber que ele pode ir. Assim que a Moretta ancorar na 3B, você vai poder embarcar e pegar os explosivos. Simples? Bom, nem tanto. A segurança é muito forte para um navio carregado de produtos agrícolas dos Bálcãs. Tô achando que um monte de coisa obscura deve vir por essa rota. Então tenha cuidado.",--The Moretta is sitting in a sealed dock, awaiting customs clearance. This is where you come in. Once you're in the dockyard, you're going to get it moved to a berth from where you can get aboard. From 2B to 3B. Open the dock gates, and let the Captain know he can move. Once the Moretta is berthed in 3B, you can get aboard and boost the explosives. Simple? Well, maybe not so simple. Security's too tight for a ship loaded with Balkan farm produce. Starting to guess a lot of shady stuff comes through that route. So be careful.
 	
 	-- Legendas
@@ -19,7 +19,7 @@ return {
 	pln_cr2_40_01 = "Procure aqueles terminais, pessoal. Precisamos da frequência do rádio.",--Get on those terminals, gang. We need the comm frequency.
 	pln_cr2_117_01 = "Moretta. Aqui é a rádio Porto Washington. Livre para ancorar na doca 3B. Aguardando pelos dados no GPS. Câmbio.",--Moretta. This is Port Washington radio. Free to clear dock and berth at 3B. Stand by for GPS data. Over.
 	pln_cr2_13_01 = "Precisamos na frequência de rádio da Moretta. Vai estar em um desses terminais. Procurem.",--We need the Moretta's comm frequency. It'll be on one of those terminals. Get checking.
-	pln_cr2_100_01 = "Olha gente, é uma péssima ideia fazer metanfetamina num lugar pequeno e fechado como esse contêiner.",--See guys, it's a bad idea to cook meth in a small, closed space like a container.
+	pln_cr2_100_01 = "Olha gente, é uma péssima ideia fazer metanfetamina num lugar pequeno e fechado como esse contêiner.",--See guys, it's a bad idea to cook meth in a small, closed space like a contêiner.
 	pln_cr2_67_01 = "Eles nem sabem que estão aí. Continue olhando pelos cartões de acesso.",--They've got no clue you're there. Keep looking for those keycards.
 	pln_cr2_37_02 = "Deixem a furadeira fazer seu trabalho. Vocês fazem os seus.",--Let the drill do it's job. You do yours.
 	pln_cr2_80_03 = "Temos que mover aquele navio. Tenho uma ideia. Se vocês hackearem o terminal de controle do navio e manter o problema longe, talvez eu consiga mover ele remotamente.",--Got to move that ship. I have an idea. If you can hack the ship control terminal and keep the fuzz off it, should be able to guide it remotely.
@@ -32,7 +32,7 @@ return {
 	pln_cr2_66_03 = "Estão bem quietinhos. Perfeito. Lembrem - vocês precisam dos cartões de acesso.",--You're keeping it quiet. Great. Remember - you need the keycard.
 	pln_cr2_73_01 = "Nenhum alarme ainda. Subam a bordo do navio.",--Still no alarms. Now get on the ship.
 	pln_cr2_81_03 = "Tem um terminal de controle do navio por aí. Hackeiem!",--There's a control terminal for the ship around there. Hack it!
-	pln_cr2_20_03 = "Fodões a bordo! Ótimo trabalho se esgueirando. Contêineres destrancados. Abram eles!",--Badasses on deck! Great job stealthing it. Containers are unlocked. Go for it!
+	pln_cr2_20_03 = "Fodões a bordo! Ótimo trabalho se esgueirando. Contêineres destrancados. Abram eles!",--Badasses on deck! Great job stealthing it. contêiners are unlocked. Go for it!
 	pln_cr2_109_01 = "Esse portão vai abrir sozinho assim que o navio chegar na Doca 3B.",--This gate will open automatically once the ship moves to Dock 3B.
 	pln_cr2_80_02 = "Ainda precisamos levar esse navio ao ancoradouro. Hmmm... Ok, já sei. Hackeiem o terminal de controle do navio. E deixem os policiais longe.",--We still need to get that ship to the berth. Ummm... OK, I got it. Hack the ship control terminal. Keep the cops off it.
 	pln_cr2_07_03 = "Portão direito ativado. Agora procure outro cartão de acesso, e vamos abrir o outro portão.",--Right gate activated. Now find another keycard, and let's get the other gate open.
@@ -43,13 +43,13 @@ return {
 	pln_cr2_19_03 = "Vocês já pegaram as frequências. Mantenham o foco!",--You got the frequency already. Stay focused!
 	pln_cr2_69_02 = "Ainda sem alarmes. Ótimo. Achem as frequências do rádio.",--Still no sign of an alarm. Great. Find the comm frequency.
 	pln_cr2_49_03 = "Os cartões vão abrir os portões. Use um em cada sala de controle.",--Them keycards open the dock gates. Use one in each control room. 
-	pln_cr2_96_02 = "Olha o que temos aqui. Nada mais que o manifesto da Moretta. Agora sabemos quais contêineres podem ter loot. Ótimo achado.",--Well, what have we here. Only the Maretto's cargo manifest. Now we know which containers may hold loot. Good find.
+	pln_cr2_96_02 = "Olha o que temos aqui. Nada mais que o manifesto da Moretta. Agora sabemos quais contêineres podem ter loot. Ótimo achado.",--Well, what have we here. Only the Maretto's cargo manifest. Now we know which contêiners may hold loot. Good find.
 	pln_cr2_81_02 = "Hackeie o terminal de controle do navio!",--Hack the ship control terminal!
-	pln_cr2_58_01 = "Os contêineres esperam por vocês. Procurem.",--The containers are ready for you. Get searching.
+	pln_cr2_58_01 = "Os contêineres esperam por vocês. Procurem.",--The contêiners are ready for you. Get searching.
 	pln_cr2_47_01 = "Lembrem-se de checar dentro dos edifícios pelos cartões restantes.",--Remember to check inside the buildings for the remaining keycard.
 	pln_cr2_76_03 = "Porra! É o alarme. Bem, as coisas ficaram mais diretas agora. Esqueçam o cartões. Vamos abrir o nosso próprio caminho. Acenda um sinalizador. Bile vai te levar um pouco de C4.",--Damn! It's the alarm. Well, this just got more straightforward. Forget keycards. We're blowing our way through. Light a flare and drop it. Bile will drop you some C4.
 	pln_cr2_74_01 = "A segurança continua quietinha. Agora encontre a bomba.",--Security is still quiet. Now find the bomb.
-	pln_cr2_88_03 = "Aquele manifesto que você pegou vai nos mostrar os contêineres certos.",--That manifest you picked up will point us to the right containers.
+	pln_cr2_88_03 = "Aquele manifesto que você pegou vai nos mostrar os contêineres certos.",--That manifest you picked up will point us to the right contêiners.
 	pln_cr2_03_03 = "E aí está o segundo cartão de acesso. Bom trabalho!",--And that's the second keycard. Nice job!
 	pln_cr2_41_01 = "O portão tem duas salas de controles. Uma em cada lado. Essa é uma.",--The gate has two control rooms. One on each side. This is the first.
 	pln_cr2_94_01 = "Vão para o barco!",--Get to the boat!
@@ -69,7 +69,7 @@ return {
 	pln_cr2_101_01 = "Os policiais abriram o portão de entrada!",--The cops opened the entrance gate!
 	pln_cr2_115_03 = "O navio tá ali. Subam a bordo! Talvez coloquem uma tirolesa - pode acelerar o processo.",--Ship's there. Get on it! Maybe deploy the zip-line - might speed things up.
 	pln_cr2_13_02 = "A frequência da Moretta vai estar em um dos computadores. Procurem por eles.",--Moretta's comm frequency will be on one of the computers. Check them out.
-	pln_cr2_59_03 = "Ah caralho! A segurança trancou os contêineres quando o alarme disparou. Parece que vamos ter usar furadeiras.",--Ah crap! Security locked the containers when the alarm was triggered. Looks like we're drilling.
+	pln_cr2_59_03 = "Ah caralho! A segurança trancou os contêineres quando o alarme disparou. Parece que vamos ter usar furadeiras.",--Ah crap! Security locked the contêiners when the alarm was triggered. Looks like we're drilling.
 	pln_cr2_17_01 = "Lá vai. Lembrem, isso não é uma lancha. Vai demorar um pouco. Continuem quietos. Cuidado para não acionar o $NL; alarme. Ou procurem por loot extra. Escolha de vocês, pessoal.",--There it goes. Remember, this isn't a speed boat. Going to take a while. Keep a low profile. Be careful not to trigger $NL;the alarm. Or search for extra loot. Your choice, guys.
 	pln_cr2_52_03 = "Portões abertos. Ótimo! Hora de mover o navio. Eu sabia que aquela frequência que vocês acharam ia ser útil. Só procurem por um rádio agora, e eu faço o resto.",--Gate's are open. Great. Time to move the ship. I knew that comm frequency you found earlier would come in useful. Now just find a radio, and let me do the rest.
 	pln_cr2_121_02 = "Pode parar de olhar as caixas - vocês já acharam a bomba!",--You can quit searching those cases - you found the bomb!
@@ -103,7 +103,7 @@ return {
 	pln_cr2_25_02 = "Foi o primeiro.",--That's the first.
 	pln_cr2_30_03 = "Pode esquecer o capitão movendo o barco pra nós. Dá pra mover sem ele. Hackeie o terminal de controle do navio. E não deixe os policiais atrapalhar.",--We can scratch the Captain moving his ship for us now. Nevermind. We can move the ship without him. Hack into the ship control terminal. And don't let the cops interfere with it.
 	pln_cr2_87_02 = "Falta pouco... Falta bem pouco.",--Almost got it... Almost got it.
-	pln_cr2_18_02 = "Beleza, tá ancorada! Subam a bordo e comecem a procurar os contêineres.",--Alright, she's berthed! Get up on deck and start searching the containers.
+	pln_cr2_18_02 = "Beleza, tá ancorada! Subam a bordo e comecem a procurar os contêineres.",--Alright, she's berthed! Get up on deck and start searching the contêiners.
 	pln_cr2_12_01 = "Lembrem-se, estamos procurando por cartões de acesso. Olhem nos edifícios.",--Remember, you're looking for keycards. Check the buildings.
 	pln_cr2_03_01 = "Esse é o segundo cartão de acesso. Bom trabalho, pessoal!",--That's keycard two. Good job, guys!
 	pln_cr2_56_02 = "Esperem, pessoal. A Moretta tá quase ancorando.",--Stand by, gang. Moretta's almost berthed.
@@ -120,7 +120,7 @@ return {
 	pln_cr2_88_02 = "Graças à aquele manifesto que achou, sabemos aonde abrir.",--Thanks to that manifest you found, we know where to drill.
 	pln_cr2_123_01 = "A frequência de rádio não está ai. Olhem os computadores do outro lado do estaleiro.",--The comm frequency ain't here. Check the computer's in the control room across the dockyard.
 	pln_cr2_61_03 = "Essa caixa talvez tenha a bomba. Olhem ela!",--The case might have the explosives. Check it!
-	pln_cr2_59_02 = "Puta que pariu! Trancaram os contêineres! Deve ter sido os alarmes. Beleza, vamos quebrar as trancas.",--God damn it! They locked the containers! Must've been the alarms. Alright, we break through.
+	pln_cr2_59_02 = "Puta que pariu! Trancaram os contêineres! Deve ter sido os alarmes. Beleza, vamos quebrar as trancas.",--God damn it! They locked the contêiners! Must've been the alarms. Alright, we break through.
 	pln_cr2_69_03 = "Tudo em silêncio. Perfeito. Procurem as frequências de rádio.",--Everything's quiet. Nice. Track down the comm frequency.
 	pln_cr2_16_03 = "Ótimo. Agora vamos mandar esses dados de GPS. Encontrem um computador para enviar.",--Great. Now let's get her that GPS data. Find the computer to upload.
 	pln_cr2_103_01 = "Deram um jeito nos dois guardas. Não precisam se preocupar mais com as câmeras.",--You took care of both guards. Don't have to worry about the cameras anymore.
@@ -142,14 +142,14 @@ return {
 	pln_cr2_79_02 = "Longe do portão! Rápido!",--Away from the gate! Hustle it!
 	pln_cr2_12_03 = "Precisam achar cartões de acesso. Acho que nos edifícios é sua melhor aposta.",--You need to find keycards. My guess is that the buildings are your best chance.
 	pln_cr2_21_01 = "Boa! Frequências de rádio da Moretta. Vai ser útil depois, continuem focados.",--Nice! Comm frequencies for the Moretta. This will be useful later on, but stay focused.
-	pln_cr2_122_03 = "Vocês já acharam a bomba. Podem deixar os contêineres em paz!",--You already found the bomb. You can leave the containers alone!
+	pln_cr2_122_03 = "Vocês já acharam a bomba. Podem deixar os contêineres em paz!",--You already found the bomb. You can leave the contêiners alone!
 	pln_cr2_23_02 = "O C4 tá no chão. Peguem ele!",--C4 is on the ground. Grab it!
 	pln_cr2_51_03 = "Ok, a Moretta está pronta pra ir, mas precisamos convencer o capitão. Encontrem a frequência de rádio. Aposto que um dos computadores ai deve tê-las. Vou convencer a esse bom capitão a ligar os motores.",--OK, the Moretta is free to move but we gotta convince the Captain. Find the comm frequencies. I'm betting one of the computers there has it. I'll convince the good Captain to fire up the engines.
 	pln_cr2_112_01 = "Esse é o armazém. Procurem por um cartão de acesso. Talvez tenha um rádio aqui também.",--This is the Storage Room. Check for a keycard. Might be a radio here too.
 	pln_cr2_44_01 = "É um cartão de acesso, não vai ajudar agora. Poderia ter nos ajudado a não disparar o alarme, mas foquem no agora!",--It's the keycard, for all the good it will do you now. Might have helped us avoid the alarm, but stay focused!
 	pln_cr2_65_03 = "O barco está esperando por vocês, pessoal.",--Boat's standing by to get you out, guys.
-	pln_cr2_89_02 = "Pessoal, não esqueçam de arrombar esses contêineres. Abram eles!",--Gang, don't forget to crack those containers. Drill 'em!
-	pln_cr2_36_01 = "Caralho! Os contêineres trancaram quando o alarme foi disparado. Vão precisar arrombá-los.",--Damn! The containers got locked when the alarm was triggered. Gonna have to drill them.
+	pln_cr2_89_02 = "Pessoal, não esqueçam de arrombar esses contêineres. Abram eles!",--Gang, don't forget to crack those contêiners. Drill 'em!
+	pln_cr2_36_01 = "Caralho! Os contêineres trancaram quando o alarme foi disparado. Vão precisar arrombá-los.",--Damn! The contêiners got locked when the alarm was triggered. Gonna have to drill them.
 	pln_cr2_120_03 = "A polícia tá nas caixas de energia, gente. Mantenham a energia ligada!",--Pigs are all over the powerboxes, gang. Keep the power on!
 	pln_cr2_64_02 = "Corram para o barco.",--Make your way to the boat.        
 	pln_cr2_70_02 = "Ainda em silêncio. Ótimo. Agora o rádio.",--You're keeping it quiet. Great. Now, the radio.
@@ -164,7 +164,7 @@ return {
 	pln_cr2_54_03 = "Precisam achar o computador e enviar as coordenadas do GPS para o navio.",--You need to find the computer and upload the GPS coordinates to the ship.
 	pln_cr2_12_05 = "Achem cartões de acesso, pessoal. Procurem nos edifícios.",--Find keycards, gang. Check the buildings.
 	pln_cr2_11_02 = "Eu acho que esses terminais devem ter a frequência de rádio da Moretta. Pode valer a pena olhar.",--I'm guessing these terminals contain the Moretta's comm frequency. Might be worth a look.
-	pln_cr2_88_01 = "Sorte que vocês acharam esse manifesto. Agora sabemos quais contêineres arrombar!",--Lucky that you found the manifest. Now we know which containers to drill!
+	pln_cr2_88_01 = "Sorte que vocês acharam esse manifesto. Agora sabemos quais contêineres arrombar!",--Lucky that you found the manifest. Now we know which contêiners to drill!
 	pln_cr2_46_01 = "Bom. Agora use o cartão de acesso no painel da outra sala de controle.",--Good. Now use the keycard on the panel in the other control room. 
 	pln_cr2_104_01 = "Gente, eles tão botando tudo em cima de vocês. Melhor sair daí, rápido!",--Guys, they're throwing everything they have at you. Better make it out, fast!
 	pln_cr2_90_01 = "Vão pra van!",--Get to the van!
@@ -187,16 +187,16 @@ return {
 	pln_cr2_04_03 = "Ótimo. Agora usem o cartão de acesso no outro portão. Rápido!",--Great. Now get that other keycard working on the opposite gate. Hurry!
 	pln_cr2_125_02 = "Ai está ela. A Moretta. Embora sem acesso por aqui. Mandem ela pra Doca 3B.",--There she is. The Moretta. No access here, though. Get it to dock 3B.
 	pln_cr2_02_01 = "Ótimo. Primeiro cartão de acesso. Precisamos achar mais um.",--Great. That's keycard one. We need to find one more.
-	pln_cr2_20_01 = "Nenhum alarme disparado, então você pode simplesmente andar pelos contêineres. Incrível.",--No alarm was triggered, so you can simply walk into the containers. Outstanding!
+	pln_cr2_20_01 = "Nenhum alarme disparado, então você pode simplesmente andar pelos contêineres. Incrível.",--No alarm was triggered, so you can simply walk into the contêiners. Outstanding!
 	pln_cr2_97_01 = "Vamos ver o que temos aqui.",--Lets see what we have here.
 	pln_cr2_34_01 = "E... feito! Navio em movimento. Esperem um pouco pessoal, isso vai demorar um pouco! Tentem não morrer.",--And... Done! Ship's moving. Sit tight guys, this will take some time! Try not to get killed.
 	pln_cr2_55_01 = "Lá se vai o alarme. E nosso plano furtivo. Não se preocupem. O navio tá se movendo.",--There's goes the alarm. And our stealth plan. Don't sweat it. The ship is moving.
 	pln_cr2_10_02 = "Pras docas, pessoal, rápido.",--Into the docks, gang, c'mon.
 	pln_cr2_39_02 = "Esse pé-de-cabra vai ser útil com todas essas caixas.",--That crowbar will be useful with all these shipping crates.
 	pln_cr2_67_02 = "Ainda não sabem que tão ai. Procurem os cartões de acesso.",--Still don't know you're there. Look for the keycards.
-	pln_cr2_122_01 = "Vocês já têm a bomba. Não precisa ficar abrindo os contêineres.",--You guys have the bomb. No need to keep opening the containers!
+	pln_cr2_122_01 = "Vocês já têm a bomba. Não precisa ficar abrindo os contêineres.",--You guys have the bomb. No need to keep opening the contêiners!
 	pln_cr2_82_02 = "Preciso da energia de volta, pessoal.",--Need the power back, guys.
-	pln_cr2_36_02 = "Mas que? Ah porr... Os contêineres fecharam quando o alarme disparou. Arrombem eles!",--What the? Ah fuuu... Containers were locked when the alarm tripped. Drill them!
+	pln_cr2_36_02 = "Mas que? Ah porr... Os contêineres fecharam quando o alarme disparou. Arrombem eles!",--What the? Ah fuuu... contêiners were locked when the alarm tripped. Drill them!
 	pln_cr2_77_03 = "O C4 entrou no jogo, gente. Peguem ela.",--The C4 is in play, gang. Grab it.
 	pln_cr2_118_01 = "Alimentando os peixinhos, é?",--Feeding the fish, eh?
 	pln_cr2_107_01 = "Essa é a sala de controle do portão direito. Usem o cartão de acesso aqui.",--This is the Right Control Room for the Dock Gate. Use the Keycard here.
@@ -221,13 +221,13 @@ return {
 	pln_cr2_94_02 = "O barco tá esperando vocês. Vão lá!",--Boat's waiting for you. Get there!
 	pln_cr2_48_03 = "Esse cartão de acesso abre o portão da doca. Use-o em uma sala de controle.",--That keycard opens the dock gate. Use it in the control room. 
 	pln_cr2_32_03 = "Perdi conexão! Religuem a energia, rápido!",--Lost it! Get the power back, quick!
-	pln_cr2_96_03 = "Aha, o manifesto da carga. Uma informaçãozinha sobre os contêineres é sempre bem-vinda. Ainda tem bastante coisa, mas diminui o trabalho. Ótimo trabalho!",--Aha, the cargo manifest. A little intel on the containers is always useful. It's still general, but it narrows the field. Nice job!
+	pln_cr2_96_03 = "Aha, o manifesto da carga. Uma informaçãozinha sobre os contêineres é sempre bem-vinda. Ainda tem bastante coisa, mas diminui o trabalho. Ótimo trabalho!",--Aha, the cargo manifest. A little intel on the contêiners is always useful. It's still general, but it narrows the field. Nice job!
 	pln_cr2_95_02 = "O barco não vai ficar de boa por muito tempo. Vão pra lá, agora!",--The boat won't escape the cops' attention forever. Get there, now!
 	pln_cr2_57_01 = "O que estão esperando? Subam a bordo do navio!",--What are you waiting for? Get on the ship!
-	pln_cr2_89_01 = "Comecem a arrombar esses contêineres!",--Get drilling those containers!
+	pln_cr2_89_01 = "Comecem a arrombar esses contêineres!",--Get drilling those contêiners!
 	pln_cr2_22_01 = "Ele tá vindo com o C4. Esperem um pouco aí, pessoal.",--He's en route now with C4. Just hang in there, gang.
 	pln_cr2_110_01 = "É o vestiário dos trabalhadores. Procurem por um cartão de acesso aí.",--This is the workers' locker room. Check for a keycard here.
-	pln_cr2_58_03 = "A bomba da Butcher está em um desses contêineres.",--The Butcher's explosives are in one of these containers.
+	pln_cr2_58_03 = "A bomba da Butcher está em um desses contêineres.",--The Butcher's explosives are in one of these contêiners.
 	pln_cr2_12_06 = "Aposto minha grana que os edifícios vão ter os cartões. Procurem eles.",--My money would be on the buildings having the keycards. Search 'em.
 	pln_cr2_64_03 = "Tem um barco pronto pra vocês. Vão lá.",--There's a boat ready for you. Head there.        
 	pln_cr2_04_01 = "Agora usem o outro cartão de acesso na outra sala de controle. Vamos abrir o portão e deixar a Moretta sair.",--Now use the other keycard in the other control room. Let's open the gate and get the Moretta out!
@@ -248,10 +248,10 @@ return {
 	pln_cr2_83_02 = "Reativem o terminal. Vamos terminar isso.",--Reactivate the terminal. Let's get this finished.
 	pln_cr2_34_02 = "Tá feito. A Moretta tá se mexendo! Pode demorar um pouco, então segurem. Tentem não morrer aí.",--It's done. The Moretta is on the move! Might take a while, so bunker down. Try not to die.
 	pln_cr2_27_01 = "Só falta um.",--Only one left.
-	pln_cr2_36_03 = "Tinha receio disso. Os contêineres se trancaram. Vão ter que arrombá-los.",--I was afraid of this. The containers are shut and locked. Gonna have to drill them.
+	pln_cr2_36_03 = "Tinha receio disso. Os contêineres se trancaram. Vão ter que arrombá-los.",--I was afraid of this. The contêiners are shut and locked. Gonna have to drill them.
 	pln_cr2_76_01 = "É o alarme e... Porra! Tudo desligou. Ok, esqueçam os cartões de acesso. Vamos explodir o portão. Eu disse que tinha um plano B. Bile vai largar o C4 pra vocês, só acender um sinalizador aonde vocês querem que ele jogue a bolsa com o C4.",--There's the alarm and... Damn! Everything shut down. OK, forget the keycards. We're blowing the gate. I told you I had a plan B. Bile will drop the C4 charges for you, just light a flare to signal him where you want the C4 bag to be dropped.
 	pln_cr2_48_01 = "Pessoal! Usem o cartão de acesso na sala de controle da doca. Vamos abrir esse portão.",--Guys! Use the keycard in the dock control room. Get the dock gate open.
-	pln_cr2_18_01 = "Ela parou! Subam a bordo e procurem os contêineres!",--She stopped! Get on deck and and search the containers!
+	pln_cr2_18_01 = "Ela parou! Subam a bordo e procurem os contêineres!",--She stopped! Get on deck and and search the contêiners!
 	pln_cr2_55_02 = "O alarme! O Stealth já era, gente. Mas o navio tá se movendo, e ela não vai parar agora.",--The alarm! Stealth is out of the window, gang. But the ship is moving, and she ain't gonna stop now.
 	pln_cr2_19_01 = "Vocês já acharam as frequências de rádio da Moretta. Não tem porquê ficar olhando os computadores.",--You already found the comm frequencies for the Moretta. No need to keep checking the computers.
 	pln_cr2_120_01 = "Tão abrindo as caixas de energia. Não deixem cortar a energia!",--They're opening the powerboxes. Make sure they don't cut the power!
@@ -260,7 +260,7 @@ return {
 	pln_cr2_102_03 = "O guarda já era. Não precisam se preocupar com câmeras agora.",--That's the guard dealt with. No need to worry about the cameras now.
 	pln_cr2_45_03 = "Usem os cartões de acesso nos portões. Deixem a Moretta sair.",--Now use the keycards on the dock gates. Let the Moretta out.
 	pln_cr2_124_02 = "Sem frequência aqui. Porra! Então deve estar do outro lado da doca - procurem lá.",--No frequency here. Damn! Then the best bet is the office across the dock - check it out.
-	pln_cr2_59_01 = "Caralho! Fecharam os contêineres quando o alarme disparou. Arrombem eles!",--Damn. They locked the containers when the alarm went off. Break through!
+	pln_cr2_59_01 = "Caralho! Fecharam os contêineres quando o alarme disparou. Arrombem eles!",--Damn. They locked the contêiners when the alarm went off. Break through!
 	pln_cr2_09_03 = "Finalmente estamos dentro. Ótimo. Agora precisaremos de dois cartões de acesso. Aposto que estarão dentro de algum lugar.",--We're inside. Good. Next, gonna need a couple of keycards. Smart money would be on them being indoors.
 	pln_cr2_30_02 = "Com certeza o capitão ouviu isso, então ele não vai mais cooperar. Não temos tempo para forçar ele também, então vamos passar por ele. Hackeie o terminal de controle do navio. Deixem ligado.",--Sure the Captain heard that, so we can rule out him cooperating. No time to turn the screw on him either, so we bypass him. Hack the ship control terminal. Keep it running.
 	pln_cr2_90_02 = "A van tá pronta e esperando, pessoal. Movam-se!",--Van's ready and waiting, gang. Move it!
@@ -285,7 +285,7 @@ return {
 	pln_cr2_29_01 = "Isso foi muito louco, gente!",--That was crazy guys!
 	pln_cr2_71_02 = "Monitorando o rádio deles - ninguém suspeita de nada. Agora vão para o computador.",--Monitoring their comms - no-one suspects a thing. Now get to the computer.
 	pln_cr2_22_02 = "O Plano B tá chegando. O C4 vai fazer um barulhão.",--Plan B is en route, though. C4 can do the job loudly.
-	pln_cr2_60_03 = "Sem explosivos. Próximo contêiner!",--No explosives. Next container!
+	pln_cr2_60_03 = "Sem explosivos. Próximo contêiner!",--No explosives. Next contêiner!
 	pln_cr2_62_02 = "Nada. Porra! Tem mais por aí?",--Nothing. Damn! Are there more around?
 	pln_cr2_119_01 = "Botando o lixo pra fora né?",--Taking out the trash, eh?
 	pln_cr2_01_01 = "Ai está o estaleiro, bem à frente. Entrem. Cuidado com os seguranças.",--There's the dockyard, right ahead. Get inside. Watch the security though.
@@ -302,13 +302,13 @@ return {
 	pln_cr2_118_03 = "Hora da janta, peixinhos.",--Dinner time, little fishies.
 	pln_cr2_119_02 = "Ninguém vai ver isso ai.",--No one'll see that there.
 	pln_cr2_120_02 = "Policiais estão nas caixas de energia. Não deixem desligá-las.",--Cops are at the powerboxes. Don't let them cut the juice.
-	pln_cr2_122_02 = "Por que ainda estão olhando os contêineres? Já possuem a bomba!",--Why're you still searching containers? You got the bomb!
+	pln_cr2_122_02 = "Por que ainda estão olhando os contêineres? Já possuem a bomba!",--Why're you still searching contêiners? You got the bomb!
 	pln_cr2_124_01 = "A frequência de rádio não tá aqui. Beleza, procurem nos terminais do outro lado do estaleiro.",--The comm frequency ain't here. Alright, then check the terminals in the office across the dockyard.
 	pln_cr2_125_01 = "É nosso navio. A Moretta. Mas não da pra acessar daqui. Precisamos movê-la pra Doca 3B.",--That's our ship. The Moretta. But we can't get on it from here. You gotta move it to dock 3B.
 	pln_cr2_125_03 = "A Moretta - É a nossa garota, mas não da pra embarcar daqui. Precisam mover ela até a Doca 3B.",--The Moretta - That's our girl. But we can't get on board here. You have to see her moved to dock 3B.
 	pln_cr2_12_04 = "Talvez nos edifícios tenham cartões de acesso.",--Maybe the buildings are your best chance for finding keycards.
 	pln_cr2_19_02 = "O que tem de errado com você? Já possuem as frequências!",--What's wrong with you? You have the frequencies!
-	pln_cr2_20_02 = "Ótimo trabalho ficando quieto. Eles não suspeitam de você, então os contêineres estão destrancados. Divirtam-se!",--Great job keeping it quiet. They don't suspect you, so the containers are unlocked. Have at it!
+	pln_cr2_20_02 = "Ótimo trabalho ficando quieto. Eles não suspeitam de você, então os contêineres estão destrancados. Divirtam-se!",--Great job keeping it quiet. They don't suspect you, so the contêiners are unlocked. Have at it!
 	pln_cr2_21_02 = "Essas frequências vão ser úteis depois. Por enquanto continuem focados no trabalho.",--These frequencies will be useful later on. For now, though, stay focused on the job.
 	pln_cr2_23_01 = "Aí, o helicóptero deixou a bolsa. Vão pegar o C4, pessoal.",--There, chopper dropped the bag. Go pick up the C4, guys.
 	pln_cr2_23_03 = "Ok, ai está o C4. Fiquem à vontade!",--OK, there's the C4. Help yourself!
@@ -335,7 +335,7 @@ return {
 	pln_cr2_52_02 = "Acabou a parte do portão. Agora só precisamos mover o navio. A frequência que acharam antes vai servir. Encontrem um rádio e me deixem falar com a Moretta.",--That's it for the gate. Now we just got to get the ship moving. That frequency you found earlier will do it. Find a radio and let me talk to the Moretta
 	pln_cr2_57_02 = "Eu não quero deixar uma pessoa que a chamam de Butcher esperando. Embarquem no navio!",--I don't want to keep someone who calls herself the Butcher waiting. Get onto the ship!
 	pln_cr2_57_03 = "A Moretta tá ancorada e pronta pra vocês, palhaços.",--Moretta is berthed and ready for you, clowns.
-	pln_cr2_58_02 = "Vamos, olhem esses contêineres.",--Come on, check those containers.
+	pln_cr2_58_02 = "Vamos, olhem esses contêineres.",--Come on, check those contêiners.
 	pln_cr2_60_01 = "Nada aqui. Continuem olhando!",--Nothing in here. Keep looking!
 	pln_cr2_60_02 = "Vazio! Próximo.",--Empty! Move on.
 	pln_cr2_63_02 = "Bingo! Agora assegurem as partes da bomba.",--Bingo! Now secure the bomb-parts.
@@ -348,7 +348,7 @@ return {
 	pln_cr2_84_01 = "Religuem o computador, gente.",--Reactivate the computer, gang.
 	pln_cr2_85_01 = "Não deixem eles chegar perto das caixas de energia.",--Don't let them get close to the power boxes.
 	pln_cr2_87_01 = "Quase... pronto. Só um momento, pessoal.",--Almost... Done. Just a moment now, guys.
-	pln_cr2_89_03 = "Coloquem suas furadeiras nesses contêineres, palhaços.",--Get your drills on those containers, clowns.
+	pln_cr2_89_03 = "Coloquem suas furadeiras nesses contêineres, palhaços.",--Get your drills on those contêiners, clowns.
 	pln_cr2_91_02 = "A van é sua fuga desse lugar. Cheguem nela!",--The van is your way out of there. Get to it!
 	pln_cr2_91_03 = "Seu motorista de fuga já estacionou. Vão pra lá, agora!",--Your escape driver's parked up. Get back there - now!
 	pln_cr2_92_01 = "Vão para o helicóptero!",--Get to the chopper!
@@ -365,7 +365,7 @@ return {
 	cpn_cr2_02_01 = "Rádio do Porto de Washington. Aqui é Moretta. Aguardando pelo recebimento dos dados do GPS. Câmbio.",--Port of Washington radio. This is Moretta. Standing by to receive GPS data. Over.
 	
 	-- Objetivos
-	hud_heist_crojob1_mission8_b = "Pegue as partes da bomba do contêiner e leve-as até o helicóptero.",--Take the bomb parts from the containers and take them to the helicopter.
+	hud_heist_crojob1_mission8_b = "Pegue as partes da bomba do contêiner e leve-as até o helicóptero.",--Take the bomb parts from the contêiners and take them to the helicopter.
 	hud_heist_crojob1_mission9_a_hl = "Fuga da Van Disponível",--Van escape available
 	hud_heist_crojob1_mission3_01 = "Procure pela Frequência de Rádio da Moretta nos computadores.",--Search for the Moretta's Comm Frequency on the computers.
 	hud_heist_crojob1_mission6_02_b_hl = "Suba a bordo do Navio",--Get on the ship
@@ -380,7 +380,7 @@ return {
 	hud_heist_crojob1_mission2_b_00 = "Acenda o Sinalizador para o piloto do helicóptero saber aonde você quer que ele jogue o C4.",--Light the flare to signal to the chopper pilot where you want him to drop the C4
 	hud_heist_crojob1_mission8_b_hl = "Leve as partes da Bomba até o Helicóptero",--Take the bomb parts to the helicopter
 	hud_heist_crojob1_mission5_b_01_hl = "Hackeie o Terminal de Controle do Navio",--Hack the ship control terminal
-	hud_heist_crojob1_mission7_a_hl = "Abra os Contêineres",--Open the containers
+	hud_heist_crojob1_mission7_a_hl = "Abra os Contêineres",--Open the contêiners
 	hud_heist_crojob1_mission1_02 = "Procure por cartões de acesso, você precisa de 2 deles para abrir o portão da doca. Procure por eles dentro de edifícios. Olhe perto das mesas com computadores. Verifique o vestiário também. Não perca tempo procurando eles na parte de fora.",--Look for the keycards, you need 2 of them to open the dock gate. Check inside the buildings for them. Look on the tables and near computers. Check the locker room, too. Don't waste your time looking for them outside.
 	hud_heist_crojob1_mission5_b_01 = "Hackeie o terminal de controle do navio para iniciar o procedimento de movimentação do navio.",--Hack the ship control terminal to start the ship moving procedure.
 	hud_heist_crojob1_mission5_b_04_hl = "Reative o Computador",--Reactivate the computer
@@ -395,7 +395,7 @@ return {
 	hud_heist_crojob1_mission3_02 = "Use o rádio dentro de uma das construções e ligue para o capitão da Moretta. Bain vai convencê-lo a mover o navio.",--Use the radio inside one of the buildings and call the Moretta's captain. Bain will talk with him and convince him to move the ship.
 	hud_heist_crojob1_mission8_c_hl = "Leve as partes da Bomba até o Barco",--Take the bomb parts to the boat
 	hud_heist_crojob1_mission9_c = "Fuga disponível. O barco espera por você. Pode ir embora ou ficar para mais loot.",--The escape is now available. The boat is waiting for you. You can leave or stay for more loot.
-	hud_heist_crojob1_mission8_a = "Pegue as partes da bomba do contêiner e leve-as até a van.",--Take the bomb parts from the containers and take them to the van.
+	hud_heist_crojob1_mission8_a = "Pegue as partes da bomba do contêiner e leve-as até a van.",--Take the bomb parts from the contêiners and take them to the van.
 	hud_heist_crojob1_mission2_b_03 = "Posicione o C4 no portão da doca.",--Place the C4 on the dock gate.
 	hud_heist_crojob1_mission1_02_hl = "Encontre 2 Cartões de Acesso",--Find 2 keycards
 	hud_heist_crojob1_mission10_hl = "Pegue a Bomba",--Take the bomb
@@ -405,18 +405,18 @@ return {
 	hud_heist_crojob1_mission1_01 = "Entre no Estaleiro e procure por 2 cartõs de acesso.",--Enter the Dockyard and start looking for the 2 keycards.
 	hud_heist_crojob1_mission6_01 = "Espere o navio se mover até a Doca 3B.",--Wait for the ship to move to Loading Dock 3B.
 	hud_heist_crojob1_mission2_b_04_hl = "Exploda o Portão da Doca",--Blow up the dock gate
-	hud_heist_crojob1_mission7_b_hl = "Perfure os Contêineres",--Drill into the containers
-	hud_heist_crojob1_mission7_b = "Os contêineres foram trancados quando o alarme disparou. Perfure os contêineres e procure pela caixa da bomba.",--The containers were locked when the alarm went off. Drill into the containers and look for the bomb case.
+	hud_heist_crojob1_mission7_b_hl = "Perfure os Contêineres",--Drill into the contêiners
+	hud_heist_crojob1_mission7_b = "Os contêineres foram trancados quando o alarme disparou. Perfure os contêineres e procure pela caixa da bomba.",--The contêiners were locked when the alarm went off. Drill into the contêiners and look for the bomb case.
 	hud_heist_crojob1_mission2_a = "Use os cartões de acesso que achou para abrir o portão da doca. Insira-os no painel dentro da sala de controle perto do portão.",--Use the keycards you found to open the dock gate. Insert them into a panel located inside the dock control room close to the gate.
-	hud_heist_crojob1_mission7_a = "Abra os contêineres e procure pela caixa da bomba.",--Open the containers and look for the bomb case.
+	hud_heist_crojob1_mission7_a = "Abra os contêineres e procure pela caixa da bomba.",--Open the contêiners and look for the bomb case.
 	hud_heist_crojob1_mission2_a_hl = "Abra o Portão da Doca",--Open the dock gate
-	hud_heist_crojob1_mission6_02_b = "Embarque no navio e comece a perfurar os contêineres.",--Get on the ship and start drilling the containers.
+	hud_heist_crojob1_mission6_02_b = "Embarque no navio e comece a perfurar os contêineres.",--Get on the ship and start drilling the contêiners.
 	hud_heist_crojob1_mission9_a = "Fuga disponível. A Van espera por você. Pode ir embora ou ficar para mais loot.",--The escape is now available. The van is waiting for you. You can leave or stay for more loot.
 	hud_heist_crojob1_mission2_b_03_hl = "Plante o C4",--Place the C4
 	hud_heist_crojob1_mission5_a_hl = "Insira as Coordenadas do GPS",--Enter GPS coordinates
 	hud_heist_crojob1_mission2_b_04 = "Saia do portão e exploda-o.",--Get off the dock gate and blow it up.
-	hud_heist_crojob1_mission6_02_a = "Embarque no navio e comece a abrir os contêineres.",--Get on the ship and start opening the containers.
+	hud_heist_crojob1_mission6_02_a = "Embarque no navio e comece a abrir os contêineres.",--Get on the ship and start opening the contêiners.
 	hud_heist_crojob1_mission5_b_03 = "Encontre o disjuntor e religue a energia para continuar hackeando.",--Find the circuit breaker to turn the power back on and continue the hacking.
 	hud_heist_crojob1_mission2_b_01_hl = "Espere pelo Helicóptero",--Wait for the chopper
-	hud_heist_crojob1_mission8_c = "Pegue as partes da bomba do contêiner e leve-as até o barco.",--Take the bomb parts from the containers and take them to the boat.
+	hud_heist_crojob1_mission8_c = "Pegue as partes da bomba do contêiner e leve-as até o barco.",--Take the bomb parts from the contêiners and take them to the boat.
 		}
