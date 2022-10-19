@@ -1,8 +1,7 @@
 
 
-12.04 - Pequena atualização / Correções
-* Corrigido "container" para "contêiner".
-* Traduzido o resto do conteúdo anterior que estava faltando.
-* Traduzido o "bloco de notas" do Moutain Master.
-* Traduzido uma interação faltando no Moutain Master.
-* Traduzido as legendas que estavam faltando nos tutoriais.
+12.05 - Pequena atualização / Correções
+* Traduzido as novas conquistas do McShay Weapon Pack 2.
+* Corrigido um erro na tela final do Modo Carreira.
+* Retraduzido o Perk Deck do Hacker.
+* Traduzido um novo aviso do Chat quando alguém vota em um plano de fuga/entrada.

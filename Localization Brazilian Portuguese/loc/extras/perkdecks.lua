@@ -29,9 +29,9 @@ return {
 	bm_grenade_smoke_screen_grenade = "Bomba de Fumaça",
 	bm_grenade_smoke_screen_grenade_desc = 'Solte uma dessas e você vai sumir em uma nuvem de fumaça, fazendo com que os seus inimigos tenham dificuldades em acertar você. Desviar-se das balas é extremamente fácil quando eles não podem te ver.',
 	bm_menu_skill_locked_smoke_screen_grenade = "Requer o Perk Deck do Sicario equipado",
-	bm_grenade_pocket_ecm_jammer = "Dispositivo ECM de Bolso",
+	bm_grenade_pocket_ecm_jammer = "PEM de Bolso",
 	bm_menu_skill_locked_pocket_ecm_jammer = "Requer o Perk Deck do Hacker equipado",
-	bm_grenade_pocket_ecm_jammer_desc = "Um pequeno dispositivo para atrapalhar e invadir sinais criptografados próximos. Com algoritmos sofisticados para ferrar informações sem fios, o Dispositivo ECM de Bolso dá ao portador uma vantagem em se esconder nas sombras e em um combate intenso.",
+	bm_grenade_pocket_ecm_jammer_desc = "Um pequeno dispositivo para atrapalhar e invadir sinais criptografados próximos. Com algoritmos sofisticados para ferrar informações sem fios, o PEM de Bolso dá ao portador uma vantagem em se esconder nas sombras e em um combate intenso.",
 	bm_grenade_tag_team = "Cigarro Eletrônico",
 	bm_menu_skill_locked_tag_team = "Requer o Perk Deck do Tag Team equipado",
 	bm_grenade_tag_team_desc = "Um pequeno cigarro eletrônico que temporariamente aumenta o senso do corpo humano e dá a ele um efeito de cura para duas pessoas.",
@@ -329,22 +329,44 @@ return {
 	--menu_st_spec_21 = "Hacker",
 	menu_st_spec_21_desc = "Usando o seu equipamento e a sua mente brilhante, você pode foder qualquer sistema de segurança com um simples apertar de um botão. Você nunca foi pego no flagra por uma câmera de segurança ou por um guarda, mas se as coisas irem por água a baixo, você poderá facilmente fazer uma força bruta, passar pelos guardas e dar um final não muito feliz para alguém que estiver te ouvindo.",
 	menu_deck21_1 = "Bug de Código",
-	menu_deck21_1_desc = "Desbloqueia e equipa ##Dispositivo ECM de Bolso##.\n\nMudar para outro Perk Deck irá fazer ##Dispositivo ECM de Bolso## indisponível de novo. ##Dispositivo ECM de Bolso## substitui a sua 'granada' atual, é equipado no lugar da sua granada e pode ser trocado caso queira.\n\nEnquanto estiver jogando, você pode usar a tecla da granada ##$BTN_ABILITY;## para ativar ##Dispositivo ECM de Bolso##.\n\nAtivando ##Dispositivo ECM de Bolso## antes do alarme soar, vai ativar o efeito de bloqueamento, desativando todos eletrônicos e pagers por ##6## segundos.\n\nAtivando o ##Dispositivo ECM de Bolso## depois do alarme ter soado vai ativar o efeito de Feedback, tendo uma chance de atordoar os inimigos no mapa todo por ##6## segundos.\n\nO ##Dispositivo ECM de Bolso## tem ##2## usos com um tempo de ##100## segundos antes de poder usar novamente, mas cada inimigo que você matar vai reduzir o tempo em ##6## segundos. \n\nNota: Os cooldowns dos ##2## usos são separados, o segundo não vai recarregar até que o primeiro termine.",
+	menu_deck21_1_desc = "Desbloqueia e equipa o PEM de Bolso.\n\nMudando para o outro Perk Deck bloqueará o PEM de Bolso. O PEM de Bolso substitui a sua granada, pode ser trocado caso queira.\n\nEnquanto estiver jogando, pode pressionar ##$BTN_ABILITY;## para ativar o PEM de Bolso.\n\nAntes do alarme, o PEM de Bolso ativará o efeito de bloqueio, desabilitando todos os eletrônicos e os pagers por ##$multiperk;## segundos.\n\nDepois do alarme, o PEM de Bolso ativará o efeito de Feedback, garantindo uma chance de atordoar os inimigos no mapa a cada segundo por ##$multiperk;## segundos.\n\nO PEM de Bolso tem ##$multiperk2;## usos, mas não pode usar mais de uma vez por ##$multiperk3;## segundos de recarga, mas cada matando um inimigo reduzirá o tempo de recarga por ##$multiperk4;## segundos.",
+	--[[
+	Unlocks and equips the Pocket ECM Device.
+	
+	Changing to another perk deck will make the Pocket ECM Device unavailable again. The Pocket ECM Device replaces your current throwable, it can be switched out if desired.
+	
+	While in game you can use throwable key ##$BTN_ABILITY;## to activate the Pocket ECM.
+	
+	Activating the Pocket ECM Device before the alarm is raised will trigger the jamming effect, disabling all electronics and pagers for a ##$multiperk;## second duration.
+	
+	Activating the Pocket ECM Device after the alarm is raised will trigger the feedback effect, granting a chance to stun enemies on the map every second for a ##$multiperk;## second duration.
+	
+	The Pocket ECM Device has ##$multiperk2;## charges with a ##$multiperk3;## second cooldown timer, but each kill you perform will shorten the cooldown time by ##$multiperk4;## seconds.
+	]]
 	menu_deck21_3 = "Operação de Segurança",
-	menu_deck21_3_desc = "Você ganha mais ##20%## de vida.",
+	menu_deck21_3_desc = "Você ganhará mais ##$multiperk;## de vida.",--You gain ##$multiperk;## more health.
 	menu_deck21_5 = "Distração de Bit",
-	menu_deck21_5_desc = "Matando um inimigo enquanto estiver com o efeito do Feedback, vai regenerar ##20## de vida. \n\nVocê vai ter ##15%## de Dodge.",
+	menu_deck21_5_desc = "Matando um inimigo enquanto o efeito de Feedback estiver ativo regenerá ##$multiperk;## de vida. A sua chance de Dodge é aumentado por ##$multiperk2;##.",
+	--[[
+		Killing an enemy while the feedback effect is active will regenerate ##$multiperk;## health. Your chance to dodge is increased by ##$multiperk2;##.
+	]]
 	--menu_deck21_7 = "Kluge",
-	menu_deck21_7_desc = "Matando pelo menos ##1## inimigo enquanto estiver no efeito do Feedback ou de Jammer, você vai receber ##20## de Dodge por ##30## segundos.",
+	menu_deck21_7_desc = "Matando pelo menos ##$multiperk;## inimigo enquanto o efeito de Feedback ou do bloqueio estiver ativo concederá ##$multiperk2;## de Dodge por ##$multiperk3;## segundos.",
+	--[[
+		Killing at least ##$multiperk;## enemy while the feedback or jamming effect is active will grant ##$multiperk2;## dodge for ##$multiperk3;## seconds.
+	]]
 	menu_deck21_9 = "Bot da INTERWEB",
-	menu_deck21_9_desc = "Enquanto estiver no efeito do Feedback, os seus aliados vão regenerar ##10## de vida quando matarem um inimigo.\n\nVocê ganha mais ##15%## de Dodge.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+	menu_deck21_9_desc = "Os aliados que matarem os inimigos enquanto o efeito de Feedback estiver ativo, renegenarão ##$multiperk;## de vida. A sua chance de Dodge é aumentado por mais ##$multiperk2;##.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##$multiperk3;##.",
+	--[[
+		Crew members killing enemies while the feedback effect is active will regenerate ##$multiperk;## health. Your chance to dodge is increased by an additional ##$multiperk2;##.\n\nDeck Completion Bonus: Your chance of getting a higher quality item during a Payday is increased by ##$multiperk3;##.
+	]]
 	
 	-- Leech
 	--menu_st_spec_22 = "",--Leech
 	menu_st_spec_22_desc = "Você é um parasita seletivo em combate, sugando os seus inimigos para curar os seus aliados e a si mesmo. Mas você não é só uma parede de tijolos que pode aguentar uma porrada. Você pode pegar essa dor que você sofre e usar para dar uma força para sua equipe.",
 --[[You are a selective parasite in combat, draining your foes to strengthen yourself and your teammates. Still, you're not just some brick shithouse that can take a beating. You can dish out the pain and use that aggression to bolster your team.  ]]
 	menu_deck22_1 = "Impulso",--Momentum
-	menu_deck22_1_desc = "Desbloqueia e equipa ##Ampola do Leech##.\n\nMudar para outro Perk Deck irá fazer ##Ampola do Leech## indisponível de novo. Ampola do Leech substitui a sua 'granada' atual, é equipado no lugar da sua granada e pode ser trocado caso queira.\n\nEnquanto estiver jogando, você pode usar a tecla da granada ##$BTN_ABILITY;## para ativar ##Ampola Leech##.\n\nAtivando ##Ampola do Leech## irá restaurar ##$multiperk;## da vida e desativar a sua armadura por duração de ##Ampola do Leech##.\n\nEnquanto ##Ampola do Leech## estiver ativo, a sua vida é dividido em pedaços de ##$multiperk2;## e o dano sofrido abaixo de ##200## dos inimigos remove um pedaço, mas acima de ##200## remove dois. Matando ##$multiperk3;## inimigos irá restaurar um pedaço da sua vida e bloquear dano por 1 segundo. Assim que você sofrer dano, os seus aliados vão receber cura por ##$multiperk4;## da vida deles. A cura por segundo tem limite ##20%## da vida dos seus aliados.\n\nO ##Ampola do Leech## dura por ##$multiperk5;## segundos com um cooldown de ##$multiperk6;## segundos.",
+	menu_deck22_1_desc = "Desbloqueia e equipa Ampola do Leech.\n\nMudar para outro Perk Deck irá fazer Ampola do Leech indisponível de novo. Ampola do Leech substitui a sua 'granada' atual, é equipado no lugar da sua granada e pode ser trocado caso queira.\n\nEnquanto estiver jogando, você pode usar a tecla da granada ##$BTN_ABILITY;## para ativar Ampola Leech.\n\nAtivando Ampola do Leech irá restaurar ##$multiperk;## da vida e desativar a sua armadura por duração de Ampola do Leech.\n\nEnquanto Ampola do Leech estiver ativo, a sua vida é dividido em pedaços de ##$multiperk2;## e o dano sofrido acima de ##200## remove dois, mas abaixo remove apenas um. Matando ##$multiperk3;## inimigos irá restaurar um pedaço da sua vida e bloquear dano por 1 segundo. Assim que você sofrer dano, os seus aliados vão receber cura por ##$multiperk4;## da vida deles. A cura por segundo tem limite ##20%## da vida dos seus aliados.\n\nO ##Ampola do Leech## dura por ##$multiperk5;## segundos com um cooldown de ##$multiperk6;## segundos.",
 --[[Unlocks and equips the Leech Ampule.
 
 Changing to another perk deck will make the Leech Ampule unavailable again. The Leech Ampule replaces your current throwable, is equipped in your throwable slot and can be switched out if desired.
@@ -362,7 +384,7 @@ The Leech Ampule lasts ##$multiperk5;## seconds with a ##$multiperk6;## seconds 
 
 While the Leech Ampule is active you cannot go into bleedout, but being out of health will slow you down by ##$multiperk2;##.]]
 	menu_deck22_5 = "Robusto",--Stalwart
-	menu_deck22_5_desc = "A duração de ##Ampola do Leech## é aumentado para ##$multiperk;## segundos.\n\nMatando um inimigo reduz o cooldown de Ampola do Leech por ##$multiperk2;## segundo(s).\n\nSofrer dano agora cura os seus aliados por ##$multiperk3;## da vida deles.",
+	menu_deck22_5_desc = "A duração de Ampola do Leech é aumentado para ##$multiperk;## segundos.\n\nMatando um inimigo reduz a recarga de Ampola do Leech por ##$multiperk2;## segundo(s).\n\nSofrer dano agora cura os seus aliados por ##$multiperk3;## da vida deles.",
 --[[The Leech Ampule duration is increased to ##$multiperk;## seconds.
 
 Killing an enemy reduces the cooldown of the Leech Ampule by ##$multiperk2;## second(s).
@@ -371,7 +393,7 @@ Taking damage now heals teammates by ##$multiperk3;## of their health.]]
 	menu_deck22_7 = "Construído Diferentemente",--Built Different
 	menu_deck22_7_desc = "A sua vida máxima aumenta por ##$multiperk;##.",--Your maximum health is increased by ##$multiperk;##.
 	menu_deck22_9 = "Simbiose",--Symbiosis
-	menu_deck22_9_desc = "Você pode ativar ##Ampola do Leech## enquanto estiver no chão, vai te reviver temporariamente até ##Ampola do Leech## acabar. Se você conseguir reviver um aliado ou usar uma Bolsa Médica antes que ##Ampola do Leech## acabe, você pode ficar vivo se a sua vida não estiver vazia.\n\nEnquanto ##Ampola do Leech## estiver ativo, a sua vida é agora dividido em pedaços de ##$multiperk;##.\n\nA sua vida máxima aumenta por ##$multiperk2;##.\n\nO cooldown da queda do ##Ampola do Leech## vai ser removido assim que você reviver um aliado ou recuperar a sua vida.\n\nAssim que você reviver outro jogador ou recuperar a sua vida, o cooldown de ##Ampola do Leech## é reduzido pelo tempo passado enquanto esteve caído.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",
+	menu_deck22_9_desc = "Você pode ativar Ampola do Leech enquanto estiver no chão, vai te reviver temporariamente até Ampola do Leech acabar. Se você conseguir reviver um aliado ou usar uma Bolsa Médica antes que Ampola do Leech acabe, você pode ficar vivo se a sua vida não estiver vazia.\n\nEnquanto Ampola do Leech estiver ativo, a sua vida é agora dividido em pedaços de ##$multiperk;##.\n\nA sua vida máxima aumenta por ##$multiperk2;##.\n\nA recarga da queda do Ampola do Leech vai ser removido assim que você reviver um aliado ou recuperar a sua vida. Assim que você reviver outro jogador ou recuperar a sua vida, a recarga de Ampola do Leech é reduzido pelo tempo passado enquanto esteve caído.\n\nBônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##$multiperk3;##.",
 --[[You can now activate Leech Ampule while downed, temporarily reviving you until the end of the Leech Ampule. If you successfully revive a teammate or use a doctor bag before the Leech Ampule ends, you may stay alive if you are above 0 health.
 
 While the Leech Ampule is active your health is now divided into segments of ##$multiperk;##.

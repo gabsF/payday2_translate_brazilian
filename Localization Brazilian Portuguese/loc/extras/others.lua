@@ -6,6 +6,8 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	bm_global_value_pxp2_unlock = "Compre o McShay Weapon Pack 2 para desbloquear!",--
+	menu_l_global_value_pxp2 = "Esse é um item do McShay Weapon Pack 2!",--"This is a McShay Weapon Pack 2 Item!",
 	bm_global_value_tma1_unlock = "Compre o Tijuana Music Papck para desbloquear!",--"Buy the Tijuana Music Pack to unlock!",
 	menu_l_global_value_tma1 = "Esse é um item do Tijuana Music Pack!",--"This is a Tijuana Music Pack Item!",
 	menu_l_global_value_pda9 = "Esse é um item do Nono Aniversário do PAYDAY 2!",--"This is a PAYDAY 2 9th Anniversary Item!",
@@ -535,8 +537,8 @@ return {
 	bm_equipment_bodybags_bag_desc = "Para usar a Bolsa de Corpos, você precisa colocá-la segurando $BTN_USE_ITEM;. Assim que for colocado, não pode ser movido mais, mas pode pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT; para ter mais bolsas de corpos.\n\nA Bolsa de Corpos possui usos limitados. Você pode ver quantos usos restam só olhando na bolsa. A Bolsa de Corpos carrega mais bolsas, usado para transportar cadáveres durante o stealth.",
 	bm_equipment_first_aid_kit = "Kit de Primeiros Socorros",
 	bm_equipment_first_aid_kit_desc = "O Kit de Primeiros Socorros é uma coleção de suprimentos e equipamento para uso em dar o primeiro socorro.\n\nPara usar o Kit de Primeiros Socorros, você precisa colocá-lo segurando $BTN_USE_ITEM;. Assim que for colocado, não pode ser movido mais, mas pode pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT; para recuperar a vida.\n\nUm Kit de Primeiros Socorros colocado pode ser usado uma vez e irá sumir quando for usado.",
-	bm_equipment_ecm_jammer = "Bloqueador de ECM",
-	bm_equipment_ecm_jammer_desc = "Para usar o Bloqueador de ECM, você precisa colocá-lo segurando $BTN_USE_ITEM;. Assim que for colocado, não pode ser movido mais e estará ativo por 20 segundos.\n\nVocê pode alternar o Bloqueador de CME apertando $BTN_INTERACT; nele. O Bloqueador de ECM terá uma chance de atordoar os seus inimigos dentro de uma certa distância. Quando consumido, irá parar de funcionar.\n\nUma contramedida eletrônica (ECM) é um dispositivo feito para enganar o radar, sonar e outros sistemas de detectação, facilitando o seu caminho para o seu objetivo.",
+	bm_equipment_ecm_jammer = "Bloqueador de PEM",
+	bm_equipment_ecm_jammer_desc = "Para usar o Bloqueador de PEM, você precisa colocá-lo segurando $BTN_USE_ITEM;. Assim que for colocado, não pode ser movido mais e estará ativo por 20 segundos.\n\nVocê pode alternar o Bloqueador de CME apertando $BTN_INTERACT; nele. O Bloqueador de PEM terá uma chance de atordoar os seus inimigos dentro de uma certa distância. Quando consumido, irá parar de funcionar.\n\nUma contramedida eletrônica (PEM) é um dispositivo feito para enganar o radar, sonar e outros sistemas de detectação, facilitando o seu caminho para o seu objetivo.",
 	bm_equipment_sentry_gun = "Sentinela",
 	bm_equipment_sentry_gun_desc = "Para usar a Sentinela, você precisa colocá-lo segurando $BTN_USE_ITEM;. Assim que for colocado, irá usar até 30% da munição total das suas armas. Pode ser destruído por inimigos ao atirar nele, mas desde que não esteja completemante destruído, pegando ele irá consertá-lo e retornar a munição da Sentinela restante. Quando a sua munição acabar, irá parar de atirar mas pode ser recarregado por re-colocar ele depois de pegar.\n\nA Sentinela irá automaticamente mirar e atirar no alvos que são detectados pelo seus sensores. É comum usá-lo como distração, chamando a atenção de você e os seus aliados.",
 	bm_equipment_trip_mine = "Trip Mines e Cargas Explosivas",
@@ -547,7 +549,7 @@ return {
 	--------------------------------
 	debug_doctor_bag = "Bolsa Médica",
 	menu_equipment_bodybags_bag = "Bolsa de Corpos",
-	menu_equipment_emc_jammer = "Bloqueador de ECM",
+	menu_equipment_emc_jammer = "Bloqueador de PEM",
 	menu_equipment_first_aid_kit = "Kit de Primeiros Socorros",
 	debug_sentry_gun = "Sentinela",
 	debug_trip_mine = "Trip Mine",
@@ -885,7 +887,19 @@ return {
 	hud_equipment_business_card = "Cartão de Negócios",--Business Card
 	hud_equipment_notepad = "Bloco de notas",--Notepad
 
-	-- Outros Interagindo (Terceira Pessoa) [Nota: só Deus sabe porque algumas interações em terceira pessoa não funcionam, pelo menos o resto tá funcionando.]
+	-- Outros Interagindo (Terceira Pessoa) 
+	--[[ Nota: Só Deus sabe porquê estas interações não funcionam
+	hud_action_enter_turret = "Equipando a torreta",--Equipping turret",
+	hud_action_rebooting_device = "Reiniciando o dispositivo",--Rebooting device",
+	hud_action_applying_tape = "Colocando a fita",--Applying tape",
+	hud_action_sliding_ramp = "Movendo a rampa",--"Moving ramp",
+	hud_action_fixing_saw = "Consertando a Serra",--"Fixing saw",
+	hud_action_starting_override = "Hackeando",--Starting override",
+	hud_action_release_brake = "Soltando o freio de mão",--Releasing parking brake",
+	hud_action_opening_slide_gate = "Abrindo o portão",--"Opening gate",
+	hud_action_setting_up_device = "Preparando o dispositivo",--"Setting up device",
+	hud_action_turning_on_water = "Ligando a água",--Turning on water",]]
+	hud_action_taking_gas_canister = "Pegando o botijão de gás",--"Taking gas canister",
 	hud_action_exploding_pig = "Quebrando o Porquinho",--"Breaking the Piggy Bank...",
 	hud_action_opening_handcuffs = "Removendo as algemas",--"Removing handcuffs",
 	hud_action_moving_truck = "Movendo o caminhão",--"Moving truck"
@@ -932,7 +946,7 @@ return {
 	hud_action_fixing_bfd_drill = "Consertando a BFD",
 	hud_action_starting_drill = "Iniciando a BFD",
 	hud_action_stoping_drill = "Parando a BFD",
-	hud_action_placing_ecm_jammer = "Colocando o Bloqueador de ECM",
+	hud_action_placing_ecm_jammer = "Colocando o Bloqueador de PEM",
 	hud_action_trading = "Trocando",
 	hud_action_generic = "Interagindo",
 	hud_action_disabling_alarm_pager = "Respondendo o Pager",
@@ -1461,7 +1475,7 @@ return {
 	hud_int_disable_alarm_pager = "Segure $BTN_INTERACT para Responder o Pager",
 	hud_int_equipment_drill_upgrade = "Segure $BTN_INTERACT para melhorar a Furadeira",
 	hud_int_equipment_drill_desc = "Use a Furadeira para entrar no Cofre",--Use the drill to get to the vault
-	hud_int_equipment_ecm_feedback = "Segure $BTN_INTERACT para ativar o Feedback do ECM",
+	hud_int_equipment_ecm_feedback = "Segure $BTN_INTERACT para ativar o Feedback do PEM",
 	hud_int_equipment_drill_jammed = "Segure $BTN_INTERACT para consertar a Furadeira",
 	hud_int_equipment_lance_jammed = "Segure $BTN_INTERACT para consertar a Furadeira Térmica",
 	hud_int_equipment_lance_upgrade = "Segure $BTN_INTERACT para melhorar a Furadeira Térmica",
@@ -1495,7 +1509,7 @@ return {
 	hud_action_try_keys_no_key = "Requer a Chave para destrancar",
 	hud_int_tape_loop = "Segure $BTN_INTERACT para aplicar um Loop na Câmera",
 	hud_int_timelock_panel = "Pressione $BTN_INTERACT para usar o Cartão de Acesso",
-	hud_int_use_ecm_jammer = "Segure $BTN_INTERACT para usar o Bloqueador de ECM",
+	hud_int_use_ecm_jammer = "Segure $BTN_INTERACT para usar o Bloqueador de PEM",
 	hud_int_insert_flash_dive = "Pressione $BTN_INTERACT para inserir o Pen Drive",
 	hud_int_hold_use_device = "Segure $BTN_INTERACT para colocar o Dispositivo",
 	hud_close_cas_elevator = "Pressione $BTN_INTERACT para fechar a porta do elevador",
@@ -2239,6 +2253,7 @@ return {
 	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
 
 	-- Menu Principal
+	menu_nh_pxp2_01 = "Cheque o segundo Weapon Pack da Gemma McShay!",-- "Check out the second weapon pack from Gemma McShay.
 	menu_nh_tma1_01 = "Cheque o Lost in Transit Bundle aqui!",--"Check out the Lost in Transit Bundle here!",
 	menu_nh_pda9_01 = "Celebre os noves anos de PAYDAY 2!",--Celebrate 9 years of PAYDAY 2!
 	menu_nh_txt2_02 = "Cheque o Lost in Trasit Bundle aqui!",--"Check out the Lost in Transit Bundle here!",
@@ -3931,6 +3946,7 @@ return {
 	--menu_one_down = "One Down",
 	
 	-- Avisos do Chat
+	menu_chat_preplanning_vote_on_plan = "$name; votou no $plan;: $type;",--$name; voted on the $plan;: $type;
 	menu_chat_preplanning_reserved = "$name; colocou $type;.",
 	menu_chat_preplanning_unreserved = "$name; removeu $type;.",
 	dialog_mp_vote_restart_message = "Uma Votação foi iniciada para reiniciar. A Votação vai terminar em $time; segundos.",
@@ -4010,7 +4026,7 @@ return {
 	hud_hint_civ_criminal = "Alarme disparado: Civil viu um criminoso e ligou para a polícia",
 	hud_hint_body_bag = "Alarme disparado: Câmera detectou uma bolsa de corpo",
 	hud_hint_alarm_cop = "Alarme disparado: Operador de segurança detectou uma Câmera quebrada",
-	hud_hint_cam_ecm_jammer = "Alarme disparado: Câmera detectou um Feedback de ECM",
+	hud_hint_cam_ecm_jammer = "Alarme disparado: Câmera detectou um Feedback de PEM",
 	hud_hint_mot_criminal = "Alarme disparado: Criminoso passou por um sensor de movimento",
 	--hud_hint_civ_trip_mine = "Alarme disparado: Civil encontrou uma tripmine e ligou para polícia /Civilian encountered a trip mine and called the police",
 	hud_hint_civ_body_bag = "Alarme disparado: Civil viu uma bolsa de corpo e ligou para a polícia",
@@ -4031,12 +4047,12 @@ return {
 	hud_hint_civ_c4 = "Alarme disparado: Civil ouviu uma explosão e ligou para polícia",
 	hud_hint_civ_computer = "Alarme disparado: Civil viu um computador hackeado e ligou para a polícia",
 	hud_hint_civ_dead_body = "Alarme disparado: Civil viu um cadáver e ligou para a polícia",
-	hud_hint_civ_ecm_jammer = "Alarme disparado: Civil foi afetado pelo Feedback do ECM e ligou para a polícia",
+	hud_hint_civ_ecm_jammer = "Alarme disparado: Civil foi afetado pelo Feedback do PEM e ligou para a polícia",
 	hud_hint_civ_gunfire = "Alarme disparado: Civil ouviu tiros e ligou para a polícia",
 	hud_hint_civ_hostage = "Alarme disparado: Civil viu um refém e ligou para a polícia",
 	hud_hint_civ_voting = "Alarme disparado: Civil viu uma máquina de votação e ligou para a polícia",
 	hud_hint_cop_broken_cam = "Alarme disparado: A Polícia detectou uma Câmera quebrada",
-	hud_hint_cop_ecm_jammer = "Alarme disparado: A Polícia foi afetado pelo Feedback do ECM",
+	hud_hint_cop_ecm_jammer = "Alarme disparado: A Polícia foi afetado pelo Feedback do PEM",
 	hud_hint_cop_gunfire = "Alarme disparado: A Polícia detectou tiros",
 	hint_skill_messiah_get_up = 'Pressione "Pular" para se levantar!',
 	hud_hint_convert_enemy_failed = "As suas técnicas de persuasão não funcionaram",
@@ -4129,7 +4145,7 @@ return {
 	debug_interact_equipment_stash_server = "Você precisa do Servidor",--You Need the Server
 	hint_thermite = "Você pode adicionar outra termite para acelerar o processo.",--You can pour out another can of thermite to speed up the process.
 	hint_key_pickup = "Você pegou uma Chave",--You picked up a key
-	hud_hint_phoneline_jammed = "A Linha Telefônica está bloqueada pelo ECM",--Phone line is jammed by an ECM
+	hud_hint_phoneline_jammed = "A Linha Telefônica está bloqueada pelo PEM",--Phone line is jammed by an ECM
 	hint_short_firstaidkit = "Coloque o Kit de Primeiros Socorros com o botão $BTN_USE_ITEM;.",--Deploy first aid kit with $BTN_USE_ITEM;.
 	hint_ammo_bag = "Você pode selecionar a Bolsa de Munição no seu inventário e pressionar $BTN_USE_ITEM; para colocá-la.",--You can select the ammo bag in your inventory and press $BTN_USE_ITEM; to place it.
 	hint_no_compound_a = "Necessário o Composto A",--Need compound a
@@ -4527,8 +4543,8 @@ return {
 	trophy_courtesy_desc = "Um ármario de primeiros socorros. Porque a gente se importa com a profissão médica.",
 	trophy_courtesy_objective = 'Conclua o Beneath the Mountain na dificuldade "Mayhem" ou superior, sem matar nenhum médico.',
 	trophy_carshop_stealth = "Eu consigo",
-	trophy_carshop_stealth_desc = "Isso é um poder discreto do Bloqueador de ECM caseiro. Não que você precise, como aquela vez na Car Shop.",
-	trophy_carshop_stealth_objective = "Conclua o Car Shop com o risco de detectação em 70 ou superior e sem usar o Bloqueador de ECM.",
+	trophy_carshop_stealth_desc = "Isso é um poder discreto do Bloqueador de PEM caseiro. Não que você precise, como aquela vez na Car Shop.",
+	trophy_carshop_stealth_objective = "Conclua o Car Shop com o risco de detectação em 70 ou superior e sem usar o Bloqueador de PEM.",
 	--trophy_hobo_killer = "Jason",
 	trophy_hobo_knife_desc = "Sim, você pegou isso. Mas você precisa disso mesmo?",
 	trophy_hobo_knife_objective = 'Ache a faca do mendigo em "Aftershock".',
@@ -4692,7 +4708,7 @@ return {
 	trophy_sandwich_objective = "Em The Big Bank, ache a metade do sanduíche em um cofre.",
 	trophy_tiara = "Tão bonita",
 	trophy_tiara_desc = "É bem bonita. Quem vai colocá-la?",
-	trophy_tiara_objective = 'Conclua "Ukrainian Job" na dificuldade "Death Wish" ou superior, com ninguém tendo Bloqueador de ECM.',
+	trophy_tiara_objective = 'Conclua "Ukrainian Job" na dificuldade "Death Wish" ou superior, com ninguém tendo Bloqueador de PEM.',
 	
 	-- Dicas de Telas de Loading
 	loading_trivia_title = "Curiosidades PAYDAY",
@@ -4839,7 +4855,7 @@ return {
 	loading_heister_40 = "Vlad irá oferecer serviços com uma mistura de Stealth e Loud, portanto esteja pronto pra qualquer coisa.",
 	loading_heister_41 = "Perfis permitem a você salvar o seu equipamento, para depois mudar pro equipamento salvo desejado para cada situação enquanto estiver na tela de Equipamento.",
 	loading_heister_42 = "Algumas bolsas são mais pesadas do que as outras. Tenha certeza que o jogador que está com colete mais leve esteja carregando a mais pesada e vice versa.",
-	loading_heister_43 = "Quando estiver em Stealth, considere se é melhor você levar o Bloqueador de ECM para melhorar a sua equipe.",
+	loading_heister_43 = "Quando estiver em Stealth, considere se é melhor você levar o Bloqueador de PEM para melhorar a sua equipe.",
 	loading_heister_44 = "Força Máxima irá estar vestindo uma roupa marrom e com um colete cinza. Maioria das armas não penetram, então mire na cabeça ou flanqueie eles.",
 	loading_heister_45 = "Unidades da ZEAL são os mais durões que o DdVI, Departamento de Vigilância Interno, tem para oferecer e só aparecem na dificuldade Death Sentence.",
 	loading_heister_46 = "Conheça o seu inimigo. Tem três tipos de Bulldozers: Verde, Preto e Caveira-Dozers. Cada um tem uma arma diferente!",
@@ -4911,9 +4927,9 @@ return {
 	loading_gameplay_58 = 'Bolsas Médicas irá dar três vidas de volta. Se você cair só uma vez, melhor usar um Kit de Primeiros Socorros.',
 	loading_gameplay_59 = "Cuidado com Cloakers, eles atacam quando você menos espera. Fique atento ao som dele.",
 	loading_gameplay_60 = "Jogue com os seus aliados e dê suporte para eles. Se for por conta própria, vai ter menos chance de sobreviver.",
-	loading_gameplay_61 = 'Bulldozers não podem ser atordoados. (Exceto pelo "Counterstrike" e o feedback do ECM.)',
+	loading_gameplay_61 = 'Bulldozers não podem ser atordoados. (Exceto pelo "Counterstrike" e o feedback do PEM.)',
 	loading_gameplay_62 = "Se um Cloaker estiver correndo até você, atire na cabeça dele!",
-	loading_gameplay_63 = "Cloakers não são afetados pelo Feedback do ECM.",
+	loading_gameplay_63 = "Cloakers não são afetados pelo Feedback do PEM.",
 	loading_gameplay_64 = "Depois de atirar com qualquer tipo de arco, não esqueça de pegar as flechas de volta.",
 	loading_gameplay_65 = "Algumas missões podem ser feitas sem disparar o alarme.",
 	loading_gameplay_66 = "Tá difícil achar munição solta? Você pode ativar os contornos para as munições, flechas e granadas nas configurações do jogo.",
@@ -4935,11 +4951,11 @@ return {
 	loading_gameplay_82 = '"Flashbangs" irá fazer um som de "beep" e piscar vermelho antes de explodir.',
 	loading_gameplay_83 = "Fique junto para aumentar a sobrevivência. Ou se separe para fazer os objetivos o mais rápido possível.",
 	loading_gameplay_84 = "Lembre-se que um jogador sozinho é um alvo perfeito para os Cloakers.",
-	loading_gameplay_85 = "Usando um Feedback do ECM você poderá atordoar alguns policiais próximos por um tempo.",
+	loading_gameplay_85 = "Usando um Feedback do PEM você poderá atordoar alguns policiais próximos por um tempo.",
 	loading_gameplay_86 = "Vá para a cobertura, os inimigos podem te matar se você estiver ao ar livre.",
 	loading_gameplay_87 = "Quase todo roubo em Stealth tem um Operador de Câmeras. Matar ele faz com que as câmeras não sejam mais um problema.",
 	loading_gameplay_88 = "Tome cuidado onde você coloca as suas bolsas, se um guarda ou um civil ver, eles irão disparar o alarme.",
-	loading_gameplay_89 = "Bloqueadores de ECM vão bloquear os pagers dos guardas, celulares dos civis e câmeras, assim ninguém irá alertar os policiais sobre a sua presença enquanto o Bloqueador estiver ativo.",
+	loading_gameplay_89 = "Bloqueadores de PEM vão bloquear os pagers dos guardas, celulares dos civis e câmeras, assim ninguém irá alertar os policiais sobre a sua presença enquanto o Bloqueador estiver ativo.",
 	loading_gameplay_90 = "Alguns guardas tem um caminho de patrulha durante o Stealth. Use isso para sua vantagem.",
 	loading_gameplay_91 = "Não deixe corpos por aí, use uma Bolsa de Corpos para mover eles onde não podem ser vistos por ninguém.",
 	loading_gameplay_92 = "Não saia correndo feito um louco sem checar se tem Snipers, eles podem causar dano direto em sua vida, mesmo tendo uma armadura completa.",
@@ -4958,9 +4974,9 @@ return {
 	loading_gameplay_105 = "Bolsas de Corpos podem ser jogadas no fundo do mar ou nos depósitos de lixos para esconder eles.",
 	loading_gameplay_106 = "Policiais não irão tentar pegar o espólio que ainda não foi saqueado.",
 	loading_gameplay_107 = "Lasers não irão te dar dano, mas vão soar o alarme imediatamente.",
-	loading_gameplay_108 = "Bloqueadores de ECM talvez possam parar os guardas de disparar o alarme, mas em muitos casos, certos objetivos não podem ser concluídos enquanto eles estão ativos. Eles devem ser usados como uma emergência.",
-	loading_gameplay_109 = "Bloqueadores de ECM vão temporariamente converter as sentinelas das SWATs para atacarem os policiais.",
-	loading_gameplay_110 = "O Feedback do ECM recarrega a cada 4 minutos.",
+	loading_gameplay_108 = "Bloqueadores de PEM talvez possam parar os guardas de disparar o alarme, mas em muitos casos, certos objetivos não podem ser concluídos enquanto eles estão ativos. Eles devem ser usados como uma emergência.",
+	loading_gameplay_109 = "Bloqueadores de PEM vão temporariamente converter as sentinelas das SWATs para atacarem os policiais.",
+	loading_gameplay_110 = "O Feedback do PEM recarrega a cada 4 minutos.",
 	loading_gameplay_111 = 'Segurando o botão do "Corpo-a-Corpo" lhe permite ter mais força no ataque de corpo-a-corpo.',
 	loading_gameplay_112 = "Alguns inimigos usam colete à prova de balas e você precisará mirar na cabeça deles.",
 	loading_gameplay_113 = "As Sentinelas das vans da SWAT são consertadas duas vezes, cada vez que são quebradas.",
@@ -4970,7 +4986,7 @@ return {
 	loading_gameplay_117 = "Até mesmo as Serras silenciadas fazem um pouco de barulho. Fique atento com as pessoas ao redor antes de usá-la.",
 	loading_gameplay_118 = "Civis desprendidos vão se levantar e sair sem serem notados. Use as suas Abraçadeiras para evitar.",
 	loading_gameplay_119 = 'O "Arremessável" Ás de Espadas é 100% silencioso. Granadas explosivas não são. Se prepare quando você for invadir sem soar o alarme.',
-	loading_gameplay_120 = "Os Bloqueadores de ECMs temporariamente desativam as câmeras. Não fique com medo de usar para cegar o Operador das Câmeras quando você estiver em uma situação bem ruim.",
+	loading_gameplay_120 = "Os Bloqueadores de PEMs temporariamente desativam as câmeras. Não fique com medo de usar para cegar o Operador das Câmeras quando você estiver em uma situação bem ruim.",
 	loading_gameplay_121 = "Câmeras não detectam barulhos, mas elas vão disparar o alarme se verem algo suspeito por muito tempo.",
 	loading_gameplay_122 = "Se a câmera detectar algo de suspeito, não há como parar o alarme.",
 	loading_gameplay_123 = "As armas de corpo-a-corpo são sempre silenciosas. Se você não tiver alguma arma com silenciador, ela será o seu melhor amigo para matar sem disparar o alarme.",
@@ -4987,7 +5003,7 @@ return {
 	loading_gameplay_134 = "As Trip Mines podem ser colocadas em qualquer lugar, que nem ventilações onde os Cloakers podem vir ou em uma sala onde você não espera que os policiais entrem.",
 	loading_gameplay_135 = "Tome cuidado ao arremessar granadas nos policiais. Elas podem facilmente explodir no meio do ar quando levam um tiro.",
 	loading_gameplay_136 = "Todo civil que você matar irá aumentar a duração do tempo em que você estará na custódia enquanto o Bain (ou Locke) negocia em te tirar de lá.",
-	loading_gameplay_137 = "Cloakers não são afetados pelo Feedback do ECM.",
+	loading_gameplay_137 = "Cloakers não são afetados pelo Feedback do PEM.",
 	loading_gameplay_138 = "Se você for o último de pé, ficar vivo é o mais importante. Logo em seguida, vem os objetivos.",
 	loading_gameplay_139 = "Shotguns podem matar vários policiais com um tiro só. Mire em uma multidão e descarregue bala!",
 	loading_gameplay_140 = "Os rifles de Sniper podem atirar através dos Shields e o colete deles ou até mesmo vários inimigos com um só tiro.",
@@ -5222,7 +5238,7 @@ return {
 	sm_53_name = "O Maior Golpe De Todos",--The Greatest Heist of All
 	sm_53_obj = "Conclua o Contrato The White House na dificuldade Muito Difícil ou acima\nÉ necessário jogar a heist do início ao fim.",--Complete The White House job on the Very Hard difficulty or higher.\nThis assignment requires you to play from the lobby to the end of the heist.
 	sm_end_name = "Á Espera De Um Próximo Golpe!",--Here's to Another Heist!
-	menu_sm_all_done = "Obrigado por jogar!\n\nVocê alcançou o fim da história do PAYDAY 2. Nós da Overkill agradecemos por se juntar conosco nessa jornada, e nós esperamos que você gostou de jogar o jogo quanto nós que o desenvolvemos. Seja você um assaltante que esteve conosco desde 2013, ou entrou na diversão no meio, nós agradecemos pelo suporte.\n\nA nossa comunidade esteve sendo importante para a evolução do PAYDAY 2, e não conseguiríamos sem vocês.\n\nIsto pode ser o fim da história, mas o mundo continua cheiro de assaltantes.\nNós vemos na Crime.net.\n\nA Overkill te saúda!",--"Thanks for playing!$NL;$NL;You've reached the end of the Payday 2 story. We here at OVERKILL thank you for joining us on this wild ride, and we$NL;hope you've enjoyed playing the game as much as we enjoyed making it. Whether you're a heister who's been with us$NL;since our launch in 2013, or you joined the crew along the way, we're grateful for your support.$NL;$NL;Our community has been vital to PAYDAY 2's evolution, and we couldn't have done it without you.$NL;$NL;This may be the end of the story, but the world is still full of heisters.$NL;We'll see you on Crime.net.$NL;$NL;OVERKILL salutes you!",
+	menu_sm_all_done = "Obrigado por jogar!\n\nVocê alcançou o fim da história do PAYDAY 2. Nós da Overkill agradecemos por se juntar conosco nessa jornada, e nós esperamos que você gostou de jogar o jogo quanto nós que o desenvolvemos. Seja você um assaltante que esteve conosco desde 2013, ou entrou na diversão no meio, nós agradecemos pelo suporte.\n\nA nossa comunidade esteve sendo importante para a evolução do PAYDAY 2, e não conseguiríamos sem vocês.\n\nIsto pode ser o fim da história, mas o mundo continua cheio de assaltantes.\nNos vemos na Crime.net.\n\nA Overkill te saúda!",--"Thanks for playing!$NL;$NL;You've reached the end of the Payday 2 story. We here at OVERKILL thank you for joining us on this wild ride, and we$NL;hope you've enjoyed playing the game as much as we enjoyed making it. Whether you're a heister who's been with us$NL;since our launch in 2013, or you joined the crew along the way, we're grateful for your support.$NL;$NL;Our community has been vital to PAYDAY 2's evolution, and we couldn't have done it without you.$NL;$NL;This may be the end of the story, but the world is still full of heisters.$NL;We'll see you on Crime.net.$NL;$NL;OVERKILL salutes you!",
 	
 	-- Descrição dos Personagens
 	bm_menu_characters = "Personagem",

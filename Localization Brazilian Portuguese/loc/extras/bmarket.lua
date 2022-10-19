@@ -2646,6 +2646,14 @@ return {
 	achievement_death_31_additional = "Você precisa ser parte do grupo oficial no Steam do PAYDAY 2.",--You need to be a part of the official PAYDAY 2 group on Steam.
 	achievement_ja22_01_desc = "Destrua uma Turret da van da SWAT usando apenas o CAR-4 Rifle.",--Destroy a SWAT van turret using only the CAR-4 rifle.
 	achievement_pxp1_1_desc = "Mate 200 inimigos usando veneno na dificuldade OVERKILL ou superior, enquanto veste o traje Scrubs.",--Kill 200 enemies using poison on the OVERKILL difficulty or above, while wearing the Scrubs outfit.
+	achievement_pxp2_3_desc = "Mate 100 inimigos com a Granada de Veneno na dificuldade OVERKILL ou superior.",--"Kill 100 enemies with the Viper Grenade throwable on Overkill difficulty or above.",
+	achievement_pxp2_2_desc = "Mate 1000 inimigos com ambas versões do VD-12.",--"Kill 1000 enemies with either version of the VD-12.",
+	achievement_pxp2_1_desc = "Mate 500 inimigos com o modo de Tiro Rápido do Hailstorm Mk 5.",--"Kill 500 enemies with the Hailstorm Mk 5's Volley Shot mode.",
+	achievement_pxp2_1_additional = "É preciso ter McShay Weapon Pack 2 para esta conquista.",--"This achievement requires you to own the McShay Weapon Pack 2.",
+	achievement_pxp2_2_additional = "É preciso ter McShay Weapon Pack 2 para esta conquista.",--"This achievement requires you to own the McShay Weapon Pack 2.",
+	achievement_pxp2_3_unlock = 'Desbloqueia o "Tombstone Slug" para as escopetas.',--"Unlocks the \"Tombstone Slug\" for shotguns.",
+	achievement_pxp2_2_unlock = 'Desbloqueia o "Stateside Conversion Kit" para a escopeta VD-12.',--"Unlocks the \"Stateside Conversion Kit\" for the VD-12 shotgun.",
+	achievement_pxp2_1_unlock = 'Desbloqueia o "Prototype Conversion Kit" para o Hailstorm Mk 5.',--"Unlocks the \"Prototype Conversion Kit\" for the Hailstorm Mk 5.",
 
 	-- Oitavo Aniversário
 	--menu_challenge_div_cat_event_jobs = "Oitavo Aniversário do PAYDAY 2",--PAYDAY 2 8th Anniversary",
