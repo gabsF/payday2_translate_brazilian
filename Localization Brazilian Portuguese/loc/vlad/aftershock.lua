@@ -54,7 +54,7 @@ return {
 	pln_as1_08_03 = "Vou avisar o piloto para retornar com o C4 para ajudarem vocês. Só esperem aí.",--Telling the pilot to return with the C4 to bust you through there. Just hang in there.
 	pln_as1_03_02 = "Ok, os caminhões estão em algum lugar nessa rodovia.",--Okay, trucks are somewhere on this freeway.
 	pln_as1_20_01 = "Consegui! A Área de Construção, com um caminhão. Parece que é o melhor jeito de sairem daí, mas vocês vão precisar de C4 para derrubar esse muro. Estou enviando agora. Cuidem dos cofres!",--Got it! Construction yard, with a truck. Looks like the best way out of here, but you'll need C4 to bust that wall. Sending it now. Mind the safes!
-	pln_as1_16_03 = "Gente, está tudo detonado. Tá bloqueando tudo.",--Guys, the wreckage is incredible. Rubble blocking everything.
+	pln_as1_16_03 = "Gente, está tudo detonado. Destroços em todo canto.",--Guys, the wreckage is incredible. Rubble blocking everything.
 	pln_as1_02_02 = "Vlad está querendo falar com vocês aqui.",--Vlad's very keen on talking to you on this one.
 	pln_as1_12_03 = "Vão para a Área de Construção! Rápido!",--Get to the construction yard! Hurry!
 	pln_as1_13_03 = "Acendem o sinalizador, gangue. o Piloto não consegue ver sem ele.",--Light the flare, gang. Pilot is blind without it.
@@ -66,7 +66,7 @@ return {
 	pln_as1_11_03 = "Bom. Todos os cofres estão dentro. Agora levem o caminhão de volta pra construção, gangue - Rápido!",--Great. All the safes are in. Now let's see the truck back at the yard, gang - hustle!
 	pln_as1_13_01 = "Pessoal, o piloto está rodando em círculos! Coloquem esse sinalizador!",--Guys, the pilot is circling! Drop the flare!
 	pln_as1_14_01 = "Não temos tempo de carregar e descarregar os cofres. O helicóptero vai carregar o caminhão todo logo. Ele consegue carregar. Vocês só precisam entrar!",--We don't have time to load and unload the safes. The chopper's just going to carry the truck. It can do it. You just need to get in!
-	pln_as1_16_01 = "Meu Deus, Los Angeles está uma bagunça. Bloqueando tudo.",--Christ, LA's wrecked. Rubble everywhere.
+	pln_as1_16_01 = "Meu Deus, Los Angeles está uma bagunça. Há destroços em todos os lugares.",--Christ, LA's wrecked. Rubble everywhere.
 	pln_as1_18_01 = "Não vai ter outro jeito de vocês sairem carregando isso nas suas costas. Esperem aí, eu vou achar um transporte.",--There's no way you're hauling those out on your backs. Hold on, I'm going to find you a transport.
 	pln_as1_21_02 = "Isso deve servir! Comecem a carregar os cofres e coloquem dentro do caminhão!",--That will do! Start getting them out and into the truck!
 	

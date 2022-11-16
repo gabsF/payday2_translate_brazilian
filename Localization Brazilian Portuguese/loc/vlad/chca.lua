@@ -140,7 +140,6 @@ return {
 	chca_meeting_short_01_08 = "Shayu! Olha a boca. Eu não estou intimidado.",--Shayu! Watch your tongue. I will not appear intimidated.",
     xuk_chca_13_02 = "Aqueles palhaços estão aqui! Eu vou cuidar disto!",--Those clowns are here! I will deal with it!",
     xuk_chca_13_01 = "É a gangue Payday! Eles estão aqui!",--It's the Payday gang! They're here!",
-    
     vld_chca_10_01 = "Você deveria deixar Vlad fazer um Sputniks especiais para ele. Iria fazer ele vomitar bem rápido!",--"You should have let Vlad mix up some special Sputniks for him. Would have taken him out much faster!",
 	vld_chca_10_02 = "Quando eles estavam me torturando, eu ouvi eles falarem sobre esse tal de Li Deng. Quando tiverem a chance, metem porrada e roubem os dentes dourados dele!",--When they were torturing me, I heard them talk about this Li Deng-guy. If you get the chance, smash out his fucking gold teeth and bring them back!",
     vld_chca_15_01 = "Ei, o filha da puta tava torrando os meus mamilos com eletricidade! Eu nem olhei para a porra da mão dele!",--Hey, the motherfucker was burning my fucking nipples off with electricity! I didn't look at his fucking hand!
@@ -159,6 +158,12 @@ return {
 	vld_chca_06_01 = "Bom, só quero que saiba que tenho uma surpresa para você.",--Well, I just wanted you to know, that I have a special surprise coming for you. ",
 	vld_chca_14_02 = "Puta que pariu, Kang, seu filha da puta! É ele, é ele!",--Holy piece of shit Kang, you motherfucker! That's him, that's him!",
     vld_chca_14_01 = "É ele! É o filho da puta que tentou me matar!",--That's him! That's the motherfucker that got me! [Tô rezando que só tem três variações, eu vou ficar puto se tiver mais.]
+    vld_chca_11_02 = "If there's anything left of it, maybe steal that chandelier for Vlad, yes?",
+	vld_chca_08_01 = 'Ei, nós deveriamos se divertir um pouco com esses filhas da puta. Que tal arruinar o resto do dinheiro deles com uma bomba de tinta com o resto do dinheiro como um belo de um "vai se foder"?',
+    --Hey, we should have a little fun while we take these fuckers down. What about putting an ink bomb in the rest of that money as a nice "fuck you" bonus, when it's destroyed?",
+	vld_chca_12_03 = "Vocês sabem como fazer uma boa festa! Vlad está feliz que acomponhou o seu trabalho!",--You guys always know how to throw a good party! Vlad is happy he came along to see this!",
+	vld_chca_12_01 = "Queimar o dinheiro por uma boa causa está sempre ok. Foder os seus inimigos é uma causa muito boa.",--Burning money for a good cause is always OK. Crushing your enemies is a very good cause.",
+	vld_chca_09_01 = "Só não tenta escapar com uma das portas flutuando no mar. O que? Eu vi isso num filme! Aquela merda não funcionou!",--Just don't try to escape on any floating doors. What? I saw it in a movie! That shit didn't work!",
     bar_chca_01_01 = "Eu estive esperando. Seu equipamento está esperando em um dos banheiros, mas tem um pequeno problema. A segurança do cofre mudou. Li Deng ainda tem o código, mas vocês vão precisar pegar a digital de Xun Kang também para abri-lo. Eu deixei uma cera de impressão nas suas coisas. Boa Sorte.",--I've been waiting. Your equipment is waiting in one of the cabin lavatories, but there is a small complication. Vault security has been changed. Li Deng still has the code, but you will need Xun Kang's hand print as well to open it. I was able to acquire some impression wax and store it with your gear. Good luck.
     loc_chca_001_01 = "OK, amigos. Deem uma olhada em volta.",--OK, friends. Have a look around.
     loc_chca_001_02 = "Deem uma olhada cuidadosa em volta. Fiquem longe dos guardas de Wang.",--Have a careful look around. Stay clear of Wang's guards.

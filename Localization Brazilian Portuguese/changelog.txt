@@ -1,7 +1,18 @@
 
 
-12.05 - Pequena atualização / Correções
-* Traduzido as novas conquistas do McShay Weapon Pack 2.
-* Corrigido um erro na tela final do Modo Carreira.
-* Retraduzido o Perk Deck do Hacker.
-* Traduzido um novo aviso do Chat quando alguém vota em um plano de fuga/entrada.
+12.06 - Atualização 231 / Correções
+* Lost in Transit agora está no processo de tradução.
+* Corrigido um erro com um dos objetivos do Golden Grin Casino.
+* Traduzido mais legendas.
+> Vlad em Black Cat e Buluc's Mansion.
+* Traduzido mais interações em primeira e terceira pessoa.
+* Traduzido o Pré-planejamento do Lost in Transit.
+* Traduzido o traje do Texas Heat. (Twitch Drop)
+* Traduzido o traje do décimo primeiro aniversário da franquia.
+* Traduzido os trajes e as luvas do Dia das Bruxas 2022. (Twitch Drop)
+* Traduzido um aviso quando equipar armadura não compatível junto com Grinder.
+* Traduzido as novas opções de acessibilidade.
+> Desativar o efeito de zumbido.
+> Cor das flashbangs na tela.
+> Cor da flash de dano.
+> Cor da zona de borrão.

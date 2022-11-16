@@ -6,6 +6,14 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	menu_l_global_value_txt3 = "Esse é um item de Street Smart Tailor Pack!",--"This is a Street Smart Tailor Pack item!",
+	bm_global_value_txt3_unlock = "Compre o Street Smart Tailor Pack para desbloquear!",--Buy the Street Smart Tailor Pack to unlock!",
+	menu_l_global_value_h22 = "Esse é um item de Dia das Bruxas 2022!",--This is a Halloween 2022 item!",
+	bm_global_value_h22_unlock = "Assiste uma live da Twitch para desbloquear!",--Watch a Twitch stream to unlock!",
+	bm_global_value_trt_unlock = "Esse item precisa da Drop da Twich para desbloquear!",--"This item requires a Twitch drop to unlock!",
+	menu_l_global_value_trt = "Esse é um item do Texas Heat!",--"This is a Texas Heat Item!",
+	menu_l_global_value_a11th = "Esse é um item do décimo-primeiro aniversário da franquia PAYDAY!",--"This is a Payday franchise 11th Anniversary item!",
+	bm_global_value_a11th_unlock = "Crie uma conta Starbreeze no menu Opções para desbloquear!",--"Create a Starbreeze Account in the Options menu to unlock!",
 	bm_global_value_pxp2_unlock = "Compre o McShay Weapon Pack 2 para desbloquear!",--
 	menu_l_global_value_pxp2 = "Esse é um item do McShay Weapon Pack 2!",--"This is a McShay Weapon Pack 2 Item!",
 	bm_global_value_tma1_unlock = "Compre o Tijuana Music Papck para desbloquear!",--"Buy the Tijuana Music Pack to unlock!",
@@ -886,6 +894,7 @@ return {
 	hud_equipment_documents = "Documentos",--Documents
 	hud_equipment_business_card = "Cartão de Negócios",--Business Card
 	hud_equipment_notepad = "Bloco de notas",--Notepad
+	hud_equipment_thermite = "Termite",--Thermite",
 
 	-- Outros Interagindo (Terceira Pessoa) 
 	--[[ Nota: Só Deus sabe porquê estas interações não funcionam
@@ -899,6 +908,7 @@ return {
 	hud_action_opening_slide_gate = "Abrindo o portão",--"Opening gate",
 	hud_action_setting_up_device = "Preparando o dispositivo",--"Setting up device",
 	hud_action_turning_on_water = "Ligando a água",--Turning on water",]]
+	hud_action_trai_fix_cable = "Consertando os cabos",--Fixing the cable
 	hud_action_taking_gas_canister = "Pegando o botijão de gás",--"Taking gas canister",
 	hud_action_exploding_pig = "Quebrando o Porquinho",--"Breaking the Piggy Bank...",
 	hud_action_opening_handcuffs = "Removendo as algemas",--"Removing handcuffs",
@@ -1306,8 +1316,43 @@ return {
 	hud_action_center_button = "Empurrando o Símbolo do Centro",
 	hud_action_assembling_bomb = "Montando Explosivos",
 	hud_action_accessing_mask_list = "Acessando a Lista de Máscaras",
+	hud_action_attach_hook = "Conectando o gancho",--Attaching hook",
+	hud_action_decouple_locomotive = "Desaclopando o locomotiva",--"Decoupling locomotive",
+	hud_action_refuel_locomotive = "Re-enchendo a locomotiva",--Refueling locomotive",
+	hud_action_start_locomotive = "Iniciando o motor",--Starting engine",
+	hud_action_trai_toolsafe_lockpick = "Destrancando o cofre",--Lockpicking toolsafe",
+	hud_action_trai_toolsafe_pickuptool = "Procurando a ferramente",--Searching for tool",
+	hud_action_trai_reinforced_big_sliding_gate_open = "Abrindo o portão",--Opening gate",
+	hud_action_trai_connect_locke_walkietalkie = "Conectando o Locke",--Connecting Locke",
+	hud_action_trai_turntable_console_use = "Rotacionando a plataforma giratória",--Rotating turntable",
+	hud_action_trai_hold_access_console = "Acessando console",--"Accessing console",
+	hud_action_lowering_lifeboat = "Abaixando os botes salva vidas",--Lowering lifeboat",
+	hud_action_pkuing_pouring_diesel = "Despejando o diesel",--Pouring diesel",
+	hud_action_pkuing_disable_firewall = "Desativando o firewall",--Disabling firewall",
+	hud_action_lowering_painting = "Abaixando a pintura",--Lowering painting",
+	hud_action_displaying_passenger_manifest = "Exibindo o manifesto do passangeiro",--Displaying passenger manifest",
+	hud_action_inking_money = "Plantando a bomba de tinta",--Planting the ink bomb",
+	chca_action_burning_money = "Queimando o dinheiro",--Burning the money",
 
 	-- Interações (Primeira Pessoa)
+	hud_equipment_need_diesel = "Necessário diesel",-- "Diesel can required",
+	hud_int_lower_lifeboat = "Segure $BTN_INTERACT para abaixar botes salva vidas",--"Hold  to lower lifeboat",
+	hud_trai_need_equipment_key = "Você precisa da chave 42",--You need Key 42",
+	hud_int_trai_hold_access_console = "Segure $BTN_INTERACT para acessar o console",--Hold $BTN_INTERACT; to access the console",
+	hud_int_trai_turntable_console_use = "Segure $BTN_INTERACT para rotacionar a plataforma giratória",--Hold $BTN_INTERACT; to rotate the turntable",
+	hud_int_trai_connect_locke_walkietalkie = "Segure $BTN_INTERACT para conectar o Locke",-- "Hold $BTN_INTERACT; to connect Locke",
+	hud_action_trai_reinforced_big_sliding_gate_nokey = "Você precisa de uma chave",--You need a key",
+	hud_int_trai_reinforced_big_sliding_gate_open = "Pressione $BTN_INTERACT para abrir o portão",--Press $BTN_INTERACT; to open the gate",
+	hud_int_trai_toolsafe_pickuptool = "Segure $BTN_INTERACT para procurar a ferramenta",--Hold $BTN_INTERACT; to search for tool",
+	hud_int_trai_toolsafe_lockpick = "Segure $BTN_INTERACT para destrancar o cofre",--Hold $BTN_INTERACT; to pick the lock",
+	hud_int_start_locomotive = "Segure $BTN_INTERACT para iniciar o motor",--Hold $BTN_INTERACT; to start engine",
+	hud_int_refuel_locomotive = "Segure $BTN_INTERACT para re-abastecer a locomotiva",-- "Hold $BTN_INTERACT; to refuel locomotive",
+	hud_int_decouple_locomotive = "Segure $BTN_INTERACT para desaclopar a locomotiva",--Hold $BTN_INTERACT; to decouple locomotive",
+	hud_int_attach_hook = "Segure $BTN_INTERACT para conectar o gancho",--Hold $BTN_INTERACT; to attach hook",
+	hud_trai_hold_interact_place_thermite = "Segure $BTN_INTERACT para colocar termite",--Hold $BTN_INTERACT; to place thermite",
+	hud_int_trai_hold_crane_control = "Segure $BTN_INTERACT para mover o guindaste",--Hold $BTN_INTERACT; to move the crane",
+	hud_int_trai_press_achievement_safe = "Pressione $BTN_INTERACT para abrir o cofre",--Press $BTN_INTERACT; to open the safe",
+	hud_int_trai_fix_cable = "Segure $BTN_INTERACT para consertar os cabos",--Hold $BTN_INTERACT; to fix cable
 	hint_no_notepad = "Necessário o bloco de notas",--"Need the notepad",
 	hud_hint_cargo_strap = "Necessário a alça",--"Wire required",
 	hud_int_hold_explode_the_pig = "Segure $BTN_INTERACT para explodir o Porquinho",--"Hold  to break the Piggy Bank"
@@ -2167,6 +2212,7 @@ return {
 	Now, get out there and make that Piggy proud!",]]
 	dialog_requires_steam_overlay = "Isto requer o Painel Steam. Por favor certifique-se que o Painel Steam está ativo",--"This requires the Steam Community Overlay. Please ensure that in-game Steam Community is enabled and restart the game to use this feature.",
 	dialog_texas_heat_drop_name = "Drop da Twitch",--ERROR:
+	dialog_texas_halloween_name = "Dia das Bruxas 2022",--Halloween 2022",
 	dialog_sbzacc_drop_name = "Conta Starbreeze",--"Starbreeze Account",
 	dialog_external_items_title = "Novos itens importados",--New Imported Loot",
 	dialog_external_items_prefix_desc = "Os itens especiais foram adicionados no seu inventário!",--"Special items were smuggled to your inventory!",
@@ -2253,6 +2299,13 @@ return {
 	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
 
 	-- Menu Principal
+	menu_nh_txt3_02 = "Cheque o Hostile Takeover Bundle!",--"Check out the Hostile Takeover Bundle!",
+	menu_nh_txt3_01 = "O Hostile Takeover Bundle está disponível agora!",--"The Hostile Takeover Bundle is available now!",
+	menu_nh_h22_01 = "Consiga itens grátis assistindo as nossas lives!",--Get free items by watching our spooky stream!",
+	menu_nh_trai_02 = "Cheque o bundle Lost in Transit!",--Check out the Lost in Transit Bundle!",
+	menu_nh_trai_01 = "Cheque a heist Lost in Transit!",--Check out the Lost in Transit heist!",
+	menu_nh_trai_03 = "Novos Drops da Twtich!",--New Twitch drops available!",
+	menu_nh_a11th_01 = "PAYDAY tem 11 anos, conteúdo grátis para todo mundo!",--PAYDAY turns 11 years old, freebies up for grabs!",
 	menu_nh_pxp2_01 = "Cheque o segundo Weapon Pack da Gemma McShay!",-- "Check out the second weapon pack from Gemma McShay.
 	menu_nh_tma1_01 = "Cheque o Lost in Transit Bundle aqui!",--"Check out the Lost in Transit Bundle here!",
 	menu_nh_pda9_01 = "Celebre os noves anos de PAYDAY 2!",--Celebrate 9 years of PAYDAY 2!
@@ -2560,6 +2613,14 @@ return {
 
 	-- Acessibilidade
 	menu_accessibility = "Acessibilidade",--Accessibility
+	menu_screenflash_color_mid_grey = "Cinza",--"Gray",
+	menu_screenflash_color_light_grey = "Cinza Claro",--"Light Gray",
+	menu_screenflash_color_dark_grey = "Cinza Escuro",--"Dark Gray",
+	menu_screenflash_color_off = "Desligado",--"Off",
+	menu_accessibility_screenflash_color_hit_flash_multi_option = "Cor da Flash de Dano",--Damage Flash Color",
+	menu_accessibility_screenflash_color_hit_flash_multi_option_help = "Coloque uma cor alternativa para piscar a tela quando sofrer dano ou dodge entrar em efeito. A cor padrão é Amarelo. Se os valores combinados atigirem um certo limite, a cor da Flashbang será usada.",--Set an alternate color for screen flashes that appear when taking or dodging damage. Default color is Yellow. If the combined value of these effects exceeds a certain threshold, the flashbang color setting will be used instead.",
+	menu_accessibility_screenflash_color_blurzone_multi_option = "Cor da zona do borrão",--"Blur Zone Flash Color",
+	menu_accessibility_screenflash_color_blurzone_multi_option_help = "Coloque uma cor alternativa para piscar a tela enquanto estiver em algumas áreas que deixam a sua visão borrada. A cor padrão é Amarelo, o filtro de borrão não é afetado. Se os valores combinados atigirem um certo limite, a cor da Flashbang será usada.",--"Set an alternate color for screen flashes that appear while in areas that blur your vision. Default color is Yellow, blurfilter is unaffected. If the combined value of these effects exceeds a certain threshold, the flashbang color setting will be used instead.",
 	menu_accessibility_help = "Esse menu contém opções de acessibilidade e configurações de daltônismo.",--This menu contains Accessibility Options, such as color blind settings.
 	menu_accessibility_dot = "Ponto Anti-náusea",--Motion Dot
 	menu_accessibility_dot_help = "O Ponto Anti-náusea serve para reduzir a náusea de movimento.",--The Motion Dot is designed to lessen the effect of motion sickness.
@@ -2568,6 +2629,12 @@ return {
 	menu_dot_blue = "Azul",--blue
 	menu_dot_yellow = "Amarelo",--yellow
 	menu_dot_white = "Branco",--branco
+	menu_accessibility_screenflash_color_multi_option = "Cor da Flashbang na Tela",--"Screen Flash Color",
+	menu_accessibility_screenflash_color_multi_option_help = "Define uma cor alternativa para os clarões e os efeitos da flashbangs.",--"Set an alternate color for bright screen flashes, including the effects of flashbangs.",
+	menu_screenflash_color_black = "Preto",--"Black",
+	menu_screenflash_color_default = "Padrão",--"Default",
+	menu_accessibility_sounds_tinnitus_toggle = "Desativar efeito de zumbido",--"Disable Tinnitus Ringing Effect",
+	menu_accessibility_sounds_tinnitus_toggle_help = "Desativa o efeito de zumbido quando é afetado pelos flashbangs ou explosões. O efeito do som abafado não é afetado.",--"Disables the ringing sound effect that plays when affected by flashbangs or explosions. Sound muffling is unaffected.",
 	menu_accessibility_dot_size = "Tamanho do Ponto",--Motion Dot Size
 	menu_accessibility_dot_size_help = "Selecione o tamanho do Ponto Anti-náusea",--Select Motion Dot Size
 	menu_toggle_dot_hide_ads = "Esconder o Ponto Anti-náusea enquanto mira",--Hide Motion Dot during ADS
@@ -3676,7 +3743,52 @@ return {
 	menu_pp_ranc_spotter004 = "Rancho - Varanda dos Fundos",--"Ranch house - Back Porch",
 	menu_pp_ranc_mark_crates001 = "Marcar as Caixas das Armas",--"Mark weapon crates",
 	menu_pp_ranc_deaddrop009 = "Oficina",--"Workshop",
-	menu_asset_location = "Localização da Posse",--Asset Location
+	menu_pp_trai_camera_access_002 = "Centro de comunicação",--Communication Center",
+	menu_pp_trai_spycam_003 = "Hangar",--Warehouse",
+	menu_pp_trai_dumpster_001 = "Pátio de trens (Leste)",--"Trainyard East",
+	menu_pp_trai_lower_hack_vaults = "Abaixar o tempo de hackear os cofres",--"Lower RFID hack time",
+	menu_pp_asset_trai_lower_hacktime = "Abaixar o tempo de hacker os cofres",--"Lower RFID hack time",
+	menu_pp_asset_trai_lower_hacktime_desc = "Reduz o tempo para abrir os cofres (APENAS LOUD).",--"Reduces the hacking time needed to unlock vaults (LOUD only).",
+	menu_pp_trai_spotter_005 = "Pátio de trens (Oeste)",--Trainyard West",
+	menu_pp_trai_ilija_sniper = "Ilija, O Sniper",--"Ilija the Sniper",
+	menu_pp_trai_extra_blowtorch = "Maçarico extra",--"Extra blowtorch",
+	menu_pp_trai_deaddrop_004 = "Carga do trem",--"Freight Storage",
+	menu_pp_trai_spotter_001 = "Ponto de checagem de segurança",--"Security Checkpoint",
+	menu_pp_trai_camera_access_001 = "Escritório do adminstrador",--"Admin Office",
+	menu_pp_trai_spycam_004 = "Prédio do toca discos - Sala de controle",--"Turntable Building - Control Room",
+	menu_pp_trai_spotter_004 = "Toca discos",--"Turntable",
+	menu_pp_trai_extra_turret = "Partes extras da torreta",--"Extra turret parts",
+	menu_pp_trai_spotter_003 = "Área de transferência",--"Transfer Area",
+	menu_pp_trai_deaddrop_008 = "Área de transferência",--"Transfer Area",
+	menu_pp_trai_spycam_007 = "Garagem de carregamento",--"Loading Garage",
+	menu_pp_trai_deaddrop_002 = "Depósito - Passarela superior",--"Warehouse - Upper Catwalk",
+	menu_pp_asset_trai_ladder = "Escada",--Ladder",
+	menu_pp_asset_trai_ladder_desc = "Uma escada o ajudará a subir nos vagões.",--"Deployable ladder that will help you reach the top of wagons.",
+	menu_pp_trai_extra_ladder_west = "Pátio de trens (Oeste)",--"Trainyard West",
+	menu_pp_trai_deaddrop_006 = "Pátio de trens (Oeste)",--"Trainyard West",
+	menu_pp_trai_spycam_001 = "Prédio de segurança - Térreo",--"Security Building - 1st Floor",
+	menu_pp_trai_deaddrop_007 = "Centro de comunicação",--"Communication Center",
+	menu_pp_trai_deaddrop_009 = "Zona de carregamento",--"Loading Zone",
+	menu_pp_trai_deaddrop_003 = "Hangar - Acesso do telhado pelo vagão",--"Warehouse - Wagon Roof Access",
+	menu_pp_trai_spycam_002 = "Prédio de segurança - Primeiro andar",--"Security Building - 2nd Floor",
+	menu_pp_trai_dumpster_003 = "Zona de carregamento",--"Loading Zone",
+	menu_pp_trai_spotter_007 = "Centro do pátio de trens",--"Trainyard Center",
+	menu_pp_trai_deaddrop_010 = "Garagem de carregamento",--"Loading Garage",
+	menu_pp_trai_spycam_006 = "Centro de comunicação",--"Communication Center",
+	menu_pp_trai_extra_ladder_east = "Pátio de trens (Leste)",--"Trainyard East",
+	--menu_pp_trai_bpr_loc_a = "",--"Lost In Transit",
+	menu_pp_trai_spotter_002 = "Pátio de trens (Leste)",--"Trainyard East",
+	menu_pp_trai_deaddrop_001 = "Hangar - Oficina",--"Warehouse - Workshop",
+	menu_pp_trai_deaddrop_005 = "Controle de toca discos",--"Turntable Control Building",
+	menu_pp_trai_less_drones = "Menos drones",--"Fewer Drones",
+	menu_pp_trai_dumpster_002 = "Carga do trem",--"Freight Storage",
+	menu_pp_trai_spotter_006 = "Zona de carregamento",--"Loading Zone",
+	menu_pp_trai_spycam_005 = "Prédio do toca discos - Sala de eletricidade",--"Turntable Building - Electrical Room",
+	menu_pp_asset_trai_extra_turret_parts = "Partes extras da torreta",--"Extra turret parts",
+	menu_pp_asset_trai_extra_turret_parts_desc = "O contato da Gemma mostrará a segunda torreta para montar.",--"Gemma's insider will point out a second turret to assemble.",
+	menu_pp_asset_trai_extra_blowtorch = "Maçarico extra",--"Extra blowtorch",
+	menu_pp_asset_trai_extra_blowtorch_desc = "O contato da Gemma guardará mais um maçarico no depósito do administrador.",--"Gemma's insider will stash one extra blowtorch in the admin storage.",
+	menu_asset_location = "Localização da posse",--Asset Location
 	menu_pp_asset_fex_stealth_semi_open_garage_door = "Porta Semi-Aberta da Garagem (Stealth)",
 	menu_pp_asset_fex_stealth_semi_open_garage_door_desc = "Um amigo facilitará sua entrada na Mansão.",
 	menu_asset_gage_assignment = "Pacotes do Gage Courier",
@@ -4712,23 +4824,23 @@ return {
 	
 	-- Dicas de Telas de Loading
 	loading_trivia_title = "Curiosidades PAYDAY",
-	loading_trivia_1 = "Os negócios de armas da Butcher existem em quase todo o planeta. Ela está sempre de olho em uma nova oportunidade e sabe como lucrar nisso.",
-	loading_trivia_2 = "Jimmy é um cara bem doido. Doido mesmo! Ele oferece os contratos contra Akan e o seu exército russo de mercenários", -- O AKAN É UMA PUTINHA
+	loading_trivia_1 = "O tráfico de armas da Butcher existem em quase todo o planeta. Ela está sempre de olho em uma nova oportunidade e sabe como lucrar.",
+	loading_trivia_2 = "Jimmy é um cara bem doido. Doido mesmo! Ele oferece os contratos contra o Akan e o seu exército russo de mercenários", -- O AKAN É UMA PUTINHA
 	loading_trivia_3 = "Jimmy nunca dirige a van.",
 	loading_trivia_4 = "Jimmy uma vez desafiou a Bonnie para ver quem bebia mais, mas tiveram que interromper depois de ter quase acabado em violência.",
 	loading_trivia_5 = "Jimmy gasta uma grande fortuna em cocaína.",
-	loading_trivia_6 = "Jimmy declarou que iria beber todo o bar da Safe House mais rápido que o Aldstone re-abastecendo. É um esforço e tanto com um fim desconhecido..",
+	loading_trivia_6 = "Jimmy declarou que iria beber todo o bar da Safe House mais rápido que o Aldstone re-abastecendo. É um esforço e tanto, com um fim bem distante no futuro.",
 	loading_trivia_7 = "Jacket nunca falou uma palavra com os outros sem usar a sua fita.",
 	loading_trivia_8 = "Jacket gasta uma fortuna em baterias.",
 	loading_trivia_9 = "Jacket não gosta que falem dele.",
 	loading_trivia_10 = "Jacket gosta da sua coleção de armas brancas.",
 	loading_trivia_11 = "Scarface gosta do seu quarto da Safe House, mas continua com seu sonho de ter uma mansão.",
 	loading_trivia_12 = "Scarface não gosta de baratas.",
-	loading_trivia_13 = "Scarface tem orgulho de suas origens de Cuba, mesmo não gostando da ilha.",
+	loading_trivia_13 = "Scarface tem orgulho das suas origens de Cuba, mesmo não gostando da ilha.",
 	loading_trivia_14 = "Scarface gasta uma fortuna em imóveis e decorações.",
 	loading_trivia_15 = "Hoxton cresceu em Sheffield.",
 	loading_trivia_16 = "Hoxton gasta uma fortuna em cerveja.",
-	loading_trivia_17 = "Hoxton ainda está puto com Houston por estar com seu nome e máscara.",
+	loading_trivia_17 = "Hoxton ainda está puto com Houston por ter pego o seu nome e a máscara.",
 	loading_trivia_18 = "Hoxton conseguiu o seu apelido após ser preso no distrito de Hoxton, Shoreditch, Londres.",
 	loading_trivia_19 = "Sydney gasta uma fortuna em materiais de arte.",
 	loading_trivia_20 = "O cabelo da Sydney não é azul natural.",
@@ -4738,7 +4850,7 @@ return {
 	loading_trivia_24 = "John Wick matou três homens em um bar. Com um lápis!", --com a PORRA de um Lápis!
 	loading_trivia_25 = "John Wick é chamado de Baba Yaga às vezes, uma figura do folclore Eslavo.", --Easter Egg foda!
 	loading_trivia_26 = "John Wick está de volta. Ele definitivamente está de volta.",
-	loading_trivia_27 = "A cor favorita do Bain pode ser azul. Talvez nem é azul. Pode ser vermelho. Talvez ele nem tenha uma..",
+	loading_trivia_27 = "A cor favorita do Bain pode ser azul. Talvez nem é azul. Pode ser vermelho. Talvez ele nem tenha uma...",
 	loading_trivia_28 = "Bain não aprova a necessidade de matar civis.",
 	loading_trivia_29 = "Bain gasta uma fortuna em subornos e informantes.",
 	loading_trivia_30 = "Todo mundo sabe o nome do Bain. Ninguém sabe a identidade dele.",
@@ -4753,7 +4865,7 @@ return {
 	loading_trivia_39 = "Bodhi gasta uma fortuna em pranchas.",
 	loading_trivia_40 = "Bodhi era um membro da gangue chamada de Ex-Presidents.",
 	loading_trivia_41 = "Bodhi não está aqui só pelo dinheiro.",
-	loading_trivia_42 = "Bodhi gosta de fazer manobras bem perigosas, tipo Paraquedismo extremo.",
+	loading_trivia_42 = "Bodhi gosta de fazer manobras bem perigosas, tipo paraquedismo extremo.",
 	loading_trivia_43 = "Chains gasta uma fortuna em armas.",
 	loading_trivia_44 = "Chains era do exército, mas não se saiu muito bem. Como um assaltante de bancos, ele é bem melhor.",
 	loading_trivia_45 = "Chains age e fala como se fosse imune a balas. Talvez ele seja mesmo..",

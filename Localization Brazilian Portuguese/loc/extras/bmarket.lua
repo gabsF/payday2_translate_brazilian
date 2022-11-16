@@ -8,6 +8,7 @@ return {
 	bm_armor_level_5_desc = "Redução de movimento média, Média visibilidade.\n\nO Flak Jacket da Gensec Security Industries é uma versão moderna da versão clássica. Ele absorve impactos pesados, projéteis de armas de fogo e protege contra estilhaços de explosões.\n\nEle combina um colete pesado com proteções laterais e de ombro, oferecendo proteção para a coluna também.\n\nFlak Jackets são usados por fuzileiros navais, soldados de combate e forças-tarefas Gensec FTSU.",--Medium movement penalty, medium visibility.\n\nThe flak jacket by Gensec Security Industries is a modern take on the classic version. It absorbs the impact from firearm projectiles and shrapnel from explosions.\n\nIt combines a heavy ballistic vest with shoulder and side protection armor components, offering spine protection as well.\n\nFlak jackets are worn by Marines, combat soldiers and Gensec FTSU task forces.
 	bm_armor_level_6_desc = "Média redução de movimento, Média visibilidade.\n\nO Combined Tactical Vest foi desenvolvido devido aos desafios da guerra moderna. É feito de materiais balísticos de alto desempenho e projetado para transportar cargas pesadas, como bolsas de munição, rádios e outros acessórios.\n\nCombined Tactical Vests são usados por soldados, forças especiais, e outras unidades militares organizadas em todo o mundo.",--Medium movement penalty, high visibility.\n\nThe combined tactical vest was developed due to the challenges of modern warfare. It is made of high performance ballistic materials and is designed to carry heavy loads, such as ammo pouches, radios and other accessories. \n\nCombined tactical vests are worn by soldiers, special forces and other organized military units across the world.
 	bm_armor_level_7_desc = "Grande redução de movimento, Alta visibilidade.\n\nO Improved Combined Tactical Vest é um protótipo experimental roubado feito pela Gensec Security Industries.\n\nCom base na tecnologia da White Mesa, ele usa soluções de blindagem flexíveis e rígidas. As camadas de fibras entrelaçadas são perfeitamente encaixadas e firmemente tecidas em conjunto com placas de metal que são especialmente ânguladas para desviar projéteis e proteger contra explosões. Em resumo, oferece proteção completa.",--Large movement penalty, high visibility.\n\nThe improved combined tactical vest is a stolen experimental prototype made by Gensec Security Industries.\n\nBased on White Mesa technology it uses both soft and hard armor solutions. The perfectly fitted interlocking fiber layers tightly woven together with metal plates are specially angled to deflect projectiles and shield from explosions. In short, it provides complete protection.
+	bm_menu_disables_damage_to_hot = "O Perk Deck Grinder não funcionará enquanto estiver usando esta armadura.",--The Grinder perk deck is disabled while wearing this armor",
 
 	-- SKINS ARMADURAS
 	bm_menu_btn_skin = "Editar Skin",
@@ -355,7 +356,45 @@ return {
 	bm_suit_moneysuit_money_desc = "Você tem uma cara de um milhão de doláres, é pegar ou largar. Só não fica de baixo da chuva.",--"You look like a million dollars, give or take. Hope it doesn't rain."
 	bm_suit_moneysuit_default_desc = "Pega a grana e CORRE!",--"Take the money and RUN!",
 
+	--bm_suit_corl = "Crime Lord",
+	bm_suit_corl_desc = "Poder tem várias formas. A sua força para dominar os seus inimigos. A influência para controlar os outros com uma palavra. A astúcia para pensar adiantado. Focando uma forma pode te levar direto pro topo, mas focando em todas elas, vai ter a garantia de ficar lá.",
+	--"Power comes in many forms. It's the strength to dominate your enemies. The influence to control others with a word. The cunning to think five steps ahead. Mastering one form can take you straight to the top. Mastering all of them will make sure you stay there.",
+	--bm_suit_railroad = "Trainmaster",
+	bm_suit_railroad_desc = "Quem é o mais poderoso do que uma locomotiva? A pessoa que a controla, e só ela. Você decide quando o trem sai, o quão rápido, para quem irá parar, se for pra qualquer um. Você poderia gerenciar esta operação toda se você quiser, mas não quer. É por isso que te coloquem no comando.",
+	--"Who's more powerful than a locomotive? The person who controls it, that's who. You decide when the train leaves, how fast it goes, who it stops for, if anyone. You could run this whole operation right off the tracks if you wanted to, but you don't. That's why they put you in charge.",
+
+	bm_suit_nightwalker_desc = "Como uma criatura imortal da noite, você vê muitos estilos indo e saindo em alta. Alguns envelheceram como vinho, mas você sabe que nada combina com os mortos-vivos que nem um aristocrata do século 18 com a confiança sofisticado. Você é um chupa-sangue com classe!",
+	--As an immortal creature of the night, you've seen plenty of fashion trends come and go. Some looks age better than others, but you know that nothing suits the undead quite like the debonair sophistication of an 18th century aristocrat. You're a bloodsucker with class!",
+	bm_suit_darkprince_desc = "Eles não fazem os sapatos para o capeta. Precisaria muito tempo de pesquisa, mas não há uma marca que possa caber nas suas patas e presenciar o calor infernal das suas longas caminhas pelo o Inferno. É por isso que ele veste um terno elegante; ele espera que você não vai olhar nos seus pés todo fodido.",
+	--They don't make shoes for The Devil. Eons of searching, but there's no brand that can fit his hooves and withstand the infernal heat of his long walks through Hell. That's why he wears the fancy vest and jacket; he's hoping they will distract you from his barefooted shame!",
+	bm_suit_ghostly_desc = "Tenho que dizer, eu estou bem impressionado com a sua fantasia de fantasma. correntes por toda parte, fumaça pra todo lado, tá bem top. Mas não me assusta muito, mas os policiais vão cagar nas calças! Aliás, quero te perguntar uma coisa... como você está flutuando? E qual era o seu nome mesmo? Eu não lembro de chamar um quinto cara pro roubo.\n\nEita, cara! Os seus olhos estão brilhando! Como você... Uh, oh... Ah, merda...",--"Gotta say, I'm really digging your ghost costume. Billowing threads, cloud of fog, it's great stuff. Not enough to fool a smart guy like me, but the cops are gonna freak! Though, I gotta ask...how are you floating off the ground like that? And what's your name, again? I don't remember us hiring a fifth guy for this job.$NL;Whoa, buddy! Your eyes are glowing! How did you...Uh...Oh...Oh shit...",
+
+	bm_suit_cargocasual_desc = 'A pico do legal e casual, este traje é perfeito para planejar assaltos em ambientes urbanos. Quando as pessoas verem você, vão pensar: "Olha aquele cara! Ele com certeza tem interesse na senha do cofre do banco. E aquela roupa é muito foda! Onde ele comprou aquilo? Cara, queria ter essas roupas..."\nViu como a parte do "cofre do banco" foi deixado de lado?',
+	--The epitome of cool and casual, this is the perfect outfit for casing heists in urban environments. When people see you, they'll think: "Look at that guy! He sure seems interested in the keypad on that bank vault. And his wardrobe is killer! I wonder where he got that shirt. Man, I wish I had clothes like that..."$NL;See how the "bank vault'' part got buried there?",
+	bm_suit_var_cargocasual_suit_default_desc = "Você vive fora das barreiras do correto e o errado.",
+	--"You live outside the bounds of Right and Wrong.",
+	bm_suit_cargocasual_cassette_desc = "O que é um bom roubo sem uma boa música?",
+	--"What's a heist without a good soundtrack?",
+	bm_suit_cargocasual_monke_desc = "Ele estava roubando bananas antes dos primeiros humanos invadirem a Terra.",
+	--"He was stealing bananas before the first humans heisted the Earth.",
+	bm_suit_cargocasual_texas_desc = "Então, da onde você veio- Oh.",
+	--So, where you from- Oh.",
+	bm_suit_leatherfluff_desc = "Uma jaqueta assim não precisa de muita apresentação. Tem tudo de aspereza de planícies, E todos os estilos da cidade. Mas você gosta de ir além. Nada chamativo, apenas uma emblema para dizer ao mundo que você não está para brincadeiras. Afinal de contas, um símbolo tem mais de mil palavras.",
+	-- "A jacket like this doesn't need much embellishment. It's got all the ruggedness of the plains, and all the style of the city. But you like to take things further. Nothing fancy, just a little emblem to let the world know what you're about. A symbol's worth a thousand words, after all.",
+	bm_suit_var_leatherfluff_suit_default_desc = "Nunca se esquece da onde você veio.",--Never forget where you came from.",
+	bm_suit_leatherfluff_bats_desc = "Apenas um toque para te assustar.",--Just a touch of spooky.",
+	bm_suit_leatherfluff_dots_desc = "Boa caçada!",-- "Happy hunting!",
+	bm_suit_leatherfluff_lightning_desc = "Seja um choque para o sistema.",--Be a shock to the system.",
+	bm_suit_puffervest_desc = "Vivendo em uma cidade legal, mas o clima está ficando mais legal? Bota um colete! Indo para um acampamento? Colete! Você é um viajante do tempo que toca uma guitarra? Colete laranja! Coletes são legais. Eles te mantém quentinhos, te deixam com estilo, e alguns deles são coletes salva-vidas.",--"Living in a cool city but the weather's getting cooler? Wear a vest! Going to a campfire party?  Vest! Are you a guitar-playing time traveler? Orange vest! Vests are great. They keep you warm, they look good, and some of them double as life preservers.",
+	bm_suit_var_puffervest_suit_default_desc = "Olha aquele pôr-do-sol!",--Feel that ocean breeze!",
+	bm_suit_puffervest_blue_desc = "Quando o sol abaixar, o colete continua.",-- "When the sun goes down, the vest comes on.",
+	bm_suit_puffervest_grey_desc = "Nylon rasga, jeans não.",--Nylon rips. Denim doesn't.",
+	bm_suit_puffervest_red_desc = "Bonitão e Quentinho não são exclusivos.",--Looking Good and Feeling Warm are not mutually exclusive.",
+
 	-- LUVAS
+	bm_gloves_devilclaws_desc = "Bora balançar o esqueleto.",--"Let's shake on it.",
+	bm_gloves_tornrags_desc = "Este é o espiríto!",--That's the spirit!",
+	bm_gloves_tasslefringe_desc = "Este material é bom para limpar sangue!",--This material is great for washing out blood!
 	bm_gloves_flight_desc = "Emprestado do Gage. Combina bem com a CAR-4.",--"Borrowed from Gage. Pairs well with a brand-new CAR-4.",
 	bm_gloves_darkmat_desc = "Você é uma força cósmica, não dá pra negar que é invisível. Ninguém viu você, mas já testemunharam a sua gravidade todo dia. Você está em todo lugar, mas não está.",--"You are a cosmic force, invisible yet undeniable. No one has ever seen you, but they witness the effects of your gravity every day. You are everywhere, and you are nowhere.",
 	bm_gloves_esport_desc = "Sempre pronto pra jogar.",--"Always ready to play it.",

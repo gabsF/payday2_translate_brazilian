@@ -412,7 +412,7 @@ return {
 	hud_heist_kenaz_c_25_hl = "Reinicie o Guincho",--Restart the winch
 	hud_heist_kenaz_c_27a = "A BFD vai furar através do Salão de Apostas e dentro do cofre. Ligue ela!",--The BFD will drill down through the Gambling Hall and into the vault. Start her up!
 	hud_heist_kenaz_c_24_hl = "Espere a BFD entrar em Posição",--Wait for BFD to get into position
-	hud_heist_kenaz_c_04_hl = "Encontre o Último Número para o Código do Arsenal.",--Find the last number for the armory code
+	hud_heist_kenaz_c_04_hl = "Encontre o Último Número para o Código do Arsenal",--Find the last number for the armory code
 	hud_heist_kenaz_c_18b_hl = "Espere o Hack",--Wait for the hack
 	hud_heist_kenaz_c_18b = "Espere o hack da barreira do clarabóia terminar.",--Wait for the skylight barrier hack to finish.
 	hud_heist_kenaz_c_20 = "O dirigível carregando a furadeira está a caminho. Espere pela sua chegada.",--The blimp carrying the drill is en-route. Wait for it.
