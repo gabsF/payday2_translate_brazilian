@@ -18,6 +18,7 @@
 
         <!-- Cowgirl Contracts -->
         <loc file="cowgirl/midland_ranc.lua"/>
+        <loc file="cowgirl/lost_in_transit.lua"/>
 
         <!-- Extras -->
         <loc file="extras/vr.lua"/>
@@ -135,6 +136,7 @@
 
         <!-- Cowgirl Contracts -->
         <loc file="cowgirl/midland_ranc.lua"/>
+        <loc file="cowgirl/lost_in_transit.lua"/>
 
         <!-- Extras -->
         <loc file="extras/vr.lua"/>
