@@ -1335,6 +1335,7 @@ return {
 	chca_action_burning_money = "Queimando o dinheiro",--Burning the money",
 
 	-- Interações (Primeira Pessoa)
+	hud_equipment_need_glass_cutter = "Você precisa de um cortador de vidro",--You need a glass cutter",
 	hud_equipment_need_diesel = "Necessário diesel",-- "Diesel can required",
 	hud_int_lower_lifeboat = "Segure $BTN_INTERACT para abaixar botes salva vidas",--"Hold  to lower lifeboat",
 	hud_trai_need_equipment_key = "Você precisa da chave 42",--You need Key 42",
@@ -1882,7 +1883,7 @@ return {
 	hud_int_crane_right = "Pressione $BTN_INTERACT para mover o guindaste para direita",--Press $BTN_INTERACT; to turn crane to the right
 	hud_int_cut_glass = "Segure $BTN_INTERACT para cortar o vidro",--Hold $BTN_INTERACT; to cut glass
 	hud_int_cut_wire = "Pressione $BTN_INTERACT para cortar o arame",--Press $BTN_INTERACT; to cut the wire
-	hud_int_crane_release = "Pressione $BTN_INTERACT para liberar o guindaste",--Press $BTN_INTERACT; to release crane
+	hud_int_crane_release = "Pressione $BTN_INTERACT para soltar o guindaste",--Press $BTN_INTERACT; to release crane
 	hud_int_rewire_timelock = "Segure $BTN_INTERACT para reconectar o Temporizador",--Hold $BTN_INTERACT; to re-wire the time lock
 	hud_int_equipment_huge_lance = "Segure $BTN_INTERACT para usar a Besta",--Hold $BTN_INTERACT; to use the Beast
 	hud_int_hold_aim_laser = "Segure $BTN_INTERACT para mirar o laser",--Hold $BTN_INTERACT; to aim laser
@@ -2641,6 +2642,7 @@ return {
 	menu_toggle_dot_hide_ads_help = "Esconde ou mostra o ponto anti-náusea enquanto estiver mirando com a sua arma.",--Hide or Show Motion Dot while aiming down sights
 	
 	-- HUD
+	hint_move_hostages = "Move o refém com $BTN_INTERACT;",--Move hostage with $BTN_INTERACT;",
 	hud_vehicle_no_enter_berserker = "Não pode entrar no veículo enquanto Swan Song estiver ativo",--"Cannot enter the vehicle while Swan Song is active",
 	hud_vehicle_wait_respawn = "Esperando o motorista respawnar o veículo",--Waiting for the driver to respawn the vehicle",
 	hud_assault_pnr_goloud_in = "Detectado em: ",--"Detected in: ",
@@ -5517,22 +5519,22 @@ return {
     -- Aldstone's Heritage Missions
 	menu_aru_job_1 = "Legislação de Faca",--Knife Legislation
 	menu_aru_job_1_desc = "Balas uma hora vão acabar - Facas não. Tudo o que você precisará fazer é enfiar a lâmina em seu inimigo e você ficará vivo.",--Bullets will run out - knives won't. All you need to do is to thrust the blade into your enemy and you'll stay alive.
-	menu_aru_job_1_obj = "Inimigos mortos: $progress/$max_progress",--Enemies killed: $progress/$max_progress
+	menu_aru_job_1_obj = "Inimigos mortos: ",--Enemies killed: $progress/$max_progress
 	menu_aru_job_1_obj_desc = "Mate 10 inimigos usando a arma de corpo-a-corpo Push Dagger.",--Kill 10 enemies using the Push Dagger melee weapon.
 	menu_aru_job_1_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Amigos do Peito" na Safe House.',--A new weapon, Continental Coins, and a the "Friends in Close-Quarters" trophy in the safehouse.
 	menu_aru_job_2 = "Prepare-se para a Guerra",--Prepare for War
 	menu_aru_job_2_desc = 'Parabellum significa "Prepare-se para a Guerra". Portanto, carregar a Pistola Parabellum significa que você estará sempre preparado, não importando o tipo de obstáculo que possa aparecer.',--Parabellum means "Prepare for War". So carrying the Parabellum Pistol means you are always prepared, no matter what type of obstacle that might appear.
-	menu_aru_job_2_obj = "Inimigos mortos: $progress/$max_progress",--Enemies killed: $progress/$max_progress
+	menu_aru_job_2_obj = "Inimigos mortos: ",--Enemies killed: $progress/$max_progress
 	menu_aru_job_2_obj_desc = "Mate 50 inimigos usando a Parabellum Pistol.",--Kill 50 enemies using the Parabellum Pistol.
 	menu_aru_job_2_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Uma Guerra bem travada!" na Safe House.',--A new weapon, Continental Coins, and a the "A War Well Fought" trophy in the safehouse.
 	menu_aru_job_3 = "Retribuição Rápida",--Rapid Retribution
 	menu_aru_job_3_desc = "Os assaltos costumam ser lotados. Então velocidade é essencial. Combine uma alta velocidade com lama afiada e você terá um grande poder de impacto.",--Raids are often crowded. so speed is of the essence. Combine high velocity with sharp sludges and you'll make a serious impact.
-	menu_aru_job_3_obj = "Inimigos mortos: $progress/$max_progress",--Enemies killed: $progress/$max_progress
+	menu_aru_job_3_obj = "Inimigos mortos: ",--Enemies killed: $progress/$max_progress
 	menu_aru_job_3_obj_desc = "Mate 100 inimigos usando a MP40 Submachine Gun.",--Kill 100 enemies using the MP40 Submachine Gun.
 	menu_aru_job_3_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Tagarela" na Safe House.',--A new weapon, Continental Coins, and a the "Speed Talker" trophy in the safehouse.
 	menu_aru_job_4 = "O Controle de Guia",--The Control's Hundred Tab
 	menu_aru_job_4_desc = "O maior instrumento de batalha já inventado. Mostre sua habilidade e ferocidade com este pedaço da história Americana.",--The greatest battle implement ever devised. Show your skill and ferocity with this piece of American history.
-	menu_aru_job_4_obj = "Inimigos mortos: $progress/$max_progress",--Enemies killed: $progress/$max_progress
+	menu_aru_job_4_obj = "Inimigos mortos: ",--Enemies killed: $progress/$max_progress
 	menu_aru_job_4_obj_desc = "Mate 200 inimigos usando o Galant Rifle.",--Kill 200 enemies using the Galant Rifle.
 	menu_aru_job_4_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Parceiro do Herói" na Safe House.',--A new weapon, Continental Coins, and a the "Hero's Companion" trophy in the safehouse.
 	menu_raid_jobs = "Trabalhos da Hierarquia do Aldstone",

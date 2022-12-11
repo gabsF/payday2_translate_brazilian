@@ -1,5 +1,9 @@
 
 
-13.00 - Lost in Transit / Correções
-* Traduzido Lost in Transit. (Traduzido por gabsF e OnyxHunter25. Revisado por HimuraBR.)
-* Corrigido um erro na legenda no Dragon Heist.
+13.01 - Pequena atualização / Correções
+* Traduzido as descrições da bomba de choque e de veneno.
+* Corrigido um erro nas descrições das conquistas do Dentist.
+* Traduzido o aviso de comprar slot de máscara.
+* Traduzido a interação quando o jogador não tem o cortador de vidro.
+* "Corrigido" o erro da contagem de kills dos objetivos do Aldstone's Heritage.
+* Traduzido a dica de "mover o refém" no Tutorial do Loud.
