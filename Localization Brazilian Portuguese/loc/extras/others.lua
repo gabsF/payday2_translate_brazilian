@@ -6,6 +6,14 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	menu_l_global_value_xm22 = "Esse é um item do Cântica de Assalto 2022!",--"This is a Criminal Carol 2022 item!",
+	bm_menu_locked_cg22_community_4 = 'Complete a Tarefa Secundária "Rasgando o Natal" para desbloquear!',--Complete the Shredding Christmas side job to unlock!",
+	bm_menu_locked_cg22_community_5 = 'Complete a Tarefa Secundária "O Dozer Abominável das Neves" para desbloquear!',--Complete the Abominable Dozer side job to unlock!",
+	bm_menu_locked_cg22_community_6 = 'Complete a Tarefa Secundária "Comemarção das Férias" para desbloquear!',--Complete the Holiday Cheer side job to unlock!",
+	bm_menu_locked_cg22_community_2 = 'Complete a Tarefa Secundária "Sem Presentes pra você" para desbloquear!',--Complete the No Presents For You side job to unlock!",
+	bm_menu_locked_cg22_community_3 = 'Complete a Tarefa Secundária "Temperatura Negativa" para desbloquear!',--Complete the Frostbite side job to unlock!",
+	bm_menu_locked_cg22_community_1 = 'Complete a Tarefa Secundária "Troca de Presentes" para desbloquear!',--Complete the Gift Swap side job to unlock!",
+	bm_global_value_mrwi_unlock = 'Complete a Tarefa Secundária "Rasgando o Natal" para desbloquear!',--"Complete the Shredding Christmas side job to unlock!",
 	menu_l_global_value_txt3 = "Esse é um item de Street Smart Tailor Pack!",--"This is a Street Smart Tailor Pack item!",
 	bm_global_value_txt3_unlock = "Compre o Street Smart Tailor Pack para desbloquear!",--Buy the Street Smart Tailor Pack to unlock!",
 	menu_l_global_value_h22 = "Esse é um item de Dia das Bruxas 2022!",--This is a Halloween 2022 item!",
@@ -895,6 +903,9 @@ return {
 	hud_equipment_business_card = "Cartão de Negócios",--Business Card
 	hud_equipment_notepad = "Bloco de notas",--Notepad
 	hud_equipment_thermite = "Termite",--Thermite",
+	hud_carry_bag = "Presente de EXP",--"XP Present",
+	hud_carry_bag_green = "Presente de Dinheiro",--Money Present",
+	hud_carry_bag_yellow = "Presente de Continental",--"Continental Present",
 
 	-- Outros Interagindo (Terceira Pessoa) 
 	--[[ Nota: Só Deus sabe porquê estas interações não funcionam
@@ -908,6 +919,7 @@ return {
 	hud_action_opening_slide_gate = "Abrindo o portão",--"Opening gate",
 	hud_action_setting_up_device = "Preparando o dispositivo",--"Setting up device",
 	hud_action_turning_on_water = "Ligando a água",--Turning on water",]]
+	cg22_action_summon_present = "Recebendo um presente",--"Receiving a present",
 	hud_action_trai_fix_cable = "Consertando os cabos",--Fixing the cable
 	hud_action_taking_gas_canister = "Pegando o botijão de gás",--"Taking gas canister",
 	hud_action_exploding_pig = "Quebrando o Porquinho",--"Breaking the Piggy Bank...",
@@ -1335,6 +1347,7 @@ return {
 	chca_action_burning_money = "Queimando o dinheiro",--Burning the money",
 
 	-- Interações (Primeira Pessoa)
+	cg22_hold_summon_present = "Segure $BTN_INTERACT para pegar um presente",--Hold $BTN_INTERACT; to get a present",
 	hud_equipment_need_glass_cutter = "Você precisa de um cortador de vidro",--You need a glass cutter",
 	hud_equipment_need_diesel = "Necessário diesel",-- "Diesel can required",
 	hud_int_lower_lifeboat = "Segure $BTN_INTERACT para abaixar botes salva vidas",--"Hold  to lower lifeboat",
@@ -2200,6 +2213,8 @@ return {
 	hud_hold_restart_timer = "Segure $BTN_INTERACT para reiniciar o cronômetro",
 
 	-- Caixas de confirmações + Notificações do SISTEMA
+	dialog_cg22_event_title = "O Cântico de Assalto",--A Criminal Carol",
+	dialog_cg22_event_text = "Feliz Natal, assaltantes! O cunhado do Vlad está de volta com o traje do Papai Noel, e ele tem um plano perfeito para comemorar o espírito natalinok... Roubar dos policiais! Eles estão trocando esses presentes: Dinheiro, EXP e Moedas Continentais. Roube os seus presentes da árvore de Natal, ou assegure-as no trenó de Hajrudin ou as destrua com o Triturador Mágico. Assegurando os presentes dará dinheiro e EXP; destruindo-as dará buffs para a sua equipe! Porém, tome cuidado: quanto mais presentes roubar, mais fortes e putaços os policias ficam. Eles podem até trazer a nova unidade: O Homem de Neve!",--Happy holidays, heisters! Vlad's Brother-In-Law is off the wagon and back in the Santa suit, and he's got the perfect way to bring in some holiday cheer...Steal it from the cops! They're exchanging three types of presents this year: Money, XP, and Continental Coins. Knock their gifts out of the Christmas Tree, then either throw them on Hajrudin's sled or destroy them out of spite in the Holiday Shredder. Securing presents will net you the loot; destroying them will empower your whole team with special buffs! But be careful: the more gifts you steal, the stronger and pissier the cops will become. They might even bring out their new seasonal Dozer unit: The Snowman!
 	dialog_pda9_event_title = "Nono Aniversário do PAYDAY 2",--"Payday 2 9th Anniversary",
 	dialog_pda9_event_text = "PAYDAY 2 está celebrando o seu aniversário! Você sabe o que isso significa... COFRINHO DO PORQUINHO!\n\nVocês acharão o Cofrinho do Porquinho em qualquer heist na página do Crime.net do evento. Geralmente estará no começo ou no final da heist, nos telhados e espaços abertos. Enche o Porquinho com o Dinheiro do Porquinho até ficar gordinho, depois quebrem-o e fujam para ganharem muito XP! O porquinho pode crescer até no estágio cinco, dependendo das quantas bolsas você deu para ele. Quanto mais gordo o Porquinho fica, mais XP ganhará!\n\nMas onde acharão o Dinheiro do Porquinho, você se pergunta? Fácil! Matando os inimigos na cabeça ou usando o Lança-Grana para fazer eles soltarem bolsas de ouro. Você pode conseguí-las matando normalmente também, mas vão ter menos chance de surgirem. O Dinheiro do Porquinho desaparecerá se não pegá-lo depois de 10 segundos, então não enrola!\n\nNão há limite de quantas vezes podem jogar a heist que contenha o Porquinho, e quando concluir, o seu XP total é dobrado. Além disso, você pode ganhar mais XP com as tarefas secundárias do Porquinho.\n\nAgora, vai lá e deixa o Porquinho orgulhoso!",
 	--[["Payday 2 is celebrating an anniversary! You know what that means...PIGGY BANK STUFF!
@@ -2300,6 +2315,8 @@ return {
 	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
 
 	-- Menu Principal
+	menu_nh_mxm_01 = "O McShay Mod Pack está disponível agora!",--"The McShay Mod PAck is available now!",
+	menu_nh_xm22_01 = "O evento Cântico de Assalto está disponível para jogar!",--The Criminal Carol holiday event is available to play!",
 	menu_nh_txt3_02 = "Cheque o Hostile Takeover Bundle!",--"Check out the Hostile Takeover Bundle!",
 	menu_nh_txt3_01 = "O Hostile Takeover Bundle está disponível agora!",--"The Hostile Takeover Bundle is available now!",
 	menu_nh_h22_01 = "Consiga itens grátis assistindo as nossas lives!",--Get free items by watching our spooky stream!",
@@ -2315,7 +2332,7 @@ return {
 	menu_nh_sbzacc_01 = "Resgate os seus cosméticos grátis hoje mesmo!",--"GET YOUR FREE COSMETICS TODAY! ",
 	menu_nh_txt1_02 = "O Midland Bundle está disponível agora!",--"The Midland Bundle is available now!",
 	menu_nh_ranc_01 = "Cheque a Midland Ranch Heist!",--"Check out the Midland Ranch heist!",
-	menu_crimenet_event_help = "Jogue um modo de jogo único onde você precisa achar o Porquinho e fazê-lo crescer com o Dinheiro do Porquinho.",--Play a unique game mode where killing special units spawns balloons! = Play a unique game mode where you need to find a piggy bank in the heist and make it grow by paying it Piggy Bucks.
+	menu_crimenet_event_help = "Jogue um modo de jogo único onde você roube presentes de uma árvore de Natal para ganhar dinheiro ou buff para toda equipe!",--Play a unique game mode where you knock presents out of a Christmas tree for loot or team buffs!
 	menu_crimenet_event = "Jogar Evento",--Play Event
 	menu_spendable_skill_points = "Pontos de Skills restantes: $points",
 	menu_visit_community = "Comunidade",
@@ -2642,6 +2659,7 @@ return {
 	menu_toggle_dot_hide_ads_help = "Esconde ou mostra o ponto anti-náusea enquanto estiver mirando com a sua arma.",--Hide or Show Motion Dot while aiming down sights
 	
 	-- HUD
+	hud_cg22_show_buff = "Triturando este presente te dará $BUFF_STRING;",--"Shredding this present will give you $BUFF_STRING;",
 	hint_move_hostages = "Move o refém com $BTN_INTERACT;",--Move hostage with $BTN_INTERACT;",
 	hud_vehicle_no_enter_berserker = "Não pode entrar no veículo enquanto Swan Song estiver ativo",--"Cannot enter the vehicle while Swan Song is active",
 	hud_vehicle_wait_respawn = "Esperando o motorista respawnar o veículo",--Waiting for the driver to respawn the vehicle",
@@ -3895,6 +3913,7 @@ return {
 	menu_es_xp_gained = "XP ganho",
 	menu_es_current_xp = "XP atual",
 	menu_cash_crew = "Bônus de Grupo Vivo",--Crew alive bonus
+	menu_cg22_exp_bonus = "Bônus de Natal",--Holiday Bonus",
 	menu_piggybank_exp_bonus = "Bônus do Porquinho",--"Piggy Bank Bonus",
 	menu_event_double_exp_bonus = "Bônus Duplo do Evento",--"Event Double Bonus",
 	menu_es_package_unlocked_singular = "Novo item desbloqueado!",--New item unlocked!
@@ -3926,6 +3945,7 @@ return {
 	menu_es_coins_progress = "Moedas Continentais",
 	menu_es_next_level = "Próximo Nível em:",
 	menu_es_skill_points_gained = "Pontos de Skills ganhos:",
+	victory_stage_cash_summary_name_event = "Quanto que ganhou durante o Cântico de Assalto:",--Items earned during A Criminal Carol:",
 	menu_es_skill_points_info = "Visite [Skills e Perk Decks] para gastar os seus pontos!",
 	menu_stageendscreen_speed_up = "Segure $BTN_SPEED; para acelerar",
 	menu_victory_goto_payday = "$CONTINUE; Finalizar o trabalho",

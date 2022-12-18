@@ -81,4 +81,10 @@ return {
 	hud_buff_birthday_god_mode = "Invencível",--God Mode
 	hud_buff_birthday_inf_ammo = "Munição Infinita",--Infinite Ammo
 	hud_buff_birthday_2x_damage = "Dano em Dobro",--2X Damage
+
+	-- Natal 2022
+	hud_buff_bag_speed_increase = "Aumento na Velocidade da Bolsa",--Bag Speed Increase",
+	hud_buff_ammo_types = "Munição Especial",--Special Rounds",
+	hud_buff_snowman_warning = "Você sente uma tempestade de neve chegando...",--You sense a snowstorm approaching...",
+	hud_buff_ammo_types_explosive = "Munição Explosiva",--"Explosive Rounds",
 }

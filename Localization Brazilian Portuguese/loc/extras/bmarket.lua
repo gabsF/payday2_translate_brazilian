@@ -391,6 +391,13 @@ return {
 	bm_suit_puffervest_grey_desc = "Nylon rasga, jeans não.",--Nylon rips. Denim doesn't.",
 	bm_suit_puffervest_red_desc = "Bonitão e Quentinho não são exclusivos.",--Looking Good and Feeling Warm are not mutually exclusive.",
 
+	bm_suit_elfsuit_desc = "Você provavelmente nunca ouviu falar dos elfos mal-educados. Timmy também. Ele passou o ano inteiro sendo bomzinho para conseguir o tremzinho que sempre quis, mas quando ele abriu o seu presente, ele voltou a cuspir no chão e matando roedores usando o micro-ondas. Ele pensou que o sistema não seria um inimigo difícil, mas ninguém é poderoso suficiente para derrotar o Papai Noel. Se você vacilar, o Noel não vai ter pena dos elfos mal-educados, ele vai roubar os seus brinquedos e, só de brinde, quebrar o seu dedão. Então, lembre-se: se você está na lista dos bom-educados, continua sendo bom-educado, ou os elfos mal-educados vão te meter na porrada. Só perguntar pro Timmy.",
+	--"You probably haven't heard about the Naughty Elves. Timmy sure hadn't. He spent all year being nice so he could get that model train he wanted so badly, but as soon as he opened the present, he went back to spitting indoors and microwaving gerbils. He thought he'd beat the system, but nobody beats Santa. If you pull that shit, Santa will send the Naughty Elves to steal your toys back, and maybe break your thumbs for good measure. So remember: if you're on the Nice List, stay on the Nice List, or the Naughty Elves will fuck you up. Just ask Timmy.",
+	bm_suit_elfsuit_default_desc = "Árvores de Natal nunca morrem.",--"Christmas trees never say die.",
+	bm_suit_elfsuit_yellow_desc = "Troca esse cacau quente por uma Pinã Colada!",--"Trade that hot cocoa for a piña colada!",
+	bm_suit_elfsuit_violet_desc = "Não se sinta mal. Todas as pessoas mais legais chegaram nesse ponto.",--"Don't feel bad. All the coolest people end up on this one.",
+	bm_suit_elfsuit_red_desc = 'É "pavê"? ou pa comê?',--"Keepin' it holly, makin' it jolly.",
+
 	-- LUVAS
 	bm_gloves_devilclaws_desc = "Bora balançar o esqueleto.",--"Let's shake on it.",
 	bm_gloves_tornrags_desc = "Este é o espiríto!",--That's the spirit!",
@@ -516,6 +523,7 @@ return {
 	bm_menu_customizable_weapon_color = "Cor Customizada",
 	bm_menu_btn_customize_weapon_color = "Customizar Cor",
 	bm_menu_customizable_weapon_color_desc = "Adiciona uma Cor Customizada em sua arma.",--Add a custom color to your weapon
+	bm_menu_second_sight = "Segunda Mira",--"Secondary Sight",
 	bm_menu_exclusive_set = "Conjunto Exclusivo",--Exclusive Set
 	bm_menu_exclusive_set_plural = "Conjuntos Exclusivos",--Exclusive Weapon Sets
 	bm_menu_weapon_cosmetics = "Skin da Arma",
