@@ -2332,7 +2332,7 @@ return {
 	menu_nh_sbzacc_01 = "Resgate os seus cosméticos grátis hoje mesmo!",--"GET YOUR FREE COSMETICS TODAY! ",
 	menu_nh_txt1_02 = "O Midland Bundle está disponível agora!",--"The Midland Bundle is available now!",
 	menu_nh_ranc_01 = "Cheque a Midland Ranch Heist!",--"Check out the Midland Ranch heist!",
-	menu_crimenet_event_help = "Jogue um modo de jogo único onde você roube presentes de uma árvore de Natal para ganhar dinheiro ou buff para toda equipe!",--Play a unique game mode where you knock presents out of a Christmas tree for loot or team buffs!
+	menu_crimenet_event_help = "Jogue um modo de jogo único onde você rouba presentes de uma árvore de Natal para ganhar dinheiro ou buff para toda equipe!",--Play a unique game mode where you knock presents out of a Christmas tree for loot or team buffs!
 	menu_crimenet_event = "Jogar Evento",--Play Event
 	menu_spendable_skill_points = "Pontos de Skills restantes: $points",
 	menu_visit_community = "Comunidade",
