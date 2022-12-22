@@ -4,3 +4,8 @@
 * Traduzido as legendas do Almir do Evento de Natal 2022.
 * Traduzido a nova interface dos Perk Decks. (Encheção de línguiça da Overkill)
 * Traduzido o evento "A Criminal Carol".
+
+14.00 Mk II
+* Corrigido um erro na descrição do "Jogar Evento".
+* Corrigido algumas legendas.
+> Almir em Cântico de Assalto.
