@@ -4,7 +4,7 @@ return {
     heist_chca_briefing = 'Vamos ter que ajudar o Vlad a ter sua vingança e fazer um bocado de dinheiro limpando o Black Cat logo que ele entrar em águas internacionais. Jiu Feng tem um infiltrado ajudando a gente e sabemos que Xun Kang, e outro babaca chamado Li Deng estão liderando essa operação. Eles vão ter as chaves para abrir o cofre. Mantenham a operação firme, porque a guarda costeira vai encher o navio de policiais antes mesmo que possamos falar "Olha, um texugo nadando!", então sem brincadeiras, certo?',
 --[[ We're going to help Vlad get some payback and make a kakspul of cash doing it by cleaning out the Black Cat as soon as it enters international waters. Jiu Feng has an insider helping us and we've learned that Xun Kang, and another dwankie named Li Deng are running the operation. They will have the keys to opening the vault. Keep a tight operation, because the coast guard will fill the ship with kerels before you can say "Look, a blerrie swimming badger!", so no messing around, yeah?]]
 
-    heist_chca_crimenet = "Meus amigos, tá na hora de se vingar daqueles filhas da puta da Tríade. Com ajuda de Jiu Feng, eu descobri que a Tríade está mantendo a maior parte do dinheiro deles em um cofre de Casino em seu navio cruzeiro, o Black Cat. O fudido que me torturou está até comandando o lugar! Vamos fazer aqueles arrombados sentir come se estivessem no Titanic, e varrer eles do mapa! Parece bom?\n\n» Embarque no Black Cat\n» Obtenha a Informação, Código e a Digital para o Cofre\n» Encontre e Abra o Cofre\n» Assegure o Loot e Fuja",
+    heist_chca_crimenet = "Meus amigos, tá na hora de se vingar daqueles filhas da puta da Tríade. Com ajuda de Jiu Feng, eu descobri que a Tríade está mantendo a maior parte do dinheiro deles em um cofre de Casino em seu navio cruzeiro, o Black Cat. O fudido que me torturou está até comandando o lugar! Vamos fazer aqueles arrombados sentir come se estivessem no Titanic, e varrer eles do mapa! Parece bom?\n\n» Embarque no Black Cat\n» Obtenha a Informação, Código e a Digital para o Cofre\n» Encontre e Abra o Cofre\n» Assegure os espólios e Fuja",
 --[[ My Friends, it's time to get back at those Golden Toothpick motherfuckers. With the help of Jiu Feng, I found out that The triad is keeping most of it's money in a casino vault on their cruise ship, The Black Cat. The fucker that tortured me is even running the place! Let's make those noodle-suckers feel like they are on the Titanic, and clean them out! Sound good?
 
     » Board the Black Cat
@@ -590,14 +590,14 @@ return {
     hud_heist_chca13 = "A entrada do cofre está limpa. Desligue os lasers agora.",--Vault entrance is clear. Disable the lasers now.
     hud_heist_chca14_hl = "Abra o Cofre",--Open the vault
     hud_heist_chca14 = "Use a digital e o código para abrir o cofre.",--Use the handprint mold and the code to open the vault.
-    hud_heist_chca15_hl = "Assegure o Loot",--Secure the loot
+    hud_heist_chca15_hl = "Assegure os espólios",--Secure the loot
     hud_heist_chca15 = "Assegure um pouco de dinheiro para você!",--Secure some cash for yourself!
     hud_heist_chca16_hl = "Assegure o resto do Dinheiro ou Deixe-o Inutilizável",--Secure the rest of the cash or render it unusable
     hud_heist_chca16 = "Esvazie o cofre: Pegue o dinheiro restante ou deixe-o inutilizável.",--Empty the vault: take the remaining cash or render it useless.
     hud_heist_chca17_hl = "Abaixe um dos Bote Salva Vidas",--Lower one of the lifeboats
     hud_heist_chca17 = "Pegue um dos bote salva vidas emprestado e fuja.",--Borrow one of the lifeboats and take your leave.
     hud_heist_chca18_hl = "Fuga Disponível",--Escape available
-    hud_heist_chca18 = "O trabalho acabou. Fuja ou pegue mais loot.",--The job is done. Escape or take more loot.
+    hud_heist_chca18 = "O trabalho acabou. Fuja ou roube mais espólios.",--The job is done. Escape or take more loot.
     hud_heist_chca19_hl = "Pegue o Equipamento Escondido",--Get the hidden equipment
     hud_heist_chca19 = "Nosso infiltrado deixou algumas coisas úteis para você.",--Our inside man left you some useful gear.
     hud_heist_chca20_hl = "Quebre o vidro da sala de Conferência",--Break the conference room glass
@@ -637,7 +637,7 @@ return {
     hud_heist_chca37_hl = "Espere por Jiu Feng e Desenrole a Escada de Corda",--Wait for Jiu Feng and unroll the rope ladder
     hud_heist_chca37 = "Use a escada de corda para fugir quando o Jiu Feng chegar.",--Use a rope ladder to escape when Jiu Feng comes.
     hud_heist_chca38_hl = "Fuga Disponível",--Escape available
-    hud_heist_chca38 = "A fuga está disponível, opcionalmente, assegure mais loot.",--Escape is available, optionally, secure more loot.
+    hud_heist_chca38 = "A fuga está disponível, opcionalmente, assegure mais espólios.",--Escape is available, optionally, secure more loot.
 
 --[[hud_heist_chca39_hl = "ERROR: hud_heist_chca39_hl",
 hud_heist_chca39 = "ERROR: hud_heist_chca39",

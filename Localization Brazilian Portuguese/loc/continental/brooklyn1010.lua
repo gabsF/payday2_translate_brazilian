@@ -277,4 +277,4 @@ return {
 	hud_heist_spa_17 = "A van de fuga não pode se aproximar em quanto você não tirar os carros da polícia do caminho.",--The escape van can't arrive until you move the police cars out of the way.
 	hud_heist_spa_18_hl = "Cubra o Charon",--Cover Charon
 	hud_heist_spa_23 = "Vá até o veículo de fuga marcado e vaze daí.",--Go to the marked escape vehicle and get out of there.
-		}
+}

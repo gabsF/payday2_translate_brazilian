@@ -165,4 +165,4 @@ return {
 	hud_heist_dinner_wait_gas_hl = "Espere pela Armadilha",
 	hud_heist_dinner_wait_gold = "O guindaste está colocando o ouro no caminhão. Aguente firme!",
 	hud_heist_dinner_wait_gold_hl = "Espere pelo Ouro",
-	}
+}

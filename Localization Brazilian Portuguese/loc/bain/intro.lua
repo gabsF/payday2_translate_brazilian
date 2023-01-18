@@ -10,7 +10,7 @@ return {
 	pln_sh_int_64_01 = "Todo mundo gosta de olhar o seu dinheiro dinheiro, certo?",--Everyone likes to check on their money, right?
 	pln_sh_int_80_01 = "Coloque sua máscara.",--Put your mask on.
 	pln_sh_int_35_01 = "Coloquei aqui algumas bolsas. Você poderá experimentar os pesos diferentes. Ouro é pesado, como você já deve saber. É bom já ir se acostumando e ver o quão longe consegue jogá-las.",--Here I put some bags. You can try out the different weights. Gold is heavy, as you know.  Good to get a feel for them and how far you can throw.
-	pln_sh_int_42_01 = "Câmeras. Todo mundo as odeia. Montei uma sala com algumas variações para você treinar o seu Stealth. Não tenha vergonha em falhar e não vai ter ninguém pra atirar em você, o que é bom.",--Cameras. Everybody hates cameras. I set up a room with a couple variations for you to test your stealth. No shame in failure and also no one shooting at you, which is nice.
+	pln_sh_int_42_01 = "Câmeras. Todo mundo as odeia. Montei uma sala com algumas variações para você treinar a sua furtividade. Não tenha vergonha em falhar e não vai ter ninguém pra atirar em você, o que é bom.",--Cameras. Everybody hates cameras. I set up a room with a couple variations for you to test your stealth. No shame in failure and also no one shooting at you, which is nice.
 	pln_sh_int_38_01 = "Atire neles. Eles vão voltar pra cima.",--Light 'em up. They will ping back up.
 	pln_sh_int_68_01 = "Aqui você pode deixar suas armas modificadas. Vai ser uma puta prateleira.",--Here you can hang all your modified weapons. It will be quite a rack.
 	pln_sh_int_59_01 = "Se conseguir o bastante... Talvez possamos melhorar o lugar, huh?",--If you get enough... Maybe we can upgrade this place, huh?

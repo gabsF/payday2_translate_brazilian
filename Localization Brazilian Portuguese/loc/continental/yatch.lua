@@ -2,11 +2,11 @@ return {
 	-- Nomes e Descrições
 	--heist_fish = "The Yacht Heist",--The Yacht Heist
 	--heist_fish_hl = "The Yacht Heist",--The Yacht Heist
-	heist_fish_crimenet = "Eu sei que o prefeito McKendrick tem sido um tipo de... Obstáculo para a Gangue PAYDAY. Agora, eu recebi uma informação de que ele está movendo muito dinheiro ilegal pra o país para sua re-eleição. O suficiente para decidir a eleição, talvez. O dinheiro está escondido no Iate que pertence a um certo Ethan Powell, um aliado de McKendrick. O Iate está atualmente ancorado em Nova Iorque.$NL;$NL;» Encontre e Pegue os amontoados de Dinheiro$NL;» Localize e Pegue o Servidor$NL;» Fuja com o Loot",--I know that mayor McKendrick has been somewhat of an... obstacle for the Payday Gang. Now, I have very reliable information that he's moving a large amount of illegal cash into the country to use for his re-election campaign. Enough to decide the election, perhaps. The money is hidden on a yacht belonging to a certain Ethan Powell, an ally of McKendrick. The yacht is currently anchored in New York harbor.$NL;$NL;» Find the stashes and bag the money$NL;» Locate and retrieve the server$NL;» Escape with the loot
+	heist_fish_crimenet = "Eu sei que o prefeito McKendrick tem sido um tipo de... Obstáculo para a Gangue PAYDAY. Agora, eu recebi uma informação de que ele está movendo muito dinheiro ilegal pra o país para sua re-eleição. O suficiente para decidir a eleição, talvez. O dinheiro está escondido no Iate que pertence a um certo Ethan Powell, um aliado de McKendrick. O Iate está atualmente ancorado em Nova Iorque.$NL;$NL;» Encontre e Pegue os amontoados de Dinheiro$NL;» Localize e Pegue o Servidor$NL;» Fuja com os espólios",--I know that mayor McKendrick has been somewhat of an... obstacle for the Payday Gang. Now, I have very reliable information that he's moving a large amount of illegal cash into the country to use for his re-election campaign. Enough to decide the election, perhaps. The money is hidden on a yacht belonging to a certain Ethan Powell, an ally of McKendrick. The yacht is currently anchored in New York harbor.$NL;$NL;» Find the stashes and bag the money$NL;» Locate and retrieve the server$NL;» Escape with the loot
 	heist_fish_hl_briefing = "Ok gente, vocês já sabem da parada aqui. McKendrick precisa do dinheiro para ganhar as eleições, e se vocês conseguirem roubá-los vocês vão tirar o tapete de baixo dele. Vamos detonar essa festa, chover em seu desfile - se igualar ao que aquele bosta fez. Então peguem o dinheiro. E tem mais uma coisa que eu encontrei.. um arquivo que o Charon nos deu - algum lugar no Iate tem um servidor com senhas para contas de banco ilegal, algumas que são usadas por McKendrick. Roubem aquele servidor, e poderemos pegar um bom dinheiro. $NL;Vai ter uma festa de angariação do McKendrick no Iate hoje a noite. Com TV e tudo. Mas a festa será principalmente no andar superior, então vocês vão poder entrar furtivamente e sair sem ninguém notar.",--Ok guys, you know what's at stake here. McKendrick needs that cash to win the elections, and if you can steal it you're pulling the rug out from under his feet. Let's spoil his party, rain on his parade - get even for what that ungrateful bastard did. So get that cash. And there's another thing I found in the file that Charon gave us - somewhere on the yacht there's a server which contains passwords for illicit foreign bank accounts, some of which are also used by McKendrick. Steal that server, and we can cash in nicely on it.$NL;There's a fundraising party for McKendrick on the yacht tonight. With TV and everything. But the party's mostly on the upper deck, so if you sneak in quietly you should be able to get in and out without anyone noticing.
 
 	-- Legendas
-	pln_fish_intro_01 = "Ok, piratas - Entrem no Navio e peguem o loot. E mantenham-se quietos.",--Okay, pirates - board the ship and get the loot. And keep it quiet.
+	pln_fish_intro_01 = "Ok, piratas - Entrem no Navio e peguem os espólios. E mantenham-se quietos.",--Okay, pirates - board the ship and get the loot. And keep it quiet.
 	pln_fish_intro_02 = "Tomem cuidado, não deixem os guardas verem vocês. E encontrem o dinheiro.",--Be careful now, don't let the guards see you. And find that cash.
 	pln_fish_intro_03 = "Boa sorte nessa caça ao tesouro, gente. E lembrem-se: Fiquem quietos.",--Good luck on your treasure hunt, guys. And remember, keep it quiet.
 	pln_fish_32_02 = "Se vocês quiserem se livrar dos corpos no mar, vocês podem usar as janelas.",--If you want to dump bodies into the sea, you can use the windows.
@@ -28,7 +28,7 @@ return {
 	pln_fish_29_03 = "Ok, não há mais nada mais pra roubar. Saiam daí.",--Ok, there's nothing left to steal. Get out of there.
 	pln_fish_35_02 = "Aquilo parece uma equipe de jornalistas da TV. Se não quiserem aparecer na TV, fiquem fora da câmera.",--That looks like a television news crew. You don't want to be on TV guys, stay off their camera.
 	pln_fish_15_02 = "Tem uma tirolesa que vocês podem usar para assegurar as bolsas.",--There's a zipline you can use to secure the bags of loot.
-	pln_fish_15_01 = "Usem a tirolesa para assegurar o loot.",--Use the zipline to secure the loot.
+	pln_fish_15_01 = "Usem a tirolesa para assegurar as bolsas.",--Use the zipline to secure the loot.
 	pln_fish_18_01 = "Ok, as portas estão abertas. Entrem.",--Ok, the doors are open. Get inside.
 	pln_fish_19_03 = "As portas só vão abrir quando o Bloqueador de ECM parar.",--The doors will only open once the ECM jammer stops.
 	pln_fish_23_01 = "Isso deve bastar. Eles vão sobreaquecer e causar um reboot.",--That should do it. They'll overheat now and cause that reboot.
@@ -37,7 +37,7 @@ return {
 	pln_fish_24_03 = "Ok, eu posso sobrepor o painel principal agora.",--Ok. I can override the main panel now.
 	pln_fish_02_03 = "Tem um laptop com a informação de onde o dinheiro está. Charon providenciou uma senha. Vejam se vocês conseguem localizar.",--There's a laptop with info on where the cash is stashed. Charon provided the password. See if you can find it!
 	pln_fish_32_01 = "Vocês podem jogar os corpos no mar pelas janelas.",--You can dump bodies into the sea through the windows.
-	pln_fish_28_02 = "Pode ter mais loot no Iate, mas vocês já conseguiram pegar o necessário. A escolha é de vocês.",--There might be more loot on the yacht, but you got what you came for. Your choice.
+	pln_fish_28_02 = "Pode ter mais espólios no Iate, mas vocês já conseguiram pegar o necessário. A escolha é de vocês.",--There might be more loot on the yacht, but you got what you came for. Your choice.
 	pln_fish_12_02 = "Se vocês jogarem as bolsas no mar, vocês podem pegar quando formos embora.",--If you throw the loot bags into the sea, you can pick them up when it's time to leave.
 	pln_fish_36_01 = "Um Bloqueador de ECM ativo vai provavelmente tornar mais dificil de abrir a porta da Sala do Servidor. Tenham isso em mente.",--An active ECM jammer will probably make it hard to open the server room security door. Keep that in mind.
 	pln_fish_03_02 = "Lembrem-se de procurar pelo laptop!",--Remember to look for the laptop!
@@ -57,13 +57,13 @@ return {
 	pln_fish_10_03 = "Três já foram, só mais um para ir!",--Three down, just one to go!
 	pln_fish_07_02 = "Doce dinheiro! Agora peguem!",--Sweet sweet cash! Now bag it!
 	pln_fish_08_02 = "Vocês pegaram o primeiro amontoado. Continuem olhando!",--You got the first stash. Keep looking!
-	pln_fish_13_02 = "Assegurem todo o loot no barco que vocês vieram.",--Secure the loot bags in the motorboat you arrived in.
+	pln_fish_13_02 = "Assegurem todo os espólios no barco que vocês vieram.",--Secure the loot bags in the motorboat you arrived in.
 	pln_fish_25_01 = "Metade já foi, faltam apenas mais dois.",--Halfway now, just two more overrides to go.
 	pln_fish_08_01 = "Esse é o primeiro, Mais três para ir!",--That's the first stash. Three to go!
 	pln_fish_06_03 = "Ótimo trabalho - Tem toda a informação de onde o dinheiro está escondido.",--Great job - it's got all the info on where the money's hidden.
 	pln_fish_33_02 = "Vocês podem esconder os corpos jogando eles no mar atrás do barco.",--You could hide the bodies by throwing them into the sea at the back of the boat.
 	pln_fish_05_03 = "Coloquem a senha e acessem os arquivos.",--Enter the password and access the files.
-	pln_fish_28_03 = "Vocês podem procurar por mais loot ou sairem agora mesmo.",--You can either look for more loot or get out of there now.
+	pln_fish_28_03 = "Vocês podem procurar por mais espólios ou saírem agora mesmo.",--You can either look for more loot or get out of there now.
 	pln_fish_03_05 = "Vocês precisam achar o laptop se quiserem pegar o dinheiro.",--You gotta find the laptop if you want to get the money.
 	pln_fish_35_03 = "Uma equipe de TV. Hmm... tentem ficar longe da câmera.",--A TV crew. Hmm... try to stay off their camera.
 	pln_fish_35_01 = "Aqueles são caras da TV? Tentem ficar longe deles.",--Is that a TV news crew? Try to stay away from them.
@@ -94,7 +94,7 @@ return {
 	pln_fish_03_04 = "Cadê o laptop? Já encontraram?",--Where's that laptop? Found it yet?
 	pln_fish_33_03 = "Na parte de trás, vocês podem jogar qualquer corpo no mar.",--At the back you can throw any bodies over the railing into the sea.
 	pln_fish_01b_03 = "Cuidado. Espero que não tenham trazido pés de pato.",--Careful now. I hope you didn't bring your squeaky shoes.
-	pln_fish_13_01 = "Vocês podem pegar mais loot e levar ao barco que vieram.",--You can secure the loot bags in the boat you came in on.
+	pln_fish_13_01 = "Vocês podem pegar mais espólios e levarem ao barco que vieram.",--You can secure the loot bags in the boat you came in on.
 	pln_fish_10_01 = "Já é o terceiro amontoado. Só falta mais um!",--That's the third stash. Only one left!
 	pln_fish_22_02 = "Vocês precisam desligar as válvulas embaixo da Sala do Servidor.",--You need to turn off those valves at the bottom of the server rack.
 	pln_fish_03_01 = "Encontrem o laptop, pessoal!",--Find that laptop, guys!
@@ -143,7 +143,7 @@ return {
 	--hud_heist_fish_03_hl = "xxx",--xxx
 	hud_heist_fish_08_hl = "Roube o Disco Rígido",--Steal the Hard drive
 	hud_heist_fish_07 = "Use os botões para forçar os servidores a abrir.",--Use the override switches to force the main server open.
-	hud_heist_fish_11 = "Eu vi alguns artefatos dando sopa por aí, temos sempre mais espaço para mais loot.",--I saw a few artifacts lying about, there's always more room for extra loot.
+	hud_heist_fish_11 = "Eu vi alguns artefatos dando sopa por aí, temos sempre mais espaço para mais espólios.",--I saw a few artifacts lying about, there's always more room for extra loot.
 	hud_heist_fish_08 = "A porta principal dos servidores está aberta, roube o HD!",--The main server doors are now open, steal the hard drive!
 	hud_heist_fish_02_hl = "Assegure o Dinheiro",--Secure Money Bundles
 	hud_heist_fish_12_hl = "Fuja",--Escape
@@ -151,10 +151,10 @@ return {
 	--hud_heist_fish_09_hl = "xxx",--xxx
 	hud_heist_fish_07_hl = "Use os Botões",--Use Override Switches
 	--hud_heist_fish_09 = "xxx",--xxx
-	hud_heist_fish_11_hl = "Assegure Loot Adicional ou Fuja",--Secure additional loot or Escape
+	hud_heist_fish_11_hl = "Assegure Espólios Adicionais ou Fuja",--Secure additional loot or Escape
 	hud_heist_fish_04_hl = "Hackeie a porta da Sala do Servidor",--Hack the server room open
 	hud_heist_fish_04 = "Usando o laptop, hackeie a porta da Sala do Servidor.",--Using the laptop, hack open the server room doors
 	--hud_heist_fish_03 = "xxx",--xxx
 	hud_heist_fish_06 = "Desative o sistema de refrigeramento do servidores. Isso deverá sobreaquecer eles.",--Turn off all coolent systems for the servers. That should overheat them.
 	hud_heist_fish_12 = "Parece que limpamos o barco, é hora de fugir.",--Looks like we've cleaned the boat empty, time to escape.
-		}
+}

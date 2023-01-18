@@ -80,7 +80,7 @@ return {
 	hud_v_vodka_mission2_hl = "Encontre o Cofre com o Dinheiro dentro",--Find the safe with money in it
 	hud_v_vodka_mission1_hl = "Encontre o Cofre com o Dinheiro dentro",--Find the safe with money in it
 	hud_v_vodka_mission1 = "Encontre o cofre com o dinheiro dentro. Vlad disse que o chefe mantém o cofre no Escritório dele.",--Find the safe with money in it. Vlad said that the boss keeps it in his office.
-	hud_v_vodka_mission2 = "Embora o Loot extra seja bom, nós temos que pegar o dinheiro dele. Encontre o cofre com o dinheiro dentro. Tem que estar em algum lugar!",--While extra loot is nice, we need to take his money. Find the safe with the money in it. Its gotta be somewhere!
+	hud_v_vodka_mission2 = "Embora espólios extra seja bom, nós temos que pegar o dinheiro dele. Encontre o cofre com o dinheiro dentro. Tem que estar em algum lugar!",--While extra loot is nice, we need to take his money. Find the safe with the money in it. Its gotta be somewhere!
 	hud_v_nightclub_mission1_hl = "Entre na Nightclub",--Enter the nightclub
 	hud_heist_short2_stage1_01 = "Entre na Nightclub para roubar a cocaína.",--Enter the nightclub to steal the cocaine.
 	hud_heist_short2_stage1_01_hl = "Entre na Nightclub",--Enter the nightclub

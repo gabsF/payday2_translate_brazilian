@@ -18,7 +18,7 @@ return {
 	pln_bb1_35_01 = "Eu senti o tremor disso daqui.",--I felt the tremor of that starting from here.
 	pln_bb1_56_02 = "Beleza. Estamos conectados.",--Great. We're connected.
 	pln_bb1_26_02 = "Sim, isso é um cofrinho gigante. Não, eu não perdi o juízo.",--Yes, that is a giant piggy bank. No, I haven't lost my mind. 
-	pln_bb1_41_01 = "Tem um helicóptero a caminho. Comecem a levar o loot para o telhado.",--I got a chopper on the way. Start getting the loot to the roof.
+	pln_bb1_41_01 = "Tem um helicóptero a caminho. Comecem a levar as bolsas para o telhado.",--I got a chopper on the way. Start getting the loot to the roof.
 	pln_bb1_03_01 = "Essa é a Sala de Servidores. Entrem e me conectem.",--That's the server room. Get inside and get me connected.
 	pln_bb1_37_02 = "Eu coloquei as ferramentas da furadeira no porco cofrinho. Peguem.",--I put a few replacement bits for the drill in the piggy bank. Fetch 'em.
 	pln_bb1_67_03 = "Gente, os elevadores estão se movendo. Esperem encrenca de lá.",--Guys, the elevators are moving. Expect heat from there.
@@ -27,13 +27,13 @@ return {
 	pln_bb1_19_01 = "Funcionou! Ótimo. Agora mantenham os policiais longe disso.",--It worked! Great. Now keep the cops off it.
 	pln_bb1_18_02 = "Ok. Agora vamos reiniciar o bloqueio de tempo e ver se funcionou.",--OK. Now let's restart the time lock and see if this worked.
 	pln_bb1_30_01 = "Boom! Que tal isso para um depósito, Benevolent!",--Boom! How's that for a deposit, Benevolent!
-	pln_bb1_40_01 = "A van está lá fora. Vão arrumando o loot!",--The van's outside. Get stowing that loot!
+	pln_bb1_40_01 = "A van está lá fora. Vão preparando as bolsas!",--The van's outside. Get stowing that loot!
 	pln_bb1_68_02 = "Consegui um lacaio verificando o banco. Certifiquem-se de que ele seja... Bem vindo.",--Got a footman checking out the bank. Make sure he's... Welcomed.
 	pln_bb1_21_01 = "Os policiais mexeram no bloqueio de tempo! Façam funcionar de novo!",--The cops messed up the time lock! Get it going again!
 	pln_bb1_31_02 = "Ouch! Cuidado com esse guindaste, pessoal. Essa é uma joia de um edifício.",--Ouch! Careful with that crane, guys. This is a gem of a building.
 	pln_bb1_46_02 = "A ventilação do elevador está aberta. Esse é o caminho para a van. Comecem a levar.",--The elevator shaft is open. That's the path to the van. Start hauling.
 	pln_bb1_07_01 = "Conectando. Nós só podemos fazer um de cada vez, então cruzem os dedos para esse ser o correto.",--Connecting. We can only do them one at a time, so fingers crossed this is the right one.
-	pln_bb1_41_02 = "Levem o loot até o telhado, gangue. Eu tenho um helicóptero a caminho.",--Get the loot to the roof, gang. I got a chopper en-route.
+	pln_bb1_41_02 = "Levem as bolsas até o telhado, gangue. Eu tenho um helicóptero a caminho.",--Get the loot to the roof, gang. I got a chopper en-route.
 	pln_bb1_54_01 = "Um já foi, falta mais um.",--One down, one to go.
 	pln_bb1_44_02 = "O ônibus está programado para... Bem, vocês se preocupam em enviar o sinal. E então vocês vão ver.",--The bus is all set up to... Well, you worry about sending the signal. Then you'll see.
 	pln_bb1_25_01 = "Boa vista, hein? Bem, eu tenho outra coisa para mostrar. Vão para a cabine de controle.",--Quite the view, huh? Well, I've got something else to show you. Get to the control booth.
@@ -64,7 +64,7 @@ return {
 	pln_bb1_20_03 = "Certo, enquanto nós esperamos, se vocês quiseram adiantar as coisas, vocês podem ir para o telhado. Tem uma tirolesa para vocês instalarem lá.",--Right, while we wait, and if you want to get ahead of things, you can get yourselves to the roof. Got a zip-line to set up there.
 	pln_bb1_12_02 = "Terá um computador em uma das Salas dos Funcionários que podemos hackear. Encontre-o.",--There will be a computer in one of the staff rooms that we can hack. Find it.
 	pln_bb1_58_02 = "É isso aí! Ótimo trabalho, gangue.",--That's it! Great job, gang.
-	pln_bb1_45_02 = "O helicóptero está aqui, pessoal. Comecem a mover o loot.",--Chopper's here, guys. Start hauling the loot.
+	pln_bb1_45_02 = "O helicóptero está aqui, pessoal. Comecem a mover as bolsas.",--Chopper's here, guys. Start hauling the loot.
 	pln_bb1_63_02 = "Alumínio e Óxido de ferro... Lindo.",--Aluminum and iron oxide... Beautiful.
 	pln_bb1_32_02 = "Comecem a mover essas bolsas para o cofre, gangue. Hora de arrebentar esse lugar.",--Start hauling those bags to the vault, gang. Time to crack this place.
 	pln_bb1_10_02 = "Terminal errado. Tentem outro.",--Wrong terminal. Try another.
@@ -76,7 +76,7 @@ return {
 	pln_bb1_02_02 = "Vocês sabem como é que é. Olhos abertos para segurança. Civis precisam ser controlados. E os cartões de acesso são sempre úteis.",--You know how this goes. Eyes peeled for security. Civvies need to be controlled. And keycards are always useful.
 	pln_bb1_25_02 = "Ok, vão para os controles. Eu tenho algo planejado.",--OK, get to the controls. I've got something planned.
 	pln_bb1_49_02 = "Vocês podem terminar isso agora, ou vocês podem terminar isso com estilo, e esvaziar o local.",--You can finish this now, or you can finish this in style, and empty the place.
-	pln_bb1_48_01 = "Nós acabamos de dar ao jornal das seis ótimas imagens! Peguem o loot e joguem pra dentro da van.",--We just gave the six o'clock news some great footage! Get the loot in the van.
+	pln_bb1_48_01 = "Nós acabamos de dar ao jornal das seis ótimas imagens! Peguem as bolsas e joguem pra dentro da van.",--We just gave the six o'clock news some great footage! Get the loot in the van.
 	pln_bb1_64_01 = "A termite acabou. Agora pulem dentro e peguem a grana.",--The thermite's done. Now jump in and get that cash.
 	pln_bb1_23_01 = "Boa. Agora mantenham os policiais longe daí.",--Good. Now keep the cops off of it.
 	pln_bb1_36_02 = "Esse cofre é complicado. A furadeira quebrou. Peguem uma parte separada, rápido!",--That vault is tough. The drill bit broke. Get a spare part, quick!
@@ -99,13 +99,13 @@ return {
 	pln_bb1_29_02 = "Gente. Operem o guindaste. Coloquem-o na posição.",--Guys. Operate the crane. Get it into position.
 	pln_bb1_51_02 = "Lá se vai o bloqueio de tempo. Vocês estão indo bem. Tentem manter as coisas em silêncio. Agora, o cofre tem três etapas para abri-lo. O primeiro está na bolsa. Basta ir lá e usar o leitor de impressão digital.",--There goes the time lock. You're doing great. Try and keep things quiet. Now, the vault has three steps to open it. First is in the bag - just go there and use the fingerprint scanner.
 	pln_bb1_45_01 = "O Bile está no local, gangue. Comecem a entregar as bolsas pra ele.",--Bile's on-site, gang. Start getting the bags to him.
-	pln_bb1_48_02 = "Quem disse que os ônibus dessa cidade não conseguem manter um cronograma!? Comecem a mover o loot.",--Who said the buses in this town can't keep to a schedule! Get moving that loot.
+	pln_bb1_48_02 = "Quem disse que os ônibus dessa cidade não conseguem manter um cronograma!? Comecem a mover as bolsas.",--Who said the buses in this town can't keep to a schedule! Get moving that loot.
 	pln_bb1_15_01 = "Segurem os policiais até o bloqueio de tempo terminar.",--Hold the cops off until the time lock runs down.
 	pln_bb1_21_02 = "Os policiais mexeram no bloqueio de tempo. Reiniciem.",--Cops have messed with the time lock. Restart it.
 	pln_bb1_18_01 = "Isso deve resolver. Agora iniciem o bloqueio de tempo de novo. Eu espero que funcione.",--That should do it. Now start the time lock again. I hope that it worked.
 	pln_bb1_01_01 = "Benevolent Bank. Uma beleza neoclássica. Mas o dever nos chama. Nós iremos precisar de uns códigos, então cheguem até os servidores. ",--Benevolent Bank. A Neoclassical beauty. But business calls. We're going to need some codes, so get to their servers. 
 	pln_bb1_57_01 = "Foi! Agora voltem para o cofre e insiram o código.",--Got it! Now get back to the vault and enter the code.
-	pln_bb1_40_02 = "A van está só esperando vocês guardarem o loot. Se apressem!",--The van is just waiting for you to stash that loot. Get busy!
+	pln_bb1_40_02 = "A van está só esperando vocês guardarem as bolsas. Se apressem!",--The van is just waiting for you to stash that loot. Get busy!
 	pln_bb1_61_02 = "Levem essa termite de volta para o cofre.",--Get that thermite back to the vault.
 	pln_bb1_47_01 = "Boom! Tem um caminhão de lixo posicionado para pegar as bolsas. Déjà vu, eu sei. ",--Boom! There's a garbage truck positioned to pick up the bags. Déjà vu, I know.
 	pln_bb1_14_01 = "E agora a gente espera. Alguem aí conhece uma boa história?",--And now we wait. Anyone have any good stories?
@@ -167,7 +167,7 @@ return {
 	hud_heist_big_mission17_hl = "Abra o Cofre",--Open the vault
 	hud_heist_big_mission5_hl = "Espere o Bloqueio de Tempo terminar",--Wait for the time lock to finish
 	hud_heist_big_mission18_hl = "Use a Tirolesa para chegar até o Guindaste",--Use the zip-line to get to the crane
-	hud_heist_big_mission12 = "Leve o loot para o veículo de fuga.",--Get the loot to your escape vehicle and secure it.
+	hud_heist_big_mission12 = "Leve as bolsas para o veículo de fuga.",--Get the loot to your escape vehicle and secure it.
 	hud_heist_big_mission16_hl = "Consiga o Código do Computador do Gerente",--Get the code from the managers computer
 	hud_heist_big_mission22_hl = "Coloque a termite",--Place the thermite
 	hud_heist_big_mission8 = "Pegue as bolsas que contém as partes da furadeira e leve-as para o cofre.",--Pick up the bags containing the drill parts and bring them to the vault.
@@ -181,14 +181,14 @@ return {
 	hud_heist_big_mission3 = "Descubra qual é o computador e acesse-o localmente. Na pior das hipóteses, você poderá sempre hackear todos eles.",--Figure out which staff computer it is and access it locally. Worst case scenario you can always hack them all.
 	hud_heist_big_mission21 = "Pegue a bolsa que contém a termite.",--Pick up the bag containing the thermite.
 	hud_heist_big_mission28 = "Entre no Benevolent Bank.",--Enter the Benevolent Bank.
-	hud_heist_big_mission12_hl = "Assegure o Loot",--Secure the loot
+	hud_heist_big_mission12_hl = "Assegure os Espólios",--Secure the loot
 	hud_heist_big_mission23_hl = "Espere a termite terminar de queimar",--Wait for the thermite to finish burning
 	hud_heist_big_mission13 = "A fuga já está disponível!",--The escape is now available!
 	hud_heist_big_mission6 = "Devemos reconectar o sistema de segurança para iniciar o bloqueio de tempo.",--We must re-wire the security system to start the time lock.
 	hud_heist_big_mission9 = "Use as partes da furadeira para montar a Besta.",--Use the drill parts to set up A Besta.
 	hud_heist_big_mission16 = "Etapa de identificação 3/3: Acesse o computador do gerente do banco para obter os códigos do cofre.",--Identification step 3/3: Access the bank managers computer to get hold of the vault codes.
 	hud_heist_big_mission4 = "Use o keypad para iniciar o bloqueio de tempo na porta que abrirá o portão de segurança para a área do cofre.",--Use the keypad to start the time lock on the door which will open the security gate to the vault area.
-	hud_heist_big_mission11 = "Pegue todo o loot que você encontrar no cofre.",--Bag all the loot you can find in the vault.
+	hud_heist_big_mission11 = "Pegue todo espólio que você encontrar no cofre.",--Bag all the loot you can find in the vault.
 	hud_heist_big_mission4_hl = "Inicie o Bloqueio de Tempo",--Start the time lock to open the security gate
 	hud_heist_big_mission22 = "Coloque a termite em cima do cofre.",--Place the thermite over the vault.
 	hud_heist_big_mission6_hl = "Religue o Bloqueio de Tempo",--Re-wire the time lock
@@ -218,6 +218,6 @@ return {
 	hud_heist_big_mission25_hl = "Abra as Portas do Elevador",--Open the elevator doors
 	hud_heist_big_mission24_hl = "Espere o Helicóptero de Fuga chegar",--Wait for the escape helicopter to arrive
 	hud_heist_big_mission15 = "Etapa de identificação 2/3: Use o console de segurança para conceder acesso ao cofre.",--Identification step 2/3: Use the security consoles to grant access to the vault.
-	hud_heist_big_mission11_hl = "Pegue o Loot do Cofre",--Loot the vault
+	hud_heist_big_mission11_hl = "Pegue o espólio do Cofre",--Loot the vault
 	hud_heist_big_mission17 = "Insira os códigos e abra o cofre.",--Input the vault codes and open the vault.
 		}

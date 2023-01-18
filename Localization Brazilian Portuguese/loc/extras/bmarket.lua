@@ -566,6 +566,7 @@ return {
 	bm_w_scout_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
 	bm_w_rpg7_desc = "NÃO É POSSÍVEL PEGAR MUNIÇÃO DO CHÃO PARA ESSA ARMA.",--Ammo pickups are disabled for this weapon.
 	bm_w_saw_desc = "NÃO É POSSÍVEL PEGAR MUNIÇÃO DO CHÃO PARA ESSA ARMA.",--Ammo pickups are disabled for this weapon.
+	bm_wp_upg_a_rip_desc = "Chumbos envenenados que causa dano com o tempo e tem uma chance de atordoar os inimigos.",--"Poisoned bullet that deals damage over time and has a chance to interrupt enemies.",
 	bm_wp_upg_a_custom_desc = "Grandes projéteis com muito mais poder de impacto.",--Bigger pellets with more impact.
 	bm_wp_upg_a_explosive_desc = "Dispara um projétil explosivo que mata ou atordoa os alvos. Esse tipo de munição é raro de se encontrar.",--Fires one explosive charge that kills or stuns targets. This ammo type is harder to find.
 	bm_wp_upg_a_piercing_desc = "Perfuração de armadura de longo alcance.",--Long range armor piercing.

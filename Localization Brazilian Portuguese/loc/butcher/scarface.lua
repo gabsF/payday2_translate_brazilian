@@ -6,7 +6,7 @@ return {
 	heist_friend_hl_briefing = "Ernesto Sosa é o chefe local do Cartel Sosa em Miami, e a Butcher quer ele morto. Vocês vão adorar isso: Ele vive na antiga mansão de Tony Montana em Miami Beach. Isso mesmo - Scarface, o lendário traficante dos anos 80. Enfim, vocês precisam entrar na mansão, achar um caminho lá dentro e depois matar Ernesto Sosa. Não vai ser fácil, o lugar é tipo uma fortaleza, mas vocês conseguem. Ah sim, quase me esqueci - deve ter muito dinheiro e outras coisas naquela casa. Roubem tudo, limpem o lugar, mas o mais importante - Matem o Ernesto Sosa.",--Ernesto Sosa is the local boss in Miami for the Sosa Cartel, and The Butcher wants him dead. You're gonna love this: he lives in Tony Montana's old mansion in Miami Beach. Yeah that's right - Scarface, the legendary 80's drug lord. Anyway, you've got to hit the mansion, find a way in and then kill Ernesto Sosa. It won't be easy, the place is like a fortress. But you can do it. Oh yeah, I almost forgot - there should be a lot of money and other loot in that house. Steal it. Wipe them clean. But above all - kill Ernesto Sosa.
 	
 	-- Legendas
-	pln_fri_intro_01 = "Ok time, vamos indo. A Butcher quer a coisa feita... lembrem-se, vocês precisam matar o Ernesto Sosa, e roubar o loot.",--Ok team, lets get a move on. The Butcher means business here... remember, you've got to kill Ernesto Sosa, and steal the loot.
+	pln_fri_intro_01 = "Ok time, vamos indo. A Butcher quer a coisa feita... lembrem-se, vocês precisam matar o Ernesto Sosa, e roubar o dinheiro.",--Ok team, lets get a move on. The Butcher means business here... remember, you've got to kill Ernesto Sosa, and steal the loot.
 	pln_fri_intro_02 = "Vamos logo pessoal. A Butcher quer esse cara morto, mas não se esqueçam, o lugar é cheio de riquezas também.",--Come on guys. The Butcher wants this guy dead, but don't forget, the house is full of riches too.
 	pln_fri_intro_03 = "Poderia dizer que o Ernesto Sosa é sortudo de ter essa bela casa em Miami Beach. Mas sua sorte está pra mudar...",--You could say Ernesto Sosa is lucky to have this beautiful house in Miami Beach. But his luck is about to change...
 	pln_fri_30_03 = "Ok! Hora da grana, pessoal. Vamos roubar o cofre de chão do Ernesto. Acoplem os guinchos no chão.",--Ok, time for the money, guys. We're gonna loot Ernesto's floor safe. Hook those winches up to the floor.
@@ -277,7 +277,7 @@ return {
 	hud_heist_friend_loud_02_hl = "Hackeie o Laptop",--Hack the laptop
 	hud_heist_friend_anger_2_hl = "Junte os Quadros",--Gather the paintings
 	hud_heist_friend_loud_07_hl = "Abra o Cofre de Chão",--Open the floor safe
-	hud_heist_friend_loud_11 = "Vocês podem ir embora ou ficar para pegar mais Loot, é com vocês.",--You can leave now or stay and get more loot, it is up to you.
+	hud_heist_friend_loud_11 = "Vocês podem ir embora ou ficar para pegar mais dinheiro e pó, é com vocês.",--You can leave now or stay and get more loot, it is up to you.
 	hud_heist_friend_stealth_06 = "Deve ter um botão por perto para abrir o cofre. Vai estar escondido, então tente mover ou girar vasos ou outros objetos.",--There should be a button somewhere to open the hidden safe. It'll be hidden, so try moving or rotating vases or other obejcts.
 	hud_heist_friend_stealth_05_hl = "Mate o Ernesto Sosa",--Kill Ernesto Sosa
 	hud_heist_friend_loud_05 = "Mate os seguranças de Sosa no salão principal.",--Defeat Sosa's security in the main hall

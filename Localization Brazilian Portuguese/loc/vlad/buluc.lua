@@ -380,7 +380,7 @@ return {
     loc_fex_25a_03 = "Continuem procurando. As pistas que vocês precisam podem estar nessas três salas.",--Keep looking. The clues you need can be in any of the three rooms.",
     --loc_fex_26d_01 = " ",--Pra que serve essa string?
     loc_fex_27c_01 = "Se vocês querem pegar algo extra, tenho um cara esperando. Vocês podem usar a tirolesa.",--If you want to grab something extra, I've got a guy standing by. You can use a zipline.",
-    loc_fex_27c_02 = "Tenho um contato esperando caso vocês querem aproveitar a oportunidade de roubarem loot extra com a tirolesa.",--I arranged a guy on standby in case you want to take the opportunity to send up some loot with a zipline.",
+    loc_fex_27c_02 = "Tenho um contato esperando caso vocês querem aproveitar a oportunidade de roubarem espólio extra com a tirolesa.",--I arranged a guy on standby in case you want to take the opportunity to send up some loot with a zipline.",
     loc_fex_30a_01 = "Vocês podem usar os carros do Buluc para fugir. Talvez podem vendê-lo, se Rust não fizer merda!",--You can use one of Buluc's cars to escape. Might even fetch a nice price if Rust doesn't take it apart!",
     loc_fex_30a_02 = "A mansão tem uma garagem com carros bem caros. Usem um deles para caírem fora.",--The mansion has a garage with expensive cars. Use one to get out of there.",
     loc_fex_30a_03 = "Vocês podem roubar um dos carros do Buluc para fugirem. Bom, talvez não é roubo, né?",--You can steal one of Buluc's cars to leave in. Though maybe it's not stealing now, yeah?",

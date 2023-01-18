@@ -2,7 +2,7 @@ return {
 	-- Nomes e Descrições
 	--heist_bex = "San Martín Bank",
 	--heist_bex_hl = "San Martín Bank",
-	heist_bex_crimenet = "Vlad está exigindo que você o ajude a recuperar alguns itens importantes para recompensá-lo por toda a sua ajuda.\n\n» Encontre uma maneira de Entrar nas Áreas Seguras do Banco San Martín\n» Localize e Arrombe o Cofre\n» Recupere o Loot 'precioso' do Vlad",--Vlad is demanding that you help him recover some important loot to repay him for all his help.\n\n» Find a way into the secure areas of San Martín bank\n» Locate and crack open the vault\n» Recover Vlad's "precious" loot
+	heist_bex_crimenet = "Vlad está exigindo que você o ajude a recuperar alguns itens importantes para recompensá-lo por toda a sua ajuda.\n\n» Encontre uma maneira de Entrar nas Áreas Seguras do Banco San Martín\n» Localize e Arrombe o Cofre\n» Recupere o espólio 'precioso' do Vlad",--Vlad is demanding that you help him recover some important loot to repay him for all his help.\n\n» Find a way into the secure areas of San Martín bank\n» Locate and crack open the vault\n» Recover Vlad's "precious" loot
 	heist_bex_briefing = "Certo, amigos. Nós teremos que ajudar o Vlad nesse aqui. Suponho que nós devemos a ele, embora isso tire muito do foco das nossas operações atuais em Washington. Ele quer que a gente invada o Banco San Martín, numa cidade rústica no sul da Cidade do México. Estou um pouco preocupado que ele esteja sendo tão sigiloso sobre o que extamente iremos roubar, mas ele diz que vocês saberão quando verem. É sempre uma charada com aquele idiota, mas tenho um plano astuto para ajudá-los. Agora, o cartel Coyopa opera nesse banco, e do que li sobre esse personagem 'Buluc', ele é um velho maldito. Mas em termos de operação deve ser bem padrão. Famosas últimas palavras, com certeza!",--OK, friends. We're going to have to help Vlad with this one. I suppose we owe him, even though it will take a lot of focus off our current operations in Washington. He wants us to break into the San Martín bank, in a little rustic town just south of Mexico City. I'm a bit worried that he's being so secretive about what exactly we're stealing, but he says you'll know it when you see it. It's always a riddle with that chop, but I've got a cunning plan to see you through. Now, the Coyopa cartel operates this bank, and from what I've read about this "Buluc" character, he's a right old bastard. But operations-wise it should be pretty standard. Famous last words, for sure!
 	
 	-- Legendas (Locke)
@@ -133,8 +133,8 @@ return {
 	loc_bex_40_01b = "Eu já vi isso antes... isso é... Romanov? O império russo?",--I've seen that before... is that... Romanov? The Russian empire?
 	loc_bex_40_02 = "Estou começando a entender o porquê isso é tão importante, yeah?",--I'm starting to understand why it's so important, yeah?
 	loc_bex_41_01 = "Agora peguem o máximo da mercadoria do Vlad que vocês puderem, mas continuem quietos!",--Now grab as much of Vlad's merchandise as you can, but stay quiet!
-	loc_bex_41_02 = "Certo, vocês podem pegar todo o loot especial do Vlad, mas não façam muito barulho.",--OK, now you can take all of Vlad's special loot, but don't make too much noise.
-	loc_bex_41_03 = "Beleza, agora fiquem quietos e coletem todo o loot 'precioso' do Vlad.",--Right, now stay quiet and collect all of Vlad's "precious" loot.
+	loc_bex_41_02 = "Certo, vocês podem pegar todo o espólio especial do Vlad, mas não façam muito barulho.",--OK, now you can take all of Vlad's special loot, but don't make too much noise.
+	loc_bex_41_03 = "Beleza, agora fiquem quietos e coletem todo o espólio 'precioso' do Vlad.",--Right, now stay quiet and collect all of Vlad's "precious" loot.
 	loc_bex_42_01 = "Certo, Vlad parece feliz. Vocês podem sair quando quiserem, amigos.",--OK, Vlad seems happy. You can leave at your discretion, friends.
 	loc_bex_42_02 = "Beleza, seus idiotas, isso é o bastante para o Vlad. Saiam daí quando se sentirem prontos.",--Alright you chops, that's enough for Vlad. Get out of there when you feel ready.
 	loc_bex_42_03 = "Quando estiverem prontos, vão em frente e saiam.",--When you feel ready, go ahead and make your way out.
@@ -301,8 +301,8 @@ return {
     loc_bex_93_03 = "Não é nada bom respirar aquele gás, por tanto limpem isso, yeah?",--Not too good breathing that gas, so clear it out, yeah?
     loc_bex_93_04 = "Ainda estão com problemas com o gás?",--Still having trouble with the gas?
 	loc_bex_94_01 = "Agora peguem o quanto da mercadoria do Vlad vocês puderem carregar e levem-na para a van!",--Now grab as much of Vlad's merchandise as you can carry and get it out to the van!
-	loc_bex_94_02 = "Certo, agora vocês podem levar todo o loot especial do Vlad e trazê-los para a van.",--OK, now you can take all of Vlad's special loot and bring it out to the van.
-	loc_bex_94_03 = "Certo, agora apressem-se e coletem todo o loot 'precioso' do Vlad e levem eles para fora, rápido rápido!",--Right, now hurry and collect all of Vlad's "precious" loot and take it outside, chop chop!
+	loc_bex_94_02 = "Certo, agora vocês podem levar todo o espólio especial do Vlad e trazê-los para a van.",--OK, now you can take all of Vlad's special loot and bring it out to the van.
+	loc_bex_94_03 = "Certo, agora apressem-se e coletem todo o espólio 'precioso' do Vlad e levem eles para fora, rápido rápido!",--Right, now hurry and collect all of Vlad's "precious" loot and take it outside, chop chop!
 	loc_bex_95_01 = "Continuem coletando coisas para o Vlad!",--Keep collecting things for Vlad!
     loc_bex_95_02 = "Peguem a mercadoria do Vlad!",--Get Vlad's merchandise!
     loc_bex_95_03 = "Se apressem e peguem o máximo que vocês puderem!",--Hurry up and take all you can!
@@ -328,9 +328,9 @@ return {
     loc_bex_101_03 = "O gás deve se dissipar em 1 minuto.",--The gas should be gone in a minute.
     loc_bex_102_01 = "Agora peguem o máximo da mercadoria do Vlad que puderem carregar e levem até o caminhão de lixo!",--Now grab as much of Vlad's merchandise as you can carry and get it out to the garbage truck!
     loc_bex_102_02 = "OK, agora vocês podem pegar todas as joias do Vlad. O caminhão que vocês queriam já está esperando lá fora!",--OK, now you can take all of Vlad's jewelry. The truck you wanted is waiting outside!
-    loc_bex_102_03 = 'Colete todos os loots "preciosos" do Vlad e levem tudo para o caminhão de lixo, rápido!',--Collect all of Vlad's \"precious\" loot and take it to the garbage truck, chop chop!
-    loc_bex_103_01 = "Vocês pediram o caminhão, agora peguem todo o loot para levar até ele!",--You ordered the truck, so get the loot to it!
-    loc_bex_103_02 = "Comprei um caminhão de lixo para vocês, agora basta apenas enchê-lo de loots preciosos!",--I got you a garbage truck, now you just gotta fill it with loot!
+    loc_bex_102_03 = 'Colete todos os espólios "preciosos" do Vlad e levem tudo para o caminhão de lixo, rápido!',--Collect all of Vlad's \"precious\" loot and take it to the garbage truck, chop chop!
+    loc_bex_103_01 = "Vocês pediram o caminhão, agora peguem todo o espólio para levar até ele!",--You ordered the truck, so get the loot to it!
+    loc_bex_103_02 = "Comprei um caminhão de lixo para vocês, agora basta apenas enchê-lo de espólios preciosos!",--I got you a garbage truck, now you just gotta fill it with loot!
     loc_bex_103_03 = "Levem as joias do Vlad até o caminhão de lixo!",--Get Vlad's jewelry to the garbage truck!
     loc_bex_104_01 = "Caralho! Os federais latinos estão derrubando as paredes!",--Ach! The federales are breaching walls!
     loc_bex_104_02 = "Isso não é nada que minha gangue não consiga lidar, yeah?",--It's nothing my crew can't handle, yeah?
@@ -434,8 +434,8 @@ return {
 	hud_heist_bex12_hl = "Repare a Furadeira",--Repair the drill
 	hud_heist_bex14 = "Digite o código correto para acessar o cofre.",--Enter the correct code to access the vault.
 	hud_heist_bex14_hl = "Abra o Cofre",--Open the vault
-	hud_heist_bex15 = "Roube todo o loot e assegure-o na van.",--Steal all the loot and secure it in the van.
-	hud_heist_bex15_hl = "Assegure o Loot",--Secure the loot
+	hud_heist_bex15 = "Roube todo o espólio e assegure-o na van.",--Steal all the loot and secure it in the van.
+	hud_heist_bex15_hl = "Assegure os Espólios",--Secure the loot
 	hud_heist_bex16 = "Fuja na van!",--Escape in the van!
 	hud_heist_bex16_hl = "Fuga Disponível",--Escape available
 	hud_heist_bex17 = "Conecte a corrente em ambos: o portão e a caminhonete.",--Attach the chain to both the gate and to the truck.

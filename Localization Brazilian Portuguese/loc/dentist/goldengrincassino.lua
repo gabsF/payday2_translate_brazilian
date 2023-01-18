@@ -12,11 +12,11 @@ return {
 	pln_ca1_125_01 = "Um",--One
 	pln_ca1_03_03 = "Não esqueçam o C4 na limousine. Cara, a polícia está bem perto. Rápido!",--Don't forget the C4 in the limo. Man, cops are close. Hurry!
 	pln_ca1_21_02 = "Aguardente Demônio Rosado? Huh! Encontrem ele, batizem, sirvam-no.",--Pinky Demon schnapps? Huh. Find it, spike it, serve it.
-	pln_ca1_121_01 = "Trabalho incrível! Agora, subam no topo da BFD e o guincho os levará para a segurança. Ou peguem mais loot. A escolha é toda de vocês.",--Amazing job! Now, climb up on top of BFD  and the blimp will take you to safety. Or grab more loot. Your choice.
+	pln_ca1_121_01 = "Trabalho incrível! Agora, subam no topo da BFD e o guincho os levará para a segurança. Ou peguem mais espólio. A escolha é toda de vocês.",--Amazing job! Now, climb up on top of BFD  and the blimp will take you to safety. Or grab more loot. Your choice.
 	pln_ca1_70_02 = "Pessoal, a lista de hóspedes. Peguem ela da recepção e vejam quem está no nosso quarto.",--The guest list, guys. Get it from reception and we can see who's in our room.
 	pln_ca1_30_03 = "O alarme.. Beleza! Hora do Plano B. Pessoal, sem piedade.",--The alarm. All right. Time for Plan B. No mercy, crew.
 	pln_ca1_171_03 = "Lembrem-se de parafusar bem o guincho.",--Remember to screw that winch down good.
-	pln_ca1_136_01 = "Nossa! Olhem esse lugar! Imaginem todo o loot que podemos levar daqui!",--Whoa! Look at this place! Imagine all the loot we can boost from here!
+	pln_ca1_136_01 = "Nossa! Olhem esse lugar! Imaginem todo o espólio que podemos levar daqui!",--Whoa! Look at this place! Imagine all the loot we can boost from here!
 	pln_ca1_57_03 = "Porra, a BFD perdeu a energia. Malditos policiais... reconectem as tomadas.",--Damn, BFD  lost power. Damn cops... reconnect the sockets.
 	pln_ca1_164_02 = "Também... aquela coisa italiana... uh... espaguete! Vocês podem ter quantas latas desejarem.",--Also... that Italian stuff... uh... spaghetti! You can have as many tins as you want.
 	pln_ca1_154_02 = "Uh, era o número...",--Uh, it was number...
@@ -93,7 +93,7 @@ return {
 	pln_ca1_37_03 = "Peguem o máximo de C4 quanto puderem, gangue.",--Grab as much C4 as you can, gang.
 	pln_ca1_89_02 = "A primeira maleta fica com o gerente do Casino. A segunda com o supervisor. Já a última, procurem pelo chefe de segurança.",--First briefcase is held by the casino manager. Second by the Pit Boss. Lastly, look for the head of security.
 	pln_ca1_90_01 = "Pessoal, as maletas. Verifiquem o escritório do dono. Depois encontrem o supervisor do Casino. E, por último, procurem próximo do Vestiário dos guardas.",--Guys, the briefcases. Check the owners office. Then find the pit boss. And, lastly, check near the guards' locker room.
-	pln_ca1_64_02 = "Peguem o loot do Dentista. É por isso que viemos aqui.",--Grab Dentists' loot. That's what we came for.
+	pln_ca1_64_02 = "Peguem o baú do Dentista. É por isso que viemos aqui.",--Grab Dentists' loot. That's what we came for.
 	pln_ca1_164_04 = "Vocês gostam de pão. Nós temos pão. Uh... é. Uma porrada de pães... Senhor.",--You like bread. We got bread. Uh... yeah. Assloads of bread... Sir.
 	pln_ca1_135_03 = "Quanto vocês ganharam? Podemos aposentar já?",--How much did you win? Can we all retire?
 	pln_ca1_152_01 = "Consegui! Quarto...",--Got it. Room...
@@ -128,12 +128,12 @@ return {
 	pln_ca1_167_03 = "Tudo o que puderem comer, lembrem-se. Só 18 pratas.",--All You Can Eat, remember. Just 18 bucks.
 	pln_ca1_106_03 = "O código que conseguimos funciona no Arsenal. Entrem lá.",--The code we got works on the armory. Get in there!
 	pln_ca1_63_02 = "Ela acabou! Rápido, desçam no cofe!",--She's all done! Quickly, down into the vault!
-	pln_ca1_102_02 = "Pessoal, quero que se foda os alarmes. Apenas peguem o loot do Dentista e poderemos terminar isso.",--Screw the alarms, guys. Just grab The Dentists' loot and we can be done.
-	pln_ca1_65_01 = "Excelente! Agora, sigam para a limousine e terminamos isso. Ou peguem mais loot. A escolha é de vocês.",--Outstanding! Now, get in the limo and end this. Or grab more loot. Your choice.
+	pln_ca1_102_02 = "Pessoal, quero que se foda os alarmes. Apenas peguem o baú do Dentista e poderemos terminar isso.",--Screw the alarms, guys. Just grab The Dentists' loot and we can be done.
+	pln_ca1_65_01 = "Excelente! Agora, sigam para a limousine e terminamos isso. Ou peguem mais dinheiro. A escolha é de vocês.",--Outstanding! Now, get in the limo and end this. Or grab more loot. Your choice.
 	pln_ca1_105_01 = "Vocês precisam de três dígitos coloridos para entrar no Arsenal. Ou advinhar.",--You need three colored digits to enter the armory. Or guess.
 	pln_ca1_02_03 = "Nós temos policiais a caminho, então não demorem. Encontrem o C4! Verifiquem a sala dos guardas.",--We've got cops on the way, so don't dawdle. Find the C4! Check the guard room.
 	pln_ca1_74_01 = "Encontrem o hóspede. Lembrem-se, ele é viciado em caça-níqueis.",--Find the guest. Remember, he's a slot machine addict.
-	pln_ca1_102_01 = "Pessoal, esqueçam os alarmes, nós quase acabamos. Peguem o loot do Dentista, e saiam já daí.",--Forget the alarms, gang, we're nearly done. Grab The Dentist's loot, and get it out of there. 
+	pln_ca1_102_01 = "Pessoal, esqueçam os alarmes, nós quase acabamos. Peguem o baú do Dentista, e saiam já daí.",--Forget the alarms, gang, we're nearly done. Grab The Dentist's loot, and get it out of there. 
 	pln_ca1_92_03 = "Segundo dígito para o código. Agora, apenas peguem o último número e estamos feitos.",--Second digit for the code. Now, just get the last number and we're set.
 	pln_ca1_90_02 = "O dono provavelmente mantém o dele no seu escritório. O supervisor do Casino próximo ao salão principal. Chefe de segurança provavelmente mantém o dele em algum lugar próximo ao Vestiário.",--The owner likely keeps his in his office. The pit boss will be near the main hall. Security head probably keeps his somewhere near the locker room.
 	pln_ca1_110_01 = "Explodam um buraco no chão do Salão de Apostas. Isso nos dará acesso ao cofre.",--Blast a hole in the floor of the Gambling Hall. That'll give us access to the vault.
@@ -146,7 +146,7 @@ return {
 	pln_ca1_124_02 = "Zero",--Zero!
 	pln_ca1_01_01 = "Vocês estão em modo civil. Sem armas, sem máscaras - invisíveis para a segurança. Quanto estiverem prontos, encontrem seus equipamentos. Micho, o zelador os deixou num case de guitarra em algum lugar.",--You're in civilian mode. No guns, no masks - invisible to security. When you're ready, find your gear. Micho the janitor left it in a guitar case somewhere.
 	pln_ca1_50_02 = "O dirigível está a caminho. Apenas deem um tempo.",--Okay, the blimp is on the way. Just give it time.
-	pln_ca1_117_03 = "Vamos lá, o loot do Dentista está aí.",--Come on, Dentists' loot is right there.
+	pln_ca1_117_03 = "Vamos lá, o baú do Dentista está aí.",--Come on, Dentists' loot is right there.
 	pln_ca1_150_03 = "Os arquivos vão conter os projetos. Verifiquem as áreas para funcionários.",--The archives will hold the blueprints. Check the staff areas.
 	pln_ca1_57_02 = "A energia caiu. Reconectem a BFD, gangue!",--Power's down. Get BFD reconnected, gang!
 	pln_ca1_87_01 = "Haha, funcionou! Os guardas na segurança estão dormindo feitos bebês. Não se preocupem com as câmeras agora.",--Haha, it worked! The guards in security are sleeping like babies. Don't worry about cameras now.
@@ -241,8 +241,8 @@ return {
 	pln_ca1_142_01 = "Piscina aquecida com bar.",--Heated outdoor pool with bar.
 	pln_ca1_39_02 = "Agora que o cofre está exposto, nós iremos furá-lo. Com uma furadeira bem grande. Que precisa de um guincho. Sinalizem ao Bile com o sinalizador assim que estiverem prontos.",--Now the vaults exposed, we're going to drill down. A big drill. Which needs a winch. Signal Bile with a flare when you're ready.
 	pln_ca1_162_02 = 'Só queria te lembrar que o nosso Buffet "Coma tudo o que puder" agora está aberto.',--I wanted to remind you that our All You Can Eat buffet is now open.
-	pln_ca1_64_01 = "Estamos aqui! Encontrem o loot do Dentista, e vamos dar o fora.",--We're here! Find The Dentist's loot, and let's get it out of here.
-	pln_ca1_64_03 = "Apenas peguem o loot e vamos sair daqui.",--Just grab that loot and let's get it out of here.
+	pln_ca1_64_01 = "Estamos aqui! Encontrem o baú do Dentista, e vamos dar o fora.",--We're here! Find The Dentist's loot, and let's get it out of here.
+	pln_ca1_64_03 = "Apenas peguem o baú e vamos sair daqui.",--Just grab that loot and let's get it out of here.
 	pln_ca1_137_02 = "O Golden Grin nunca fecha. Vocês querem perder tempo com moedinhas nos caça-níqueis...?",--The Golden Grin never closes. You want to waste time nickel-and-diming the slots...?
 	pln_ca1_169_02 = "Essa é uma tomada, mas essa grande e linda garota precisará de outra.",--That's one socket, but that big beautiful girl needs another.
 	pln_ca1_93_01 = "O cofre do Grin somente pode ser aberto com um código de três dígitos. Esse é um dos números que precisaremos para abri-lo. Anotem.",--The Grin's vault can only be opened with a three digit code. This is one of the numbers we'll need to open it. Make a note.
@@ -288,7 +288,7 @@ return {
 	pln_ca1_70_03 = "Pessoal, a recepção terá a lista de hóspedes. Apenas sigam para lá, e baixem ela.",--Reception will have the guest list, guys. Just head there, download it.
 	pln_ca1_170_01 = "Pessoal, vamos lá! Peguem as mochilas, e montem o guincho.",--C'mon, gang! Get the bags, and assemble the winch.
 	pln_ca1_133_01 = "Nove",--Nine
-	pln_ca1_101_02 = "O loot do Dentista está seguro. Saiam agora, ou realmente mostrem ao Grin como cuidamos de Vegas no melhor estilo DC.",--That's The Dentists' loot saved. Bail now, or really show The Grin how we treat Vegas DC-style.
+	pln_ca1_101_02 = "O baú do Dentista está seguro. Saiam agora, ou realmente mostrem ao Grin como cuidamos de Vegas no melhor estilo DC.",--That's The Dentists' loot saved. Bail now, or really show The Grin how we treat Vegas DC-style.
 	pln_ca1_96_01 = "Boa. Número do chefe de segurança. Ele não ficará feliz de perder isso.",--Nice. Security chief's number. He won't be happy to lose this.
 	pln_ca1_15_01 = "Beleza. Sigam para a recepção, achem um terminal e baixem a lista de hóspedes.",--All right. Head to reception, find a terminal and download the guest list.
 	pln_ca1_140_01 = "Essa é a mesa da recepção.",--This is the reception desk.
@@ -299,7 +299,7 @@ return {
 	pln_ca1_171_01 = "Parafusem o guincho!",--Screw the winch down!
 	pln_ca1_74_02 = "Encontrem o hóspede para que possamos roubar o seu cartão. Lembrem-se, ele provavelmente estará nos caça-níqueis.",--Find the guest so we can steal his keycard. Remember, he's likely on the slots.
 	pln_ca1_35_02 = "Certo, esse é o código do Arsenal. Digitem ele!",--Okay, that's the digits for the armory code. Enter it!
-	pln_ca1_98_02 = "Execelente pra porra, grupo! Entrem, encham suas mochilas. Levem tanto quanto puderem, mas lembrem-se, estamos aqui pelo loot do Dentista.",--Out-goddamn-standing, crew! Get in, fill your bags. Take as much as you can, but remember, we're here for The Dentists' loot.
+	pln_ca1_98_02 = "Execelente pra porra, grupo! Entrem, encham suas mochilas. Levem tanto quanto puderem, mas lembrem-se, estamos aqui pelo baú do Dentista.",--Out-goddamn-standing, crew! Get in, fill your bags. Take as much as you can, but remember, we're here for The Dentists' loot.
 	pln_ca1_173_01 = "Beleza. O Arsenal usa um código de três dígitos. Procurem por ele no Casino. Números e cores. Ou vocês podem apostar na adivinhação.",--All right. Armory uses a three digit code. Look for it in the casino. Numbers and colors. Or you can gamble on guessing.
 	pln_ca1_112_02 = "Não esqueçam dos fogos de artifício. Vegas irá acender como em 1999.",--Don't forget the fireworks. Vegas will go up like 1999.
 	pln_ca1_33_02 = "Primeiro número. Peguem os outros dois.",--First number. Get the other two.
@@ -318,10 +318,10 @@ return {
 	pln_ca1_114_02 = "Parece que um dos tanques de refrigeração acabou. Sejam cavalheiros e peguem um cheio para a garota.",--Looks like one of her coolant tanks is finished. Be gents and fetch that girl a refill. Uh, from the crapper.
 	pln_ca1_54_01 = "Religuem o guincho. E mantenham os malditos policiais longe dele.",--Restart the winch. And keep the damn cops off it.
 	pln_ca1_135_01 = "Ka-ching, gangue! Talvez nós possamos parar de roubar bancos e ganhar nosso pagamento nos caça-níqueis.",--Ka-ching, gang! Maybe we can stop robbing banks and earn our payday on the slots.
-	pln_ca1_98_01 = "Excelente, pessoal, estamos dentro! Sirvam-se, não devolvam nada. Lembrem-se, nosso objetivo é o loot do Dentista.",--Outstanding, guys, we're in! Help yourselves, give nothing back. Remember, our goal is the Dentists' loot.
+	pln_ca1_98_01 = "Excelente, pessoal, estamos dentro! Sirvam-se, não devolvam nada. Lembrem-se, nosso objetivo é o baú do Dentista.",--Outstanding, guys, we're in! Help yourselves, give nothing back. Remember, our goal is the Dentists' loot.
 	pln_ca1_29_01 = "Ótimo. Agora vocês podem se mascarar novamente.",--Great. Now you can mask up again.
 	pln_ca1_158_02 = "Eu não... sei...",--I don't... know...
-	pln_ca1_117_01 = "Pessoal, encontrem o loot do Dentista!",--Find The Dentist's loot, guys! 
+	pln_ca1_117_01 = "Pessoal, encontrem o baú do Dentista!",--Find The Dentist's loot, guys! 
 	pln_ca1_77_02 = "Agora! Atrás dele. Esperem até ele estar sozinho.",--Now! After him. Wait til he's alone.
 	pln_ca1_27_01 = "A Abertura do cofre precisa de um código de três dígitos. Cada dígito fica com um gerente, e cada um está em uma maleta de computador. Nós precisamos daquele código. Encontrem eles.",--Opening the vault needs a three digit code. Each digit is held by a manager, and each is in a computer briefcase. We need that code. Find them.
 	pln_ca1_06_01 = "Ótimo! Agora encontrem um scanner na TI. Me enviem uma cópia dos projetos por fax. Irei achar aquela ventilação.",--Great! Now find a scanner in IT. Fax me a copy of the blueprints. I'll find that vent.
@@ -338,9 +338,9 @@ return {
 	pln_ca1_109_02 = "Merda! Apenas plantem o C4 no outro lugar. Agora é certeza.",--Crap! Just plant the C4 at the other spot. It's a sure thing now.
 	pln_ca1_111_02 = "Pessoal, acendam aquele sinalizador. O Bile precisa deixar o guincho.",--Light that flare, gang. Bile needs to drop off the winch.
 	pln_ca1_112_03 = "Lembrem-se de separar os fogos. Acendam o céu noturno.",--Remember to sort the fireworks. Light up the night sky.
-	pln_ca1_117_02 = "Pode apenas um de vocês palhaços apenas pegar aquele loot, por favor?",--Will one of you clowns just grab that loot, please?
+	pln_ca1_117_02 = "Pode apenas um de vocês palhaços apenas pegar aquele baú, por favor?",--Will one of you clowns just grab that loot, please?
 	pln_ca1_119_02 = "Ótimo. Agora joguem isso na BFD.",--Great. Now toss it up onto BFD.
-	pln_ca1_121_02 = "Agora subam na BFD e deixem o dirigível carregar vocês, para cima e para longe. Ou fiquem e peguem mais loot.",--Now get onto BFD and let the blimp carry you up, up and away. Or stay and grab more loot.
+	pln_ca1_121_02 = "Agora subam na BFD e deixem o dirigível carregar vocês, para cima e para longe. Ou fiquem e peguem mais dinheiro.",--Now get onto BFD and let the blimp carry you up, up and away. Or stay and grab more loot.
 	pln_ca1_126_02 = "Dois!",--Two!
 	pln_ca1_133_02 = "Nove!",--Nine!
 	pln_ca1_134_03 = "Apostar é uma doença. Pare enquanto ainda pode, otário!",--Gambling is a disease. Stop while you can, sucker!
@@ -401,7 +401,7 @@ return {
 	pln_ca1_intro_02_02 = "Chegando com estilo!",--Arriving in style!
 	
 	-- Objetivos
-	hud_heist_kenaz_c_33a = "Agora vocês podem pegar o loot do Dentista. Procurem por um baú dourado.",--You can now grab the loot for the Dentist. Look for a golden chest.
+	hud_heist_kenaz_c_33a = "Agora vocês podem pegar o espólio do Dentista. Procurem por um baú dourado.",--You can now grab the loot for the Dentist. Look for a golden chest.
 	hud_heist_kenaz_c_08_hl = "Plante o C4 no Salão de Apostas",--Plant the C4 in the Gambling Hall
 	hud_heist_kenaz_s_010a = "Três números diferentes formam o código de acesso para o cofre. Você precisará de todos eles. Um fica com o gerente, um com o supervisor do Casino e outro com o chefe de segurança.",--Three different numbers form the access code for the vault. You need all of them. One is held by the manager, one by the pit boss and the other by the head of security.
 	hud_heist_kenaz_c_30_hl = "Reabasteça os Tanques D'Água",--Refill the water tanks
@@ -440,7 +440,7 @@ return {
 	hud_heist_kenaz_c_02_hl = "Encontre os Três Números para o Código do Arsenal",--Find three numbers for the armory code
 	hud_heist_kenaz_c_02 = "Três diferentes números formam o código de acesso do Arsenal. Você precisará de todos eles. Um fica com o gerente, outro com o supervisor do Casino e outro com o chefe de segurança.",--Three different numbers form the access code for the armory. You need all of them. One is held by the manager, one by the pit boss and the other by the head of security.
 	hud_heist_kenaz_s_04 = "Verifique a foto que o Bain mandou para você e veja se consegue achar a localização exata desse hóspede. Ele é viciado em caça-níqueis, então ele provavelmente estará jogando.",--Check the picture Bain sent you and find out the exact location of this guest. He is a slot machine addict, so he will probably be playing.
-	hud_heist_kenaz_c_34 = "O loot está seguro. Agora escape do Golden Grin Casino.",--The loot is secure. Now escape the Golden Grin casino.
+	hud_heist_kenaz_c_34 = "O baú foi assegurado. Agora escape do Golden Grin Casino.",--The loot is secure. Now escape the Golden Grin casino.
 	hud_heist_kenaz_c_27b_hl = "Espere pela BFD",--Wait for the BFD
 	hud_heist_kenaz_c_17 = "Abra a porta do Centro de Segurança e entre nele para abrir a barreira da clarabóia.",--Open the Security Center door and get inside to open the skylight barrier.
 	hud_heist_kenaz_s_03b = "Encontre um computador conectado à internet. Plugue o cartão de memória e envie a lista de hóspedes para o Bain.",--Find a computer connected to the internet. Plug in the memory stick and upload the guest list to Bain.
@@ -474,7 +474,7 @@ return {
 	hud_heist_kenaz_s_09 = "Use o cartão de acesso para entrar no quarto do hotel. Encontre a ventilação e comece a mandar o gás do sono pela ventilação. Isso irá colocar os guardas no Centro de Segurança para dormir.",--Use the keycard to get into the hotel room. Find the vent and start pumping sleeping gas into the shaft. This will put the guards in the Security Center to sleep.
 	hud_heist_kenaz_c_14_hl = "Pegue os Fogos de Artifício",--Take the fireworks
 	hud_heist_kenaz_c_22_hl = "Conecte o Guincho na BFD",--Connect the winch to the BFD
-	hud_heist_kenaz_c_33b_hl = "Assegure o Loot do Dentista",--Secure the Dentist's loot
+	hud_heist_kenaz_c_33b_hl = "Assegure o Baú do Dentista",--Secure the Dentist's loot
 	hud_heist_kenaz_c_22 = "Conecte o gancho do guincho na furadeira.",--Connect the winch hook to the drill.
 	hud_heist_kenaz_c_03_hl = "Encontre mais dois Números do Código do Arsenal",--Find two more numbers for the armory code
 	hud_heist_kenaz_c_27a_hl = "Ligue a BFD",--Start the BFD
@@ -497,7 +497,7 @@ return {
 	hud_heist_kenaz_c_28 = "Os policiais desligaram a BFD. Religue ela.",--The cops have shut down the BFD. Get her re-started.
 	hud_heist_kenaz_c_32 = "A furadeira acabou e o cofre está pronto. Entre lá.",--The drill is done and the vault is ready. Get in there.
 	hud_heist_kenaz_c_32_hl = "Entre no Cofre",--Get into the vault
-	hud_heist_kenaz_c_33a_hl = "Pegue o Loot do Dentista",--Take the Dentist's loot
+	hud_heist_kenaz_c_33a_hl = "Pegue o Baú do Dentista",--Take the Dentist's loot
 	hud_heist_kenaz_s_010c_hl = "Encontre o Último Número usado para o Código do Cofre",--Find the last number used for the vault code
 	hud_heist_kenaz_s_012a = "Hackeie o computador para desativarem os lasers protegendo a entrada do cofre.",--Hack the computer to disable the lasers guarding the vault entrance.
 	hud_heist_kenaz_s_012a_hl = "Desative os Lasers",--Disable the lasers
@@ -509,4 +509,4 @@ return {
 	hud_heist_kenaz_s_05a = "A garrafa do hóspede está vazia. Traga uma nova para ele, batizada com o veneno. Procure por garrafas nos bares do Casino e coloque o veneno nela. Lembre-se de pegar a bebida que ele gosta.",--The guest's bottle is empty. Bring him a fresh one, spiked with the poison. Look for the bottles in the casino's bars and put poison in it. Remember to get the drink he likes.
 	hud_heist_kenaz_s_08 = "O hóspede acabou de perder o cartão de acesso. Colete-o. Você poderá usá-lo para entrar no quarto dele.",--The guest just lost the keycard. Collect it. You can use it to enter his room.
 	hud_heist_kenaz_s_08_hl = "Pegue o Cartão de Acesso do Quarto",--Collect the hotel room keycard
-		}
+}

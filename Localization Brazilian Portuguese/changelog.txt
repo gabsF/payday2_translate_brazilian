@@ -1,11 +1,9 @@
 
 
-14.00 - Natal de 2022
-* Traduzido as legendas do Almir do Evento de Natal 2022.
-* Traduzido a nova interface dos Perk Decks. (Encheção de línguiça da Overkill)
-* Traduzido o evento "A Criminal Carol".
 
-14.00 Mk II
-* Corrigido um erro na descrição do "Jogar Evento".
-* Corrigido algumas legendas.
-> Almir em Cântico de Assalto.
+14.01 [ Pequena atualização / Correções ]
+* Traduzido os objetivos pós-Natal 2022.
+* Traduzido a descrição da munição envenenada de Shotgun.
+* Corrigido os textos que têm menção de "loot". (Tentando ter o contexto em cada heist.)
+> Por exemplo, "O Loot do Dentista" -> "O Baú do Dentista", já que o Loot dele é um baú, então ficou traduzido como "baú".
+> Em algumas heists, a palavra "Loot" ficou misturado com outras coisas que o jogador pode roubar, ficou como "espólio" mesmo.

@@ -440,7 +440,7 @@ return {
 	hud_roberts_mission1_hl = "Encontre os Cartões de Acesso",--Find the vault keycards
 	hud_roberts_mission2 = "Use os cartões de acesso nos leitores para abrir o cofre.",--Use the keycards on the card readers to open up the vault.
 	hud_roberts_mission4 = "Abra as caixas de depósito dentro do cofre, e procure pelo dinheiro. Uma bolsa é requirida pro nosso contato, o resto é lucro.",--Open up deposit boxes inside the vault, and look for the money. One bag is required from your contact, the rest is gravy.
-	hud_roberts_mission5 = "Cerfitique-se de assegurar os espólios",--Make sure that the loot is secured
+	hud_roberts_mission5 = "Cerfitique-se de assegurar os espólios.",--Make sure that the loot is secured
 	hud_roberts_mission6 = "A Fuga está disponível!",--The escape is now available!
 	hud_roberts_mission6_hl = "Fuga Disponível!",--Escape available!
 	hud_roberts_mission7_hl = "Pegue a Furadeira Térmica",--Pick up the Thermal Drill
