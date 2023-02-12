@@ -501,6 +501,8 @@ return {
 	menu_locked = "BLOQUEADO",--LOCKED
 	
 	-- ARMAS
+	bm_menu_requires = "Esta modificação requer $items!",--"This modification requires $items!",
+	bm_menu_incompatiblity = "Esta modificação é incompatível com $items!",--"This modification is incompatible with $items!",
 	bm_w_x_maxim9_desc = "Essa arma é silenciada e tem força de Escopeta.",--This weapon is suppressed and has shotgun push functionality.
 	bm_w_maxim9_desc = "Essa arma é silenciada e tem força de Escopeta.",--This weapon is suppressed and has shotgun push functionality.
 	bm_wp_fmg9_conversion_desc = "Conjuntos Exclusivos adicionam algumas modificações, um estilo extra e algumas mudanças leves nas estastísticas.",--The Exclusive Set adds several mods, giving the weapon a visual flair and some slight stat tweaks.
@@ -523,19 +525,19 @@ return {
 	bm_menu_customizable_weapon_color = "Cor Customizada",
 	bm_menu_btn_customize_weapon_color = "Customizar Cor",
 	bm_menu_customizable_weapon_color_desc = "Adiciona uma Cor Customizada em sua arma.",--Add a custom color to your weapon
-	bm_menu_second_sight = "Segunda Mira",--"Secondary Sight",
+	bm_menu_second_sight = "Miras Secundárias",--"Secondary Sight",
 	bm_menu_exclusive_set = "Conjunto Exclusivo",--Exclusive Set
 	bm_menu_exclusive_set_plural = "Conjuntos Exclusivos",--Exclusive Weapon Sets
-	bm_menu_weapon_cosmetics = "Skin da Arma",
+	bm_menu_weapon_cosmetics = "Skins da Arma",
 	bm_menu_ammo_plural = "Tipos de Munições",--Ammo Types
-	bm_menu_sight_plural = "Mira de Ferro",--Sights
+	bm_menu_sight_plural = "Miras de Ferro",--Sights
 	--bm_menu_gadget_plural = "",--Gadgets
 	bm_menu_bolt = "Ferrolho",--Bolt
 	bm_menu_underbarrel_plural = "Canos Inferiores",--Underbarrels
 	bm_menu_barrel_plural = "Canos",--Barrels
 	bm_menu_barrel_ext_plural = "Ext. de Canos",--Barrel Extensions
-	bm_mod_incompatibility_all = "todos",--all
-	bm_mod_incompatibility_some = "alguns",--some
+	bm_mod_incompatibility_all = "todos(as)",--all
+	bm_mod_incompatibility_some = "alguns(mas)",--some
 	bm_menu_charm = "Chaveiro",--Charm
 	bm_menu_ammo = "Tipo de Munição",--Ammunition
 	bm_menu_barrel = "Cano",--Barrel

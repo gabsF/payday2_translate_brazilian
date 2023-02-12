@@ -1,9 +1,8 @@
 
 
 
-14.01 [ Pequena atualização / Correções ]
-* Traduzido os objetivos pós-Natal 2022.
-* Traduzido a descrição da munição envenenada de Shotgun.
-* Corrigido os textos que têm menção de "loot". (Tentando ter o contexto em cada heist.)
-> Por exemplo, "O Loot do Dentista" -> "O Baú do Dentista", já que o Loot dele é um baú, então ficou traduzido como "baú".
-> Em algumas heists, a palavra "Loot" ficou misturado com outras coisas que o jogador pode roubar, ficou como "espólio" mesmo.
+14.02
+* Traduzido a Ordnance Bag, a Bolsa de Granadas.
+* Traduzido as incompatibilidades das modificações das armas.
+* Corrigido o erro da escrita em uma das legendas em Golden Grin Casino.
+* Removido a correção do texto "Tornar-se Infamous", Overkill corrigiu isto no jogo padrão.

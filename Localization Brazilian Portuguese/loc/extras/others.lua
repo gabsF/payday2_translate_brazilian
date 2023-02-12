@@ -6,6 +6,7 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	menu_l_global_value_mxm = "Esse é um item de McShay Mod Pack!",--"This is a McShay Mod Pack item!",
 	menu_l_global_value_xm22 = "Esse é um item do Cântica de Assalto 2022!",--"This is a Criminal Carol 2022 item!",
 	bm_menu_locked_cg22_community_4 = 'Complete a Tarefa Secundária "Rasgando o Natal" para desbloquear!',--Complete the Shredding Christmas side job to unlock!",
 	bm_menu_locked_cg22_community_5 = 'Complete a Tarefa Secundária "O Dozer Abominável das Neves" para desbloquear!',--Complete the Abominable Dozer side job to unlock!",
@@ -543,8 +544,11 @@ return {
 	-- Equipamentos
 	bm_menu_btn_equip_deployable = "Equipar o Equipamento",
 	bm_menu_btn_unequip_deployable = "Desequipar o Equipamento",
+	bm_equipment_grenade_crate = "Bolsa de Granadas",--"Ordnance Bag",
+	bm_equipment_grenade_crate_desc = "Para usar a Bolsa de Granadas, você deve colocá-la segurando $BTN_USE_ITEM;. Assim que for colocado não pode ser movido. Enquanto estiver por perto da bolsa, segure $BTN_INTERACT; para recuperar as granadas. Isso só pode ser usado quatro vezes.\n\nQuando a Bolsa de Granadas estiver vazia, irá sumir. Você pode ver quantos usos restam olhando na Bolsa de Granadas.\n\nA Bolsa de Granadas é uma bolsa portátil carregado pelos soldados para transportarem explosivos e outras armas jogáveis em uma batalha.",
+	--"To use the Ordnance Bag, you need to place it by holding . Once placed it cannot be moved, but it may be used by both you and your crew. While in close proximity to the Ordnance Bag, hold  to replenish throwable items. It can only be used four times.\n\nWhen the Ordnance Bag is depleted, it disappears. You can see how many uses are left by looking at the Ordnance Bag. \n\nThe Ordnance Bag is a portable case carried by combat operatives to transport explosives and other throwable weapons into a battle zone.",
 	bm_equipment_ammo_bag = "Bolsa de Munição",
-	bm_equipment_ammo_bag_desc = "Para usar a Bolsa de Munição, você deve colocá-la segurando o $BTN_USE_ITEM;. Assim que for colocado não pode ser movido mais, mas pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT para ganhar mais munição. Isso pode recuperar a sua munição completamente de uma das suas armas 4 vezes. Quando a Bolsa de Munição estiver vazia, irá sumir. Você pode ver quanto de munição resta olhando na Bolsa de Munição.\n\nA Bolsa de Munição é portátil, originalmente para os soldados carregarem munição extra com eles no combate.",
+	bm_equipment_ammo_bag_desc = "Para usar a Bolsa de Munição, você deve colocá-la segurando $BTN_USE_ITEM;. Assim que for colocado não pode ser movido mais, mas pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT para ganhar mais munição. Isso pode recuperar a sua munição completamente de uma das suas armas 4 vezes. Quando a Bolsa de Munição estiver vazia, irá sumir. Você pode ver quanto de munição resta olhando na Bolsa de Munição.\n\nA Bolsa de Munição é portátil, originalmente para os soldados carregarem munição extra com eles no combate.",
 	bm_equipment_doctor_bag = "Bolsa Médica",
 	bm_equipment_doctor_bag_desc = "Para usar a Bolsa Médica, você precisa colocá-la segurando $BTN_USE_ITEM;. Assim que for colocado, não pode ser movido mais, mas pode ser usado por você e pelos seus aliados segurando o $BTN_INTERACT; para se curar. Usando a Bolsa Médica vai redefinir a quantidade de quedas que o jogador sofreu antes de ir para custódia. Pode ser usado duas vezes\n\nQuando uma Bolsa Médica é consumida ela irá sumir. Você pode ver quantos usos restam olhando na Bolsa Médica.\n\nA Bolsa Médica é portátil, usado por um fisíco ou alguma outra profissão médica para um transporte de suprimentos medicinais.",
 	bm_equipment_armor_kit = "Kit de Armadura",
@@ -597,6 +601,7 @@ return {
 	menu_infamy_go_infamous_error_money = "Você precisa pagar 200,000,000 da sua conta offshore para tornar-se infamous.",--You need to pay 200,000,000 from your offshore account to go infamous.
 	menu_infamy_go_infamous_error_level = "Você precisa ser nível 100 para tornar-se infamous.",
 	menu_infamy_button_go_infamous = "[Tornar-se Infamous]",
+	menu_infamy_go_infamous = "Tornar-se Infamous",
 	menu_infamy_infamy_panel_infamy_level = "Infamy atual: $infamy",
 	menu_infamy_infamy_panel_reputation_level = "Reputação atual: $reputation",
 	menu_infamy_coming_soon_title = "CHEGANDO EM BREVE!",

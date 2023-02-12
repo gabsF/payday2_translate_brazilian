@@ -299,7 +299,7 @@ return {
 	pln_ca1_171_01 = "Parafusem o guincho!",--Screw the winch down!
 	pln_ca1_74_02 = "Encontrem o hóspede para que possamos roubar o seu cartão. Lembrem-se, ele provavelmente estará nos caça-níqueis.",--Find the guest so we can steal his keycard. Remember, he's likely on the slots.
 	pln_ca1_35_02 = "Certo, esse é o código do Arsenal. Digitem ele!",--Okay, that's the digits for the armory code. Enter it!
-	pln_ca1_98_02 = "Execelente pra porra, grupo! Entrem, encham suas mochilas. Levem tanto quanto puderem, mas lembrem-se, estamos aqui pelo baú do Dentista.",--Out-goddamn-standing, crew! Get in, fill your bags. Take as much as you can, but remember, we're here for The Dentists' loot.
+	pln_ca1_98_02 = "Excelente pra porra, grupo! Entrem, encham suas mochilas. Levem tanto quanto puderem, mas lembrem-se, estamos aqui pelo baú do Dentista.",--Out-goddamn-standing, crew! Get in, fill your bags. Take as much as you can, but remember, we're here for The Dentists' loot.
 	pln_ca1_173_01 = "Beleza. O Arsenal usa um código de três dígitos. Procurem por ele no Casino. Números e cores. Ou vocês podem apostar na adivinhação.",--All right. Armory uses a three digit code. Look for it in the casino. Numbers and colors. Or you can gamble on guessing.
 	pln_ca1_112_02 = "Não esqueçam dos fogos de artifício. Vegas irá acender como em 1999.",--Don't forget the fireworks. Vegas will go up like 1999.
 	pln_ca1_33_02 = "Primeiro número. Peguem os outros dois.",--First number. Get the other two.
