@@ -3061,7 +3061,7 @@ return {
 	menu_asset_kosugi_room = "Pasta termite",--Thermite Paste
 	menu_asset_kosugi_thermite = "Pasta termite",--Thermite paste
 	menu_pp_asset_thermal_paste = "Pasta termite",--Thermite paste
-	menu_pp_asset_thermal_paste_desc = "a termite poderá queimar as barras de ferro.",--Thermite paste can burn through iron bars.
+	menu_pp_asset_thermal_paste_desc = "A termite poderá queimar as barras de ferro.",--Thermite paste can burn through iron bars.
 	menu_pp_asset_loot_drop_off_desc = "Gage irá providenciar novas localizações onde você poderá assegurar o espólio.",--Gage can arrange for additional locations where you can secure loot.
 	menu_pp_shadow_raid_loot_drop_off004 = "Lixeira na Beira do Mar",--Waterfront Garbage
 	menu_pp_shadow_raid_loot_drop_off001 = "Lixeira das Portas do Armazém",--Warehouse Doors Garbage

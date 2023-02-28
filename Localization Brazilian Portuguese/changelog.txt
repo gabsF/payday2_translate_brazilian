@@ -1,8 +1,6 @@
 
 
 
-14.02
-* Traduzido a Ordnance Bag, a Bolsa de Granadas.
-* Traduzido as incompatibilidades das modificações das armas.
-* Corrigido o erro da escrita em uma das legendas em Golden Grin Casino.
-* Removido a correção do texto "Tornar-se Infamous", Overkill corrigiu isto no jogo padrão.
+14.03
+* Corrigido um texto em Pré-planejamento.
+* Atualizado o SuperBLT. (Obrigado Overkill por forçar a minha mão.)
