@@ -1,6 +1,6 @@
 
 
 
-14.03
-* Corrigido um texto em Pré-planejamento.
-* Atualizado o SuperBLT. (Obrigado Overkill por forçar a minha mão.)
+14.04
+* Corrigido um erro de escrita em uma das dicas.
+* Corrigido um erro de digitação da string interna de uma das descrições do Perk Deck Sociopath.

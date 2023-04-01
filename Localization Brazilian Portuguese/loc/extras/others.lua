@@ -5025,7 +5025,7 @@ return {
 	loading_gameplay_17 = "Conheça o seu inimigo: Os Snipers entregam a sua posição pela suas miras com laser.",
 	loading_gameplay_18 = "Conheça o seu inimigo: A Sentinela da SWAT pode ser identificado por está em uma van grande da SWAT.",
 	loading_gameplay_19 = "Perk Decks podem mudar o seu jeito de jogar. Escolha um que combine com o seu estilo de jogo!",
-	loading_gameplay_20 = 'A sub-árvore "Medic" é sobre manter você e os seus alidos em um bom estado.',
+	loading_gameplay_20 = 'A sub-árvore "Medic" é sobre manter você e os seus aliados em um bom estado.',
 	loading_gameplay_21 = 'A sub-árvore "Controller" é focado em capturar e controlar reféns, incluindo as forças da lei.',
 	loading_gameplay_22 = 'A sub-árvore "Sharpshooter" foca em snipers e tiros de alta precisão.',
 	loading_gameplay_23 = 'A sub-árvore "Shotgunner" providencia melhorias para as Shotguns.',
