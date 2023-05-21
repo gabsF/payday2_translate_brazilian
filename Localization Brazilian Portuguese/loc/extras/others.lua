@@ -2894,6 +2894,8 @@ return {
 	menu_pp_chas_bpr_loc_a = "Primeiro Andar",--Ground floor
 	menu_pp_chas_bpr_loc_b = "Porão",--Basement
 	menu_pp_cat_escape_plan = "Plano de Fuga",--Escape Plan
+	menu_pp_cat_plan_of_action = "Plano de Ação",--Plan of Action",
+	menu_pp_cat_plan_of_action_desc = "Selecione se você quer fazer Loud ou Stealth.",--Select if you want to go loud or silent",
 	menu_pp_cat_escape_plan_desc = "Diferentes formas de fugir do local.$NL;$NL;O Plano de Fuga precisa da maioria de votos. Em caso de empate, o voto do Host será decisivo.",--Alternative ways of getting out.$NL;$NL;Escape plans need a majority vote. In a deadlock, the host has casting vote.
 	menu_pp_crojob2_escape_van = "Fuga pela Van",--Van Escape
 	menu_pp_crojob2_escape_van_desc = "Uma Van de fuga estará esperando por você perto do lado esquerdo da entrada do Estaleiro. Esse é o ponto de fuga mais distante, porém é de graça e o motorista é rápido e de confiança.",--An escape van will be waiting for you near the left side of the dockyard entrance. This is the farthest escape point, but it's also free of charge and the driver is fast and reliable.
@@ -3878,7 +3880,7 @@ return {
 	menu_lobby_menu_state_payday = "Em PAYDAY",
 	menu_lobby_menu_state_crimenet = "Na Crime.Net",
 	menu_start_the_game = "Iniciar o Assalto",
-	dialog_connection_to_host_lost = "A Conexão com o Host foi perdida",--Connection to the host has been lost
+	dialog_connection_to_host_lost = "A conexão com o Host foi perdida",--Connection to the host has been lost
 	dialog_safehouse_text = "Você não visitou a Safe House ainda. Você gostaria de ir lá agora?",--You haven't visited the safe house yet. Would you like to go there now?
 	
 	--In Lobby -> Edit Game Settings

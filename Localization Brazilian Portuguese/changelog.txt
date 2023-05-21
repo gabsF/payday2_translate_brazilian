@@ -1,6 +1,5 @@
 
 
-
-14.04
-* Corrigido um erro de escrita em uma das dicas.
-* Corrigido um erro de digitação da string interna de uma das descrições do Perk Deck Sociopath.
+15.00
+* Traduzido Hostile Takeover (Traduzido por Lucas e revisado por gabsF).
+* Traduzido mais falas do Locke em Moutain Master.

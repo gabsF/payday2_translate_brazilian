@@ -20,6 +20,9 @@
         <loc file="cowgirl/midland_ranc.lua"/>
         <loc file="cowgirl/lost_in_transit.lua"/>
 
+        <!-- Keegan Constracts -->
+        <loc file="keegan/corp.lua"/>
+
         <!-- Extras -->
         <loc file="extras/vr.lua"/>
         <loc file="extras/others.lua"/>
@@ -138,6 +141,9 @@
         <!-- Cowgirl Contracts -->
         <loc file="cowgirl/midland_ranc.lua"/>
         <loc file="cowgirl/lost_in_transit.lua"/>
+
+        <!-- Keegan Constracts -->
+        <loc file="keegan/corp.lua"/>
 
         <!-- Extras -->
         <loc file="extras/vr.lua"/>
