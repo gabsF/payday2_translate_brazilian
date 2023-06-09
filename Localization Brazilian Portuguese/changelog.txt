@@ -1,7 +1,5 @@
 
 
-15.01
-* Traduzido Social Hub (pode ser que tenha mais texto pra ser traduzido devido a Epic Games Store).
-* Alterado a dica do alarme disparado "Você respondeu mais de 4 pagers" para ficar mais claro ao jogador.
-* Traduzido The Lost Tapes, Os Vazamentos. (com ajuda do Hoppip)
-> Primeira fita, Ruim Para Os Negócios.
+15.02
+* Atualizado o BeardLib (Compatibilidade com EGS).
+* Traduzido mais coisas do Social Hub.

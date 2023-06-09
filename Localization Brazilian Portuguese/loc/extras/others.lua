@@ -6179,8 +6179,12 @@ return {
 	menu_socialhub_invite_help = "Aceite os convites de qualquer um, apenas dos favoritos, ou de ninguém.",--Accept social hub invites from anyone, only favorited heisters, or no one.",
 	menu_socialhub_invite = "Configurações de convite",--INVITE SETTINGS",
 	menu_socialhub_options = "Social Hub",
-	menu_toggle_socialhub_hide_code = "Mostrar o código",--SHOW CODE",
+	menu_toggle_socialhub_hide_code = "Mostrar código",--SHOW CODE",
 	menu_toggle_socialhub_hide_code_help = "Mostra o código do usuário e do lobby por padrão.",--Display user and lobby codes by default.",
 	menu_socialhub_notification_off = "Desligado",--OFF",
 	menu_socialhub_invites_off = "Desligado",--OFF",
+	menu_lobby_code_hidden = "O seu código do lobby está escondido",--"Your lobby code has been hidden",
+	menu_user_code = "Seu código",--"User Code",
+	menu_lobby_code_show = "Mostrar código",--"SHOW CODE",
+	menu_lobby_code_hide = "Esconder código",--"HIDE CODE",
 }
