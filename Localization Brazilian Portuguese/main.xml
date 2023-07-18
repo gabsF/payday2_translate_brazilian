@@ -22,6 +22,7 @@
 
         <!-- Keegan Constracts -->
         <loc file="keegan/corp.lua"/>
+        <loc file="keegan/deep.lua"/>
 
         <!-- Extras -->
         <loc file="extras/vr.lua"/>
@@ -144,6 +145,7 @@
 
         <!-- Keegan Constracts -->
         <loc file="keegan/corp.lua"/>
+        <loc file="keegan/deep.lua"/>
 
         <!-- Extras -->
         <loc file="extras/vr.lua"/>

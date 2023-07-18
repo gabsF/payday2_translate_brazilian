@@ -31,6 +31,10 @@ return {
 	menu_st_category_defensive = "Defensivo",--Defensive",
 	menu_st_category_stealth = "Stealth",--Stealth",
 	menu_st_category_versatile = "Versátil",--Versatile",
+	menu_specialization_key_buy_card = "Comprar o Perk",--"Acquire Perk",
+	menu_specialization_key_equip = "Equipar",--Equip
+	menu_specialization_key_favorite = "Favoritar",--Favorite
+	menu_specialization_key_but_deck = "Adquirir Deck Inteiro",--Acquire Entire Deck",
 
 	-- "Granadas" dos Perk Decks
 	bm_ability_chico_injector = "Injetor",
@@ -518,7 +522,7 @@ return {
 	--menu_st_spec_21 = "Hacker",
 	menu_st_spec_21_desc = "Usando o seu equipamento e a sua mente brilhante, você pode foder qualquer sistema de segurança com um simples apertar de um botão. Você nunca foi pego no flagra por uma câmera de segurança ou por um guarda, mas se as coisas irem por água a baixo, você poderá facilmente fazer uma força bruta, passar pelos guardas e dar um final não muito feliz para alguém que estiver te ouvindo.",
 	menu_deck21_1 = "Bug de Código",
-	menu_deck21_1_desc = "Desbloqueia e equipa o PEM de Bolso.\n\nMudando para o outro Perk Deck bloqueará o PEM de Bolso. O PEM de Bolso substitui a sua granada, pode ser trocado caso queira.\n\nEnquanto estiver jogando, pode pressionar ##$BTN_ABILITY;## para ativar o PEM de Bolso.\n\nAntes do alarme, o PEM de Bolso ativará o efeito de bloqueio, desabilitando todos os eletrônicos e os pagers por ##$multiperk;## segundos.\n\nDepois do alarme, o PEM de Bolso ativará o efeito de Feedback, garantindo uma chance de atordoar os inimigos no mapa a cada segundo por ##$multiperk;## segundos.\n\nO PEM de Bolso tem ##$multiperk2;## usos, mas não pode usar mais de uma vez por ##$multiperk3;## segundos de recarga, mas cada matando um inimigo reduzirá o tempo de recarga por ##$multiperk4;## segundos.",
+	menu_deck21_1_desc = "Desbloqueia e equipa ##PEM de Bolso##.\n\nMudando para o outro Perk Deck bloqueará o PEM de Bolso. O PEM de Bolso substitui a sua granada, pode ser trocado caso queira.\n\nEnquanto estiver jogando, pode pressionar ##$BTN_ABILITY;## para ativar o PEM de Bolso.\n\nAntes do alarme, o PEM de Bolso ativará o efeito de bloqueio, desabilitando todos os eletrônicos e os pagers por ##$multiperk;## segundos.\n\nDepois do alarme, o PEM de Bolso ativará o efeito de Feedback, garantindo uma chance de atordoar os inimigos no mapa a cada segundo por ##$multiperk;## segundos.\n\nO PEM de Bolso tem ##$multiperk2;## usos, mas não pode usar mais de uma vez por ##$multiperk3;## segundos de recarga, mas cada matando um inimigo reduzirá o tempo de recarga por ##$multiperk4;## segundos.",
 	--[[
 Unlocks and equips the Pocket ECM Device.
 Changing to another perk deck will make the Pocket ECM Device unavailable again. The Pocket ECM Device replaces your current throwable, it can be switched out if desired.
@@ -544,7 +548,7 @@ Killing at least ##$multiperk;## enemy while the feedback or jamming effect is a
 	--[[
 Crew members killing enemies while the feedback effect is active will regenerate ##$multiperk;## health. Your chance to dodge is increased by an additional ##$multiperk2;##.\n\nDeck Completion Bonus: Your chance of getting a higher quality item during a Payday is increased by ##$multiperk3;##.
 	]]
-	menu_deck21_1_short = "Desbloqueia e equipa o PEM de Bolso.",
+	menu_deck21_1_short = "Desbloqueia e equipa ##PEM de Bolso##.",
 	menu_deck21_3_short = "Você ganhará mais ##$multiperk;## de vida.",
 	menu_deck21_5_short = "Matando um inimigo enquanto o efeito de Feedback estiver ativo regenerá ##$multiperk;## de vida. A sua chance de Dodge é aumentado por ##$multiperk2;##.",
 	menu_deck21_7_short = "Matando pelo menos ##$multiperk;## inimigo enquanto o efeito de Feedback ou do bloqueio estiver ativo concederá ##$multiperk2;## de Dodge por ##$multiperk3;## segundos.",
@@ -559,7 +563,7 @@ Crew members killing enemies while the feedback effect is active will regenerate
 	menu_st_spec_22_desc = "Você é um parasita seletivo em combate, sugando os seus inimigos para curar os seus aliados e a si mesmo. Mas você não é só uma parede de tijolos que pode aguentar uma porrada. Você pode pegar essa dor que você sofre e usar para dar uma força para sua equipe.",
 --[[You are a selective parasite in combat, draining your foes to strengthen yourself and your teammates. Still, you're not just some brick shithouse that can take a beating. You can dish out the pain and use that aggression to bolster your team.  ]]
 	menu_deck22_1 = "Impulso",--Momentum
-	menu_deck22_1_desc = "Desbloqueia e equipa Ampola do Leech.\n\nMudar para outro Perk Deck irá fazer Ampola do Leech indisponível de novo. Ampola do Leech substitui a sua 'granada' atual, é equipado no lugar da sua granada e pode ser trocado caso queira.\n\nEnquanto estiver jogando, você pode usar a tecla da granada ##$BTN_ABILITY;## para ativar Ampola Leech.\n\nAtivando Ampola do Leech irá restaurar ##$multiperk;## da vida e desativar a sua armadura por duração de Ampola do Leech.\n\nEnquanto Ampola do Leech estiver ativo, a sua vida é dividido em pedaços de ##$multiperk2;## e o dano sofrido acima de ##200## remove dois, mas abaixo remove apenas um. Matando ##$multiperk3;## inimigos irá restaurar um pedaço da sua vida e bloquear dano por 1 segundo. Assim que você sofrer dano, os seus aliados vão receber cura por ##$multiperk4;## da vida deles. A cura por segundo tem limite ##20%## da vida dos seus aliados.\n\nO ##Ampola do Leech## dura por ##$multiperk5;## segundos com um cooldown de ##$multiperk6;## segundos.",
+	menu_deck22_1_desc = "Desbloqueia e equipa ##Ampola do Leech##.\n\nMudar para outro Perk Deck irá fazer Ampola do Leech indisponível de novo. Ampola do Leech substitui a sua 'granada' atual, é equipado no lugar da sua granada e pode ser trocado caso queira.\n\nEnquanto estiver jogando, você pode usar a tecla da granada ##$BTN_ABILITY;## para ativar Ampola Leech.\n\nAtivando Ampola do Leech irá restaurar ##$multiperk;## da vida e desativar a sua armadura por duração de Ampola do Leech.\n\nEnquanto Ampola do Leech estiver ativo, a sua vida é dividido em pedaços de ##$multiperk2;## e o dano sofrido acima de ##200## remove dois, mas abaixo remove apenas um. Matando ##$multiperk3;## inimigos irá restaurar um pedaço da sua vida e bloquear dano por 1 segundo. Assim que você sofrer dano, os seus aliados vão receber cura por ##$multiperk4;## da vida deles. A cura por segundo tem limite ##20%## da vida dos seus aliados.\n\nO ##Ampola do Leech## dura por ##$multiperk5;## segundos com um cooldown de ##$multiperk6;## segundos.",
 --[[Unlocks and equips the Leech Ampule.
 Changing to another perk deck will make the Leech Ampule unavailable again. The Leech Ampule replaces your current throwable, is equipped in your throwable slot and can be switched out if desired.
 While in game you can use throwable key ##$BTN_ABILITY;## to activate the Leech Ampule.
@@ -637,7 +641,9 @@ Deck Completion Bonus: Your chance of getting a higher quality item during a Pay
 	menu_deck23_3_3 = "Reflexo de Gato",--Cat-Like Reflex",
 	menu_deck23_1_3_short = "A sua chance de Dodge é aumentada por ##$multiperk;##.",--Your chance to dodge is increased by ##$multiperk;##.",
 	menu_deck23_9_desc = "Bônus por completar o Deck: A sua chance de ganhar um item de alta qualidade durante o Pagamento é aumentada em ##10%##.",--Deck Completion Bonus: Your chance of getting a higher quality item during a Payday is increased by ##$multiperk;##.",
-	menu_deck23_1_desc = "Assim que matar ##$multiperk;## inimigos com a primária automaticamente recarregará a secundária, e vice versa.\n\nAumenta a velocidade de troca de armas por ##$multiperk2;##.",--Auto-reload secondary after performing ##$multiperk;## kills with primary, and vice versa.$NL;$NL;Increases weapon swapping speed by ##$multiperk2;##.",
+	menu_pxp4_deck23_1_desc = "Assim que matar ##$multiperk;## inimigos com a primária automaticamente recarregará a secundária, e vice versa.\n\nTrocar de arma dentro de ##$multiperk2;## segundos de recarga automática é instantâneo.",--Auto-reload secondary after performing ##$multiperk;## kills with primary, and vice versa.$NL;$NL;Swapping weapons within ##$multiperk2;## seconds of auto-reload is nearly instant.",
+	menu_pxp4_deck23_1_short = "Assim que matar ##$multiperk;## inimigos com a primária automaticamente recarregará a secundária, e vice versa.\n\nTrocar de arma dentro de ##$multiperk2;## segundos de recarga automática é instantâneo.",--Auto-reload secondary after performing ##$multiperk;## kills with primary, and vice versa.$NL;$NL;Swapping weapons within ##$multiperk2;## seconds of auto-reload is nearly instant.", [Nota do Gabs: ISSO É UM DESPERDICIO DE ESPAÇO, OVERKILL!]
+	menu_deck23_1_desc = "Assim que matar ##$multiperk;## inimigos com a primária automaticamente recarregará a secundária, e vice versa.\n\nAumenta a velocidade de troca de arma por ##$multiperk2;##.",--Auto-reload secondary after performing ##$multiperk;## kills with primary, and vice versa.$NL;$NL;Increases weapon swapping speed by ##$multiperk2;##.",
 	menu_deck23_1 = "Recarga Tática (Escolhe o Buff)",--Tactical Reload (Choose a Boost)",
 	menu_deck23_3_2_desc = "A sua armadura máxima é aumentada por ##$multiperk;##.",--You gain ##$multiperk;## more armor.",
 	menu_deck23_1_1_short = "A sua vida máxima é aumentada por ##$multiperk;##.",--Your maximum health is increased by ##$multiperk;##.",

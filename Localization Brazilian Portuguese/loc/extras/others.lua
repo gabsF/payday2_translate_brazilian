@@ -911,6 +911,7 @@ return {
 	hud_carry_bag = "Presente de EXP",--"XP Present",
 	hud_carry_bag_green = "Presente de Dinheiro",--Money Present",
 	hud_carry_bag_yellow = "Presente de Continental",--"Continental Present",
+	hud_equipment_int_deep_oil_sample = "Exemplo de Óleo",--Oil Sample",
 
 	-- Outros Interagindo (Terceira Pessoa) 
 	--[[ Nota: Só Deus sabe porquê estas interações não funcionam
@@ -1350,8 +1351,13 @@ return {
 	hud_action_displaying_passenger_manifest = "Exibindo o manifesto do passangeiro",--Displaying passenger manifest",
 	hud_action_inking_money = "Plantando a bomba de tinta",--Planting the ink bomb",
 	chca_action_burning_money = "Queimando o dinheiro",--Burning the money",
+	hud_action_deep_resume_test = "Resumindo análise",--Resuming analysis",
 
 	-- Interações (Primeira Pessoa)
+	hud_equipment_deep_need_oil_sample = "Precisa do exemplo de óleo",--Need oil sample",
+	hud_deep_press_pickup_texas_suit = "Pressione $BTN_INTERACT para pegar o traje",--Press $BTN_INTERACT; to pick up the suit",
+	hud_deep_press_network_cable_connect = "Pressione $BTN_INTERACT para conectar o cabo",--Press $BTN_INTERACT; to plug in the cable",
+	hud_deep_hold_resume_test = "Segure $BTN_INTERACT para resumir a análise",--Hold $BTN_INTERACT; to resume analysis",
 	cg22_hold_summon_present = "Segure $BTN_INTERACT para pegar um presente",--Hold $BTN_INTERACT; to get a present",
 	hud_equipment_need_glass_cutter = "Você precisa de um cortador de vidro",--You need a glass cutter",
 	hud_equipment_need_diesel = "Necessário diesel",-- "Diesel can required",
@@ -1529,7 +1535,7 @@ return {
 	hud_int_hold_take_saw = "Segure $BTN_INTERACT para pegar a Serra",
 	hud_int_hold_take_pardons = "Segure $BTN_INTERACT para pegar o perdão",--Hold $BTN_INTERACT; to take the pardon
 	hud_int_push_button = "Pressione $BTN_INTERACT para apertar o botão",
-	hud_instruct_mask_on = "Segure $BTN_USE_ITEM para colocar a máscara",
+	hud_instruct_mask_on = "Segure $BTN_USE_ITEM; para colocar a máscara",
 	hud_cas_ignite_fireworks = "Segure $BTN_INTERACT para acender os fogos de artifício",--Hold $BTN_INTERACT; to ignite the fireworks
 	["hud_take_???"] = "Segure $BTN_INTERACT para pegar o espólio do dentista",
 	hud_take_bfd_tool = "Pressione $BTN_INTERACT para pegar a ferramenta da BFD",
@@ -1548,7 +1554,7 @@ return {
 	hud_int_big_computer_hackable = "Segure $BTN_INTERACT para Hackear o Computador",
 	hud_int_big_computer_server = "Segure $BTN_INTERACT para acessar o Computador remotamente",
 	hud_int_big_computer_unhackable = "Você só pode Hackear um Computador por vez",
-	hud_instruct_throw_bag = "$BTN_USE_ITEM para Arremessar",
+	hud_instruct_throw_bag = "$BTN_USE_ITEM; para Arremessar",
 	hud_int_hold_take_wrench = "Segure $BTN_INTERACT para pegar a Chave Inglesa",
 	hud_equipment_need_harddrive = "Você precisa do Disco Rígido",
 	hud_int_hold_cut_tree = "Segure $BTN_INTERACT para cortar a árvore",
@@ -4373,6 +4379,8 @@ return {
 	menu_lr_gadget_topic = "Os Vazamentos",-- "The Lost Tapes",
 	menu_lr_legend_stop_playback = "$BTN_A; Parar a gravação",-- "$BTN_A; Stop Recording",
 	menu_lr_mission_title_1 = "Ruim Para Os Negócios",--Bad For Business",
+	menu_lr_mission_title_2 = "Colegas de Cela",--Cellmates",
+	menu_lr_mission_title_3 = "Ficando Ligado com os Garnets",--Keeping Up With The Garnets",
 	menu_lr_mission_recording = "Gravação:",--Recording:",
 	menu_lr_mission_completed = "Fita achada",--Tape Found
 	menu_lr_legend_start_playback = "$BTN_A; Tocar a gravação",-- "$BTN_A; Play Recording",
@@ -4381,6 +4389,114 @@ return {
 	menu_lr_gadget_stop = "Parar a gravação",--"Play Recording",
 	menu_lr_mission_objective_1 = "Ache os dois cartões de acesso especiais para abrir o cofre perdido, depois rouba a gravação de uma investidora da GenSec faminta por sangue.",--Find two special keycards to open the Lost Safe, then steal the recording of a GenSec shareholder out for blood.",
 	menu_lr_mission_description_1 = "GenSec era a empresa de segurança mais poderosa em D.C. quando a gangue Payday chegou na área, mas os palhaços nunca tiveram um problema para arrombar um cofre. Isso até os clientes da GenSec se perguntarem: Por que pagar pela segurança sendo que nem eles podem manter isso seguro?",--GenSec was the biggest security firm in D.C. when the Payday Gang came to town, but the clowns never met a safe they couldn't crack. It wasn't long before GenSec's clients asked themselves: Why pay for security that can't keep anything secure?",
+	menu_lr_mission_description_3 = "O golpe do diamante derrubou bonito a família Garnet, mas e daí? Ralph e o seu pai, Nathan, são grandes babacas, e a industria do diamantes não são exatamentes impenetraveis. Ainda, você deve estar se perguntando se os Garnets vão voltar...",--"The Diamond Heist did a number on the Garnet Family, but so what? Ralph and his daddy Nathan are fat-cat jerks, and the diamond industry isn't exactly spotless. Still, you can't help but wonder if the Garnets will ever recover...",
+	menu_lr_mission_objective_2 = "Em México, ache os dois cartões de acesso especiais para abrir o cofre perdido, depois rouba a gravação de um prisioneiro violento com uma escolha a fazer.",--In Mexico, find two special keycards to open the Lost Safe, then steal the recording of a violent inmate with a bone to pick.",
+	menu_lr_mission_description_2 = "A Gangue não tem nada contra ao MC Overkill, mas eles ficam sendo um obstáculo. É engraçado como dois grupos ficam se batendo, mas os motoqueiros não estavam rindo. Talvez é por isso que eles fizeram parcerias com a Murkywater.",-- "The Gang didn't have anything personal against Overkill MC; they just kept getting in the way. It was almost funny how often the two groups went head-to-head, but Overkill wasn't laughing. Maybe that's why they did business with Murkywater.",
+	menu_lr_mission_objective_3 = "Ache dois cartões de acesso especiais para abrir o cofre perdido, depois rouba uma gravação de uma família poderosa nas ruínas.",--Find two special keycards to open the Lost Safe, then steal the recording of a powerful family on the rocks.",
+	menu_lr_transcript_header = "Transcrição",--Transcript",
+	menu_lr_transcript_1 = 'SHARKE: Você sabe que horas são, Fallere?\nFALLERE: Eu sei, desculpa. Eu não teria ligado nessa hora se não fosse... hã... como você tá? Como tá o banco?\nSHARKE: "Como tá o banco?" Jesus, é desse jeito que você puxa assunto?\nFALLERE: Eu só tava, sabe, não falamos há muito tempo. Só perguntando como tá?\nSHARKE: Está enrolando. Desembucha.\nFALLERE: Você me pediu para ficar de olho no meio-fio pra ver se teria algo.\nSHARKE:Uhum.\nFALLERE: Bom, digamos que temos más noticías na reunião com os investidores da GenSec.\nSHARKE: O quão ruim?\nFALLERE: Estamos caindo fora do mercado da D.C.\nSHARKE: O que?!\nFALLERE: A maioria dos clientes estão terminando os seus contratos. Até mesmo a policia está caindo fora. Perdemos o nosso ponto de apoio.\nSHARKE:Garrett está deixando a gente?! Mas isso... Não pode... Como isso aconteceu?!\nFALLERE: Tá uma onda de crimes. Os clientes perderam a fé nos serviços da GenSec.\nSHARKE: Mas isso não faz sentido! A onde de crimes deveria aumentar a demanda por segurança!\nFALLERE: Não quando está por debaixo por nossos narizes. GenSec saturou a região da D.C. Temos toda câmera, todo caminhão-forte, todo cartão de acesso. Os clientes que foram invadidos estão procurando alguém pra culpar, e nós fomos os alvo mais fácil. A nossa segurança fracassou.\nSHARKE: Vai se foder! A GenSec está no topo!\nFALLERE: Não importa. Os roubos na D.C. estão nas alturas...\nSHARKE: Aquelas estatísticas são uma fraude, e eles sabem disso muito bem! Isso não é uma onda de crime ambicioso. A culpa é de um grupo! Um! E é a porra da Gangue Payday!\nFALLERE: Você não está errada.\nSHARKE: Nós estivermos num pesadelo nas Relações Públicas desde que invadiram a Arena GenSec.\nFALLERE: E aquele dia que arrombaram os transportes blindados... devastador.\nSHARKE: A Gangue Payday é uma anomalia. Cada golpe tem chance de um para milhão, você tem que fazer os clientes verem isso.\nFALLERE: Houve chances de um para milhão. O dano já foi feito. D.C. está deixando a gente, e as ações da GenSec vão cair a qualquer momento. Uma queda bem grande.\nFALLERE: Senhora Sharke? Ainda tá aí?\nSHARKE: Alguém vai pagar por essa bosta.',--[[
+	SHARKE: Do you have any idea what time it is, Fallere?
+	FALLERE: I know, I'm sorry. I wouldn't have bothered you if it wasn't...Um...But how are you? How's the bank?
+	SHARKE: \"How's the bank?\" Jesus, is this you trying to do small talk?
+	FALLERE: I was just, you know, we haven't talked in a while. Just catching up.
+	SHARKE: You're stalling. Say what you have to say.
+	FALLERE: You asked me to keep you ahead of the curb on any big developments.
+	SHARKE: Uh-huh.
+	FALLERE: Well...There's going to be some bad news at the GenSec shareholders meeting tomorrow.
+	SHARKE: How bad?
+	FALLERE: We're pulling out of the D.C. market.
+	SHARKE: What?!
+	FALLERE: Most of our clients are terminating their contracts. Even Metro PD's pulling out. We've lost our foothold.
+	SHARKE: Garrett's dropping us?! That's...That can't...How did this happen?!
+	FALLERE: It's the crime wave. The clients have lost faith in GenSec's abilities.
+	SHARKE: But that doesn't make sense! A crime wave should increase the demand for security!
+	FALLERE: Not when it's right under our nose. GenSec completely saturated the D.C region. We're every camera, every truck, every access card. The clients that got hit are looking for someone to blame, and we're an easy target. Our security failed.
+	SHARKE: Bullshit! GenSec is top of the line!
+	FALLERE: It doesn't matter. Robberies in D.C. are at an all time high—
+	SHARKE: Those stats are fucked, and they know it! This isn't some ambiguous crime wave. This is the fault of one group! One! That fucking Payday Gang!
+	FALLERE: You're not wrong.
+	SHARKE: We've been fighting a PR nightmare ever since they hit GenSec Arena.
+	FALLERE: That DJ tweeted some nasty memes about our vault...
+	SHARKE: The DJ can go fuck himself!
+	FALLERE: And the day they hit all our Armored Transports at once...Devastating.
+	SHARKE: The Payday Gang is an anomaly. Each heist is a one-in-a-million scenario, you have to make the clients see that.
+	FALLERE: There've been a million one-in-a-millions. The damage is done. D.C. is dropping us, and the GenSec stocks are going to take a hit. A very, very big hit.
+	FALLERE: Ms. Sharke? Are you still there?
+	SHARKE:...Someone's going to fucking pay for this.]]
+	menu_lr_transcript_2 = "JULIAN: Merda. Prisão tá fedendo... pelo menos posso deitar na cama de cima...\nLUKE: Já tem dono.\nJULIAN: Porra! Jesus, cara! Não te vi aí.\n LUKE: Agora viu.\nJULIAN: Acho que vou ficar no de baixo, então.\nLUKE: Vai indo.\nJULIAN: Meu nome é Julian\nLUKE: Luke\nJULIAN: Tá aqui por quê?\nLUKE: Não é da sua conta.\nJULIAN: Ah, é assim, então? Beleza, tô cagando e andando.\nJULIAN: Eles me pegaram roubando uns carros.\nLUKE: Hm...\nJULIAN: Eu roubei um monte antes dele me pegarem. Eu tava na surdina, tá ligado?\nLUKE: Por que eu sempre fico com os tagarelas?\nJULIAN: Eita, mano, isso é um arranhão de bala bem feia. Aonde você foi marcado?\nLUKE: Tiroteio. Num bar da minha gangue.\nJULIAN: Com quem você tava?\nLUKE: MC Overkill\nJULIAN: Ah, sim, eu ouvi falar sobre eles. Os motoqueiros, né\nLUKE: Sim\nJULIAN: Pera aí... se você tá aqui, você foi pego na D.C.\nLUKE: E daí?\nJULIAN: Ah, porra, eu ouvi sobre o tiroteio! Vocês foram invadidos pela Gangue Payday!\nLUKE: Lá vamos nós de novo...\nJULIAN: Isso é foda pra caralho! Ouvia que eram apenas quatro caras!\nLUKE: Eles tinha muito poder de fogo!\nJULIAN: Tudo isso só pra roubar uma moto e sair com estilo! Do caralho!\nLUKE: Não era apenas qualquer moto...\nJULIAN: A Gangue Payday é muito foda! Apenas quatro caras! Ouvi dizer que varreram vocês!\nJULIAN: Opa, pera aí, cara...\nLUKE: Eles varreram porra nenhuma! Eles nos pegaram de surpresa. A gente teria matado eles numa luta justa.\nJULIAN: Mas eu ouvi que vocês tiveram um abate direto num trem...\nLUKE: Foda-se o trem! Esses palhaços são trapaceiros! E vou te contar: vai chegar a hora deles logo logo.\nJULIAN: Eles parecem estar indo bem pra mim.\nLUKE: É o que parece. Mas ando recebendo umas mensagens de fora. Ouvi dizer que fizeram merda na borda. Conhece Murkywater?\nJULIAN: Não, mano.\nLUKE: Claro que não. Eles são top de linha. A Gangue Payday está ferrando com eles. Os palhaços podem ferra a Overkill. Talvez até mesmo os Murkies, mas isso não faz deles o rei da porra toda.\nJULIAN: Como assim?\nLUKE: Tem uma montanha grande. Quanto mais alto vão, mais inimigos vão fazendo ao longo do caminho. Se eles ferrarem a Murkywater, mais pessoas vão ficar zangadas... Você não faz ideia. Os palhaços estão cagando mais do que podem, e a água vai bater de voltar na bunda. Espera até ver.\nJULIAN: Beleza, mano.",
+--[[JULIAN: Shit. Prison smells rank...'Least I got dibs on the top bunk-
+LUKE: Taken. 
+JULIAN: Fuck! Jeeze, man! Didn't see you up there. 
+LUKE: Now you do. 
+JULIAN: Guess I'm bottom bunk, then. 
+LUKE: Damn right. 
+JULIAN: I'm Julian. 
+LUKE: Luke. 
+JULIAN: What you in for? 
+LUKE: None of your business. 
+JULIAN: Oh-ho, so it's like that. Whatever. I don't give a fuck. 
+JULIAN: They got me for jacking cars. 
+LUKE: Ugh. 
+JULIAN: I stole a bunch 'fore they caught me. I was real smooth, you know? 
+LUKE: Why do I always get the yappy cellmates...? 
+JULIAN: Whoa! That's a gnarly bullet scar, man. Where'd you get tagged? 
+LUKE: Shootout. At my gang's clubhouse. 
+JULIAN: Who you roll with? 
+LUKE: Overkill MC. 
+JULIAN: Oh yeah, I heard of them. Biker gang, right? 
+LUKE: Yup. 
+JULIAN: Wait...If you're in here, you got picked up in D.C. 
+LUKE: So? 
+JULIAN: Oh fuck, I heard about that shootout! Y'all got hit by the Payday Gang! 
+LUKE: Here we fucking go... 
+JULIAN: That's so badass! I heard they came at you with just four guys! 
+LUKE: They had a lotta fire power— 
+JULIAN: Had a whole standoff just to steal a bike! Fucking classic! 
+LUKE: Wasn't just any bike— 
+JULIAN: Payday Gang's so tight. Four fucking guys! I heard they mopped the floor with y'all! 
+JULIAN: Whoa, hey man— 
+LUKE: They didn't mop shit! They got the jump on us. We'd have crushed them in a fair fight. 
+JULIAN: But I heard y'all went head-to-head on a train- 
+LUKE: Fuck the train! Those clowns are bush league! And I'll tell you what: their time's running out. 
+JULIAN: Seem to be doing alright to me. 
+LUKE: Seem to be. But I got word from outside. I heard they messed with a job we had going near the border. You know about Murkywater? 
+JULIAN: Nah, man. 
+LUKE: 'Course you don't. They're next level. Payday Gang's in over their head messing with them. The Clowns might beat Overkill. Might even beat the Murkies, but that won't make 'em king of the hill. 
+JULIAN: How come? 
+LUKE: There's always a bigger hill. The higher they climb, the bigger enemies they're gonna make. If they fuck with Murkywater, the kinds of people they'll piss off...You have no idea. The Clowns are biting off more than they can chew, and it'll bite 'em in the ass. Just you watch. 
+JULIAN: Whatever you say, bro.]]
+	menu_lr_transcript_3 = "RALPH: Pai?\nRALPH:Ei! Pai!\nNATHAN: Hm? Oh, Ralph! Ralph, olha. Eles estão fazendo merda.\nRALPH: Sim, enfim. Precisamos conversar.\nNATHAN: Eles roubaram um banco em Brooklyn, mas não levaram o dinheiro! Eles estavam atrás de alguma coisa de baixo do piso! Dá pra imaginar invadir o banco e deixar o dinheiro pra trás? Pode uma coisa dessa?\nRALPH: Eu... Não, isso é bem idiota, mas...\nNATHAN: Eles estão fazendo merda, tô te dizendo! Perdendo! É só uma questão de tempo, agora!\nRALPH: Você realmente precisa...\nNATHAN: Eles vão se foder pela última vez, e os policiais vão pegar eles, esses palhaços vão finalmente ter o que merecem...\nNATHAN: Ei! Ligue isso de volta, porra!\nRALPH: Você precisa fazer um anúncio.\nNATHAN: Anúncio? Que porra de anúncio?\nRALPH: Para a impressa. Eles estão falando que o Garnet Group está indo pro saco. E nunca iremos voltar pro topo.\nNATHAN: Malditos abutres. Sempre tirando dinheiro das nossas misérias. Não, eu não tenho nada pra falar para eles.\nRALPH: Não é para eles! Nós temos, sabe, deixar eles sabendo que podemos ficar bem.\nNATHAN: Deixar eles... E onde tá a porra do meu seguro?! Aquilo foram os meus diamantes que roubaram! Minha fortuna! Minha! Foi eu que perdi tudo, mas ninguém liga, nem mesmo meu filho com um cérebro com um tamanho de uma noz.\nRALPH: Ok, não, foda-se isso. Você não é a vítima aqui, tá bom? Eu fui feito de refém no seu aniversário, e não foi divertido. Eu ainda tenho pesadelos com palhaços com armas, porra, mas eu não posso comprar terapia porque estamos perdendo dinheiro porque a porra do meu pai não fala com a cacete da impressa!\nNATHAN: Ah, buá\nRALPH: Fica aí choramigando! Eu tive que vender iates! Todos eles! Eu não posso viver assim! Nós precisamos voltar pros trilhos!\nNATHAN: Precisamos de justiça.\nRALPH: Ah, qual é.\nNATHAN: A Gangue Payday sujou o nosso nome! Fez a gente parecer mesquinhos! Precisamos voltar ao trilhos!\n\nRALHP: Ok, mas como? Como vai fazer isso acontecer?\nNATHAN: Eles precisam ser pegos! Eles precisam ser julgados! Com a porra das cabeças deles!\nRALPH: Pela última vez: os policias são inúteis. Não podemos contar com eles. Nunca.\nNATHAN: Vai sim, e tem que ser assim! O FBI está perto. Eles pararam de atender as minhas ligações, mas eu ando lendo as noticias! Estão perto! Muito perto!\nRALPH: Jesus, Pai...\nNATHAN: É inevitável! Os palhaços não podem correr para sempre. Nada menos do que um... Eu não...\nNATHAN: Eles vão ser pegos! Eles vão ser pegos! E se não acontecer, eu não... não tenho certeza do que vou fazer...\nNATHAN: Eles estão fazendo merda, Ralph. É só uma questão de tempo.\nRALPH: Que se foda.",
+--[[RALPH: Dad?
+RALPH: Hey! Dad!
+NATHAN: Uh? Oh, Ralph! Ralph, look. They're slipping.
+RALPH: Yeah, whatever. We need to talk.
+NATHAN: They robbed a bank in Brooklyn, but they didn't take the money! They were after some trinket under the floor! Can you imagine breaking into a bank and leaving the money? Can you imagine that?
+RALPH: I...No, that's fucking dumb, but—
+NATHAN: They're slipping, I tell you! Losing it! Only a matter of time, now.
+RALPH: You really need to—
+NATHAN: They'll slip up for the last time, and the cops will get them, and those clown-faced deviants will finally get what they deserve—
+NATHAN: Hey! Turn that back on, you little prick!
+RALPH: You need to make a statement.
+NATHAN: Statement? What goddamned statement?
+RALPH: To the press. They're saying Garnet Group's fucked. That we'll never bounce back.
+NATHAN: Damn vultures. Profiting off our misfortune. No, I have nothing to say to them.
+RALPH: It's not for them! We gotta, you know, reassure the shareholders or whatever!
+NATHAN: Reassure the— Where's my reassurance?! Those were my diamonds they stole! My fortune! Mine! I'm the one who lost everything, but no one cares. Not even my own pea-brained son.
+RALPH: Okay, no. Fuck that. You're not, like, the victim here, alright? I'm the one who got hogtied on his birthday, and not in a fun way. I'm the one who still has nightmares about fucking clowns with fucking guns, but I can't afford therapy because we're hemorrhaging money because my dumbass dad won't talk to the fucking press!
+NATHAN: Oh, boohoo.
+RALPH: You're goddamn right boohoo! I had to sell my yachts! All of them! I can't live like this! We need to get things back on track!
+NATHAN: We need justice!
+RALPH: Oh, come on.
+NATHAN: The Payday Gang soiled our name! Made us look like fools! Justice, Ralph. It's the only thing that can make us right again.
+RALPH: Okay, but how? How does that happen?
+NATHAN: They need to be caught! They need to face judgment! Off with their fucking heads!
+RALPH: For the gazillionth time: the cops are useless. We can't count on that happening. Ever.
+NATHAN: It will! It has to! The FBI are closing in. They stopped taking my calls, but I've been tracking the news! They're close! Very close!
+RALPH: Jesus, Dad...
+NATHAN: It's inevitable! The clowns can't run forever. No one can outrun the law forever! Nothing less than a...I don't even...
+NATHAN: They'll be caught! They will! If they're not, I'm...I'm not sure what I'd do...
+NATHAN: They're slipping, Ralph. Only a matter of time.
+RALPH: Fuck this.]]
 	cn_menu_num_players_online = "Crime.net/usuários_online: $amount;",
 	menu_ghost_bonus = 'Bônus de Stealth do último contrato: XP +$exp_bonus;%',
 	menu_cn_casino = "Cassino do Payday",
@@ -6172,6 +6288,8 @@ return {
 	menu_socialhub_notification_full = "Cheio",--FULL",
 	menu_socialhub_invites_friends = "Apenas os favoritos",--FAVORITES ONLY",
 	socialhub_friends_platform_title_steam = "Amigos do Steam",--Steam Friends",
+	socialhub_friends_platform_title_epic = "Amigos do Epic",--Epic Friends
+	socialhub_friends_platform_title = "Jogadores de outras plataformas",--Platform Favorite Heisters
 	menu_socialhub_notification_compact = "Compacto",--COMPACT",
 	menu_socialhub_notification_help = "Escolhe o tamanho das notificações do Social Hub",--Choose the size of social hub notifications.",
 	menu_socialhub_notification_multi_option = "Configurações das notificações",--NOTIFICATION SETTINGS",
@@ -6187,4 +6305,20 @@ return {
 	menu_user_code = "Seu código",--"User Code",
 	menu_lobby_code_show = "Mostrar código",--"SHOW CODE",
 	menu_lobby_code_hide = "Esconder código",--"HIDE CODE",
+	menu_social_hub_help = "Abre o Social Hub do PAYDAY 2.",--"Open the PAYDAY 2 social hub.",
+	socialhub_lobby_action_join = "Juntar-se",--Join
+	menu_lobby_code = "Código do Lobby",--Lobby Code
+	menu_lobby_code_copied = "Copiado!",--Copied!
+	menu_socialhub_notification_unknown = "Usuário desconhecido",--UNKNOWN USER
+	socialhub_user_action_invite = "Convidar",--Invite
+	socialhub_user_action_remove = "Desfavoritar",--Un-Favorite
+	socialhub_user_action_unblock = "Desbloquear",--Unblock
+	socialhub_user_action_add = "Favoritar",--Add Favorite
+	socialhub_user_action_block = "Bloquear",--Block
+	socialhub_invites_header_invite = "Convite do Lobby",--LOBBY INVITE
+	socialhub_lobby_action_decline = "Negar",--Decline
+	menu_socialhub_controller_paste = "Colar",--PASTE
+	socialhub_user_action_invite_sent = "Convite enviado!",--Invite sent!
+	menu_socialhub_confirmation_dialog_text = "Você quer [$ACTION;]: ($USER_NAME;)?",--"Do you want to [$ACTION;]: ($USER_NAME;)?",
+	menu_socialhub_confirmation_dialog_title = "Confirmar ação",--"Confirm Action",
 }

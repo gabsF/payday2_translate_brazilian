@@ -1,5 +1,7 @@
 
 
-15.02
-* Atualizado o BeardLib (Compatibilidade com EGS).
-* Traduzido mais coisas do Social Hub.
+16.00
+* Traduzido Crude Awakening. (Traduzido por MrUmbrella e revisado por gabsF)
+* Traduzido mais coisas do Social Hub. (Algumas coisas da plataforma do EGS também devem estar traduzidas)
+* Traduzido a segunda fita e a terceira fita dOs Vazamentos. (Junto com as transcrições)
+* Traduzido algumas partes faltando na tela dos Perk Decks.
