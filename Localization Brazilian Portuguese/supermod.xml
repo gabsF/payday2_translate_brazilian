@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<mod>
+
+	<assets base_path="assets/">
+		<group name="fonts/">
+			<file :name="font_dunton_writing.font"/>
+			<file :name="font_dunton_writing.texture"/>
+		</group>
+
+		<group name="units/">
+			<file :name="payday2/props/hlm_prop_map/hlm_prop_map_df.texture"/>
+			<file :name="pd2_dlc_fex/equipment/fex_interactable_mayan_door/fex_interactable_folder_clues_df.texture"/>
+			<file :name="pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map_df.texture"/>
+		</group>
+	</assets>
+
+</mod>

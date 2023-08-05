@@ -1365,6 +1365,7 @@ return {
 	hud_trai_need_equipment_key = "Você precisa da chave 42",--You need Key 42",
 	hud_int_trai_hold_access_console = "Segure $BTN_INTERACT para acessar o console",--Hold $BTN_INTERACT; to access the console",
 	hud_int_trai_turntable_console_use = "Segure $BTN_INTERACT para rotacionar a plataforma giratória",--Hold $BTN_INTERACT; to rotate the turntable",
+	hud_int_trai_connect_locke = "Segure $BTN_INTERACT; para conectar o Locke",--Hold $BTN_INTERACT; to connect Locke",
 	hud_int_trai_connect_locke_walkietalkie = "Segure $BTN_INTERACT para conectar o Locke",-- "Hold $BTN_INTERACT; to connect Locke",
 	hud_action_trai_reinforced_big_sliding_gate_nokey = "Você precisa de uma chave",--You need a key",
 	hud_int_trai_reinforced_big_sliding_gate_open = "Pressione $BTN_INTERACT para abrir o portão",--Press $BTN_INTERACT; to open the gate",

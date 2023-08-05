@@ -1,7 +1,10 @@
 
 
-16.00
-* Traduzido Crude Awakening. (Traduzido por MrUmbrella e revisado por gabsF)
-* Traduzido mais coisas do Social Hub. (Algumas coisas da plataforma do EGS também devem estar traduzidas)
-* Traduzido a segunda fita e a terceira fita dOs Vazamentos. (Junto com as transcrições)
-* Traduzido algumas partes faltando na tela dos Perk Decks.
+16.01
+* Traduzido as dicas visuais de alguns golpes. (Créditos aos criadores do mod da tradução Chinesa e Schrodinger_Sig.)
+> A tela do notebook do Yacht Heist e White House.
+> O código do cofre do Border Crossing.
+* Agora o mod virá com "mod_overrides" para editar algumas texturas.
+> O quadro do Hotline Miami dia 1.
+> As pistas do puzzle do Buluc's Mansion. (Antes um mod separado, agora incluido na tradução.)
+* Traduzido uma interação no Crude Awakening estava faltando.
