@@ -81,6 +81,7 @@ return {
 	hud_buff_birthday_god_mode = "Invencível",--God Mode
 	hud_buff_birthday_inf_ammo = "Munição Infinita",--Infinite Ammo
 	hud_buff_birthday_2x_damage = "Dano em Dobro",--2X Damage
+	mutator_piggyrevenge = "Décimo Aniversário",
 
 	-- Natal 2022
 	hud_buff_bag_speed_increase = "Aumento na Velocidade da Bolsa",--Bag Speed Increase",

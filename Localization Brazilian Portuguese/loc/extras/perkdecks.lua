@@ -600,6 +600,7 @@ Deck Completion Bonus: Your chance of getting a higher quality item during a Pay
 	menu_deck22_8_short = "Você causa ##$multiperk;## mais de dano. Não se aplica em dano corpo-a-corpo, lança-granadas ou lança-foguetes.\n\nAumenta a velocidade de interação com a 'Bolsa Médica' por ##$multiperk2;##.",
 
 	-- Copycat
+	menu_deck23_9_3_desc = "Você ganha mais ##$multiperk;##.\nA velocidade da sua armadura recuperando é aumentado por ##$multiperk2;##.",--You gain ##$multiperk;## more armor.\nYour armor recovery rate is increased by ##$multiperk2;##.
 	menu_st_spec_23 = "Copycat",--Copycat
 	menu_st_spec_23_desc = "Com memória fotográfica, o Copycat é um fenômeno fisíco. Já se antecipando o movimento te deixa rápido, até chegar no ponto de poder desviar das balas e retribuir os tiros. Você estudou outros perk decks com cada detalhe, e consegue imitar os seus efeitos. Misture técnicas para criar um estilo ecóico e único. Se os outros te acusarem de plágio, fala pra eles que a imitação é a forma mais sincera de lisonja.",--With an eidetic memory and photographic reflexes, the Copycat is a physical phenomenon. Anticipating movement has made you quick on your feet, to the point that you can dodge and even deflect bullets with ease. You've studied the other perk decks closely, and you can now mimic their base abilities to enhance your own. Mix and match techniques to create a style both echoic and unique. If others accuse you of stealing, remind them that imitation is the sincerest form of flattery.
 	menu_deck23_9 = "Mímica",--Mimicry",

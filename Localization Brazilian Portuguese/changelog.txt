@@ -1,10 +1,11 @@
 
 
-16.01
-* Traduzido as dicas visuais de alguns golpes. (Créditos aos criadores do mod da tradução Chinesa e Schrodinger_Sig.)
-> A tela do notebook do Yacht Heist e White House.
-> O código do cofre do Border Crossing.
-* Agora o mod virá com "mod_overrides" para editar algumas texturas.
-> O quadro do Hotline Miami dia 1.
-> As pistas do puzzle do Buluc's Mansion. (Antes um mod separado, agora incluido na tradução.)
-* Traduzido uma interação no Crude Awakening estava faltando.
+16.02
+* Traduzido o texto do perk melhorado de Armorer do Copycat.
+* Traduzido o evento do Décimo Aniversário do Payday 2.
+* Traduzido o traje dOs Vazamentos, da conquista do Crude Awakening, da DLC Lawless Tailor, do "DEAD GAME".
+* Traduzido as luvas dOs Vazamentos, da conquista do Crude Awakening, da DLC Lawless Tailor e as que estavam faltando.
+* Traduzido a quarta fita dOs Vazamentos.
+* Atualizado e traduzido algumas coisas nas conquistas.
+> Alterado o "grupo oficial no Steam" para "criar uma conta na Starbreeze Nebula".
+> Traduzido algumas conquistas que estavam faltando.

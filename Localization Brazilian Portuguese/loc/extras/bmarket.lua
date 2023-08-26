@@ -390,6 +390,8 @@ return {
 	bm_suit_puffervest_blue_desc = "Quando o sol abaixar, o colete continua.",-- "When the sun goes down, the vest comes on.",
 	bm_suit_puffervest_grey_desc = "Nylon rasga, jeans não.",--Nylon rips. Denim doesn't.",
 	bm_suit_puffervest_red_desc = "Bonitão e Quentinho não são exclusivos.",--Looking Good and Feeling Warm are not mutually exclusive.",
+	bm_suit_hacksuit_desc = "O que os ricos e os poderosos falam por trás das cenas? Que segredos os criminosos soltam nas profundezas mais sombrias? Links dos forúns da deep web conectem os reis da colina com os bandidos sujos, e só você pode ver as conexões. Está sempre vigiando. Sempre ouvindo. Se conhecimento é poder, então você é omnipotente. Vai ficar sentado e simplesmente ver o circo pegar fogo ou teorizar com as suas conspirações? Essa pergunta, assim como muitos, só você pode responder.",
+	--[["What do the rich and powerful talk about behind closed doors? What secrets do criminals whisper in the dark corners of their slums? Invisible threads link the highest kings to the lowest felons, and only you can see the connections. Your eyes are always watching. You have ears everywhere. If knowledge is power, then you are omnipotent. Will you sit back and watch it all unfold, or will you shape a conspiracy of your own? This question, like so many questions, is one only you can answer.",]]
 
 	bm_suit_elfsuit_desc = "Você provavelmente nunca ouviu falar dos elfos mal-educados. Timmy também. Ele passou o ano inteiro sendo bomzinho para conseguir o tremzinho que sempre quis, mas quando ele abriu o seu presente, ele voltou a cuspir no chão e matando roedores usando o micro-ondas. Ele pensou que o sistema não seria um inimigo difícil, mas ninguém é poderoso suficiente para derrotar o Papai Noel. Se você vacilar, o Noel não vai ter pena dos elfos mal-educados, ele vai roubar os seus brinquedos e, só de brinde, quebrar o seu dedão. Então, lembre-se: se você está na lista dos bom-educados, continua sendo bom-educado, ou os elfos mal-educados vão te meter na porrada. Só perguntar pro Timmy.",
 	--"You probably haven't heard about the Naughty Elves. Timmy sure hadn't. He spent all year being nice so he could get that model train he wanted so badly, but as soon as he opened the present, he went back to spitting indoors and microwaving gerbils. He thought he'd beat the system, but nobody beats Santa. If you pull that shit, Santa will send the Naughty Elves to steal your toys back, and maybe break your thumbs for good measure. So remember: if you're on the Nice List, stay on the Nice List, or the Naughty Elves will fuck you up. Just ask Timmy.",
@@ -397,6 +399,22 @@ return {
 	bm_suit_elfsuit_yellow_desc = "Troca esse cacau quente por uma Pinã Colada!",--"Trade that hot cocoa for a piña colada!",
 	bm_suit_elfsuit_violet_desc = "Não se sinta mal. Todas as pessoas mais legais chegaram nesse ponto.",--"Don't feel bad. All the coolest people end up on this one.",
 	bm_suit_elfsuit_red_desc = 'É "pavê"? ou pa comê?',--"Keepin' it holly, makin' it jolly.",
+	bm_suit_bossflag_desc = "Ei! Lembra daquela vez que invadimos um depósito de armas em um rancho em Texas rural? Aí depois roubamos um trem em Fort Worth, onde a gente literalmente tiramos o trem dos trilhos? Ou quando a gente lutamos em um lado entre dois cafetões com riqueza de óleo, que fez a gente ir em um quartel general em Dallas antes de explodir uma plataforma de óleo? Ahh, cara, bons tempos...",
+	--[["Hey! Remember that time we raided a gun smuggling compound on a ranch in rural Texas? And then we robbed a train in Fort Worth by literally lifting the train right off the tracks? And then we got lassoed into a power struggle between two crooked oil barons, which drove us to sack a corporate headquarters in Dallas before blowing the shit out of an offshore oil platform? Hahaaa, man. Good times. Goooood times.",]]
+	bm_suit_bthekid_desc = "Depois de muito tempo, os policiais finalmente pegaram o \"Billy the Kid\". Eles o prenderam em uma cela, mãos presas com as algemas, e foi sentenciado à forca. Parecia que a sua hora havia chegado, mas quando um homem sabe que está ao lado da morte, vai fazer de tudo para ficar longe. Um prisioneiro qualquer poderia ter a esperança de pegar a arma do guarda e meter bala em todo mundo que estiver pela frente. Infelizmente, os policiais de Lincoln, Novo México esqueceram que \"Billy the Kid\" não é um prisioneiro qualquer.",
+	--[["After a long and tireless manhunt, the law finally got their hands on Billy the Kid. They had him locked in a cell, shackled with handcuffs, sentenced to hang. It seemed like his time was up, but when a man knows he's at death's door, he'll try just about anything to get away. The average prisoner could never hope to steal a guard's gun and shoot his way out of a jailhouse. Unfortunately, the deputies of Lincoln, New Mexico forgot...Billy the Kid was not your average prisoner.",]]
+	bm_suit_cassidy_desc = "Um ladrão já tá bom pra ser considerado uma gangue, e Butch Cassidy sabia muito bem disso. O seu \"Wild Bunch\" era o terror em Velho Oeste, eles eram que nem carne e unha até o fim. Amigos assim quem precisa de inimigos.",
+	--[["A robber is only as good as his gang, and Butch Cassidy knew it. His Wild Bunch was the scourge of the Old West, and they were a tight-knit team right until the end. You couldn't ask for better coworkers.",]]
+	bm_suit_jessjames_desc = "Rebeldes. Assassinos. Patriotas. Ladrões. Todo mundo já teve as suas descrições para os fora-da-lei, uma classe de guerrilheiros com um passado profundo na história da América. Da Independência dos Estados Unidos para Guerra Civil, eles lutaram com unhas e guarras para defender o que era seu. Goste ou não, é impossível negar que eles tiveram um papel para uma lenda do Velho Oeste: eles ensinaram Jesse James como atirar com uma arma.",
+	--[["Rebels. Murderers. Patriots. Thieves. Everyone had their own descriptions for the bushwhackers - a class of guerilla soldiers with deep roots in American history. From the Revolutionary War to the Civil War, they fought tooth and nail to defend what was theirs. Whether you loved them or hated them, there's no denying their role in the origin of a Wild West titan: They taught Jesse James how to shoot a gun.",]]
+	bm_suit_sambass_desc = "Quando Sam Bass roubou aquele trem da União Pacífica, ele não sabia que estaria fazendo o maior golpe que entraria na história dos trilhos. Ele não percebeu que roubaria barras de ouro suficientes para durar a vida inteira, o que permitiu ele a cometer crimes só pela adrenalina, deixando o lucro de lado. Tudo o que levou para fazer dele uma lenda, foi uma ação apenas, e em 1877, Bass segurava o ouro.",
+	--[["When Sam Bass robbed that Union Pacific train, he didn't know that he was pulling off the biggest train heist in the railway's history. He didn't realize that he would net enough gold pieces to last a lifetime, allowing him to commit crimes for thrill rather than profit. All it takes is one deed to become a legend, and in 1877, Bass struck gold.",]]
+	bm_suit_dgame_desc = "Se esse jogo está realmente morto, então ninguém ia ler este texto. Posso dizer o que eu quiser aqui... Hm... Real mesmo, não sei como eu posso expressar a minha gratidão com isso tudo, desde 2019, eu mantive esse jogo traduzido via mods, todos os tradutores que me ajudaram com a tradução são um dos motivos desse mod está de pé até hoje, acho que depois dessa atualização, eu irei traduzir o resto do conteúdo que ficou pra trás, até lá esta mensagem ficará neste traje, ou posso deixar isso aqui até o fim dos tempos, já que o texto original é sobre batatas fritas por algum motivo. Enfim, eu não sei como eu posso acabar. Hã... Mantenha esses capacetes voando!",
+	--[["If this game really is dead, then no one's going to read this text. So I can say pretty much whatever I want. Hmmm...Shoestring fries are the best type of French fry. Sorry, but wedges and steak fries are way too dense. If I wanted full-blown potatoes, I would've ordered potatoes. I want fries. I want 'em thin. I want 'em crispy. Getting hungry just thinking about it. Alright. Not sure how to wrap this one up. The end?",]]
+	bm_suit_dgame_default_desc = "Ninguém veste essa blusa mais.",
+	--[["No one even wears this hoodie anymore.",]]
+	bm_suit_dgame_white_desc = "Um salve para todos os jogadores gostosos que manteram esse jogo morto vivo!",
+	--[["Shout out to the beautiful heisters who kept this dead game alive!",]]
 
 	-- LUVAS
 	bm_gloves_devilclaws_desc = "Bora balançar o esqueleto.",--"Let's shake on it.",
@@ -470,6 +488,24 @@ return {
 	bm_gloves_spikeknuckle_desc = "Volátil e liso em cada ângulo, perfeito. É, esta luva pra você.",--Volatile, on edge, and sharp at every angle. Yup, this glove is for you. 
 	bm_gloves_dragonscale_desc = "Coberto por escamas de fogo e cheio de espinhas afiadas, veste isso quando você quer apertar a mão da pessoa que você tem ódio.",--Covered by fiery scales and riddled with sharp spines, wear these when you want to shake hands with someone you hate.
 	bm_gloves_bike_yellow_led_desc = "Até onde as luvas forem, estes daqui são utilitários e estilosos, também vão dar um brilho extra para cada situação.",--As far as gloves go, these are both utilitarian and fashion-conscious; and they will give that extra glow to every situation.
+	bm_gloves_hackglove_desc = "Toca a fita!",
+	--[["Roll the tape!",]]
+	bm_gloves_tiger_neon_desc = "Caçe na noite.",
+	--[["Hunt the night away.",]]
+	bm_gloves_txbull_desc = "Luvas legais, mas fique longe do meu gado!",
+	--[["Cool gloves, but leave that cow alone!",]]
+	bm_gloves_txsuede_desc = "Sempre aposte em si mesmo.",
+	--[["Always bet on yourself.",]]
+	bm_gloves_txrivet_desc = "Conte a estória literalmente.",
+	--"Tell it like it is.",
+	bm_gloves_txrider_desc = "Faz as coisas no seu tempo.",
+	--"You do your own thing in your own time.",
+	bm_gloves_tiger_red_desc = "Você merece as suas listras.",
+	--"You've earned your stripes.",
+	bm_gloves_roclogrip_desc = "Para todo mundo, é um esporte perigoso. Para você, é só uma terça-feira.",
+	--"For everyone else, it's the most dangerous sport there is. For you, it's Tuesday.",
+	bm_gloves_railwork_desc = "Graças a você, o dinheiro sempre chega a tempo.",
+	--"Thanks to you, the money train always runs on time.",
 	
 	-- INVENTÁRIO GERAL
 	menu_sort_chronologic = "Cronológico",--Chronologic
@@ -1966,7 +2002,7 @@ return {
 	achievement_axe_34_additional = "A Conquista requer que você jogue desde o Lobby até o final da heist. Você poderá ativar a mecânica de One Down na tela de Compra de Contrato.",
 	achievement_slakt_3_desc = "Na Hoxton Breakout, complete o dia 2 sem usar nenhum Cartão de Acesso na dificuldade OVERKILL ou superior.",
 	achievement_frog_1_desc = "Na Hoxton Breakout, complete a Heist na dificuldade OVERKILL ou superior com cada membro da equipe sem skills, vestindo ternos, e levando a Golden AK.762 Rifle e a Chicago Typewriter Submachine Gun.",
-	achievement_frog_1_additional = "A Conquista requer que você jogue desde o Lobby até o final da heist. Você precisa fazer parte do grupo oficial do PAYDAY 2 na Steam.",
+	achievement_frog_1_additional = "A Conquista requer que você jogue desde o Lobby até o final da heist. Crie uma conta do Starbreeze Nebula nas opções.",--Create a Starbreeze Nebula account in the Options menu.",
 	achievement_frog_1_unlock = 'Desbloqueia um novo skill slot.',
 	achievement_cac_26_desc = "Na Hoxton Breakout, não deixe os policiais desligarem a energia enquanto o Hoxton está dentro da Sala do Servidor na dificuldade OVERKILL ou superior.",
 	achievement_cac_26_additional = "A Conquista requer que você jogue desde o Lobby até o final da heist. Essa conquista foi uma sugestão do Fórum da Comunidade Steam de PAYDAY 2.",
@@ -2097,7 +2133,7 @@ return {
 	achievement_i_wasnt_even_there_desc = "No dia 3 da Framing Frame, envie o Ouro pela tirolesa sem nunca ter disparado o alarme.",
 	achievement_pink_panther_desc = "No dia 1 da Framing Frame, roube todas as pinturas vendidas sem ser visto.",
 	achievement_flake_1_desc = "Complete a Framing Frame na dificuldade OVERKILL ou superior com cada membro da equipe usando nenhuma skill, vestindo ternos, empunhando uma Platybus 70 Sniper Rifle e uma Judge Shotgun.",
-	achievement_flake_1_additional = "A Conquista requer que você jogue desde o Lobby até o final da heist. Você precisará fazer parte do grupo oficial de PAYDAY 2 na Steam. Essa conquista não lhe recompensará mais com um Cofre e uma Furadeira.",
+	achievement_flake_1_additional = "A Conquista requer que você jogue desde o Lobby até o final da heist. Crie uma conta do Starbreeze Nebula nas opções. Essa conquista não lhe recompensará mais com um Cofre e uma Furadeira.",
 	achievement_frappucino_to_go_please_desc = "No Cafe Escape, assegure todo o loot e fuja em até 30 segundos após a chegada da van de fuga.",
 	achievement_bilbo_baggin_desc = "No Garage Escape, fuja com 8 bolsas.",
 	achievement_you_shall_not_pass_desc = "No Overpass Escape, não deixe os policiais colocarem os pés na ponte antes que você consiga escapar.",
@@ -2373,7 +2409,7 @@ return {
 	achievement_pim_3_additional = "Essa conquista requer que você tenha o John Wick Weapon Pack DLC.",
 	achievement_pim_3_unlock = 'Desbloqueia a máscara "Zashchita", o material "Mist" e o desenho "Battle Wounds".',
 	achievement_mad_4_desc = 'Complete a Boiling Point com todos da gangue usando a máscara "Russian Hat" e a "Golden AK.762" Assault Rifle na dificuldade OVERKILL ou superior.',
-	achievement_mad_4_additional = "É necessário fazer parte do grupo oficial de PAYDAY 2 na Steam.",
+	achievement_mad_4_additional = "Crie uma conta do Starbreeze Nebula nas opções.",
 	achievement_trk_ms_0_desc = "Complete a Murky Station na dificuldade Normal ou superior.",
 	achievement_trk_ms_0_additional = "A Conquista requer que você jogue desde o Lobby até o final da heist.",
 	achievement_trk_ms_1_desc = "Complete a Murky Station na dificuldade Difícil ou superior.",
@@ -2695,9 +2731,9 @@ return {
 	achievement_fin_1_additional = "Assim que for alcançado, é preciso que reinicie o jogo para desbloquear tudo da conquista.",--When unlocked, this achievement will require the game to restart to fully unlock it's reward.
 	achievement_armed_to_the_teeth_desc = "Compre uma arma pela primeira vez.",--Buy a weapon for the first time.
 	--achievement_armed_to_the_teeth = "Would You Like Your Receipt? (Gostaria do Recibo?)",--Would You Like Your Receipt?
-	achievement_death_31_desc = "Equipe o 350k Brass Knuckles. Celebrando o lançamento da atualização Death Wish, você pode desbloquear o 350k knuckles entrando no grupo oficial no Steam do PAYDAY 2.",
+	achievement_death_31_desc = "Equipe o 350k Brass Knuckles. Celebrando o lançamento da atualização Death Wish.",
 	--[[Equip the 350K brass knuckles. Celebrating the release of the Death Wish update, you can now unlock the 350K knuckles by simply joining the PAYDAY 2 Official Group on Steam.]]
-	achievement_death_31_additional = "Você precisa ser parte do grupo oficial no Steam do PAYDAY 2.",--You need to be a part of the official PAYDAY 2 group on Steam.
+	achievement_death_31_additional = "Crie uma conta do Starbreeze Nebula nas opções para ter acesso ao 350K brass knuckles.",--Create a Starbreeze Nebula account in the Options menu to gain access to the 350K brass knuckles.
 	achievement_ja22_01_desc = "Destrua uma Turret da van da SWAT usando apenas o CAR-4 Rifle.",--Destroy a SWAT van turret using only the CAR-4 rifle.
 	achievement_pxp1_1_desc = "Mate 200 inimigos usando veneno na dificuldade OVERKILL ou superior, enquanto veste o traje Scrubs.",--Kill 200 enemies using poison on the OVERKILL difficulty or above, while wearing the Scrubs outfit.
 	achievement_pxp2_3_desc = "Mate 100 inimigos com a Granada de Veneno na dificuldade OVERKILL ou superior.",--"Kill 100 enemies with the Viper Grenade throwable on Overkill difficulty or above.",
@@ -2708,6 +2744,53 @@ return {
 	achievement_pxp2_3_unlock = 'Desbloqueia o "Tombstone Slug" para as escopetas.',--"Unlocks the \"Tombstone Slug\" for shotguns.",
 	achievement_pxp2_2_unlock = 'Desbloqueia o "Stateside Conversion Kit" para a escopeta VD-12.',--"Unlocks the \"Stateside Conversion Kit\" for the VD-12 shotgun.",
 	achievement_pxp2_1_unlock = 'Desbloqueia o "Prototype Conversion Kit" para o Hailstorm Mk 5.',--"Unlocks the \"Prototype Conversion Kit\" for the Hailstorm Mk 5.",
+	achievement_weapon_collector_desc = "Tenha 18 armas.",--Own 18 weapons.",
+	achievement_fully_loaded_desc = "Tenha 9 armas.",--Own 9 weapons.",
+	achievement_spend_money_to_make_money_desc = "Gaste $1,000,000 de dinheiro.",--"Spend $1.000.000 in total cash.",
+	achievement_eagle_4_additional = "A conquista requer que você tenha a DLC Gage Historical Pack.",--This achievement requires you to own the Gage Historical Pack DLC.","
+	achievement_eagle_4_unlock = 'Desbloqueia a máscara "British Bulldog", "High Capacity Mag" e "Holster Stock" para a pistola Broomstick, o material "Army Green" e o desenho "Filthy Thirteen".',--"Unlocks the \"British Bulldog\" mask, \"High Capacity Mag\" and \"Holster Stock\" for the Broomstick pistol, \"Army Green\" material and \"Filthy Thirteen\" pattern.",
+	achievement_grv_4_additional = "A conquista requer que você jogue desde o Lobby até o final da heist. Também requer que você tenha a DLC Gage Russian Weapon Pack.",--"This achievement requires you to play from the lobby to the end of the heist. This achievement requires you to own the Gage Russian Weapon Pack DLC.",
+	achievement_grv_1_unlock = 'Desbloqueia a máscara "Red Machine", o material "Tricolor" e o desenho "Russian Gamble".',--"Unlocks the \"Red Machine\" mask, \"Tricolor\" material and \"Russian Gamble\" pattern.",
+	achievement_grv_1_additional = "A conquista requer que você jogue desde o Lobby até o final da heist. Também requer que você tenha a DLC Gage Russian Weapon Pack.",--"This achievement requires you to play from the lobby to the end of the heist. This achievement requires you to own the Gage Russian Weapon Pack DLC.",
+	achievement_gmod_10_additional = "A conquista requer que você tenha a DLC Gage Mod Courier.",--"This achievement requires you to own the Gage Mod Courier DLC.",
+	achievement_gmod_10_desc = 'Modifique qualquer rifle AK com "Lightweight Rail", "AK Slavic Dragon Barrel", "AK Quadstacked Mag" e o "Funnel of Fun Nozzle".',--"Modify any AK rifle with a Lightweight Rail, AK Slavic Dragon Barrel, AK Quadstacked Mag, and a Funnel of Fun Nozzle.",
+	achievement_grv_2_unlock = 'Desbloqueia a máscara "War Balaclava", material "Russian Camouflage" e o desenho "Red Star".',--"Unlocks the \"War Balaclava\" mask, \"Russian Camouflage\" material and \"Red Star\" pattern.",
+	achievement_grv_2_additional = "A conquista requer que você tenha a DLC Gage Russian Weapon Pack.",--This achievement requires you to own the Gage Russian Weapon Pack DLC.",
+	achievement_gmod_8_additional = "A conquista requer que você tenha a DLC Gage Mod Courier.",--"This achievement requires you to own the Gage Mod Courier DLC.",
+	achievement_gmod_8_desc = 'Modifique qualquer pistola com a mira "Pistol Red Dot Sight" e "Flash Hider".',--"Modify any pistol with a Pistol Red Dot Sight and a Flash Hider.",
+	achievement_charliesierra_3_desc = 'Equipe a máscara "Happy Santa".',--"Equip the \"Happy Santa\" mask.",
+	achievement_charliesierra_3_additional = 'Crie uma conta do Starbreeze Nebula nas opções para ter acesso à máscara "Happy Santa".',--"Create a Starbreeze Nebula account in the Options menu to gain access to the \"Happy Santa\" mask.",
+	achievement_masked_villain_desc = "Modifique uma máscara pela primeira vez.",--Modify a mask for the first time.",
+	achievement_iron_man_desc = 'Equipe a armadura "Improved Combined Tactical Vest".',--"Equip the Improved Combined Tactical Vest.",
+	achievement_gmod_9_additional = "A conquista requer que você tenha a DLC Gage Mod Courier.",--"This achievement requires you to own the Gage Mod Courier DLC.",
+	achievement_gmod_9_desc = 'Modifique o rifle CAR-4 com "Gazelle Rail", " Tactical Compensator", "Compact Holosight", "Wide Stock" e o "Military Laser Module".',--"Modify the CAR-4 rifle with a Gazelle Rail, Tactical Compensator, Compact Holosight, Wide Stock and a Military Laser Module.",
+	achievement_like_an_angry_bear_additional = 'Crie uma conta do Starbreeze Nebula nas opções para ter acesso à máscara "Mark".',--"Create a Starbreeze Nebula account in the Options menu to gain access to the \"Mark\" mask.",
+	achievement_like_an_angry_bear_desc = "Equipe a máscara \"Mark\". Celebrando os dois anos de golpes.",--"Equip the \"Mark\" mask. Celebrating 2 years of heists.",
+	achievement_im_a_healer_tank_damage_dealer_desc = "Gaste 10 pontos de habilidades em cada árvore.",--"Spend 10 skill points in each skill tree.",
+	achievement_how_do_you_like_me_now_desc = "Equipe uma armadura pela primeira vez.",--"Equip an armor for the first time.",
+	achievement_gmod_7_additional = "A conquista requer que você tenha a DLC Gage Mod Courier.",--"This achievement requires you to own the Gage Mod Courier DLC.",
+	achievement_gmod_7_desc = "Modifique o rifle CAR-4 com \"Competition Foregrip\", \"CAR Quadstacked Mag\" e o \"Competitor's Compensator\".",--"Modify the CAR-4 rifle with a Competition Foregrip, CAR Quadstacked Mag, and a Competitor's Compensator.",
+	achievement_armored_11_desc = "Equipe a máscara \"Hockey Heat\".",--"Equip the \"Hockey Heat\" mask.",
+	achievement_armored_11_additional = "Crie uma conta do Starbreeze Nebula nas opções para ter acesso à máscara \"Hockey Heat\".",--"Create a Starbreeze Nebula account in the Options menu to gain access to the \"Hocky Heat\" mask.",
+	achievement_grv_3_unlock = "Desbloqueia a máscara \"Kokoshnik\", material \"Propaganda Palette\" e o desenho \"Bear Fight\".",--"Unlocks the \"Kokoshnik\" mask, \"Propaganda Palette\" material and \"Bear Fight\" pattern.",
+	achievement_grv_3_additional = "A conquista requer que você tenha a DLC Gage Russian Weapon Pack.",--"This achievement requires you to own the Gage Russian Weapon Pack DLC.",
+	achievement_gage_8_desc = "Enche 72 espaços do inventário das armas.",--"Fill up 72 weapon slots.",
+	achievement_going_places_desc = "Ganhe $1,000,000 de dinheiro.",--"Gain $1.000.000 in total spendable cash.",
+	achievement_halloween_9_desc = "Equipe a pistola \"Interceptor 45\". Celebrando o Dia das Bruxas.",--"Equip the Interceptor 45 pistol. Celebrating Halloween.",
+	achievement_halloween_9_additional = "Crie uma conta do Starbreeze Nebula nas opções para ter acesso à pistola \"Interceptor 45\".",--"Create a Starbreeze Nebula account in the Options menu to gain access to the Interceptor 45 pistol.",
+	achievement_gage3_1_desc = "Equipe o rifle \"Golden AK.762\".",--"Equip the Golden AK.762 rifle.",
+	achievement_gage3_1_additional = "Crie uma conta do Starbreeze Nebula nas opções para ter acesso ao rifle \"AK.762\".",--"Create a Starbreeze Nebula account in the Options menu to gain access to the AK.762 rifle.",
+	achievement_lrfo_1_desc = "Ache e ouça todas as quatro fitas dos Vazamentos.",--"Find and listen to all four Lost Tapes.",
+	achievement_deep_10_desc = "Em Crude Awakening, use as plantas para acessar a senha para o espólio mais valioso do Gabriel.",--"In the Crude Awakening job, use the blueprint to access a passcode to Gabriel's most valuable asset.",
+	achievement_gage5_3_unlock = "Desbloqueia o \"CQB Foregrip\" e \"Plastic Stock\" ao rifle Gecko 7.62.",--"Unlocks the \"CQB Foregrip\" and \"Plastic Stock\" for the Gecko 7.62 rifle.",
+	achievement_gage5_3_additional = "A conquista requer que você tenha a DLC Gage Assault Pack.",--"This achievement requires you to own the Gage Assault Pack DLC.",
+	achievement_gage5_3_desc = "Equipe a lança-granada GL40, a escopeta \"Locomotive 12G\", e a armadura \"Improved Combined Tactical Vest\".",--"Equip the GL40 grenade launcher, the Locomotive 12G shotgun, and the Improved Combined Tactical Vest.",
+	achievement_would_you_like_your_receipt_desc = "Modifique uma arma pela primeira vez.",--"Modify a weapon for the first time.",
+	achievement_bob_1_desc = "Equipe a pistola \"Chimano Custom\".",--"Equip the Chimano Custom pistol.",
+	achievement_cac_7_desc = "Gaste pelo menos $1,000,000,000 com dinheiro no Cassino do Payday.",--"Spend at least a $1,000,000,000 in the Offshore Payday.",
+	achievement_cac_7_additional = "A conquista foi sugerida pela comunidade do PAYDAY 2.",--"This Achievement was suggested by the PAYDAY 2 Community.",
+	achievement_lrfo_1_additional = "As fitas estão perdidas em alguns golpes. Vá para o menu Os Vazamentos na Crime.net para procurar as fitas.",--"The Lost Tapes are scattered across various heists. Go to the Lost Tapes menu on CRIME.NET to begin the search.",
+	achievement_lrfo_1_unlock = "Desbloqueia o traje \"Surveillant\", as luvas \"Payback\" e a máscara \"Clownbyte\".",--"Unlocks the \"Surveillant\" suit, the \"Playback\" gloves, and the \"Clownbyte\" mask.",
 
 	-- Oitavo Aniversário
 	--menu_challenge_div_cat_event_jobs = "Oitavo Aniversário do PAYDAY 2",--PAYDAY 2 8th Anniversary",
@@ -2778,7 +2861,7 @@ return {
 	--menu_pda9_community_2_reward = "",--Cash Flow",
 	menu_pda9_2_reward = "+500 mil de XP",--+500k EXP",
 	menu_pda9_item_2_desc = "Pague o Porquinho num total de 20 bolsas de Dinheiro do Porquinho, e conclua a Heist, em três heists diferentes.",--Pay the Piggy Bank a total of 20 bags of Piggy Bucks, and successfully escape, on three different heists.",
-	menu_pda9_community_item_3_desc = "Pessoal: Quebre o Porquinho no estágio 1 seis vezes.\nComunidade: Pague o Porquinho num total de 3,000,000 bolsas de Dinheiro do Porquinho.",--Personal: Break the Piggy Bank six times at Stage 1.\nCommunity: Pay the Piggy Bank a total of 3,000,000 bags of Piggy Bucks.",
+	menu_pda9_community_item_3_desc = "Pessoal: Quebre o Cofrinho do Porquinho no estágio 1 seis vezes.\nComunidade: Assegure num total de 3,000,000 bolsas de Dinheiro do Porquinho no Cofrinho do Porquinho.",--Personal: Break the Piggy Bank six times at Stage 1.\nCommunity: Pay the Piggy Bank a total of 3,000,000 bags of Piggy Bucks.",
 	menu_pda9_community_4 = "Ouro Maciço",--Go For Gold",
 	menu_pda9_community_5 = "Coração de Fogo",--"The Fire Within",
 	menu_pda9_community_objective_1 = "Participou no Nono Aniversário em 2022 do PAYDAY 2",--"Participated in PAYDAY 2 9th Anniversary 2022",
@@ -2787,14 +2870,70 @@ return {
 	menu_pda9_item_n1 = "9 bolsas de ouro asseguradas",--"9 Gold Bags secured",
 	menu_pda9_item_n4 = 'Inimigos mortos com a arma corpo-a-corpo "Money Bundle"',--"Enemies killed with the Money Bundle melee weapon",
 	menu_pda9_item_n5 = "Torradas do Almir asseguradas",--"Almir's Toasts secured",
-	bm_menu_locked_pda9_community_4 = 'Conclua a missão de evento "Ouro Maciço"',--ERROR:
-	bm_menu_locked_pda9_community_2 = 'Conclua a missão de evento "Dinheiro Sujo"',--ERROR:
-	bm_menu_locked_pda9_community_3 = 'Conclua a missão de evento "Presente pra você"',--ERROR:
-	bm_menu_locked_pda9_community_5 = 'Conclua a missão de evento "Coração de Fogo"',--ERROR:
-	bm_menu_locked_pda9_community_1 = 'Conclua a missão de evento "Saúde!"',--ERROR:
+	bm_menu_locked_pda9_community_4 = 'Conclua a missão de evento "Ouro Maciço".',--ERROR:
+	bm_menu_locked_pda9_community_2 = 'Conclua a missão de evento "Dinheiro Sujo".',--ERROR:
+	bm_menu_locked_pda9_community_3 = 'Conclua a missão de evento "Presente pra você".',--ERROR:
+	bm_menu_locked_pda9_community_5 = 'Conclua a missão de evento "Coração de Fogo".',--ERROR:
+	bm_menu_locked_pda9_community_1 = 'Conclua a missão de evento "Saúde!".',--ERROR:
 	menu_pda9_community_4_desc = "Você sabe o que é melhor do que um terno cheio da grana? Um terno feito de ouro que também está cheio da grana!",--"You know what's better than a suit filled with money? A suit made of gold! That's also filled with money!",
 	menu_pda9_community_5_desc = "Tem algo estranho acontecendo com esta máscara que o Locke lhe deu. Alguém deixou o forno ligado?",--"There's something weird going on with that mask Locke gave you. And what's that burning smell?",
 	menu_l_global_value_side_job_pda9 = "Esse é um desafio secundário do Nono Aniversário do PAYDAY 2!",--"This is a PAYDAY 2 9th Anniversary Side Job!",
-	menu_pda9_community_item_4_desc = 'Pague 10,000,000 bolsas com Dinheiro do Porquinho para o Porquinho e participe do evento do Nono Aniversário ou mate 99 inimigos com a arma corpo-a-corpo "Money Bundle".',--"Pay the Piggy Bank a total of 10,000,000 bags of Piggy Bucks, and either participate in the 9th Anniversary event or kill 99 enemies with the Money Bundle melee weapon.",
-	menu_pda9_community_item_5_desc = "Pague 20,000,000 bolsas com Dinheiro do Porquinho para o Porquinho e participe do evento do Nono Aniversário ou assegure 9 Torradas do Almir na dificuldade Overkill ou acima.",--"Pay the Piggy Bank a total of 20,000,000 bags of Piggy Bucks, and either participate in the 9th Anniversary event or secure 9 Almir's Toasts on Overkill difficulty or above.",
+	menu_pda9_community_item_4_desc = 'Pague 10,000,000 bolsas com Dinheiro do Porquinho para o cofrinho do Porquinho e participe do evento do Nono Aniversário ou mate 99 inimigos com a arma corpo-a-corpo "Money Bundle".',--"Pay the Piggy Bank a total of 10,000,000 bags of Piggy Bucks, and either participate in the 9th Anniversary event or kill 99 enemies with the Money Bundle melee weapon.",
+	menu_pda9_community_item_5_desc = "Pague 20,000,000 bolsas com Dinheiro do Porquinho para o cofrinho do Porquinho e participe do evento do Nono Aniversário ou assegure 9 Torradas do Almir na dificuldade Overkill ou acima.",--"Pay the Piggy Bank a total of 20,000,000 bags of Piggy Bucks, and either participate in the 9th Anniversary event or secure 9 Almir's Toasts on Overkill difficulty or above.",
+	
+	-- Décimo Aniversário
+	menu_pda10_1 = "Baía dos Porcos",--Bay of Pigs",
+	menu_pda10_1_reward = 'Máscara Teddy Moo, o Conjunto Exclusivo "Red Rover" e a variação de traje do "Dragon Bomber Gold".',-- "Teddy Moo mask, the Red Rover Exclusive Set and the Dragon Bomber Gold suit variant",
+	menu_pda10_1_desc = "Não deixe a fantasia de porco te enganar. Esses Dozers podem parecer fofos, mas são perigosos que arde!",--Don't let the piggy costumes fool you. These Dozers are as deadly as they are adorable!",
+	menu_pda10_2 = "Estouro Por Uma Grana",-- "Bang For Your Buck",
+	menu_pda10_2_reward = 'A arma de corpo-a-corpo HAM-mer e a máscara "Criminal Mind (Deceit)".',--"HAM-mer melee weapon and the Criminal Mind (Deceit) mask",
+	menu_pda10_2_desc = "Uma bolsa do porquinho assegurada é uma bolsa do porquinho merecida.",--A Piggy Buck saved is a Piggy Buck earned.",
+	menu_pda10_3 = "Pega e Sai Correndo",--Smash And Grab",
+	menu_pda10_3_reward = 'Mosquete Flintlock Freddy, a "Royal Bayonet" e a máscara "Criminal Mind (Focus)".',--Flintlock Freddy musket, the Royal Bayonet and the Criminal Mind (Focus) mask",
+	menu_pda10_3_desc = "Hora de quebrar o cofrinho!",--Time to break the bank!",
+	menu_pda10_4 = "Seja Buffado",--Get Buff",
+	menu_pda10_4_reward = 'Máscara "Piggy Banked", Conjunto Exclusivo "Golden Rule" e a variação do traje "Tactical Camo"',--Piggy Banked mask, Golden Rule Exclusive Set and the Tactical Camo suit variant",
+	menu_pda10_4_desc = "Não há nada de se envergonhar. Todo mundo tá usando esses troços de buff hoje em dia.",--It's nothing to be ashamed of. Everyone uses performance-enhancing buffs these days.",
+	menu_pda10_5 = "Os Três Mosqueteiros",--The Musketeers",
+	menu_pda10_5_reward = "As luvas \"Tiger's Claw\", a máscara \"Criminal Mind (Rage)\" e o traje \"Gangster's Paradise\".",--Tiger's Claw gloves, the Criminal Mind (Rage) mask and the Gangster's Paradise suit",
+	menu_pda10_5_desc = "Com essa lerdeza de recarregar a arma, é melhor fazer cada bala contar.",--With that reload time, you better make every shot count.",
+	menu_pda10_6 = "HAMMER TIME!",--HAM-mer Time!",
+	menu_pda10_6_reward = "As luvas \"Tiger's Dream\", as máscaras \"Criminal Mind (Cunning)\" e \"Kintsugi Crew\".",--Tiger's Dream gloves, Criminal Mind (Cunning) mask and Kintsugi Crew mask",
+	menu_pda10_6_desc = "Quem está afim de uma partida de Meter-Porrada-Na-Policia?",--Who's up for a game of Whack-A-Cop?",
+	menu_pda10_personal_1 = "Warthogs mortos",--Warthogs killed",
+	menu_pda10_personal_2 = "Dinheiro do Porquinho assegurado",--Piggy Bucks paid",
+	menu_pda10_personal_3 = "Cofrinhos do Porquinho destruídos",--Piggy Banks smashed",
+	menu_pda10_personal_4 = "Buffs recebidos",--Buffs received",
+	menu_pda10_personal_5 = "Dupla vítimas",--Double kills",
+	menu_pda10_personal_6 = "Vítimas do HAM-mer",--HAM-mer kills",
+	menu_pda10_stage_2_desc = "Pessoal: assegure 25 bolsas de Dinheiro do Porquinho no Cofrinho do Porquinho\nComunidade: assegure 9,000,000 bolsas de Dinheiro do Porquinho no Cofrinho do Porquinho",--Personal: Pay 25 bags of Piggy Bucks to the Piggy Bank$NL;Community: Pay 9,000,000 bags of Piggy Bucks to the Piggy Bank",
+	menu_pda10_stage_4 = "Dinheiro do Porquinho assegurado",--Piggy Bucks secured",
+	menu_pda10_stage_4_desc = "Pessoal: recebe 35 buffs quando evolue o Cofrinho do Porquinho\nComunidade: assegure 18,000,000 bolsas de Dinheiro do Porquinho no Cofrinho do Porquinho",--Personal: Receive 35 buffs for leveling up the Piggy Bank$NL;Community: Pay 18,000,000 bags of Piggy Bucks to the Piggy Bank",
+	menu_pda10_stage_3_desc = "Pessoal: Conclua uma heist depois de destruir o Cofrinho do Porquinho duas vezes\nComunidade: assegure 3,000,000 bolsas de Dinheiro do Porquinho no Cofrinho do Porquinho",--Personal: Complete a heist after smashing the Piggy Bank 2 times$NL;Community: Pay 3,000,000 bags of Piggy Bucks to the Piggy Bank",
+	menu_pda10_stage_5_desc = "Pessoal: Faça 10 \"Dupla vítimas\" com o mosquete Flintlock Freddy\nComunidade: assegure 6,000,000 bolsas de Dinheiro do Porquinho no Cofrinho do Porquinho",--Personal: Double kill 10 enemies with the Flintlock Freddy musket$NL;Community: Pay 6,000,000 bags of Piggy Bucks to the Piggy Bank",
+	menu_pda10_stage_6 = "Dinheiro do Porquinho assegurado",
+	menu_pda10_stage_1 = "Dinheiro do Porquinho assegurado",
+	menu_pda10_stage_3 = "Dinheiro do Porquinho assegurado",
+	menu_pda10_stage_1_desc = "Pessoal: Mate 25 Warthogs\nComunidade: assegure 15,000,000 bolsas de Dinheiro do Porquinho no Cofrinho do Porquinho",--Personal: Kill 25 Warthogs$NL;Community: Pay 15,000,000 bags of Piggy Bucks to the Piggy Bank",
+	menu_pda10_stage_2 = "Dinheiro do Porquinho assegurado",
+	menu_pda10_stage_5 = "PDinheiro do Porquinho assegurado",
+	menu_pda10_stage_6_desc = "Pessoal: Mate 25 inimigos com HAM-mer\nComunidade: assegure 12,000,000 bolsas de Dinheiro do Porquinho no Cofrinho do Porquinho",--Personal: Kill 25 enemies with the HAM-mer$NL;Community: Pay 12,000,000 bags of Piggy Bucks to the Piggy Bank",
+	menu_pda10_post_objective_4_desc = "Colete 100 pacotes do Gage",--Collect 100 Gage packages",
+	menu_pda10_post_objective_4 = "Pacotes do Gage coletados",--Gage packages collected",
+	menu_pda10_post_objective_2 = "Bolsas assegurados",--Bags secured",
+	menu_pda10_post_objective_3 = "Heists concluídas",--Heists completed",
+	menu_pda10_post_objective_2_desc = "Assegure 100 bolsas",--Secure 100 bags",
+	menu_pda10_post_objective_6_desc = "Mate 100 inimigos corpo-a-corpo",--Melee kill 100 enemies",
+	menu_pda10_post_objective_5_desc = "Mate 100 inimigos com um rifle de sniper",--Kill 100 enemies with a sniper rifle",
+	menu_pda10_post_objective_5 = "Vítimas",--Kills",
+	menu_pda10_post_objective_1 = "Dozers mortos",--Dozers killed",
+	menu_pda10_post_objective_1_desc = "Mate 100 Dozers",--Kill 100 Dozers",
+	menu_pda10_post_objective_3_desc = "Conclua 50 heists",--Complete 50 heists",
+	menu_pda10_post_objective_6 = "Vítimas da porrada",--Melee kills",
+	bm_menu_locked_pda10_5 = 'Conclua a missão de evento "Os Três Mosqueteiros".',--Complete the "Musketeers" side job.",
+	bm_menu_locked_pda10_3 = 'Conclua a missão de evento "Pega e Sai Correndo".',--Complete the "Smash And Grab" side job.",
+	bm_menu_locked_pda10_1 = 'Conclua a missão de evento "Baía dos Porcos".',--Complete the "Bay Of Pigs" side job.",
+	bm_menu_locked_pda10_6 = 'Conclua a missão de evento "HAMMER TIME!".',--Complete the "HAM-mer Time!" side job.",
+	bm_menu_locked_pda10_2 = 'Conclua a missão de evento "Estouro Por Uma Grana".',--Complete the "Bang For Your Buck" side job.",
+	bm_menu_locked_pda10_4 = 'Conclua a missão de evento "Seja Buffado".',--Complete the "Get Buff" side job.",
 }

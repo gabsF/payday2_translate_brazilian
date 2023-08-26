@@ -24,7 +24,7 @@
 	<br/>
 	<text text="Créditos Adicionais" type="title"/>
 	<text text="SCRIPTS" type="fill"/>
-	<text text="Dr_Newbie, Punished Bernadetta, Kisuke & Krimzin" type="name"/>
+	<text text="Schrodinger_Sig, Dr_Newbie, Punished Bernadetta, Kisuke & Krimzin" type="name"/>
 	<text text="TELA DE CRÉDITOS" type="fill"/>
 	<text text="Dagoth Ur" type="name"/>
 	<command cmd="stop" offset="1000"/>

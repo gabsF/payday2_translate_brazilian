@@ -6,6 +6,11 @@ return {
 	savefile_removing = "Removendo...",
 	
 	-- Descrições Extras
+	menu_l_global_value_dgs = "Esse é um item do \"DEAD GAME\"!",--"This is a DEAD GAME item!",
+	bm_global_value_txt4_unlock = "Compre o Lawless Tailor Pack para desbloquear!",--"Buy the Lawless Tailor Pack to unlock!",
+	menu_l_global_value_txt4 = "Esse é um item do Lawless Tailor Pack!",--"This is a Lawless Tailor Pack Item!",
+	menu_l_global_value_lrfo = "Esse é um item dos Vazamentos!",--This is a Lost Tapes item!",
+	menu_l_global_value_pda10 = "Esse é um item do Décimo Aniversário do PAYDAY 2!",--
 	menu_l_global_value_mxm = "Esse é um item de McShay Mod Pack!",--"This is a McShay Mod Pack item!",
 	menu_l_global_value_xm22 = "Esse é um item do Cântica de Assalto 2022!",--"This is a Criminal Carol 2022 item!",
 	bm_menu_locked_cg22_community_4 = 'Complete a Tarefa Secundária "Rasgando o Natal" para desbloquear!',--Complete the Shredding Christmas side job to unlock!",
@@ -2225,6 +2230,11 @@ return {
 	hud_hold_restart_timer = "Segure $BTN_INTERACT para reiniciar o cronômetro",
 
 	-- Caixas de confirmações + Notificações do SISTEMA
+	dialog_pda10_event_title = "Décimo Aniversário do PAYDAY 2",--
+	dialog_pda10_event_text = "Uma década de PAYDAY 2?! Como o tempo voa! Foi bem divertido fazer esses golpes com todos vocês durante esses dez anos, e para celebrar, estamos trazendo devolta o cofrinho do porquinho com algumas supresas!\n\nVocê achará o porquinho em qualquer heist adequado pro evento nessa página da crime.net. Geralmente estará vagando no começo ou no final da heist, nos telhados ou em qualquer espaço aberto. Alimente-o com o seu dinheiro para fazer ele crescer, você terá uma bolsa de dinheiro do porquinho depois de dez vítimas normais, cinco tiros na cabeça, 5 vítimas da Cash Blaster, ou apenas um tiro com a arma do evento.\n\nA primeira bolsa do porquinho ativará o cofrinho no seu primeiro estágio, você poderá fazer ele crescer até no máximo quinto estágio. Porém quando o cofrinho subir de nível, ele recompensará você e a sua equipe buffs para aguentar as ondas de inimigos. Mas fique ciente: subir o porquinho de nível traz um novo inimigo assustador... O Warthog! Um dozer especial que não terá piedade, mas se trazer a arma do aniversário, será fácil de matá-lo. Lembre-se disso.\n\nQuando estiver satisfeito, destrua o porquinho e depois conclua a heist. Quanto maior o porquinho, mais dinheiro, EXP, cartas de espólio e moedas continentais ganhará. Você também pode ganhar mais coisas com as tarefas secundárias do Décimo Aniversário!\n\nAgora, vá e deixe o porquinho orgulhoso!",
+	--[[A decade of PAYDAY 2?! How time flies! It's been a joy heisting with you all for these ten wonderful years, and to celebrate, we're bringing the Piggy Bank back in a big way!\n\n
+	You'll find the Piggy in any heist on this event's CRIME.NET page. Usually hanging out near the beginning or end of the heist, on rooftops, and any wide-open spaces. Feed it Piggy Bucks to make it grow; you can earn a bag of Piggy Bucks after ten normal kills, five headshot kills, five Cash Blaster kills, or one kill with an Anniversary Weapon.\n\n
+	The first bag of Piggy Bucks will awaken the Piggy Bank into Stage 1, and you can grow the Piggy all the way up to Stage 5. Whenever the Piggy levels up, it will reward your team with powerful buffs to keep those Piggy Bucks coming. But beware: leveling up will also spawn a terrifying new enemy...The Warthog! This special Dozer is a beast, but he's vulnerable to Anniversary Weapons. Remember that.\n\nWhen you've had your fill, break the Piggy Bank and then escape the heist alive.The larger the Piggy grew, the more bonuses you'll receive in cash, XP, loot drops, and Continental Coins. You can also earn more goodies through the 10th Anniversary Side Jobs!\n\nNow, get out there and make that Piggy proud!]]
 	dialog_cg22_event_title = "O Cântico de Assalto",--A Criminal Carol",
 	dialog_cg22_event_text = "Feliz Natal, assaltantes! O cunhado do Vlad está de volta com o traje do Papai Noel, e ele tem um plano perfeito para comemorar o espírito natalinok... Roubar dos policiais! Eles estão trocando esses presentes: Dinheiro, EXP e Moedas Continentais. Roube os seus presentes da árvore de Natal, ou assegure-as no trenó de Hajrudin ou as destrua com o Triturador Mágico. Assegurando os presentes dará dinheiro e EXP; destruindo-as dará buffs para a sua equipe! Porém, tome cuidado: quanto mais presentes roubar, mais fortes e putaços os policias ficam. Eles podem até trazer a nova unidade: O Homem de Neve!",--Happy holidays, heisters! Vlad's Brother-In-Law is off the wagon and back in the Santa suit, and he's got the perfect way to bring in some holiday cheer...Steal it from the cops! They're exchanging three types of presents this year: Money, XP, and Continental Coins. Knock their gifts out of the Christmas Tree, then either throw them on Hajrudin's sled or destroy them out of spite in the Holiday Shredder. Securing presents will net you the loot; destroying them will empower your whole team with special buffs! But be careful: the more gifts you steal, the stronger and pissier the cops will become. They might even bring out their new seasonal Dozer unit: The Snowman!
 	dialog_pda9_event_title = "Nono Aniversário do PAYDAY 2",--"Payday 2 9th Anniversary",
@@ -2327,6 +2337,10 @@ return {
 	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
 
 	-- Menu Principal
+	menu_nh_pda10_01 = "Jogue o evento do Décimo Aniversário!",-- "Play the 10th Anniversary Event!",
+	menu_nh_pda10_02 = "Cheque a promoção do aniversário!",--Check out the Anniversary sale!",
+	menu_nh_pda10_03 = "Jogue PAYDAY 2 para ter prêmios em PAYDAY 3!",--Play PAYDAY 2 for rewards in PAYDAY 3!",
+	menu_nh_pda10_04 = "COMPRE PAYDAY 3 AGORA!",--BUY PAYDAY 3 NOW!",
 	menu_nh_mxm_01 = "O McShay Mod Pack está disponível agora!",--"The McShay Mod PAck is available now!",
 	menu_nh_xm22_01 = "O evento Cântico de Assalto está disponível para jogar!",--The Criminal Carol holiday event is available to play!",
 	menu_nh_txt3_02 = "Cheque o Hostile Takeover Bundle!",--"Check out the Hostile Takeover Bundle!",
@@ -2672,6 +2686,18 @@ return {
 	
 	-- HUD
 	hud_cg22_show_buff = "Triturando este presente te dará $BUFF_STRING;",--"Shredding this present will give you $BUFF_STRING;",
+	hud_ammo_free_chance_buff = "CHANCE DE MUNIÇÃO GRÁTIS",--
+	hud_ammo_modifier_buff = "MUNIÇÃO ESPECIAL",--
+	hud_auto_revive_buff = "SE REVIVER AUTOMATICAMENTE",--
+	hud_bag_speed_buff = "VELOCIDADE COM AS BOLSAS",--
+	hud_bag_throw_buff = "JOGAR AS BOLSAS MAIS LONGE",--
+	hud_critical_chance_buff = "CHANCE DE CRÍTICO",--
+	hud_damage_reduction_buff = "RESISTÊNCIA DE DANO",--
+	hud_downed_free_chance_buff = "CHANCE DE NÃO CONTAR A QUEDA",--
+	hud_drill_speed_buff = "VELOCIDADE COM AS FURADEIRAS",--
+	hud_faster_armor_regen_buff = "REGENERAÇÃO DE ARMADURA MELHORADO",--
+	hud_headshot_aoe_buff = "RICOHETE COM TIROS NA CABEÇA",--
+	hud_buff_piggydozer_warning = "VOCÊ SE SENTE AMEAÇADO COM OS GRUNHIDOS NA DISTÂNCIA...",--
 	hint_move_hostages = "Move o refém com $BTN_INTERACT;",--Move hostage with $BTN_INTERACT;",
 	hud_vehicle_no_enter_berserker = "Não pode entrar no veículo enquanto Swan Song estiver ativo",--"Cannot enter the vehicle while Swan Song is active",
 	hud_vehicle_wait_respawn = "Esperando o motorista respawnar o veículo",--Waiting for the driver to respawn the vehicle",
@@ -4379,9 +4405,11 @@ return {
 	menu_lr_poster_title = "Os Vazamentos",--The Lost Tapes",
 	menu_lr_gadget_topic = "Os Vazamentos",-- "The Lost Tapes",
 	menu_lr_legend_stop_playback = "$BTN_A; Parar a gravação",-- "$BTN_A; Stop Recording",
+	menu_lr_legend_open_transcript = "$BTN_BACK; Abrir Transcrição",-- "$BTN_BACK; Open Transcript",
 	menu_lr_mission_title_1 = "Ruim Para Os Negócios",--Bad For Business",
 	menu_lr_mission_title_2 = "Colegas de Cela",--Cellmates",
 	menu_lr_mission_title_3 = "Ficando Ligado com os Garnets",--Keeping Up With The Garnets",
+	menu_lr_mission_title_4 = "Inimigos do Estado",--Enemies Of The State",
 	menu_lr_mission_recording = "Gravação:",--Recording:",
 	menu_lr_mission_completed = "Fita achada",--Tape Found
 	menu_lr_legend_start_playback = "$BTN_A; Tocar a gravação",-- "$BTN_A; Play Recording",
@@ -4394,6 +4422,9 @@ return {
 	menu_lr_mission_objective_2 = "Em México, ache os dois cartões de acesso especiais para abrir o cofre perdido, depois rouba a gravação de um prisioneiro violento com uma escolha a fazer.",--In Mexico, find two special keycards to open the Lost Safe, then steal the recording of a violent inmate with a bone to pick.",
 	menu_lr_mission_description_2 = "A Gangue não tem nada contra ao MC Overkill, mas eles ficam sendo um obstáculo. É engraçado como dois grupos ficam se batendo, mas os motoqueiros não estavam rindo. Talvez é por isso que eles fizeram parcerias com a Murkywater.",-- "The Gang didn't have anything personal against Overkill MC; they just kept getting in the way. It was almost funny how often the two groups went head-to-head, but Overkill wasn't laughing. Maybe that's why they did business with Murkywater.",
 	menu_lr_mission_objective_3 = "Ache dois cartões de acesso especiais para abrir o cofre perdido, depois rouba uma gravação de uma família poderosa nas ruínas.",--Find two special keycards to open the Lost Safe, then steal the recording of a powerful family on the rocks.",
+	menu_lr_mission_objective_4 = "Ache dois cartões de acesso especiais no dia 1 para abrir o cofre perdido no dia 2, depois rouba uma gravação de um agente prevendo uma conspiração.",--Find two special keycards in Day 1 to open the Lost Safe in Day 2, then steal the recording of an agent predicting a conspiracy.",
+	menu_lr_mission_description_4 = "Quando o FBI caçou a gangue Payday, os palhaços retribuiram o favor. Eles fizeram os federais parecerem idiotas mais de uma vez, mas para fazerem isso, a gangue teve que mexer uns pauzinhos na política. Nisso surgiu vários amigos poderosos... e muitos inimigos poderosos.",--When the FBI came for the Payday Gang, the clowns fought back. They made the Feds look like idiots more than once, but to do that, the Gang had to dabble in the world of politics. This earned them some powerful friends...And countless powerful enemies.",
+
 	menu_lr_transcript_header = "Transcrição",--Transcript",
 	menu_lr_transcript_1 = 'SHARKE: Você sabe que horas são, Fallere?\nFALLERE: Eu sei, desculpa. Eu não teria ligado nessa hora se não fosse... hã... como você tá? Como tá o banco?\nSHARKE: "Como tá o banco?" Jesus, é desse jeito que você puxa assunto?\nFALLERE: Eu só tava, sabe, não falamos há muito tempo. Só perguntando como tá?\nSHARKE: Está enrolando. Desembucha.\nFALLERE: Você me pediu para ficar de olho no meio-fio pra ver se teria algo.\nSHARKE:Uhum.\nFALLERE: Bom, digamos que temos más noticías na reunião com os investidores da GenSec.\nSHARKE: O quão ruim?\nFALLERE: Estamos caindo fora do mercado da D.C.\nSHARKE: O que?!\nFALLERE: A maioria dos clientes estão terminando os seus contratos. Até mesmo a policia está caindo fora. Perdemos o nosso ponto de apoio.\nSHARKE:Garrett está deixando a gente?! Mas isso... Não pode... Como isso aconteceu?!\nFALLERE: Tá uma onda de crimes. Os clientes perderam a fé nos serviços da GenSec.\nSHARKE: Mas isso não faz sentido! A onde de crimes deveria aumentar a demanda por segurança!\nFALLERE: Não quando está por debaixo por nossos narizes. GenSec saturou a região da D.C. Temos toda câmera, todo caminhão-forte, todo cartão de acesso. Os clientes que foram invadidos estão procurando alguém pra culpar, e nós fomos os alvo mais fácil. A nossa segurança fracassou.\nSHARKE: Vai se foder! A GenSec está no topo!\nFALLERE: Não importa. Os roubos na D.C. estão nas alturas...\nSHARKE: Aquelas estatísticas são uma fraude, e eles sabem disso muito bem! Isso não é uma onda de crime ambicioso. A culpa é de um grupo! Um! E é a porra da Gangue Payday!\nFALLERE: Você não está errada.\nSHARKE: Nós estivermos num pesadelo nas Relações Públicas desde que invadiram a Arena GenSec.\nFALLERE: E aquele dia que arrombaram os transportes blindados... devastador.\nSHARKE: A Gangue Payday é uma anomalia. Cada golpe tem chance de um para milhão, você tem que fazer os clientes verem isso.\nFALLERE: Houve chances de um para milhão. O dano já foi feito. D.C. está deixando a gente, e as ações da GenSec vão cair a qualquer momento. Uma queda bem grande.\nFALLERE: Senhora Sharke? Ainda tá aí?\nSHARKE: Alguém vai pagar por essa bosta.',--[[
 	SHARKE: Do you have any idea what time it is, Fallere?
@@ -4498,6 +4529,51 @@ NATHAN: It's inevitable! The clowns can't run forever. No one can outrun the law
 NATHAN: They'll be caught! They will! If they're not, I'm...I'm not sure what I'd do...
 NATHAN: They're slipping, Ralph. Only a matter of time.
 RALPH: Fuck this.]]
+	menu_lr_transcript_4 = "WEST: Este bar não é tão ruim. Pra beber direto.\nKENT: Quer outra rodada?\nWEST: Por sua conta?\nKENT: Mais dois vodca.\nWEST: O que eu estava falando antes?\nKENT: Ia falar sobre o que o pessoal anda escondendo de mim.\nWEST: Tá. Eles disseram que colocaram uma tarefa pra arquivos pra você, porque é o mais preguiçoso no serviço.\nKENT: Eu não sou, quem disse isso?\nWEST: Todo mundo.\nKENT: Bom, agora vão dizer o mesmo pra você.\nWEST: Aí fodeu pro meu lado, eu sou um bom agente! Eu trabalhei duro no caso do Payday. Eu estava quase de pegar esses filhas da puta.\nKENT: E como foi?\nWEST: Me mostre uma lista dos melhores agentes que tem na merda do FBI e aposto um milhão que nenhum deles conseguiria manter Hector Morales vivo.\nKENT: Mas nenhum deles ficaria em comando da operação. Você estava. Parabéns.\nWEST: Eu não deveria ficar preso em um escritório. Não é justo.\nKENT: Ouça, eu era todo exagerado quando me juntei ao FBI, assim como você. Eu fiquei puto quando me meteram os arquivos dos palhaços, mas agora, fico feliz que fizeram isso.\nWEST: Por quê?\nKENT: Porque eu percebi que, não importa o que você faz, seja atualizando os dossiês ou atirando nos ladrões, são igualmente inúteis.\nWEST: Eu não... o que tá querendo dizer?\nKENT: Que nunca vamos pegar eles.\nWEST: Uau, gostei do otimismo.\nKENT: Eles invadiram os escritórios. Duas vezes. Eles literalmente andaram no nosso QG e não conseguimos fazer nada.\nWEST: E daí? Vamo só esperar eles ficarem idosos e morrerem de idade?\nKENT: Ah, não, eles vão ser pegos. Só não ser a gente.\nWEST: Quem, então?\nKENT: Quando você olha nos arquivos do caso na minha visão, começa perceber umas conexões.\nWEST: Ah, Deus, vai vim com essa besteira com Illuminati?\nKENT: Quando os palhaços estavam fazendo serviço pro Senador Simmons...\nWEST: Se. Não temos evidência concreta se era Simmons...\nKENT: É questão de quando. Confia. E quando eles fizeram serviço com Simmons, os seus crimes não aconteceram por simplesmente acontecer. Eles acabaram com um senador na prisão. Roubaram protótipo valioso. Mexeram os pauzinhos na política. Pelo amor de Deus.\nWEST: O que tá querendo dizer?\nKENT: O que tô querendo dizer é que eles fizeram serviço com o Elefante, pessoas se ferraram. Poderosos em Washington ainda por cima.\nWEST: E agora temos um comitê de Anti-Payday? Qual é.\nKENT: Não, mas há um monte de políticos e legisladores que querem ver a gangue na jaula. Alguém tem que montar o quebra-cabeça. Assim que eles conectarem os pontos, terão uma rede na deep web disponível para fazerem um objetivo. Um objetivo.\nWEST: ...Derrubar a gangue Payday?\nKENT: Derrubar a gangue Payday.\nWEST: Acho que já ouvi coisa pior.\nKENT: Também.\nWEST: Ah, aliás, eu ando recebendo um monte de email de um agente com nome de \"Stone-\"\nKENT: Ela é uma novata de Quantico. Querendo acesso aos arquivos dos palhaços. Tá obcecada, ainda vai ter mais trocentos emails na semana que vem. Só ignorar.\nWEST: Ele provavelmente vai ver o meu serviço.\nKENT: Beleza, deixa ela levar tiro, se quer tanto.\nWEST: Essa não vou perder.",
+	--[[
+	WEST: This bar's not bad. For a dive, anyway.
+	KENT: You want another round?
+	WEST: You buying?
+	KENT: Two more vodka sodas.
+	WEST: What was I saying before?
+	KENT: You were about to tell me what everyone's been saying behind my back.
+	WEST: Right. They say you got put on archive duty because you're the laziest agent at the Bureau.
+	KENT: I'm not- Who says that?
+	WEST: Everyone.
+	KENT: Well, now they'll say that about you.
+	WEST: That's what's so fucked! I'm a good agent! I worked my ass off to get on the Payday task force. I was gonna catch those bastards.
+	KENT: And how'd that go?
+	WEST: Show me a list of the best agents in the whole goddamn FBI. I'd bet a million bucks none of them could keep Hector Morales alive.
+	KENT: But they weren't in charge of the Op. You were. Congratulations.
+	WEST: I shouldn't be stuck at a desk. It's not fair.
+	KENT: Listen. I was all gung-ho when I joined the task force, just like you. I was just as pissed when they dumped the Clown Case Files on me, but now, I'm glad they did.
+	WEST: Why?
+	KENT: Because I realized, it doesn't matter if you're out in the field or updating dossiers. Both jobs: equally useless.
+	WEST: I don't...What are you saying?
+	KENT: I'm saying we'll never catch them.
+	WEST: Wow. Love that optimism.
+	KENT: They broke into the Bureau's offices. Twice. They literally walked into our HQ, and we couldn't do a damn thing about it.
+	WEST: So what then? They'll just run laps around us until they die of old age?
+	KENT: Oh no, I think they'll get caught. Just not by us.
+	WEST: By who, then?
+	KENT: When you stare at the case files as long as I have, you start to see some connections.
+	WEST: Oh god, is this some Illuminati shit?
+	KENT: When the Clowns were working with Senator Simmons—
+	WEST: If. There's no hard evidence that Simmons—
+	KENT: It's when. Trust me. And when they worked with Simmons, their crimes didn't happen in a vacuum. They got a senator thrown in jail. They stole valuable tech prototypes. They swung an election, for Christ's sake.
+	WEST: What's your point?
+	KENT: My point is: when they worked with The Elephant, people got screwed. Powerful people. Washington people.
+	WEST: And now there's a secret Anti-Payday Committee? Come on.
+	KENT: No. But there are a whole bunch of politicians and lawmakers who want to see the Gang get theirs. Somebody's going to figure that out. They're gonna connect the dots, and when they do, they'll have an entire shadow network of power at their disposal with one purpose. One goal.
+	WEST: ...Take down the Payday Gang?
+	KENT: Take down the Payday Gang.
+	WEST: I guess there are worse conspiracies.
+	KENT: My thoughts exactly.
+	WEST: Oh, by the way, I got an email from some agent named "Stone-"
+	KENT: She's some newbie fresh out of Quantico. Wants access to the Clown Files. She's obsessed, you'll get about a hundred emails from her a week. Just ignore them.
+	WEST: She'll probably have my old job soon.
+	KENT: Fine. Let her get shot at if she wants to.
+	WEST: Haha! That I won't miss.",]]
 	cn_menu_num_players_online = "Crime.net/usuários_online: $amount;",
 	menu_ghost_bonus = 'Bônus de Stealth do último contrato: XP +$exp_bonus;%',
 	menu_cn_casino = "Cassino do Payday",
