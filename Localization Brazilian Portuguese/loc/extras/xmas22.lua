@@ -47,7 +47,7 @@ return {
     menu_cg22_item_4_desc = "Sacrifique $max_progress; presentes em qualquer dificuldade.",--Sacrifice $max_progress; presents on any difficulty.",
     menu_cg22_item_2_desc = "Sacrifique $max_progress; presentes em qualquer dificuldade.",--Sacrifice $max_progress; presents on any difficulty.",
     menu_cg22_community_item_3_desc = "Comunidade: alcance a terceira meta da comunidade do evento Cântico de Assalto.",--Community: Reach the third milestone of the Criminal Carol event.",
-    menu_cg22_community_6 = "Comemarção das Férias",--Holiday Cheer",
+    menu_cg22_community_6 = "Comemoração das Férias",--Holiday Cheer",
     menu_cg22_community_5 = "O Dozer Abominável das Neves",--The Abominable Dozer",
     menu_cg22_personal_1_desc = 'Em um "Cântico de Assalto", mate um total de 100 inimigos com bolas de neve em qualquer dificuldade.',--In A Criminal Carol, kill a total of 100 enemies with snowballs on any difficulty.",
     menu_cg22_4_track_obj = "Quarta Meta da Comunidade Alcançada",--Fourth Community Milestone Reached",

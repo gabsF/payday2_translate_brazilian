@@ -1,11 +1,6 @@
 
 
-16.02
-* Traduzido o texto do perk melhorado de Armorer do Copycat.
-* Traduzido o evento do Décimo Aniversário do Payday 2.
-* Traduzido o traje dOs Vazamentos, da conquista do Crude Awakening, da DLC Lawless Tailor, do "DEAD GAME".
-* Traduzido as luvas dOs Vazamentos, da conquista do Crude Awakening, da DLC Lawless Tailor e as que estavam faltando.
-* Traduzido a quarta fita dOs Vazamentos.
-* Atualizado e traduzido algumas coisas nas conquistas.
-> Alterado o "grupo oficial no Steam" para "criar uma conta na Starbreeze Nebula".
-> Traduzido algumas conquistas que estavam faltando.
+16.03
+* Corrigido um erro de digitação do nome de uma das missões do Cântico de Assalto.
+* Corrigido o erro de conjugação em uma conquista de Mallcrasher.
+* Alterado as traduções das Skills para ficarem mais claras ao jogador.

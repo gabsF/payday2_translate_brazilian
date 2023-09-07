@@ -5,7 +5,7 @@
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/gabs_F/",
-	"version" : "16.02 (26 de Agosto de 2023)",
+	"version" : "16.03 Beta 1 (06 de Setembro de 2023)",
 	"blt_version" : 2,
 	"updates" : [
 		{ 

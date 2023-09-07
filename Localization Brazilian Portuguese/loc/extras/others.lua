@@ -15,7 +15,7 @@ return {
 	menu_l_global_value_xm22 = "Esse é um item do Cântica de Assalto 2022!",--"This is a Criminal Carol 2022 item!",
 	bm_menu_locked_cg22_community_4 = 'Complete a Tarefa Secundária "Rasgando o Natal" para desbloquear!',--Complete the Shredding Christmas side job to unlock!",
 	bm_menu_locked_cg22_community_5 = 'Complete a Tarefa Secundária "O Dozer Abominável das Neves" para desbloquear!',--Complete the Abominable Dozer side job to unlock!",
-	bm_menu_locked_cg22_community_6 = 'Complete a Tarefa Secundária "Comemarção das Férias" para desbloquear!',--Complete the Holiday Cheer side job to unlock!",
+	bm_menu_locked_cg22_community_6 = 'Complete a Tarefa Secundária "Comemoração das Férias" para desbloquear!',--Complete the Holiday Cheer side job to unlock!",
 	bm_menu_locked_cg22_community_2 = 'Complete a Tarefa Secundária "Sem Presentes pra você" para desbloquear!',--Complete the No Presents For You side job to unlock!",
 	bm_menu_locked_cg22_community_3 = 'Complete a Tarefa Secundária "Temperatura Negativa" para desbloquear!',--Complete the Frostbite side job to unlock!",
 	bm_menu_locked_cg22_community_1 = 'Complete a Tarefa Secundária "Troca de Presentes" para desbloquear!',--Complete the Gift Swap side job to unlock!",

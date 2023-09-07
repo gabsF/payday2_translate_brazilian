@@ -925,7 +925,7 @@ return {
 	achievement_axe_3_desc = "Complete Four Store na dificuldade Death Sentence com a mecânina de One Down ativa.",--Complete the Four Stores job on the Death Sentence difficulty with the One Down mechanic activated.
 	achievement_yeah_hes_a_gold_digger_desc = "Em Four Store, ache uma barra de ouro em um cofre.",--In the Four Store job, find a gold bar in a safe.
 	achievement_moon_5_desc = "Em Stealing Xmas, assegure todo loot adicional na dificuldade OVERKILL ou superior.",--On the Stealing Xmas job, secure all additional loot on the OVERKILL difficulty or above.
-	achievement_uno_3_desc = "Em Mallcrasher, conclua o roubo e foge dentro de 3 minutos.",--In the Mallcrasher job, finish the heist and escape within 3 minutes.
+	achievement_uno_3_desc = "Em Mallcrasher, conclua o roubo e fuja dentro de 3 minutos.",--In the Mallcrasher job, finish the heist and escape within 3 minutes.
 	achievement_uno_3_additional = "A Conquista requer que você jogue desde o Lobby até o final da heist.",--
 	achievement_trk_af_3_desc = "Conclua Aftershock na dificuldade OVERKILL ou superior.",--Complete the Aftershock job on the OVERKILL difficulty or above.
 	achievement_trk_af_3_additional = "A Conquista requer que você jogue desde o Lobby até o final da heist.",--
