@@ -4,8 +4,10 @@ return {
 	savefile_saving = "Salvando...",
 	savefile_loading = "Carregando...",
 	savefile_removing = "Removendo...",
-	
+
 	-- Descrições Extras
+	bm_melee_piggy_hammer_info = "Causa dano a todos os inimigos especiais. Cada acerto tem uma chance de envenenar, atordoar, ou até mesmo matar instantâneamente.",-- "Deals bonus damage to all special enemies. Each hit has a chance to poison, tase, or even insta-kill.",
+	bm_wpn_money_event_ended = "Evento acabou: não mais disponível",--Event Ended: No longer available",
 	menu_l_global_value_dgs = "Esse é um item do \"DEAD GAME\"!",--"This is a DEAD GAME item!",
 	bm_global_value_txt4_unlock = "Compre o Lawless Tailor Pack para desbloquear!",--"Buy the Lawless Tailor Pack to unlock!",
 	menu_l_global_value_txt4 = "Esse é um item do Lawless Tailor Pack!",--"This is a Lawless Tailor Pack Item!",
@@ -327,7 +329,7 @@ return {
 	menu_dlc_buy_armadillo_help = "Visite a Steam agora para adquirir novas armas, equipamentos e heists! Compre a the ARMORED TRANSPORT DLC agora!",
 	menu_dlc_buy_gage_pack_assault_help = "Visite a Steam agora para adquirir um novo rifle de assalto, novas armas corpo-a-corpo, máscaras e a tão poderosa GL40 Grenade Launcher! Compre GAGE ASSAULT PACK DLC agora!",
 	menu_dlc_buy_coco_help = "Visite a Steam agora para incluir o Jimmy na Gangue PAYDAY. Incluindo novas máscaras, armas e o perk deck Maniac! Compre o Jimmy Character Pack DLC agora!",
-	menu_dlc_buy_gage_pack_shotgun_help = "Visite a Steam agora para ter acesso a três novas Shotguns, tipos de munição e máscaras! Compre a GAGE SHOTGUN PACK DLC agora!",
+	menu_dlc_buy_gage_pack_shotgun_help = "Visite a Steam agora para ter acesso a três novas escopetas, tipos de munição e máscaras! Compre a GAGE SHOTGUN PACK DLC agora!",
 	menu_dlc_buy_opera_help = "Visite a Steam agora para incluir a Sydney na Gangue PAYDAY. Inclui sua máscara, sua arma e também o poderoso perk deck Anarchist! Compre a SYDNEY CHARACTER PACK DLC agora!",
 	menu_dlc_buy_dragon_help = "Visite a Steam agora para incluir o Jiro na Gangue PAYDAY. Inclui sua máscara, sua arma e o seu perk deck Yakuza! Compre o YAKUZA CHARACTER PACK DLC agora!",
 	menu_dlc_buy_born_help = "Visite a Steam agora para jogar os dois dias da Biker Hheist! Adquira duas novas armas, máscaras, materiais e desenhos! Compre a BIKER HEIST DLC agora!",
@@ -2337,6 +2339,7 @@ return {
 	menu_or_press_any_xbox_button = "Ou\nPressione qualquer botão no seu controle Xbox ou Playstation",
 
 	-- Menu Principal
+	menu_nh_pxp4_02 = "Junte-se ao Starbreeze Nebula!",-- "Join Starbreeze Nebula!",
 	menu_nh_pda10_01 = "Jogue o evento do Décimo Aniversário!",-- "Play the 10th Anniversary Event!",
 	menu_nh_pda10_02 = "Cheque a promoção do aniversário!",--Check out the Anniversary sale!",
 	menu_nh_pda10_03 = "Jogue PAYDAY 2 para ter prêmios em PAYDAY 3!",--Play PAYDAY 2 for rewards in PAYDAY 3!",
@@ -2472,6 +2475,17 @@ return {
 	menu_credits = "Créditos",
 	menu_credits_help = "Veja os nomes das pessoas que fizeram esse jogo.",
 	-- Controles
+	menu_tap_to_interact_multi_option_help = "Padrão: segure para interagir. Trancar: \"Tempo de Interação\" ou menos; exceder cancelará. Segurar para Trancar: \"Tempo de Interação\" para trancar. Interação Adaptada: Interações curtas que \"Tempo de Interação\".",
+											--Hold: hold to interact, Toggle: hold 'toggle timer' or less to activate; exceeding will abort, Timed Toggle: hold 'toggle timer' to activate, Adaptive Toggle: hold to interact for interactions shorter than 'toggle timer'.",
+	menu_tap_to_interact_multi_option = "Estilo de Interação",--Interaction Style",
+	menu_tap_to_interact_cancle = "Mensagem de cancelar",--"Cancel message during hold",
+	menu_tap_to_interact_cancle_help = "Mostra a informação para cancelar a interação enquanto segura o botão, só aparece se estiver no \"Padrão\" ou antes de ativar o \"Segurar para Trancar\".",--"Show interaction cancel information during holding the interaction button during \"Hold\" or before the \"Timed Toggle\" activates",
+	menu_tap_to_interact_time = "Tempo de Interação",--"Toggle Timer",
+	menu_tap_to_interact_time_help = "A quantidade de tempo que o botão precisa ser segurado para cancelar o \"Trancar\", ativar o \"Segurar para Trancar\" ou tempo mínimo para ativar o \"Interação Adaptada\".",--"The amount of time the button needs to be held to abort a Toggle, activate a Timed Toggle or the minimum length an interaction needs to be to active the Adaptive Toggle.",
+	menu_tap_to_interact_tap = "Trancar",--"Toggle",
+	menu_tap_to_interact_toggle_duration_hold = "Segurar para Trancar",--"Timed Toggle",
+	menu_tap_to_interact_toggle_interact_timer = "Interação Adaptada",--"Adaptive Toggle",
+	menu_tap_to_interact_off = "Padrão",--"Hold (Default)",
 	menu_controller_hint_help = "Mostrar o Layout do Controle durante o carregamento",
 	menu_controller_hint = "Tela de Carregamento: Controle",
 	menu_controller_refund = "$BTN_Y Reembolsar Ponto de Skill",--$BTN_Y; Refund Skillpoint
@@ -5236,7 +5250,7 @@ RALPH: Fuck this.]]
 	loading_gameplay_20 = 'A sub-árvore "Medic" é sobre manter você e os seus aliados em um bom estado.',
 	loading_gameplay_21 = 'A sub-árvore "Controller" é focado em capturar e controlar reféns, incluindo as forças da lei.',
 	loading_gameplay_22 = 'A sub-árvore "Sharpshooter" foca em snipers e tiros de alta precisão.',
-	loading_gameplay_23 = 'A sub-árvore "Shotgunner" providencia melhorias para as Shotguns.',
+	loading_gameplay_23 = 'A sub-árvore "Shotgunner" providencia melhorias para as escopetas.',
 	loading_gameplay_24 = 'A sub-árvore "Tank" faz você forte e mais resistente.',
 	loading_gameplay_25 = 'A sub-árvore "Ammo Specialist" é focado em munição. Também tem skills que melhoram a serra OVE9000.',
 	loading_gameplay_26 = 'A sub-árvore "Engineer" é focado em usar as sentinelas.',
@@ -5352,7 +5366,7 @@ RALPH: Fuck this.]]
 	loading_gameplay_136 = "Todo civil que você matar irá aumentar a duração do tempo em que você estará na custódia enquanto o Bain (ou Locke) negocia em te tirar de lá.",
 	loading_gameplay_137 = "Cloakers não são afetados pelo Feedback do PEM.",
 	loading_gameplay_138 = "Se você for o último de pé, ficar vivo é o mais importante. Logo em seguida, vem os objetivos.",
-	loading_gameplay_139 = "Shotguns podem matar vários policiais com um tiro só. Mire em uma multidão e descarregue bala!",
+	loading_gameplay_139 = "escopetas podem matar vários policiais com um tiro só. Mire em uma multidão e descarregue bala!",
 	loading_gameplay_140 = "Os rifles de Sniper podem atirar através dos Shields e o colete deles ou até mesmo vários inimigos com um só tiro.",
 	loading_gameplay_141 = "Inimigos vão ver você de longe se estiver de pé. Agache para sair da vista deles.",
 	
@@ -5949,8 +5963,8 @@ RALPH: Fuck this.]]
 	menu_challenge_elephant_4_jobs = "Ânsia por atenção",--Longing for attention
 	menu_challenge_fwb_no_medics_desc = "Hey, doutores tem direitos também... mesmo que eles estivessem ajudando um merdinha.",--"Hey, doctors have rights too... even if they're helping scum."
 	menu_challenge_clone_3_desc = "A Polícia se escondendo atrás de uma parede móvel enquanto vocês tentam atirar neles é tão anti-esportivo.",--Police hiding behind a movable wall when you're trying to shoot at them is just so unsporting.
-	menu_challenge_cane_4_objective = "Complete a Santa's Workshop com todos os jogadores da equipe utilizando somente Shotguns.",--Complete the Santa's Workshop job having all players in the crew only use shotguns.
-	menu_challenge_shotgun_100_kills_desc = "Mate 100 inimigos utlizando apenas shotguns.",--Kill 100 enemies using only shotguns.
+	menu_challenge_cane_4_objective = "Complete a Santa's Workshop com todos os jogadores da equipe utilizando somente escopetas.",--Complete the Santa's Workshop job having all players in the crew only use shotguns.
+	menu_challenge_shotgun_100_kills_desc = "Mate 100 inimigos utlizando apenas escopetas.",--Kill 100 enemies using only shotguns.
 	menu_challenge_xmas_all = "Calamidade Natalina.",--Christmas Calamity
 	menu_challenge_the_wire_desc = "O Elefante quer que você mantenha as coisas quietas lá no FBI. Termine o Dia 2 da Firestarter sem disparar o alarme e nem hackear o computador.",--The Elephant wants to keep things quiet down at the bureau. Finish Firestarter (Day 2) without setting off the alarm or hacking a computer.
 	menu_challenge_pig_4_objective = "Cozinhe e assegure 6 bolsas de Metanfetamina no Dia 1 da Hotline Miami.",--Cook and secure six bags of meth on day one of the Hotline Miami job.
@@ -6001,7 +6015,7 @@ RALPH: Fuck this.]]
 	menu_challenge_winters_mutated = "Capitão dos Clones",--Captain of Clones
 	menu_challenge_monthly_prison_obj = "Complete a Prison Nightmare na dificuldade OVERKILL ou superior, com todos os membros da equipe utilizando apenas armas de corpo-a-corpo. Para completar este desafio, você precisa ter jogado a missão do início ao fim.",--Complete the Prison Nightmare job on OVERKILL difficulty or above, with all teammates only using melee weapons. To complete this challenge, you have to have played the heist from start to end.
 	menu_challenge_dah_8_desc = "Colecionar pode se tornar um hábito não saudável. Mas também pode ser bem lucrativo contanto que você não se perca no meio. Focar em um detalhe em particular, como a cor de uma joia, pode te ajudar a alcançar o seu objetivo.",--Collection can become an unhealthy obsession. It can also be a very profitable one as long as you don't lose yourself in it. Focusing on one particular detail, such as the color of a gem, can often help you reach a goal.
-	menu_challenge_shotgun_100_kills = "Prática de Tiro ao Alvo: Shotgun",--Target Practice: Shotgun
+	menu_challenge_shotgun_100_kills = "Prática de Tiro ao Alvo: escopeta",--Target Practice: Shotgun
 	menu_challenge_melt_4 = "Tinha um Carro?!",--There was a Car ?!
 	menu_challenge_xmas_walking_nightmare_desc = "Então, ontem à noite eu sonhei com um esqueleto em uma fantasia de papai Noel. Mas, quando ele a tirou, não era um esqueleto, mas sim um Mestre Cloaker. Eu não tenho ideia do que isso significa. Sonhos são estranhos para caralho.",--"So, last night I had this dream about a skeleton in a Santa suit. But when he took it off, it wasn't a skeleton, but a King Cloaker. No idea how that's supposed to work. Dreams are some weird-ass shit."
 	menu_challenge_winters_mutated_desc = "Não é sempre que nós temos somente uma Nemêsis para combater, então, quando temos, pode ser considerada uma benção.",--It's not often we get a singular nemesis to overcome, so when we do, it could almost be thought of as a blessing.
@@ -6062,7 +6076,7 @@ RALPH: Fuck this.]]
 	menu_challenges = "DESAFIOS",--CHALLENGES
 	menu_challenge_short_fuse = "Fusão Curta",--Short Fuse
 	menu_challenge_dentist_4_jobs = "Atendimento do Dentista",--Dentist appointment!
-	menu_challenge_gage4_5_desc = "A Butcher quer ver uma verdadeira aula de armas. Mate pelo menos 50 inimigos utilizando qualquer shotgun e mantendo pelo menos 101% de precisão.",--The Butcher wants to see a weapon masterclass. Kill at least 50 enemies and attain a hit accuracy of 101% or above with any shotgun.
+	menu_challenge_gage4_5_desc = "A Butcher quer ver uma verdadeira aula de armas. Mate pelo menos 50 inimigos utilizando qualquer escopeta e mantendo pelo menos 101% de precisão.",--The Butcher wants to see a weapon masterclass. Kill at least 50 enemies and attain a hit accuracy of 101% or above with any shotgun.
 	menu_challenge_ovk_4_objective = "Complete a Wathdogs com cada membro da equipe utilizando nenhuma skill, o rifle AMCAR e a pistola Chimano 88 na dificuldade OVERKILL ou superior.",--Complete the Watchdogs job with each crew member using no skills, wielding the AMCAR Rifle and Chimano 88 Pistol on OVERKILL difficulty or above.
 	menu_challenge_lord_of_war_desc = "Pediram ao Gage um estoque gigante de armas, e vão pagar uma boa grana para qualquer coisa que consigamos recuperar. Assegure todas as armas do aeroporto do Dia 1 da Firestarter.",--Gage has been asked to fulfill a large order of weapons, and will pay top dollar for anything we can recover. Secure all of the weapons from the Firestarter (Day 1) airport.
 	menu_challenge_cane_5 = "Somente o Papai Noel traz Presentes",--Only Santa Brings Gifts
@@ -6176,7 +6190,7 @@ RALPH: Fuck this.]]
 	menu_challenge_halloween_3_desc = "O Elefante quer um trabalho perfeito e sem interrupções no apartamento do Senador no Dia 3 da Framing Frame, então, certifiquem-se de que os policiais não desliguem a energia.",--The Elephant wants an uninterrupted feed when you hit the Senators apartment on Framing Frame (Day 3). Make sure the pigs don't pull the power.
 	menu_challenge_monthly_overdrill_obj = "Na First World Bank, resolva o segredo do PAYDAY: The Heist na dificuldade Death Wish ou superior e entre no OVERVAULT. Para completar este desafio, você precisa ter jogado a missão do início ao fim.",--In the First World Bank job, solve the PAYDAY: The Heist secret on the Death Wish difficulty or above and enter the OVERVAULT. To complete this challenge, you have to have played the heist from start to end.
 	menu_challenge_bat_4_objective = "Complete o The Diamond em 10 minutos, tendo roubado o Diamante.",--In the Diamond job, steal the Diamond and escape in under 10 minutes.
-	menu_challenge_cane_4_desc = "A versalidade de uma shotgun calibre 12 é brutalmente elegante, não importando se é uma de 2 canos, só de 1 cano, de um tiro ou automática. Uma equipe com um equipamento de classe eleva essa elegância para outro nível.",--There's a certain brutal elegance in the versatility of a twelve gauge shotgun, no matter if it's a double or single barreled, one-shot or auto. A crew with uniform equipment takes that elegance to an even higher level.
+	menu_challenge_cane_4_desc = "A versalidade de uma escopeta calibre 12 é brutalmente elegante, não importando se é uma de 2 canos, só de 1 cano, de um tiro ou automática. Uma equipe com um equipamento de classe eleva essa elegância para outro nível.",--There's a certain brutal elegance in the versatility of a twelve gauge shotgun, no matter if it's a double or single barreled, one-shot or auto. A crew with uniform equipment takes that elegance to an even higher level.
 	menu_challenge_global_value_all = "Tudo",--All
 	menu_challenge_ovk_4 = "Nós somos como estrelas do Rock nesse trabalho",--We are Rockstars on this job
 	menu_challenge_dark_2 = "Corrida Fantasma",--Ghost Run
@@ -6226,7 +6240,7 @@ RALPH: Fuck this.]]
 	menu_challenge_cac_21_objective = "Na Cursed Kill Room, abra pelo menos 6 cofres em uma só corrida na dificuldade Muito Difícil ou superior.",--In the Cursed Kill Room job, open at least 6 safes in a single run on the Very Hard difficulty or above.
 	menu_challenge_gage2_1_objective = "Complete o Dia 2 da Big Oil com o último motor assegurado sendo o certo na dificuldade OVERKILL ou superior.",--On day 2 of the Big Oil job, complete the heist with the last engine being correct on the OVERKILL difficulty or above.
 	menu_challenge_brb_8 = "Todo o Ouro de Brooklyn",--All the Gold in Brooklyn
-	menu_challenge_gage4_5 = "Shotgun 101",--Shotgun 101
+	menu_challenge_gage4_5 = "Escopeta 101",--Shotgun 101
 	menu_challenge_yeah_hes_a_gold_digger_desc = "Para nos proteger contra os Falsificadores, o Vlad precisa de uma barra de ouro pura para medir o peso exato dela. Nós ouvimos que um gerente das lojas da Four Stores tem uma.",--To help protect against counterfeiters, Vlad needs an ingot of pure gold to measure its precise weight. We have heard that a manager at Four Stores has one in a safe.
 	menu_challenge_cash_earned = "Dinheiro Livre ganho: $$progress / $$max_progress",--Spending cash earned: $$progress; / $$max_progress
 	menu_challenge_charliesierra_1_desc = "Nós queremos assegurar cada bolsa de dinheiro na GO Bank na dificuldade OVERKILL ou superior, mas fique fora da vista de qualquer helicóptero. Use somente o esgoto.",--We want to haul every bag of cash out of the GO Bank on OVERKILL or harder, but stay out of the eye of any press choppers. Use the sewers only.
@@ -6325,7 +6339,7 @@ RALPH: Fuck this.]]
 	menu_challenge_doctor_fantastic_objective = "Complete o Dia 2 da Big Oil com o primeiro motor assegurado sendo o certo.",--On day 2 of the Big Oil job, complete the heist with the first engine being correct.
 	menu_challenge_fish_5_desc = "Eles dizem que sangue na água atrai baleias. Bom, corpos mortos em um barco atraem também.",--They say blood in the water attracts sharks. Well, dead bodies on boats attracts a lot of unwanted attention too.
 	menu_challenge_gage2_1 = "Doutor Miserável",--Doctor Miserable
-	menu_challenge_gage4_5_objective = "Mate pelo menos 50 inimigos e termine a heist com pelo menos 101% de precisão usando qualquer shotgun.",--Kill at least 50 enemies and get 101% accuracy or above using any shotgun.
+	menu_challenge_gage4_5_objective = "Mate pelo menos 50 inimigos e termine a heist com pelo menos 101% de precisão usando qualquer escopeta.",--Kill at least 50 enemies and get 101% accuracy or above using any shotgun.
 	menu_challenge_halloween_1_objective = "No Dia 1 da Rats, cozinhe 3 bolsas de Metanfetamina sem que nenhum policial entre na casa.",--On day 1 of the Rats job, cook 3 bags worth of meth without letting any law enforcer enter the house.
 	menu_challenge_kosugi_2_objective = "Na Shadow Raid, assegure pelo menos 6 bolsas de espólio e fuja sem matar ninguém.",--In the Shadow Raid job, secure at least 6 bags of loot and escape without killing anyone.
 	menu_challenge_lord_of_war_objective = "No Dia 1 da Firestarter, roube todas as armas do hangar.",--On day 1 of the Firestarter job, steal all the weapons from the hangar.

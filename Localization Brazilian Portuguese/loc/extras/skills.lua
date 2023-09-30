@@ -1,16 +1,16 @@
 return {
 	-- Generic
-	st_menu_point = "$points ponto",
-	st_menu_point_plural = "$points pontos",
+	st_menu_point = "$points PONTO",
+	st_menu_point_plural = "$points PONTOS",
 	st_menu_skill_owned = "Obtido",
-	st_menu_skill_cost_singular = "BÁSICO: $basic ponto / AVANÇADO: $aced pontos.",
+	st_menu_skill_cost_singular = "BÁSICO: $basic PONTO / AVANÇADO: $aced PONTOS.",
 	st_menu_skill_maxed = "AVAN.",
-	st_menu_skill_cost = "BÁSICO: $basic pontos / AVANÇADO: $aced pontos.",
+	st_menu_skill_cost = "BÁSICO: $basic PONTOS / AVANÇADO: $aced PONTOS.",
 	st_menu_skill_locked = "Bloqueado",
 	menu_st_skilltree = "Skills",
 	menu_st_points_unlock_tier = "Cam. $tier",
 	menu_st_points_total = "Total de pontos",
-	menu_st_points_unlock = "Pont. para conquistar",
+	menu_st_points_unlock = "Pont. para desbloquear",
 	menu_st_points_unspent_skill_switch = "$points Pontos restantes",
 	menu_st_points_all_spent_skill_switch = "Nenhum ponto sobrando",
 	menu_st_switch_skillset = "[S] (ou ) para trocar as Skills",
@@ -30,316 +30,233 @@ return {
 	menu_st_skill_switch_title = "Trocar de Skills e Perk Decks",
 	menu_mouse_refund = "Tirar Ponto",
 	menu_mouse_invest = "Adicionar Ponto",
-	dialog_unlock_skill_switch = "Você está a prestes a desbloquear o novo set de skill salva.\n\n$cost_text",
-	dialog_unlock_skill_switch_free = "Esse é grátis.",--This one is free of charge.
+	dialog_unlock_skill_switch = "Você está a prestes a desbloquear o novo set de skills.\n\n$cost_text",
+	dialog_unlock_skill_switch_free = "Este é grátis.",--This one is free of charge.
 	menu_st_req_free_cost_skill_switch = "Grátis",--free of charge
-	dialog_unlock_skill_switch_offshore = "Esse irá te custar $offshore do seu dinheiro Offshore",--It will cost you $offshore; offshore cash.
+	dialog_unlock_skill_switch_offshore = "Este lhe custará $offshore do seu dinheiro Offshore",--It will cost you $offshore; offshore cash.
 	nx64_reset_skills_msg = "Você está prestes a redefinir uma ou todas as suas árvores de skills.$NL;$NL;Selecionar a opção de REDEFINIR ÁRVORE irá remover os pontos de skill da árvore selecionada e irá retorná-los para você.$NL;$NL;Selecionar a opção de REDEFINIR TUDO irá remover todos os pontos de skill de todas as árvores e irá retorná-los para você.",
 	dialog_respec_skilltree = "Você está prestes a redefinir todos os pontos dessa árvore de skills.\n\nConcluir essa ação fará você redefinir os seus pontos de skill dessa árvore em $tree.",
 	dialog_respec_skilltree_all = "Você está prestes a redefinir todas as árvores de skills.\n\nConcluir essa ação fará você redefinir todos os seus pontos de skill de todas as árvores.",
 	dialog_unlock_skill_switch_title = "Tem certeza?",
-	menu_st_skill_switch_1 = "Skill Salva #1",
-	menu_st_skill_switch_2 = "Skill Salva #2",
-	menu_st_skill_switch_3 = "Skill Salva #3",
-	menu_st_skill_switch_4 = "Skill Salva #4",
-	menu_st_skill_switch_5 = "Skill Salva #5",
-	menu_st_skill_switch_6 = "Skill Salva #6",
-	menu_st_skill_switch_7 = "Skill Salva #7",
-	menu_st_skill_switch_8 = "Skill Salva #8",
-	menu_st_skill_switch_9 = "Skill Salva #9",
-	menu_st_skill_switch_10 = "Skill Salva #10",
-	menu_st_skill_switch_11 = "Skill Salva #11",
-	menu_st_skill_switch_12 = "Skill Salva #12",
-	menu_st_skill_switch_13 = "Skill Salva #13",
-	menu_st_skill_switch_14 = "Skill Salva #14",
-	menu_st_skill_switch_15 = "Skill Salva #15",
+	menu_st_skill_switch_1 = "Set #1",
+	menu_st_skill_switch_2 = "Set #2",
+	menu_st_skill_switch_3 = "Set #3",
+	menu_st_skill_switch_4 = "Set #4",
+	menu_st_skill_switch_5 = "Set #5",
+	menu_st_skill_switch_6 = "Set #6",
+	menu_st_skill_switch_7 = "Set #7",
+	menu_st_skill_switch_8 = "Set #8",
+	menu_st_skill_switch_9 = "Set #9",
+	menu_st_skill_switch_10 = "Set #10",
+	menu_st_skill_switch_11 = "Set #11",
+	menu_st_skill_switch_12 = "Set #12",
+	menu_st_skill_switch_13 = "Set #13",
+	menu_st_skill_switch_14 = "Set #14",
+	menu_st_skill_switch_15 = "Set #15",
 	
 	-- Mastermind
 	-- First Tree (Medic)
 	--st_menu_mastermind_inspire = "Medic",
-
-	-- TIER 1
 	--menu_combat_medic_beta = "Combat Medic",
-	menu_combat_medic_beta_desc = "BÁSICO: ##$basic;##\nVocê sofrerá ##$multibasic;## menos de dano enquanto estiver revivendo outro jogador, por ##$multibasic2;## segundos do efeito após revivê-lo.\n\nAVANÇADO: ##$pro##\nApós reviver outro jogador concedem a ele(a) ##$multipro;## mais de vida.",--You gain a ##$multibasic;## damage reduction for ##$multibasic2;## seconds both after and during reviving another player.\n\nAVANÇADO: ##$pro;##\nReviving a crew member gives them ##$multipro;## more health.",
-
-	-- TIER 2
+	menu_combat_medic_beta_desc = "BÁSICO: ##$basic;##\nQuando reviver um membro de time, você recebe ##30%## de redução de dano que dura por ##5## segundos. A redução de dano recomeça e dura por ##5## segundos depois da interação.\n\nNota: Este efeito não se aplica quando o Inspire Avançado é usado.\n\nAVANÇADO: ##$pro##\nOs membros de time que você reviver receberão ##30%## a mais de vida depois de ser revivido.\n\nNota: a sua vida depois de ser revivido é baseado na dificuldade selecionada.",
+	--When reviving a crew member, you receive a ##30%## damage reduction that lasts for ##5## seconds. The damage reduction increase will restart and last for ##5## seconds after your crew member is revived.\n\nNote: This effect does not apply if you revive a crew member with the Ace version of the ##Inspire## skill.\n\nAce: ##$pro##\nCrew members you revive receive an additional ##30%## revival health.\n\nNote: Your revival health is based on your selected difficulty.
 	--menu_tea_time_beta = "Quick Fix",
-	menu_tea_time_beta_desc = "BÁSICO: ##$basic##\nVocê coloca os seus Kits de Primeiros Socorros e as Bolsas Médicas mais ##$multibasic;## rápido. \n\nAVANÇADO: ##$pro##\nOs aliados que usarem os seus equipamentos de médico vão sofrer ##$multipro;## menos de dano por ##$multipro2;## segundos.",--BASIC: ##$basic;##\nDecreases your First Aid Kit and Doctor Bag deploy time by ##$multibasic;##.\n\nACE: ##$pro;##\nCrew members that use your First Aid Kits or Doctor Bags take ##$multipro;## less damage for ##$multipro2;## seconds.
+	menu_tea_time_beta_desc = "BÁSICO: ##$basic##\nVocê coloca os seus Kits de Primeiros Socorros e Bolsas Médicas ##50%## mais rápido.\n\nAVANÇADO: ##$pro##\nQuando você ou o seu membro de time usar a sua Bolsa Médica ou um Kit de Primeiros Socorros, recebe uma redução de dano de ##10%## por ##2## minutos.",
+	--Basic: ##$basic##\nYou deploy your First Aid Kits and Doctor Bags ##50%## faster.\n\nAce: ##$pro##\nWhen you or your crew members use your Doctor Bags or First Aid Kits, the user receives a ##10%## damage reduction for ##2## minutes.
 	--menu_fast_learner_beta = "Painkillers",
-	menu_fast_learner_beta_desc = "BÁSICO: ##$basic##\nAssim que reviver o seu companheiro de equipe, ele sofrerá ##$multibasic3;## menos de dano por ##$multibasic2;## segundos.\n\nAVANÇADO: ##$pro##\nA redução de dano sofrido é aumentada por ##$multipro2;## adicional.",--BASIC: ##$basic;##\nCrew members you revive take ##$multibasic3;## less damage for ##$multibasic2;## seconds.\n\nACE: ##$pro;##\nThe damage reduction is increased by an additional ##$multipro2;##.
-
-	-- TIER 3
+	menu_fast_learner_beta_desc = "BÁSICO: ##$basic##\nOs membros de time que você reviver receberão ##30%## de redução de dano por ##5## segundos.\n\nAVANÇADO: ##$pro##\nOs membros de time que você reviver agora receberão mais ##50%## de redução de dano, por um total de ##80%##.",
+	--Basic: ##$basic##\nCrew members you revived receive a ##30%## damage reduction for ##5## seconds.\n\nAce: ##$pro##\nCrew members you revive now receive an additional ##50%## damage reduction, for a total of ##80%##.
 	--menu_medic_2x_beta = "Combat Doctor",
-	menu_medic_2x_beta_desc = "BÁSICO: ##$basic##\nPermite que você carregue ##$multibasic;## Bolsas Médicas ao invés de uma.\n\nAVANÇADO: ##$pro##\nAs suas Bolsas Médicas terão mais ##$multipro;## usos adicionais.",--BASIC: ##$basic;##\nYou can now deploy ##$multibasic;## Doctor Bags instead of just one.\n\nACE: ##$pro;##\nYour doctor bags have ##$multipro;## more charges.
+	menu_medic_2x_beta_desc = "BÁSICO: ##$basic##\nVocê agora pode carregar ##1## Bolsa Médica adicional, por total de ##2## Bolsas.\n\nNota: Cada Bolsa Médica contém ##2## usos.\n\nAVANÇADO: ##$pro##\nAs suas Bolsas Médicas agora terão mais ##2## usos, por um total de ##4## usos para cada Bolsa Médica.",
+	--Basic: ##$basic##\nYou can now carry ##1## additional Doctor Bag, for a total of ##2## Doctor Bags.\n\nNote: Each Doctor Bag contains ##2## charges.\n\nAce: ##$pro##\nYour Doctor Bags when deployed now contain an additional ##2## charges, for a total of ##4## charges for each Doctor Bag.
 	--menu_tea_cookies_beta = "Uppers",
-	menu_tea_cookies_beta_desc = "BÁSICO: ##$basic##\nAdiciona mais ##$multibasic2;## Kits de Primeiros Socorros no seu inventário.\n\nAVANÇADO: ##$pro##\nAdiciona mais ##$multipro3;## Kits de Primeiros Socorros no seu inventário. Os seus Kits de Primeiros Socorros colocados no chão vão prevenir as suas quedas, incluindo os outros jogadores, dentro de ##$multipro2;## metros do seu Kit de Primeiros Socorros. Se isso entrar em efeito, terá um tempo de espera de ##$multipro4;## segundos.",--BASIC: ##$basic;##\nAdds ##$multibasic2;## more First Aid Kits to your inventory.\n\nACE: ##$pro;##\nAdds ##$multipro3;## First Aid Kits to your inventory. Your deployed First Aid Kits will be automatically used if a player is downed within a ##$multipro2;## meter radius of the First Aid Kit. This cannot occur more than once every ##$multipro4;## seconds.
-
-	-- TIER 4
+	menu_tea_cookies_beta_desc = "BÁSICO: ##$basic##\nVocê pode carregar mais ##7## Kits de Primeiros Socorros, por um total de ##11## Kits.\n\nAVANÇADO: ##$pro##\nVocê pode carregar mais ##3## Kits de Primeiros Socorros, por um total de ##14## Kits.\n\nOs seus Kits vão ser automaticamente usados se você ou o seu membro de time se caírem dentro de ##5## metros do Kit. Este efeito tem ##20## segundos de espera depois de ativado.\n\nNota: O tempo de espera é aplicado aos membros de time que ativarem este efeito.",
+	--Basic: ##$basic##\nYou can now carry an additional ##7## First Aid Kits, for a total of ##11## First Aid Kits.\n\nAce: ##$pro##\nYou can now carry an additional ##3## First Aid Kits, for a total of ##14## First Aid Kits.\n\nYour First Aid Kits when deployed will automatically be used if you or a crew member go into bleedout within a ##5## meter radius of the First Aid Kit. This effect has a ##20## second cooldown after being triggered.\n\nNote: The cooldown is applied to the crew member who triggers this effect.
 	--menu_inspire_beta = "Inspire",
-	menu_inspire_beta_desc = "BÁSICO: ##$basic##\nVocê revive os seus companheiros de equipe ##$multibasic;## mais rápido. Se gritar nos seus aliados irá dar a eles um aumento de ##$multibasic2;## na velocidade de movimento e de recarga da arma por ##$multibasic3;## segundos. \n\nAVANÇADO: ##$pro##\nGanha uma chance de ##$multipro;## que fará você reviver os seus aliados se gritar neles em uma distância de ##$multipro3;## metros. Isso não pode ocorrer mais do que uma vez por ##$multipro2;## segundos.",--BASIC: ##$basic;##\nYou revive crew members ##$multibasic;## faster. Shouting at your teammates will increase their movement and reload speed by ##$multibasic2;## for ##$multibasic3;## seconds.\n\nACE: ##$pro;##\nThere is a ##$multipro;## chance that you can revive crew members at a distance of up to ##$multipro3;## meters by shouting at them. This cannot occur more than once every ##$multipro2;## seconds.
+	menu_inspire_beta_desc = "BÁSICO: ##$basic##\nA velocidade no qual você revive os membros de time é aumentado por ##100%##.\n\nGritando em um membro de time que estiver dentro de ##9## metros de você aumentará a sua velocidade de movimento e de recarga por ##20%## por ##10## segundos.\n\nNota: o efeito pode ser aplicado através de paredes e outros objetos sólidos, mas só pode a cada ##3,5## segundos e não pode ser usado em Stealth.\n\nAVANÇADO: ##$pro##\nVocê pode reviver os seus membros de time instantâneamente por gritar neles. Este efeito tem uma espera de recarga de ##20## segundos depois de ser ativado e pode ser usado através das paredes e outros objetos sólidos.",
+	--Basic: ##$basic##\nThe speed at which you revive crew members is increased by ##100%##.\n\nShouting at a crew member that is within ##9## meters of you will increase their movement and reload speed by ##20%## for ##10## seconds.\n\nNote: The speed increase can be applied through walls and other solid objects but can only be applied every ##3.5## seconds and cannot be used during stealth.\n\nAce: ##$pro##\nYou can now instantly revive a crew member at a distance of up to ##9## meters by shouting at them. This effect has a ##20## second cooldown after being triggered and can be done through walls and solid objects.
 	
 	-- Second Tree (Controller)
 	--st_menu_mastermind_dominate = "Controller",
-
-	-- TIER 1
 	--menu_triathlete_beta = "Forced Friendship",
-	menu_triathlete_beta_desc = "BÁSICO: ##$basic##\nAumenta a quantidade das suas abraçadeiras em ##$multibasic2;##. Você poderá prender os reféns ##$multibasic3;## mais rápido. \n\nAVANÇADO: ##$pro##\nVocê e a sua equipe ganham ##$multipro;## de absorção de dano para cada refém que você tem. Esse efeito só vai até ter ##$multipro2;## reféns. \n\nNota: Esse efeito não soma com os outros jogadores que tiverem essa skill.",--BASIC: ##$basic;##\nIncreases your supply of cable ties by ##$multibasic2;##. You can cable tie hostages ##$multibasic3;## faster. \n\nACE: ##$pro;##\nYou and your crew gain ##$multipro;## damage absorption for each hostage you have. This effect stacks with up to a maximum of ##$multipro2;## hostages.\n\nNote: This skill does not stack with other players Forced Friendship skill.
-
-	-- TIER 2
+	menu_triathlete_beta_desc = "BÁSICO: ##$basic##\nVocê agora pode carregar ##4## abraçadeiras, por um total de ##6##.\n\nO tempo que leva para prender um refém é diminudo por ##75%##.\n\nAVANÇADO: ##$pro##\nPara cada refém preso que tiver você terá ##0.5## de absorção de dano até no máximo de ##8## reféns, por um total de ##4## de absorção.\n\nNota: Este efeito não acúmula com os outros jogadores com ##Forced Friendship##.",
+	--Basic: ##$basic##\nYou can now carry an additional ##4## cable ties, for a total of ##6## cable ties.\n\nThe time it takes you to cable tie a hostage is decreased by ##75%##.\n\nAce: ##$pro##\nEvery hostage you have gives you ##0.5## damage absorption up to ##8## hostages, for a total of ##4## damage absorption.\n\nNote: This effect does not stack with other ##Forced Friendship## users.
 	--menu_cable_guy_beta = "Confident",
-	menu_cable_guy_beta_desc = "BÁSICO: ##$basic##\nO alcance e o medo da sua intimidação é aumentado em ##$multibasic2;## \n\nAVANÇADO: ##$pro##\nAgora você poderá ter ##$multipro2;## políciais convertidos. \n\nNota: é preciso ter o Básico do ##Joker##",--BASIC: ##$basic;##\nThe power and range of your intimidation is increased by ##$multibasic2;## \n\nACE: ##$pro;##\nYou can now have ##$multipro2;## converted enemies at the same time.
+	menu_cable_guy_beta_desc = "BÁSICO: ##$basic##\nO alcance da intimidação é aumentado por ##50%##.\n\nOs civis vão ficar intimidados por mais ##50%## do tempo.\n\nAVANÇADO: ##$pro##\nVocê pode ter ##2## inimigos convertidos ao mesmo tempo.",
+	--Basic: ##$basic##\nThe range of your intimidation is increased by ##50%##.\n\nCivilians will stay intimidated ##50%## longer.\n\nAce: ##$pro##\nYou can now have ##2## converted enemies at the same time.
 	--menu_joker_beta = "Joker",
-	menu_joker_beta_desc = "BÁSICO: ##$basic##\nVocê pode converter um policial para lutar ao seu lado (Não os Especiais). \nNão pode ser feito durante o Stealth e o policial deve estar rendido para poder ser convertido. \n\nVocê só pode ter um policial convertido. \n\nAVANÇADO: ##$pro##\nO seu convertido causará ##$multipro2;## de dano a mais. O tempo para converter o policial é diminuído em ##$multipro3;##.",
-	--BASIC: ##$basic;##\nYou can convert a non-special enemy to fight on your side.\nThis can not be done during stealth and the enemy must have surrendered in order for you to convert them.\n\nYou can only convert one non-special enemy at a time.\n\nACE: ##$pro;##\nYour converted enemy deals ##$multipro2;## more damage. The time to convert an enemy is reduced by ##$multipro3;##.
-
-	-- TIER 3
+	menu_joker_beta_desc = "BÁSICO: ##$basic##\nVocê pode converter um inimigo não especial para lutar no seu lado. Isto não pode ser feito durante Stealth e o inimigo tem que estar rendido.\n\nVocê só pode ter ##1## convertido por vez.\n\nAVANÇADO: ##$pro##\nOs seus inimigos convertidos causam ##35%## mais dano.\n\nA interação de converter inimigo rendido fica ##65%## mais rápido.",
+	--Basic: ##$basic##\nYou can convert a non-special enemy to fight on your side. This cannot be done during stealth and the enemy must have surrendered in order for you to convert them.\n\nYou can only convert ##1## non-special enemy at a time.\n\nAce: ##$pro##\nYour converted enemies deal ##35%## more damage.\n\nYou convert surrendered enemies ##65%## faster.
 	--menu_control_freak_beta = "Partners in Crime",
-	menu_control_freak_beta_desc = "BÁSICO: ##$basic##\nTendo um convertido irá aumentar a sua velocidade de movimento em ##$multibasic;##.\n\nO seu convertido terá uma resistência de dano de ##$multibasic3;##. \n\nAVANÇADO: ##$pro##\nTendo um convertido irá aumentar a sua vida em ##$multipro3;##.\n\nO seu convertido terá mais resistência de dano de ##$multipro4;##.",
-	--BASIC: ##$basic;##\nHaving a converted enemy increases your movement speed by ##$multibasic;##.\n\nYour converted enemy takes ##$multibasic3;## less damage.\n\nACE: ##$pro;##\nHaving a converted enemy increases your health by ##$multipro3;##.\n\nYour converted enemy takes an additional ##$multipro4;## less damage.
+	menu_control_freak_beta_desc = "BÁSICO: ##$basic##\nA sua velocidade de movimento é aumentado por ##10%## quando tiver um inimigo convertido.\n\nO seu inimigo convertido recebe ##45%## de redução de dano.\n\nAVANÇADO: ##$pro##\nA sua vida é aumentado por ##30%## quando você tiver um inimigo convertido.\n\nOs seus inimigos convertidos recebem mais ##54%## de redução de dano, por um total de ##99%##.",
+	--Basic: ##$basic##\nYour movement speed is increased by ##10%## when you have a converted enemy.\n\nYour converted enemies receive a ##45%## damage reduction.\n\nAce: ##$pro##\nYour health is increased by ##30%## when you have a converted enemy.\n\nYour converted enemies receive an additional ##54%## damage reduction, for a total of ##99%##.
 	--menu_stockholm_syndrome_beta = "Stockholm Syndrome",
-	menu_stockholm_syndrome_beta_desc = 'BÁSICO: ##$basic##\nCivis são intimidados pelo barulho que você faz e ficam ##$multibasic;## mais quietos.\n\nAVANÇADO: ##$pro##\nOs seus reféns não irão fugir quando são resgatados pela policia. Quando você for preso, o seu refém irá "salvar" você.\nEsse efeito só pode ocorrer durante as Operações, e somente ##$multipro;## vez(es) por Heist.',
-	--BASIC: ##$basic;##\nCivilians are intimidated by the noise you make and remain intimidated ##$multibasic;## longer.\n\nACE: ##$pro;##\nYour hostages will not flee when they have been rescued by law enforcers. Whenever you get into custody, your hostages will trade themselves for your safe return. This effect can occur during assaults, but only ##$multipro;## time during a heist.
-
-	-- TIER 4
+	menu_stockholm_syndrome_beta_desc = 'BÁSICO: ##$basic##\nOs civis ficam intimidados pelo barulho que você faz, seja tiros sem supressor ou explosões. O barulho vai prevenir que eles se levantem e fiquem intimidados por pelo menos ##45## segundos quando você não estiver fazendo nada.\n\nNota: o raio da intimidação é grande quanto aos barulhos de caixa e o efeito tem um tempo de espera de ##1,5## segundos.\n\nAVANÇADO: ##$pro##\nOs civis presos por você não vão fugir caso foram salvos pela policia.\n\nReféns agora trocam si mesmos para tirarem você da custódia.\n\nEste efeito pode ser ativado durante as operações, mas só pode ser feito ##1## vez por um dia da missão.',
+	--Basic: ##$basic##\nCivilians are intimidated by noise you make from unsuppressed gunfire or explosions. Noise will prevent the civilians from getting up and they will stay intimidated for at least ##45## seconds when you're not generating noise.\n\nNote: The intimidation radius is as large as the noise creates and the intimidation effect created has a ##1.5## second cooldown.\n\nAce: ##$pro##\nCivilians cable tied by you do not flee if they have been rescued.\n\nHostages can now trade themselves to remove you from custody.\n\nThis effect can be triggered during assaults, but only ##1## time during a single day of a heist.
 	--menu_black_marketeer_beta = "Hostage Taker",
-	menu_black_marketeer_beta_desc = "BÁSICO: ##$basic##\nTendo pelo menos um refém ou um policial convertido, você irá receber uma cura de ##$multibasic;## a cada ##$multibasic2;## segundos.\n\nAVANÇADO: ##$pro##\nTendo pelo menos um refém ou um policial convertido, você irá receber uma cura de ##$multipro;## a cada ##$multipro2;## segundos.",
-	--BASIC: ##$basic;##\nHaving at least one of your own hostage or converted law enforcer makes you regenerate ##$multibasic;## health every ##$multibasic2;## seconds.\n\nACE: ##$pro;##\nHaving at least one of your own hostage or converted law enforcer makes you regenerate ##$multipro;## health every ##$multipro2;## seconds.
+	menu_black_marketeer_beta_desc = "BÁSICO: ##$basic##\nSe o seu time tiver pelo menos um ##1## refém, você regenera ##1.5%## de vida cada ##5## segundos.\n\nNota: a regeneração de vida conta com os reféns presos, inimigos rendidos ou convertidos.\n\nAVANÇADO: ##$pro##\nA regeneração de vida é aumentado por mais ##3%##, por um total de ##4.5%## cada ##5## segundos.",
+	--Basic: ##$basic##\nIf your crew has at least ##1## hostage, you regenerate ##1.5%## health every ##5## seconds.\n\nNote: The health regeneration effect triggers with cable tied civilians, surrendered enemies, or if you have your own converted enemy.\n\nAce: ##$pro##\nThe health regeneration is increased by an additional ##3%##, for a total of ##4.5%## health every ##5## seconds.
 	
 	-- Third Tree (Sharpshooter)
 	--st_menu_mastermind_single_shot = "Sharpshooter",
-
-	-- TIER 1
 	--menu_stable_shot_beta = "Stable Shot",
-	menu_stable_shot_beta_desc = "BÁSICO: ##$basic##\nVocê ganha ##$multibasic;## de Estabilidade para todas as armas. \n\nAVANÇADO: ##$pro##\nVocê tem mais ##$multipro;## de Precisão enquanto estiver parado.",
-	--BASIC: ##$basic;##\nYou gain ##$multibasic;## weapon Stability.\n\nACE: ##$pro;##\nYou gain ##$multipro;## weapon Accuracy while standing still.
-
-	-- TIER 2
+	menu_stable_shot_beta_desc = "BÁSICO: ##$basic##\nA estabilidade das suas armas de alcance tem o aumento de ##8##.\n\nAVANÇADO: ##$pro##\nA precisão das suas armas enquanto estiver parado é aumentado por ##16##.",
+	--Basic: ##$basic##\nThe stability of your ranged weapons is increased by ##8##.\n\nAce: ##$pro##\nThe accuracy of your ranged weapons while standing still is increased by ##16##.
 	--menu_rifleman_beta = "Rifleman",
-	menu_rifleman_beta_desc = "BÁSICO: ##$basic##\nO seu zoom é ##$multibasic;## mais rápido com todas as armas. \n\nA sua velocidade de movimento não é afetada enquanto mira. \n\nAVANÇADO: ##$pro##\nO nível do seu zoom é aumentado em ##$multipro;## para todas as armas. A Precisão da sua arma aumenta em ##$multipro2;## enquanto se move.",
-	--BASIC: ##$basic;##\nYour snap to zoom is ##$multibasic;## faster with all weapons.\n\nYour movement speed is unhindered while using steel sight.\n\nACE: ##$pro;##\nYour weapon zoom level is increased by ##$multipro;## with all weapons. Your weapon accuracy while moving with SMGs, Assault Rifles and Sniper Rifles is increased by ##$multipro2;##.
+	menu_rifleman_beta_desc = "BÁSICO: ##$basic##\nA velocidade da mira das suas armas é aumentado por ##100%##.\n\nVocê se move na velocidade normal enquanto estiver mirando.\n\nAVANÇADO: ##$pro##\nQuando você estiver mirando, o zoom ficará mais ##25%## mais rápido.\n\nA precisão dos seus rifles de assalto, de sniper, e submetralhadoras enquanto estiver se movendo é aumentado por ##16%##.",
+	--Basic: ##$basic##\nThe aim down sight speed of your ranged weapons is increased by ##100%##.\n\nYou move at normal speed while aiming down sights.\n\nAce: ##$pro##\nWhen you aim down sights, the sight will zoom in ##25%## further.\n\nThe accuracy of your Assault Rifles, Sniper Rifles, and SMGs while moving is increased by ##16##.
 	--menu_sharpshooter_beta = "Marksman",
-	menu_sharpshooter_beta_desc = "BÁSICO: ##$basic##\nVocê ganha ##$multibasic2;## de Precisão para Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro unitário. \n\nAVANÇADO: ##$pro##\n Você ganha ##$multipro2;## de Precisão a mais enquanto mira com todas as Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro unitário.",
-	--BASIC: ##$basic;##\nYou gain ##$multibasic2;## weapon accuracy with all SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode. \n\nACE: ##$pro;##\nYou gain a ##$multipro2;## accuracy bonus while aiming down sights with all SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode.
-
-	-- TIER 3
+	menu_sharpshooter_beta_desc = "BÁSICO: ##$basic##\nA precisão dos rifles de assalto, de sniper, e submetralhadoras com o modo de tiro unitário é aumentado por ##8##.\n\nAVANÇADO: ##$pro##\nA precisão dos rifles de assalto, de sniper, e submetralhadoras com o modo de tiro unitário é aumentado por ##20%##.",
+	--Basic: ##$basic##\nThe accuracy of Assault Rifles, Sniper Rifles, and SMGs fired in single shot fire mode is increased by ##8##.\n\nAce: ##$pro##\nThe accuracy of your Assault Rifles, Sniper Rifles, and SMGs fired in single shot fire mode while aiming down sights is increased by ##20%##.
 	--menu_speedy_reload_beta = "Aggressive Reload",
-	menu_speedy_reload_beta_desc = "BÁSICO: ##$basic##\nAumenta a sua velocidade de recarregar todas as Submetralhadoras, Rifles de Assalto e Rifles de Sniper em ##$multibasic;## \n\nAVANÇADO: ##$pro##\nQualquer tiro na cabeça irá aumentar a sua velocidade de recarregar a sua arma em ##$multipro;## por ##$multipro2;## segundos. Só pode ser ativado por Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro unitário.",
-	--BASIC: ##$basic;##\nIncreases your reload speed with SMGs, Assault Rifles and Sniper Rifles by ##$multibasic;##.\n\nACE: ##$pro;##\nAny killing headshot will increase your reload speed by ##$multipro;## for ##$multipro2;## seconds. Can only be triggered by SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode.
+	menu_speedy_reload_beta_desc = "BÁSICO: ##$basic##\nA velocidade de recarga dos seus rifles de assalto, de sniper, e submetralhadoras é aumentado por ##15%##.\n\nAVANÇADO: ##$pro##\nA velocidade de recarga é aumentado por ##100%## por ##4## segundos quando você matar um inimigo com um tiro na cabeça.\n\nEste efeito só conta com rifles de assalto, de sniper e submetralhadoras com o modo de tiro unitário.",
+	--Basic: ##$basic##\nThe reload speed of your Assasult Rifles, Sniper Rifles, and SMGs is increased by ##15%##.\n\nAce: ##$pro##\nThe reload speed of your ranged weapon is increased by ##100%## for ##4## seconds when you kill an enemy with a headshot.\n\nThis effect can only be triggered by Assault Rifles, Sniper Rifles, and SMGs fired in single shot fire mode.
 	--menu_single_shot_ammo_return_beta = "Ammo Efficiency",
-	menu_single_shot_ammo_return_beta_desc = "BÁSICO: ##$basic##\nConseguindo ##$multibasic;## tiros na cabeça em menos de ##$multibasic2;## segundos, você ganha ##$multibasic3;## bala(s) para a sua arma equipada. Só pode ser ativado com Submetralhadoras, Rifles de Assalto e Rifles de Sniper com o modo de tiro unitário. \n\nAVANÇADO: ##$pro##\nA quantidade de tiros na cabeça necessária é reduzida para ##$multipro;##.",
-	--BASIC: ##$basic;##\nGetting ##$multibasic;## headshots in less than ##$multibasic2;## seconds will refund ##$multibasic3;## bullet to your used weapon. Can only be triggered by SMGs, Assault Rifles and Sniper Rifles fired in single shot fire mode.\n\nACE: ##$pro;##\nThe amount of headshots required is reduced to ##$multipro;##.
-
-	-- TIER 4
+	menu_single_shot_ammo_return_beta_desc = "BÁSICO: ##$basic##\nVocê recebe ##1## bala na arma em suas mãos quando efetuar ##3## tiros na cabeça em menos de ##6## segundos.\n\nEste efeito só conta com rifles de assalto, de sniper, e submetralhadoras com o modo de tiro unitário.\n\nAVANÇADO: ##$pro##\nA quantidade de tiros na cabeça obrigatórias é reduzido para ##2##.",
+	--BBasic: ##$basic##\nYou receive ##1## bullet to the ranged weapon currently in your hands when you get ##3## headshots in less then ##6## seconds.\n\nThis effect can only be triggered by Assault Rifles, Sniper Rifles, and SMGs in single shot fire mode.\n\nAce: ##$pro##\nThe amount of headshots required is reduced to ##2##.
 	--menu_sniper_graze_damage = "Graze",
-	menu_sniper_graze_damage_desc = "BÁSICO: ##$basic##\nSnipers que acertarem o seu alvo vão causar ##$multibasic;## do dano causado em raio de ##$multibasic2;## ao redor da trajetória da bala. \n\nAVANÇADO: ##$pro##\nSe matar alguém com um tiro na cabeça, a habilidade ##Graze## vai causar ##$multipro;## do dano da arma invés de ##$multipro2;##",
-	--BASIC: ##$basic;##\nSnipers that hit their target deal ##$multibasic;## of the damage dealt in a ##$multibasic2;## radius around the bullet trajectory.\n\nACE: ##$pro;##\nIf a bullet would headshot-kill someone, the graze skill will deal ##$multipro;## of the weapon's damage instead of ##$multipro2;##.
+	menu_sniper_graze_damage_desc = "BÁSICO: ##$basic##\nAtirar em um inimigo com um rifle de sniper causará ##20%## do dano aos outros inimigos que estiverem em um raio de ##1## metro(s) da trajetória da bala.\n\nNota: os inimigos rendidos e civis presos não são afetados. ##Graze## não vai ativar se você atirar em um inimigo convertido.\n\nAVANÇADO: ##$pro##\nSe o seu tiro é na cabeça e matar o inimigo, ##100%## do dano será causado aos inimigos dentro do raio de ##1## metro(s) da trajetória da bala invés de ##20%##.",
+	--Basic: ##$basic##\nShooting an enemy with a Sniper Rifle deals ##20%## of the damage dealt to other enemies in a ##1## meter radius around the bullet trajectory.\n\nNote: Surrendered enemies are not affected by the radius. ##Graze## will not activate if you shoot an allied unit.\n\nAce: ##$pro##\nIf your Sniper Rifle shot is a headshot and kills an enemy, ##100%## of the damage is applied in a ##1## meter radius around the bullet trajectory instead of ##20%##.
 	
 	-- Enforcer
 	-- First Tree (Shotgunner)
 	--st_menu_enforce_shotgun = "Shotgunner",
-
-	-- TIER 1
 	--menu_underdog_beta = "Underdog",
-	menu_underdog_beta_desc = "BÁSICO: ##$basic##\nQuando três ou mais inimigos dentro de ##$multibasic;## metros estão com a mira em você, você causará ##$multibasic2;## mais dano com duração de ##$multibasic3;## segundos. \n\nAVANÇADO: ##$pro##\nQuando três ou mais inimigos dentro de ##$multipro;## metros estão com a mira em você, você receberá ##$multipro2;## menos dano que dura por ##$multipro3;## segundos.\n\nNota: não aplica em dano corpo-a-corpo, granadas, lança-granadas ou lança-foguetes.",
-	--BASIC: ##$basic;##\nWhen three or more enemies within ##$multibasic;## meters are targeting you, you receive a ##$multibasic2;## damage bonus that lasts for ##$multibasic3;## seconds.\n\nACE: ##$pro;##\nWhen three or more enemies within ##$multipro;## meters are targeting you, you also receive a ##$multipro2;## damage reduction that lasts for ##$multipro3;## seconds.\n\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers.
-
-	-- TIER 2
+	menu_underdog_beta_desc = "BÁSICO: ##$basic##\nQuando estiver na mira de pelo menos ##3## inimigos dentro de ##18## metros de você, causará ##15%## mais de dano por ##7## segundos.\n\nAVANÇADO: ##$pro##\nQuando estiver na mira de pelo menos ##3## inimigos dentro de ##18## metros de você, sofrerá ##10%## menos de dano por ##7## segundos.",
+	--Basic: ##$basic##\nWhen targeted by at least ##3## enemies that are within ##18## meters of you, you deal ##15%## more damage for ##7## seconds.\n\nAce: ##$pro##\nWhen targeted by at least ##3## enemies that are within ##18## meters of you, you take ##10%## less damage for ##7## seconds.
 	--menu_shotgun_cqb_beta = "Shotgun CQB",
-	menu_shotgun_cqb_beta_desc = "BÁSICO: ##$basic##\nVocê recarrega escopetas ##$multibasic2;## mais rápido. \n\nAVANÇADO: ##$pro##\nVocê recarrega escopetas ##$multipro;## mais rápido. Você mira ##$multipro2;## mais rápido com uma escopeta.",
-	--BASIC: ##$basic;##\nYou reload Shotguns ##$multibasic2;## faster.\n\nACE: ##$pro;##\nYou reload Shotguns ##$multipro;## faster. You gain a ##$multipro2;## increased steel sight zoom speed when using Shotguns.
+	menu_shotgun_cqb_beta_desc = "BÁSICO: ##$basic##\nA velocidade com recarga das suas escopetas é aumentado por ##15%##.\n\nAVANÇADO: ##$pro##\nA velocidade com recarga das suas escopetas é aumentado por mais ##20%##, por um total de ##35%##.\n\nA velocidade da mira é ##125%## mais rápido.",
+	--Basic: ##$basic##\nThe reload speed of your Shotguns is increased by ##15%##.\n\nAce: ##$pro##\nThe reload speed of your Shotguns is increased by an additional ##20%##, for a total of ##35%##\n\nThe aim down sights speed of your Shotguns is ##125%## faster.
 	--menu_shotgun_impact_beta = "Shotgun Impact",
-	menu_shotgun_impact_beta_desc = "BÁSICO: ##$basic##\nA estabilidade com todas as escopetas são aumentados por ##$multibasic;##. Você causa ##$multibasic2;## mais dano com a escopeta. \n\nAVANÇADO: ##$pro##\nVocê causa mais ##$multipro2;## de dano com escopeta.",
-	--BASIC: ##$basic;##\nYour weapon stability with all shotguns is increased by ##$multibasic;##. You deal ##$multibasic2;## more damage with Shotguns.\n\nACE: ##$pro;##\nYou deal an additional ##$multipro2;## more damage with shotguns.
-
-	-- TIER 3
+	menu_shotgun_impact_beta_desc = "BÁSICO: ##$basic##\nA estabilidade das suas escopetas é aumentado por ##8##.\n\nO dano das suas escopetas é aumentado por ##5%##.\n\nAVANÇADO: ##$pro##\nO dano das suas escopetas é aumentado por ##10%##, por um total de ##15%##.",
+	--Basic: ##$basic##\nThe stability of your Shotguns is increased by ##8##.\n\nThe damage of your Shotguns is increased by ##5%##.\n\nAce: ##$pro##\nThe damage of your Shotguns is increased by ##10%##, for a total of ##15%##.
 	--menu_close_by_beta = "Close By",
-	menu_close_by_beta_desc = "BÁSICO: ##$basic##\nVocê agora pode correr e atirar com as escopetas. \n\nAVANÇADO: ##$pro##\nA cadência é aumentada por ##$multipro;## enquanto estiver atirando sem mirar com as escopetas de tiro unitário. Escopetas com carregadores têm o seu tamanho aumentado por ##$multipro2;## cartuchos.",
-	--BASIC: ##$basic;##\nYou can now hip-fire with your Shotguns while sprinting.\n\nACE: ##$pro;##\nYour rate of fire is increased by ##$multipro;## while firing from the hip with single shot Shotguns. Shotguns with magazines have their magazine sizes increased by ##$multipro2;## shells.
-
+	menu_close_by_beta_desc = "BÁSICO: ##$basic##\nVocê pode atirar com as suas escopetas sem mirar enquanto corre.\n\nAVANÇADO: ##$pro##\nA taxa de cadência com as escopetas com modo de tiro unitário é aumentado por ##35%## quando atirar sem mirar.\n\nO tamanho do carregador das escopetas com carregadores é aumentado por ##15## cartuchos.",
+	--Basic: ##$basic##\nYou can now hip-fire with your Shotguns while sprinting.\n\nAce: ##$pro##\nThe rate of fire of single shot Shotguns is increased by ##35%## when firing from the hip.\n\nThe magazine size of Shotguns with magazines is increased by ##15## shells.
 	--menu_far_away_beta = "Far Away",
-	menu_far_away_beta_desc = "BÁSICO: ##$basic##\nEnquanto estiver mirando com a escopeta, a sua precisão aumenta por ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nO seu bônus de precisão é aumentado por ##$multipro;## enquanto estiver mirando com a escopeta.",
-	--BASIC: ##$basic;##\nYour accuracy bonus while aiming down sights with Shotguns is increased by ##$multibasic;##.\n\nACE: ##$pro;##\nYou gain a ##$multipro;## increased effective range with Shotguns when aiming down sights.
-
-	-- TIER 4
+	menu_far_away_beta_desc = "BÁSICO: ##$basic##\nA precisão que ganha enquanto estiver mirando é aumentado por ##40%## com as escopetas.\n\nAVANÇADO: ##$pro##\nO alcance efetivo das escopetas é aumentado por ##50%## enquanto estiver mirando.",
+	--Basic: ##$basic##\nThe accuracy increase you gain from aiming down sights is increased by ##40%## when aiming down sights with Shotguns.\n\nAce: ##$pro##\nThe effective range of Shotguns is increased by ##50%## while aiming down sights.
 	--menu_overkill_beta = "Overkill",
-	menu_overkill_beta_desc = "BÁSICO: ##$basic##\nQuando você mata um inimigo com uma escopeta ou com a Serra OVE9000, você irá causar ##$multibasic;## mais de dano por ##$multibasic2;## segundos. \n\nAVANÇADO: ##$pro##\nO bônus de dano agora é aplicado em todas as armas mas a habilidade ainda precisa ser ativada com uma escopeta ou com a Serra OVE9000. Você troca de arma mais rápido por ##$multipro;##.\n\nNota: Não aplica em dano de corpo-a-corpo, granadas, lança-granadas ou lança-foguetes.",
-	--BASIC: ##$basic;##\nWhen you kill an enemy with a Shotgun or the OVE9000 portable saw, you receive a ##$multibasic;## damage increase for ##$multibasic2;## seconds.\n\nACE: ##$pro;##\nThe damage bonus now applies to all weapons. Skill must still be activated using a Shotgun or the OVE9000 portable saw. Your weapon swap speed is increased by ##$multipro;##\n\nNote: Does not apply to melee damage, throwables, grenade launchers or rocket launchers.
+	menu_overkill_beta_desc = "BÁSICO: ##$basic##\nO dano das suas escopetas e a serra OVER9000 é aumentado por ##75%## por ##20## segundos quando você matar um inimigo com essas armas.\n\nAVANÇADO: ##$pro##\nO dano é aplicado para todas outras armas. Esse efeito ainda só pode ser ativado pelas escopetas e a serra OVER9000.\n\nA velocidade de troca das armas é aumentada por ##80%##.\n\nNota: o aumento de dano não se aplica às armas corpo-a-corpo, granadas, lança-granadas, e lança-foguetes.",
+	--Basic: ##$basic##\nThe damage of your Shotguns and OVE9000 Saw is increased by ##75%## for ##20## seconds when you kill an enemy with them.\n\nAce: ##$pro##\nThe damage increase is now applied to all ranged weapons. This effect still can only be triggered by Shotguns and the OVE9000 Saw.\n\nThe swap speed of your ranged weapons is increased by ##80%##.\n\nNote: The damage increase does not apply to melee damage, throwables, grenade launchers, and rocket launchers.
 	
 	-- Second Tree (Tank)
 	--st_menu_enforcer_armor = "Tank",
-
-	-- TIER 1
 	--menu_oppressor_beta = "Resilience",
-	menu_oppressor_beta_desc = "BÁSICO: ##$basic##\nA recuperação da sua armadura é aumentada por ##$multibasic2;##. \n\nAVANÇADO: ##$pro##\nReduz a duração do efeito do Flashbangs por ##$multipro2;##.",
-	--BASIC: ##$basic;##\nIncreases your armor recovery rate by ##$multibasic2;##.\n\nACE: ##$pro;##\nReduces the visual effect duration of Flashbangs by ##$multipro2;##.
-
-	-- TIER 2
+	menu_oppressor_beta_desc = "BÁSICO: ##$basic##\nA velocidade de recuperação da armadura é aumentado por ##15%##.\n\nAVANÇADO: ##$pro##\nA duração do efeito das Flashbangs é diminuido por ##75%##.",
+	--Basic: ##$basic##\nYour armor recovery speed is increased by ##15%##.\n\nAce: ##$pro##\nThe visual effect duration of Flashbangs is decreased by ##75%##.
 	--menu_show_of_force_beta = "Die Hard",
-	menu_show_of_force_beta_desc = "BÁSICO: ##$basic##\nVocê recebe ##$multibasic;## menos dano enquanto estiver interagindo. \n\nAVANÇADO: ##$pro##\nAumenta a armadura dos coletes por ##$multipro2;##, Two-Piece Suit não conta.",
-	--BASIC: ##$basic;##\nYou take ##$multibasic;## less damage while interacting with objects.\n\nACE: ##$pro;##\nIncreases the armor of all Ballistic vests by ##$multipro2;##.
-
+	menu_show_of_force_beta_desc = "BÁSICO: ##$basic##\nVocê recebe uma redução de dano de ##50%## enquanto estiver interagindo.\n\nAVANÇADO: ##$pro##\nO valor das armaduras ##Ballistic Vest##, ##Lightweight Ballistic Vest##, e ##Heavy Ballistic Vest## é aumentado por ##20## pontos.",
+	--Basic: ##$basic##\nYou receive a ##50%## damage reduction while interacting.\n\nAce: ##$pro##\nThe armor values of the Ballistic Vest, Lightweight Ballistic Vest, and Heavy Ballistic Vest are increased by ##20## points.
 	--menu_pack_mule_beta = "Transporter",
-	menu_pack_mule_beta_desc = "BÁSICO: ##$basic##\nVocê pode jogar as bolsas ##$multibasic;## mais longe. \n\nAVANÇADO: ##$pro##\nPara cada ##$multipro2;## pontos de armadura, a penalidade de movimento da bolsa é reduzido por ##$multipro3;##.",
-	--BASIC: ##$basic;##\nYou can throw bags ##$multibasic;## further.\nACE: ##$pro;##\n\nFor each ##$multipro2;## armor points the bag movement penalty is reduced by ##$multipro3;##
-
-	-- TIER 3
+	menu_pack_mule_beta_desc = "BÁSICO: ##$basic##\nA distância para jogar a bolsa é aumentado por ##50%##.\n\nAVANÇADO: ##$pro##\nPara cada ##10## pontos de armadura que tiver equipado, a penalidade de movimento quando estiver carregando a bolsa é diminuido por ##1%##.",
+	--Basic: ##$basic##\nYour bag throwing distance is increased by ##50%##.\n\nAce: ##$pro##\nFor every ##10## points of armor you have equipped, the movement speed penalty when you carry a bag is decreased by ##1%##.
 	--menu_prison_wife_beta = "Bullseye",
-	menu_prison_wife_beta_desc = "BÁSICO: ##$basic##\nVocê regenera ##$multibasic3;## de armadura para cada tiro na cabeça. Não pode ocorrer mais de uma vez por ##$multibasic2;## segundos. \n\nAVANÇADO: ##$pro##\nVocê regenera mais ##$multipro3;## de armadura para cada tiro na cabeça.",
-	--BASIC: ##$basic;##\nYou regenerate ##$multibasic3;## armor for each successful headshot. This can not occur more than once every ##$multibasic2;## seconds.\n\nACE: ##$pro;##\nYou regenerate an additional ##$multipro3;## armor for each successful headshot.
-
+	menu_prison_wife_beta_desc = "BÁSICO: ##$basic##\nVocê regenera ##5## armadura por tiro na cabeça.\n\nNota: esse efeito só pode ocorrer uma vez cada ##2## segundos. O tiro na cabeça não precisa ser letal.\n\nAVANÇADO: ##$pro##\nA regeneração de armadura é aumentado por mais ##20## de armadura, por um total de ##25## armadura.",
+	--Basic: ##$basic##\nYou regenerate ##5## armor for getting a headshot.\n\nNote: This effect can only occur once every ##2## seconds. The headshot does not have to kill for the effect to occur.\n\nAce: ##$pro##\nThe armor regeneration is increased by an additional ##20## armor, for a total of ##25## armor.
 	--menu_iron_man_beta = "Shock and Awe",
-	menu_iron_man_beta_desc = "BÁSICO: ##$basic##\nAumenta a velocidade de recuperar a armadura para você e pro seu grupo por ##$multibasic2;##. \n\nAVANÇADO: ##$pro##\nAgora as suas armas têm uma chance de atordoar os Shields enquanto estiver atacando eles. Quanto mais alto o dano da arma for, mais chances de atordoar o Shield. A chance de atordoar com a arma de corpo-a-corpo é ##$multipro2;##.",
-	--BASIC: ##$basic;##\nIncreases the armor recovery rate for you and your crew by ##$multibasic2;##.\n\nACE: ##$pro;##\nEnables your weapons to have a chance to knock back Shield enemies when attacking them. Ranged weapons' knock back chance is increased the higher the total damage of the weapon is. Melee weapons' knock back chance is ##$multipro2;##.
-
-	-- TIER 4
+	menu_iron_man_beta_desc = "BÁSICO: ##$basic##\nA velocidade de recuperação da armadura é aumentado por ##25%##, valendo pra você e pro time.\n\nNota: Isso não acúmula com outros jogadores com ##Shock and Awe##.\n\nAVANÇADO: ##$pro##\nAs suas armas terão chance de atordoar os Shields quando atacar eles. A chance das armas de alcance para atordoar é aumentado de acordo com o dano total. Qualquer ataque da arma corpo-a-corpo é garantido para atordoar.",
+	--Basic: ##$basic##\nYou and your crew's armor recovery speed is increased by ##25%##.\n\nNote: This does not stack with other ##Shock and Awe## users.\n\nAce: ##$pro##\nEnables your weapons to have a chance to knockback Shield enemies when attacking them. Ranged weapons' knockback chance is increased the higher the total damage of the weapon. Any melee attack will guarantee a knockback.
 	--menu_juggernaut_beta = "Iron Man",
-	menu_juggernaut_beta_desc = "BÁSICO: ##$basic##\nA sua armadura é aumentado por ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nDesbloqueia o colete 'Improved Combined Tactical Vest'.",
-	--BASIC: ##$basic;##\nYour total armor value is increased by ##$multibasic;##.\n\nACE: ##$pro;##\nUnlocks the ability to wear the Improved Combined Tactical Vest.
+	menu_juggernaut_beta_desc = "BÁSICO: ##$basic##\nO valor da armadura é aumentado por ##30%##.\n\nAVANÇADO: ##$pro##\nVocê pode equipar agora ##Improved Combined Tactical Vest## como uma armadura.",
+	--Basic: ##$basic##\nYour armor value is increased by ##30%##.\n\nAce: ##$pro##\nYou can now equip the Improved Combined Tactical Vest as an armor.
 
 	-- Third Tree (Ammo Specialist)
 	--st_menu_enforcer_ammo = "Ammo Specialist",
-
-	-- TIER 1
 	--menu_scavenging_beta = "Scavenger",
-	menu_scavenging_beta_desc = "BÁSICO: ##$basic##\nO seu alcance da munição soltada no chão pelos políciais aumenta em ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nA cada seis inimigos mortos, terá uma caixa de munição extra.",
-	--BASIC: ##$basic;##\nYour ammo box pick up range is increased by ##$multibasic;##.\n\nACE: ##$pro;##\nEvery 6th enemy you kill will drop an extra ammo box.
-
-	-- TIER 2
+	menu_scavenging_beta_desc = "BÁSICO: ##$basic##\nO alcance para pegar a munição deixado pelos inimigos mortos é aumentado por ##50%##.\n\nAVANÇADO: ##$pro##\nCada ##sexto## inimigo que você matar soltará munição extra.",
+	--Basic: ##$basic##\nThe range you pick up ammo boxes dropped by enemies is increased by ##50%##.\n\nAce: ##$pro##\nEvery ##6th## enemy you kill will drop an extra ammo box.
 	--menu_ammo_reservoir_beta = "Bulletstorm",
-	menu_ammo_reservoir_beta_desc = "BÁSICO: ##$basic##\nAs suas bolsas de munição vai dar a habilidade de atirar com munição infinita para você e o seu grupo com duração de até ##$multibasic;## segundos depois de ter interagido. Quanto mais munição recuperar, mais duração do efeito terá. \n\nAVANÇADO: ##$pro##\nAumenta a duração base do efeito por até ##$multipro2;## segundos.",
-	--BASIC: ##$basic;##\nAmmo bags placed by you grant players the ability to shoot without depleting their ammunition for up to ##$multibasic;## seconds after interacting with it. The more ammo players replenish, the longer the duration of the effect.\n\nACE: ##$pro;##\nIncreases the base duration of the effect by up to ##$multipro2;## seconds.
-
-	--menu_portable_saw_beta = "Portable Saw",
-	menu_portable_saw_beta_desc = "BÁSICO: ##$basic##\nDesbloqueia a serra OVE9000 para você usar como secundária. \n\nAVANÇADO: ##$pro##\nVocê ganha ##$multipro;## serra extra para a serra OVE9000. Você substitua as suas serras com as serras de carborno, aumentando a eficiência da serra por ##$multipro2;##.",
-	--BASIC: ##$basic;##\nUnlocks the OVE9000 portable saw for you to use as a secondary weapon.\n\nACE: ##$pro;##\nYou gain ##$multipro;## extra saw blade for the OVE9000 portable saw. You replace your saw blades with carbon blades, increasing your saw efficiency by ##$multipro2;##.
-
-	-- TIER 3
+	menu_ammo_reservoir_beta_desc = "BÁSICO: ##$basic##\nQuando você ou outros membros do time usam a sua Bolsa de Munição, as armas podem atirar sem consumir munição até no máximo de ##5## segundos. Quanto mais munição for recuperada, mais longo o efeito.\n\nNota: armas com cano inferior conta como ##2## armas e vai consumir mais munição da Bolsa de Munição.\n\nAVANÇADO: ##$pro##\nO máximo da duração do efeito é aumentado por mais ##15## segundos, por um total de ##20## segundos.\n\nNota: se você ou outros membros de time consumirem o resto da Bolsa de Munição, eles vão receber o efeito máximo do efeito ##Bulletstorm##.\n\nBásico - ##15## segundos\nAvançado - ##60## segundos",
+	--Basic: ##$basic##\nWhen you or your crew members use your Ammo Bag, the user's ranged weapons can be fired without consuming ammo for up to ##5## seconds. The more ammo replenished, the longer the effect.\n\nNote: Weapons with underbarrels count as ##2## weapons and will consume more ammo from the Ammo Bag.\n\nAce: ##$pro##\nThe maximum effect duration is increased by an additional ##15## seconds, for a total of ##20## seconds.\n\nNote: If you or a crew member consume the remainder of the Ammo Bag, they will recieve a flat ##Bulletstorm## effect.\n\nBasic - ##15## seconds\nAce - ##60## seconds
+	menu_portable_saw_beta_desc = "BÁSICO: ##$basic##\nVocê agora pode comprar e equipar a serra OVE9000 como secundária.\n\nAVANÇADO: ##$pro##\nA serra OVE9000 agora vem com mais ##1## lâmina.\n\nAs lâminas ficam ##40%## mais eficiente.",
+	--Basic: ##$basic##\nYou can now buy and equip the OVE9000 Saw as a secondary weapon.\n\nAce: ##$pro##\nThe OVE9000 Saw now comes with ##1## additional blade.\n\nThe OVE9000 Saw blades are ##40%## more efficient.
 	--menu_carbon_blade_beta = "Saw Massacre",
-	menu_carbon_blade_beta_desc = "BÁSICO: ##$basic##\nReduz o desgaste das serras usado nos inimigos por ##$multibasic2;##. \n\nAVANÇADO: ##$pro##\nVocê agora pode serrar os Shields com a sua serra OVE9000. Quando matar qualquer inimigo com a serra, você tem ##$multipro;## de chance para causar pânico em inimigos em um raio de ##$multipro3;## metros. O pânico vai deixar o inimigo atordoado.",
-	--BASIC: ##$basic;##\nReducing the wear down of the blades on enemies by ##$multibasic2;##.\n\nACE: ##$pro;##\nYou can now saw through shield enemies with your OVE9000 portable saw. When killing an enemy with the saw, you have a ##$multipro;## chance to cause nearby enemies in a ##$multipro3;## m radius to panic. Panic will make enemies go into short bursts of uncontrollable fear.
-
+	menu_carbon_blade_beta_desc = "BÁSICO: ##$basic##\nA deterioração das lâminas da serra OVE9000 é reduzido por ##50%## se usado em um inimigo.\n\nAVANÇADO: ##$pro##\nVocê pode serrar os escudos dos Shields1 com a serra OVE9000\n\nQuando matar um inimigo com a serra OVE9000, você tem uma chance de ##50%## para causar medo nos inimigos em um raio de ##10## metros, fazendo eles ficarem atordoados e impossibilidados de atacarem e se mover.\n\nNota: o efeito de pânico ainda pode ocorrer se matar um inimigo com uma granada desde que a serra OVE9000 esteja nas suas mãos quando ele morrer.",
+	--Basic: ##$basic##\nThe deterioration of the blades on the OVE9000 Saw is reduced by ##50%## if used on an enemy.\n\nAce: ##$pro##\nYou can now saw through Shield enemies with the OVE9000 Saw.\n\nWhen killing an enemy with the OVE9000 Saw, you have a ##50%## chance to cause nearby enemies in a ##10## meter radius to panic, making them go into short bursts of uncontrollable fear and leaving them unable to move or attack.\n\nNote: The panic effect can still occur if you kill an enemy with a throwable as long as the OVE9000 Saw is out when the enemy is killed.
 	--menu_ammo_2x_beta = "Extra Lead",
-	menu_ammo_2x_beta_desc = "BÁSICO: ##$basic##\nVocê agora pode colocar ##$multibasic;## bolsas de munição invés de uma. \n\nAVANÇADO: ##$pro##\nCada bolsa de munição agora contém ##$multipro;## mais munição.",
-	--BASIC: ##$basic;##\nYou can now place ##$multibasic;## ammo bags instead of just one. \n\nACE: ##$pro;##\nEach ammo bag now contains ##$multipro;## more ammunition.
-
-	-- TIER 4
+	menu_ammo_2x_beta_desc = "BÁSICO: ##$basic##\nVocê agora pode carregar mais ##1## Bolsa de Munição, por um total de ##2## Bolsas de Munição.\n\nNota: cada Bolsa de Munição contém ##400%## de munição.\n\nAVANÇADO: ##$pro##\nQuando colocadas, as suas Bolsas de Munição agora contém mais ##200%## de munição, por um total de ##600%## de munição em cada Bolsa.",
+	--Basic: ##$basic##\nYou can now carry ##1## additional Ammo Bag, for a total of ##2## Ammo Bags.\n\nNote: Each Ammo Bag contains ##400%## ammo.\n\nAce: ##$pro##\nYour Ammo Bags when deployed now contain an additional ##200%## ammo, for a total of ##600%## ammo in each Ammo Bag.
 	--menu_bandoliers_beta = "Fully Loaded",
-	menu_bandoliers_beta_desc = 'BÁSICO: ##$basic##\nA sua capacidade de munição é aumentado por ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nAumenta a quantidade de munição que você pega do chão por ##$multipro2;##. Você ganha uma base de chance de ##$multipro3;## para recuperar uma granada da munição soltada no chão. A chance é aumentada por ##$multipro4;## para cada munição coletada que não conter uma granada. Quando uma granada é achada, a chance é redefinida para a sua base de chance.\n\nNota: O efeito não soma com o Perk Deck "Só por precaução".',
-	--BASIC: ##$basic;##\nYour total ammo capacity is increased by ##$multibasic;##.\n\nACE: ##$pro;##\nIncreases the amount of ammo you gain from ammo boxes by ##$multipro2;##. You also gain a ##$multipro3;## base chance to get a throwable from an ammo box. The base chance is increased by ##$multipro4;## for each ammo box you pick up that does not contain a throwable. When a throwable has been found, the chance is reset to its base value.\n\nNote: Does not stack with the perk deck skill "Walk-in Closet".
+	menu_bandoliers_beta_desc = 'BÁSICO: ##$basic##\nA capacidade de munição total é aumentado por ##25%##.\n\nAVANÇADO: ##$pro##\nVocê ganha ##75%## mais de munição com as caixas que os inimigos soltam no chão quando morrem. A chance de pegar uma granada das caixas de munição é ##5%##, se não pegar uma granada aumenta ##1%## por cada caixa que pegar. Quando pegar uma granada, a chance volta para ##5%##.\n\nNota: Esta skill não acúmula com o Perk Deck ##Só por precaução##.',
+	--Basic: ##$basic##\nYour total ammo capacity is increased by ##25%##.\n\nAce: ##$pro##\nYou gain ##75%## more ammo from ammo boxes dropped by enemies.\n\nYou gain a ##5%## base chance to get a throwable from an ammo box dropped by enemies. The base chance is increased by ##1%## of the original ##5%## chance for each ammo box you pick up that does not contain a throwable. When a throwable has been picked up, the chance is reset to the base ##5%##.\n\nNote: This skill does not stack with the perk card ##Walk-in Closet##.
 
 	-- Technician
 	-- First Tree (Engineer)
 	--st_menu_technician_sentry = "Engineer",
-
-	-- TIER 1
 	--menu_defense_up_beta = "Third Law",
-	menu_defense_up_beta_desc = "BÁSICO: ##$basic##\nO custo para se colocar uma Sentinela é reduzido em ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nSuas Sentinelas agora possuem um escudo que as protege.",
-	--BASIC: ##$basic;##\nThe cost of deploying a sentry gun is reduced by ##$multibasic;##.\n\nACE: ##$pro;##\nYour sentry guns gain a protective shield.
-
-	-- TIER 2
+	menu_defense_up_beta_desc = "BÁSICO: ##$basic##\nO custo da munição para colocar as Sentinelas é diminuido por ##5%##.\n\nAVANÇADO: ##$pro##\nAs suas Sentinelas ganham um escudo que o protege. Se um projétil do inimigo acertar o escudo da Sentinela, nenhum dano é sofrido.",
+	--Basic: ##$basic##\nThe ammo cost of your Sentry Guns' deployment is decreased by ##5%##.\n\nAce: ##$pro##\nYour Sentry Guns gain a protective shield. If enemy projectiles hit the shield of a Sentry Gun, no damage is dealt to the Sentry Gun.
 	--menu_sentry_targeting_package_beta = "Sentry Targeting Package",
-	menu_sentry_targeting_package_beta_desc = "BÁSICO: ##$basic##\nSuas Sentinelas ficam ##$multibasic;## mais precisas. \n\nAVANÇADO: ##$pro##\nA velocidade de rotação das suas Sentinelas é aumentada em ##$multipro;##. As suas Sentinelas também ganham ##$multipro2;## mais munição.",
-	--BASIC: ##$basic;##\nYour sentry guns gain a ##$multibasic;## increase in accuracy.\n\nACE: ##$pro;##\nYour sentry guns rotation speed is increased by ##$multipro;##. Your sentry guns also have ##$multipro2;## more ammunition.
-
+	menu_sentry_targeting_package_beta_desc = "BÁSICO: ##$basic##\nA precisão das Sentinelas é aumentada por ##100%##.\n\nAVANÇADO: ##$pro##\nA velocidade da rotação das suas Sentinelas é aumentada ##150%##.\n\nAs suas Sentinelas têm mais ##50%## de munição antes de acabar.",
+	--Basic: ##$basic##\nYour Sentry Guns' accuracy is increased by ##100%##.\n\nAce: ##$pro##\nYour Sentry Guns' speed at which they rotate is increased by ##150%##.\n\nYour Sentry Guns have ##50%## more ammunition before running out.
 	--menu_eco_sentry_beta = "Eco Sentry",
-	menu_eco_sentry_beta_desc = "BÁSICO: ##$basic##\nO custo para se colocar uma Sentinela é reduzido em ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nA vida das suas Sentinelas é aumentada em ##$multipro;##.",
-	--BASIC: ##$basic;##\nThe cost of deploying a sentry gun is reduced by ##$multibasic;##.\n\nACE: ##$pro;##\nYour sentry guns gain ##$multipro;## increased health.
-
-	-- TIER 3
+	menu_eco_sentry_beta_desc = "BÁSICO: ##$basic##\nO custo da munição para colocar as Sentinelas é diminuido por mais ##15%##, por um total de ##10%##.\n\nAVANÇADO: ##$pro##\nA vida das suas Sentinelas é aumentado por ##150%##.",
+	--Basic: ##$basic##\nThe ammo cost of your Sentry Guns' deployment is decreased by an additional ##5%##, for a total of ##10%##.\n\nAce: ##$pro##\nThe health of your Sentry Guns is increased by ##150%##.
 	--menu_jack_of_all_trades_beta = "Jack of All Trades",
-	menu_jack_of_all_trades_beta_desc = 'BÁSICO: ##$basic##\nA Velocidade das interações ao colocar todos os Equipamentos é aumentada em ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nAgora você pode equipar um Equipamento Secundário. Se um Equipamento for equipado como secundário, você apenas poderá levar a metade do que você levaria se fosse primária.\nPressione o $BTN_CHANGE_EQ; para alternar entre os Equipamentos.',
-	--BASIC: ##$basic;##\nYou deploy and interact with all deployables ##$multibasic;## faster.\n\nACE: ##$pro;##\nYou can now equip a secondary deployable to bring with you. If your deployable is equipped as a secondary deployable, you can only bring half of what you would bring if it was equipped as a primary deployable.\n\nPress  to toggle between deployables.
-
+	menu_jack_of_all_trades_beta_desc = 'BÁSICO: ##$basic##\nA velocidade das interações com os equipamentos é aumentado por ##100%##.\n\nAVANÇADO: ##$pro##\nVocê agora pode equipar um equipamento secundário. O equipamento secundário só pode ter a metade do que teria se tivesse como primária.\nPressione o $BTN_CHANGE_EQ; para alternar entre os Equipamentos.',
+	--Basic: ##$basic##\nThe speed at which you deploy and interact with all deployables is increased by ##100%##.\n\nAce: ##$pro##\nYou can now equip a second deployable to bring with you. Your secondary deployable can only bring half of what it normally would carry if it was in your primary deployable slot.
 	--menu_engineering_beta = "Engineering",
-	menu_engineering_beta_desc = "BÁSICO: ##$basic##\nVocê pode equipar uma Sentinela Silenciada que faz menos barulho, fazendo ter menos atenção dos policiais. \n\nNota: não poderá usá-lo em Stealth.\n\nAVANÇADO: ##$pro##\nAgora você pode mudar o tipo de munição das suas Sentinelas para a munição AP, reduzindo a velocidade de tiro em ##$multipro;## mas aumentando o dano em ##250%## e permitindo que a bala atravesse os escudos dos Shields e os coletes de alguns inimigos.",
-	--BASIC: ##$basic;##\nYou can now select a less noisy version of the sentry guns, making them much less likely to be targeted by enemies.\n\nACE: ##$pro;##\nYou can now toggle AP rounds on your sentry guns, lowering the rate of fire by ##$multipro;##, but increasing damage by ##$multipro2;## and allowing it to pierce through enemies and shields.
-
-	-- TIER 4
+	menu_engineering_beta_desc = "BÁSICO: ##$basic##\nVocê pode equipar a Sentinela Silenciada.\n\nAVANÇADO: ##$pro##\nVocê agora pode alternar a munição AP nas suas Sentinelas. As suas Sentinelas no modo AP recebem ##250%## a mais de dano e agora pode perfurar o colete dos inimigos e o escudo dos Shields, mas também recebem ##75%## de redução na taxa de cadência de tiro.",
+	--Basic: ##$basic##\nYou can now equip the Suppressed Sentry Gun as a deployable.\n\nAce: ##$pro##\nYou can now toggle an AP mode on your Sentry Guns. Your Sentry Guns in AP mode recieve a ##250%## damage increase and can now pierce through enemy body armor and Shields, but also receive a ##75%## rate of fire decrease.
 	--menu_tower_defense_beta = "Tower Defense",
-	menu_tower_defense_beta_desc = "BÁSICO: ##$basic##\nVocê pode carregar ##$multibasic;## Sentinelas extras. \n\nAVANÇADO: ##$pro##\nVocê pode carregar ##$multipro;## Sentinelas extras.",
-	--BASIC: ##$basic;##\nYou can now carry ##$multibasic;## extra sentry gun.\n\nACE: ##$pro;##\nYou can now carry an additional ##$multipro;## extra sentry guns.
+	menu_tower_defense_beta_desc = "BÁSICO: ##$basic##\nVocê agora pode carregar ##1## Sentinela extra, por total de ##2##.\n\nAVANÇADO: ##$pro##\nVocê agora pode carregar ##2## Sentinelas extras, por total de ##4## Sentinelas.",
+	--Basic: ##$basic##\nYou can now carry ##1## extra Sentry Gun, for a total of ##2## Sentry Guns.\n\nAce: ##$pro##\nYou can now carry ##2## extra Sentry Guns, for a total of ##4## Sentry Guns.
 
 	-- Second Tree (Breacher)
 	--st_menu_technician_breaching = "Breacher",
-
-	-- TIER 1
 	--menu_hardware_expert_beta = "Hardware Expert",
-	menu_hardware_expert_beta_desc = "BÁSICO: ##$basic##\nVocê pode consertar as furadeiras e serras ##$multibasic;## mais rápido. Reduz o tempo de colocar as Trip Mines em ##$multibasic2;##. Furadeiras e Serras agora são silenciosas. Civis e Guardas agora devem ver a sua Furadeira ou Serra para ficarem alertados. \n\nAVANÇADO: ##$pro##\nSua Furadeira ou Serra ganham uma chance de ##$multipro3;## para se consertarem automaticamente depois de quebrarem. \n\nNota: Esse efeito não se aplica ao OVE9000 Saw.",
-	--BASIC: ##$basic;##\nYou fix drills and saws ##$multibasic;## faster. Decreases trip mine deploy time by ##$multibasic2;##. Drills and saws are also silent. Civilians and guards must see the drill or saw in order to become alerted.\n\nACE: ##$pro;##\nGives your drills and saws a ##$multipro3;## chance to automatically restart after breaking.\n\nNote: Skill does not affect the OVE9000 saw.
-
-	-- TIER 2
+	menu_hardware_expert_beta_desc = "BÁSICO: ##$basic##\nVocê conserta furadeiras e serras ##25%## mais rápido.\n\nO tempo para colocar as Trip Mines é diminuido por ##20%##.\n\nAs furadeiras e as serras que você colocar serão silenciosas. Civis e guardas devem ter a visão da furadeira ou serra para estarem alertados.\n\nAVANÇADO: ##$pro##\nQuando você colocar uma furadeira ou serra tem uma chance de ##10%## que serão consertados automaticamente quando quebrem. O auto-conserto tem um atraso entre ##5## e ##20## segundos para ter efeito.",
+	--Basic: ##$basic##\nYou fix drills and saws ##25%## faster.\n\nYour Trip Mine deploy time is decreased by ##20%##.\n\nThe drills and saws you place are now silent. Civilians and guards must see the drill or saw in order to become alerted.\n\nAce: ##$pro##\nWhen you place a drill or saw there is a ##10%## chance that the drill or saw will auto-repair every time it's jammed. The auto-restart has a ##5-20## second delay to trigger.
 	--menu_combat_engineering = "Combat Engineering",
-	menu_combat_engineering_desc = "BÁSICO: ##$basic##\nO raio de explosão da sua Trip Mine é aumentada em ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nO dano de sua Trip Mine é aumentado em ##$multipro;##",
-	--BASIC: ##$basic;##\nThe radius of your trip mine explosion is increased by ##$multibasic;##.\n\nACE: ##$pro;##\nYour trip mine damage is increased by ##$multipro;##.
-
+	menu_combat_engineering_desc = "BÁSICO: ##$basic##\nO raio de explosão das suas Trip Mines é aumentado por ##30%##.\n\nAVANÇADO: ##$pro##\nO dano das suas Trip Mines é aumentado por ##50%##.",
+	--Basic: ##$basic##\nThe explosion radius of your Trip Mines is increased by ##30%##.\n\nAce: ##$pro##\nThe damage of your Trip Mines is increased by ##50%##.
 	--menu_drill_expert_beta = "Drill Sawgeant",
-	menu_drill_expert_beta_desc = "BÁSICO: ##$basic##\nO timer da sua Furadeira ou Serra é diminuido em ##$multibasic;##. \n\nAVANÇADO: ##$pro##\nO timer da sua Furadeira ou Serra é diminuido em mais ##$multipro;##. \n\nNota: Esse efeito não se aplica ao OVE9000 Saw.",
-	--BASIC: ##$basic;##\nYour drill and saw timer is decreased by ##$multibasic;##.\n\nACE: ##$pro;##\nYour drill and saw timer is decreased by an additional ##$multipro;##.\n\nNote: Skill does not affect the OVE9000 saw.
-
-	-- TIER 3
+	menu_drill_expert_beta_desc = "BÁSICO: ##$basic##\nAs furadeiras e serras que você colocar vão ter o tempo reduzido por ##15%##.\n\nAVANÇADO: ##$pro##\nAs furadeiras e serras que você colocar vão ter o tempo reduzido por mais ##15%##, por um total de ##30%##.",
+	--Basic: ##$basic##\nThe drills and saws you place receive a ##15%## decreased timer.\n\nAce: ##$pro##\nThe drills and saws you place receive an additional ##15%## decreased timer, for a total of ##30%##.
 	--menu_kick_starter_beta = "Kickstarter",
-	menu_kick_starter_beta_desc = "BÁSICO: ##$basic##\nAs suas Furadeiras e Serras ganham ##$multibasic;## a mais de chance de se consertar sozinhas assim que quebrarem. \n\nAVANÇADO: ##$pro##\nAgora você pode consertar as suas Furadeiras ou Serras com um ataque de alguma arma corpo-a-corpo. Tem ##$multipro2;## de chance de consertar a furadeira ou serra. Só pode ser usada uma vez por Furadeira ou Serra quebrada. \n\nNota: esse efeito não aplica ao OVE9000 Saw.",
-	--BASIC: ##$basic;##\nYour drills and saws gain an additional ##$multibasic;## chance to automatically restart after breaking.\n\nACE: ##$pro;##\nEnables the ability to reset a broken drill or saw with a melee attack. The ability has a ##$multipro2;## chance to fix the drill or saw. The ability can only be used once per time the drill or saw is broken.\n\nNote: Skill does not affect the OVE9000 saw.
-
+	menu_kick_starter_beta_desc = "BÁSICO: ##$basic##\nQuando você coloca uma furadeira ou serra, tem uma chance de ##20%## de ser consertado automaticamente quando quebrar. O auto-conserto tem um atraso entre ##5## e ##20## segundos para ter efeito.\n\nNota: Esta skill pode acúmular com a versão avançada de ##Hardware Expert##, por uma chance total de ##30%##.\n\nAVANÇADO: ##$pro##\nQuando uma furadeira ou serra quebrar, você agora tem uma chance de ##50%## de consertá-la com um ataque corpo-a-corpo. A habilidade só tem uma tentativa por cada vez quando a furadeira ou a serra quebrar.",
+	--Basic: ##$basic##\nWhen you place a drill or saw there is a ##20%## chance that the drill or saw will auto-repair every time it jams. The auto-restart has a ##5-20## second delay to trigger.\n\nNote: This skill can be stacked with the Ace version of ##Hardware Expert##, for a total auto-restart chance of ##30%##.\n\nAce: ##$pro##\nWhen a drill or saw breaks, you now have a ##50%## chance to restart it with a melee attack. The ability can only be tried once per time the drill or saw is broken.
 	--menu_more_fire_power = "More Firepower",
-	menu_more_fire_power_desc = "BÁSICO: ##$basic##\nVocê ganha mais ##$multibasic;## Carga Explosiva e mais ##$multibasic2;## Trip Mines. \n\nAVANÇADO: ##$pro##\nVocê ganha mais ##$multipro;## Cargas Explosivas e mais ##$multipro2;## Trip Mines.",
-	--BASIC: ##$basic;##\nYou gain ##$multibasic;## more shaped charge and ##$multibasic2;## more trip mines.\n\nACE: ##$pro;##\nYou gain ##$multipro;## more shaped charges and ##$multipro2;## more trip mines.
-
-	-- TIER 4
+	menu_more_fire_power_desc = "BÁSICO: ##$basic##\nVocê pode carregar por mais ##4## Trip Mines e ##1## Carga Explosiva, por um total de ##7## Trip Mines e ##4## Cargas Explosivas.\n\nAVANÇADO: ##$pro##\nVocê pode carregar por mais ##7## Trip Mines e ##2## Cargas Explosivas, por um total de ##14## Trip Mines e ##6## Cargas Explosivas.",
+	--Basic: ##$basic##\nYou can now carry an additional ##4## Trip Mines and ##1## Shaped Charge, for a total of ##7## Trip Mines and ##4## Shaped Charges.\n\nAce: ##$pro##\nYou can now carry an additional ##7## Trip Mines and ##2## Shaped Charges, for a total of ##14## Trip Mines and ##6## Shaped Charges.
 	--menu_fire_trap_beta = "Fire Trap",
-	menu_fire_trap_beta_desc = "BÁSICO: ##$basic##\nAs suas Trip Mines agora espalham fogo em uma área de ##$multibasic;## metros, por ##$multibasic2;## segundos. \n\nAVANÇADO: ##$pro##\nAumenta a duração do fogo em ##$multipro;## segundos e aumenta a área do fogo espalhado em ##$multipro2;##.",
-	--BASIC: ##$basic;##\nYour trip mines now spread fire around the area of detonation for ##$multibasic;## seconds in a ##$multibasic2;## meter diameter.\n\nACE: ##$pro;##\nIncreases the fire effect duration by ##$multipro;## seconds and increases the fire effect radius by ##$multipro2;##.
-
+	menu_fire_trap_beta_desc = "BÁSICO: ##$basic##\nAs suas Trip Mines colocadas vão espalhar fogo em um raio de ##4## metros ao redor da área da explosão por ##10## segundos.\n\nAVANÇADO: ##$pro##\nO raio do fogo aumenta por ##50%##, totalizando um raio de ##6## metros.\n\nA duração do fogo é aumentado por mais ##10## segundos, por um total de ##20## segundos.",
+	--Basic: ##$basic##\nYour deployed Trip Mines will now spread fire in a ##4## meter radius around the area of detonation for ##10## seconds.\n\nAce: ##$pro##\nThe effect radius of the fire is increased by ##50%##, for a total of a ##6## meter radius.\n\nThe effect duration of the fire is increased by an additional ##10## seconds, for a total of ##20## seconds.
 
 	-- Third Tree (Oppressor)
 	--st_menu_technician_auto = "Oppressor",
-
-	-- TIER 1
 	--menu_steady_grip_beta = "Steady Grip",
-	menu_steady_grip_beta_desc = "BÁSICO: ##$basic##\nGanha ##$multibasic;## de Precisão para todas as armas. \n\nAVANÇADO: ##$pro##\nGanha ##$multipro;## de Estabilidade para todas as armas.",
-	--BASIC: ##$basic;##\nYou gain ##$multibasic;## weapon accuracy.\n\nACE: ##$pro;##\nYou gain ##$multipro;## weapon stability.
-
-	-- TIER 2
+	menu_steady_grip_beta_desc = "BÁSICO: ##$basic##\nAumenta a precisão das suas armas por ##8##.\n\nAVANÇADO: ##$pro##\nAumenta a estabilidade das suas armas por ##16##.",
+	--Basic: ##$basic##\nThe accuracy of your ranged weapons is increased by ##8##.\n\nAce: ##$pro##\nThe stability of your ranged weapons is increased by ##16##.
 	--menu_heavy_impact_beta = "Heavy Impact",
-	menu_heavy_impact_beta_desc = "BÁSICO: ##$basic;##\nOs seus tiros possuem uma chance de ##$multibasic;## de atordoar todos os inimigos, exceto os ##Bulldozers## e o ##Captain Winters##.\n\nAVANÇADO: ##$pro;##\nA Chance aumenta até ##$multipro;##.",
-	--BASIC: ##$basic;##\nYour shots have a ##$multibasic;## chance to stagger all enemies except Bulldozers and Captain Winters.\n\nACE: ##$pro;##\nIncreases your stagger chance to ##$multipro;##.
-
+	menu_heavy_impact_beta_desc = "BÁSICO: ##$basic;##\nAs uas armas agora tem uma chance de ##5%## para causar um inimigo para ficar atordoado.\n\nNota: este efeito não se aplica em Bulldozers e Capitão Winters.\n\nAVANÇADO: ##$pro;##\nA chance de atordoamento é aumentado por mais ##15%##, por um total de ##20%##.",
+	--Basic: ##$basic##\nYour ranged weapons now have a ##5%## chance to cause an enemy to stagger.\n\nNote: This effect does not apply to Bulldozers and Captain Winters.\n\nAce: ##$pro##\nThe stagger chance is increased by an additional ##15%##, for a total of ##20%##.
 	--menu_fire_control_beta = "Fire Control",
-	menu_fire_control_beta_desc = "BÁSICO: ##$basic##\nGanha ##$multibasic;## de Precisão quando atira sem mirar. \n\nAVANÇADO: ##$pro##\nA sua penalidade de Precisão, enquanto se move, é diminuida em ##$multipro;##",
-	--BASIC: ##$basic;##\nYou gain ##$multibasic;## weapon accuracy while firing from the hip.\n\nACE: ##$pro;##\nYour accuracy penalty is decreased by ##$multipro;## when shooting while moving.
-
-	-- TIER 3
+	menu_fire_control_beta_desc = "BÁSICO: ##$basic##\nA precisão das suas armas enquanto não estiver mirando é aumentado por ##12##.\n\nAVANÇADO: ##$pro##\nA penalidade de precisão das armas enquando se move é diminuido por ##20%##.",
+	--Basic: ##$basic##\nThe accuracy of your ranged weapons while firing from the hip is increased by ##12##.\n\nAce: ##$pro##\nThe accuracy penalty of your ranged weapons when you fire while moving is decreased by ##20%##.
 	--menu_fast_fire_beta = "Surefire",
-	menu_fast_fire_beta_desc = 'BÁSICO: ##$basic##\nSuas Submetralhadoras, Rifles de Assalto e Armas Pesadas ganham ##$multibasic;## balas nos seus carregadores. Isso não afeta a skill avançada do "Lock n Load". \n\nAVANÇADO: ##$pro##\nTodas as suas armas podem causar perfuração no colete dos inimigos. \n\nNota: Isso não aplica nas armas corpo-a-corpo e nas granadas.',
-	--BASIC: ##$basic;##\nYour SMGs, LMGs and Assault Rifles gain ##$multibasic;## more bullets in their magazines. This does not affect the "Lock n' Load" Ace skill.\n\nACE: ##$pro;##\nYour ranged weapons can now pierce through enemy body armor.\n\nNote: Does not apply to throwable weapons.
-
+	menu_fast_fire_beta_desc = "BÁSICO: ##$basic##\nAs suas submetralhadoras, rifles de assalto, e metralhadoras pesadas ganham mais ##15## balas no carregador. Isso não afeta a versão Avançada da skill ##Lock N\' Load##.\n\nAVANÇADO: ##$pro##\nAs suas armas agora podem perfurar a armadura dos inimigos.\n\nNota: a perfuração não se aplica em granadas.",
+	--Basic: ##$basic##\nYour SMGs, Assault Rifles, and LMGs gain ##15## more bullets in their magazine. This does not affect the Ace version of the ##Lock N' Load## skill.\n\nAce: ##$pro##\nYour ranged weapons can now pierce through enemy body armor.\n\nNote: The piercing effect do not apply to throwables.
 	--menu_shock_and_awe_beta = "Lock n' Load",
-	menu_shock_and_awe_beta_desc = "BÁSICO: ##$basic##\nVocê poderá agora correr e atirar ao mesmo tempo com as suas armas.\n\nAVANÇADO: ##$pro##\nMatando ##$multipro;## inimigos com Submetralhadoras, Rifles de Assalto, Armas Pesadas ou Armas Especiais, com o modo automático, vai aumentar a velocidade de recarregar a arma em até ##$multipro2;##. Esse bônus é reduzido em ##$multipro3;## para cada bala dentro do carregador, acima de ##$multipro4;##, o mínimo é ##$multipro5;## de velocidade de recarregar a arma.",
-	--BASIC: ##$basic;##\nYou can now hip-fire with your weapons while sprinting.\n\nACE: ##$pro;##\nKilling ##$multipro;## enemies with SMGs, LMGs, Assault Rifles or Special Weapons set on automatic fire mode will increase your next reload speed by up to ##$multipro2;##. This bonus is reduced by ##$multipro3;## for each bullet above ##$multipro4;## in the total magazine size, down to a minimum of ##$multipro5;## reload speed increase.
-
-	-- TIER 4
+	menu_shock_and_awe_beta_desc = "BÁSICO: ##$basic##\nVocê agora pode atirar e correr, sem mirar, ao mesmo tempo.\n\nAVANÇADO: ##$pro##\nMatando ##2## inimigos com as armas no modo automático vai aumentar a velocidade de recarga até no máximo ##100%##. O aumento vai ser reduzido por ##1%## para cada bala acima de ##20## no tamanho total do carregador, no mínimo com um aumento de ##40%##.\n\nNota: este efeito pode ser ativado por pistolas, submetralhadoras, escopetas, rifles de assalto, metralhadoras pesadas e especiais.",
+	--Basic: ##$basic##\nYou can now hip-fire with your weapons while sprinting.\n\nAce: ##$pro##\nKilling ##2## enemies with weapons in automatic fire mode will increase your next reload speed by up to ##100%##. This increase is reduced by ##1%## for each bullet above ##20## in the total magazine size, down to a minimum of ##40%## reload speed increase.\n\nNote: This effect can be triggered by Pistols, SMGs, Shotguns, Assault Rifles, LMGs, and Specials.
 	--menu_body_expertise_beta = "Body Expertise",
-	menu_body_expertise_beta_desc = "BÁSICO: ##$basic##\nOs ##$multibasic;## de dano bônus do tiro na cabeça se aplicará em qualquer parte do corpo. Este efeito só aplicará em armas SMGs, Rifles de Assalto, LMGs e Especiais no modo de tiro automático. \n\nAVANÇADO: ##$pro##\nOs ##$multipro;## de dano bônus do tiro na cabeça se aplicará em qualquer parte do corpo. Este efeito só aplicará em armas SMGs, Rifles de Assalto, LMGs e Especiais no modo de tiro automático.",
-	--BASIC: ##$basic;##\n##$multibasic;## from the bonus headshot damage is permanently applied to hitting enemies on the body. This skill is only activated by SMGs, LMGs, Assault Rifles or Special Weapons fired in automatic fire mode.\n\nACE: ##$pro;##\n##$multipro;## from the bonus headshot damage is permanently applied to hitting enemies on the body. This skill is only activated by SMGs, LMGs, Assault Rifles or Special Weapons fired in automatic fire mode.
+	menu_body_expertise_beta_desc = "BÁSICO: ##$basic##\nQuando usar submetralhadoras, rifles de assalto, metralhadoras pesadas e especiais no modo automático, atirando no corpo do inimigo causará ##30%## do dano base do tiro na cabeça.\n\nNota: o dano não se aplica aos Bulldozers e Capitão Winters. Funciona com arcos e a Serra OVE9000.\n\nAVANÇADO: ##$pro##\nO dano é aumentado por mais ##60%## da base do tiro na cabeça, por um total de ##90%##.",
+	--Basic: ##$basic##\nWhen shooting SMGs, Assault Rifles, LMGs, and Specials in automatic fire mode, shooting an enemy in the body will deal ##30%## of the base headshot damage multiplier.\n\nNote: The damage increase does not apply to Bulldozers and Captain Winters. This effect also applies to Bows and the OVE9000 Saw.\n\nAce: ##$pro##\nThe damage is increased by an additional ##60%## of the headshot multiplier, for a total of ##90%##.
 
 	-- Ghost
 	-- First Tree (Shinobi)
 	--st_menu_ghost_stealth = "Shinobi",
-
-	-- TIER 1
 	--menu_jail_workout_beta = "Chameleon",
-	menu_jail_workout_beta_desc = "BÁSICO: ##$basic##\nAumenta em ##$multibasic3;## o tempo para que os guardas começam a te detectar enquanto estiver no Modo de Investigação. \n\nAVANÇADO: ##$pro##\nVocê pode pegar itens enquanto estiver no Modo de Investigação. Também ganha um bônus de ##$multipro;## para todo item de valor que você pegar.",
-	--BASIC: ##$basic;##\nIncreases the time before you start getting detected by ##$multibasic3;## while in casing mode. You can also mark enemies while in casing mode.\n\nACE: ##$pro;##\nYou can pick up items while in casing mode. You also gain ##$multipro;## more value to items and cash that you pick up.
-
-	-- TIER 2
-
+	menu_jail_workout_beta_desc = "BÁSICO: ##$basic##\nO tempo que demora para ser detectado em modo de investigação aumenta por ##25%##.\n\nVocê agora pode marcar inimigos enquanto estiver neste modo.\n\nAVANÇADO: ##$pro##\nO valor dos itens valiosos soltos que você pegar aumenta por ##30%##.\n\nVocê agora pode pegar itens que não precisam segurar a interação enquanto estiver em modo de investigação.",
+	--Basic: ##$basic##\nThe time before you are fully detected while in casing mode is increased by ##25%##.\n\nYou can now mark enemies while in casing mode.\n\nAce: ##$pro##\nThe value of the loose cash picked up by you is increased by ##30%##.\n\nYou can now pick up items that don't require an interaction timer while in casing mode.
 	--menu_cleaner_beta = "Cleaner",
-	menu_cleaner_beta_desc = "BÁSICO: ##$basic##\nVocê ganha mais ##$multibasic3;## Bolsa(s) de Corpos. Também aumenta o seu espaço de Bolsas de Corpos para ##$multibasic3;##. \n\nAVANÇADO: ##$pro##\nGanha a skill de ter ##$multipro2;## Maletas de Bolsas de Corpos.",
-	--BASIC: ##$basic;##\nYou gain ##$multibasic3;## additional body bag in your inventory. Also increases the body bag inventory space to ##$multibasic2;##.\n\nACE: ##$pro;##\nYou gain the ability to place ##$multipro2;## body bag cases.
-
+	menu_cleaner_beta_desc = "BÁSICO: ##$basic##\nVocê agora tem ##2## bolsas de corpos por padrão, podendo carregar um total de ##3## bolsas.\n\nAVANÇADO: ##$pro##\nVocê agora pode colocar mais uma maleta de bolsa de corpos, por um total de ##2## maletas.",
+	--Basic: ##$basic##\nYou now have ##2## Body Bags by default and can carry a total of ##3## empty body bags on your person.\n\nAce: ##$pro##\nYou can now deploy an additional Body Bag Case, for a total of ##2## Body Bag Cases.
 	--menu_chameleon_beta = "Sixth Sense",
-	menu_chameleon_beta_desc = "BÁSICO: ##$basic##\nVocê consegue marcar automaticamente inimigos dentro do raio de ##$multibasic2;## metros depois de ficar parado por ##$multibasic3;## segundos enquanto estiver em Stealth.  \n\nAVANÇADO: ##$pro##\nGanha acesso a todos os Assets, também ganha acesso de todos os favores do Pré-Planejamento. Os custos ao matar um civil diminui em ##$multipro2;##.",
-	--BASIC: ##$basic;##\nYou gain the ability to automatically mark enemies within a ##$multibasic2;## meter radius around you after standing still for ##$multibasic3;## seconds while in stealth.\n\nACE: ##$pro;##\nYou gain access to all insider assets. Cleaning costs after killing a civilian is reduced by ##$multipro2;##.
+	menu_chameleon_beta_desc = "BÁSICO: ##$basic##\nVocê agora pode automaticamente marcar inimigos dentro de um raio de ##10## metros depois de ficar parado por ##3,5## segundos enquanto estiver em Stealth.\n\nAVANÇADO: ##$pro##\nSe você matar um civil, o custo de limpeza é reduzido por ##75%##.\n\nVocê pode comprar todos os assets.",
+	--Basic: ##$basic##\nYou now automatically mark enemies within a ##10## meter radius around you after standing still for ##3.5## seconds while in stealth.\n\nAce: ##$pro##\nIf you kill a civillian the cleaner cost is reduced by ##75%##.\n\nYou can now purchase all insider assets.
 
 	-- TIER 3
 	--menu_ecm_booster_beta = "ECM Overdrive",
