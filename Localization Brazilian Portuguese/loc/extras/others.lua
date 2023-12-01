@@ -5397,6 +5397,9 @@ RALPH: Fuck this.]]
 	
 	-- A História
 	menu_sm_play_online = "Jogar Online",--"Play Online",
+	menu_sm_dlc_unavailable = "Você não tem acesso a este conteúdo",--You do not have access to this content
+	menu_sm_dlc_unavailable_help_text = "Um ou mais objetivos estão bloqueados atrás de DLC. Você pode achar alguém na Crime.net que tem a heist ou pular a missão.",--One or more objectives are locked behind DLC. You can either find someone on Crime.net who owns the heist and join them or skip the mission.",
+	menu_skip_story = "PULAR MISSÃO",--SKIP MISSION",
 	sm_act_2_name = "Capítulo 2: Os Reis da Crimenet",--"Chapter 2: The Kings of Crimenet",
 	sm_act_3_name = "Capítulo 3: O Fim Se Aproxima",--"Chapter 3: Endgame",
 	sm_act_1_name = "Capítulo 1: É Apenas o Começo",--"Chapter 1: Just Getting Started",

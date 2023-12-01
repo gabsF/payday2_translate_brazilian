@@ -1,13 +1,6 @@
 
 
-16.03
-# CORREÇÕES E TRADUÇÕES
-* Traduzido mais conquistas.
-* Traduzido o conteúdo do U240.2.
-* Corrigido um erro de digitação do nome de uma das missões do Cântico de Assalto.
-* Corrigido o erro de conjugação em uma conquista de Mallcrasher.
-* Parte 1 da retradução das Skills e Perk Decks (Baseado nos mods de Lil Meat e Given).
-* Atualizado o link de convite para o servidor do Discord.
-
-# TEXTURAS
-* Redecorado a nova placa dos tradutores na Safe House. ;3
+16.04
+* Traduzido o U240.3.
+> Traduzido novas strings no Modo Carreira. (Pular uma missão quando o jogador não tiver a DLC específica).
+> Atualizado as mudanças das conquistas em relação das DLCs.

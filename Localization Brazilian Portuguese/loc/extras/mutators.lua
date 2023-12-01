@@ -88,4 +88,8 @@ return {
 	hud_buff_ammo_types = "Munição Especial",--Special Rounds",
 	hud_buff_snowman_warning = "Você sente uma tempestade de neve chegando...",--You sense a snowstorm approaching...",
 	hud_buff_ammo_types_explosive = "Munição Explosiva",--"Explosive Rounds",
+
+	-- U240.3
+	menu_mutator_creeps_name_delay = "$delay;s de atraso",--$delay;s delay
+	menu_mutator_creeps_delay = "Atraso da Explosão (s)",--Explosion Delay (s)",
 }
