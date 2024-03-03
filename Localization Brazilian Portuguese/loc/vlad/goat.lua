@@ -10,7 +10,7 @@ return {
 	
 	-- Legendas (Vlad - Dia 1)
 	vld_pt1_intro_01 = "Tudo bem, hora de... honestidade. A Cocaína está em... Cabras. Sim, Cabras. E elas fugiram. Haha, Cabras complicadas, né?! Encontrem elas!",--Okay, time for...honesty. The coke is packed in...goats. Yes, goats. And they've escaped. Haha, tricky goats, huh?! Find them!
-	vld_pt1_intro_02 = 'É, meus amigos. Então, os "burros", sabe... bem, eles são na realidade Cabras. E elas... ééé, fugiram. Encontrem elas para mim.',--Ah, my friends. So, the "mules", you see...well, they're actually goats. And they've..errr, escaped. Find them for me.
+	vld_pt1_intro_02 = 'É, meus amigos. Então, os "burros", sabe... bem, eles são, na verdade, cabras. E elas... ééé, fugiram. Encontrem elas para mim.',--Ah, my friends. So, the "mules", you see...well, they're actually goats. And they've..errr, escaped. Find them for me.
 	vld_pt1_intro_03 = "Ahhh, ouçam. A Cocaína está sendo traficada em Cabras. Sim, Cabras. C. A. B. R. A. S. E elas fugiram. Encontrem todas elas.",--Ahhh, listen. The coke is being smuggled in goats. Yes, goats. G. O. T's. And they've escaped. Find them all.
 	vld_pt1_05_03 = "E não se mexam. Cabras do caralho...",--And don't fucking move. Fucking goat prick...
 	vld_pt1_05_07 = "Continuem trazendo Cabras!",--Keep bringing goats!
@@ -19,7 +19,7 @@ return {
 	vld_pt1_05_20 = "Sim! Boa! Cabras!!",--Yes! Good! Goats!!
 	vld_pt1_05_16 = "Sem mais corridinhas para você, menininho.",--No more runny-run for you, goat-boy.
 	vld_pt1_05_14 = "Não se mexa. Ou eu vou lentamente te assar.",--Don't move. Or I'll slow-fucking-roast you.
-	vld_pt1_05_13 = "Não pense em fugir denovo, ou é Panela para você!",--Don't think about running again, or it's the stewpot for you!
+	vld_pt1_05_13 = "Não pense em fugir de novo, ou é panela para você!",--Don't think about running again, or it's the stewpot for you!
 	vld_pt1_07_03 = "Ótimo trabalho, amigos, mas vocês estão apenas na metade. Sigam o Boris. Ele vai guiar vocês até a fazenda fora da cidade, onde ele pode... sabe... extrair a Cocaína. Protejam ele.",--Nice job, friends, but you're only halfway there. Follow Boris. He'll lead you to a farm outside the city, where he can..you know...extract the coke. Protect him.
 	vld_pt1_05_11 = "Não corra denovo, cabrinha.",--Don't run away again, little goat.
 	vld_pt1_cnc_02 = "Uns fudidos estão tentando fazer um tráfico de Cocaína em DC. Peguem os produtos deles. Quebrem-os. Só um pequeno detalhe...",--Some fucks are trying to develop a coke operation in DC. Get their product. Break it up. Just one small detail...

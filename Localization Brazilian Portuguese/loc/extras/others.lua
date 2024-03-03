@@ -6,6 +6,7 @@ return {
 	savefile_removing = "Removendo...",
 
 	-- Descrições Extras
+	menu_l_global_value_xm21 = "Esse é um item do Winter Wonderland!",--"This is a Winter Wonderland Item!",
 	bm_melee_piggy_hammer_info = "Causa dano a todos os inimigos especiais. Cada acerto tem uma chance de envenenar, atordoar, ou até mesmo matar instantâneamente.",-- "Deals bonus damage to all special enemies. Each hit has a chance to poison, tase, or even insta-kill.",
 	bm_wpn_money_event_ended = "Evento acabou: não mais disponível",--Event Ended: No longer available",
 	menu_l_global_value_dgs = "Esse é um item do \"DEAD GAME\"!",--"This is a DEAD GAME item!",
@@ -518,6 +519,10 @@ return {
 	bm_menu_skill = "Boost",
 	
 	-- Arremessáveis (Granadas e etc..)
+	bm_grenade_sticky_grenade_desc = "Uma granada que ficará grudado nos seus inimigos e nas superfícies.",--A throwable explosive that will stick to enemies and surfaces.",
+	bm_grenade_sticky_grenade = "Granada Adesiva",--Adhesive Grenade",
+	bm_grenade_xmas_snowball = "Bola de Neve",--Snowball ",
+	bm_grenade_xmas_snowball_desc = "Molhe eles, coloque-os dentro de um freezer e você terá a arma mais mortal de todos. Simples.",--"Dunk them in water, toss them in the freezer and then you got a deadly throwing weapon. Simple."
 	bm_grenade_dada_com = "Granada da Matryoshka",
 	bm_grenade_dada_com_desc = "A Granada da Matryoshka é um explosivo. A boneca com camadas que esconde o seu funcionamento interno. Cria um dano imenso ao mesmo tempo em que é tocada pela sua terra-natal.",
 	bm_grenade_fir_com = "Granada Incendiária",
@@ -4028,8 +4033,8 @@ return {
 	victory_best_accuracy = "MAIS PRECISO:",
 	victory_best_killer = "MATOU MAIS POLICIAIS:",
 	victory_best_special = "MATOU MAIS ESPECIAIS:",
-	victory_group_total_downed = "QUEDAS EM GRUPO:",
-	victory_group_hit_accuracy = "GRUPO MAIS PRECISO EM TIRO:",
+	victory_group_total_downed = "QUEDAS DA EQUIPE:",
+	victory_group_hit_accuracy = "PRECISÃO DA EQUIPE:",
 	victory_criminals_finished = "SOBREVIVENTES:",
 	menu_es_stats_personal = "Status Pessoais",
 	victory_total_downed = "CAIU:",

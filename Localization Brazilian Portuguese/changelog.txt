@@ -1,6 +1,10 @@
 
 
-16.04
-* Traduzido o U240.3.
-> Traduzido novas strings no Modo Carreira. (Pular uma missão quando o jogador não tiver a DLC específica).
-> Atualizado as mudanças das conquistas em relação das DLCs.
+16.05
+* Alterado o ícone do mod para o antigo.
+* Traduzido a Bola de Neve.
+* Traduzido a Granada Adesiva.
+* Traduzido os textos adicionais de algumas conquistas que estavam faltando.
+* Traduzido mais conquistas.
+* Corrigido algumas inconsistências de tradução.
+* Traduzido mais dicas visuais em texturas 3D (O quadro e os nomes das salas em Breakin' Feds, o aviso da cerca elétrica em Boiling Point).

@@ -12,6 +12,11 @@
 			<file :name="pd2_dlc_fex/equipment/fex_interactable_mayan_door/fex_interactable_folder_clues_df.texture"/>
 			<file :name="pd2_dlc_mex/props/mex_prop_red_room_map/mex_prop_red_room_map_df.texture"/>
 			<file :name="pd2_dlc_chill/props/chl_prop_names_plaque_01/chl_prop_names_plaque_2023_df.texture"/>
+			<file :name="pd2_dlc_mad/props/mad_prop_sign_electricity/mad_prop_sign_electricity_df.texture"/>
+			<file :name="pd2_dlc_tag/props/tag_prop_whiteboard_signs/tag_prop_whiteboard_sign_df.texture"/>
+			<file :name="pd2_dlc_tag/props/tag_prop_whiteboard_signs/tag_prop_whiteboard_sign_op.texture"/>
+			<file :name="pd2_dlc_tag/props/tag_prop_sign_rooms/tag_prop_sign_rooms_df.texture"/>
+			<file :name="pd2_dlc_tag/props/tag_prop_sign_rooms/tag_prop_sign_rooms_gsma.texture"/>
 		</group>
 	</assets>
 
