@@ -566,6 +566,7 @@ return {
 	bm_menu_second_sight = "Miras Secundárias",--"Secondary Sight",
 	bm_menu_exclusive_set = "Conjunto Exclusivo",--Exclusive Set
 	bm_menu_exclusive_set_plural = "Conjuntos Exclusivos",--Exclusive Weapon Sets
+	bm_menu_foregrip_plural = "Punhos da frente",--"Foregrips",
 	bm_menu_weapon_cosmetics = "Skins da Arma",
 	bm_menu_ammo_plural = "Tipos de Munições",--Ammo Types
 	bm_menu_sight_plural = "Miras de Ferro",--Sights

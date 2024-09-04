@@ -460,6 +460,7 @@ return {
 	bm_menu_btn_preview_weapon_cosmetic = "Visualizar Skin da Arma",
 	bm_menu_btn_sell = "Vender Arma",
 	bm_menu_btn_move_weapon = "Mover Arma",
+	bm_menu_btn_unlock_crew_item = "Desbloquear",--Unlock",
 	bm_menu_empty_mask_slot = "Slot de Máscara Vazio",
 	bm_menu_btn_mod_mask = "Customizar Máscara",
 	bm_menu_btn_preview_mask = "Visualizar Máscara",
@@ -1364,8 +1365,34 @@ return {
 	hud_action_inking_money = "Plantando a bomba de tinta",--Planting the ink bomb",
 	chca_action_burning_money = "Queimando o dinheiro",--Burning the money",
 	hud_action_deep_resume_test = "Resumindo análise",--Resuming analysis",
+	deep_action_pipe_corner_spin = "Rotacionando o cano",--Rotating pipe
+	--deep_action_pku_bloodsample_good = "",-- unused?
+	--deep_action_pku_bloodsample_bad = "",-- unused?
+	deep_action_fuel_lever = "Soltando o petróleo",--Releasing Oil
+	hud_action_pickup_oilsample = "Coletando a amostra do petróleo",--Collecting oil sample
+	deep_action_control_lever = "Puxando a alavanca",--Pulling lever
+	hud_action_turn_on_gas = "Soltando o gás tóxico",--Releasing toxic gas
+	hud_action_overide_pc = "Hackeando a rede de segurança",--Overriding security network
+	deep_hud_int_action_pickup_ladder = "Movendo a escada",--Moving ladder
+	deep_hud_int_action_jam_vent = "Quebrar a ventilação",--Jamming vent
+	deep_hud_int_action_open_valve = "Abrindo a válvula",--Opening valve
+	deep_hud_int_action_opens = "Abrindo a porta",--Opening door
 
 	-- Interações (Primeira Pessoa)
+	deep_hud_int_open_door = "Pressione $BTN_INTERACT; para abrir a porta",--Press $BTN_INTERACT; to open door
+	deep_hud_int_hold_open_valve = "Segure $BTN_INTERACT; para abrir a válvula",--Hold $BTN_INTERACT; to open valve
+	hud_hold_override_pc = "Segure $BTN_INTERACT; para hackear a rede de segurança",--Hold $BTN_INTERACT; to override security network
+	hud_hold_turn_on_gas = "Segure $BTN_INTERACT; para soltar o gás tóxico",--Hold $BTN_INTERACT; to release toxic gas
+	hud_hold_pickup_oilsample = "Segure $BTN_INTERACT; para coletar a amostra do petróleo",--Hold $BTN_INTERACT; to collect an oil sample
+	deep_hud_int_hold_jam_vent = "Segure $BTN_INTERACT; para quebrar a ventilação",--Hold $BTN_INTERACT; to jam the vent
+	deep_hud_int_hold_pickup_ladder = "Segure $BTN_INTERACT; para mover a escada",--Hold $BTN_INTERACT; to move the ladder
+	deep_hud_press_intercom = "Pressione $BTN_INTERACT; para ativar o intercom",--Press $BTN_INTERACT; to activate the intercom
+	deep_hold_control_lever = "Segure $BTN_INTERACT; para puxar a alavanca",--Hold $BTN_INTERACT; to pull lever
+	deep_hold_fuel_lever = "Segure $BTN_INTERACT; para soltar o petróleo",--Hold $BTN_INTERACT; to release oil
+	deep_press_test_oil_sample = "Pressione $BTN_INTERACT; para analisar a amostra",--Press $BTN_INTERACT; to analyze the oil sample
+	--deep_hold_pku_bloodsample_bad = "",--unused?
+	--deep_hold_pku_bloodsample_good = "",--unused?
+	deep_hold_pipe_corner_spin = "Segure $BTN_INTERACT; para rotacionar o cano",--Hold $BTN_INTERACT; to rotate the pipe
 	hud_equipment_deep_need_oil_sample = "Precisa do exemplo de óleo",--Need oil sample",
 	hud_deep_press_pickup_texas_suit = "Pressione $BTN_INTERACT para pegar o traje",--Press $BTN_INTERACT; to pick up the suit",
 	hud_deep_press_network_cable_connect = "Pressione $BTN_INTERACT para conectar o cabo",--Press $BTN_INTERACT; to plug in the cable",
@@ -2237,6 +2264,11 @@ return {
 	hud_hold_restart_timer = "Segure $BTN_INTERACT para reiniciar o cronômetro",
 
 	-- Caixas de confirmações + Notificações do SISTEMA
+	dialog_new_safehouse = "Você tem a nova safe house! Deseja visitar o seu novo lar?",--"You have a new safe house! Would you like to go there now?",
+    dialog_crew_boost_unlock_text = "Lhe custará $cost; Moedas Continentais para desbloquear.",--Costs $cost; Continental Coins to unlock.",
+    dialog_crew_boost_unlock_title = "Deseja desbloquear $item;?",--"Do you want to unlock $item;?",
+	dialog_crew_ability_unlock_text = "Lhe custará $cost; Moedas Continentais para desbloquear.",--"Costs $cost; Continental Coins to unlock.",
+	dialog_crew_ability_unlock_title = "Deseja desbloquear $item;?",--"Do you want to unlock $item;?",
 	dialog_pda10_event_title = "Décimo Aniversário do PAYDAY 2",--
 	dialog_pda10_event_text = "Uma década de PAYDAY 2?! Como o tempo voa! Foi bem divertido fazer esses golpes com todos vocês durante esses dez anos, e para celebrar, estamos trazendo devolta o cofrinho do porquinho com algumas supresas!\n\nVocê achará o porquinho em qualquer heist adequado pro evento nessa página da crime.net. Geralmente estará vagando no começo ou no final da heist, nos telhados ou em qualquer espaço aberto. Alimente-o com o seu dinheiro para fazer ele crescer, você terá uma bolsa de dinheiro do porquinho depois de dez vítimas normais, cinco tiros na cabeça, 5 vítimas da Cash Blaster, ou apenas um tiro com a arma do evento.\n\nA primeira bolsa do porquinho ativará o cofrinho no seu primeiro estágio, você poderá fazer ele crescer até no máximo quinto estágio. Porém quando o cofrinho subir de nível, ele recompensará você e a sua equipe buffs para aguentar as ondas de inimigos. Mas fique ciente: subir o porquinho de nível traz um novo inimigo assustador... O Warthog! Um dozer especial que não terá piedade, mas se trazer a arma do aniversário, será fácil de matá-lo. Lembre-se disso.\n\nQuando estiver satisfeito, destrua o porquinho e depois conclua a heist. Quanto maior o porquinho, mais dinheiro, EXP, cartas de espólio e moedas continentais ganhará. Você também pode ganhar mais coisas com as tarefas secundárias do Décimo Aniversário!\n\nAgora, vá e deixe o porquinho orgulhoso!",
 	--[[A decade of PAYDAY 2?! How time flies! It's been a joy heisting with you all for these ten wonderful years, and to celebrate, we're bringing the Piggy Bank back in a big way!\n\n

@@ -1,10 +1,7 @@
 
 
-16.05
-* Alterado o ícone do mod para o antigo.
-* Traduzido a Bola de Neve.
-* Traduzido a Granada Adesiva.
-* Traduzido os textos adicionais de algumas conquistas que estavam faltando.
-* Traduzido mais conquistas.
-* Corrigido algumas inconsistências de tradução.
-* Traduzido mais dicas visuais em texturas 3D (O quadro e os nomes das salas em Breakin' Feds, o aviso da cerca elétrica em Boiling Point).
+16.06
+* Corrigido um erro de digitação em uma das descrições das Skills.
+* Corrigido uma inconsistência em um dos objetivos em Hostile Takeover.
+* Traduzido mais caixas de diálogo. (Geralmente quando é jogador novo)
+* Traduzido algumas interações e introduções em Crude Awakeing.

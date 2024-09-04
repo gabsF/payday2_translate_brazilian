@@ -245,7 +245,7 @@ return {
     -- Objetivos
 	hud_heist_corp15 = "Use um sinalizador para chamar o Bile.",--Use a flare to call in Bile.",
 	hud_heist_corp08_hl = "Entre no centro de pesquisa",--Enter the offices in the Research Center",
-	hud_heist_corp07_hl = "Use a serra para quebrar as travas da vitrine!",--Saw open the display case shutters",
+	hud_heist_corp07_hl = "Use a serra para quebrar as travas da vitrine",--Saw open the display case shutters",
 	hud_heist_corp10_hl = "Roube os documentos da pesquisa",--Steal the Research Documents",
 	hud_heist_corp09 = "Obtenha a etiqueta de acesso do chefe do departamento de ciências para abrirem a porta do depósito de documentos",--Obtain the CSO's access tag to unlock the Document Storage doors.",
 	hud_heist_corp13 = "Nós precisamos destruir todo o equipamento do laboratório para que a SERA não construa outro Neo-2",--We need to wreck all the laboratory equipment so that SERA can't rebuild the Neo-2.",
