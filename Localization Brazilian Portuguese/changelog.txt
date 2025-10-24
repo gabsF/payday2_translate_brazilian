@@ -1,7 +1,6 @@
 
 
-16.06
-* Corrigido um erro de digitação em uma das descrições das Skills.
-* Corrigido uma inconsistência em um dos objetivos em Hostile Takeover.
-* Traduzido mais caixas de diálogo. (Geralmente quando é jogador novo)
-* Traduzido algumas interações e introduções em Crude Awakeing.
+16.07
+* Corrigido um erro de digitação em uma das habilidades.
+* Alterado as menções de "Skills" para "Habilidades".
+* Traduzido "Bayoneta" do menu de modificações das armas.

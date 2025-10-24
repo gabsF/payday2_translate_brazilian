@@ -18,6 +18,7 @@
 			<file :name="pd2_dlc_tag/props/tag_prop_sign_rooms/tag_prop_sign_rooms_df.texture"/>
 			<file :name="pd2_dlc_tag/props/tag_prop_sign_rooms/tag_prop_sign_rooms_gsma.texture"/>
 		</group>
+
 	</assets>
 
 </mod>

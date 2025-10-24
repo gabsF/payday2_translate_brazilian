@@ -587,6 +587,7 @@ return {
 	bm_menu_grip = "Punho",--Grip
 	bm_menu_sight = "Mira",--Sight
 	bm_menu_stock = "Coronha",--Stock
+	bm_menu_bayonet = "Baioneta",--Bayonet",
 	bm_menu_upper_reciever = "Receptor Superior",--Upper Receiver
 	bm_menu_lower_reciever = "Receptor Inferior",--Lower Receiver
 	bm_menu_underbarrel_ammo = "Munição do Cano Inferior",--Underbarrel

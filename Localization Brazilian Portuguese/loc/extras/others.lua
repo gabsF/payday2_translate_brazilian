@@ -640,7 +640,7 @@ return {
 	menu_infamy_name_xp = "Mais Experiência",
 	menu_infamy_desc_xp = "A Experiência ganha é aumentada em ##10%##.",
 	menu_infamy_name_root = "Desbloqueando a Árvore de Infamy",
-	menu_infamy_desc_root_new = "Como um novato chegando à elite criminal, a primeira coisa dos negócios é você conseguir o equipamento e fãs sabendo do seu status.\n\nBÔNUS:\nOs Requerimentos de Pontos de Skill para cada fileira (Mastermind, Enforcer, Technician, Ghost e Fugitive) serão reduzidos em ##10%##.\nSua taxa de drop para itens Infamy aumentam de ##0.3%## para ##0.6%##.\nA Experiência ganha é aumentada em ##5%##.\n\nITENS:",
+	menu_infamy_desc_root_new = "Como um novato chegando à elite criminal, a primeira coisa dos negócios é você conseguir o equipamento e fãs sabendo do seu status.\n\nBÔNUS:\nOs Requerimentos de Pontos de habilidade para cada fileira (Mastermind, Enforcer, Technician, Ghost e Fugitive) serão reduzidos em ##10%##.\nSua taxa de drop para itens Infamy aumentam de ##0.3%## para ##0.6%##.\nA Experiência ganha é aumentada em ##5%##.\n\nITENS:",
 	menu_infamy_name_ranger = "Assaltante de Sentinela",
 	menu_infamy_desc_ranger = "Intimidador e perfeito quando se tem um cabelo ruim.\n\nBÔNUS:\nA Experiência ganha é aumentada em ##7.5%##.\n\nITENS:",
 	menu_infamy_name_punk = "O Ser",
@@ -667,7 +667,7 @@ return {
 	menu_infamy_desc_technician_new = "Frio, calculista e um mestre de sumiços forçados. Morto ou Vivo.\n\nBÔNUS:\nA Experiência ganha é aumentada em ##5%##.\n\nITENS:",
 	menu_infamy_box_title = "RECOMPENSA DE INFAMY",
 	menu_infamy_box_description = "Alcance esse nível de Infamy para desbloquear algo especial!",
-	menu_dialog_become_infamous_3_above_5 = "Se você prosseguir, o seu nível de reputação será resetado para o nível 0. O seu primeiro skill set será resetado, e todos os outros skill sets serão suspensos até que você tenha pontos suficientes para usá-los novamente ou até que você decida redefini-los. Todos os perfis serão atribuidos para usar skill sets resetadas. Se você tiver uma arma equipada com bloqueio de nível 1 ou superior, ela será substituída por uma arma sem bloqueio de nível. Se essa arma não estiver disponível, você receberá uma AMCAR e/ou uma Chimano 88. Seus perfis irão manter máscaras, trajes e perk decks atribuidos anteriormente.\n\nIsso será irreversível, e você NÃO PODERÁ recuperar o que sacrificou.\n\nVocê poderá manter todas as suas armas, mods, máscaras, desenhos e materiais. O dinheiro de sua Conta Offshore permanecerá. Você ganhará um nível de Infamy, se estiver em um nível de infamy 100 ou abaixo, você também irá receber uma recompensa de Infamy.",
+	menu_dialog_become_infamous_3_above_5 = "Se você prosseguir, o seu nível de reputação será resetado para o nível 0. O seu primeiro set de habilidades será resetado, e todos os outros sets de habilidades serão suspensos até que você tenha pontos suficientes para usá-los novamente ou até que você decida redefini-los. Todos os perfis serão atribuidos para usar sets de habilidades resetados. Se você tiver uma arma equipada com bloqueio de nível 1 ou superior, ela será substituída por uma arma sem bloqueio de nível. Se essa arma não estiver disponível, você receberá uma AMCAR e/ou uma Chimano 88. Seus perfis irão manter máscaras, trajes e perk decks atribuidos anteriormente.\n\nIsso será irreversível, e você NÃO PODERÁ recuperar o que sacrificou.\n\nVocê poderá manter todas as suas armas, mods, máscaras, desenhos e materiais. O dinheiro de sua Conta Offshore permanecerá. Você ganhará um nível de Infamy, se estiver em um nível de infamy 100 ou abaixo, você também irá receber uma recompensa de Infamy.",
 	menu_infamy_color_stinger_name = "Cor de Arma e Som de Entrada",--Weapon Color and a Join Stinger
 	menu_infamy_color_stinger_desc = "Cor de Arma: $weapon_color\nSom de Entrada: $join_stinger",--Weapon Color: $weapon_color;\nJoin Stinger: $join_stinger;
 	menu_dialog_become_infamous_prestige = "Você ganhará mais um nível de Infamy. Se estiver abaixo de 100, também receberá um prêmio do Infamy.",--You will gain one rank of Infamy. If you are at Infamy rank 100 or below, you will also receive an Infamy Reward.
@@ -2780,7 +2780,7 @@ return {
 	hud_assault_point_no_return_in = "Tempo Restante:",
 	hud_assault_vip = "Derrote o Capitão para terminar a Operação",
 	message_obtained_equipment = "PEGOU O EQUIPAMENTO DA MISSÃO: ",
-	present_obtained_mission_equipment_title = "EQUIPAMENTO DA MISSÃO OBTIDO: ",
+	present_obtained_mission_equipment_title = "EQUIPAMENTO DA MISSÃO ADQUIRIDO: ",
 	hud_hint_mask_off_block_interact = "Nenhuma ação suspeita é permitida no modo de investigação.",
 	hud_hint_clean_block_interact = "Nenhuma ação suspeita é permitida no modo de civil.",
 	hud_equipment_pickup_c4 = "C4",
@@ -6452,4 +6452,7 @@ RALPH: Fuck this.]]
 	socialhub_user_action_invite_sent = "Convite enviado!",--Invite sent!
 	menu_socialhub_confirmation_dialog_text = "Você quer [$ACTION;]: ($USER_NAME;)?",--"Do you want to [$ACTION;]: ($USER_NAME;)?",
 	menu_socialhub_confirmation_dialog_title = "Confirmar ação",--"Confirm Action",
+
+	-- Legendas dos vídeos offshore
+	["01_intro_001"] = "TESTEEEEEEEEEEEEEEeee",
 }

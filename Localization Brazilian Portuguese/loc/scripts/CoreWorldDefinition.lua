@@ -827,7 +827,7 @@ delivery until you return to the White House or would you like it sent to Air Fo
 	end	
 	
 	
-	
+
 	unit:editable_gui():set_text(data.editable_gui.text)
 	unit:editable_gui():set_font_color(data.editable_gui.font_color)
 	unit:editable_gui():set_font_size(data.editable_gui.font_size)
