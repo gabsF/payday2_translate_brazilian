@@ -510,7 +510,7 @@ return {
 	menu_crew_quiet_desc = "Jogadores ganham mais 3 de Concealment.",
 	menu_crew_generous_desc = "Jogadores ganham mais uma granada extra quando eliminam 35 policiais.",
 	menu_crew_eager_desc = "Jogadores recarregam 50% mais rápido e trocam de armas 50% mais rápido.",
-	menu_data_crew_item_unlock_cost = "Custa $cost; Moedas Continentais para desbloquear",
+	menu_data_crew_item_unlock_cost = "Custa $cost; Moedas para desbloquear",
 	menu_data_crew_not_allowed = "Não é permitido para IA!",
 	menu_data_crew_equipped_by = "Atualmente equipado pelo IA número $equipped_by;",
 	dialog_crew_loadout_help_title = "Informações dos Aliados IA (Bots)",
@@ -923,7 +923,7 @@ return {
 	hud_equipment_thermite = "Termite",--Thermite",
 	hud_carry_bag = "Presente de EXP",--"XP Present",
 	hud_carry_bag_green = "Presente de Dinheiro",--Money Present",
-	hud_carry_bag_yellow = "Presente de Continental",--"Continental Present",
+	hud_carry_bag_yellow = "Presente de Moedas",--"Continental Present",
 	hud_equipment_int_deep_oil_sample = "Exemplo de Óleo",--Oil Sample",
 
 	-- Outros Interagindo (Terceira Pessoa) 
@@ -2265,17 +2265,17 @@ return {
 
 	-- Caixas de confirmações + Notificações do SISTEMA
 	dialog_new_safehouse = "Você tem a nova safe house! Deseja visitar o seu novo lar?",--"You have a new safe house! Would you like to go there now?",
-    dialog_crew_boost_unlock_text = "Lhe custará $cost; Moedas Continentais para desbloquear.",--Costs $cost; Continental Coins to unlock.",
+    dialog_crew_boost_unlock_text = "Lhe custará $cost; Moedas para desbloquear.",--Costs $cost; Continental Coins to unlock.",
     dialog_crew_boost_unlock_title = "Deseja desbloquear $item;?",--"Do you want to unlock $item;?",
-	dialog_crew_ability_unlock_text = "Lhe custará $cost; Moedas Continentais para desbloquear.",--"Costs $cost; Continental Coins to unlock.",
+	dialog_crew_ability_unlock_text = "Lhe custará $cost; Moedas para desbloquear.",--"Costs $cost; Continental Coins to unlock.",
 	dialog_crew_ability_unlock_title = "Deseja desbloquear $item;?",--"Do you want to unlock $item;?",
 	dialog_pda10_event_title = "Décimo Aniversário do PAYDAY 2",--
-	dialog_pda10_event_text = "Uma década de PAYDAY 2?! Como o tempo voa! Foi bem divertido fazer esses golpes com todos vocês durante esses dez anos, e para celebrar, estamos trazendo devolta o cofrinho do porquinho com algumas supresas!\n\nVocê achará o porquinho em qualquer heist adequado pro evento nessa página da crime.net. Geralmente estará vagando no começo ou no final da heist, nos telhados ou em qualquer espaço aberto. Alimente-o com o seu dinheiro para fazer ele crescer, você terá uma bolsa de dinheiro do porquinho depois de dez vítimas normais, cinco tiros na cabeça, 5 vítimas da Cash Blaster, ou apenas um tiro com a arma do evento.\n\nA primeira bolsa do porquinho ativará o cofrinho no seu primeiro estágio, você poderá fazer ele crescer até no máximo quinto estágio. Porém quando o cofrinho subir de nível, ele recompensará você e a sua equipe buffs para aguentar as ondas de inimigos. Mas fique ciente: subir o porquinho de nível traz um novo inimigo assustador... O Warthog! Um dozer especial que não terá piedade, mas se trazer a arma do aniversário, será fácil de matá-lo. Lembre-se disso.\n\nQuando estiver satisfeito, destrua o porquinho e depois conclua a heist. Quanto maior o porquinho, mais dinheiro, EXP, cartas de espólio e moedas continentais ganhará. Você também pode ganhar mais coisas com as tarefas secundárias do Décimo Aniversário!\n\nAgora, vá e deixe o porquinho orgulhoso!",
+	dialog_pda10_event_text = "Uma década de PAYDAY 2?! Como o tempo voa! Foi bem divertido fazer esses golpes com todos vocês durante esses dez anos, e para celebrar, estamos trazendo devolta o cofrinho do porquinho com algumas supresas!\n\nVocê achará o porquinho em qualquer heist adequado pro evento nessa página da crime.net. Geralmente estará vagando no começo ou no final da heist, nos telhados ou em qualquer espaço aberto. Alimente-o com o seu dinheiro para fazer ele crescer, você terá uma bolsa de dinheiro do porquinho depois de dez vítimas normais, cinco tiros na cabeça, 5 vítimas da Cash Blaster, ou apenas um tiro com a arma do evento.\n\nA primeira bolsa do porquinho ativará o cofrinho no seu primeiro estágio, você poderá fazer ele crescer até no máximo quinto estágio. Porém quando o cofrinho subir de nível, ele recompensará você e a sua equipe buffs para aguentar as ondas de inimigos. Mas fique ciente: subir o porquinho de nível traz um novo inimigo assustador... O Warthog! Um dozer especial que não terá piedade, mas se trazer a arma do aniversário, será fácil de matá-lo. Lembre-se disso.\n\nQuando estiver satisfeito, destrua o porquinho e depois conclua a heist. Quanto maior o porquinho, mais dinheiro, EXP, cartas de espólio e moedas ganhará. Você também pode ganhar mais coisas com as tarefas secundárias do Décimo Aniversário!\n\nAgora, vá e deixe o porquinho orgulhoso!",
 	--[[A decade of PAYDAY 2?! How time flies! It's been a joy heisting with you all for these ten wonderful years, and to celebrate, we're bringing the Piggy Bank back in a big way!\n\n
 	You'll find the Piggy in any heist on this event's CRIME.NET page. Usually hanging out near the beginning or end of the heist, on rooftops, and any wide-open spaces. Feed it Piggy Bucks to make it grow; you can earn a bag of Piggy Bucks after ten normal kills, five headshot kills, five Cash Blaster kills, or one kill with an Anniversary Weapon.\n\n
 	The first bag of Piggy Bucks will awaken the Piggy Bank into Stage 1, and you can grow the Piggy all the way up to Stage 5. Whenever the Piggy levels up, it will reward your team with powerful buffs to keep those Piggy Bucks coming. But beware: leveling up will also spawn a terrifying new enemy...The Warthog! This special Dozer is a beast, but he's vulnerable to Anniversary Weapons. Remember that.\n\nWhen you've had your fill, break the Piggy Bank and then escape the heist alive.The larger the Piggy grew, the more bonuses you'll receive in cash, XP, loot drops, and Continental Coins. You can also earn more goodies through the 10th Anniversary Side Jobs!\n\nNow, get out there and make that Piggy proud!]]
 	dialog_cg22_event_title = "O Cântico de Assalto",--A Criminal Carol",
-	dialog_cg22_event_text = "Feliz Natal, assaltantes! O cunhado do Vlad está de volta com o traje do Papai Noel, e ele tem um plano perfeito para comemorar o espírito natalinok... Roubar dos policiais! Eles estão trocando esses presentes: Dinheiro, EXP e Moedas Continentais. Roube os seus presentes da árvore de Natal, ou assegure-as no trenó de Hajrudin ou as destrua com o Triturador Mágico. Assegurando os presentes dará dinheiro e EXP; destruindo-as dará buffs para a sua equipe! Porém, tome cuidado: quanto mais presentes roubar, mais fortes e putaços os policias ficam. Eles podem até trazer a nova unidade: O Homem de Neve!",--Happy holidays, heisters! Vlad's Brother-In-Law is off the wagon and back in the Santa suit, and he's got the perfect way to bring in some holiday cheer...Steal it from the cops! They're exchanging three types of presents this year: Money, XP, and Continental Coins. Knock their gifts out of the Christmas Tree, then either throw them on Hajrudin's sled or destroy them out of spite in the Holiday Shredder. Securing presents will net you the loot; destroying them will empower your whole team with special buffs! But be careful: the more gifts you steal, the stronger and pissier the cops will become. They might even bring out their new seasonal Dozer unit: The Snowman!
+	dialog_cg22_event_text = "Feliz Natal, assaltantes! O cunhado do Vlad está de volta com o traje do Papai Noel, e ele tem um plano perfeito para comemorar o espírito natalinok... Roubar dos policiais! Eles estão trocando esses presentes: Dinheiro, EXP e Moedas. Roube os seus presentes da árvore de Natal, ou assegure-as no trenó de Hajrudin ou as destrua com o Triturador Mágico. Assegurando os presentes dará dinheiro e EXP; destruindo-as dará buffs para a sua equipe! Porém, tome cuidado: quanto mais presentes roubar, mais fortes e putaços os policias ficam. Eles podem até trazer a nova unidade: O Homem de Neve!",--Happy holidays, heisters! Vlad's Brother-In-Law is off the wagon and back in the Santa suit, and he's got the perfect way to bring in some holiday cheer...Steal it from the cops! They're exchanging three types of presents this year: Money, XP, and Continental Coins. Knock their gifts out of the Christmas Tree, then either throw them on Hajrudin's sled or destroy them out of spite in the Holiday Shredder. Securing presents will net you the loot; destroying them will empower your whole team with special buffs! But be careful: the more gifts you steal, the stronger and pissier the cops will become. They might even bring out their new seasonal Dozer unit: The Snowman!
 	dialog_pda9_event_title = "Nono Aniversário do PAYDAY 2",--"Payday 2 9th Anniversary",
 	dialog_pda9_event_text = "PAYDAY 2 está celebrando o seu aniversário! Você sabe o que isso significa... COFRINHO DO PORQUINHO!\n\nVocês acharão o Cofrinho do Porquinho em qualquer heist na página do Crime.net do evento. Geralmente estará no começo ou no final da heist, nos telhados e espaços abertos. Enche o Porquinho com o Dinheiro do Porquinho até ficar gordinho, depois quebrem-o e fujam para ganharem muito XP! O porquinho pode crescer até no estágio cinco, dependendo das quantas bolsas você deu para ele. Quanto mais gordo o Porquinho fica, mais XP ganhará!\n\nMas onde acharão o Dinheiro do Porquinho, você se pergunta? Fácil! Matando os inimigos na cabeça ou usando o Lança-Grana para fazer eles soltarem bolsas de ouro. Você pode conseguí-las matando normalmente também, mas vão ter menos chance de surgirem. O Dinheiro do Porquinho desaparecerá se não pegá-lo depois de 10 segundos, então não enrola!\n\nNão há limite de quantas vezes podem jogar a heist que contenha o Porquinho, e quando concluir, o seu XP total é dobrado. Além disso, você pode ganhar mais XP com as tarefas secundárias do Porquinho.\n\nAgora, vai lá e deixa o Porquinho orgulhoso!",
 	--[["Payday 2 is celebrating an anniversary! You know what that means...PIGGY BANK STUFF!
@@ -2592,6 +2592,11 @@ return {
 	menu_video_adapter_help = "Escolha qual monitor para usar em Tela Cheia.\nÉ necessário reiniciar o jogo para aplicar.",
 	menu_fullscreen = "Tela Cheia",
 	menu_fullscreen_help = "Alterne a Tela Cheia. Tela Cheia otimiza a performance. Em janela permite trocar de janela mais rápido.",
+	menu_window_mode_windowed = "Modo janela", --Windowed",
+	menu_window_mode_borderless = "Sem borda",--Borderless Windowed",
+	menu_window_mode_fullscreen = "Tela cheia",--Fullscreen",
+	menu_window_mode = "Modo de vídeo",--Window Mode",
+	menu_window_mode_help = "Define o modo de vídeo. Tela cheia otimiza a performance. Modo janela permite troca de janela rápida. Tela cheia sem borda permite o melhor das duas opções.", --Set the window mode. Fullscreen display optimizes performance. Windowed displays allows for multitasking. Borderless is the best of both worlds.",
 	menu_brightness = "Brilho",
 	menu_brightness_help = "Aumenta ou diminua o brilho da sua tela.",
 	menu_effect_quality = "Qualidade de Efeito",
@@ -4033,7 +4038,7 @@ return {
 	victory_client_waiting_for_server = "Aguardando o Host",
 	menu_es_gage_assignment_reward = "Prêmio Desbloqueado!",
 	menu_es_calculating_experience = "Calculando Experiência...",
-	menu_es_coins_progress = "Moedas Continentais",
+	menu_es_coins_progress = "Moedas",
 	menu_es_next_level = "Próximo Nível em:",
 	menu_es_skill_points_gained = "Pontos de Skills ganhos:",
 	victory_stage_cash_summary_name_event = "Quanto que ganhou durante o Cântico de Assalto:",--Items earned during A Criminal Carol:",
@@ -4054,7 +4059,7 @@ return {
 	victory_stage_cash_summary_name_offshore = "Dinheiro enviado para Conta Offshore: $cash;.",
 	victory_stage_cash_summary_name_spending = "Dinheiro enviado para Gastar Livremente: $cash;.",
 	victory_stage_cash_summary = "Dinheiro do Sumário de hoje:",
-	victory_stage_safehouse_summary = "Você conseguiu $amount; de Moedas Continentais nesse serviço.",
+	victory_stage_safehouse_summary = "Você conseguiu $amount; de Moedas nesse serviço.",
 	victory_stage_cash_summary_name_job = "Você conseguiu $job_cash; por concluir esse contrato.",
 	menu_es_ghost_bonus_job = 'Você conseguiu um ##bônus de Stealth##:\n$bonus;% de XP para o seu próximo contrato.',
 	victory_stage_cash_summary_name_crew = "$winners; membros do time conseguiram fugir, com cada um tendo um adicional de $crew_cash;.",
@@ -4085,8 +4090,8 @@ return {
 	menu_es_gage_assignments_progress = "Progresso:",
 	menu_es_gage_assignments_found = "Você achou:",
 	menu_es_safehouse_summary = "Safe House",
-	menu_es_safehouse_total_coins = "Você tem $amount; Moedas Continentais.",
-	menu_es_safehouse_upgrade_available = "Você tem Moedas Continentais suficientes para melhorar a sua Safe House!",
+	menu_es_safehouse_total_coins = "Você tem $amount; Moedas.",
+	menu_es_safehouse_upgrade_available = "Você tem Moedas suficientes para melhorar a sua Safe House!",
 	menu_victory_goto_next_stage = "$CONTINUE; Próximo dia",
 	failed_disconnected_continue_PS3 = "$BTN_A; Continuar para o Menu",--$BTN_A; Continue to menu
 	failed_disconnected_continue = "$CONTINUE; Continuar para o Menu",--$CONTINUE; Continue to menu
@@ -4580,7 +4585,7 @@ NATHAN: It's inevitable! The clowns can't run forever. No one can outrun the law
 NATHAN: They'll be caught! They will! If they're not, I'm...I'm not sure what I'd do...
 NATHAN: They're slipping, Ralph. Only a matter of time.
 RALPH: Fuck this.]]
-	menu_lr_transcript_4 = "WEST: Este bar não é tão ruim. Pra beber direto.\nKENT: Quer outra rodada?\nWEST: Por sua conta?\nKENT: Mais dois vodca.\nWEST: O que eu estava falando antes?\nKENT: Ia falar sobre o que o pessoal anda escondendo de mim.\nWEST: Tá. Eles disseram que colocaram uma tarefa pra arquivos pra você, porque é o mais preguiçoso no serviço.\nKENT: Eu não sou, quem disse isso?\nWEST: Todo mundo.\nKENT: Bom, agora vão dizer o mesmo pra você.\nWEST: Aí fodeu pro meu lado, eu sou um bom agente! Eu trabalhei duro no caso do Payday. Eu estava quase de pegar esses filhas da puta.\nKENT: E como foi?\nWEST: Me mostre uma lista dos melhores agentes que tem na merda do FBI e aposto um milhão que nenhum deles conseguiria manter Hector Morales vivo.\nKENT: Mas nenhum deles ficaria em comando da operação. Você estava. Parabéns.\nWEST: Eu não deveria ficar preso em um escritório. Não é justo.\nKENT: Ouça, eu era todo exagerado quando me juntei ao FBI, assim como você. Eu fiquei puto quando me meteram os arquivos dos palhaços, mas agora, fico feliz que fizeram isso.\nWEST: Por quê?\nKENT: Porque eu percebi que, não importa o que você faz, seja atualizando os dossiês ou atirando nos ladrões, são igualmente inúteis.\nWEST: Eu não... o que tá querendo dizer?\nKENT: Que nunca vamos pegar eles.\nWEST: Uau, gostei do otimismo.\nKENT: Eles invadiram os escritórios. Duas vezes. Eles literalmente andaram no nosso QG e não conseguimos fazer nada.\nWEST: E daí? Vamo só esperar eles ficarem idosos e morrerem de idade?\nKENT: Ah, não, eles vão ser pegos. Só não ser a gente.\nWEST: Quem, então?\nKENT: Quando você olha nos arquivos do caso na minha visão, começa perceber umas conexões.\nWEST: Ah, Deus, vai vim com essa besteira com Illuminati?\nKENT: Quando os palhaços estavam fazendo serviço pro Senador Simmons...\nWEST: Se. Não temos evidência concreta se era Simmons...\nKENT: É questão de quando. Confia. E quando eles fizeram serviço com Simmons, os seus crimes não aconteceram por simplesmente acontecer. Eles acabaram com um senador na prisão. Roubaram protótipo valioso. Mexeram os pauzinhos na política. Pelo amor de Deus.\nWEST: O que tá querendo dizer?\nKENT: O que tô querendo dizer é que eles fizeram serviço com o Elefante, pessoas se ferraram. Poderosos em Washington ainda por cima.\nWEST: E agora temos um comitê de Anti-Payday? Qual é.\nKENT: Não, mas há um monte de políticos e legisladores que querem ver a gangue na jaula. Alguém tem que montar o quebra-cabeça. Assim que eles conectarem os pontos, terão uma rede na deep web disponível para fazerem um objetivo. Um objetivo.\nWEST: ...Derrubar a gangue Payday?\nKENT: Derrubar a gangue Payday.\nWEST: Acho que já ouvi coisa pior.\nKENT: Também.\nWEST: Ah, aliás, eu ando recebendo um monte de email de um agente com nome de \"Stone-\"\nKENT: Ela é uma novata de Quantico. Querendo acesso aos arquivos dos palhaços. Tá obcecada, ainda vai ter mais trocentos emails na semana que vem. Só ignorar.\nWEST: Ele provavelmente vai ver o meu serviço.\nKENT: Beleza, deixa ela levar tiro, se quer tanto.\nWEST: Essa não vou perder.",
+	menu_lr_transcript_4 = "WEST: Este bar não é tão ruim. Pra beber direto.\nKENT: Quer outra rodada?\nWEST: Por sua conta?\nKENT: Mais duas vodca.\nWEST: O que eu estava falando antes?\nKENT: Ia falar sobre o que o pessoal anda escondendo de mim.\nWEST: Tá. Eles disseram que colocaram uma tarefa pra arquivos pra você, porque é o mais preguiçoso no serviço.\nKENT: Eu não sou, quem disse isso?\nWEST: Todo mundo.\nKENT: Bom, agora vão dizer o mesmo pra você.\nWEST: Aí fodeu pro meu lado, eu sou um bom agente! Eu trabalhei duro no caso do Payday. Eu estava quase de pegar esses filhas da puta.\nKENT: E como foi?\nWEST: Me mostre uma lista dos melhores agentes que tem na merda do FBI e aposto um milhão que nenhum deles conseguiria manter Hector Morales vivo.\nKENT: Mas nenhum deles ficaria em comando da operação. Você estava. Parabéns.\nWEST: Eu não deveria ficar preso em um escritório. Não é justo.\nKENT: Ouça, eu era todo exagerado quando me juntei ao FBI, assim como você. Eu fiquei puto quando me meteram os arquivos dos palhaços, mas agora, fico feliz que fizeram isso.\nWEST: Por quê?\nKENT: Porque eu percebi que, não importa o que você faz, seja atualizando os dossiês ou atirando nos ladrões, são igualmente inúteis.\nWEST: Eu não... o que tá querendo dizer?\nKENT: Que nunca vamos pegar eles.\nWEST: Uau, gostei do otimismo.\nKENT: Eles invadiram os escritórios. Duas vezes. Eles literalmente andaram no nosso QG e não conseguimos fazer nada.\nWEST: E daí? Vamo só esperar eles ficarem idosos e morrerem de idade?\nKENT: Ah, não, eles vão ser pegos. Só não ser a gente.\nWEST: Quem, então?\nKENT: Quando você olha nos arquivos do caso na minha visão, começa perceber umas conexões.\nWEST: Ah, Deus, vai vim com essa besteira com Illuminati?\nKENT: Quando os palhaços estavam fazendo serviço pro Senador Simmons...\nWEST: Se. Não temos evidência concreta se era Simmons...\nKENT: É questão de quando. Confia. E quando eles fizeram serviço com Simmons, os seus crimes não aconteceram por simplesmente acontecer. Eles acabaram com um senador na prisão. Roubaram protótipo valioso. Mexeram os pauzinhos na política. Pelo amor de Deus.\nWEST: O que tá querendo dizer?\nKENT: O que tô querendo dizer é que eles fizeram serviço com o Elefante, pessoas se ferraram. Poderosos em Washington ainda por cima.\nWEST: E agora temos um comitê de Anti-Payday? Qual é.\nKENT: Não, mas há um monte de políticos e legisladores que querem ver a gangue na jaula. Alguém tem que montar o quebra-cabeça. Assim que eles conectarem os pontos, terão uma rede na deep web disponível para fazerem um objetivo. Um objetivo.\nWEST: ...Derrubar a gangue Payday?\nKENT: Derrubar a gangue Payday.\nWEST: Acho que já ouvi coisa pior.\nKENT: Também.\nWEST: Ah, aliás, eu ando recebendo um monte de email de um agente com nome de \"Stone-\"\nKENT: Ela é uma novata de Quantico. Querendo acesso aos arquivos dos palhaços. Tá obcecada, ainda vai ter mais trocentos emails na semana que vem. Só ignorar.\nWEST: Ele provavelmente vai ver o meu serviço.\nKENT: Beleza, deixa ela levar tiro, se quer tanto.\nWEST: Essa não vou perder.",
 	--[[
 	WEST: This bar's not bad. For a dive, anyway.
 	KENT: You want another round?
@@ -4794,7 +4799,7 @@ RALPH: Fuck this.]]
 	dialog_bm_weapon_buy_title = "Tem certeza?",
 	dialog_safehouse_goto_text = "Você gostaria de ir para a sua Safe House?",
 	heist_chill_hl_briefing = "Um lugar para todos nós chamarmos de lar. E com espaço de sobra, para que todos possam ter o seu próprio espaço para fazer suas coisas. Não é bacana? Sim, é pra CARALHO.",
-	dialog_upgrade_safehouse = "Você quer mesmo melhorar o quarto de $character;?\n\nirá custar $cost; Moedas Continentais.",
+	dialog_upgrade_safehouse = "Você quer mesmo melhorar o quarto de $character;?\n\nirá custar $cost; Moedas.",
 	dialog_previous_tier = "Anterior",
 	dialog_next_tier = "Próximo",
 	menu_cs_trophy_counter = "$completed; de $total; troféus concluídos",
@@ -4802,7 +4807,7 @@ RALPH: Fuck this.]]
 	menu_cs_rooms_help_hover = "Clique numa sala para atualizar",
 	menu_cs_enter_safehouse = "Entre na sua Safe House",
 	menu_cs_map = "Mapa",
-	menu_cs_coins = "Moedas Continentais",
+	menu_cs_coins = "Moedas",
 	menu_trophy_not_displayed = "Escondido",
 	menu_trophy_hide_all = "Esconder tudo",
 	menu_trophy_displayed = "Em Destaque",
@@ -5232,7 +5237,7 @@ RALPH: Fuck this.]]
 	loading_heister_19 = "As suas armas, skills, armadura e Perk Decks tem interações diferentes. Leia os seus efeitos quando tiver tempo.",
 	loading_heister_20 = "O jogo tem vários níveis de dificuldade. Ache um que é seu estilo!",
 	loading_heister_21 = "Mais Espólio, mais recompensas! Porém tem risco. (Exceto em Crime Spree)",
-	loading_heister_22 = "Quer modificar algo novo? Faça o Desafio Diário que pode ser encontrado na Safe House. (Ou compre-os usando Moedas Continentais.)",
+	loading_heister_22 = "Quer modificar algo novo? Faça o Desafio Diário que pode ser encontrado na Safe House. (Ou compre-os usando Moedas.)",
 	loading_heister_23 = "Lembre-se de sempre checar os seus Perk Decks para gastar os Pontos de Cartas.",
 	loading_heister_24 = 'Um bom time vai sempre ter Bolsas de Munições e Bolsas Médicas em um assalto.',
 	loading_heister_25 = "Dê uma olhada nas estatísticas da arma. Um dano alto nem sempre é o mais importante, dependendo do seu estilo de jogo.",
@@ -5450,7 +5455,7 @@ RALPH: Fuck this.]]
 	menu_sm_crime_spree = "Alcance o nível 20 na Crimespree",--Reach Crimespree level 20
 	menu_sm_inv_skillpoints = "Gaste 5 pontos de skills",--Spend 5 skill points
 	menu_sm_claim_rewards_goto_next = "RESGATAR RECOMPENSAS E INICIAR O PRÓXIMO CAPÍTULO",--CLAIM REWARDS AND START NEXT ASSIGNMENT
-	menu_sm_default_reward = "3 Moedas Continentais",--3 continental coins
+	menu_sm_default_reward = "3 Moedas",--3 continental coins
 	menu_sm_claim_goto_next = "PRÓXIMO CAPÍTULO",--NEXT ASSIGNMENT
 	menu_sm_start_level = "INICIAR LEVEL",--START LEVEL
 	menu_sm_claim_rewards = "RESGATAR RECOMPENSAS",--CLAIM REWARDS
@@ -5459,7 +5464,7 @@ RALPH: Fuck this.]]
 	menu_sm_chill_safehouse = "Nova Safehouse",--New Safehouse
 	menu_sm_inv_deployable = "Equipe um Equipamento",--Equip a deployable
 	menu_sm_inv_perkdeck = "Equipe um Perk Deck",--Equip a perk deck
-	menu_sm_moving_up_reward = "6 Moedas Continentais",--6 continental coins
+	menu_sm_moving_up_reward = "6 Moedas",--6 continental coins
 	menu_sm_pre_coin_reward = "$40,000 de Dinheiro Livre e 4,000 pontos de Experiência",--$40,000 spending cash and 4,000 experience points
 	menu_sm_4_reward = "$40,000 de Dinheiro Livre, 4,000 de pontos de Experiência e o Low Profile Suppressor para Rifles",--$40,000 spending cash, 4,000 experience points, and the Low Profile Suppressor for rifles
 	menu_sm_basics_lvl = "Alcance o nível 10",--Reach level 10
@@ -5770,7 +5775,7 @@ RALPH: Fuck this.]]
 	-- Side Jobs (Desafios Secundários)
     menu_side_jobs_title = "Desafios Secundários",
     menu_cs_div_safehouse_daily = "Desafio Diário da Safe House",
-    menu_challenge_safehouse_daily_reward = "Moedas Continentais para comprar melhorias da Safe House e modificações de armas.",
+    menu_challenge_safehouse_daily_reward = "Moedas para comprar melhorias da Safe House e modificações de armas.",
     menu_challenge_div_cat_daily = "Desafio Diário",
     menu_challenge_daily_reward = "Dinheiro e uma Modificação de arma de sua escolha.",
     menu_challenge_div_cat_weekly = "Desafio Semanal",
@@ -5808,22 +5813,22 @@ RALPH: Fuck this.]]
 	menu_aru_job_1_desc = "Balas uma hora vão acabar - Facas não. Tudo o que você precisará fazer é enfiar a lâmina em seu inimigo e você ficará vivo.",--Bullets will run out - knives won't. All you need to do is to thrust the blade into your enemy and you'll stay alive.
 	menu_aru_job_1_obj = "Inimigos mortos: ",--Enemies killed: $progress/$max_progress
 	menu_aru_job_1_obj_desc = "Mate 10 inimigos usando a arma de corpo-a-corpo Push Dagger.",--Kill 10 enemies using the Push Dagger melee weapon.
-	menu_aru_job_1_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Amigos do Peito" na Safe House.',--A new weapon, Continental Coins, and a the "Friends in Close-Quarters" trophy in the safehouse.
+	menu_aru_job_1_reward = 'Uma nova arma, Moedas, e o Troféu "Amigos do Peito" na Safe House.',--A new weapon, Continental Coins, and a the "Friends in Close-Quarters" trophy in the safehouse.
 	menu_aru_job_2 = "Prepare-se para a Guerra",--Prepare for War
 	menu_aru_job_2_desc = 'Parabellum significa "Prepare-se para a Guerra". Portanto, carregar a Pistola Parabellum significa que você estará sempre preparado, não importando o tipo de obstáculo que possa aparecer.',--Parabellum means "Prepare for War". So carrying the Parabellum Pistol means you are always prepared, no matter what type of obstacle that might appear.
 	menu_aru_job_2_obj = "Inimigos mortos: ",--Enemies killed: $progress/$max_progress
 	menu_aru_job_2_obj_desc = "Mate 50 inimigos usando a Parabellum Pistol.",--Kill 50 enemies using the Parabellum Pistol.
-	menu_aru_job_2_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Uma Guerra bem travada!" na Safe House.',--A new weapon, Continental Coins, and a the "A War Well Fought" trophy in the safehouse.
+	menu_aru_job_2_reward = 'Uma nova arma, Moedas, e o Troféu "Uma Guerra bem travada!" na Safe House.',--A new weapon, Continental Coins, and a the "A War Well Fought" trophy in the safehouse.
 	menu_aru_job_3 = "Retribuição Rápida",--Rapid Retribution
 	menu_aru_job_3_desc = "Os assaltos costumam ser lotados. Então velocidade é essencial. Combine uma alta velocidade com lama afiada e você terá um grande poder de impacto.",--Raids are often crowded. so speed is of the essence. Combine high velocity with sharp sludges and you'll make a serious impact.
 	menu_aru_job_3_obj = "Inimigos mortos: ",--Enemies killed: $progress/$max_progress
 	menu_aru_job_3_obj_desc = "Mate 100 inimigos usando a MP40 Submachine Gun.",--Kill 100 enemies using the MP40 Submachine Gun.
-	menu_aru_job_3_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Tagarela" na Safe House.',--A new weapon, Continental Coins, and a the "Speed Talker" trophy in the safehouse.
+	menu_aru_job_3_reward = 'Uma nova arma, Moedas, e o Troféu "Tagarela" na Safe House.',--A new weapon, Continental Coins, and a the "Speed Talker" trophy in the safehouse.
 	menu_aru_job_4 = "O Controle de Guia",--The Control's Hundred Tab
 	menu_aru_job_4_desc = "O maior instrumento de batalha já inventado. Mostre sua habilidade e ferocidade com este pedaço da história Americana.",--The greatest battle implement ever devised. Show your skill and ferocity with this piece of American history.
 	menu_aru_job_4_obj = "Inimigos mortos: ",--Enemies killed: $progress/$max_progress
 	menu_aru_job_4_obj_desc = "Mate 200 inimigos usando o Galant Rifle.",--Kill 200 enemies using the Galant Rifle.
-	menu_aru_job_4_reward = 'Uma nova arma, Moedas Continentais, e o Troféu "Parceiro do Herói" na Safe House.',--A new weapon, Continental Coins, and a the "Hero's Companion" trophy in the safehouse.
+	menu_aru_job_4_reward = 'Uma nova arma, Moedas, e o Troféu "Parceiro do Herói" na Safe House.',--A new weapon, Continental Coins, and a the "Hero's Companion" trophy in the safehouse.
 	menu_raid_jobs = "Trabalhos da Hierarquia do Aldstone",
 	menu_jfr_job_3_desc = "Aldstone encontrou uma boina da Segunda Guerra Mundial de um colecionador e ele está disposto a trocar por algo valioso e raro.",--Aldstone has found a collector with a WW2 beret, and he's willing to trade it for something equally rare and valuable.
 	menu_jfr_job_2_reward = "Máscara de um Personagem do RAID",--Mask from a RAID character
@@ -5939,7 +5944,7 @@ RALPH: Fuck this.]]
 	daily_phobia_desc = "Eu não vou nunca mais usar essa merda de furadeira de novo!",--I'm not using that piece of shit drill ever again!
 	daily_honorable_desc = "Uma execução fria é certamente mais limpa do que sair matando em uma troca de tiro.",--A cold execution is certainly cleaner than dying in a firefight.
 	daily_art_desc = "O Houston quer todas as pinturas. Por motivos de decoração, vocês já sabem né.",--Houston wants all the paintings. For interior decoration, you know.
-	menu_cs_daily_desc = "Todo dia um heister terá uma missão para você na Safe House! Encontre-se com eles na Safe House para aceitar os desafios e saiam mundo a fora para completá-los. Completando, eles te darão Moedas Continentais como recompensa.\n\nO Wick deu um jeito de fazer parceria entre a nossa Gangue e o Continental, então, para cada heist que você completar, eles estarão te dando algumas Moedas Continentais. Com Moedas suficientes, você pode chamar o Charlie e os rapazes dele vão vir aqui fazer uma redecoração. Apenas lembrem-se de não deixar registro nenhum de qualquer trabalho feito.",--Every day a heister in the safe house will have a challenge for you! Meet with them in the safe house to accept their challenge, and then go out into the world to complete the requirements. Complete the challenge, and they'll give you a few Continental Coins for your troubles.$NL$NLWick managed to get the Payday crew membership to The Continental, so they're giving you coins for every heist you pull off. With enough coins, Charlie and his boys will come in and do a little redecorating for us, and make sure that any work done stays off the books.
+	menu_cs_daily_desc = "Todo dia um heister terá uma missão para você na Safe House! Encontre-se com eles na Safe House para aceitar os desafios e saiam mundo a fora para completá-los. Completando, eles te darão Moedas como recompensa.\n\nO Wick deu um jeito de fazer parceria entre a nossa Gangue e o Continental, então, para cada heist que você completar, eles estarão te dando algumas Moedas. Com Moedas suficientes, você pode chamar o Charlie e os rapazes dele vão vir aqui fazer uma redecoração. Apenas lembrem-se de não deixar registro nenhum de qualquer trabalho feito.",--Every day a heister in the safe house will have a challenge for you! Meet with them in the safe house to accept their challenge, and then go out into the world to complete the requirements. Complete the challenge, and they'll give you a few Continental Coins for your troubles.$NL$NLWick managed to get the Payday crew membership to The Continental, so they're giving you coins for every heist you pull off. With enough coins, Charlie and his boys will come in and do a little redecorating for us, and make sure that any work done stays off the books.
 	daily_toast_objective = "Encontre a torrada do Almir na White Xmas.",--Find Almir's toast on White Xmas.
 	daily_tapes_objective = "Ouça a todas as gravações na Hoxton Revenge.",--Listen to all the tapes on Hoxton Revenge.
 	daily_discord_objective = "Complete $max_progress; heists tendo policiais convertidos.",--Finish $max_progress heist with a converted cop.
@@ -5974,7 +5979,7 @@ RALPH: Fuck this.]]
 	menu_challenge_menu_challenge_farm_1_obj = "Complete a Stealing Xmas tendo, pelo menos, 10 civis amarrados e vivos no meio dos 4 pilares da árvore de Natal.",--Complete the Stealing Xmas job. While haveing at least 10 zip-tied civilians alive within the 4 pallars around the Christmas Tree.
 	menu_challenge_butcher_4_jobs = "A Butcher precisa da sua ajuda!",--The Butcher needs you!
 	menu_challenge_xmas_all_obj = "Complete as heists White Xmas, Santa's Workshop e Stealing Xmas. Para completar este desafio, você precisa ter jogado as missões do início ao fim.",--Complete the White Xmas, Santa's Workshop, and Stealing Xmas jobs. To complete this challenge, you have to have played the heist from start to end.
-	menu_challenge_trophy_reward = "Moedas Continentais e um Troféu para a Safe House.",--Continental Coins and a Safe House Trophy
+	menu_challenge_trophy_reward = "Moedas e um Troféu para a Safe House.",--Continental Coins and a Safe House Trophy
 	menu_challenge_any_25_sniper_kills_desc = "Mate 25 Snipers utilizando qualquer arma de sua escolha.",--Kill 25 snipers using weapons of your choice.
 	menu_challenge_num_owned_mods = "Você possui $inv_count; de $count; customizações disponíveis para esta arma.",--You own $inv_count of $count of available mods for this weapon.
 	menu_challenge_going_all_in_objective = "Na Nightclub, coloque uma bolsa de dinheiro na mesa de pôquer.",--In the Nightclub job, put a bag filled with money on the poker table.

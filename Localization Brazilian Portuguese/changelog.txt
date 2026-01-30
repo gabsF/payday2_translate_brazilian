@@ -1,6 +1,5 @@
 
 
-16.07
-* Corrigido um erro de digitação em uma das habilidades.
-* Alterado as menções de "Skills" para "Habilidades".
-* Traduzido "Bayoneta" do menu de modificações das armas.
+16.08
+* Traduzido a atualização 242.1.
+* Removido quaisquer menções do Continental.

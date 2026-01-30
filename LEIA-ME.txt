@@ -1,0 +1,44 @@
+-- Como instalar --
+1 - Extraia o arquivo "WSOCK32.dll" e a pasta "mods" na pasta raiz do jogo.
+2 - O jogo deve estar traduzido a partir daí, agora é só jogar.
+
+-- Versão atual: 16.07 --
+* Corrigido um erro de digitação em uma das habilidades.
+* Alterado as menções de "Skills" para "Habilidades".
+* Traduzido "Bayoneta" do menu de modificações das armas.
+
+-- Links --
+Nosso server do Discord: https://discord.gg/Gb3fvdJFPd
+Link do mod no Modworkshop: https://modworkshop.net/mod/24352
+
+-- Créditos --
+== Gerenciadores da Tradução ==
+gabsF
+HimuraBR
+
+== Tradutores ==
+$Lucas$
+Bruno
+Caçador de Otacus
+DarK
+Gavel
+gabsF
+lulajr
+Lupuens
+Matheussimoe
+MrUmbrella
+Nobrod
+neour
+OnyxHunter25
+RockZero
+Sky3Killer
+WalkingJohnn
+
+== Ajuda adicional ==
+Schrodinger_Sig
+Dr_Newbie
+Kisuke
+CENSOR_1337
+Krimzin
+Dagoth Ur
+Punished Bernadetta
