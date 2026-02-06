@@ -1,5 +1,6 @@
 
 
-16.08
-* Traduzido a atualização 242.1.
-* Removido quaisquer menções do Continental.
+16.09
+* Alterado a descrição do Chibi Kitteh para "sete vidas".
+* Corrigido algumas legendas.
+* Traduzido as interações que estavam faltando.

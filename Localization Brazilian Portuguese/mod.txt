@@ -5,7 +5,7 @@
 	"image" : "icon.png",
 	"color" : "0 255 17",
 	"contact" : "https://steamcommunity.com/id/gabs_F/",
-	"version" : "16.08 (dd de mês de aaaa)",
+	"version" : "16.09 (6 de fevereiro de 2026)",
 	"blt_version" : 2,
 	"updates" : [
 		{ 

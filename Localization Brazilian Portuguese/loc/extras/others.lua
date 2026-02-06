@@ -1379,6 +1379,10 @@ return {
 	deep_hud_int_action_opens = "Abrindo a porta",--Opening door
 
 	-- Interações (Primeira Pessoa)
+	hud_int_release_cancel_alarm = "Solte $BTN_INTERACT; para cancelar interação$NL;(vai acionar o alarme)", --Release $BTN_INTERACT; to cancel interaction (will trigger the alarm)",
+	hud_int_release_cancel = "Solte $BTN_INTERACT; para cancelar interação", --Release $BTN_INTERACT; to cancel interaction",
+	hud_int_press_cancel_alarm = "Pressione $BTN_INTERACT; para cancelar interação$NL;(vai acionar o alarme)", --Press $BTN_INTERACT; to cancel interaction (will trigger the alarm)",
+	hud_int_press_cancel = "Pressione $BTN_INTERACT; para cancelar interação", --Press $BTN_INTERACT; to cancel interaction",
 	deep_hud_int_open_door = "Pressione $BTN_INTERACT; para abrir a porta",--Press $BTN_INTERACT; to open door
 	deep_hud_int_hold_open_valve = "Segure $BTN_INTERACT; para abrir a válvula",--Hold $BTN_INTERACT; to open valve
 	hud_hold_override_pc = "Segure $BTN_INTERACT; para hackear a rede de segurança",--Hold $BTN_INTERACT; to override security network

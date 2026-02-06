@@ -417,8 +417,8 @@ return {
 	com_hm2_08_02 = "Vocês merdinhas nunca vão chegar aqui! Eu vou matar todos vocês!",
 	com_hm2_08_09 = "Vocês palhaços podem abaixar um pouco o volume aí? Eu estou descansando aqui.",
 	com_hm2_05_01 = "Eu vi um cara comendo merda na Antártida. Ele parece com vocês. Espera, será que é..?",
-	com_hm2_04_04 = "Bem-vindos ao Labirinto, filhos da puta.",
-	com_hm2_06_03 = "Porque estão fazendo isso seus merdas. Vocês vão morrer hoje!",
+	com_hm2_04_04 = "Bem-vindos ao labirinto, filhos da puta.",
+	com_hm2_06_03 = "Por que estão fazendo isso, seus merdas? Vocês vão morrer hoje!",
 	
 	-- Objetivos
 	hud_heist_mia_mission7_hl = "Arranque o Alçapão",
