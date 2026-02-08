@@ -73,7 +73,7 @@ return {
 	loc_wwh_01_02 = "Não consegui resistir, pessoal. São só negócios, vocês entendem isso, yeah?",
 	loc_wwh_01_03 = "Vocês vão me odiar depois dessa, mas só quando vocês estiverem em um caixão. Nada pessoal.",
 	loc_wwh_02_01 = "Até mais, meus amigos sorridentes.",
-	loc_wwh_02_02 = "Adeus meus queridos amigos! Nós nunca mais iremos nos encontrar novamente - eu acho.",
+	loc_wwh_02_02 = "Adeus, meus queridos amigos! Nós nunca mais iremos nos encontrar novamente - eu acho.",
 	loc_wwh_02_03 = "Tenham um lindo dia, amigos. até nunca mais provavelmente!",
 	
 	-- Legendas (Bain)

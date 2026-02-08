@@ -862,7 +862,7 @@ return {
 	menu_achievements_contracts = "Contratos",--Contracts
 	menu_achievements_contracts_all = "Todos",--All
 	menu_achievement_none = "Sem Tag",--No tag
-	menu_achievements_progress_leveling = "Upar o Nível",--Leveling
+	menu_achievements_progress_leveling = "Nível",--Leveling
 	menu_achievements_progress_heisting = "Mapas",--Heisting
 	menu_achievements_progress_generic = "Genérico",--Generic
 	menu_achievements_progress_beginner = "Iniciante",--Beginner

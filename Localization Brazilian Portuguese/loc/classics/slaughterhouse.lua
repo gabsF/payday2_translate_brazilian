@@ -6,17 +6,17 @@ return {
 	heist_dinner_crimenet = "Nós estamos interceptando um comboio nas docas. A carga deles é Ouro. O comboio é da Murkywater. Dúvidas?\n\n» Intercepte o Comboio\n» Roube o Ouro\n» Prepare uma Armadilha\n» Leve o Ouro\n» Fuja",
 	
 	-- Legendas
-	pln_dn1_intro_01_01 = "...e também na rua 45 em direção ao Sul, houve um acidente grave que congestionou toda a estrada. Está parecendo uma zona de guerra essa manhã, então é melhor você pegar uma estrada mais tranquila.",-- ...and also on the 45 going south, there's been a major accident that's clogging the entire freeway.  It's like a war zone out there this morning so you better take a scenic route.
-	pln_dn1_intro_01_02 = "O Tráfico está todo lá na rodovia Sul I45. Se você estava planejando sair por aquela área, esqueça..",
-	sla_trk_ready_01 = "Estou Pronto!",
+	pln_dn1_intro_01_01 = "...e também na rua 45 em direção ao sul, houve um acidente grave que congestionou toda a estrada. Está parecendo uma zona de guerra essa manhã, então é melhor você pegar uma estrada mais tranquila.",-- ...and also on the 45 going south, there's been a major accident that's clogging the entire freeway.  It's like a war zone out there this morning so you better take a scenic route.
+	pln_dn1_intro_01_02 = "O Tráfico está todo lá na rodovia sul I45. Se você estava planejando sair por aquela área, esqueça...",
+	sla_trk_ready_01 = "Estou pronto!",
 	sla_trk_ready_02 = "Sim, estou pronto!",
 	pln_dn1_19_01 = "Agora o helicóptero não vai ver onde nós vamos carregar os contêineres. ",
 	pln_dn1_14_03 = "Muito bem. Contêiner 61 é onde vocês devem guardar o ouro. Está pelo pátio.",
 	pln_dn1_10_01 = "Ótimo. Agora, exploda as portas!",
-	pln_dn1_21_01 = "Ok. Agora leve isso até a nossa saída. Use o painel de controle.",
+	pln_dn1_21_01 = "Ok, agora leve isso até a nossa saída. Use o painel de controle.",
 	pln_dn1_19_02 = "Os helicópteros estão voando pra fora daqui. Está funcionando.",
 	pln_dn1_27_01 = "Agora pare qualquer perseguição. Explode aquela gasolina!",
-	pln_dn1_34_01 = "Como esperado, eles tem helicópteros, uma cortina de fumaça deve tirar eles daqui.",
+	pln_dn1_34_01 = "Como esperado, eles têm helicópteros, uma cortina de fumaça deve tirar eles daqui.",
 	pln_dn1_12_02 = "O ouro está dentro do cofre. Perfure até abrir!",
 	pln_dn1_13_01 = "Pessoal, o cofre! Coloquem a furadeira ali, rápido!",
 	pln_dn1_13_03 = "Coloquem a furadeira no cofre dentro do caminhão. Rápido!",
@@ -35,20 +35,20 @@ return {
 	pln_dn1_04_03 = "Atrás daquele caminhão, turma. Movam-se!",
 	pln_dn1_14_01 = "Bom trabalho. Ali fora no pátio, tem um contêiner pronto para guardar o ouro. Número 61. Vamos lá!",
 	pln_dn1_20_02 = "Coloquem uma gasolina no contêiner 12. Irá cobrir a nossa fuga.",
-	pln_dn1_15_01 = "Pessoal, lembrem-se: Coloquem o ouro no contêiner 61.",
+	pln_dn1_15_01 = "Pessoal, lembrem-se: coloquem o ouro no contêiner 61.",
 	pln_dn1_30_03 = "Estamos quase lá. Cheguem até o veículo de fuga, vamos.",
 	pln_dn1_09_02 = "Gente, vocês precisam colocar o caminhão no chão. Talvez um pouco de poder de fogo.",
 	pln_dn1_28_02 = "Queimem aquela armadilha antes de fugir! Rápido!",
-	pln_dn1_17_01 = "Se lembrem: Coloquem fogo nos pneus. Deixem a gasolina em cima deles todos!",
+	pln_dn1_17_01 = "Se lembrem: coloquem fogo nos pneus. Deixem a gasolina em cima deles todos!",
 	pln_dn1_34_02 = "O helicóptero vai ver onde nós iremos colocar os contêineres. Temos que lidar com isso.",
 	pln_dn1_29_03 = "Corra! Corra!",
 	pln_dn1_10_03 = "Bom trabalho! Agora abram essas portas.",
 	pln_dn1_25_01 = "Hora de acabar com esse trabalho! Fujam. Siga os contêineres azuis!",
 	pln_dn1_16_03 = "Agora acenda esses pneus. Coloque gasolina em cima deles. Isso deve lidar com o helicóptero.",
-	pln_dn1_29_01 = "Ok pessoal. Eu estou abrindo o contêiner 57 remotamente. Se preparem para correr.",
+	pln_dn1_29_01 = "Ok, pessoal. Eu estou abrindo o contêiner 57 remotamente. Se preparem para correr.",
 	pln_dn1_30_01 = "Vamos lá, estamos quase lá!",
 	pln_dn1_33_01 = "A SWAT está se espalhando por todo o telhado, olhem para cima galera.",
-	pln_dn1_04_02 = "Ok pessoal, vão atrás desse ouro!",
+	pln_dn1_04_02 = "Ok, pessoal, vão atrás desse ouro!",
 	pln_dn1_05_03 = "Sigam aquele caminhão. Vamos!",
 	pln_dn1_08_01 = "Atirem nos fios para fazer eles se romperem!",
 	pln_dn1_17_02 = "Gente, coloquem fogo nos pneus. Dê a aquele helicóptero uma boa cortina de fumaça pra ele ter que se preocupar!",
@@ -127,8 +127,8 @@ return {
 	pln_dn1_40_02 = "Tudo bem, bom achado. Agora coloquem a gasolina em cima dos pneus.",
 	pln_dn1_41_02 = "Ok, essa gasolina irá nos ajudar a assegurar nossa fuga. Coloque-a no contêiner.",
 	vld_dn1_01_02 = "Palhaços! Vlad aqui. Que merda vocês estão fazendo com - deixa pra lá. Tem um porco marcado com um X bem aí. Os federais vão notar isso quando os forenses entrarem na parada. Peguem ele e tragam pra mim.",--Clowns! Vlad here. What the hell are you doing in that - nevermind. There's a pig marked with an X in there. The Fed's will notice it when forensics come in. Get it out of there for me.
-	vld_dn1_01_01 = "Gangue PAYDAY. Vlad aqui. Nesse depósito tem um porco marcado. Isso é muito importante pra mim. É para... er.... um presente pra minha mãe. Sim, é isso. Não deixem os federais pegá-lo. Tragam-no pra mim.",--Payday crew. Vlad. There's a marked pig in that warehouse. It's very important to me. It's for... er... present for mamma. Yes, that's it. Don't let the Feds get it. Grab it for me.
-	vld_dn1_01_03 = "É o Vlad. Que merda vocês estão fazendo nesse Açougue? Deixa, eu não me importo. O que de fato me importa é um pouco especial que tá aí - marcado com um X. É realmente importante que os federais não tenham acesso a ele. Tirem isso daí, e eu vou amar vocês.",--This is Vlad. What are you fuckers doing in that slaughterhouse? Nevermind, I don't care. What I do care about is a special pig there - marked with an X. It's really important that the Fed's don't sniff around it. Get it out of there, and I will love you
+	vld_dn1_01_01 = "Gangue PAYDAY. Vlad aqui. Nesse depósito tem um porco marcado. Isso é muito importante pra mim. É para... eh... um presente pra minha mãe. Sim, é isso. Não deixem os federais pegá-lo. Tragam-no pra mim.",--Payday crew. Vlad. There's a marked pig in that warehouse. It's very important to me. It's for... er... present for mamma. Yes, that's it. Don't let the Feds get it. Grab it for me.
+	vld_dn1_01_03 = "É o Vlad. Que merda vocês estão fazendo nesse açougue? Deixa, eu não me importo. O que de fato me importa é um pouco especial que tá aí - marcado com um X. É realmente importante que os federais não tenham acesso a ele. Tirem isso daí, e eu vou amar vocês.",--This is Vlad. What are you fuckers doing in that slaughterhouse? Nevermind, I don't care. What I do care about is a special pig there - marked with an X. It's really important that the Fed's don't sniff around it. Get it out of there, and I will love you
 	
 	-- Objetivos
 	hud_heist_dinner_attack_convoy = "Ataque e Roube o comboio!",
