@@ -6462,6 +6462,17 @@ RALPH: Fuck this.]]
 	menu_socialhub_confirmation_dialog_text = "Você quer [$ACTION;]: ($USER_NAME;)?",--"Do you want to [$ACTION;]: ($USER_NAME;)?",
 	menu_socialhub_confirmation_dialog_title = "Confirmar ação",--"Confirm Action",
 
-	-- Legendas dos vídeos offshore
-	["01_intro_001"] = "TESTEEEEEEEEEEEEEEeee",
+	--U243
+	bm_menu_btn_lic_choose_color_a = "Escolher primeira cor", --Choose First Accent",
+	bm_menu_btn_lic_choose_color_b = "Escolher segunda cor", --Choose Second Accent",
+	bm_menu_btn_lic_choose_color_c = "Escolher terceira cor", --Choose Third Accent",
+	bm_menu_lic_colors = "Cores", --Accents",
+	bm_menu_lic_color_b = "Cor 2", --Accent 2",
+	bm_menu_lic_color_a = "Cor 1", --Accent 1",
+	bm_menu_lic_color_c = "Cor 3", --Accent 3",
+	bm_menu_lic_materials = "Material", --Base Coat",
+	bm_mtl_strip_paint = "Sem cor", --Paint Stripper",
+	menu_bm_overwritten = "Substituído", --Overwritten",
+	menu_bm_overwrite = "Substitui $category;", --Overwrites $category;",
+	
 }

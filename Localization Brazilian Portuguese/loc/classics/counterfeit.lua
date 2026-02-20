@@ -303,7 +303,7 @@ return {
 	hud_heist_pal1 = "Fale com o Mitchell. Veja se você pode entrar no porão sem nenhuma hesitação.",
 	hud_heist_pal1_hl = "Fale com o Dono",
 	hud_heist_pal2 = "Consiga acesso a operação criminal abaixo da piscina do Mitchell.",
-	hud_heist_pal2_hl = "Hackeie as Entradas de Código",
+	hud_heist_pal2_hl = "Hackeie os painéis",
 	hud_heist_pal3 = "Entre em baixo da piscina e vá até o porão com a impressora.",
 	hud_heist_pal3_hl = "Entre no Porão",
 	hud_heist_pal4 = "Deixe o Bain contar como abrir o cofre.",
