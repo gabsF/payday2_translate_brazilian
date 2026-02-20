@@ -6474,5 +6474,4 @@ RALPH: Fuck this.]]
 	bm_mtl_strip_paint = "Sem cor", --Paint Stripper",
 	menu_bm_overwritten = "Substituído", --Overwritten",
 	menu_bm_overwrite = "Substitui $category;", --Overwrites $category;",
-	
 }
