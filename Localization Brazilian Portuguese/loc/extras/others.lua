@@ -6474,4 +6474,10 @@ RALPH: Fuck this.]]
 	bm_mtl_strip_paint = "Sem cor", --Paint Stripper",
 	menu_bm_overwritten = "Substituído", --Overwritten",
 	menu_bm_overwrite = "Substitui $category;", --Overwrites $category;",
+
+	--U244
+	menu_crew_ai_counter_tase_desc = "A sua equipe IA agora podem se proteger dos Tasers uma vez cada $value1; minutos. Reduzido por $value2; minutos por cada IA presente.", --"our team AI can now counter Taser shocks once every $value1; minutes. Reduced by $value2; minutes for every other AI present.",
+	menu_crew_ai_counter_strike_desc = "A sua equipe IA agora podem se proteger dos chutes dos Cloakers uma vez cada $value1; minutos. Reduzido por $value2; minutos por cada IA presente.", --Your team AI can now counter Cloaker strikes once every $value1; minutes. Reduced by $value2; minutes for every other AI present.",
+	menu_crew_ai_cable_ties_desc = "Jogadores têm $value1; abraçadeiras extras no início do golpe. Este bônus é aumentado por $value2; por cada IA presente.", --Players are granted $value1; extra cable ties when starting a heist. This bonus is increased by $value2; for every other AI present when starting a heist.",
+	menu_crew_ai_flashbang_desc = "A sua equipe IA agora soltam uma flashband quando caírem uma vez cada $value1; minutos. Reduzido por $value2; minutos por cada IA presente.", --Your team AI can now drop a flashbang when going into bleedout once every $value1; minutes. Reduced by $value2; minutes for every other AI present.",
 }
