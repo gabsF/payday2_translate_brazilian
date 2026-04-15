@@ -1,6 +1,4 @@
 
 
-16.10
-* Corrigido legendas.
-> Alesso Heist, Slaughterhouse.
-* Traduzido o U243.
+16.11
+* Traduzido U244.
