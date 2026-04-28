@@ -491,6 +491,8 @@ return {
 	menu_join_stinger_rewards_left = "Mais poderão ser encontrados nas recompensas de infamy",
 	menu_st_suspended_points_skill_switch = "Suspenso: Requer $Points Pontos de Skill",
 	menu_st_unsuspend_skill_switch = "Não Suspenso",
+	menu_multi_profile_switch_title_name = "Perfil:", --Profile:",
+	menu_multi_profile_switch_default = "Perfil $PROFILE;", --Profile $PROFILE;",
 	
 	-- Boosts do BOT
 	bm_menu_btn_select = "Selecionar",
@@ -6480,4 +6482,6 @@ RALPH: Fuck this.]]
 	menu_crew_ai_counter_strike_desc = "A sua equipe IA agora podem se proteger dos chutes dos Cloakers uma vez cada $value1; minutos. Reduzido por $value2; minutos por cada IA presente.", --Your team AI can now counter Cloaker strikes once every $value1; minutes. Reduced by $value2; minutes for every other AI present.",
 	menu_crew_ai_cable_ties_desc = "Jogadores têm $value1; abraçadeiras extras no início do golpe. Este bônus é aumentado por $value2; por cada IA presente.", --Players are granted $value1; extra cable ties when starting a heist. This bonus is increased by $value2; for every other AI present when starting a heist.",
 	menu_crew_ai_flashbang_desc = "A sua equipe IA agora soltam uma flashband quando caírem uma vez cada $value1; minutos. Reduzido por $value2; minutos por cada IA presente.", --Your team AI can now drop a flashbang when going into bleedout once every $value1; minutes. Reduced by $value2; minutes for every other AI present.",
+	menu_mouse_end_move = "Para mover", --To move",
+	menu_mouse_start_move = "Para mudar de ordem",--"To change order",
 }

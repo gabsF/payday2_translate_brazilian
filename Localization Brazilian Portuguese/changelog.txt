@@ -1,4 +1,5 @@
 
 
-16.11
-* Traduzido U244.
+16.12
+* Traduzido mais coisas do U244.
+* Traduzido as partes que estavam faltando na tela de selecionar perfil no inventário.
