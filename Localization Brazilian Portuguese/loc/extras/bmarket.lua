@@ -540,7 +540,6 @@ return {
 	menu_locked = "BLOQUEADO",--LOCKED
 	
 	-- ARMAS
-	bm_grenade_laser_watch_desc = "Aqui nós temos um relógio com cortador de laser portátil. Útil e não chama muito atenção, pode derreter trancas e aço reforçado como se fosse manteiga. Tome cuidado com a sua bateria.\nAgora vai lá e dá uma de James Bond.\n\n-G",--Here we have a watch fitted neatly with a portable cutting laser. Useful and unobtrusive, it can cut through locks and reinforced steel almost like it was nothing. Be cautious of its limited battery.\n...And of course it is waterproof.\n\n-G",
 	bm_menu_cooldown = "TEMPO DE RECARGA",--Recharge Time",
 	bm_menu_amount = "QUANTIDADE",--Amount",
 	bm_melee_funder_strike_info = "Um cassetete modificado para eletrocutar os inimigos ao bater!",--Jerry rigged shock baton that stuns targets on touch",
