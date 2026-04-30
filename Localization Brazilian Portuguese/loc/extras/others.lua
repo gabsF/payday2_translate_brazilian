@@ -6,6 +6,15 @@ return {
 	savefile_removing = "Removendo...",
 
 	-- Descrições Extras
+	menu_l_global_value_cot = "Esse é um item do Texas Heat!",--This is a Texas Heat item!",
+	menu_l_global_value_dot = "Esse é um item do Texas Heat!",--This is a Texas Heat item!",
+	bm_menu_locked_spoon_gold = "Conclua a conquista \"For All You Legends\" para desbloquear!",--Complete the \"For All You Legends\" Achievement to unlock!",
+	menu_l_global_value_apfo = "Esse é um item do Meles Weapon Pack!",--This is a Meles Weapon Pack item!",
+	menu_l_global_value_hlm_game = "Esse é um item do Hotline Miami!",--This is a Hotline Miami item!",
+	menu_l_global_value_wel = "Esse é um item do Primeiro de Abril de 2026!",--This is an April Fool's Day 2026 Item!",
+	menu_l_global_value_pxp4 = "Esse é um item do McShay Weapon Pack 4!",--This is a McShay Weapon Pack 4 item!",
+	menu_l_global_value_esp = "Esse é um item do Espionage Weapon Pack!",--This is an Espionage Weapon Pack item!",
+	menu_l_global_value_fawp = "Esse é um item do Jiu Feng Smuggler Pack!",--This is a Jiu Feng Smuggler Pack item!",
 	menu_l_global_value_xm21 = "Esse é um item do Winter Wonderland!",--"This is a Winter Wonderland Item!",
 	bm_melee_piggy_hammer_info = "Causa dano a todos os inimigos especiais. Cada acerto tem uma chance de envenenar, atordoar, ou até mesmo matar instantâneamente.",-- "Deals bonus damage to all special enemies. Each hit has a chance to poison, tase, or even insta-kill.",
 	bm_wpn_money_event_ended = "Evento acabou: não mais disponível",--Event Ended: No longer available",
@@ -26,7 +35,7 @@ return {
 	menu_l_global_value_txt3 = "Esse é um item de Street Smart Tailor Pack!",--"This is a Street Smart Tailor Pack item!",
 	bm_global_value_txt3_unlock = "Compre o Street Smart Tailor Pack para desbloquear!",--Buy the Street Smart Tailor Pack to unlock!",
 	menu_l_global_value_h22 = "Esse é um item de Dia das Bruxas 2022!",--This is a Halloween 2022 item!",
-	bm_global_value_h22_unlock = "Assiste uma live da Twitch para desbloquear!",--Watch a Twitch stream to unlock!",
+	--bm_global_value_h22_unlock = "Assiste uma live da Twitch para desbloquear!",--Watch a Twitch stream to unlock!",
 	bm_global_value_trt_unlock = "Esse item precisa da Drop da Twich para desbloquear!",--"This item requires a Twitch drop to unlock!",
 	menu_l_global_value_trt = "Esse é um item do Texas Heat!",--"This is a Texas Heat Item!",
 	menu_l_global_value_a11th = "Esse é um item do décimo-primeiro aniversário da franquia PAYDAY!",--"This is a Payday franchise 11th Anniversary item!",
@@ -554,6 +563,8 @@ return {
 	bm_grenade_electric_desc = "Shrapnel tem tudo de bom, mas algumas coisas precisam ser queimadas, e essa coisinha é uma besta em fazer dano com alta potência de eletricidade.",--Shrapnel is all well and good, but some things need to be fried, and this little beauty is a rather practical beast for dishing out some damage with high voltage.
 	bm_grenade_poison_gas_grenade = "Granada de Veneno",--Viper Grenade
 	bm_grenade_poison_gas_grenade_desc = "Tá afim de uma arma química letal e compacto? Os seus problemas acabaram! Esta granada mortal, porém limitado com o alcance, irá soltar uma fumaça de gás tóxico que coloca o poder da fumaça na palma da sua mão. Seus inimigos podem dizer adeus aos seus sistemas respiratórios.",--Craving a chemical weapon that's equal parts deadly and compact? Look no further! This highly-illegal grenade, though limited in explosive radius, will emit a sweeping cloud of toxic gas that puts the power of the viper into the palm of your hand. Your enemies can kiss their respiratory systems goodbye.
+	bm_grenade_laser_watch = "Relógio com Laser",--Laser Chronometer",
+	bm_grenade_laser_watch_desc = "Aqui nós temos um relógio com cortador de laser portátil. Útil e não chama muito atenção, pode derreter trancas e aço reforçado como se fosse manteiga. Tome cuidado com a sua bateria.\nAgora vai lá e dá uma de James Bond.\n\n-G",--Here we have a watch fitted neatly with a portable cutting laser. Useful and unobtrusive, it can cut through locks and reinforced steel almost like it was nothing. Be cautious of its limited battery.\n...And of course it is waterproof.\n\n-G",
 
 	
 	-- Equipamentos
@@ -581,6 +592,8 @@ return {
 	bm_equipment_sentry_gun_silent = "Sentinela Silenciada",
 	bm_equipment_sentry_gun_silent_desc = "Para usar a Sentinela Silenciada, você precisa colocá-lo segurando $BTN_USE_ITEM;. Assim que for colocado, irá usar até 30% da munição total das suas armas. Pode ser destruído por atirar nele, mas desde que não esteja completemante destruído, pegando ele irá consertá-lo e retornar a munição da Sentinela restante. Quando a sua munição acabar, irá parar de atirar mas pode ser recarregado por re-colocar ele depois de pegar.\n\nA Sentinela Silenciada é o contrário da normal, a Sentinela normal é mais usado para matar inimigos do que para uma distração.",
 	bm_menu_skill_locked_sentry_gun_silent = 'Requer a Skill "Engineering"',
+	bm_equipment_spy_camera_desc = "Para usar a Câmera de Espião, segure o $BTN_USE_ITEM;. Você pode pegar ela de volta segurando o $BTN_INTERACT;. Você e os aliados de equipe podem usar essas Câmeras de Espião segurando $BTN_INTERACT; enquanto olha para ela em uma certa distância. Enquanto estiver acessando ela, poderá marcar os seus alvos sem um atraso.\n\nA câmera de espião é um dispositivo de gravação portátil, criado especialmente para espiões para terem conhecimento do território e uma vantagem no campo de espionagem.",
+	--To use the Spy Camera, hold . Once placed it can picked back up by holding . Spy Cameras can be used by you and your crew by holding  while looking towards it from a distance.\n\nThe Spy Camera repeatedly marks guards and enemies. While accessing the camera you mark targets without a delay.\n\nThe Spy Camera is a portable recording device carried by spies to gain intel and get the upper hand in the field of espionage.",
 	--------------------------------
 	debug_doctor_bag = "Bolsa Médica",
 	menu_equipment_bodybags_bag = "Bolsa de Corpos",
@@ -590,6 +603,7 @@ return {
 	debug_trip_mine = "Trip Mine",
 	debug_ammo_bag = "Bolsa de Munição",
 	menu_equipment_armor_kit = "Kit de Armadura",
+	bm_equipment_spy_camera = "Câmera de Espião",
 	
 	-- Armas de Corpo-a-Corpo (Melee Weapons)
 	bm_menu_damage_effect = "Impacto",--Knockdown
@@ -5856,6 +5870,8 @@ RALPH: Fuck this.]]
 	menu_jfr_job_2_desc = "Aldstone pediu para a gente pegar algo do Museu. É algum tipo de chápeu que ele tá bem interesado.",--Aldstone asked us to pick up something from the Museum. It's some sort of hat but he seemed really interested in it.
 	menu_jfr_job_2_kills = "Inimigos Mortos",--Enemies killed
 	menu_jfr_job_4_deposit = "Documentos de Guerra encontrados",--War documents found
+	bm_menu_locked_ching = "Conclua a tarefa \"Retribuição Rápida\" do Aldstone para desbloquear!",--Complete the \"Rapid Retribution\" Aldstone's Heritage Job to unlock!",
+	bm_menu_locked_breech = "Conclua a tarefa \"Legislação de Faca\" do Aldstone para desbloquear!",--Complete the \"Knife Legislation\" Aldstone's Heritage Job to unlock!",
 
     -- Daily Safe House
 	daily_rush_objective = "Na GO Bank, coloque uma trip mine no cofre do banco em 6 minutos e 30 segundos. Para completar esse desafio, você precisará ter jogado a missão do início ao fim.",--In the GO Bank heist, place a tripmine in the bank vault within 6 minutes and 30 seconds. To complete this daily, you have to have played the job from start to finish.

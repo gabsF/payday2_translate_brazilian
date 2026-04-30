@@ -540,6 +540,10 @@ return {
 	menu_locked = "BLOQUEADO",--LOCKED
 	
 	-- ARMAS
+	bm_grenade_laser_watch_desc = "Aqui nós temos um relógio com cortador de laser portátil. Útil e não chama muito atenção, pode derreter trancas e aço reforçado como se fosse manteiga. Tome cuidado com a sua bateria.\nAgora vai lá e dá uma de James Bond.\n\n-G",--Here we have a watch fitted neatly with a portable cutting laser. Useful and unobtrusive, it can cut through locks and reinforced steel almost like it was nothing. Be cautious of its limited battery.\n...And of course it is waterproof.\n\n-G",
+	bm_menu_cooldown = "TEMPO DE RECARGA",--Recharge Time",
+	bm_menu_amount = "QUANTIDADE",--Amount",
+	bm_melee_funder_strike_info = "Um cassetete modificado para eletrocutar os inimigos ao bater!",--Jerry rigged shock baton that stuns targets on touch",
 	bm_menu_requires = "Esta modificação requer $items!",--"This modification requires $items!",
 	bm_menu_incompatiblity = "Esta modificação é incompatível com $items!",--"This modification is incompatible with $items!",
 	bm_w_x_maxim9_desc = "Essa arma é silenciada e tem força de Escopeta.",--This weapon is suppressed and has shotgun push functionality.
@@ -549,6 +553,20 @@ return {
 	bm_wp_scout_exlusive_desc = "Conjuntos Exclusivos adicionam algumas modificações, um estilo extra e algumas mudanças leves nas estastísticas.",--The Exclusive Set adds several mods, giving the weapon a visual flair and some slight stat tweaks.
 	bm_w_asval_desc = "Essa arma é silenciada.",--This weapon is suppressed.
 	bm_mod_incompatibility_most = "maioria dos(as)",--most
+	bm_w_tti_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_wa2000_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_mosin_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_qbu88_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_r700_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_sbl_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_winchester1874_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_msr_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_m95_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_awp_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_desertfox_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_siltstone_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_r93_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
+	bm_w_model70_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
 	bm_w_rsh12_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
 	bm_w_lemming_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
 	bm_menu_blackmarket_title = "Mercado Negro: $item;",--Blackmarket: $item;
@@ -593,6 +611,7 @@ return {
 	bm_menu_lower_reciever = "Receptor Inferior",--Lower Receiver
 	bm_menu_underbarrel_ammo = "Munição do Cano Inferior",--Underbarrel
 	bm_menu_underbarrel = "Cano Inferior",--Underbarrel
+	bm_menu_slide = "Ferrolho",--Slide",
 	menu_assault_rifle = "Rifle de Assalto",--Assault Rifle
 	menu_shotgun = "Escopeta",--Shotgun",
 	menu_akimbo_pistol = "Akimbo Pistola",--Akimbo Pistol
@@ -609,6 +628,7 @@ return {
 	bm_wp_upg_a_grenade_launcher_poison_desc = "Uma pequena explosão enquanto emite uma fumaça de gás venenoso.",--Generates a small explosion while emitting a cloud of poisonous gas.",
 	bm_w_scout_desc = "Pode penetrar o colete a prova de balas dos inimigos, Shields e as paredes.",--Penetrates body armor, enemies, shields and walls.
 	bm_w_rpg7_desc = "NÃO É POSSÍVEL PEGAR MUNIÇÃO DO CHÃO PARA ESSA ARMA.",--Ammo pickups are disabled for this weapon.
+	bm_w_dart_desc = "NÃO É POSSÍVEL PEGAR MUNIÇÃO DO CHÃO PARA ESSA ARMA.",--Ammo pickups are disabled for this weapon.
 	bm_w_saw_desc = "NÃO É POSSÍVEL PEGAR MUNIÇÃO DO CHÃO PARA ESSA ARMA.",--Ammo pickups are disabled for this weapon.
 	bm_wp_upg_a_rip_desc = "Chumbos envenenados que causa dano com o tempo e tem uma chance de atordoar os inimigos.",--"Poisoned bullet that deals damage over time and has a chance to interrupt enemies.",
 	bm_wp_upg_a_custom_desc = "Grandes projéteis com muito mais poder de impacto.",--Bigger pellets with more impact.

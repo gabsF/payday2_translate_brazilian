@@ -1,5 +1,6 @@
 
 
-16.12
-* Traduzido mais coisas do U244.
-* Traduzido as partes que estavam faltando na tela de selecionar perfil no inventário.
+16.13
+* Traduzido o U245.
+* ESSA PORRA RECEBEU UMA DLC?!!?!?!?
+* Traduzido textos que estavam faltando em várias Snipers.
