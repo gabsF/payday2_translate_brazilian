@@ -1393,8 +1393,12 @@ return {
 	deep_hud_int_action_jam_vent = "Quebrar a ventilação",--Jamming vent
 	deep_hud_int_action_open_valve = "Abrindo a válvula",--Opening valve
 	deep_hud_int_action_opens = "Abrindo a porta",--Opening door
+	hud_action_pickup_spy_camera = "Pegando a câmera",--"Picking Up Spy Camera",
+	hud_action_spy_camera_enter = "Acessando a câmera",--Accessing Spy Camera",
 
 	-- Interações (Primeira Pessoa)
+	hud_interact_pickup_spy_camera = "Segure $BTN_INTERACT; para pegar a câmera",--Hold $BTN_INTERACT; to pick up the Spy Camera",
+	hud_interact_enter_spy_camera = "Segure $BTN_INTERACT; para acessar a câmera",--Hold $BTN_INTERACT; to access the Spy Camera",
 	hud_int_release_cancel_alarm = "Solte $BTN_INTERACT; para cancelar interação$NL;(vai acionar o alarme)", --Release $BTN_INTERACT; to cancel interaction (will trigger the alarm)",
 	hud_int_release_cancel = "Solte $BTN_INTERACT; para cancelar interação", --Release $BTN_INTERACT; to cancel interaction",
 	hud_int_press_cancel_alarm = "Pressione $BTN_INTERACT; para cancelar interação$NL;(vai acionar o alarme)", --Press $BTN_INTERACT; to cancel interaction (will trigger the alarm)",
@@ -2903,6 +2907,7 @@ return {
 	hud_cam_access_camera_rest_rooms = "Banheiro",--Restroom
 	hud_cam_access_camera_hall_d = "Hall D",--Hall D
 	hud_cam_access_camera_test_generated = "Câmera $NUMBER",--Camera $NUMBER;
+	hud_cam_access_spy_camera = "Câmera $NUMBER; ($NAME;)",--"Spy Camera $NUMBER; ($NAME;)",
 	hud_cam_access_camera_hall_c = "Hall C",--Hall C
 	hud_cam_access_camera_teller_hallway = "Corredor do Caixa",--Teller hallway
 	hud_cam_access_camera_voting = "Área de Votação",--Voting area
