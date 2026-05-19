@@ -6505,11 +6505,4 @@ RALPH: Fuck this.]]
 	menu_crew_ai_flashbang_desc = "A sua equipe IA agora soltam uma flashband quando caírem uma vez cada $value1; minutos. Reduzido por $value2; minutos por cada IA presente.", --Your team AI can now drop a flashbang when going into bleedout once every $value1; minutes. Reduced by $value2; minutes for every other AI present.",
 	menu_mouse_end_move = "Para mover", --To move",
 	menu_mouse_start_move = "Para mudar de ordem",--"To change order",
-
-	--U246
-	menu_l_global_value_unk = "Esse é um item do PUBG: BATTLEGROUNDS!",--This is a PUBG: BATTLEGROUNDS item!",
-	bm_w_flun_desc = "Geralmente usado em emergência para sinalizar por socorro ou suprimentos.",--Typically used in an emergency to signal for help or supplies.",
-	bm_wp_upg_a_flun_shell_desc = "Munição chumbo grosso, fácil de encontrar.",--Standard buckshot ammo, easy to find.",
-	bm_melee_bonk_info = "Apenas para meter porrada.",--Not for cooking",
-	bm_melee_bonk2_info = "Apenas para meter porrada.",--Not for cooking",
 }
