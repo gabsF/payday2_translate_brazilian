@@ -1,6 +1,4 @@
 
 
-16.13
-* Traduzido o U245.
-* ESSA PORRA RECEBEU UMA DLC?!!?!?!?
-* Traduzido textos que estavam faltando em várias Snipers.
+16.14
+* Traduzido o U246.
